@@ -1,0 +1,10 @@
+[
+  {
+    "start": 89,
+    "end": 89,
+    "replacement": "Dalam penelitian ini, Muse Spark 1.3 dan DeepSeek v4 Flash digunakan untuk menjawab pertanyaan analisis operasional HKA TROM. Kedua model diuji dengan dan tanpa konteks bisnis. Agen membaca data melalui *tool* dan menghasilkan jawaban dalam format *JavaScript Object Notation* (JSON). Struktur dan nilai jawaban kemudian dibandingkan dengan *expected result*. Perbandingan ketersediaan konteks bisnis memiliki kesamaan dengan penelitian Rumiantsau dan Fokeev (2026), sedangkan analisis bertahap dan penilaian jawaban akhir memiliki kesamaan dengan DABstep (Egg dkk., 2025).",
+    "finding_ids": [
+      "S08"
+    ]
+  }
+]

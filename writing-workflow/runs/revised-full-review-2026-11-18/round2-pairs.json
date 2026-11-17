@@ -1,0 +1,44 @@
+[
+  {
+    "id": "R2-W03",
+    "start": 43,
+    "end": 43,
+    "A": "4. Tujuh dokumen konteks bisnis tersedia bersama untuk diakses agen hanya pada kondisi dengan konteks bisnis. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.",
+    "B": "4. Tujuh dokumen konteks bisnis hanya tersedia pada kondisi dengan konteks bisnis dan diberikan bersama kepada agen. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah."
+  },
+  {
+    "id": "R2-W05",
+    "start": 91,
+    "end": 91,
+    "A": "Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*.",
+    "B": "Rumiantsau dan Fokeev (2026) membandingkan dua kondisi masukan bagi model: skema data saja dan skema data beserta dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian menggunakan hasil eksekusi dan melibatkan Claude Sonnet 4.6 sebagai *judge*."
+  },
+  {
+    "id": "R2-W06",
+    "start": 145,
+    "end": 145,
+    "A": "Untuk menentukan cakupan dan tingkat perincian ontologi, Noy dan McGuinness (2001) menggunakan pertanyaan yang perlu dijawab. Kaitan gagasan tersebut dengan dokumen konteks bisnis terletak pada informasi yang diperlukan untuk menjawab pertanyaan analisis. Dalam penelitian ini, dokumen konteks bisnis menjelaskan cara memilih data, hubungan antartabel, dan ketentuan perhitungan sesuai aturan HKA TROM.",
+    "B": "Untuk menentukan cakupan dan tingkat perincian ontologi, Noy dan McGuinness (2001) menggunakan pertanyaan yang perlu dijawab. Dokumen konteks bisnis dalam penelitian ini menjelaskan cara memilih data, hubungan antartabel, dan ketentuan perhitungan sesuai aturan HKA TROM."
+  },
+  {
+    "id": "R2-W10",
+    "start": 293,
+    "end": 294,
+    "A": "| T9-C1 | Perbandingan periode | Status tetap dan membaik | Membandingkan dua periode untuk menentukan hasil yang tidak berubah dan hasil yang membaik. |\n| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status memburuk | Menggabungkan informasi dalam setiap periode, lalu membandingkan hasil kedua periode. |",
+    "B": "| T9-C1 | Perbandingan periode | Status tetap dan membaik | Membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode untuk menentukan status yang tetap dan membaik. |\n| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status memburuk | Menggabungkan informasi dari dua laporan dalam setiap periode, lalu membandingkan status pemenuhan setiap indikator SPM/SLA pada kedua periode. |"
+  },
+  {
+    "id": "R2-W14",
+    "start": 370,
+    "end": 378,
+    "A": "| Dokumen | Isi utama | Kegiatan agen yang didukung |\n| :---- | :---- | :---- |\n| SKILL.md | Ruang lingkup sistem, instruksi umum, dan panduan memilih referensi. | Memilih referensi yang sesuai dengan prompt berdasarkan petunjuk SKILL.md. |\n| terminology.md | Istilah operasional, identitas ruas, gerbang, gardu, dan shift, serta tanggal operasional dan relasi tabel. | Memahami istilah dalam prompt dan memilih data yang sesuai. |\n| transactions.md | Penjelasan laporan pemantauan transaksi dan data durasinya, termasuk satuan dan perhitungan rata-rata. | Memilih data durasi yang sesuai untuk menghitung rata-rata durasi transaksi. |\n| traffic.md | Volume kendaraan, golongan kendaraan, rentang tanggal, perhitungan LHR, dan ringkasan bulanan. | Menghitung volume kendaraan dan mengelompokkan hasil berdasarkan periode yang ditanyakan. LHR dihitung menggunakan jumlah hari kalender pada periode tersebut. |\n| incidents.md | Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan. | Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan. |\n| inspections.md | Struktur data inspeksi, kriteria dan kategori kerusakan, prioritas perbaikan, serta relasi tabel yang menghubungkan inspeksi dengan aset. | Menghitung item inspeksi yang memiliki kategori kerusakan, lalu mengelompokkan hasilnya berdasarkan kategori, prioritas perbaikan, dan aset. |\n| spm-sla.md | Indikator, konfigurasi, perhitungan durasi per gardu, syarat untuk memenuhi SPM/SLA, dan cara menentukan status per periode. | Menilai apakah setiap gardu memenuhi SPM/SLA, lalu menentukan status per periode dan membandingkan hasil antarperiode. |",
+    "B": "| Dokumen | Isi utama | Fungsi bagi agen |\n| :---- | :---- | :---- |\n| SKILL.md | Ruang lingkup sistem, instruksi umum, dan panduan memilih referensi. | Mengarahkan agen ke referensi yang sesuai dengan prompt. |\n| terminology.md | Istilah operasional, identitas ruas, gerbang, gardu, dan shift, serta tanggal operasional dan relasi tabel. | Memahami istilah dalam prompt dan memilih data yang sesuai. |\n| transactions.md | Penjelasan laporan pemantauan transaksi dan data durasinya, termasuk satuan dan perhitungan rata-rata. | Memilih data durasi yang sesuai untuk menghitung rata-rata durasi transaksi. |\n| traffic.md | Volume kendaraan, golongan kendaraan, rentang tanggal, perhitungan LHR, dan ringkasan bulanan. | Menghitung volume kendaraan dan mengelompokkan hasil berdasarkan periode yang ditanyakan. LHR dihitung menggunakan jumlah hari kalender pada periode tersebut. |\n| incidents.md | Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan. | Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan. |\n| inspections.md | Struktur data inspeksi, kriteria dan kategori kerusakan, prioritas perbaikan, serta relasi tabel yang menghubungkan inspeksi dengan aset. | Menghitung item inspeksi yang memiliki kategori kerusakan, lalu mengelompokkan hasilnya berdasarkan kategori, prioritas perbaikan, dan aset. |\n| spm-sla.md | Indikator, konfigurasi, perhitungan durasi per gardu, syarat untuk memenuhi SPM/SLA, dan cara menentukan status per periode. | Menilai apakah setiap gardu memenuhi SPM/SLA, lalu menentukan status per periode dan membandingkan hasil antarperiode. |"
+  },
+  {
+    "id": "R2-S07",
+    "start": 801,
+    "end": 801,
+    "A": "Pada T9-C2, jawaban pada seluruh kombinasi mencatat empat evaluasi yang gagal untuk indikator keempat pada periode A dan delapan pada periode B. Setiap periode memiliki delapan evaluasi untuk indikator tersebut. Status indikator tetap gagal pada kedua periode karena ada gardu yang gagal memenuhi indikator itu dalam salah satu laporan. Perubahan jumlah kegagalan tetap terlihat pada jawaban meskipun statusnya sama.",
+    "B": "Contoh pada T9-C2 menunjukkan perbedaan antara jumlah evaluasi yang gagal dan status indikator keempat. Jawaban pada seluruh kombinasi mencatat empat evaluasi yang gagal untuk indikator tersebut pada periode A dan delapan pada periode B. Setiap periode memiliki delapan evaluasi untuk indikator tersebut. Status indikator tetap gagal pada kedua periode karena ada gardu yang gagal memenuhi indikator itu dalam salah satu laporan. Perubahan jumlah kegagalan tetap terlihat pada jawaban meskipun statusnya sama."
+  }
+]

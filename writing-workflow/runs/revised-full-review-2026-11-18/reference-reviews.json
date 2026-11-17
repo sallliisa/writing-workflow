@@ -1,0 +1,3034 @@
+[
+  {
+    "node_id": "R-root",
+    "function": "Connect the research motivation, factorial evaluation, results and conclusion.",
+    "target_ids": [
+      "T-root"
+    ],
+    "disposition": "adapted",
+    "rationale": "The operational study follows the same question-to-evidence sequence with a different response criterion.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 19,
+        "end_line": 19,
+        "supports": "Connect the research motivation, factorial evaluation, results and conclusion."
+      },
+      {
+        "document": "target",
+        "start_line": 19,
+        "end_line": 19,
+        "supports": "The opening comparison connects the study to the four conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0001",
+    "function": "Establish the justification and boundaries of the study.",
+    "target_ids": [
+      "T-0001"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The opening chapter assigns the same roles to its six sections.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 3,
+        "end_line": 3,
+        "supports": "Establish the justification and boundaries of the study."
+      },
+      {
+        "document": "target",
+        "start_line": 3,
+        "end_line": 3,
+        "supports": "The chapter introduces the components of its research frame."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0002",
+    "function": "Show the distance between current feedback and the educational need.",
+    "target_ids": [
+      "T-0002"
+    ],
+    "disposition": "adapted",
+    "rationale": "Ambiguous operational rules motivate the tested context condition.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 13,
+        "end_line": 13,
+        "supports": "Show the distance between current feedback and the educational need."
+      },
+      {
+        "document": "target",
+        "start_line": 13,
+        "end_line": 13,
+        "supports": "The choice of denominator motivates domain documentation."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0013",
+    "function": "Identify the practical gap between generated and human feedback.",
+    "target_ids": [
+      "T-0002"
+    ],
+    "disposition": "adapted",
+    "rationale": "Ambiguous operational rules motivate the tested context condition.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 13,
+        "end_line": 13,
+        "supports": "Identify the practical gap between generated and human feedback."
+      },
+      {
+        "document": "target",
+        "start_line": 13,
+        "end_line": 13,
+        "supports": "The choice of denominator motivates domain documentation."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0015",
+    "function": "Compare possible interventions and explain the selection of prompt design.",
+    "target_ids": [
+      "T-0002"
+    ],
+    "disposition": "adapted",
+    "rationale": "The operational introduction motivates context documentation through a prior intervention study. It makes no three-way comparison of alternative intervention designs.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 15,
+        "end_line": 15,
+        "supports": "Compare possible interventions and explain the selection of prompt design."
+      },
+      {
+        "document": "target",
+        "start_line": 13,
+        "end_line": 19,
+        "supports": "The denominator example and the earlier context study motivate the chosen comparison."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0019",
+    "function": "Translate the selected intervention into the actual experiment.",
+    "target_ids": [
+      "T-0002"
+    ],
+    "disposition": "adapted",
+    "rationale": "Ambiguous operational rules motivate the tested context condition.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 19,
+        "end_line": 19,
+        "supports": "Translate the selected intervention into the actual experiment."
+      },
+      {
+        "document": "target",
+        "start_line": 19,
+        "end_line": 19,
+        "supports": "The introduction names both models, both context conditions and the shared answer key."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0003",
+    "function": "Frame the question around the output and the conditions compared.",
+    "target_ids": [
+      "T-0003"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target asks about exact analytical answers under two models and two context conditions.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 27,
+        "end_line": 27,
+        "supports": "Frame the question around the output and the conditions compared."
+      },
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 23,
+        "supports": "The question fixes models, context conditions and answer criterion."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0004",
+    "function": "Translate the question into comparisons to be made.",
+    "target_ids": [
+      "T-0004"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target names success rates, cases and repeated runs.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 33,
+        "end_line": 33,
+        "supports": "Translate the question into comparisons to be made."
+      },
+      {
+        "document": "target",
+        "start_line": 27,
+        "end_line": 27,
+        "supports": "The objective calls for rates and case-level repetition outcomes."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0005",
+    "function": "Identify the audiences and possible uses of the findings.",
+    "target_ids": [
+      "T-0005"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target identifies research and analytical-system applications.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 37,
+        "end_line": 37,
+        "supports": "Identify the audiences and possible uses of the findings."
+      },
+      {
+        "document": "target",
+        "start_line": 33,
+        "end_line": 33,
+        "supports": "The benefits distinguish empirical and practical uses."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0006",
+    "function": "Delimit models, data and what automated evaluation can establish.",
+    "target_ids": [
+      "T-0006"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target bounds cases, document availability, shared access and the answer-level endpoint.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 47,
+        "end_line": 47,
+        "supports": "Delimit models, data and what automated evaluation can establish."
+      },
+      {
+        "document": "target",
+        "start_line": 40,
+        "end_line": 40,
+        "supports": "The scope names the finite case set and task types."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0007",
+    "function": "Direct the reader to each stage of the argument.",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "A five-chapter guide serves the same navigational purpose.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 57,
+        "end_line": 57,
+        "supports": "Direct the reader to each stage of the argument."
+      },
+      {
+        "document": "target",
+        "start_line": 48,
+        "end_line": 48,
+        "supports": "A chapter guide introduces the sequence."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0008",
+    "function": "Introduce the domain, generation mechanism, comparison factors and criteria.",
+    "target_ids": [
+      "T-0008"
+    ],
+    "disposition": "adapted",
+    "rationale": "The analytical application changes the required concepts.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 81,
+        "end_line": 81,
+        "supports": "Introduce the domain, generation mechanism, comparison factors and criteria."
+      },
+      {
+        "document": "target",
+        "start_line": 64,
+        "end_line": 64,
+        "supports": "The chapter introduces the concepts used by the experiment."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0009",
+    "function": "Position the study against prior experiments and their variables.",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target compares operational agent benchmarks and a context intervention.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 109,
+        "end_line": 109,
+        "supports": "Position the study against prior experiments and their variables."
+      },
+      {
+        "document": "target",
+        "start_line": 93,
+        "end_line": 93,
+        "supports": "The review positions the paired context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0087",
+    "function": "Survey the design, metrics and findings of prior studies in a comparative table.",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target compares operational agent benchmarks and a context intervention.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 87,
+        "end_line": 87,
+        "supports": "Survey the design, metrics and findings of prior studies in a comparative table."
+      },
+      {
+        "document": "target",
+        "start_line": 93,
+        "end_line": 93,
+        "supports": "The review positions the paired context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0099",
+    "function": "Interpret the studies and derive the position of the current experiment.",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target compares operational agent benchmarks and a context intervention.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 99,
+        "end_line": 99,
+        "supports": "Interpret the studies and derive the position of the current experiment."
+      },
+      {
+        "document": "target",
+        "start_line": 93,
+        "end_line": 93,
+        "supports": "The review positions the paired context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0010",
+    "function": "Explain why a domain-specific output is valuable.",
+    "target_ids": [
+      "T-0010"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target grounds the analysis in business measures and groupings.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 113,
+        "end_line": 113,
+        "supports": "Explain why a domain-specific output is valuable."
+      },
+      {
+        "document": "target",
+        "start_line": 99,
+        "end_line": 99,
+        "supports": "Measure and dimension ground the analytical task."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0011",
+    "function": "Connect automation to the challenges of producing a suitable output.",
+    "target_ids": [
+      "T-0011"
+    ],
+    "disposition": "adapted",
+    "rationale": "The operational agent chooses data and performs calculations.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 121,
+        "end_line": 121,
+        "supports": "Connect automation to the challenges of producing a suitable output."
+      },
+      {
+        "document": "target",
+        "start_line": 103,
+        "end_line": 103,
+        "supports": "The agent takes a question and works with data."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0012",
+    "function": "Explain the enabling computational system.",
+    "target_ids": [
+      "T-0012",
+      "T-0013"
+    ],
+    "disposition": "adapted",
+    "rationale": "Agent actions and tool access are the relevant level of detail here.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 125,
+        "end_line": 125,
+        "supports": "Explain the enabling computational system."
+      },
+      {
+        "document": "target",
+        "start_line": 115,
+        "end_line": 115,
+        "supports": "Tool calls and returned data form an iterative process."
+      },
+      {
+        "document": "target",
+        "start_line": 125,
+        "end_line": 125,
+        "supports": "The protocol connects the host to tools and information."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0013",
+    "function": "Connect natural language to executable application tasks.",
+    "target_ids": [
+      "T-0014"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target illustrates how a user request determines grouping and calculation.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 131,
+        "end_line": 131,
+        "supports": "Connect natural language to executable application tasks."
+      },
+      {
+        "document": "target",
+        "start_line": 131,
+        "end_line": 131,
+        "supports": "A monthly volume request becomes a grouping and summation task."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0014",
+    "function": "Identify input design as an experimental choice.",
+    "target_ids": [
+      "T-0015",
+      "T-0016"
+    ],
+    "disposition": "adapted",
+    "rationale": "Rules and documentation are the manipulated information.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 139,
+        "end_line": 139,
+        "supports": "Identify input design as an experimental choice."
+      },
+      {
+        "document": "target",
+        "start_line": 139,
+        "end_line": 139,
+        "supports": "Documents supply domain rules for data analysis."
+      },
+      {
+        "document": "target",
+        "start_line": 147,
+        "end_line": 147,
+        "supports": "The denominator example illustrates a rule encoded in context."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0015",
+    "function": "Organize the alternatives for controlling generation through inputs.",
+    "target_ids": [
+      "T-0015"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target distinguishes common instructions from available documents.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 143,
+        "end_line": 143,
+        "supports": "Organize the alternatives for controlling generation through inputs."
+      },
+      {
+        "document": "target",
+        "start_line": 139,
+        "end_line": 139,
+        "supports": "Documents supply domain rules for data analysis."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0016",
+    "function": "Define a direct instruction without examples as a tested strategy.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target varies document availability. The absence of documents does not establish a zero-shot comparison.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 145,
+        "end_line": 145,
+        "supports": "Define a direct instruction without examples as a tested strategy."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0017",
+    "function": "Define one demonstration as a distinct experimental treatment.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The number of demonstrations is outside the target design.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 153,
+        "end_line": 153,
+        "supports": "Define one demonstration as a distinct experimental treatment."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0018",
+    "function": "Define several demonstrations as a distinct experimental treatment.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The seven documents encode domain rules and do not constitute an experiment on demonstration count.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 161,
+        "end_line": 161,
+        "supports": "Define several demonstrations as a distinct experimental treatment."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0019",
+    "function": "Define an explicit reasoning instruction as a treatment.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target holds its prompts constant across conditions.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 169,
+        "end_line": 169,
+        "supports": "Define an explicit reasoning instruction as a treatment."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0020",
+    "function": "Define the alternative educational roles assigned in the prompt.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The common system-role instruction supplies no persona contrast.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 179,
+        "end_line": 179,
+        "supports": "Define the alternative educational roles assigned in the prompt."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0021",
+    "function": "Explain the shared model class and introduce the compared implementations.",
+    "target_ids": [
+      "T-0018"
+    ],
+    "disposition": "adapted",
+    "rationale": "The operational study gives the models' identities and relevant context capacity.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 191,
+        "end_line": 191,
+        "supports": "Explain the shared model class and introduce the compared implementations."
+      },
+      {
+        "document": "target",
+        "start_line": 163,
+        "end_line": 163,
+        "supports": "Both models are introduced for the specification comparison."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0187",
+    "function": "Explain the choice of the two models and compare their characteristics.",
+    "target_ids": [
+      "T-0018"
+    ],
+    "disposition": "adapted",
+    "rationale": "The operational study gives the models' identities and relevant context capacity.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 187,
+        "end_line": 187,
+        "supports": "Explain the choice of the two models and compare their characteristics."
+      },
+      {
+        "document": "target",
+        "start_line": 163,
+        "end_line": 163,
+        "supports": "Both models are introduced for the specification comparison."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0022",
+    "function": "Characterize one experimental model and its suitability.",
+    "target_ids": [
+      "T-0019"
+    ],
+    "disposition": "adapted",
+    "rationale": "The first target model profile documents tool capabilities.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 205,
+        "end_line": 205,
+        "supports": "Characterize one experimental model and its suitability."
+      },
+      {
+        "document": "target",
+        "start_line": 176,
+        "end_line": 176,
+        "supports": "The first model profile describes availability and capabilities."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0207",
+    "function": "Discuss semi-causal language interfaces and a visual transformer through captions and accompanying prose.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "These architecture illustrations do not establish a prerequisite for understanding the operational comparison.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 207,
+        "end_line": 207,
+        "supports": "Discuss semi-causal language interfaces and a visual transformer through captions and accompanying prose."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0215",
+    "function": "Relate the first model to feedback generation.",
+    "target_ids": [
+      "T-0019"
+    ],
+    "disposition": "adapted",
+    "rationale": "The first target model profile documents tool capabilities.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 215,
+        "end_line": 215,
+        "supports": "Relate the first model to feedback generation."
+      },
+      {
+        "document": "target",
+        "start_line": 176,
+        "end_line": 176,
+        "supports": "The first model profile describes availability and capabilities."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0023",
+    "function": "Characterize the other model and the practical consequences of its implementation.",
+    "target_ids": [
+      "T-0020"
+    ],
+    "disposition": "adapted",
+    "rationale": "Version and tool capabilities establish the second experimental model's identity.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 225,
+        "end_line": 225,
+        "supports": "Characterize the other model and the practical consequences of its implementation."
+      },
+      {
+        "document": "target",
+        "start_line": 180,
+        "end_line": 180,
+        "supports": "The second profile identifies the version and capabilities."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0221",
+    "function": "Describe the second model’s architecture.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "An architecture illustration is specific to the reference model and is unnecessary for identifying the operational models or judging their outputs.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 221,
+        "end_line": 221,
+        "supports": "Describe the second model’s architecture."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0225",
+    "function": "Relate deployment, access and adaptation to the model choice.",
+    "target_ids": [
+      "T-0020"
+    ],
+    "disposition": "adapted",
+    "rationale": "Version and tool capabilities establish the second experimental model's identity.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 225,
+        "end_line": 225,
+        "supports": "Relate deployment, access and adaptation to the model choice."
+      },
+      {
+        "document": "target",
+        "start_line": 180,
+        "end_line": 180,
+        "supports": "The second profile identifies the version and capabilities."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0024",
+    "function": "Define how to interpret output quality before giving numerical results.",
+    "target_ids": [
+      "T-0021",
+      "T-0022",
+      "T-0023",
+      "T-0024"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target separates exact agreement, success rate and consistency by case.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 237,
+        "end_line": 237,
+        "supports": "Define how to interpret output quality before giving numerical results."
+      },
+      {
+        "document": "target",
+        "start_line": 184,
+        "end_line": 184,
+        "supports": "An expected result provides a comparison for determinate answers."
+      },
+      {
+        "document": "target",
+        "start_line": 188,
+        "end_line": 188,
+        "supports": "Structure and values define answer-level agreement."
+      },
+      {
+        "document": "target",
+        "start_line": 194,
+        "end_line": 194,
+        "supports": "Success rate aggregates matching answers."
+      },
+      {
+        "document": "target",
+        "start_line": 200,
+        "end_line": 200,
+        "supports": "Consistency is counted across three runs of one case and condition."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0025",
+    "function": "Define clipped lexical matching and a length penalty.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Lexical overlap cannot implement exact JSON agreement.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 246,
+        "end_line": 246,
+        "supports": "Define clipped lexical matching and a length penalty."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0243",
+    "function": "Define modified precision and brevity penalty mathematically.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Lexical overlap cannot implement exact JSON agreement.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 243,
+        "end_line": 243,
+        "supports": "Define modified precision and brevity penalty mathematically."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0266",
+    "function": "Relate lexical overlap to feedback comparison.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Lexical overlap cannot implement exact JSON agreement.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 266,
+        "end_line": 266,
+        "supports": "Relate lexical overlap to feedback comparison."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0026",
+    "function": "Define ordered subsequence overlap.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target compares ordered array elements and required values directly.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 277,
+        "end_line": 277,
+        "supports": "Define ordered subsequence overlap."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0274",
+    "function": "Derive the composite from an ordered subsequence and its component ratios.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target compares ordered array elements and required values directly.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 274,
+        "end_line": 274,
+        "supports": "Derive the composite from an ordered subsequence and its component ratios."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0027",
+    "function": "Define a score combining matching and fragmentation.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Partial textual matches have no weight in the binary decision.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 312,
+        "end_line": 312,
+        "supports": "Define a score combining matching and fragmentation."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0309",
+    "function": "Define weighted matching and the fragmentation penalty.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Partial textual matches have no weight in the binary decision.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 309,
+        "end_line": 309,
+        "supports": "Define weighted matching and the fragmentation penalty."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0028",
+    "function": "Define a representation-based measure of semantic similarity.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Semantic similarity cannot substitute for checking an exact analytical value.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 343,
+        "end_line": 343,
+        "supports": "Define a representation-based measure of semantic similarity."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0342",
+    "function": "Define embedding-based precision, recall and their harmonic mean.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Semantic similarity cannot substitute for checking an exact analytical value.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 342,
+        "end_line": 342,
+        "supports": "Define embedding-based precision, recall and their harmonic mean."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0372",
+    "function": "Interpret semantic similarity for educational feedback.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Semantic similarity cannot substitute for checking an exact analytical value.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 372,
+        "end_line": 372,
+        "supports": "Interpret semantic similarity for educational feedback."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0029",
+    "function": "Turn the design into a sequence of observable procedures.",
+    "target_ids": [
+      "T-0025"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target goes from records to answers and evaluation.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 376,
+        "end_line": 376,
+        "supports": "Turn the design into a sequence of observable procedures."
+      },
+      {
+        "document": "target",
+        "start_line": 204,
+        "end_line": 204,
+        "supports": "The chapter introduces the data, design and evaluation sequence."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0030",
+    "function": "Present the full workflow and crossed conditions before details.",
+    "target_ids": [
+      "T-0026"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target fixes each comparison condition and the repetition count.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 382,
+        "end_line": 382,
+        "supports": "Present the full workflow and crossed conditions before details."
+      },
+      {
+        "document": "target",
+        "start_line": 210,
+        "end_line": 210,
+        "supports": "The paired design holds cases and inputs in common."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0031",
+    "function": "Identify source observations and the paired evaluation reference.",
+    "target_ids": [
+      "T-0028",
+      "T-0029",
+      "T-0030"
+    ],
+    "disposition": "adapted",
+    "rationale": "Synthetic records, case selection and derived JSON answers have separate methodological roles.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 396,
+        "end_line": 396,
+        "supports": "Identify source observations and the paired evaluation reference."
+      },
+      {
+        "document": "target",
+        "start_line": 240,
+        "end_line": 240,
+        "supports": "The dataset is quantified by synthetic rows and operational tables."
+      },
+      {
+        "document": "target",
+        "start_line": 256,
+        "end_line": 256,
+        "supports": "Selection connects cases to tasks possible with the operational data."
+      },
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 298,
+        "supports": "The reference answer follows from case data and business rules."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0400",
+    "function": "Illustrate student answers and their reference evaluations in the two domains.",
+    "target_ids": [
+      "T-0028",
+      "T-0029",
+      "T-0030"
+    ],
+    "disposition": "adapted",
+    "rationale": "Synthetic records, case selection and derived JSON answers have separate methodological roles.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 400,
+        "end_line": 400,
+        "supports": "Illustrate student answers and their reference evaluations in the two domains."
+      },
+      {
+        "document": "target",
+        "start_line": 240,
+        "end_line": 240,
+        "supports": "The dataset is quantified by synthetic rows and operational tables."
+      },
+      {
+        "document": "target",
+        "start_line": 256,
+        "end_line": 256,
+        "supports": "Selection connects cases to tasks possible with the operational data."
+      },
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 298,
+        "supports": "The reference answer follows from case data and business rules."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0418",
+    "function": "Use the separate grade to choose a one-shot demonstration.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target derives answer keys from records and has no demonstration-selection stage.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 418,
+        "end_line": 418,
+        "supports": "Use the separate grade to choose a one-shot demonstration."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0032",
+    "function": "Distinguish shared prompt components from the elements varied.",
+    "target_ids": [
+      "T-0031",
+      "T-0032",
+      "T-0033"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target uses the same case wording and varies access to seven documents.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 424,
+        "end_line": 424,
+        "supports": "Distinguish shared prompt components from the elements varied."
+      },
+      {
+        "document": "target",
+        "start_line": 346,
+        "end_line": 346,
+        "supports": "The prompt is common and the document condition varies."
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 350,
+        "supports": "Cases specify questions and a required output form."
+      },
+      {
+        "document": "target",
+        "start_line": 366,
+        "end_line": 366,
+        "supports": "The added input is a routing document and six references."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0033",
+    "function": "Illustrate the actual input for the simplest reference condition.",
+    "target_ids": [
+      "T-0032"
+    ],
+    "disposition": "adapted",
+    "rationale": "An actual case prompt and its schema make input construction concrete independently of prompt strategy.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 430,
+        "end_line": 430,
+        "supports": "Illustrate the actual input for the simplest reference condition."
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 350,
+        "supports": "Cases specify questions and a required output form."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0432",
+    "function": "Give the actual prompt components for the same strategy in both courses.",
+    "target_ids": [
+      "T-0032"
+    ],
+    "disposition": "adapted",
+    "rationale": "An actual case prompt and its schema make input construction concrete independently of prompt strategy.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 432,
+        "end_line": 432,
+        "supports": "Give the actual prompt components for the same strategy in both courses."
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 350,
+        "supports": "Cases specify questions and a required output form."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0034",
+    "function": "Specify selection of a single demonstration by score and reproduce its placement.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target design uses no score-stratified demonstration selection.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 454,
+        "end_line": 454,
+        "supports": "Specify selection of a single demonstration by score and reproduce its placement."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0456",
+    "function": "Give the actual prompt components for the same strategy in both courses.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target design uses no score-stratified demonstration selection.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 456,
+        "end_line": 456,
+        "supports": "Give the actual prompt components for the same strategy in both courses."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0035",
+    "function": "Show how several demonstrations enter a generation prompt.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target uses reference documents with rules rather than graded student-answer demonstrations.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 476,
+        "end_line": 476,
+        "supports": "Show how several demonstrations enter a generation prompt."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0478",
+    "function": "Give the actual prompt components for the same strategy in both courses.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target uses reference documents with rules rather than graded student-answer demonstrations.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 478,
+        "end_line": 478,
+        "supports": "Give the actual prompt components for the same strategy in both courses."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0036",
+    "function": "Operationalize a distinct reasoning instruction in both course prompts.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The analytical design has no variation in this instruction.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 500,
+        "end_line": 500,
+        "supports": "Operationalize a distinct reasoning instruction in both course prompts."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0502",
+    "function": "Give the actual prompt components for the same strategy in both courses.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The analytical design has no variation in this instruction.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 502,
+        "end_line": 502,
+        "supports": "Give the actual prompt components for the same strategy in both courses."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0037",
+    "function": "Specify runtime access, execution unit and saved outputs.",
+    "target_ids": [
+      "T-0035",
+      "T-0036",
+      "T-0037"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target specifies model setup, shared tools and repeated runs.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 528,
+        "end_line": 528,
+        "supports": "Specify runtime access, execution unit and saved outputs."
+      },
+      {
+        "document": "target",
+        "start_line": 393,
+        "end_line": 393,
+        "supports": "Common settings and provider defaults are described."
+      },
+      {
+        "document": "target",
+        "start_line": 415,
+        "end_line": 415,
+        "supports": "Available tools expose entities and their schemas."
+      },
+      {
+        "document": "target",
+        "start_line": 433,
+        "end_line": 433,
+        "supports": "Each case runs three times per model and condition."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0528",
+    "function": "Define the saved record that connects a generated response to its experimental condition.",
+    "target_ids": [
+      "T-0037"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target identifies a final response per session and compares three such responses against one case key. An equivalent storage schema is undocumented.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 528,
+        "end_line": 528,
+        "supports": "Define the saved record that connects a generated response to its experimental condition."
+      },
+      {
+        "document": "target",
+        "start_line": 431,
+        "end_line": 433,
+        "supports": "A fresh conversation produces one of three final responses compared with the case key."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0038",
+    "function": "Introduce a common pair of outputs and demonstrate how an evaluation is computed.",
+    "target_ids": [
+      "T-0038",
+      "T-0039",
+      "T-0040"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target works through a reference and two candidate answers before explaining aggregation.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 534,
+        "end_line": 534,
+        "supports": "Introduce a common pair of outputs and demonstrate how an evaluation is computed."
+      },
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 437,
+        "supports": "A comparison with the expected result yields one verdict."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 455,
+        "supports": "A field discrepancy, extra object and incorrect total explain the failed example."
+      },
+      {
+        "document": "target",
+        "start_line": 465,
+        "end_line": 465,
+        "supports": "The denominator changes with the displayed subset."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0534",
+    "function": "Establish the shared reference–candidate pair used in the scoring examples.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The same expected result is printed alongside two candidate answers on T5-C1.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 534,
+        "end_line": 534,
+        "supports": "Establish the shared reference–candidate pair used in the scoring examples."
+      },
+      {
+        "document": "target",
+        "start_line": 445,
+        "end_line": 453,
+        "supports": "The same expected result is printed alongside two candidate answers on T5-C1."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0039",
+    "function": "Demonstrate how observable comparisons give a score and its interpretation.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The worked PASS and FAIL example performs this explanatory role once for a binary endpoint.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 554,
+        "end_line": 554,
+        "supports": "Demonstrate how observable comparisons give a score and its interpretation."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 455,
+        "supports": "A field discrepancy, extra object and incorrect total explain the failed example."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0556",
+    "function": "Count tokens in the reference and candidate.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The binary JSON evaluator uses neither token lengths nor length normalization.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 556,
+        "end_line": 556,
+        "supports": "Count tokens in the reference and candidate."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0558",
+    "function": "Calculate unigram and bigram agreement from explicit match evidence.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "A JSON decision requires complete structural and value agreement. Counting textual n-grams would change the criterion.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 558,
+        "end_line": 558,
+        "supports": "Calculate unigram and bigram agreement from explicit match evidence."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0560",
+    "function": "Tabulate unigram matches and divide by the candidate token count.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The counts illustrate a text metric. The target’s binary evaluation is demonstrated with discrepant fields.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 560,
+        "end_line": 560,
+        "supports": "Tabulate unigram matches and divide by the candidate token count."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0598",
+    "function": "Tabulate bigram matches and divide by the number of candidate bigrams.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The counts illustrate a text metric. The target’s binary evaluation is demonstrated with discrepant fields.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 598,
+        "end_line": 598,
+        "supports": "Tabulate bigram matches and divide by the number of candidate bigrams."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0619",
+    "function": "Adjust for candidate length.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target imposes a completeness requirement and uses no length penalty.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 619,
+        "end_line": 619,
+        "supports": "Adjust for candidate length."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0625",
+    "function": "Combine precisions and penalty and explain the final lexical score.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 625,
+        "end_line": 625,
+        "supports": "Combine precisions and penalty and explain the final lexical score."
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0040",
+    "function": "Apply an order-sensitive criterion to the same pair and interpret the result.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target uses exact array and value comparison, illustrated by the extra cause in the failed answer.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 639,
+        "end_line": 639,
+        "supports": "Apply an order-sensitive criterion to the same pair and interpret the result."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 455,
+        "supports": "A field discrepancy, extra object and incorrect total explain the failed example."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0641",
+    "function": "Identify the longest common subsequence in the example.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ordered subsequence matching is specific to ROUGE-L.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 641,
+        "end_line": 641,
+        "supports": "Identify the longest common subsequence in the example."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0649",
+    "function": "Normalize the subsequence by the candidate and reference lengths.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Exact ordered-array comparison does not calculate partial recall or precision.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 649,
+        "end_line": 649,
+        "supports": "Normalize the subsequence by the candidate and reference lengths."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0659",
+    "function": "Combine the two components and interpret the ordered-overlap score.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 659,
+        "end_line": 659,
+        "supports": "Combine the two components and interpret the ordered-overlap score."
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0041",
+    "function": "Show how intermediate checks contribute to a final judgment for the example.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target identifies concrete discrepancies sufficient to explain one failed decision.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 673,
+        "end_line": 673,
+        "supports": "Show how intermediate checks contribute to a final judgment for the example."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 455,
+        "supports": "A field discrepancy, extra object and incorrect total explain the failed example."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0675",
+    "function": "Tokenize the pair and count matching unigrams.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Matching token counts have no role in the target decision.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 675,
+        "end_line": 675,
+        "supports": "Tokenize the pair and count matching unigrams."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0679",
+    "function": "Convert matches into precision, recall and a weighted mean.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target has no partial-credit mean.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 679,
+        "end_line": 679,
+        "supports": "Convert matches into precision, recall and a weighted mean."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0697",
+    "function": "Apply the fragmentation penalty using an assumed chunk count.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The structured-answer rule has no fragmentation assumption.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 697,
+        "end_line": 697,
+        "supports": "Apply the fragmentation penalty using an assumed chunk count."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0703",
+    "function": "Apply the penalty to the mean and interpret the resulting METEOR value.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 703,
+        "end_line": 703,
+        "supports": "Apply the penalty to the mean and interpret the resulting METEOR value."
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0042",
+    "function": "Move from the paired texts through a model-based scoring procedure to interpretation.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target illustrates the rule it actually applies, using one direct comparison in place of four procedures.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 713,
+        "end_line": 713,
+        "supports": "Move from the paired texts through a model-based scoring procedure to interpretation."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 455,
+        "supports": "A field discrepancy, extra object and incorrect total explain the failed example."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0717",
+    "function": "Represent tokens as embeddings and match by cosine similarity.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target compares required JSON contents directly.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 717,
+        "end_line": 717,
+        "supports": "Represent tokens as embeddings and match by cosine similarity."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0723",
+    "function": "Derive precision, recall and F1 and report the estimated values.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "The target calculates no embedding-based estimates.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 723,
+        "end_line": 723,
+        "supports": "Derive precision, recall and F1 and report the estimated values."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0747",
+    "function": "Interpret the reported F1 for the paired texts.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 747,
+        "end_line": 747,
+        "supports": "Interpret the reported F1 for the paired texts."
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "The final PASS and FAIL decisions are tied to agreement or to named field discrepancies."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0043",
+    "function": "Order experimental context, group-specific comparisons and synthesis.",
+    "target_ids": [
+      "T-0042"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target orders its six groups and interprets the results across them.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 751,
+        "end_line": 751,
+        "supports": "Order experimental context, group-specific comparisons and synthesis."
+      },
+      {
+        "document": "target",
+        "start_line": 477,
+        "end_line": 477,
+        "supports": "The introduction orders environment, data and group results."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0044",
+    "function": "Identify where generation and evaluation were carried out.",
+    "target_ids": [
+      "T-0043"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target reports its execution environment and access conditions.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 755,
+        "end_line": 755,
+        "supports": "Identify where generation and evaluation were carried out."
+      },
+      {
+        "document": "target",
+        "start_line": 481,
+        "end_line": 481,
+        "supports": "The environment discussion identifies the execution setup."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0045",
+    "function": "Account for the number of evaluated outputs by dataset and configuration.",
+    "target_ids": [
+      "T-0044"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target provides cases and run counts across task groups.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 779,
+        "end_line": 779,
+        "supports": "Account for the number of evaluated outputs by dataset and configuration."
+      },
+      {
+        "document": "target",
+        "start_line": 493,
+        "end_line": 493,
+        "supports": "The data discussion describes the evaluated material."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0771",
+    "function": "Identify the stored observation and reconcile totals by course and configuration.",
+    "target_ids": [
+      "T-0044"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target provides cases and run counts across task groups.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 771,
+        "end_line": 771,
+        "supports": "Identify the stored observation and reconcile totals by course and configuration."
+      },
+      {
+        "document": "target",
+        "start_line": 493,
+        "end_line": 493,
+        "supports": "The data discussion describes the evaluated material."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0046",
+    "function": "Organize a course-specific performance analysis. This is the first course.",
+    "target_ids": [
+      "T-0045",
+      "T-0049",
+      "T-0053",
+      "T-0057",
+      "T-0061",
+      "T-0065"
+    ],
+    "disposition": "adapted",
+    "rationale": "Six operational task groups take the place of two courses.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 783,
+        "end_line": 783,
+        "supports": "A course-specific parent groups the ensuing factor comparisons."
+      },
+      {
+        "document": "target",
+        "start_line": 511,
+        "end_line": 511,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 554,
+        "end_line": 554,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 601,
+        "end_line": 601,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 659,
+        "end_line": 659,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 702,
+        "end_line": 702,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 760,
+        "end_line": 760,
+        "supports": "The task group opens with the context comparison."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0047",
+    "function": "Compare the marginal results by input strategy. This is the first course.",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target varies context availability, pooling the two models.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 785,
+        "end_line": 785,
+        "supports": "Compare the marginal results by input strategy. This is the first course."
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 513,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 556,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 603,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 661,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 704,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 762,
+        "supports": "The comparison pools the two models within context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0787",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 787,
+        "end_line": 787,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0803",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target varies context availability, pooling the two models.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 803,
+        "end_line": 803,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 513,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 556,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 603,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 661,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 704,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 762,
+        "supports": "The comparison pools the two models within context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0048",
+    "function": "Compare the marginal results by assigned persona. This is the first course.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona is a separate factor in the educational experiment. The operational experiment fixes the system role.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 816,
+        "end_line": 816,
+        "supports": "Compare the marginal results by assigned persona. This is the first course."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0818",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 818,
+        "end_line": 818,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0834",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona is a separate factor in the educational experiment. The operational experiment fixes the system role.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 834,
+        "end_line": 834,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0049",
+    "function": "Compare the two models within the course. This is the first course.",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Six task-specific comparisons pool the context conditions within each model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 846,
+        "end_line": 846,
+        "supports": "Compare the two models within the course. This is the first course."
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 526,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 569,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 616,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 674,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 717,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 775,
+        "supports": "The comparison pools context conditions within each model."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0848",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 848,
+        "end_line": 848,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0864",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Six task-specific comparisons pool the context conditions within each model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 864,
+        "end_line": 864,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 526,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 569,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 616,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 674,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 717,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 775,
+        "supports": "The comparison pools context conditions within each model."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0050",
+    "function": "Compare all crossed configurations within the course. This is the first course.",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "The four cells for each task preserve the distinction between within-model and within-context comparisons.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 877,
+        "end_line": 877,
+        "supports": "Compare all crossed configurations within the course. This is the first course."
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 539,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 582,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 629,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 687,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 730,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 788,
+        "supports": "The comparison separates the four model–context cells."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0879",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 879,
+        "end_line": 879,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0895",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "The four cells for each task preserve the distinction between within-model and within-context comparisons.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 895,
+        "end_line": 895,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 539,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 582,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 629,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 687,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 730,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 788,
+        "supports": "The comparison separates the four model–context cells."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0051",
+    "function": "Organize a course-specific performance analysis. This is the second course.",
+    "target_ids": [
+      "T-0045",
+      "T-0049",
+      "T-0053",
+      "T-0057",
+      "T-0061",
+      "T-0065"
+    ],
+    "disposition": "adapted",
+    "rationale": "Six operational task groups take the place of two courses.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 928,
+        "end_line": 928,
+        "supports": "A course-specific parent groups the ensuing factor comparisons."
+      },
+      {
+        "document": "target",
+        "start_line": 511,
+        "end_line": 511,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 554,
+        "end_line": 554,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 601,
+        "end_line": 601,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 659,
+        "end_line": 659,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 702,
+        "end_line": 702,
+        "supports": "The task group opens with the context comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 760,
+        "end_line": 760,
+        "supports": "The task group opens with the context comparison."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0052",
+    "function": "Compare the marginal results by input strategy. This is the second course.",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target varies context availability, pooling the two models.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 930,
+        "end_line": 930,
+        "supports": "Compare the marginal results by input strategy. This is the second course."
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 513,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 556,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 603,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 661,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 704,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 762,
+        "supports": "The comparison pools the two models within context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0932",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 932,
+        "end_line": 932,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0948",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target varies context availability, pooling the two models.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 948,
+        "end_line": 948,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 513,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 556,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 603,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 661,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 704,
+        "supports": "The comparison pools the two models within context conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 762,
+        "supports": "The comparison pools the two models within context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0053",
+    "function": "Compare the marginal results by assigned persona. This is the second course.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona is a separate factor in the educational experiment. The operational experiment fixes the system role.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 963,
+        "end_line": 963,
+        "supports": "Compare the marginal results by assigned persona. This is the second course."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0965",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 965,
+        "end_line": 965,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0981",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona is a separate factor in the educational experiment. The operational experiment fixes the system role.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 981,
+        "end_line": 981,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0054",
+    "function": "Compare the two models within the course. This is the second course.",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Six task-specific comparisons pool the context conditions within each model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 993,
+        "end_line": 993,
+        "supports": "Compare the two models within the course. This is the second course."
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 526,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 569,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 616,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 674,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 717,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 775,
+        "supports": "The comparison pools context conditions within each model."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0995",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 995,
+        "end_line": 995,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1011",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Six task-specific comparisons pool the context conditions within each model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1011,
+        "end_line": 1011,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 526,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 569,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 616,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 674,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 717,
+        "supports": "The comparison pools context conditions within each model."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 775,
+        "supports": "The comparison pools context conditions within each model."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0055",
+    "function": "Compare all crossed configurations within the course. This is the second course.",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "The four cells for each task preserve the distinction between within-model and within-context comparisons.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1022,
+        "end_line": 1022,
+        "supports": "Compare all crossed configurations within the course. This is the second course."
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 539,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 582,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 629,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 687,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 730,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 788,
+        "supports": "The comparison separates the four model–context cells."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1024",
+    "function": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Continuous-score distributions have no direct application to a single binary response. The target reports counts across repeated trials.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1024,
+        "end_line": 1024,
+        "supports": "Describe metric distributions using the four captions and their accompanying interpretations."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1040",
+    "function": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "The four cells for each task preserve the distinction between within-model and within-context comparisons.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1040,
+        "end_line": 1040,
+        "supports": "Compare tabulated means and interpret the marginal or joint configuration ranking."
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 539,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 582,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 629,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 687,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 730,
+        "supports": "The comparison separates the four model–context cells."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 788,
+        "supports": "The comparison separates the four model–context cells."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0056",
+    "function": "Synthesize differences across groups and conditions.",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target connects the four totals to case-level errors and repetition patterns.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1083,
+        "end_line": 1083,
+        "supports": "Synthesize differences across groups and conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 807,
+        "end_line": 807,
+        "supports": "Four totals support a comparison within each model."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1075",
+    "function": "Synthesize prompt-strategy performance across the courses.",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target summarizes the context contrast and its variation across tasks.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1075,
+        "end_line": 1075,
+        "supports": "Synthesize prompt-strategy performance across the courses."
+      },
+      {
+        "document": "target",
+        "start_line": 805,
+        "end_line": 809,
+        "supports": "The target summarizes the context contrast and its variation across tasks."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1077",
+    "function": "Synthesize the comparison of three personas across courses.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona is constant in the operational study.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1077,
+        "end_line": 1077,
+        "supports": "Synthesize the comparison of three personas across courses."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1079",
+    "function": "Compare model performance across measures.",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target reports a model comparison under the same context conditions.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1079,
+        "end_line": 1079,
+        "supports": "Compare model performance across measures."
+      },
+      {
+        "document": "target",
+        "start_line": 807,
+        "end_line": 809,
+        "supports": "The target reports a model comparison under the same context conditions."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1081",
+    "function": "Identify the combinations that performed best overall.",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "The four configurations show both models reaching 45/45 with context.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1081,
+        "end_line": 1081,
+        "supports": "Identify the combinations that performed best overall."
+      },
+      {
+        "document": "target",
+        "start_line": 805,
+        "end_line": 809,
+        "supports": "The four configurations show both models reaching 45/45 with context."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1083",
+    "function": "Identify which results differ across the two courses.",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "The task-level synthesis localizes differences and concrete errors.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1083,
+        "end_line": 1083,
+        "supports": "Identify which results differ across the two courses."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 813,
+        "supports": "The task-level synthesis localizes differences and concrete errors."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0057",
+    "function": "Close the study with an answer and follow-up questions.",
+    "target_ids": [
+      "T-0070"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target separates the conclusion from recommendations.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1087,
+        "end_line": 1087,
+        "supports": "Close the study with an answer and follow-up questions."
+      },
+      {
+        "document": "target",
+        "start_line": 823,
+        "end_line": 823,
+        "supports": "The closing chapter names the evaluated conditions and future work."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0058",
+    "function": "Answer the research question by summarizing the observed comparisons.",
+    "target_ids": [
+      "T-0071"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target gives counts and percentage-point differences for the tested cases.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1091,
+        "end_line": 1091,
+        "supports": "Answer the research question by summarizing the observed comparisons."
+      },
+      {
+        "document": "target",
+        "start_line": 827,
+        "end_line": 827,
+        "supports": "The four success rates answer the question within the tested cases."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0059",
+    "function": "Identify what the evaluation leaves open for future research.",
+    "target_ids": [
+      "T-0072"
+    ],
+    "disposition": "adapted",
+    "rationale": "The target proposes isolating document effects and evaluating usefulness to people.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1095,
+        "end_line": 1095,
+        "supports": "Identify what the evaluation leaves open for future research."
+      },
+      {
+        "document": "target",
+        "start_line": 839,
+        "end_line": 839,
+        "supports": "The proposals address residual uncertainty about context and users."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0060",
+    "function": "Allow readers to recover cited research.",
+    "target_ids": [
+      "T-0073"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "The target supplies its own bibliography. Individual source claims require separate verification.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1099,
+        "end_line": 1099,
+        "supports": "Allow readers to recover cited research."
+      },
+      {
+        "document": "target",
+        "start_line": 843,
+        "end_line": 843,
+        "supports": "Bibliographic entries identify the cited works."
+      }
+    ]
+  }
+]

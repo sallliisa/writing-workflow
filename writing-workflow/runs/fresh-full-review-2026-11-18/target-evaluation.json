@@ -1,0 +1,2815 @@
+{
+  "target_reviews": [
+    {
+      "node_id": "T-root",
+      "purpose": "Menyusun argumen dari masalah hingga batas kesimpulan",
+      "direct_content": "Lima bab dan daftar pustaka menjadi pintu masuk. Akar dokumen tidak memerlukan teks tersendiri.",
+      "child_organization": "Masalah, teori, rancangan, hasil, kesimpulan dan daftar pustaka mengikuti urutan alasan dan bukti. Celah penjelasan langkah agen di Bab III membatasi pembacaan diagnosis di Bab IV.",
+      "assessment": "needs_change",
+      "rationale": "Lima bab dan daftar pustaka menjadi pintu masuk. Akar dokumen tidak memerlukan teks tersendiri. Masalah, teori, rancangan, hasil, kesimpulan dan daftar pustaka mengikuti urutan alasan dan bukti. Celah penjelasan langkah agen di Bab III membatasi pembacaan diagnosis di Bab IV. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 1,
+          "end_line": 1,
+          "supports": "Lima bab dan daftar pustaka menjadi pintu masuk. Akar dokumen tidak memerlukan teks tersendiri."
+        },
+        {
+          "document": "target",
+          "start_line": 1,
+          "end_line": 919,
+          "supports": "Masalah, teori, rancangan, hasil, kesimpulan dan daftar pustaka mengikuti urutan alasan dan bukti. Celah penjelasan langkah agen di Bab III membatasi pembacaan diagnosis di Bab IV."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0001",
+      "purpose": "Mengantar pertanyaan penelitian",
+      "direct_content": "Pengantar menunjukkan urutan masalah, tujuan, batas dan peta bab.",
+      "child_organization": "Masalah dan pertanyaan mendahului tujuan, manfaat, batas dan peta bab.",
+      "assessment": "sufficient",
+      "rationale": "Pengantar menunjukkan urutan masalah, tujuan, batas dan peta bab. Masalah dan pertanyaan mendahului tujuan, manfaat, batas dan peta bab.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 1,
+          "end_line": 4,
+          "supports": "Pengantar menunjukkan urutan masalah, tujuan, batas dan peta bab."
+        },
+        {
+          "document": "target",
+          "start_line": 5,
+          "end_line": 61,
+          "supports": "Masalah dan pertanyaan mendahului tujuan, manfaat, batas dan peta bab."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0002",
+      "purpose": "Menetapkan kebutuhan membandingkan kondisi",
+      "direct_content": "Contoh pembagi LHR menunjukkan dampak aturan lokal setelah pengantar BI dan agen. Penutup menghubungkannya ke perbandingan kedua model.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Contoh pembagi LHR menunjukkan dampak aturan lokal setelah pengantar BI dan agen. Penutup menghubungkannya ke perbandingan kedua model.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 5,
+          "end_line": 20,
+          "supports": "Contoh pembagi LHR menunjukkan dampak aturan lokal setelah pengantar BI dan agen. Penutup menghubungkannya ke perbandingan kedua model."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0003",
+      "purpose": "Merumuskan pertanyaan yang bisa diuji",
+      "direct_content": "Satu pertanyaan mengikat dua model, dua kondisi dan penilaian setiap kasus pada expected result.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Satu pertanyaan mengikat dua model, dua kondisi dan penilaian setiap kasus pada expected result.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 21,
+          "end_line": 24,
+          "supports": "Satu pertanyaan mengikat dua model, dua kondisi dan penilaian setiap kasus pada expected result."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0004",
+      "purpose": "Menentukan hasil yang akan dilaporkan",
+      "direct_content": "Persentase ketepatan disertai kewajiban merinci kasus dan pengulangan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Persentase ketepatan disertai kewajiban merinci kasus dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 25,
+          "end_line": 28,
+          "supports": "Persentase ketepatan disertai kewajiban merinci kasus dan pengulangan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0005",
+      "purpose": "Menjelaskan siapa yang dapat menggunakan hasil",
+      "direct_content": "Pengantar menempatkan dua manfaat dalam kajian dan pengembangan sistem.",
+      "child_organization": "Manfaat kajian diikuti contoh penerapan.",
+      "assessment": "sufficient",
+      "rationale": "Pengantar menempatkan dua manfaat dalam kajian dan pengembangan sistem. Manfaat kajian diikuti contoh penerapan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 29,
+          "end_line": 32,
+          "supports": "Pengantar menempatkan dua manfaat dalam kajian dan pengembangan sistem."
+        },
+        {
+          "document": "target",
+          "start_line": 33,
+          "end_line": 35,
+          "supports": "Manfaat kajian diikuti contoh penerapan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U033",
+      "purpose": "Bukti akademik",
+      "direct_content": "Membatasi manfaat empiris pada kasus operasional yang diuji.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Membatasi manfaat empiris pada kasus operasional yang diuji.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 33,
+          "end_line": 33,
+          "supports": "Membatasi manfaat empiris pada kasus operasional yang diuji."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U034",
+      "purpose": "Penerapan metode",
+      "direct_content": "Menyebut contoh evaluasi dan dokumentasi sebagai pertimbangan bagi penggunaan sejenis.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Menyebut contoh evaluasi dan dokumentasi sebagai pertimbangan bagi penggunaan sejenis.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 34,
+          "end_line": 35,
+          "supports": "Menyebut contoh evaluasi dan dokumentasi sebagai pertimbangan bagi penggunaan sejenis."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0006",
+      "purpose": "Membatasi inferensi",
+      "direct_content": "Pengantar memperkenalkan lima batas yang berbeda.",
+      "child_organization": "Kasus, data, akses, dokumen dan hasil menempatkan batas pada tiap bagian rancangan.",
+      "assessment": "sufficient",
+      "rationale": "Pengantar memperkenalkan lima batas yang berbeda. Kasus, data, akses, dokumen dan hasil menempatkan batas pada tiap bagian rancangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 36,
+          "end_line": 39,
+          "supports": "Pengantar memperkenalkan lima batas yang berbeda."
+        },
+        {
+          "document": "target",
+          "start_line": 40,
+          "end_line": 45,
+          "supports": "Kasus, data, akses, dokumen dan hasil menempatkan batas pada tiap bagian rancangan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U040",
+      "purpose": "Kasus dan jenis tugas",
+      "direct_content": "Menetapkan 15 kasus dalam sembilan jenis tugas.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Menetapkan 15 kasus dalam sembilan jenis tugas.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 40,
+          "end_line": 40,
+          "supports": "Menetapkan 15 kasus dalam sembilan jenis tugas."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U041",
+      "purpose": "Batas data",
+      "direct_content": "Menyatakan asal sintetis 237 baris dan dasar penyusunannya.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Menyatakan asal sintetis 237 baris dan dasar penyusunannya.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 41,
+          "end_line": 41,
+          "supports": "Menyatakan asal sintetis 237 baris dan dasar penyusunannya."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U042",
+      "purpose": "Batas akses agen",
+      "direct_content": "Menetapkan akses bersama dan memisahkan sumber data dari jawaban jadi.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Menetapkan akses bersama dan memisahkan sumber data dari jawaban jadi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 42,
+          "end_line": 42,
+          "supports": "Menetapkan akses bersama dan memisahkan sumber data dari jawaban jadi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U043",
+      "purpose": "Perlakuan konteks",
+      "direct_content": "Tujuh dokumen diberikan bersama sehingga pengaruh satu dokumen tidak terisolasi.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tujuh dokumen diberikan bersama sehingga pengaruh satu dokumen tidak terisolasi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 43,
+          "end_line": 43,
+          "supports": "Tujuh dokumen diberikan bersama sehingga pengaruh satu dokumen tidak terisolasi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U044",
+      "purpose": "Batas evaluasi",
+      "direct_content": "Mengikat 180 jawaban pada penilaian akhir dan pengulangan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Mengikat 180 jawaban pada penilaian akhir dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 44,
+          "end_line": 45,
+          "supports": "Mengikat 180 jawaban pada penilaian akhir dan pengulangan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0007",
+      "purpose": "Menuntun pembaca ke isi bab",
+      "direct_content": "Tabel tanpa nomor memetakan kelima bab beserta isi dan urutannya.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel tanpa nomor memetakan kelima bab beserta isi dan urutannya.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 46,
+          "end_line": 61,
+          "supports": "Tabel tanpa nomor memetakan kelima bab beserta isi dan urutannya."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0008",
+      "purpose": "Menyiapkan konsep yang dipakai dalam rancangan",
+      "direct_content": "Pengantar menghubungkan literatur dengan teknologi, masukan dan evaluasi agen.",
+      "child_organization": "Kajian terkait mendahului mekanisme agen, konteks, model dan kriteria evaluasi.",
+      "assessment": "sufficient",
+      "rationale": "Pengantar menghubungkan literatur dengan teknologi, masukan dan evaluasi agen. Kajian terkait mendahului mekanisme agen, konteks, model dan kriteria evaluasi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 62,
+          "end_line": 65,
+          "supports": "Pengantar menghubungkan literatur dengan teknologi, masukan dan evaluasi agen."
+        },
+        {
+          "document": "target",
+          "start_line": 66,
+          "end_line": 201,
+          "supports": "Kajian terkait mendahului mekanisme agen, konteks, model dan kriteria evaluasi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0009",
+      "purpose": "Menempatkan studi di antara evaluasi terdahulu",
+      "direct_content": "Pembuka mengantar perbandingan berdasarkan bentuk tugas dan cara menilainya.",
+      "child_organization": "Tabel inventarisasi disusul pembahasan studi terdekat dan rancangan sasaran.",
+      "assessment": "sufficient",
+      "rationale": "Pembuka mengantar perbandingan berdasarkan bentuk tugas dan cara menilainya. Tabel inventarisasi disusul pembahasan studi terdekat dan rancangan sasaran.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 66,
+          "end_line": 69,
+          "supports": "Pembuka mengantar perbandingan berdasarkan bentuk tugas dan cara menilainya."
+        },
+        {
+          "document": "target",
+          "start_line": 70,
+          "end_line": 94,
+          "supports": "Tabel inventarisasi disusul pembahasan studi terdekat dan rancangan sasaran."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U070",
+      "purpose": "Perbandingan delapan penelitian",
+      "direct_content": "Tabel 2.1 mencatat tugas, data, penilaian dan batas studi terdekat pada baris 80–81.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 2.1 mencatat tugas, data, penilaian dan batas studi terdekat pada baris 80–81.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 70,
+          "end_line": 82,
+          "supports": "Tabel 2.1 mencatat tugas, data, penilaian dan batas studi terdekat pada baris 80–81."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U083",
+      "purpose": "Penempatan penelitian",
+      "direct_content": "Uraian bergerak dari antarmuka dan agen ke dua studi terdekat sebelum menyebut rancangan studi ini.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Uraian bergerak dari antarmuka dan agen ke dua studi terdekat sebelum menyebut rancangan studi ini.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 83,
+          "end_line": 94,
+          "supports": "Uraian bergerak dari antarmuka dan agen ke dua studi terdekat sebelum menyebut rancangan studi ini."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0010",
+      "purpose": "Menjelaskan apa yang dianalisis dalam BI",
+      "direct_content": "Komponen BI diikuti measure dan dimension, yang memberi makna pada agregasi selanjutnya.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Komponen BI diikuti measure dan dimension, yang memberi makna pada agregasi selanjutnya.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 95,
+          "end_line": 100,
+          "supports": "Komponen BI diikuti measure dan dimension, yang memberi makna pada agregasi selanjutnya."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0011",
+      "purpose": "Merinci kemampuan yang diuji",
+      "direct_content": "Penggabungan data, agregasi berkelompok dan perbandingan batas menjelaskan pilihan kasus pada 3.2.2.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Penggabungan data, agregasi berkelompok dan perbandingan batas menjelaskan pilihan kasus pada 3.2.2.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 101,
+          "end_line": 110,
+          "supports": "Penggabungan data, agregasi berkelompok dan perbandingan batas menjelaskan pilihan kasus pada 3.2.2."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0012",
+      "purpose": "Menjelaskan cara agen memilih langkah",
+      "direct_content": "Tool call loop, contoh pemeriksaan skema dan kemungkinan kesalahan menyiapkan peran protokol.",
+      "child_organization": "Konsep tindakan dan umpan balik mendahului rincian protokol.",
+      "assessment": "sufficient",
+      "rationale": "Tool call loop, contoh pemeriksaan skema dan kemungkinan kesalahan menyiapkan peran protokol. Konsep tindakan dan umpan balik mendahului rincian protokol.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 111,
+          "end_line": 118,
+          "supports": "Tool call loop, contoh pemeriksaan skema dan kemungkinan kesalahan menyiapkan peran protokol."
+        },
+        {
+          "document": "target",
+          "start_line": 119,
+          "end_line": 126,
+          "supports": "Konsep tindakan dan umpan balik mendahului rincian protokol."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0013",
+      "purpose": "Menjelaskan hubungan agen dan sumber data",
+      "direct_content": "Fungsi tool, contoh pemanfaatan dan peran host, client serta server memberi dasar untuk akses pada 3.4.2.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Fungsi tool, contoh pemanfaatan dan peran host, client serta server memberi dasar untuk akses pada 3.4.2.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 119,
+          "end_line": 126,
+          "supports": "Fungsi tool, contoh pemanfaatan dan peran host, client serta server memberi dasar untuk akses pada 3.4.2."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0014",
+      "purpose": "Menghubungkan permintaan pengguna dengan data",
+      "direct_content": "Contoh volume per bulan memperlihatkan cakupan, agregasi dan definisi bisnis yang harus ditentukan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Contoh volume per bulan memperlihatkan cakupan, agregasi dan definisi bisnis yang harus ditentukan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 127,
+          "end_line": 134,
+          "supports": "Contoh volume per bulan memperlihatkan cakupan, agregasi dan definisi bisnis yang harus ditentukan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0015",
+      "purpose": "Membedakan instruksi kasus dan dokumentasi bisnis",
+      "direct_content": "Definisi prompt dan peran dokumentasi mengantar bentuk konteks yang tersedia.",
+      "child_organization": "Isi dokumen mendahului cara mengemas dan memilihnya.",
+      "assessment": "sufficient",
+      "rationale": "Definisi prompt dan peran dokumentasi mengantar bentuk konteks yang tersedia. Isi dokumen mendahului cara mengemas dan memilihnya.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 135,
+          "end_line": 140,
+          "supports": "Definisi prompt dan peran dokumentasi mengantar bentuk konteks yang tersedia."
+        },
+        {
+          "document": "target",
+          "start_line": 141,
+          "end_line": 154,
+          "supports": "Isi dokumen mendahului cara mengemas dan memilihnya."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0016",
+      "purpose": "Menjelaskan apa yang perlu ditulis dalam dokumen",
+      "direct_content": "Relasi, satuan, nilai null dan pembagi hari menunjukkan mengapa istilah dan aturan diperlukan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Relasi, satuan, nilai null dan pembagi hari menunjukkan mengapa istilah dan aturan diperlukan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 141,
+          "end_line": 148,
+          "supports": "Relasi, satuan, nilai null dan pembagi hari menunjukkan mengapa istilah dan aturan diperlukan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0017",
+      "purpose": "Menjelaskan cara menyediakan referensi",
+      "direct_content": "SKILL.md, referensi dan pemilihan lintas topik menjelaskan bentuk penyediaan konteks.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "SKILL.md, referensi dan pemilihan lintas topik menjelaskan bentuk penyediaan konteks.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 149,
+          "end_line": 154,
+          "supports": "SKILL.md, referensi dan pemilihan lintas topik menjelaskan bentuk penyediaan konteks."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0018",
+      "purpose": "Memperkenalkan dua model dalam kerangka LLM",
+      "direct_content": "Peran model, konteks yang dibaca dan tabel 2.2 menjelaskan karakteristik bersama sebelum profil terpisah.",
+      "child_organization": "Dua profil sejajar melengkapi perbandingan bersama.",
+      "assessment": "sufficient",
+      "rationale": "Peran model, konteks yang dibaca dan tabel 2.2 menjelaskan karakteristik bersama sebelum profil terpisah. Dua profil sejajar melengkapi perbandingan bersama.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 155,
+          "end_line": 173,
+          "supports": "Peran model, konteks yang dibaca dan tabel 2.2 menjelaskan karakteristik bersama sebelum profil terpisah."
+        },
+        {
+          "document": "target",
+          "start_line": 174,
+          "end_line": 181,
+          "supports": "Dua profil sejajar melengkapi perbandingan bersama."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0019",
+      "purpose": "Mengidentifikasi model pertama",
+      "direct_content": "Tanggal, akses, tool calling dan context window membedakan profil model dari prosedur pengujian.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tanggal, akses, tool calling dan context window membedakan profil model dari prosedur pengujian.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 174,
+          "end_line": 177,
+          "supports": "Tanggal, akses, tool calling dan context window membedakan profil model dari prosedur pengujian."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0020",
+      "purpose": "Mengidentifikasi model kedua",
+      "direct_content": "Pengenal versi menghubungkan nama singkat ke model pada 3.4.1.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Pengenal versi menghubungkan nama singkat ke model pada 3.4.1.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 178,
+          "end_line": 181,
+          "supports": "Pengenal versi menghubungkan nama singkat ke model pada 3.4.1."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0021",
+      "purpose": "Membedakan tiga tingkat evaluasi",
+      "direct_content": "Pengantar membedakan kecocokan jawaban, proporsi PASS dan konsistensi.",
+      "child_organization": "Putusan satu jawaban mendasari proporsi untuk banyak jawaban dan konsistensi per kasus.",
+      "assessment": "sufficient",
+      "rationale": "Pengantar membedakan kecocokan jawaban, proporsi PASS dan konsistensi. Putusan satu jawaban mendasari proporsi untuk banyak jawaban dan konsistensi per kasus.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 182,
+          "end_line": 185,
+          "supports": "Pengantar membedakan kecocokan jawaban, proporsi PASS dan konsistensi."
+        },
+        {
+          "document": "target",
+          "start_line": 186,
+          "end_line": 201,
+          "supports": "Putusan satu jawaban mendasari proporsi untuk banyak jawaban dan konsistensi per kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0022",
+      "purpose": "Menjelaskan arti putusan per jawaban",
+      "direct_content": "Struktur JSON dan seluruh nilai harus cocok. Satu perbedaan cukup untuk FAIL.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Struktur JSON dan seluruh nilai harus cocok. Satu perbedaan cukup untuk FAIL.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 186,
+          "end_line": 191,
+          "supports": "Struktur JSON dan seluruh nilai harus cocok. Satu perbedaan cukup untuk FAIL."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0023",
+      "purpose": "Mendefinisikan tingkat keberhasilan",
+      "direct_content": "Persentase PASS untuk kondisi dan model mencakup ketiga pengulangan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Persentase PASS untuk kondisi dan model mencakup ketiga pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 192,
+          "end_line": 195,
+          "supports": "Persentase PASS untuk kondisi dan model mencakup ketiga pengulangan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0024",
+      "purpose": "Mendefinisikan konsistensi hasil",
+      "direct_content": "Jumlah PASS dalam tiga pengulangan diperkenalkan bersama arti 0/3 dan 3/3.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Jumlah PASS dalam tiga pengulangan diperkenalkan bersama arti 0/3 dan 3/3. Kesimpulan melaporkan jumlah kasus 3/3 tanpa merangkum mana yang selalu gagal dan mana yang statusnya berubah, padahal tujuan mencakup hasil per kasus dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 196,
+          "end_line": 201,
+          "supports": "Jumlah PASS dalam tiga pengulangan diperkenalkan bersama arti 0/3 dan 3/3."
+        }
+      ],
+      "finding_ids": [
+        "S03"
+      ]
+    },
+    {
+      "node_id": "T-0025",
+      "purpose": "Menjelaskan rancangan dan bukti yang dikumpulkan",
+      "direct_content": "Pengantar menempatkan penyiapan data sebelum generasi dan evaluasi.",
+      "child_organization": "Data dan acuan mendahului prompt, generasi dan evaluasi. Dasar diagnosis proses perlu dilengkapi.",
+      "assessment": "needs_change",
+      "rationale": "Pengantar menempatkan penyiapan data sebelum generasi dan evaluasi. Data dan acuan mendahului prompt, generasi dan evaluasi. Dasar diagnosis proses perlu dilengkapi. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 202,
+          "end_line": 205,
+          "supports": "Pengantar menempatkan penyiapan data sebelum generasi dan evaluasi."
+        },
+        {
+          "document": "target",
+          "start_line": 206,
+          "end_line": 474,
+          "supports": "Data dan acuan mendahului prompt, generasi dan evaluasi. Dasar diagnosis proses perlu dilengkapi."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0026",
+      "purpose": "Memperlihatkan rancangan dan unit perbandingan",
+      "direct_content": "Urutan kerja dan perbandingan faktor disertai keterangan Gambar 3.1. Uraian tertulis dapat dibaca tanpa ilustrasi.",
+      "child_organization": "Kode dan perhitungan jumlah jawaban memberi ukuran konkret setelah alur penelitian.",
+      "assessment": "sufficient",
+      "rationale": "Urutan kerja dan perbandingan faktor disertai keterangan Gambar 3.1. Uraian tertulis dapat dibaca tanpa ilustrasi. Kode dan perhitungan jumlah jawaban memberi ukuran konkret setelah alur penelitian.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 206,
+          "end_line": 217,
+          "supports": "Urutan kerja dan perbandingan faktor disertai keterangan Gambar 3.1. Uraian tertulis dapat dibaca tanpa ilustrasi."
+        },
+        {
+          "document": "target",
+          "start_line": 218,
+          "end_line": 231,
+          "supports": "Kode dan perhitungan jumlah jawaban memberi ukuran konkret setelah alur penelitian."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U218",
+      "purpose": "Kode kasus dan ukuran rancangan",
+      "direct_content": "Pola kode T[n]-C[m] diikuti perkalian 15 kasus dan tiga pengulangan. Tabel 3.1 memisahkan keempat kombinasi.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Pola kode T[n]-C[m] diikuti perkalian 15 kasus dan tiga pengulangan. Tabel 3.1 memisahkan keempat kombinasi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 218,
+          "end_line": 231,
+          "supports": "Pola kode T[n]-C[m] diikuti perkalian 15 kasus dan tiga pengulangan. Tabel 3.1 memisahkan keempat kombinasi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0027",
+      "purpose": "Menghubungkan data, kasus dan jawaban yang diharapkan",
+      "direct_content": "Pembuka membedakan data yang dapat dibaca dari expected result untuk penilaian.",
+      "child_organization": "Urutan data, kasus dan acuan dapat diikuti. Kriteria populasi T5 perlu dinyatakan lebih awal.",
+      "assessment": "needs_change",
+      "rationale": "Pembuka membedakan data yang dapat dibaca dari expected result untuk penilaian. Urutan data, kasus dan acuan dapat diikuti. Kriteria populasi T5 perlu dinyatakan lebih awal. Aturan pemilihan populasi yang menentukan FAIL pada T5-C1 dan T3-C1 baru lengkap saat pembahasan hasil.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 232,
+          "end_line": 235,
+          "supports": "Pembuka membedakan data yang dapat dibaca dari expected result untuk penilaian."
+        },
+        {
+          "document": "target",
+          "start_line": 236,
+          "end_line": 338,
+          "supports": "Urutan data, kasus dan acuan dapat diikuti. Kriteria populasi T5 perlu dinyatakan lebih awal."
+        }
+      ],
+      "finding_ids": [
+        "S02"
+      ]
+    },
+    {
+      "node_id": "T-0028",
+      "purpose": "Menyatakan asal dan cakupan data",
+      "direct_content": "Sebanyak 237 baris pada 15 tabel operasional dibedakan dari data master dan konfigurasi. Tabel 3.2 mengelompokkan sumber utama dalam lima kategori.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Sebanyak 237 baris pada 15 tabel operasional dibedakan dari data master dan konfigurasi. Tabel 3.2 mengelompokkan sumber utama dalam lima kategori.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 236,
+          "end_line": 253,
+          "supports": "Sebanyak 237 baris pada 15 tabel operasional dibedakan dari data master dan konfigurasi. Tabel 3.2 mengelompokkan sumber utama dalam lima kategori."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0029",
+      "purpose": "Menjelaskan pemilihan kasus",
+      "direct_content": "Kriteria kemampuan dan jenis data menghubungkan pertanyaan dengan rancangan kasus.",
+      "child_organization": "Kondisi per tugas mendahului matriks 15 kasus.",
+      "assessment": "sufficient",
+      "rationale": "Kriteria kemampuan dan jenis data menghubungkan pertanyaan dengan rancangan kasus. Kondisi per tugas mendahului matriks 15 kasus.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 254,
+          "end_line": 259,
+          "supports": "Kriteria kemampuan dan jenis data menghubungkan pertanyaan dengan rancangan kasus."
+        },
+        {
+          "document": "target",
+          "start_line": 260,
+          "end_line": 295,
+          "supports": "Kondisi per tugas mendahului matriks 15 kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U260",
+      "purpose": "Kondisi kasus menurut tugas",
+      "direct_content": "Uraian T1–T9 menghubungkan variasi data dengan operasi analisis, termasuk batas dan pembulatan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Uraian T1–T9 menghubungkan variasi data dengan operasi analisis, termasuk batas dan pembulatan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 260,
+          "end_line": 275,
+          "supports": "Uraian T1–T9 menghubungkan variasi data dengan operasi analisis, termasuk batas dan pembulatan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U276",
+      "purpose": "Daftar kasus dan kemampuan",
+      "direct_content": "Tabel 3.3 menghubungkan setiap kode dengan kondisi dan kemampuan yang diuji, termasuk T7-C4.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "unresolved",
+      "rationale": "Tabel 3.3 menghubungkan setiap kode dengan kondisi dan kemampuan yang diuji, termasuk T7-C4. Tabel 3.3 menyebut status memburuk pada T9-C2. Contoh yang diberikan hanya memperlihatkan indikator keempat tetap gagal saat jumlah kegagalannya bertambah.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 276,
+          "end_line": 295,
+          "supports": "Tabel 3.3 menghubungkan setiap kode dengan kondisi dan kemampuan yang diuji, termasuk T7-C4."
+        }
+      ],
+      "finding_ids": [
+        "S04"
+      ]
+    },
+    {
+      "node_id": "T-0030",
+      "purpose": "Membangun expected result dari data",
+      "direct_content": "Asal, format JSON, penggunaan ulang dan pemisahan dari agen dinyatakan sebelum aturan dan contoh.",
+      "child_organization": "Aturan umum disusul satu perhitungan hingga atribut jawaban.",
+      "assessment": "needs_change",
+      "rationale": "Asal, format JSON, penggunaan ulang dan pemisahan dari agen dinyatakan sebelum aturan dan contoh. Aturan umum disusul satu perhitungan hingga atribut jawaban. Aturan pemilihan populasi yang menentukan FAIL pada T5-C1 dan T3-C1 baru lengkap saat pembahasan hasil.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 296,
+          "end_line": 299,
+          "supports": "Asal, format JSON, penggunaan ulang dan pemisahan dari agen dinyatakan sebelum aturan dan contoh."
+        },
+        {
+          "document": "target",
+          "start_line": 300,
+          "end_line": 338,
+          "supports": "Aturan umum disusul satu perhitungan hingga atribut jawaban."
+        }
+      ],
+      "finding_ids": [
+        "S02"
+      ]
+    },
+    {
+      "node_id": "T-U300",
+      "purpose": "Pemilihan data dan aturan",
+      "direct_content": "Tabel 3.4 dan kriteria rentang operasional menetapkan dasar perhitungan untuk T1–T9.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Tabel 3.4 dan kriteria rentang operasional menetapkan dasar perhitungan untuk T1–T9. Aturan pemilihan populasi yang menentukan FAIL pada T5-C1 dan T3-C1 baru lengkap saat pembahasan hasil.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 300,
+          "end_line": 314,
+          "supports": "Tabel 3.4 dan kriteria rentang operasional menetapkan dasar perhitungan untuk T1–T9."
+        }
+      ],
+      "finding_ids": [
+        "S02"
+      ]
+    },
+    {
+      "node_id": "T-U315",
+      "purpose": "Contoh perhitungan T1-C2",
+      "direct_content": "Pemilihan laporan dan Tabel 3.5 menunjukkan data durasi sebelum perhitungan.",
+      "child_organization": "Pemilihan laporan dan Tabel 3.5 mendahului total durasi, pembagi dan penyimpanan nilai.",
+      "assessment": "sufficient",
+      "rationale": "Pemilihan laporan dan Tabel 3.5 menunjukkan data durasi sebelum perhitungan. Pemilihan laporan dan Tabel 3.5 mendahului total durasi, pembagi dan penyimpanan nilai.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 315,
+          "end_line": 323,
+          "supports": "Pemilihan laporan dan Tabel 3.5 menunjukkan data durasi sebelum perhitungan."
+        },
+        {
+          "document": "target",
+          "start_line": 325,
+          "end_line": 338,
+          "supports": "Pemilihan laporan dan Tabel 3.5 mendahului total durasi, pembagi dan penyimpanan nilai."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U325",
+      "purpose": "Total durasi",
+      "direct_content": "Enam data sepuluh detik dan satu data dua detik menghasilkan total 62 detik.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Enam data sepuluh detik dan satu data dua detik menghasilkan total 62 detik.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 325,
+          "end_line": 330,
+          "supports": "Enam data sepuluh detik dan satu data dua detik menghasilkan total 62 detik."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U331",
+      "purpose": "Rata-rata dan penyimpanan",
+      "direct_content": "Pembagi tujuh menghasilkan 8,86 detik setelah pembulatan. Nama atribut, identitas, periode dan satuan dinyatakan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Pembagi tujuh menghasilkan 8,86 detik setelah pembulatan. Nama atribut, identitas, periode dan satuan dinyatakan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 331,
+          "end_line": 338,
+          "supports": "Pembagi tujuh menghasilkan 8,86 detik setelah pembulatan. Nama atribut, identitas, periode dan satuan dinyatakan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0031",
+      "purpose": "Menjelaskan masukan yang sama dan yang divariasikan",
+      "direct_content": "Blok system prompt memperlihatkan instruksi bersama. Pengantar membedakan prompt kasus dari akses konteks.",
+      "child_organization": "Prompt yang tetap mendahului dokumen yang ketersediaannya berubah.",
+      "assessment": "sufficient",
+      "rationale": "Blok system prompt memperlihatkan instruksi bersama. Pengantar membedakan prompt kasus dari akses konteks. Prompt yang tetap mendahului dokumen yang ketersediaannya berubah.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 339,
+          "end_line": 347,
+          "supports": "Blok system prompt memperlihatkan instruksi bersama. Pengantar membedakan prompt kasus dari akses konteks."
+        },
+        {
+          "document": "target",
+          "start_line": 348,
+          "end_line": 386,
+          "supports": "Prompt yang tetap mendahului dokumen yang ketersediaannya berubah."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0032",
+      "purpose": "Menetapkan bentuk pertanyaan dan keluaran",
+      "direct_content": "Pertanyaan, aturan keluaran dan skema menentukan apa yang diminta dari agen.",
+      "child_organization": "Satu prompt lengkap menerapkan aturan format sebelumnya.",
+      "assessment": "sufficient",
+      "rationale": "Pertanyaan, aturan keluaran dan skema menentukan apa yang diminta dari agen. Satu prompt lengkap menerapkan aturan format sebelumnya.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 348,
+          "end_line": 351,
+          "supports": "Pertanyaan, aturan keluaran dan skema menentukan apa yang diminta dari agen."
+        },
+        {
+          "document": "target",
+          "start_line": 352,
+          "end_line": 361,
+          "supports": "Satu prompt lengkap menerapkan aturan format sebelumnya."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U352",
+      "purpose": "Contoh prompt T2-C1",
+      "direct_content": "Tabel 3.6 memperlihatkan pertanyaan, aturan pembulatan, urutan array dan JSON Schema untuk satu kasus.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 3.6 memperlihatkan pertanyaan, aturan pembulatan, urutan array dan JSON Schema untuk satu kasus.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 352,
+          "end_line": 361,
+          "supports": "Tabel 3.6 memperlihatkan pertanyaan, aturan pembulatan, urutan array dan JSON Schema untuk satu kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0033",
+      "purpose": "Menjelaskan asal dan penyediaan konteks",
+      "direct_content": "Pengetahuan selama pengembangan dan bentuk skill dijelaskan sebelum daftar isi dan contoh routing.",
+      "child_organization": "Daftar dokumen mendahului contoh pemilihan lintas topik.",
+      "assessment": "sufficient",
+      "rationale": "Pengetahuan selama pengembangan dan bentuk skill dijelaskan sebelum daftar isi dan contoh routing. Daftar dokumen mendahului contoh pemilihan lintas topik.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 362,
+          "end_line": 367,
+          "supports": "Pengetahuan selama pengembangan dan bentuk skill dijelaskan sebelum daftar isi dan contoh routing."
+        },
+        {
+          "document": "target",
+          "start_line": 368,
+          "end_line": 386,
+          "supports": "Daftar dokumen mendahului contoh pemilihan lintas topik."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U368",
+      "purpose": "Isi tujuh dokumen",
+      "direct_content": "Tabel 3.7 memisahkan fungsi instruksi utama dan enam referensi topik.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 3.7 memisahkan fungsi instruksi utama dan enam referensi topik.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 368,
+          "end_line": 379,
+          "supports": "Tabel 3.7 memisahkan fungsi instruksi utama dan enam referensi topik."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U380",
+      "purpose": "Pemilihan referensi lintas topik",
+      "direct_content": "Kutipan instruksi dan contoh menjelaskan kapan dua referensi digunakan. Teks menunjuk Lampiran 3.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Kutipan instruksi dan contoh menjelaskan kapan dua referensi digunakan. Teks menunjuk Lampiran 3.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 380,
+          "end_line": 386,
+          "supports": "Kutipan instruksi dan contoh menjelaskan kapan dua referensi digunakan. Teks menunjuk Lampiran 3."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0034",
+      "purpose": "Menjelaskan pelaksanaan generasi",
+      "direct_content": "Judul mengelompokkan pengaturan, akses dan prosedur. Pembuka tambahan tidak diperlukan.",
+      "child_organization": "Lingkungan dan akses disusul prosedur generasi per percakapan.",
+      "assessment": "needs_change",
+      "rationale": "Judul mengelompokkan pengaturan, akses dan prosedur. Pembuka tambahan tidak diperlukan. Lingkungan dan akses disusul prosedur generasi per percakapan. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 387,
+          "end_line": 388,
+          "supports": "Judul mengelompokkan pengaturan, akses dan prosedur. Pembuka tambahan tidak diperlukan."
+        },
+        {
+          "document": "target",
+          "start_line": 389,
+          "end_line": 434,
+          "supports": "Lingkungan dan akses disusul prosedur generasi per percakapan."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0035",
+      "purpose": "Menetapkan lingkungan dan parameter",
+      "direct_content": "Tabel 3.8 memisahkan parameter yang tetap dalam model dari batas output yang berlainan. Keterangan Gambar 3.2 menempatkan alur pengujian.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 3.8 memisahkan parameter yang tetap dalam model dari batas output yang berlainan. Keterangan Gambar 3.2 menempatkan alur pengujian.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 389,
+          "end_line": 410,
+          "supports": "Tabel 3.8 memisahkan parameter yang tetap dalam model dari batas output yang berlainan. Keterangan Gambar 3.2 menempatkan alur pengujian."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0036",
+      "purpose": "Menentukan akses yang sama pada kedua kondisi",
+      "direct_content": "Tiga fungsi pada Tabel 3.9 menetapkan daftar entitas, skema dan pembacaan per halaman. Lampiran 2 dirujuk untuk parameter terperinci.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tiga fungsi pada Tabel 3.9 menetapkan daftar entitas, skema dan pembacaan per halaman. Lampiran 2 dirujuk untuk parameter terperinci.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 411,
+          "end_line": 428,
+          "supports": "Tiga fungsi pada Tabel 3.9 menetapkan daftar entitas, skema dan pembacaan per halaman. Lampiran 2 dirujuk untuk parameter terperinci."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0037",
+      "purpose": "Menjelaskan pelaksanaan setiap pengulangan",
+      "direct_content": "Percakapan baru, prompt kasus dan expected result yang sama mengikat tiga jawaban dalam satu kombinasi.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Percakapan baru, prompt kasus dan expected result yang sama mengikat tiga jawaban dalam satu kombinasi. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 429,
+          "end_line": 434,
+          "supports": "Percakapan baru, prompt kasus dan expected result yang sama mengikat tiga jawaban dalam satu kombinasi."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0038",
+      "purpose": "Menghubungkan jawaban dengan analisis perbandingan",
+      "direct_content": "Pembuka menyatakan putusan per jawaban sebelum perhitungan dan pengelompokan.",
+      "child_organization": "Putusan per jawaban, penyebut dan cara mengelompokkan disajikan berurutan.",
+      "assessment": "sufficient",
+      "rationale": "Pembuka menyatakan putusan per jawaban sebelum perhitungan dan pengelompokan. Putusan per jawaban, penyebut dan cara mengelompokkan disajikan berurutan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 435,
+          "end_line": 438,
+          "supports": "Pembuka menyatakan putusan per jawaban sebelum perhitungan dan pengelompokan."
+        },
+        {
+          "document": "target",
+          "start_line": 439,
+          "end_line": 474,
+          "supports": "Putusan per jawaban, penyebut dan cara mengelompokkan disajikan berurutan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0039",
+      "purpose": "Menetapkan aturan keputusan",
+      "direct_content": "Validitas JSON, atribut, urutan array, kesamaan angka dan kebebasan urutan properti dijelaskan sebelum contoh.",
+      "child_organization": "Satu contoh dengan dua keputusan menerapkan aturan yang sama.",
+      "assessment": "sufficient",
+      "rationale": "Validitas JSON, atribut, urutan array, kesamaan angka dan kebebasan urutan properti dijelaskan sebelum contoh. Satu contoh dengan dua keputusan menerapkan aturan yang sama.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 439,
+          "end_line": 444,
+          "supports": "Validitas JSON, atribut, urutan array, kesamaan angka dan kebebasan urutan properti dijelaskan sebelum contoh."
+        },
+        {
+          "document": "target",
+          "start_line": 445,
+          "end_line": 456,
+          "supports": "Satu contoh dengan dua keputusan menerapkan aturan yang sama."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U445",
+      "purpose": "Dua keputusan untuk T5-C1",
+      "direct_content": "Tabel 3.10 membandingkan jawaban A dan B dengan JSON yang sama dan menelusuri perbedaan atribut hingga putusan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 3.10 membandingkan jawaban A dan B dengan JSON yang sama dan menelusuri perbedaan atribut hingga putusan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 445,
+          "end_line": 456,
+          "supports": "Tabel 3.10 membandingkan jawaban A dan B dengan JSON yang sama dan menelusuri perbedaan atribut hingga putusan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0040",
+      "purpose": "Menetapkan penyebut",
+      "direct_content": "Rumus memuat jumlah PASS dan jumlah jawaban. Uraian menetapkan 45 per kombinasi dan jumlah PASS dari tiga per kasus.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Rumus memuat jumlah PASS dan jumlah jawaban. Uraian menetapkan 45 per kombinasi dan jumlah PASS dari tiga per kasus.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 457,
+          "end_line": 468,
+          "supports": "Rumus memuat jumlah PASS dan jumlah jawaban. Uraian menetapkan 45 per kombinasi dan jumlah PASS dari tiga per kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0041",
+      "purpose": "Menentukan pengelompokan dan pembandingan",
+      "direct_content": "Dua perbandingan gabungan, empat kombinasi, enam kelompok dan pemeriksaan kegagalan membentuk rancangan analisis.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Dua perbandingan gabungan, empat kombinasi, enam kelompok dan pemeriksaan kegagalan membentuk rancangan analisis. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 469,
+          "end_line": 474,
+          "supports": "Dua perbandingan gabungan, empat kombinasi, enam kelompok dan pemeriksaan kegagalan membentuk rancangan analisis."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0042",
+      "purpose": "Melaporkan hasil dan interpretasi",
+      "direct_content": "Pengantar mengumumkan urutan lingkungan, data, kelompok dan interpretasi.",
+      "child_organization": "Enam kelompok didahului penyebut dan diakhiri sintesis lintas kelompok. Aktualitas proses agen memerlukan dasar pengamatan.",
+      "assessment": "needs_change",
+      "rationale": "Pengantar mengumumkan urutan lingkungan, data, kelompok dan interpretasi. Enam kelompok didahului penyebut dan diakhiri sintesis lintas kelompok. Aktualitas proses agen memerlukan dasar pengamatan. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 475,
+          "end_line": 478,
+          "supports": "Pengantar mengumumkan urutan lingkungan, data, kelompok dan interpretasi."
+        },
+        {
+          "document": "target",
+          "start_line": 479,
+          "end_line": 820,
+          "supports": "Enam kelompok didahului penyebut dan diakhiri sintesis lintas kelompok. Aktualitas proses agen memerlukan dasar pengamatan."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0043",
+      "purpose": "Menegaskan lingkungan aktual",
+      "direct_content": "Tabel 4.1 mengidentifikasi kedua model dan tiga tool yang digunakan. Parameter lengkap sudah berada di 3.4.1.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 4.1 mengidentifikasi kedua model dan tiga tool yang digunakan. Parameter lengkap sudah berada di 3.4.1.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 479,
+          "end_line": 490,
+          "supports": "Tabel 4.1 mengidentifikasi kedua model dan tiga tool yang digunakan. Parameter lengkap sudah berada di 3.4.1."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0044",
+      "purpose": "Menyatakan banyaknya data yang dianalisis",
+      "direct_content": "Tabel 4.2 menghubungkan 15 kasus dalam sembilan jenis tugas dengan enam kelompok hasil dan 180 jawaban.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 4.2 menghubungkan 15 kasus dalam sembilan jenis tugas dengan enam kelompok hasil dan 180 jawaban.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 491,
+          "end_line": 508,
+          "supports": "Tabel 4.2 menghubungkan 15 kasus dalam sembilan jenis tugas dengan enam kelompok hasil dan 180 jawaban."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0045",
+      "purpose": "Menjelaskan ketepatan pada durasi transaksi",
+      "direct_content": "Judul mengelompokkan tiga perbandingan untuk durasi transaksi.",
+      "child_organization": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada durasi transaksi.",
+      "assessment": "sufficient",
+      "rationale": "Judul mengelompokkan tiga perbandingan untuk durasi transaksi. Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada durasi transaksi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 509,
+          "end_line": 510,
+          "supports": "Judul mengelompokkan tiga perbandingan untuk durasi transaksi."
+        },
+        {
+          "document": "target",
+          "start_line": 511,
+          "end_line": 551,
+          "supports": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada durasi transaksi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0046",
+      "purpose": "Membandingkan durasi transaksi menurut ketersediaan konteks",
+      "direct_content": "Tabel dan interpretasinya melaporkan 12/12 pada setiap kondisi.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 12/12 pada setiap kondisi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 511,
+          "end_line": 523,
+          "supports": "Tabel dan interpretasinya melaporkan 12/12 pada setiap kondisi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0047",
+      "purpose": "Membandingkan durasi transaksi menurut model",
+      "direct_content": "Tabel dan interpretasinya melaporkan 12/12 per model dan dua nilai rata-rata.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 12/12 per model dan dua nilai rata-rata.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 524,
+          "end_line": 536,
+          "supports": "Tabel dan interpretasinya melaporkan 12/12 per model dan dua nilai rata-rata."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0048",
+      "purpose": "Membandingkan durasi transaksi pada empat kombinasi",
+      "direct_content": "Tabel dan interpretasinya melaporkan 6/6 di setiap kombinasi dan 3/3 pada kedua kasus.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 6/6 di setiap kombinasi dan 3/3 pada kedua kasus.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 537,
+          "end_line": 551,
+          "supports": "Tabel dan interpretasinya melaporkan 6/6 di setiap kombinasi dan 3/3 pada kedua kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0049",
+      "purpose": "Menjelaskan ketepatan pada volume lalu lintas dan LHR",
+      "direct_content": "Judul mengelompokkan tiga perbandingan untuk volume lalu lintas dan LHR.",
+      "child_organization": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada volume lalu lintas dan LHR.",
+      "assessment": "sufficient",
+      "rationale": "Judul mengelompokkan tiga perbandingan untuk volume lalu lintas dan LHR. Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada volume lalu lintas dan LHR.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 552,
+          "end_line": 553,
+          "supports": "Judul mengelompokkan tiga perbandingan untuk volume lalu lintas dan LHR."
+        },
+        {
+          "document": "target",
+          "start_line": 554,
+          "end_line": 598,
+          "supports": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada volume lalu lintas dan LHR."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0050",
+      "purpose": "Membandingkan volume lalu lintas dan LHR menurut ketersediaan konteks",
+      "direct_content": "Tabel dan interpretasinya melaporkan 12/12 dan 8/12 serta empat jawaban T3-C1 tidak lengkap.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 12/12 dan 8/12 serta empat jawaban T3-C1 tidak lengkap.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 554,
+          "end_line": 566,
+          "supports": "Tabel dan interpretasinya melaporkan 12/12 dan 8/12 serta empat jawaban T3-C1 tidak lengkap."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0051",
+      "purpose": "Membandingkan volume lalu lintas dan LHR menurut model",
+      "direct_content": "Tabel dan interpretasinya melaporkan 11/12 dan 9/12, selisih berasal dari kondisi tanpa konteks.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 11/12 dan 9/12, selisih berasal dari kondisi tanpa konteks.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 567,
+          "end_line": 579,
+          "supports": "Tabel dan interpretasinya melaporkan 11/12 dan 9/12, selisih berasal dari kondisi tanpa konteks."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0052",
+      "purpose": "Membandingkan volume lalu lintas dan LHR pada empat kombinasi",
+      "direct_content": "Tabel dan interpretasinya melaporkan 6/6 untuk kedua model dengan konteks serta 5/6 dan 3/6 tanpa konteks.",
+      "child_organization": "Rincian golongan nol menerangkan empat kegagalan setelah perbandingan empat kombinasi.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 6/6 untuk kedua model dengan konteks serta 5/6 dan 3/6 tanpa konteks. Rincian golongan nol menerangkan empat kegagalan setelah perbandingan empat kombinasi.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 580,
+          "end_line": 594,
+          "supports": "Tabel dan interpretasinya melaporkan 6/6 untuk kedua model dengan konteks serta 5/6 dan 3/6 tanpa konteks."
+        },
+        {
+          "document": "target",
+          "start_line": 595,
+          "end_line": 598,
+          "supports": "Rincian golongan nol menerangkan empat kegagalan setelah perbandingan empat kombinasi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U595",
+      "purpose": "Rincian T3-C1",
+      "direct_content": "Gol. 5 dengan volume dan LHR nol hilang pada empat jawaban. Teks membedakan data master dari data volume bulanan.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Gol. 5 dengan volume dan LHR nol hilang pada empat jawaban. Teks membedakan data master dari data volume bulanan. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 595,
+          "end_line": 598,
+          "supports": "Gol. 5 dengan volume dan LHR nol hilang pada empat jawaban. Teks membedakan data master dari data volume bulanan."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0053",
+      "purpose": "Menjelaskan ketepatan pada insiden dan penyebab kecelakaan",
+      "direct_content": "Judul mengelompokkan tiga perbandingan untuk insiden dan penyebab kecelakaan.",
+      "child_organization": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada insiden dan penyebab kecelakaan.",
+      "assessment": "sufficient",
+      "rationale": "Judul mengelompokkan tiga perbandingan untuk insiden dan penyebab kecelakaan. Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada insiden dan penyebab kecelakaan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 599,
+          "end_line": 600,
+          "supports": "Judul mengelompokkan tiga perbandingan untuk insiden dan penyebab kecelakaan."
+        },
+        {
+          "document": "target",
+          "start_line": 601,
+          "end_line": 656,
+          "supports": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada insiden dan penyebab kecelakaan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0054",
+      "purpose": "Membandingkan insiden dan penyebab kecelakaan menurut ketersediaan konteks",
+      "direct_content": "Tabel dan interpretasinya melaporkan 12/12 dan 10/12 serta empat status insiden pada T4-C1.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 12/12 dan 10/12 serta empat status insiden pada T4-C1.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 601,
+          "end_line": 613,
+          "supports": "Tabel dan interpretasinya melaporkan 12/12 dan 10/12 serta empat status insiden pada T4-C1."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0055",
+      "purpose": "Membandingkan insiden dan penyebab kecelakaan menurut model",
+      "direct_content": "Tabel dan interpretasinya melaporkan 10/12 dan 12/12, dengan dua FAIL Muse pada T5-C1.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 10/12 dan 12/12, dengan dua FAIL Muse pada T5-C1.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 614,
+          "end_line": 626,
+          "supports": "Tabel dan interpretasinya melaporkan 10/12 dan 12/12, dengan dua FAIL Muse pada T5-C1."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0056",
+      "purpose": "Membandingkan insiden dan penyebab kecelakaan pada empat kombinasi",
+      "direct_content": "Tabel dan interpretasinya melaporkan Muse 6/6 dan 4/6 serta DeepSeek 6/6 pada kedua kondisi.",
+      "child_organization": "Hitungan penyebab menjelaskan dua kegagalan pada konfigurasi yang sama.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan Muse 6/6 dan 4/6 serta DeepSeek 6/6 pada kedua kondisi. Hitungan penyebab menjelaskan dua kegagalan pada konfigurasi yang sama.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 627,
+          "end_line": 641,
+          "supports": "Tabel dan interpretasinya melaporkan Muse 6/6 dan 4/6 serta DeepSeek 6/6 pada kedua kondisi."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 656,
+          "supports": "Hitungan penyebab menjelaskan dua kegagalan pada konfigurasi yang sama."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U642",
+      "purpose": "Diagnosis T5-C1",
+      "direct_content": "Tabel 4.12 menghubungkan dua kegagalan dengan hitungan 7 dibanding 5. Uraian membedakan insiden yang memenuhi syarat.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Tabel 4.12 menghubungkan dua kegagalan dengan hitungan 7 dibanding 5. Uraian membedakan insiden yang memenuhi syarat. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 656,
+          "supports": "Tabel 4.12 menghubungkan dua kegagalan dengan hitungan 7 dibanding 5. Uraian membedakan insiden yang memenuhi syarat."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0057",
+      "purpose": "Menjelaskan ketepatan pada inspeksi dan identitas aset",
+      "direct_content": "Judul mengelompokkan tiga perbandingan untuk inspeksi dan identitas aset.",
+      "child_organization": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada inspeksi dan identitas aset.",
+      "assessment": "sufficient",
+      "rationale": "Judul mengelompokkan tiga perbandingan untuk inspeksi dan identitas aset. Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada inspeksi dan identitas aset.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 657,
+          "end_line": 658,
+          "supports": "Judul mengelompokkan tiga perbandingan untuk inspeksi dan identitas aset."
+        },
+        {
+          "document": "target",
+          "start_line": 659,
+          "end_line": 699,
+          "supports": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada inspeksi dan identitas aset."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0058",
+      "purpose": "Membandingkan inspeksi dan identitas aset menurut ketersediaan konteks",
+      "direct_content": "Tabel dan interpretasinya melaporkan 6/6 pada kedua kondisi, termasuk item rusak tanpa prioritas.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 6/6 pada kedua kondisi, termasuk item rusak tanpa prioritas.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 659,
+          "end_line": 671,
+          "supports": "Tabel dan interpretasinya melaporkan 6/6 pada kedua kondisi, termasuk item rusak tanpa prioritas."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0059",
+      "purpose": "Membandingkan inspeksi dan identitas aset menurut model",
+      "direct_content": "Tabel dan interpretasinya melaporkan 6/6 untuk setiap model dan rincian aset.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 6/6 untuk setiap model dan rincian aset.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 672,
+          "end_line": 684,
+          "supports": "Tabel dan interpretasinya melaporkan 6/6 untuk setiap model dan rincian aset."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0060",
+      "purpose": "Membandingkan inspeksi dan identitas aset pada empat kombinasi",
+      "direct_content": "Tabel dan interpretasinya melaporkan 3/3 pada setiap kombinasi untuk T6-C1.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 3/3 pada setiap kombinasi untuk T6-C1.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 685,
+          "end_line": 699,
+          "supports": "Tabel dan interpretasinya melaporkan 3/3 pada setiap kombinasi untuk T6-C1."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0061",
+      "purpose": "Menjelaskan ketepatan pada SPM/SLA per laporan",
+      "direct_content": "Judul mengelompokkan tiga perbandingan untuk SPM/SLA per laporan.",
+      "child_organization": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada SPM/SLA per laporan.",
+      "assessment": "sufficient",
+      "rationale": "Judul mengelompokkan tiga perbandingan untuk SPM/SLA per laporan. Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada SPM/SLA per laporan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 700,
+          "end_line": 701,
+          "supports": "Judul mengelompokkan tiga perbandingan untuk SPM/SLA per laporan."
+        },
+        {
+          "document": "target",
+          "start_line": 702,
+          "end_line": 757,
+          "supports": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada SPM/SLA per laporan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0062",
+      "purpose": "Membandingkan SPM/SLA per laporan menurut ketersediaan konteks",
+      "direct_content": "Tabel dan interpretasinya melaporkan 24/24 dan 20/24, dengan tiga status salah dan satu jawaban tidak lengkap.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 24/24 dan 20/24, dengan tiga status salah dan satu jawaban tidak lengkap.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 702,
+          "end_line": 714,
+          "supports": "Tabel dan interpretasinya melaporkan 24/24 dan 20/24, dengan tiga status salah dan satu jawaban tidak lengkap."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0063",
+      "purpose": "Membandingkan SPM/SLA per laporan menurut model",
+      "direct_content": "Tabel dan interpretasinya melaporkan 23/24 dan 21/24, selisih terjadi tanpa konteks.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 23/24 dan 21/24, selisih terjadi tanpa konteks.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 715,
+          "end_line": 727,
+          "supports": "Tabel dan interpretasinya melaporkan 23/24 dan 21/24, selisih terjadi tanpa konteks."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0064",
+      "purpose": "Membandingkan SPM/SLA per laporan pada empat kombinasi",
+      "direct_content": "Tabel dan interpretasinya melaporkan 12/12 untuk kedua model dengan konteks, lalu 11/12 dan 9/12 tanpa konteks.",
+      "child_organization": "Tabel ketidaksesuaian memperinci kasus dan pengulangan setelah tingkat keberhasilan.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 12/12 untuk kedua model dengan konteks, lalu 11/12 dan 9/12 tanpa konteks. Tabel ketidaksesuaian memperinci kasus dan pengulangan setelah tingkat keberhasilan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 728,
+          "end_line": 742,
+          "supports": "Tabel dan interpretasinya melaporkan 12/12 untuk kedua model dengan konteks, lalu 11/12 dan 9/12 tanpa konteks."
+        },
+        {
+          "document": "target",
+          "start_line": 743,
+          "end_line": 757,
+          "supports": "Tabel ketidaksesuaian memperinci kasus dan pengulangan setelah tingkat keberhasilan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U743",
+      "purpose": "Empat ketidaksesuaian per laporan",
+      "direct_content": "Tabel 4.19 memisahkan empat jawaban menurut kasus, model, pengulangan dan atribut.",
+      "child_organization": "Tiga status salah dipisahkan dari satu kasus dengan evaluasi hilang.",
+      "assessment": "sufficient",
+      "rationale": "Tabel 4.19 memisahkan empat jawaban menurut kasus, model, pengulangan dan atribut. Tiga status salah dipisahkan dari satu kasus dengan evaluasi hilang.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 743,
+          "end_line": 750,
+          "supports": "Tabel 4.19 memisahkan empat jawaban menurut kasus, model, pengulangan dan atribut."
+        },
+        {
+          "document": "target",
+          "start_line": 752,
+          "end_line": 757,
+          "supports": "Tiga status salah dipisahkan dari satu kasus dengan evaluasi hilang."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U752",
+      "purpose": "Status pada batas indikator",
+      "direct_content": "Dua contoh mempertahankan nilai 6,004 dan 9,004 sebelum pembulatan. Nilai status Muse yang dilaporkan dibedakan dari langkah pembulatan DeepSeek.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Dua contoh mempertahankan nilai 6,004 dan 9,004 sebelum pembulatan. Nilai status Muse yang dilaporkan dibedakan dari langkah pembulatan DeepSeek. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 752,
+          "end_line": 755,
+          "supports": "Dua contoh mempertahankan nilai 6,004 dan 9,004 sebelum pembulatan. Nilai status Muse yang dilaporkan dibedakan dari langkah pembulatan DeepSeek."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-U756",
+      "purpose": "Kelengkapan evaluasi",
+      "direct_content": "Empat dari 20 evaluasi tercantum. Keempat nilai cocok, tetapi 16 evaluasi hilang.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Empat dari 20 evaluasi tercantum. Keempat nilai cocok, tetapi 16 evaluasi hilang. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 756,
+          "end_line": 757,
+          "supports": "Empat dari 20 evaluasi tercantum. Keempat nilai cocok, tetapi 16 evaluasi hilang."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-0065",
+      "purpose": "Menjelaskan ketepatan pada SPM/SLA periode dan antarperiode",
+      "direct_content": "Judul mengelompokkan tiga perbandingan untuk SPM/SLA periode dan antarperiode.",
+      "child_organization": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada SPM/SLA periode dan antarperiode.",
+      "assessment": "sufficient",
+      "rationale": "Judul mengelompokkan tiga perbandingan untuk SPM/SLA periode dan antarperiode. Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada SPM/SLA periode dan antarperiode.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 758,
+          "end_line": 759,
+          "supports": "Judul mengelompokkan tiga perbandingan untuk SPM/SLA periode dan antarperiode."
+        },
+        {
+          "document": "target",
+          "start_line": 760,
+          "end_line": 802,
+          "supports": "Penyebut gabungan menurut konteks dan model diikuti empat kombinasi, sehingga pembaca dapat menemukan hasil khusus kondisi pada SPM/SLA periode dan antarperiode."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0066",
+      "purpose": "Membandingkan SPM/SLA periode dan antarperiode menurut ketersediaan konteks",
+      "direct_content": "Tabel dan interpretasinya melaporkan 24/24 pada kedua kondisi untuk status dan perubahan antarperiode.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 24/24 pada kedua kondisi untuk status dan perubahan antarperiode.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 760,
+          "end_line": 772,
+          "supports": "Tabel dan interpretasinya melaporkan 24/24 pada kedua kondisi untuk status dan perubahan antarperiode."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0067",
+      "purpose": "Membandingkan SPM/SLA periode dan antarperiode menurut model",
+      "direct_content": "Tabel dan interpretasinya melaporkan 24/24 pada kedua model termasuk penanda not_applicable.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 24/24 pada kedua model termasuk penanda not_applicable.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 773,
+          "end_line": 785,
+          "supports": "Tabel dan interpretasinya melaporkan 24/24 pada kedua model termasuk penanda not_applicable."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0068",
+      "purpose": "Membandingkan SPM/SLA periode dan antarperiode pada empat kombinasi",
+      "direct_content": "Tabel dan interpretasinya melaporkan 12/12 pada tiap kombinasi dan 3/3 pada masing-masing kasus.",
+      "child_organization": "Contoh membedakan jumlah evaluasi gagal dari status indikator.",
+      "assessment": "sufficient",
+      "rationale": "Tabel dan interpretasinya melaporkan 12/12 pada tiap kombinasi dan 3/3 pada masing-masing kasus. Contoh membedakan jumlah evaluasi gagal dari status indikator.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 786,
+          "end_line": 800,
+          "supports": "Tabel dan interpretasinya melaporkan 12/12 pada tiap kombinasi dan 3/3 pada masing-masing kasus."
+        },
+        {
+          "document": "target",
+          "start_line": 801,
+          "end_line": 802,
+          "supports": "Contoh membedakan jumlah evaluasi gagal dari status indikator."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U801",
+      "purpose": "Contoh T9-C2",
+      "direct_content": "Empat dan delapan kegagalan dari delapan evaluasi menghasilkan status indikator gagal pada kedua periode.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "unresolved",
+      "rationale": "Empat dan delapan kegagalan dari delapan evaluasi menghasilkan status indikator gagal pada kedua periode. Tabel 3.3 menyebut status memburuk pada T9-C2. Contoh yang diberikan hanya memperlihatkan indikator keempat tetap gagal saat jumlah kegagalannya bertambah.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 801,
+          "end_line": 802,
+          "supports": "Empat dan delapan kegagalan dari delapan evaluasi menghasilkan status indikator gagal pada kedua periode."
+        }
+      ],
+      "finding_ids": [
+        "S04"
+      ]
+    },
+    {
+      "node_id": "T-0069",
+      "purpose": "Menjawab pertanyaan lintas kelompok",
+      "direct_content": "Judul menyatukan ukuran ketepatan, bentuk kegagalan dan keterbatasan.",
+      "child_organization": "Jumlah, jenis ketidaksesuaian, konsistensi dan batas dilaporkan berurutan.",
+      "assessment": "needs_change",
+      "rationale": "Judul menyatukan ukuran ketepatan, bentuk kegagalan dan keterbatasan. Jumlah, jenis ketidaksesuaian, konsistensi dan batas dilaporkan berurutan. Kesimpulan melaporkan jumlah kasus 3/3 tanpa merangkum mana yang selalu gagal dan mana yang statusnya berubah, padahal tujuan mencakup hasil per kasus dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 803,
+          "end_line": 804,
+          "supports": "Judul menyatukan ukuran ketepatan, bentuk kegagalan dan keterbatasan."
+        },
+        {
+          "document": "target",
+          "start_line": 805,
+          "end_line": 820,
+          "supports": "Jumlah, jenis ketidaksesuaian, konsistensi dan batas dilaporkan berurutan."
+        }
+      ],
+      "finding_ids": [
+        "S03"
+      ]
+    },
+    {
+      "node_id": "T-U805",
+      "purpose": "Keempat kombinasi dan enam kelompok",
+      "direct_content": "Rekap 170/180 diikuti keempat pembilang dari 45 dan lokasi keunggulan kelompok.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Rekap 170/180 diikuti keempat pembilang dari 45 dan lokasi keunggulan kelompok.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 805,
+          "end_line": 810,
+          "supports": "Rekap 170/180 diikuti keempat pembilang dari 45 dan lokasi keunggulan kelompok."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U811",
+      "purpose": "Bentuk ketidaksesuaian",
+      "direct_content": "Sintesis membedakan rincian yang hilang, populasi data keliru dan status indikator.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Sintesis membedakan rincian yang hilang, populasi data keliru dan status indikator. Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 811,
+          "end_line": 814,
+          "supports": "Sintesis membedakan rincian yang hilang, populasi data keliru dan status indikator."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "node_id": "T-U815",
+      "purpose": "Hasil antarulangan",
+      "direct_content": "Jumlah per pengulangan dibandingkan dengan identitas kasus dan rekap Lampiran 1.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Jumlah per pengulangan dibandingkan dengan identitas kasus dan rekap Lampiran 1. Kesimpulan melaporkan jumlah kasus 3/3 tanpa merangkum mana yang selalu gagal dan mana yang statusnya berubah, padahal tujuan mencakup hasil per kasus dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 815,
+          "end_line": 818,
+          "supports": "Jumlah per pengulangan dibandingkan dengan identitas kasus dan rekap Lampiran 1."
+        }
+      ],
+      "finding_ids": [
+        "S03"
+      ]
+    },
+    {
+      "node_id": "T-U819",
+      "purpose": "Batas interpretasi",
+      "direct_content": "Memisahkan kecocokan jawaban dari kegunaan operasional dan pengaruh per dokumen.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Memisahkan kecocokan jawaban dari kegunaan operasional dan pengaruh per dokumen.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 819,
+          "end_line": 820,
+          "supports": "Memisahkan kecocokan jawaban dari kegunaan operasional dan pengaruh per dokumen."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0070",
+      "purpose": "Menutup argumen penelitian",
+      "direct_content": "Pengantar menyebut kedua model, pertanyaan dan tujuan saran.",
+      "child_organization": "Kesimpulan menjawab pertanyaan sebelum saran penelitian.",
+      "assessment": "sufficient",
+      "rationale": "Pengantar menyebut kedua model, pertanyaan dan tujuan saran. Kesimpulan menjawab pertanyaan sebelum saran penelitian.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 821,
+          "end_line": 824,
+          "supports": "Pengantar menyebut kedua model, pertanyaan dan tujuan saran."
+        },
+        {
+          "document": "target",
+          "start_line": 825,
+          "end_line": 840,
+          "supports": "Kesimpulan menjawab pertanyaan sebelum saran penelitian."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0071",
+      "purpose": "Menjawab pertanyaan dalam batas rancangan",
+      "direct_content": "Judul mengantar hasil kuantitatif sebelum rincian kasus dan cakupan.",
+      "child_organization": "Angka per kombinasi diikuti lokasi kegagalan dan lingkup inferensi.",
+      "assessment": "needs_change",
+      "rationale": "Judul mengantar hasil kuantitatif sebelum rincian kasus dan cakupan. Angka per kombinasi diikuti lokasi kegagalan dan lingkup inferensi. Kesimpulan melaporkan jumlah kasus 3/3 tanpa merangkum mana yang selalu gagal dan mana yang statusnya berubah, padahal tujuan mencakup hasil per kasus dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 825,
+          "end_line": 826,
+          "supports": "Judul mengantar hasil kuantitatif sebelum rincian kasus dan cakupan."
+        },
+        {
+          "document": "target",
+          "start_line": 827,
+          "end_line": 836,
+          "supports": "Angka per kombinasi diikuti lokasi kegagalan dan lingkup inferensi."
+        }
+      ],
+      "finding_ids": [
+        "S03"
+      ]
+    },
+    {
+      "node_id": "T-U827",
+      "purpose": "Ketepatan per kondisi dan model",
+      "direct_content": "Empat tingkat keberhasilan dan selisih poin persentase menjawab pertanyaan penelitian. Hasil menurut kelompok memberi konteks untuk selisih dua PASS.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Empat tingkat keberhasilan dan selisih poin persentase menjawab pertanyaan penelitian. Hasil menurut kelompok memberi konteks untuk selisih dua PASS.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 827,
+          "end_line": 830,
+          "supports": "Empat tingkat keberhasilan dan selisih poin persentase menjawab pertanyaan penelitian. Hasil menurut kelompok memberi konteks untuk selisih dua PASS."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-U831",
+      "purpose": "Kegagalan dan pengulangan",
+      "direct_content": "Sepuluh kegagalan dirinci menurut kasus, disusul jumlah kasus dengan tiga keberhasilan dan batas evaluasi.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "needs_change",
+      "rationale": "Sepuluh kegagalan dirinci menurut kasus, disusul jumlah kasus dengan tiga keberhasilan dan batas evaluasi. Kesimpulan melaporkan jumlah kasus 3/3 tanpa merangkum mana yang selalu gagal dan mana yang statusnya berubah, padahal tujuan mencakup hasil per kasus dan pengulangan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 831,
+          "end_line": 836,
+          "supports": "Sepuluh kegagalan dirinci menurut kasus, disusul jumlah kasus dengan tiga keberhasilan dan batas evaluasi."
+        }
+      ],
+      "finding_ids": [
+        "S03"
+      ]
+    },
+    {
+      "node_id": "T-0072",
+      "purpose": "Menurunkan saran dari batas pengujian",
+      "direct_content": "Keragaman data, variasi isi dokumen, pengulangan tambahan dan penilaian pengguna merupakan usulan studi berikutnya.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "sufficient",
+      "rationale": "Keragaman data, variasi isi dokumen, pengulangan tambahan dan penilaian pengguna merupakan usulan studi berikutnya.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 837,
+          "end_line": 840,
+          "supports": "Keragaman data, variasi isi dokumen, pengulangan tambahan dan penilaian pengguna merupakan usulan studi berikutnya."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0073",
+      "purpose": "Menghubungkan sitasi dengan daftar rujukan",
+      "direct_content": "Daftar alfabetis memuat sumber kajian, model, evaluasi dan perangkat. Tiga entri perlu diperiksa terhadap cakupan naskah lengkap.",
+      "child_organization": "Daun. Bukti dan penjelasannya dapat dibaca dalam satu bagian.",
+      "assessment": "unresolved",
+      "rationale": "Daftar alfabetis memuat sumber kajian, model, evaluasi dan perangkat. Tiga entri perlu diperiksa terhadap cakupan naskah lengkap. Tiga entri daftar pustaka tidak mempunyai padanan sitasi yang teridentifikasi pada Bab I–V yang diberikan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 841,
+          "end_line": 919,
+          "supports": "Daftar alfabetis memuat sumber kajian, model, evaluasi dan perangkat. Tiga entri perlu diperiksa terhadap cakupan naskah lengkap."
+        }
+      ],
+      "finding_ids": [
+        "S05"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "from_ids": [
+        "T-0002"
+      ],
+      "to_ids": [
+        "T-0003",
+        "T-0004"
+      ],
+      "relationship": "Contoh perbedaan pembagi LHR menjelaskan alasan membandingkan ketepatan pada dua kondisi.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 13,
+          "end_line": 19,
+          "supports": "Masalah aturan yang tidak tampak pada skema."
+        },
+        {
+          "document": "target",
+          "start_line": 23,
+          "end_line": 27,
+          "supports": "Pertanyaan dan tujuan menetapkan perbandingan."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0003",
+        "T-0004"
+      ],
+      "to_ids": [
+        "T-U218"
+      ],
+      "relationship": "Empat kombinasi dan 45 jawaban per kombinasi menerapkan pertanyaan.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 23,
+          "end_line": 27,
+          "supports": "Pertanyaan dan ukuran ketepatan."
+        },
+        {
+          "document": "target",
+          "start_line": 218,
+          "end_line": 230,
+          "supports": "Kode dan matriks pengujian."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0011"
+      ],
+      "to_ids": [
+        "T-0029"
+      ],
+      "relationship": "Kemampuan menggabungkan, mengelompokkan dan membandingkan menentukan variasi kasus.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 103,
+          "end_line": 109,
+          "supports": "Kemampuan agen."
+        },
+        {
+          "document": "target",
+          "start_line": 254,
+          "end_line": 258,
+          "supports": "Kriteria pemilihan kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0013",
+        "T-0017"
+      ],
+      "to_ids": [
+        "T-0036",
+        "T-0033"
+      ],
+      "relationship": "Tool, MCP dan format skill mendasari akses data serta pengaturan konteks.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 119,
+          "end_line": 125,
+          "supports": "Mekanisme akses."
+        },
+        {
+          "document": "target",
+          "start_line": 149,
+          "end_line": 153,
+          "supports": "Struktur skill."
+        },
+        {
+          "document": "target",
+          "start_line": 364,
+          "end_line": 378,
+          "supports": "Paket konteks."
+        },
+        {
+          "document": "target",
+          "start_line": 413,
+          "end_line": 425,
+          "supports": "Tiga tool bersama."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-U300"
+      ],
+      "to_ids": [
+        "T-U642",
+        "T-U595"
+      ],
+      "relationship": "Populasi data perlu ditetapkan sebelum ketidaksesuaian dihitung.",
+      "assessment": "gap",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 302,
+          "end_line": 313,
+          "supports": "Aturan tabel untuk kedua jenis tugas."
+        },
+        {
+          "document": "target",
+          "start_line": 595,
+          "end_line": 597,
+          "supports": "Golongan bervolume nol."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 655,
+          "supports": "Syarat insiden kecelakaan."
+        }
+      ],
+      "finding_ids": [
+        "S02"
+      ]
+    },
+    {
+      "from_ids": [
+        "T-U315"
+      ],
+      "to_ids": [
+        "T-U325",
+        "T-U331",
+        "T-0047"
+      ],
+      "relationship": "Data mentah pada Tabel 3.5 mendasari rata-rata yang digunakan untuk menilai T1-C2.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 315,
+          "end_line": 323,
+          "supports": "Jumlah dan durasi data."
+        },
+        {
+          "document": "target",
+          "start_line": 325,
+          "end_line": 329,
+          "supports": "Total 62 detik."
+        },
+        {
+          "document": "target",
+          "start_line": 331,
+          "end_line": 337,
+          "supports": "Rata-rata 8,86 detik."
+        },
+        {
+          "document": "target",
+          "start_line": 535,
+          "end_line": 535,
+          "supports": "Hasil model pada kedua kasus."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0022",
+        "T-0039"
+      ],
+      "to_ids": [
+        "T-U445",
+        "T-0040"
+      ],
+      "relationship": "Putusan JSON mendahului contoh dan penggunaan PASS sebagai pembilang.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 188,
+          "end_line": 190,
+          "supports": "Arti kecocokan."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 443,
+          "supports": "Aturan urutan dan nilai."
+        },
+        {
+          "document": "target",
+          "start_line": 445,
+          "end_line": 455,
+          "supports": "Dua putusan untuk satu expected result."
+        },
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "Rumus dan penyebut."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0037",
+        "T-0041"
+      ],
+      "to_ids": [
+        "T-U595",
+        "T-U642",
+        "T-U752",
+        "T-U756"
+      ],
+      "relationship": "Cara mengamati langkah agen diperlukan untuk mengaitkan perbedaan jawaban dengan langkah tertentu.",
+      "assessment": "gap",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 431,
+          "end_line": 433,
+          "supports": "Pelaksanaan pengulangan."
+        },
+        {
+          "document": "target",
+          "start_line": 471,
+          "end_line": 473,
+          "supports": "Pemeriksaan keluaran."
+        },
+        {
+          "document": "target",
+          "start_line": 595,
+          "end_line": 597,
+          "supports": "Pemilihan golongan."
+        },
+        {
+          "document": "target",
+          "start_line": 653,
+          "end_line": 655,
+          "supports": "Pemilihan insiden."
+        },
+        {
+          "document": "target",
+          "start_line": 752,
+          "end_line": 756,
+          "supports": "Pembulatan dan pemilihan indikator."
+        }
+      ],
+      "finding_ids": [
+        "S01"
+      ]
+    },
+    {
+      "from_ids": [
+        "T-0041",
+        "T-0044"
+      ],
+      "to_ids": [
+        "T-0045",
+        "T-0049",
+        "T-0053",
+        "T-0057",
+        "T-0061",
+        "T-0065"
+      ],
+      "relationship": "Sembilan jenis tugas dikelompokkan menjadi enam kelompok hasil dengan penyebut menurut jumlah kasus.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 471,
+          "end_line": 473,
+          "supports": "Rencana pengelompokan."
+        },
+        {
+          "document": "target",
+          "start_line": 493,
+          "end_line": 507,
+          "supports": "Ukuran kelompok."
+        },
+        {
+          "document": "target",
+          "start_line": 539,
+          "end_line": 550,
+          "supports": "T1."
+        },
+        {
+          "document": "target",
+          "start_line": 582,
+          "end_line": 593,
+          "supports": "T2–T3."
+        },
+        {
+          "document": "target",
+          "start_line": 629,
+          "end_line": 640,
+          "supports": "T4–T5."
+        },
+        {
+          "document": "target",
+          "start_line": 687,
+          "end_line": 698,
+          "supports": "T6."
+        },
+        {
+          "document": "target",
+          "start_line": 730,
+          "end_line": 741,
+          "supports": "T7."
+        },
+        {
+          "document": "target",
+          "start_line": 788,
+          "end_line": 799,
+          "supports": "T8–T9."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-U276"
+      ],
+      "to_ids": [
+        "T-U801"
+      ],
+      "relationship": "Contoh perubahan antarperiode perlu dikaitkan dengan kondisi yang tercatat untuk T9-C2.",
+      "assessment": "unresolved",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 293,
+          "end_line": 294,
+          "supports": "Deskripsi kasus."
+        },
+        {
+          "document": "target",
+          "start_line": 799,
+          "end_line": 801,
+          "supports": "Contoh empat hingga delapan evaluasi gagal."
+        }
+      ],
+      "finding_ids": [
+        "S04"
+      ]
+    },
+    {
+      "from_ids": [
+        "T-0024",
+        "T-U815"
+      ],
+      "to_ids": [
+        "T-U831"
+      ],
+      "relationship": "Status per kasus diperlukan untuk membedakan konsistensi dari jumlah PASS per putaran.",
+      "assessment": "gap",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 198,
+          "end_line": 200,
+          "supports": "Definisi pengulangan kasus."
+        },
+        {
+          "document": "target",
+          "start_line": 815,
+          "end_line": 817,
+          "supports": "Jumlah sama meskipun kasus berganti."
+        },
+        {
+          "document": "target",
+          "start_line": 831,
+          "end_line": 835,
+          "supports": "Kasus 3/3 dalam kesimpulan."
+        }
+      ],
+      "finding_ids": [
+        "S03"
+      ]
+    },
+    {
+      "from_ids": [
+        "T-U805"
+      ],
+      "to_ids": [
+        "T-U827"
+      ],
+      "relationship": "Empat tingkat keberhasilan di hasil mendukung selisih poin persentase di kesimpulan.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 805,
+          "end_line": 809,
+          "supports": "Keempat angka dan perbandingan kelompok."
+        },
+        {
+          "document": "target",
+          "start_line": 827,
+          "end_line": 829,
+          "supports": "Jawaban kuantitatif pada dua kondisi."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-U043",
+        "T-U819"
+      ],
+      "to_ids": [
+        "T-0072"
+      ],
+      "relationship": "Batas perlakuan satu paket dan evaluasi jawaban akhir mendasari saran pemisahan dokumen dan studi pengguna.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 43,
+          "end_line": 43,
+          "supports": "Batas perlakuan."
+        },
+        {
+          "document": "target",
+          "start_line": 819,
+          "end_line": 819,
+          "supports": "Batas manfaat dan atribusi."
+        },
+        {
+          "document": "target",
+          "start_line": 839,
+          "end_line": 839,
+          "supports": "Usulan penelitian lanjutan."
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "S01",
+      "target_ids": [
+        "T-root",
+        "T-0025",
+        "T-0034",
+        "T-0037",
+        "T-0041",
+        "T-0042",
+        "T-U595",
+        "T-U642",
+        "T-U752",
+        "T-U756",
+        "T-U811"
+      ],
+      "reference_ids": [],
+      "kind": "missing_explanation",
+      "severity": "high",
+      "problem": "Metode menjelaskan pemeriksaan jawaban akhir, tetapi belum menyebut dasar untuk menetapkan langkah yang dilakukan agen pada pengulangan tertentu.",
+      "reader_consequence": "Pembaca dapat memeriksa perbedaan nilai akhir. Untuk kesimpulan tentang pemilihan data, pembulatan atau pembacaan dokumen, pembaca perlu mengetahui cara langkah itu diketahui.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 429,
+          "end_line": 433,
+          "supports": "Prosedur generasi sampai ke perbandingan jawaban akhir."
+        },
+        {
+          "document": "target",
+          "start_line": 469,
+          "end_line": 473,
+          "supports": "Prosedur menyebut pemeriksaan bagian jawaban yang tidak sesuai."
+        },
+        {
+          "document": "target",
+          "start_line": 595,
+          "end_line": 597,
+          "supports": "Contoh bulanan menyebut cara agen memilih golongan."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 655,
+          "supports": "Contoh kecelakaan menyebut pembacaan aturan pada satu pengulangan."
+        },
+        {
+          "document": "target",
+          "start_line": 752,
+          "end_line": 756,
+          "supports": "Contoh per laporan menyebut waktu pembulatan dan pemilihan indikator."
+        },
+        {
+          "document": "target",
+          "start_line": 811,
+          "end_line": 813,
+          "supports": "Sintesis meneruskan penjelasan proses."
+        }
+      ],
+      "searched_locations": [
+        "Telusur log, riwayat, jejak, rekam, tool call, pengulangan, Lampiran. Dibaca 111–125, 387–455, 469–473, 595–597, 642–655, 743–756, 811–819. Definisi tool call dan contoh hasil akhir tersedia."
+      ],
+      "action": "Tambahkan pada 3.4.3 atau 3.5.3 jenis bukti yang benar-benar digunakan, cara mengaitkannya dengan kasus, model, kondisi dan pengulangan, lalu rujuk saat menafsirkan contoh. Jika hanya jawaban akhir tersedia, nyatakan perbedaan yang teramati dan tandai dugaan mekanisme sebagai penafsiran. Pertahankan rincian pembulatan dan perbandingan nilai.",
+      "decision": "accepted",
+      "decision_reason": "Perbedaan isi jawaban tetap dapat dilaporkan dengan bukti yang ada. Tidak ada alasan menyimpulkan bahwa catatan proses tidak pernah dibuat.",
+      "needed_evidence": []
+    },
+    {
+      "id": "S02",
+      "target_ids": [
+        "T-0027",
+        "T-0030",
+        "T-U300"
+      ],
+      "reference_ids": [],
+      "kind": "placement",
+      "severity": "medium",
+      "problem": "Aturan pemilihan populasi yang menentukan FAIL pada T5-C1 dan T3-C1 baru lengkap saat pembahasan hasil.",
+      "reader_consequence": "Pembaca Tabel 3.4 mengetahui cara menghitung frekuensi dan LHR, tetapi belum mengetahui insiden yang layak dihitung atau golongan yang harus muncul meskipun data volumenya kosong.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 282,
+          "end_line": 285,
+          "supports": "Kasus mencakup golongan bervolume nol dan penyebab berulang."
+        },
+        {
+          "document": "target",
+          "start_line": 300,
+          "end_line": 313,
+          "supports": "Tabel 3.4 menyebut pembagi hari dan jumlah kemunculan."
+        },
+        {
+          "document": "target",
+          "start_line": 595,
+          "end_line": 597,
+          "supports": "Gol. 5 termasuk dalam expected result meskipun data volume bulan itu tidak memuatnya."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 655,
+          "supports": "Hanya insiden dengan is_accident = true termasuk dalam frekuensi."
+        }
+      ],
+      "searched_locations": [
+        "Telusur is_accident, penyebab, golongan, nol, data master dan T3-C1. Dibaca 240–252, 262–268, 282–285, 302–313, 350–360, 375–376, 565–597 dan 642–655."
+      ],
+      "action": "Lengkapi baris T5 pada Tabel 3.4 dengan syarat is_accident = true sebelum menghitung frekuensi. Pada baris T2–T3 bedakan pembagi LHR dari kewajiban T3-C1 menyertakan semua golongan yang diminta per bulan, termasuk golongan tanpa volume. Rujuk hasil untuk dampak pada Gol. 5 dan dua jawaban T5-C1.",
+      "decision": "accepted",
+      "decision_reason": "Kedua aturan sudah dilaporkan di hasil, sehingga perbaikan dapat menggunakan fakta yang tersedia.",
+      "needed_evidence": []
+    },
+    {
+      "id": "S03",
+      "target_ids": [
+        "T-0024",
+        "T-0069",
+        "T-U815",
+        "T-0071",
+        "T-U831"
+      ],
+      "reference_ids": [],
+      "kind": "dependency",
+      "severity": "medium",
+      "problem": "Kesimpulan melaporkan jumlah kasus 3/3 tanpa merangkum mana yang selalu gagal dan mana yang statusnya berubah, padahal tujuan mencakup hasil per kasus dan pengulangan.",
+      "reader_consequence": "Dua model sama-sama mencapai 3/3 pada 12 kasus tanpa konteks, tetapi jumlah kasus dengan status tetap berbeda. Jumlah PASS per pengulangan juga dapat tetap ketika identitas kasus berubah.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 25,
+          "end_line": 27,
+          "supports": "Tujuan menyebut rincian kasus dan pengulangan."
+        },
+        {
+          "document": "target",
+          "start_line": 196,
+          "end_line": 200,
+          "supports": "Dua ujung skala 0/3 dan 3/3 sudah didefinisikan."
+        },
+        {
+          "document": "target",
+          "start_line": 593,
+          "end_line": 595,
+          "supports": "Muse gagal satu kali pada T3-C1, DeepSeek tiga kali."
+        },
+        {
+          "document": "target",
+          "start_line": 640,
+          "end_line": 640,
+          "supports": "Muse gagal dua kali pada T5-C1."
+        },
+        {
+          "document": "target",
+          "start_line": 745,
+          "end_line": 750,
+          "supports": "Empat ketidaksesuaian per laporan menunjuk pengulangan tertentu."
+        },
+        {
+          "document": "target",
+          "start_line": 815,
+          "end_line": 817,
+          "supports": "Rekap per pengulangan dan contoh DeepSeek sudah ada."
+        },
+        {
+          "document": "target",
+          "start_line": 831,
+          "end_line": 835,
+          "supports": "Kesimpulan berfokus pada 12 kasus dengan tiga PASS."
+        }
+      ],
+      "searched_locations": [
+        "Telusur konsistensi, 0/3, 3/3, pengulangan, kasus yang gagal. Dibaca 194–200, 465–473, 593–595, 640–655, 741–756, 815–819, 831–835."
+      ],
+      "action": "Nyatakan di 2.8.3 bahwa 1/3 dan 2/3 berarti status berubah. Gunakan 4.9 dan satu kalimat 5.1 untuk membedakan selalu PASS, berubah dan selalu FAIL: tanpa konteks Muse 12, 3, 0 kasus dan DeepSeek 12, 2, 1. Pertahankan rekap per pengulangan sebagai pertanyaan terpisah. Dengan konteks seluruh kasus selalu PASS.",
+      "decision": "accepted",
+      "decision_reason": "Seluruh hitungan dapat diturunkan dari rincian kasus yang tersedia. Yang diringkas ialah status, bukan kesamaan jawaban yang sama-sama FAIL.",
+      "needed_evidence": []
+    },
+    {
+      "id": "S04",
+      "target_ids": [
+        "T-U276",
+        "T-U801"
+      ],
+      "reference_ids": [],
+      "kind": "unavailable_evidence",
+      "severity": "medium",
+      "problem": "Tabel 3.3 menyebut status memburuk pada T9-C2. Contoh yang diberikan hanya memperlihatkan indikator keempat tetap gagal saat jumlah kegagalannya bertambah.",
+      "reader_consequence": "Pembaca tidak dapat menentukan dari contoh apakah indikator lain berubah dari terpenuhi menjadi gagal, atau deskripsi kasus merujuk pada pertambahan jumlah kegagalan.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 274,
+          "end_line": 274,
+          "supports": "Perbandingan periode membedakan status tetap, membaik dan memburuk."
+        },
+        {
+          "document": "target",
+          "start_line": 293,
+          "end_line": 294,
+          "supports": "Tabel memberi deskripsi T9-C1 dan T9-C2."
+        },
+        {
+          "document": "target",
+          "start_line": 313,
+          "end_line": 313,
+          "supports": "Satu gardu yang gagal cukup untuk menetapkan gagal dalam periode."
+        },
+        {
+          "document": "target",
+          "start_line": 799,
+          "end_line": 801,
+          "supports": "Contoh keempat memiliki status tetap pada dua periode."
+        }
+      ],
+      "searched_locations": [
+        "Telusur T9-C2, memburuk, indikator keempat dan periode B. Dibaca 274–294, 313, 337, 758–801 dan 817."
+      ],
+      "action": "Cocokkan deskripsi dengan expected result lengkap T9-C2. Jika ada indikator yang memburuk, sebutkan indikator itu di 4.8.3 sambil mempertahankan contoh status tetap. Jika yang bertambah hanya jumlah kegagalan, betulkan kondisi pada Tabel 3.3.",
+      "decision": "unresolved",
+      "decision_reason": "Contoh satu indikator tidak membuktikan apa yang terjadi pada indikator lain.",
+      "needed_evidence": [
+        "Expected result T9-C2 dengan status tiap indikator di kedua periode dan arti label perubahannya."
+      ]
+    },
+    {
+      "id": "S05",
+      "target_ids": [
+        "T-0073"
+      ],
+      "reference_ids": [],
+      "kind": "unavailable_evidence",
+      "severity": "low",
+      "problem": "Tiga entri daftar pustaka tidak mempunyai padanan sitasi yang teridentifikasi pada Bab I–V yang diberikan.",
+      "reader_consequence": "Pembaca belum dapat mengetahui bagian penelitian yang menggunakan Chen dkk. (2012), Li dkk. (2023), dan Mialon dkk. (2024).",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 855,
+          "end_line": 855,
+          "supports": "Entri Chen dkk. (2012)."
+        },
+        {
+          "document": "target",
+          "start_line": 877,
+          "end_line": 877,
+          "supports": "Entri Li dkk. (2023)."
+        },
+        {
+          "document": "target",
+          "start_line": 895,
+          "end_line": 895,
+          "supports": "Entri Mialon dkk. (2024)."
+        },
+        {
+          "document": "target",
+          "start_line": 109,
+          "end_line": 123,
+          "supports": "Li dkk. pada NumericBench dan LongDA mempunyai tahun berbeda."
+        },
+        {
+          "document": "target",
+          "start_line": 159,
+          "end_line": 161,
+          "supports": "Sitasi tahun 2023 pada pembahasan konteks adalah Shi dkk."
+        }
+      ],
+      "searched_locations": [
+        "Periksa nama penulis pertama dan tahun seluruh entri terhadap Bab I–V, termasuk tabel dan catatan sumber. Telusur ulang Chen, Chiang, Mialon, GAIA, BIRD, 2012, dan 2023 pada 1–840."
+      ],
+      "action": "Periksa ketiga entri terhadap naskah lengkap dan aturan daftar pustaka. Hapus hanya bila tidak digunakan dan daftar mensyaratkan karya tersitasi. Jangan menambah sitasi yang tidak mendukung klaim.",
+      "decision": "unresolved",
+      "decision_reason": "Bahan yang diberikan berakhir pada daftar pustaka dan tidak memuat lampiran atau ketentuan institusi.",
+      "needed_evidence": [
+        "Naskah lengkap termasuk lampiran serta ketentuan daftar pustaka yang berlaku."
+      ]
+    }
+  ]
+}

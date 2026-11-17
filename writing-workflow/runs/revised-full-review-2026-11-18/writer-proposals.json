@@ -1,0 +1,257 @@
+[
+  {
+    "id": "R01",
+    "start": 15,
+    "end": 15,
+    "replacement": "Rumiantsau dan Fokeev (2026) menguji *semantic layer* pada analisis berbasis LLM menggunakan dokumen yang menjelaskan apa yang dihitung dan aturan yang digunakan serta memperjelas istilah bisnis. Ketika dokumen tersebut diberikan kepada model, *Analytical Pass Rate* meningkat sebesar 17,2–23,2 poin persentase. Dalam penelitian ini, konteks bisnis yang diberikan ke agen menjelaskan arti data dan aturan analisis HKA TROM.",
+    "finding_ids": [
+      "W01"
+    ]
+  },
+  {
+    "id": "R02",
+    "start": 17,
+    "end": 17,
+    "replacement": "Kasus uji dipilih karena jawaban yang diharapkan memerlukan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode.",
+    "finding_ids": [
+      "W02"
+    ]
+  },
+  {
+    "id": "R03",
+    "start": 43,
+    "end": 43,
+    "replacement": "4. Tujuh dokumen konteks bisnis tersedia bersama melalui skill hanya pada kondisi dengan konteks bisnis. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.",
+    "finding_ids": [
+      "W03"
+    ]
+  },
+  {
+    "id": "R04",
+    "start": 77,
+    "end": 77,
+    "replacement": "| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Penilaian insight yang bersifat open-ended berbeda dari pencocokan jawaban pasti dengan *expected result* dalam penelitian ini. |",
+    "finding_ids": [
+      "W04"
+    ]
+  },
+  {
+    "id": "R05",
+    "start": 91,
+    "end": 91,
+    "replacement": "Rumiantsau dan Fokeev (2026) membandingkan dua kondisi masukan bagi model: skema data saja dan skema data beserta dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Hasil eksekusi dinilai menggunakan Claude Sonnet 4.6 sebagai *judge*.",
+    "finding_ids": [
+      "W05"
+    ]
+  },
+  {
+    "id": "R06a",
+    "start": 145,
+    "end": 145,
+    "replacement": "Untuk menentukan cakupan dan tingkat perincian ontologi, Noy dan McGuinness (2001) menggunakan pertanyaan yang perlu dijawab.",
+    "finding_ids": [
+      "W06"
+    ]
+  },
+  {
+    "id": "R07",
+    "start": 188,
+    "end": 188,
+    "replacement": "Pada jawaban berbentuk JSON, pemeriksaan mencakup struktur dan nilai yang dihasilkan. Dalam penelitian ini, struktur yang diperiksa meliputi atribut yang diminta, tipe nilai, dan urutan elemen *array*. Dalam evaluasi *in-context learning*, DataBench memeriksa apakah *output* merupakan JSON yang valid dan memuat atribut yang diperlukan sebelum menilai ketepatan isinya (Osés Grijalba dkk., 2024).",
+    "finding_ids": [
+      "W07"
+    ]
+  },
+  {
+    "id": "R30",
+    "start": 210,
+    "end": 210,
+    "replacement": "Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing diuji dengan dan tanpa konteks bisnis. Kedua model menggunakan kasus, data, *tool*, dan *prompt* yang sama, dengan akses ke dokumen konteks bisnis yang dibedakan. Jawaban kedua model dinilai menggunakan *expected result* yang sama.",
+    "finding_ids": [
+      "W30"
+    ]
+  },
+  {
+    "id": "R08",
+    "start": 218,
+    "end": 218,
+    "replacement": "Kelima belas kasus dalam penelitian ini dikelompokkan ke dalam sembilan jenis tugas, yaitu T1 hingga T9. Kode setiap kasus mengikuti pola T[n]-C[m], dengan T berarti *task* atau jenis tugas dan C berarti *case* atau kasus. Angka n menunjukkan nomor jenis tugas dan m menunjukkan nomor kasus dalam tugas tersebut. Sebagai contoh, T1-C2 adalah kasus kedua pada jenis tugas T1.",
+    "finding_ids": [
+      "W08"
+    ]
+  },
+  {
+    "id": "R09",
+    "start": 240,
+    "end": 244,
+    "replacement": "Kumpulan data uji berisi 237 baris pada 15 tabel operasional. Baris tersebut mencakup laporan pemantauan transaksi beserta rincian durasi, laporan lalu lintas dan jumlah kendaraan, data insiden berikut tindakan penanganan, laporan kecelakaan, serta jadwal dan hasil inspeksi. Data master dan konfigurasi berisi identitas ruas, gerbang, golongan kendaraan, aset, serta parameter SPM/SLA yang diperlukan dalam analisis. Tabel 3.2 merangkum sumber data utama untuk setiap topik analisis.\n\n**Tabel 3.2 Topik Analisis dan Sumber Data Utama**\n\n| Topik analisis | Sumber data |",
+    "finding_ids": [
+      "W09"
+    ]
+  },
+  {
+    "id": "R10",
+    "start": 293,
+    "end": 294,
+    "replacement": "| T9-C1 | Perbandingan periode | Status pemenuhan indikator tetap dan membaik | Membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode untuk menentukan status yang tetap dan membaik. |\n| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status pemenuhan indikator yang memburuk | Menggabungkan informasi dari dua laporan dalam setiap periode, lalu membandingkan status pemenuhan setiap indikator SPM/SLA pada kedua periode. |",
+    "finding_ids": [
+      "W10",
+      "S07"
+    ]
+  },
+  {
+    "id": "R11",
+    "start": 302,
+    "end": 302,
+    "replacement": "Laporan dipilih berdasarkan tanggal operasional dalam rentang tanggal pada prompt kasus, termasuk tanggal awal dan akhir. Untuk evaluasi SPM/SLA per laporan, laporan juga harus sesuai dengan ruas, gerbang, dan jadwal *shift* dalam prompt. Gardu diidentifikasi dari nomor gardu dan laporan pemantauannya.",
+    "finding_ids": [
+      "W11"
+    ]
+  },
+  {
+    "id": "RS02",
+    "start": 309,
+    "end": 309,
+    "replacement": "| Volume dan LHR | LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender, termasuk tanggal awal, tanggal akhir, dan hari tanpa laporan. Pada T3-C1, golongan kendaraan yang tidak memiliki data volume pada suatu bulan tetap dicantumkan dengan volume 0 dan LHR 0. | T2–T3 |",
+    "finding_ids": [
+      "S02"
+    ]
+  },
+  {
+    "id": "R12",
+    "start": 311,
+    "end": 311,
+    "replacement": "| Penyebab kecelakaan | Perhitungan hanya menggunakan insiden dengan is_accident = true. Setiap penyebab dihitung sesuai jumlah kemunculannya dalam data kecelakaan dari insiden tersebut. | T5 |",
+    "finding_ids": [
+      "W12",
+      "S01"
+    ]
+  },
+  {
+    "id": "R13",
+    "start": 346,
+    "end": 346,
+    "replacement": "Selain system prompt tersebut, setiap kasus memiliki prompt yang dijelaskan pada Bagian 3.3.1. Pada pengujian dengan konteks bisnis, agen juga memiliki akses ke dokumen yang dijelaskan pada Bagian 3.3.2.",
+    "finding_ids": [
+      "W13"
+    ]
+  },
+  {
+    "id": "R06b",
+    "start": 364,
+    "end": 364,
+    "replacement": "Konteks bisnis dibuat berdasarkan pemahaman tentang sistem dan aturan bisnis yang didapat selama pengembangan HKA TROM. Isinya menjelaskan cara memilih data, hubungan antartabel, dan ketentuan perhitungan untuk analisis transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA yang diuji.",
+    "finding_ids": [
+      "W06"
+    ]
+  },
+  {
+    "id": "R14",
+    "start": 370,
+    "end": 378,
+    "replacement": "| Dokumen | Isi utama | Penggunaan oleh agen |\n| :---- | :---- | :---- |\n| SKILL.md | Ruang lingkup sistem, instruksi umum, dan panduan memilih referensi. | Memilih referensi yang sesuai dengan prompt berdasarkan petunjuk SKILL.md. |\n| terminology.md | Istilah operasional, identitas ruas, gerbang, gardu, dan shift, serta tanggal operasional dan relasi tabel. | Memahami istilah dalam prompt dan memilih data yang sesuai. |\n| transactions.md | Penjelasan laporan pemantauan transaksi dan data durasinya, termasuk satuan dan perhitungan rata-rata. | Memilih data durasi yang sesuai untuk menghitung rata-rata durasi transaksi. |\n| traffic.md | Volume kendaraan, golongan kendaraan, rentang tanggal, perhitungan LHR, dan ringkasan bulanan. | Menghitung volume kendaraan dan mengelompokkan hasil berdasarkan periode yang ditanyakan. LHR dihitung menggunakan jumlah hari kalender pada periode tersebut. |\n| incidents.md | Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan. | Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan. |\n| inspections.md | Struktur data inspeksi, kriteria dan kategori kerusakan, prioritas perbaikan, serta relasi tabel yang menghubungkan inspeksi dengan aset. | Menghitung item inspeksi yang memiliki kategori kerusakan, lalu mengelompokkan hasilnya berdasarkan kategori, prioritas perbaikan, dan aset. |\n| spm-sla.md | Indikator, konfigurasi, perhitungan durasi per gardu, syarat untuk memenuhi SPM/SLA, dan cara menentukan status per periode. | Menilai apakah setiap gardu memenuhi SPM/SLA, lalu menentukan status per periode dan membandingkan hasil antarperiode. |",
+    "finding_ids": [
+      "W14"
+    ]
+  },
+  {
+    "id": "R15",
+    "start": 437,
+    "end": 437,
+    "replacement": "Setiap jawaban akhir agen dibandingkan dengan *expected result* untuk menentukan status PASS atau FAIL. Pada InfiAgent-DABench, satu pertanyaan dinilai berhasil jika seluruh bagian jawabannya benar (Hu dkk., 2024). Ketentuan pencocokan JSON dalam penelitian ini dijelaskan pada Bagian 3.5.1.",
+    "finding_ids": [
+      "W15"
+    ]
+  },
+  {
+    "id": "R16",
+    "start": 471,
+    "end": 471,
+    "replacement": "Analisis dilakukan secara deskriptif. Tingkat keberhasilan berdasarkan konteks bisnis dihitung dengan menggabungkan jawaban kedua model pada kondisi yang sama. Untuk tingkat keberhasilan setiap model, jawaban dari pengujian dengan dan tanpa konteks bisnis digabungkan.\n\nPersentase PASS pada keempat kombinasi model dan konteks bisnis juga disajikan secara terpisah. Persentase PASS kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, persentase PASS dengan konteks bisnis dibandingkan dengan persentase PASS tanpa konteks bisnis. Semua ringkasan mencakup ketiga pengulangan pada kasus yang dibahas.",
+    "finding_ids": [
+      "W16"
+    ]
+  },
+  {
+    "id": "R17",
+    "start": 481,
+    "end": 481,
+    "replacement": "Pengujian dilakukan pada Cloudflare OS dengan model Muse Spark 1.3 dan DeepSeek v4 Flash melalui OpenCode. Agen menggunakan *tool* melalui MCP untuk melihat daftar tabel dan *view*, melihat struktur tabel, dan membaca data HKA TROM. Lingkungan pengujian dirangkum pada Tabel 4.1.",
+    "finding_ids": [
+      "W17"
+    ]
+  },
+  {
+    "id": "R18",
+    "start": 488,
+    "end": 488,
+    "replacement": "| Model | Muse Spark 1.3 dan DeepSeek v4 Flash, melalui OpenCode |",
+    "finding_ids": [
+      "W18"
+    ]
+  },
+  {
+    "id": "R21",
+    "start": 752,
+    "end": 752,
+    "replacement": "Terdapat tiga jawaban dengan status SPM/SLA salah untuk gardu dengan rata-rata durasi sedikit di atas batas. Status SPM/SLA ditentukan dengan membandingkan rata-rata durasi sebelum pembulatan dengan batas indikator. Pada T7-C1, rata-rata durasi gardu 3 adalah 6,004 detik, yang melebihi batas 6 detik pada indikator pertama. Pada pengulangan kedua tanpa konteks bisnis, DeepSeek v4 Flash membulatkan rata-rata durasi ini menjadi 6,00 detik sebelum membandingkannya dengan batas 6 detik, sehingga spm_passed dan sla_passed bernilai true. Pada pengulangan kedua dengan konteks bisnis, agen membandingkan nilai 6,004 detik dengan batas 6 detik, sehingga kedua status bernilai false sesuai dengan *expected result*.",
+    "finding_ids": [
+      "W21"
+    ]
+  },
+  {
+    "id": "RS07",
+    "start": 801,
+    "end": 801,
+    "replacement": "Sebagai contoh status satu indikator pada T9-C2, jawaban pada seluruh kombinasi mencatat empat evaluasi yang gagal untuk indikator keempat pada periode A dan delapan pada periode B. Setiap periode memiliki delapan evaluasi untuk indikator tersebut. Status indikator tetap gagal pada kedua periode karena ada gardu yang gagal memenuhi indikator itu dalam salah satu laporan. Perubahan jumlah kegagalan tetap terlihat pada jawaban meskipun statusnya sama.",
+    "finding_ids": [
+      "S07"
+    ]
+  },
+  {
+    "id": "R23",
+    "start": 813,
+    "end": 813,
+    "replacement": "Pada T5-C1, jawaban Muse Spark 1.3 pada pengulangan pertama dan ketiga tanpa konteks bisnis memiliki nilai total_cause_assignments sebesar 7, sedangkan nilai pada *expected result* adalah 5. Selisih ini sesuai dengan dua kemunculan penyebab kecelakaan pada insiden dengan is_accident = false yang dijelaskan pada Bagian 4.5. Pada T7-C1, jawaban DeepSeek v4 Flash pada pengulangan kedua tanpa konteks bisnis menyatakan gardu dengan rata-rata durasi di atas batas memenuhi SPM/SLA. Bagian 4.7 menjelaskan contoh perbandingan nilai setelah pembulatan dengan batas indikator yang menghasilkan status tersebut.",
+    "finding_ids": [
+      "W23"
+    ]
+  },
+  {
+    "id": "R24",
+    "start": 817,
+    "end": 817,
+    "replacement": "Pada DeepSeek v4 Flash tanpa konteks bisnis, sebagian kasus yang gagal berbeda antara pengulangan meskipun jumlah PASS tetap sama. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.",
+    "finding_ids": [
+      "W24"
+    ]
+  },
+  {
+    "id": "R03b",
+    "start": 819,
+    "end": 819,
+    "replacement": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Karena seluruh dokumen konteks bisnis tersedia bersama melalui skill, pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.",
+    "finding_ids": [
+      "W03"
+    ]
+  },
+  {
+    "id": "R25",
+    "start": 833,
+    "end": 833,
+    "replacement": "Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus. Kedua model memiliki pengulangan yang gagal pada T3-C1 dan T7-C2. Kegagalan pada T5-C1 hanya terjadi pada Muse Spark 1.3, sedangkan kegagalan pada T7-C1 hanya terjadi pada DeepSeek v4 Flash.",
+    "finding_ids": [
+      "W25",
+      "S06"
+    ]
+  },
+  {
+    "id": "R26",
+    "start": 839,
+    "end": 839,
+    "replacement": "Pengujian *Agentic Business Intelligence* selanjutnya sebaiknya mencakup data dari bidang bisnis lain dan tugas analisis yang lebih beragam. Selain status PASS/FAIL atas jawaban utuh, evaluasi dapat memberi penilaian terpisah terhadap ketepatan pemilihan data, kelengkapan jawaban, serta penerapan aturan bisnis. Pengaruh isi konteks bisnis dapat diperiksa dengan membandingkan konteks lengkap dan beberapa variasi yang masing-masing tidak menyertakan satu dokumen atau menggunakan tingkat detail berbeda untuk masing-masing aturan. Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus. Evaluasi juga dapat melibatkan analis dan pengguna bisnis untuk menilai kegunaan jawaban agen dalam pekerjaan mereka. Pertanyaan pengujian dapat disusun dari kebutuhan analisis pengguna, dengan rubrik yang mencakup ketepatan hasil, kejelasan penjelasan, dan kegunaan jawaban.",
+    "finding_ids": [
+      "W26"
+    ]
+  }
+]

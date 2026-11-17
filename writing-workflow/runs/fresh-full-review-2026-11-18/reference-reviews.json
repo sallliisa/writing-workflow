@@ -1,0 +1,4074 @@
+[
+  {
+    "node_id": "R-root",
+    "function": "Menuntun pembaca dari masalah ke bukti dan batas kesimpulan.",
+    "target_ids": [
+      "T-root"
+    ],
+    "disposition": "adapted",
+    "rationale": "Lima bab mengikat pertanyaan operasional pada desain faktorial dan hasil jawaban terstruktur.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1,
+        "end_line": 3,
+        "supports": "Menuntun pembaca dari masalah ke bukti dan batas kesimpulan."
+      },
+      {
+        "document": "target",
+        "start_line": 1,
+        "end_line": 3,
+        "supports": "Orientasi bab dan cakupan penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0001",
+    "function": "Menetapkan alasan, pertanyaan dan batas penelitian.",
+    "target_ids": [
+      "T-0001"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan pendahuluan menempatkan cakupan sebelum peta bab.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 3,
+        "end_line": 4,
+        "supports": "Menetapkan alasan, pertanyaan dan batas penelitian."
+      },
+      {
+        "document": "target",
+        "start_line": 1,
+        "end_line": 3,
+        "supports": "Orientasi bab dan cakupan penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0002",
+    "function": "Menjelaskan biaya penilaian manual dan pilihan pendekatan untuk menghasilkan umpan balik.",
+    "target_ids": [
+      "T-0002"
+    ],
+    "disposition": "adapted",
+    "rationale": "Kesulitan menafsirkan aturan perhitungan dari data memotivasi perbandingan akses konteks.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 7,
+        "end_line": 9,
+        "supports": "Menjelaskan biaya penilaian manual dan pilihan pendekatan untuk menghasilkan umpan balik."
+      },
+      {
+        "document": "target",
+        "start_line": 7,
+        "end_line": 11,
+        "supports": "Pembahasan Latar Belakang menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0003",
+    "function": "Merumuskan pertanyaan tentang kualitas keluaran pada konfigurasi tertentu.",
+    "target_ids": [
+      "T-0003"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "Pertanyaan sasaran menentukan model dan kondisi akses dokumen.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 25,
+        "end_line": 27,
+        "supports": "Merumuskan pertanyaan tentang kualitas keluaran pada konfigurasi tertentu."
+      },
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 24,
+        "supports": "Pembahasan Rumusan Masalah menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0004",
+    "function": "Menurunkan tujuan perbandingan dari pertanyaan.",
+    "target_ids": [
+      "T-0004"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "Tujuan sasaran mencakup proporsi kesesuaian dan distribusi hasil pada kasus dan pengulangan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 31,
+        "end_line": 33,
+        "supports": "Menurunkan tujuan perbandingan dari pertanyaan."
+      },
+      {
+        "document": "target",
+        "start_line": 27,
+        "end_line": 28,
+        "supports": "Pembahasan Tujuan Penelitian menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0005",
+    "function": "Menghubungkan kontribusi teoretis dengan kegunaan bagi pelaku domain.",
+    "target_ids": [
+      "T-0005"
+    ],
+    "disposition": "adapted",
+    "rationale": "Penerima manfaat bergeser ke pengembang dan pengguna analisis operasional.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 37,
+        "end_line": 39,
+        "supports": "Menghubungkan kontribusi teoretis dengan kegunaan bagi pelaku domain."
+      },
+      {
+        "document": "target",
+        "start_line": 31,
+        "end_line": 35,
+        "supports": "Pembahasan Manfaat Penelitian menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0006",
+    "function": "Menentukan batas generalisasi dan pengukuran.",
+    "target_ids": [
+      "T-0006"
+    ],
+    "disposition": "adapted",
+    "rationale": "Jumlah kasus, data sintetis, akses dan pemberian dokumen bersama membatasi tafsir.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 43,
+        "end_line": 44,
+        "supports": "Menentukan batas generalisasi dan pengukuran."
+      },
+      {
+        "document": "target",
+        "start_line": 38,
+        "end_line": 42,
+        "supports": "Pembahasan Batasan Penelitian menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0007",
+    "function": "Mengantar pembaca ke fungsi lima bab.",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "Tabel peta bab memenuhi fungsi navigasi yang sama.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 57,
+        "end_line": 58,
+        "supports": "Mengantar pembaca ke fungsi lima bab."
+      },
+      {
+        "document": "target",
+        "start_line": 48,
+        "end_line": 52,
+        "supports": "Pembahasan Sistematika Penulisan menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0008",
+    "function": "Membangun konsep yang diperlukan sebelum desain eksperimen.",
+    "target_ids": [
+      "T-0008"
+    ],
+    "disposition": "adapted",
+    "rationale": "Teori sasaran memilih mekanisme agen, akses data dan ukuran kebenaran jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 81,
+        "end_line": 82,
+        "supports": "Membangun konsep yang diperlukan sebelum desain eksperimen."
+      },
+      {
+        "document": "target",
+        "start_line": 62,
+        "end_line": 64,
+        "supports": "Orientasi bab dan cakupan penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0009",
+    "function": "Membandingkan penelitian terdahulu dan menjelaskan ruang pertanyaan penelitian.",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "Studi analisis bahasa alami dan evaluasi agen menyediakan landasan domain yang berbeda.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 85,
+        "end_line": 86,
+        "supports": "Membandingkan penelitian terdahulu dan menjelaskan ruang pertanyaan penelitian."
+      },
+      {
+        "document": "target",
+        "start_line": 89,
+        "end_line": 93,
+        "supports": "Pembahasan State-of-the-art menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0010",
+    "function": "Menjelaskan kebutuhan penerima dan pemberi umpan balik.",
+    "target_ids": [
+      "T-0010"
+    ],
+    "disposition": "adapted",
+    "rationale": "Business intelligence menetapkan kebutuhan pengguna akan analisis informasi operasional.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 113,
+        "end_line": 115,
+        "supports": "Menjelaskan kebutuhan penerima dan pemberi umpan balik."
+      },
+      {
+        "document": "target",
+        "start_line": 97,
+        "end_line": 100,
+        "supports": "Pembahasan Business Intelligence menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0011",
+    "function": "Menjelaskan cara otomatisasi memenuhi kebutuhan domain dan tantangannya.",
+    "target_ids": [
+      "T-0011"
+    ],
+    "disposition": "adapted",
+    "rationale": "Agen mengakses data dan menjalankan analisis untuk menghasilkan jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 119,
+        "end_line": 121,
+        "supports": "Menjelaskan cara otomatisasi memenuhi kebutuhan domain dan tantangannya."
+      },
+      {
+        "document": "target",
+        "start_line": 103,
+        "end_line": 107,
+        "supports": "Pembahasan Agentic Business Intelligence menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0012",
+    "function": "Memperkenalkan mekanisme kecerdasan buatan yang menjalankan tugas.",
+    "target_ids": [
+      "T-0012",
+      "T-0013"
+    ],
+    "disposition": "adapted",
+    "rationale": "Fokus teori sasaran adalah tindakan agen, alat dan protokol akses yang dipakai.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 125,
+        "end_line": 127,
+        "supports": "Memperkenalkan mekanisme kecerdasan buatan yang menjalankan tugas."
+      },
+      {
+        "document": "target",
+        "start_line": 113,
+        "end_line": 117,
+        "supports": "Pembahasan Agen Berbasis Kecerdasan Buatan menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 121,
+        "end_line": 125,
+        "supports": "Pembahasan Tool dan Model Context Protocol menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0013",
+    "function": "Menjelaskan peran pengolahan bahasa dalam interaksi pengguna dengan sistem.",
+    "target_ids": [
+      "T-0014"
+    ],
+    "disposition": "adapted",
+    "rationale": "Sasaran membahas hubungan pertanyaan bahasa alami dengan operasi analisis data.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 131,
+        "end_line": 133,
+        "supports": "Menjelaskan peran pengolahan bahasa dalam interaksi pengguna dengan sistem."
+      },
+      {
+        "document": "target",
+        "start_line": 129,
+        "end_line": 133,
+        "supports": "Pembahasan Analisis Data melalui Bahasa Alami menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0014",
+    "function": "Menjelaskan bagaimana instruksi dan informasi masukan memengaruhi tugas.",
+    "target_ids": [
+      "T-0015",
+      "T-0016",
+      "T-0017"
+    ],
+    "disposition": "adapted",
+    "rationale": "Pertanyaan tetap dan dokumen yang tersedia membedakan dua sumber arahan agen.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 137,
+        "end_line": 139,
+        "supports": "Menjelaskan bagaimana instruksi dan informasi masukan memengaruhi tugas."
+      },
+      {
+        "document": "target",
+        "start_line": 137,
+        "end_line": 141,
+        "supports": "Pembahasan Prompt dan Konteks Bisnis menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 143,
+        "end_line": 147,
+        "supports": "Pembahasan Struktur dan Isi Konteks Bisnis menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 151,
+        "end_line": 154,
+        "supports": "Pembahasan Skills menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0015",
+    "function": "Mengelompokkan jenis perlakuan masukan sebelum rincian tiap teknik.",
+    "target_ids": [
+      "T-0016",
+      "T-0017"
+    ],
+    "disposition": "adapted",
+    "rationale": "Sasaran menguraikan isi dokumen dan cara instruksi mengarahkan agen ke berkas.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 141,
+        "end_line": 143,
+        "supports": "Mengelompokkan jenis perlakuan masukan sebelum rincian tiap teknik."
+      },
+      {
+        "document": "target",
+        "start_line": 143,
+        "end_line": 147,
+        "supports": "Pembahasan Struktur dan Isi Konteks Bisnis menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 151,
+        "end_line": 154,
+        "supports": "Pembahasan Skills menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0016",
+    "function": "Menjelaskan inferensi tanpa contoh dan kedudukannya sebagai pembanding.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ketiadaan contoh tugas berbeda dari ketiadaan tujuh dokumen. Jumlah contoh tidak diuji.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 145,
+        "end_line": 147,
+        "supports": "Menjelaskan inferensi tanpa contoh dan kedudukannya sebagai pembanding."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0017",
+    "function": "Mendefinisikan dan memotivasi satu contoh pasangan masukan–keluaran.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Rancangan kasus mempertahankan pertanyaan yang sama dan tidak memvariasikan jumlah contoh.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 153,
+        "end_line": 155,
+        "supports": "Mendefinisikan dan memotivasi satu contoh pasangan masukan–keluaran."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0018",
+    "function": "Menjelaskan fungsi beberapa demonstrasi bagi bentuk umpan balik.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Dokumen memuat istilah dan aturan. Tidak ada perlakuan beberapa contoh.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 161,
+        "end_line": 163,
+        "supports": "Menjelaskan fungsi beberapa demonstrasi bagi bentuk umpan balik."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0019",
+    "function": "Menerangkan instruksi penalaran bertahap sebagai strategi tersendiri.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Cara bernalar yang diminta bukan faktor pada empat konfigurasi.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 169,
+        "end_line": 171,
+        "supports": "Menerangkan instruksi penalaran bertahap sebagai strategi tersendiri."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0020",
+    "function": "Mendefinisikan tiga peran penjawab dan pengaruh yang hendak dibandingkan.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Penelitian sasaran membedakan ketersediaan konteks dan model. Persona tidak diuji.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 177,
+        "end_line": 179,
+        "supports": "Mendefinisikan tiga peran penjawab dan pengaruh yang hendak dibandingkan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0021",
+    "function": "Menjelaskan kemampuan dua model dan alasan memperbandingkannya.",
+    "target_ids": [
+      "T-0018"
+    ],
+    "disposition": "adapted",
+    "rationale": "Dua model sasaran mengisi peran yang sama dengan identitas dan lingkungan berbeda.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 185,
+        "end_line": 187,
+        "supports": "Menjelaskan kemampuan dua model dan alasan memperbandingkannya."
+      },
+      {
+        "document": "target",
+        "start_line": 157,
+        "end_line": 172,
+        "supports": "Pembahasan Large Language Models menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0022",
+    "function": "Memperkenalkan karakteristik dan akses model pertama.",
+    "target_ids": [
+      "T-0019"
+    ],
+    "disposition": "adapted",
+    "rationale": "Profil pertama mengidentifikasi model dan sarana pemanggilan yang relevan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 205,
+        "end_line": 207,
+        "supports": "Memperkenalkan karakteristik dan akses model pertama."
+      },
+      {
+        "document": "target",
+        "start_line": 176,
+        "end_line": 177,
+        "supports": "Pembahasan Muse Spark 1.3 menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0023",
+    "function": "Memperkenalkan karakteristik dan akses model kedua.",
+    "target_ids": [
+      "T-0020"
+    ],
+    "disposition": "adapted",
+    "rationale": "Profil kedua mengidentifikasi versi dan batas konfigurasi model yang diuji.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 219,
+        "end_line": 221,
+        "supports": "Memperkenalkan karakteristik dan akses model kedua."
+      },
+      {
+        "document": "target",
+        "start_line": 180,
+        "end_line": 181,
+        "supports": "Pembahasan DeepSeek v4 Flash menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0024",
+    "function": "Mendefinisikan arti setiap ukuran sebelum menerapkannya.",
+    "target_ids": [
+      "T-0021",
+      "T-0022",
+      "T-0023",
+      "T-0024"
+    ],
+    "disposition": "adapted",
+    "rationale": "Tiga konsep sasaran memisahkan putusan per jawaban, agregasi, dan konsistensi per kasus.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 235,
+        "end_line": 237,
+        "supports": "Mendefinisikan arti setiap ukuran sebelum menerapkannya."
+      },
+      {
+        "document": "target",
+        "start_line": 184,
+        "end_line": 188,
+        "supports": "Pembahasan Evaluasi Hasil Analisis menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 188,
+        "end_line": 191,
+        "supports": "Pembahasan Kesesuaian Struktur dan Nilai Jawaban menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 194,
+        "end_line": 195,
+        "supports": "Pembahasan Tingkat Keberhasilan menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 198,
+        "end_line": 201,
+        "supports": "Pembahasan Konsistensi Hasil Pengulangan menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0025",
+    "function": "Menetapkan ketepatan n-gram dan penalti panjang sebagai ukuran kesamaan.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Kebenaran nilai JSON dapat berubah meski sebagian besar token cocok.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 241,
+        "end_line": 242,
+        "supports": "Menetapkan ketepatan n-gram dan penalti panjang sebagai ukuran kesamaan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0026",
+    "function": "Menetapkan subsekuens terpanjang untuk membandingkan urutan kata.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Urutan elemen array diuji dengan kesesuaian langsung, bukan subsekuens token.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 270,
+        "end_line": 272,
+        "supports": "Menetapkan subsekuens terpanjang untuk membandingkan urutan kata."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0027",
+    "function": "Menggabungkan kecocokan unigram dan penalti fragmentasi.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Kesamaan leksikal sebagian tidak memenuhi syarat PASS.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 305,
+        "end_line": 307,
+        "supports": "Menggabungkan kecocokan unigram dan penalti fragmentasi."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0028",
+    "function": "Mengukur kedekatan semantik melalui representasi token.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Sinonimi dan kemiripan vektor bukan aturan keputusan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 340,
+        "end_line": 341,
+        "supports": "Mengukur kedekatan semantik melalui representasi token."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0029",
+    "function": "Menunjukkan alur dari data hingga perbandingan hasil.",
+    "target_ids": [
+      "T-0025"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan sasaran membuat acuan jawaban sebelum generasi dan evaluasi.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 376,
+        "end_line": 377,
+        "supports": "Menunjukkan alur dari data hingga perbandingan hasil."
+      },
+      {
+        "document": "target",
+        "start_line": 202,
+        "end_line": 204,
+        "supports": "Orientasi bab dan cakupan penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0030",
+    "function": "Memberi gambaran desain, tahap dan keluaran eksperimen.",
+    "target_ids": [
+      "T-0026"
+    ],
+    "disposition": "adapted",
+    "rationale": "Desain menghubungkan kasus, model, ketersediaan konteks serta pengulangan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 380,
+        "end_line": 381,
+        "supports": "Memberi gambaran desain, tahap dan keluaran eksperimen."
+      },
+      {
+        "document": "target",
+        "start_line": 208,
+        "end_line": 230,
+        "supports": "Pembahasan Gambaran Umum Penelitian menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0031",
+    "function": "Mengidentifikasi data tugas dan asal pembanding yang digunakan menilai keluaran.",
+    "target_ids": [
+      "T-0028",
+      "T-0029",
+      "T-0030"
+    ],
+    "disposition": "adapted",
+    "rationale": "Data sintetis, alasan pemilihan kasus dan perhitungan acuan mengambil fungsi berbeda.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 394,
+        "end_line": 396,
+        "supports": "Mengidentifikasi data tugas dan asal pembanding yang digunakan menilai keluaran."
+      },
+      {
+        "document": "target",
+        "start_line": 238,
+        "end_line": 242,
+        "supports": "Pembahasan Sumber dan Cakupan Data menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 256,
+        "end_line": 260,
+        "supports": "Pembahasan Pemilihan Kasus Uji menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 337,
+        "supports": "Pembahasan Penyusunan Expected Result menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0032",
+    "function": "Menunjukkan komponen masukan yang tetap dan bervariasi.",
+    "target_ids": [
+      "T-0031",
+      "T-0032",
+      "T-0033"
+    ],
+    "disposition": "adapted",
+    "rationale": "Sasaran memisahkan system prompt, pertanyaan per kasus dan dokumen yang tersedia bersama.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 422,
+        "end_line": 424,
+        "supports": "Menunjukkan komponen masukan yang tetap dan bervariasi."
+      },
+      {
+        "document": "target",
+        "start_line": 341,
+        "end_line": 345,
+        "supports": "Pembahasan Penyusunan Prompt dan Konteks Bisnis menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 360,
+        "supports": "Pembahasan Pertanyaan dan Format Jawaban menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 364,
+        "end_line": 385,
+        "supports": "Pembahasan Konteks Bisnis menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0033",
+    "function": "Menunjukkan implementasi instruksi dasar lewat contoh masukan konkret.",
+    "target_ids": [
+      "T-0032"
+    ],
+    "disposition": "adapted",
+    "rationale": "Contoh pertanyaan dan format jawaban memperlihatkan masukan dasar yang sama pada kedua kondisi.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 430,
+        "end_line": 431,
+        "supports": "Menunjukkan implementasi instruksi dasar lewat contoh masukan konkret."
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 360,
+        "supports": "Pembahasan Pertanyaan dan Format Jawaban menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0034",
+    "function": "Memperagakan penambahan satu contoh referensi pada prompt.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Tidak ada kondisi one-shot.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 454,
+        "end_line": 455,
+        "supports": "Memperagakan penambahan satu contoh referensi pada prompt."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0035",
+    "function": "Memperagakan penyisipan beberapa contoh umpan balik.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Tidak ada manipulasi jumlah contoh.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 476,
+        "end_line": 477,
+        "supports": "Memperagakan penyisipan beberapa contoh umpan balik."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0036",
+    "function": "Menunjukkan bentuk instruksi berpikir bertahap dalam dua domain.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Kedua model menerima pertanyaan kasus tetap. Instruksi berpikir bertahap tidak dibandingkan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 500,
+        "end_line": 501,
+        "supports": "Menunjukkan bentuk instruksi berpikir bertahap dalam dua domain."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0037",
+    "function": "Menjelaskan pemanggilan model dan penyimpanan respons berdasarkan konfigurasi.",
+    "target_ids": [
+      "T-0035",
+      "T-0036",
+      "T-0037"
+    ],
+    "disposition": "adapted",
+    "rationale": "Pengaturan model, batas akses dan prosedur tiga pengulangan bersama menetapkan asal keluaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 524,
+        "end_line": 526,
+        "supports": "Menjelaskan pemanggilan model dan penyimpanan respons berdasarkan konfigurasi."
+      },
+      {
+        "document": "target",
+        "start_line": 391,
+        "end_line": 405,
+        "supports": "Pembahasan Model dan Lingkungan Pengujian menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 413,
+        "end_line": 417,
+        "supports": "Pembahasan Akses Data menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 431,
+        "end_line": 434,
+        "supports": "Pembahasan Prosedur Generasi Jawaban menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0038",
+    "function": "Mempertemukan satu acuan dan satu keluaran sebelum memperagakan penilaian.",
+    "target_ids": [
+      "T-0038",
+      "T-0039",
+      "T-0040"
+    ],
+    "disposition": "adapted",
+    "rationale": "Dua jawaban T5-C1 dibandingkan pada acuan yang sama sebelum proporsi PASS dihitung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 532,
+        "end_line": 534,
+        "supports": "Mempertemukan satu acuan dan satu keluaran sebelum memperagakan penilaian."
+      },
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 441,
+        "supports": "Pembahasan Evaluasi Hasil Generasi menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 455,
+        "supports": "Pembahasan Perbandingan Respons dan *Expected Result* menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 459,
+        "end_line": 467,
+        "supports": "Pembahasan Perhitungan Tingkat Keberhasilan menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0039",
+    "function": "Merunut contoh dari unit pembanding hingga interpretasi BLEU-2.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Atribut dan nilai pada dua jawaban membuat penilaian dapat diikuti tanpa skor kemiripan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 554,
+        "end_line": 555,
+        "supports": "Merunut contoh dari unit pembanding hingga interpretasi BLEU-2."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 455,
+        "supports": "Pembahasan Perbandingan Respons dan *Expected Result* menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0040",
+    "function": "Merunut subsekuens dan penyebut hingga makna skor ROUGE-L.",
+    "target_ids": [
+      "T-0039",
+      "T-0040"
+    ],
+    "disposition": "adapted",
+    "rationale": "Aturan kesesuaian dan penyebut tingkat keberhasilan dijelaskan terpisah sesuai unit pengukuran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 639,
+        "end_line": 640,
+        "supports": "Merunut subsekuens dan penyebut hingga makna skor ROUGE-L."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 455,
+        "supports": "Pembahasan Perbandingan Respons dan *Expected Result* menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 459,
+        "end_line": 467,
+        "supports": "Pembahasan Perhitungan Tingkat Keberhasilan menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0041",
+    "function": "Merunut kecocokan dan penyesuaian skor hingga interpretasi contoh METEOR.",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "T5-C1 menerangkan atribut mana yang mengubah keputusan. Tidak diperlukan penalti bertingkat.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 673,
+        "end_line": 674,
+        "supports": "Merunut kecocokan dan penyesuaian skor hingga interpretasi contoh METEOR."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 455,
+        "supports": "Pembahasan Perbandingan Respons dan *Expected Result* menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0042",
+    "function": "Memperagakan perbedaan antara kemiripan makna dan kecocokan literal.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Kriteria sasaran mendefinisikan kesesuaian struktur dan nilai. Tidak ada model embedding untuk menilai jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 713,
+        "end_line": 715,
+        "supports": "Memperagakan perbedaan antara kemiripan makna dan kecocokan literal."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0043",
+    "function": "Menempatkan hasil per domain sebelum sintesis.",
+    "target_ids": [
+      "T-0042"
+    ],
+    "disposition": "adapted",
+    "rationale": "Enam kelompok kasus memisahkan aturan analitis yang diuji.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 751,
+        "end_line": 752,
+        "supports": "Menempatkan hasil per domain sebelum sintesis."
+      },
+      {
+        "document": "target",
+        "start_line": 475,
+        "end_line": 477,
+        "supports": "Orientasi bab dan cakupan penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0044",
+    "function": "Melaporkan lingkungan aktual pelaksanaan.",
+    "target_ids": [
+      "T-0043",
+      "T-0035"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "Ringkasan hasil dan pengaturan metodologis bersama mengidentifikasi model, penyedia, dan kondisi yang dipakai.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 755,
+        "end_line": 756,
+        "supports": "Melaporkan lingkungan aktual pelaksanaan."
+      },
+      {
+        "document": "target",
+        "start_line": 481,
+        "end_line": 485,
+        "supports": "Pembahasan Lingkungan Pengujian menetapkan cakupan atau dasar perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 391,
+        "end_line": 405,
+        "supports": "Pembahasan Model dan Lingkungan Pengujian menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0045",
+    "function": "Menghitung jumlah keluaran dari jumlah masukan dan konfigurasi.",
+    "target_ids": [
+      "T-0044"
+    ],
+    "disposition": "adapted",
+    "rationale": "Rekap kasus, pengulangan dan konfigurasi memberi penyebut bagi hasil.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 763,
+        "end_line": 765,
+        "supports": "Menghitung jumlah keluaran dari jumlah masukan dan konfigurasi."
+      },
+      {
+        "document": "target",
+        "start_line": 493,
+        "end_line": 507,
+        "supports": "Pembahasan Data Penelitian menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0046",
+    "function": "Mengelompokkan hasil Sistem Cerdas sebelum menafsirkan perbandingan faktor.",
+    "target_ids": [
+      "T-0045",
+      "T-0049",
+      "T-0053",
+      "T-0057",
+      "T-0061",
+      "T-0065"
+    ],
+    "disposition": "adapted",
+    "rationale": "Keenam kelompok operasional menjalankan fungsi pengelompokan domain ini. Tidak ada pasangan satu mata kuliah dengan satu jenis tugas.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 781,
+        "end_line": 783,
+        "supports": "Mengelompokkan hasil Sistem Cerdas sebelum menafsirkan perbandingan faktor."
+      },
+      {
+        "document": "target",
+        "start_line": 509,
+        "end_line": 513,
+        "supports": "Kelompok Analisis Hasil pada Durasi Transaksi dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 552,
+        "end_line": 556,
+        "supports": "Kelompok Analisis Hasil pada Volume Lalu Lintas dan LHR dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 599,
+        "end_line": 603,
+        "supports": "Kelompok Analisis Hasil pada Insiden dan Penyebab Kecelakaan dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 657,
+        "end_line": 661,
+        "supports": "Kelompok Analisis Hasil pada Inspeksi dan Identitas Aset dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 700,
+        "end_line": 704,
+        "supports": "Kelompok Analisis Hasil pada SPM dan SLA per Laporan dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 758,
+        "end_line": 762,
+        "supports": "Kelompok Analisis Hasil pada SPM/SLA Periode dan Antarperiode dibuka dengan cakupan kasus."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0047",
+    "function": "Membandingkan pengaturan prompt dalam Sistem Cerdas.",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "Kondisi masukan sasaran adalah ketersediaan bersama tujuh dokumen. Proporsi memakai gabungan jawaban dua model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 785,
+        "end_line": 786,
+        "supports": "Membandingkan pengaturan prompt dalam Sistem Cerdas."
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 523,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 566,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 613,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 671,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 714,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 772,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0048",
+    "function": "Membandingkan persona dalam Sistem Cerdas.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona tidak menjadi faktor eksperimen, sehingga tidak ada sel atau perbandingan marginal untuk persona.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 816,
+        "end_line": 817,
+        "supports": "Membandingkan persona dalam Sistem Cerdas."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0049",
+    "function": "Membandingkan model dalam Sistem Cerdas.",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan model pada tiap kelompok menggabungkan kedua kondisi konteks.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 846,
+        "end_line": 847,
+        "supports": "Membandingkan model dalam Sistem Cerdas."
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 536,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 579,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 626,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 684,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 727,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 785,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0050",
+    "function": "Membandingkan konfigurasi lengkap dalam Sistem Cerdas.",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "Empat kombinasi membedakan sel dengan model atau konteks sama dan melokalisasi kasus yang gagal.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 877,
+        "end_line": 878,
+        "supports": "Membandingkan konfigurasi lengkap dalam Sistem Cerdas."
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 550,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 593,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 640,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 698,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 741,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 799,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0051",
+    "function": "Mengelompokkan hasil metodologi penelitian sebelum menafsirkan perbandingan faktor.",
+    "target_ids": [
+      "T-0045",
+      "T-0049",
+      "T-0053",
+      "T-0057",
+      "T-0061",
+      "T-0065"
+    ],
+    "disposition": "adapted",
+    "rationale": "Keenam kelompok operasional menjalankan fungsi pengelompokan domain ini. Tidak ada pasangan satu mata kuliah dengan satu jenis tugas.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 926,
+        "end_line": 928,
+        "supports": "Mengelompokkan hasil metodologi penelitian sebelum menafsirkan perbandingan faktor."
+      },
+      {
+        "document": "target",
+        "start_line": 509,
+        "end_line": 513,
+        "supports": "Kelompok Analisis Hasil pada Durasi Transaksi dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 552,
+        "end_line": 556,
+        "supports": "Kelompok Analisis Hasil pada Volume Lalu Lintas dan LHR dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 599,
+        "end_line": 603,
+        "supports": "Kelompok Analisis Hasil pada Insiden dan Penyebab Kecelakaan dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 657,
+        "end_line": 661,
+        "supports": "Kelompok Analisis Hasil pada Inspeksi dan Identitas Aset dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 700,
+        "end_line": 704,
+        "supports": "Kelompok Analisis Hasil pada SPM dan SLA per Laporan dibuka dengan cakupan kasus."
+      },
+      {
+        "document": "target",
+        "start_line": 758,
+        "end_line": 762,
+        "supports": "Kelompok Analisis Hasil pada SPM/SLA Periode dan Antarperiode dibuka dengan cakupan kasus."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0052",
+    "function": "Membandingkan pengaturan prompt dalam metodologi penelitian.",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "Kondisi masukan sasaran adalah ketersediaan bersama tujuh dokumen. Proporsi memakai gabungan jawaban dua model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 930,
+        "end_line": 931,
+        "supports": "Membandingkan pengaturan prompt dalam metodologi penelitian."
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 523,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 566,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 613,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 671,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 714,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 772,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0053",
+    "function": "Membandingkan persona dalam metodologi penelitian.",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona tidak menjadi faktor eksperimen, sehingga tidak ada sel atau perbandingan marginal untuk persona.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 963,
+        "end_line": 964,
+        "supports": "Membandingkan persona dalam metodologi penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0054",
+    "function": "Membandingkan model dalam metodologi penelitian.",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan model pada tiap kelompok menggabungkan kedua kondisi konteks.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 993,
+        "end_line": 994,
+        "supports": "Membandingkan model dalam metodologi penelitian."
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 536,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 579,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 626,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 684,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 727,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 785,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0055",
+    "function": "Membandingkan konfigurasi lengkap dalam metodologi penelitian.",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "Empat kombinasi membedakan sel dengan model atau konteks sama dan melokalisasi kasus yang gagal.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1022,
+        "end_line": 1023,
+        "supports": "Membandingkan konfigurasi lengkap dalam metodologi penelitian."
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 550,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 593,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 640,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 698,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 741,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 799,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0056",
+    "function": "Menyatukan hasil lintas kelompok dan faktor.",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "Rekap 170/180 diikuti hasil per kondisi, jenis selisih, pengulangan dan batas atribusi.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1073,
+        "end_line": 1074,
+        "supports": "Menyatukan hasil lintas kelompok dan faktor."
+      },
+      {
+        "document": "target",
+        "start_line": 805,
+        "end_line": 819,
+        "supports": "Pembahasan Interpretasi Hasil menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0057",
+    "function": "Menutup argumen dengan jawaban dan kelanjutan penelitian.",
+    "target_ids": [
+      "T-0070"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "Kesimpulan dan saran menjalankan dua fungsi penutup.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1087,
+        "end_line": 1088,
+        "supports": "Menutup argumen dengan jawaban dan kelanjutan penelitian."
+      },
+      {
+        "document": "target",
+        "start_line": 821,
+        "end_line": 823,
+        "supports": "Orientasi bab dan cakupan penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0058",
+    "function": "Menjawab pertanyaan berdasarkan perbandingan eksperimen.",
+    "target_ids": [
+      "T-0071"
+    ],
+    "disposition": "adapted",
+    "rationale": "Kesimpulan mengikat perbedaan kedua model pada kondisi dan kasus yang diuji.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1091,
+        "end_line": 1092,
+        "supports": "Menjawab pertanyaan berdasarkan perbandingan eksperimen."
+      },
+      {
+        "document": "target",
+        "start_line": 827,
+        "end_line": 835,
+        "supports": "Pembahasan Kesimpulan menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0059",
+    "function": "Mengubah batas pengukuran menjadi usulan pengembangan.",
+    "target_ids": [
+      "T-0072"
+    ],
+    "disposition": "adapted",
+    "rationale": "Usulan sasaran meliputi bidang lain, evaluasi pengguna, dan kontribusi dokumen.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1095,
+        "end_line": 1096,
+        "supports": "Mengubah batas pengukuran menjadi usulan pengembangan."
+      },
+      {
+        "document": "target",
+        "start_line": 839,
+        "end_line": 839,
+        "supports": "Pembahasan Saran menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-0060",
+    "function": "Menyediakan identitas sumber untuk menelusuri sitasi.",
+    "target_ids": [
+      "T-0073"
+    ],
+    "disposition": "fulfilled",
+    "rationale": "Daftar pustaka menyediakan jalur penelusuran. Isi publikasi tidak diverifikasi.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1099,
+        "end_line": 1101,
+        "supports": "Menyediakan identitas sumber untuk menelusuri sitasi."
+      },
+      {
+        "document": "target",
+        "start_line": 843,
+        "end_line": 847,
+        "supports": "Pembahasan DAFTAR PUSTAKA menetapkan cakupan atau dasar perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0045",
+    "function": "Batasi domain pengujian",
+    "target_ids": [
+      "T-0006"
+    ],
+    "disposition": "adapted",
+    "rationale": "Cakupan tugas menentukan generalisasi.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 45,
+        "end_line": 46,
+        "supports": "Batasi domain pengujian"
+      },
+      {
+        "document": "target",
+        "start_line": 40,
+        "end_line": 41,
+        "supports": "Kasus dan data sintetis."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0047",
+    "function": "Batasi ukuran pada keluaran otomatis",
+    "target_ids": [
+      "T-0071"
+    ],
+    "disposition": "adapted",
+    "rationale": "Evaluasi otomatis menetapkan ruang tafsir.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 47,
+        "end_line": 48,
+        "supports": "Batasi ukuran pada keluaran otomatis"
+      },
+      {
+        "document": "target",
+        "start_line": 835,
+        "end_line": 835,
+        "supports": "Batas penilaian jawaban akhir."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0049",
+    "function": "Batasi model dan konfigurasi",
+    "target_ids": [
+      "T-0006"
+    ],
+    "disposition": "adapted",
+    "rationale": "Desain sasaran memakai dua model dan kondisi akses.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 49,
+        "end_line": 50,
+        "supports": "Batasi model dan konfigurasi"
+      },
+      {
+        "document": "target",
+        "start_line": 42,
+        "end_line": 44,
+        "supports": "Akses, konteks dan dua model."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0051",
+    "function": "Nyatakan variasi contoh yang tidak dipisahkan",
+    "target_ids": [
+      "T-0006"
+    ],
+    "disposition": "adapted",
+    "rationale": "Pemberian tujuh dokumen bersama membatasi atribusi ke bagian paket.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 51,
+        "end_line": 52,
+        "supports": "Nyatakan variasi contoh yang tidak dipisahkan"
+      },
+      {
+        "document": "target",
+        "start_line": 43,
+        "end_line": 43,
+        "supports": "Dokumen diberikan bersama."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0053",
+    "function": "Batasi tafsir manfaat bagi pengguna",
+    "target_ids": [
+      "T-0072"
+    ],
+    "disposition": "adapted",
+    "rationale": "Ukuran keberhasilan pengguna memerlukan penelitian tersendiri.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 53,
+        "end_line": 54,
+        "supports": "Batasi tafsir manfaat bagi pengguna"
+      },
+      {
+        "document": "target",
+        "start_line": 839,
+        "end_line": 839,
+        "supports": "Evaluasi pengguna diusulkan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0059",
+    "function": "Petunjuk isi Bab 1",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "adapted",
+    "rationale": "Satu baris peta isi menggantikan subjudul kecil pada acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 59,
+        "end_line": 61,
+        "supports": "Petunjuk isi Bab 1"
+      },
+      {
+        "document": "target",
+        "start_line": 51,
+        "end_line": 52,
+        "supports": "Baris tabel memetakan fungsi bab."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0063",
+    "function": "Petunjuk isi Bab 2",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "adapted",
+    "rationale": "Satu baris peta isi menggantikan subjudul kecil pada acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 63,
+        "end_line": 65,
+        "supports": "Petunjuk isi Bab 2"
+      },
+      {
+        "document": "target",
+        "start_line": 53,
+        "end_line": 54,
+        "supports": "Baris tabel memetakan fungsi bab."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0067",
+    "function": "Petunjuk isi Bab 3",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "adapted",
+    "rationale": "Satu baris peta isi menggantikan subjudul kecil pada acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 67,
+        "end_line": 69,
+        "supports": "Petunjuk isi Bab 3"
+      },
+      {
+        "document": "target",
+        "start_line": 55,
+        "end_line": 56,
+        "supports": "Baris tabel memetakan fungsi bab."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0071",
+    "function": "Petunjuk isi Bab 4",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "adapted",
+    "rationale": "Satu baris peta isi menggantikan subjudul kecil pada acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 71,
+        "end_line": 73,
+        "supports": "Petunjuk isi Bab 4"
+      },
+      {
+        "document": "target",
+        "start_line": 57,
+        "end_line": 58,
+        "supports": "Baris tabel memetakan fungsi bab."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0075",
+    "function": "Petunjuk isi Bab 5",
+    "target_ids": [
+      "T-0007"
+    ],
+    "disposition": "adapted",
+    "rationale": "Satu baris peta isi menggantikan subjudul kecil pada acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 75,
+        "end_line": 77,
+        "supports": "Petunjuk isi Bab 5"
+      },
+      {
+        "document": "target",
+        "start_line": 59,
+        "end_line": 60,
+        "supports": "Baris tabel memetakan fungsi bab."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0382",
+    "function": "Orientasi alur dan pengumpulan data",
+    "target_ids": [
+      "T-0026"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan kerja yang sama diterapkan pada tugas analisis berbasis data.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 382,
+        "end_line": 384,
+        "supports": "Orientasi alur dan pengumpulan data"
+      },
+      {
+        "document": "target",
+        "start_line": 208,
+        "end_line": 216,
+        "supports": "Tahap yang bersangkutan dijelaskan dalam rancangan dan prosedur."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0386",
+    "function": "Penyusunan masukan",
+    "target_ids": [
+      "T-0031"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan kerja yang sama diterapkan pada tugas analisis berbasis data.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 386,
+        "end_line": 387,
+        "supports": "Penyusunan masukan"
+      },
+      {
+        "document": "target",
+        "start_line": 341,
+        "end_line": 346,
+        "supports": "Tahap yang bersangkutan dijelaskan dalam rancangan dan prosedur."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0388",
+    "function": "Generasi",
+    "target_ids": [
+      "T-0037"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan kerja yang sama diterapkan pada tugas analisis berbasis data.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 388,
+        "end_line": 389,
+        "supports": "Generasi"
+      },
+      {
+        "document": "target",
+        "start_line": 431,
+        "end_line": 433,
+        "supports": "Tahap yang bersangkutan dijelaskan dalam rancangan dan prosedur."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0390",
+    "function": "Evaluasi otomatis",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan kerja yang sama diterapkan pada tugas analisis berbasis data.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 390,
+        "end_line": 391,
+        "supports": "Evaluasi otomatis"
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 445,
+        "supports": "Tahap yang bersangkutan dijelaskan dalam rancangan dan prosedur."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0392",
+    "function": "Analisis konfigurasi",
+    "target_ids": [
+      "T-0041"
+    ],
+    "disposition": "adapted",
+    "rationale": "Urutan kerja yang sama diterapkan pada tugas analisis berbasis data.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 392,
+        "end_line": 393,
+        "supports": "Analisis konfigurasi"
+      },
+      {
+        "document": "target",
+        "start_line": 471,
+        "end_line": 473,
+        "supports": "Tahap yang bersangkutan dijelaskan dalam rancangan dan prosedur."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0396",
+    "function": "Sumber tugas dan contoh data pertama",
+    "target_ids": [
+      "T-0028"
+    ],
+    "disposition": "adapted",
+    "rationale": "Pertanyaan bersumber pada data operasional dan acuan dihitung menurut aturan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 396,
+        "end_line": 398,
+        "supports": "Sumber tugas dan contoh data pertama"
+      },
+      {
+        "document": "target",
+        "start_line": 238,
+        "end_line": 252,
+        "supports": "Data atau dasar perhitungan hasil yang diharapkan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0408",
+    "function": "Acuan penilaian dan contoh data kedua",
+    "target_ids": [
+      "T-0030"
+    ],
+    "disposition": "adapted",
+    "rationale": "Pertanyaan bersumber pada data operasional dan acuan dihitung menurut aturan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 408,
+        "end_line": 410,
+        "supports": "Acuan penilaian dan contoh data kedua"
+      },
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 315,
+        "supports": "Data atau dasar perhitungan hasil yang diharapkan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0418",
+    "function": "Skor tugas asal",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Nilai akademik awal hanya mendeskripsikan jawaban mahasiswa.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 418,
+        "end_line": 419,
+        "supports": "Skor tugas asal"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0432",
+    "function": "Contoh komponen prompt pada tugas pertama",
+    "target_ids": [
+      "T-0032"
+    ],
+    "disposition": "adapted",
+    "rationale": "Contoh masukan dasar terpenuhi dengan satu kasus berformat konkret.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 432,
+        "end_line": 434,
+        "supports": "Contoh komponen prompt pada tugas pertama"
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 360,
+        "supports": "Tabel pertanyaan T2-C1 memberi contoh masukan aktual."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0442",
+    "function": "Contoh komponen prompt pada tugas kedua",
+    "target_ids": [
+      "T-0032"
+    ],
+    "disposition": "adapted",
+    "rationale": "Contoh masukan dasar terpenuhi dengan satu kasus berformat konkret.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 442,
+        "end_line": 444,
+        "supports": "Contoh komponen prompt pada tugas kedua"
+      },
+      {
+        "document": "target",
+        "start_line": 350,
+        "end_line": 360,
+        "supports": "Tabel pertanyaan T2-C1 memberi contoh masukan aktual."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0456",
+    "function": "Contoh komponen prompt pada tugas pertama",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Demonstrasi khusus kondisi prompt ini tidak termasuk rancangan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 456,
+        "end_line": 458,
+        "supports": "Contoh komponen prompt pada tugas pertama"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0465",
+    "function": "Contoh komponen prompt pada tugas kedua",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Demonstrasi khusus kondisi prompt ini tidak termasuk rancangan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 465,
+        "end_line": 467,
+        "supports": "Contoh komponen prompt pada tugas kedua"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0478",
+    "function": "Contoh komponen prompt pada tugas pertama",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Demonstrasi khusus kondisi prompt ini tidak termasuk rancangan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 478,
+        "end_line": 480,
+        "supports": "Contoh komponen prompt pada tugas pertama"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0487",
+    "function": "Contoh komponen prompt pada tugas kedua",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Demonstrasi khusus kondisi prompt ini tidak termasuk rancangan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 487,
+        "end_line": 489,
+        "supports": "Contoh komponen prompt pada tugas kedua"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0502",
+    "function": "Contoh komponen prompt pada tugas pertama",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Demonstrasi khusus kondisi prompt ini tidak termasuk rancangan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 502,
+        "end_line": 504,
+        "supports": "Contoh komponen prompt pada tugas pertama"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0512",
+    "function": "Contoh komponen prompt pada tugas kedua",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Demonstrasi khusus kondisi prompt ini tidak termasuk rancangan sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 512,
+        "end_line": 514,
+        "supports": "Contoh komponen prompt pada tugas kedua"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0536",
+    "function": "Pasangan tugas dan jawaban acuan",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Dua jawaban berbeda menunjukkan keputusan yang berlawanan pada satu acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 536,
+        "end_line": 538,
+        "supports": "Pasangan tugas dan jawaban acuan"
+      },
+      {
+        "document": "target",
+        "start_line": 445,
+        "end_line": 451,
+        "supports": "Contoh terstruktur menghubungkan acuan, jawaban dan keputusan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0543",
+    "function": "Keluaran yang akan dinilai",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Dua jawaban berbeda menunjukkan keputusan yang berlawanan pada satu acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 543,
+        "end_line": 545,
+        "supports": "Keluaran yang akan dinilai"
+      },
+      {
+        "document": "target",
+        "start_line": 452,
+        "end_line": 455,
+        "supports": "Contoh terstruktur menghubungkan acuan, jawaban dan keputusan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0556",
+    "function": "Tokenisasi",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 556,
+        "end_line": 557,
+        "supports": "Tokenisasi"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0558",
+    "function": "Kecocokan unigram",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 558,
+        "end_line": 560,
+        "supports": "Kecocokan unigram"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0598",
+    "function": "Kecocokan bigram",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 598,
+        "end_line": 600,
+        "supports": "Kecocokan bigram"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0619",
+    "function": "Penalti panjang",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 619,
+        "end_line": 621,
+        "supports": "Penalti panjang"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0625",
+    "function": "Penggabungan skor",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 625,
+        "end_line": 627,
+        "supports": "Penggabungan skor"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0635",
+    "function": "Tafsir skor BLEU-2",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Arti keputusan diperlihatkan pada atribut jawaban T5-C1.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 635,
+        "end_line": 636,
+        "supports": "Tafsir skor BLEU-2"
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "Perbedaan jumlah, isi array, dan total menjelaskan keputusan FAIL."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0641",
+    "function": "Penentuan subsekuens",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 641,
+        "end_line": 643,
+        "supports": "Penentuan subsekuens"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0649",
+    "function": "Perhitungan recall dan precision",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 649,
+        "end_line": 651,
+        "supports": "Perhitungan recall dan precision"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0659",
+    "function": "Penggabungan dengan bobot seimbang",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 659,
+        "end_line": 661,
+        "supports": "Penggabungan dengan bobot seimbang"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0669",
+    "function": "Tafsir ROUGE-L",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Arti keputusan diperlihatkan pada atribut jawaban T5-C1.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 669,
+        "end_line": 670,
+        "supports": "Tafsir ROUGE-L"
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "Perbedaan jumlah, isi array, dan total menjelaskan keputusan FAIL."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0675",
+    "function": "Tokenisasi",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 675,
+        "end_line": 676,
+        "supports": "Tokenisasi"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0677",
+    "function": "Penghitungan pasangan unigram",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 677,
+        "end_line": 678,
+        "supports": "Penghitungan pasangan unigram"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0679",
+    "function": "Precision kandidat",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 679,
+        "end_line": 681,
+        "supports": "Precision kandidat"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0685",
+    "function": "Recall acuan",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 685,
+        "end_line": 687,
+        "supports": "Recall acuan"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0691",
+    "function": "Rata-rata harmonik berbobot",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 691,
+        "end_line": 693,
+        "supports": "Rata-rata harmonik berbobot"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0697",
+    "function": "Penalti fragmen",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 697,
+        "end_line": 699,
+        "supports": "Penalti fragmen"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0703",
+    "function": "Skor setelah penalti",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 703,
+        "end_line": 705,
+        "supports": "Skor setelah penalti"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0709",
+    "function": "Tafsir METEOR",
+    "target_ids": [
+      "T-0039"
+    ],
+    "disposition": "adapted",
+    "rationale": "Arti keputusan diperlihatkan pada atribut jawaban T5-C1.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 709,
+        "end_line": 710,
+        "supports": "Tafsir METEOR"
+      },
+      {
+        "document": "target",
+        "start_line": 451,
+        "end_line": 455,
+        "supports": "Perbedaan jumlah, isi array, dan total menjelaskan keputusan FAIL."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0717",
+    "function": "Pembentukan vektor token",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 717,
+        "end_line": 718,
+        "supports": "Pembentukan vektor token"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0719",
+    "function": "Kemiripan kosinus",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 719,
+        "end_line": 720,
+        "supports": "Kemiripan kosinus"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0721",
+    "function": "Contoh padanan makna",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 721,
+        "end_line": 722,
+        "supports": "Contoh padanan makna"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0723",
+    "function": "Komponen ukuran semantik",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 723,
+        "end_line": 725,
+        "supports": "Komponen ukuran semantik"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0729",
+    "function": "Estimasi pustaka dan rumus",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 729,
+        "end_line": 731,
+        "supports": "Estimasi pustaka dan rumus"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0747",
+    "function": "Tafsir estimasi BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Operasi ini diperlukan untuk kemiripan teks. Evaluasi sasaran membandingkan langsung struktur JSON serta nilai setiap atribut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 747,
+        "end_line": 748,
+        "supports": "Tafsir estimasi BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0725",
+    "function": "Precision semantik",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Komponen pencocokan vektor hanya digunakan pada evaluasi teks acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 725,
+        "end_line": 725,
+        "supports": "Precision semantik"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0726",
+    "function": "Recall semantik",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Komponen pencocokan vektor hanya digunakan pada evaluasi teks acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 726,
+        "end_line": 726,
+        "supports": "Recall semantik"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0727",
+    "function": "F1 semantik",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Komponen pencocokan vektor hanya digunakan pada evaluasi teks acuan.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 727,
+        "end_line": 728,
+        "supports": "F1 semantik"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0757",
+    "function": "Spesifikasi CPU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Spesifikasi komputasi lokal ini tidak menentukan identitas model yang dipanggil melalui penyedia pada sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 757,
+        "end_line": 757,
+        "supports": "Spesifikasi CPU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0758",
+    "function": "Spesifikasi RAM",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Spesifikasi komputasi lokal ini tidak menentukan identitas model yang dipanggil melalui penyedia pada sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 758,
+        "end_line": 758,
+        "supports": "Spesifikasi RAM"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0759",
+    "function": "Spesifikasi GPU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Spesifikasi komputasi lokal ini tidak menentukan identitas model yang dipanggil melalui penyedia pada sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 759,
+        "end_line": 759,
+        "supports": "Spesifikasi GPU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0760",
+    "function": "Spesifikasi Memori GPU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Spesifikasi komputasi lokal ini tidak menentukan identitas model yang dipanggil melalui penyedia pada sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 760,
+        "end_line": 760,
+        "supports": "Spesifikasi Memori GPU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0761",
+    "function": "Spesifikasi Penyimpanan",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Spesifikasi komputasi lokal ini tidak menentukan identitas model yang dipanggil melalui penyedia pada sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 761,
+        "end_line": 762,
+        "supports": "Spesifikasi Penyimpanan"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0787",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 787,
+        "end_line": 789,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0791",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 791,
+        "end_line": 793,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0795",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 795,
+        "end_line": 797,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0799",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 799,
+        "end_line": 801,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0803",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "Kondisi masukan sasaran adalah ketersediaan bersama tujuh dokumen. Proporsi memakai gabungan jawaban dua model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 803,
+        "end_line": 805,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 523,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 566,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 613,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 671,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 714,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 772,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0818",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 818,
+        "end_line": 820,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0822",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 822,
+        "end_line": 824,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0826",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 826,
+        "end_line": 828,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0830",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 830,
+        "end_line": 832,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0834",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona tidak menjadi faktor eksperimen, sehingga tidak ada sel atau perbandingan marginal untuk persona.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 834,
+        "end_line": 836,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0848",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 848,
+        "end_line": 850,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0852",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 852,
+        "end_line": 854,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0856",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 856,
+        "end_line": 858,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0860",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 860,
+        "end_line": 862,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0864",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan model pada tiap kelompok menggabungkan kedua kondisi konteks.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 864,
+        "end_line": 866,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 536,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 579,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 626,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 684,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 727,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 785,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0879",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 879,
+        "end_line": 881,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0883",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 883,
+        "end_line": 885,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0887",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 887,
+        "end_line": 889,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0891",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 891,
+        "end_line": 893,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0895",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "Empat kombinasi membedakan sel dengan model atau konteks sama dan melokalisasi kasus yang gagal.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 895,
+        "end_line": 897,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 550,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 593,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 640,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 698,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 741,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 799,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0932",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 932,
+        "end_line": 934,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0936",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 936,
+        "end_line": 938,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0940",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 940,
+        "end_line": 942,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0944",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 944,
+        "end_line": 946,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0948",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [
+      "T-0046",
+      "T-0050",
+      "T-0054",
+      "T-0058",
+      "T-0062",
+      "T-0066"
+    ],
+    "disposition": "adapted",
+    "rationale": "Kondisi masukan sasaran adalah ketersediaan bersama tujuh dokumen. Proporsi memakai gabungan jawaban dua model.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 948,
+        "end_line": 950,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      },
+      {
+        "document": "target",
+        "start_line": 513,
+        "end_line": 523,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 556,
+        "end_line": 566,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 603,
+        "end_line": 613,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 661,
+        "end_line": 671,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 704,
+        "end_line": 714,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 762,
+        "end_line": 772,
+        "supports": "Jumlah jawaban dan tabel hasil menurut ketersediaan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0965",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 965,
+        "end_line": 967,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0969",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 969,
+        "end_line": 971,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0973",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 973,
+        "end_line": 975,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0977",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 977,
+        "end_line": 979,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0981",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Persona tidak menjadi faktor eksperimen, sehingga tidak ada sel atau perbandingan marginal untuk persona.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 981,
+        "end_line": 983,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0995",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 995,
+        "end_line": 997,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0999",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 999,
+        "end_line": 1001,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1003",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1003,
+        "end_line": 1005,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1007",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1007,
+        "end_line": 1009,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1011",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [
+      "T-0047",
+      "T-0051",
+      "T-0055",
+      "T-0059",
+      "T-0063",
+      "T-0067"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan model pada tiap kelompok menggabungkan kedua kondisi konteks.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1011,
+        "end_line": 1013,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      },
+      {
+        "document": "target",
+        "start_line": 526,
+        "end_line": 536,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 569,
+        "end_line": 579,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 616,
+        "end_line": 626,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 674,
+        "end_line": 684,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 717,
+        "end_line": 727,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 775,
+        "end_line": 785,
+        "supports": "Jumlah jawaban dan tabel hasil menurut model menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1024",
+    "function": "Sebaran BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1024,
+        "end_line": 1026,
+        "supports": "Sebaran BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1028",
+    "function": "Sebaran ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1028,
+        "end_line": 1030,
+        "supports": "Sebaran ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1032",
+    "function": "Sebaran METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1032,
+        "end_line": 1034,
+        "supports": "Sebaran METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1036",
+    "function": "Sebaran BERTScore",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Grafik dan penjelasan sebaran skor kontinu khusus ukuran kemiripan teks. Hasil sasaran adalah putusan biner per jawaban.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1036,
+        "end_line": 1038,
+        "supports": "Sebaran BERTScore"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1040",
+    "function": "Rekap dan tafsir rata-rata menurut kelompok",
+    "target_ids": [
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "disposition": "adapted",
+    "rationale": "Empat kombinasi membedakan sel dengan model atau konteks sama dan melokalisasi kasus yang gagal.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1040,
+        "end_line": 1042,
+        "supports": "Rekap dan tafsir rata-rata menurut kelompok"
+      },
+      {
+        "document": "target",
+        "start_line": 539,
+        "end_line": 550,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 582,
+        "end_line": 593,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 629,
+        "end_line": 640,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 687,
+        "end_line": 698,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 730,
+        "end_line": 741,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      },
+      {
+        "document": "target",
+        "start_line": 788,
+        "end_line": 799,
+        "supports": "Jumlah jawaban dan tabel hasil menurut kombinasi model dan dokumen menetapkan penyebut perbandingan."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1075",
+    "function": "Sintesis strategi masukan",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan sasaran memakai kondisi konteks, kedua model, dan kasus operasional.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1075,
+        "end_line": 1076,
+        "supports": "Sintesis strategi masukan"
+      },
+      {
+        "document": "target",
+        "start_line": 807,
+        "end_line": 809,
+        "supports": "Pembahasan mengaitkan kondisi dan kasus yang membedakan hasil."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1077",
+    "function": "Sintesis persona",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Tidak ada perlakuan persona.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1077,
+        "end_line": 1078,
+        "supports": "Sintesis persona"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1079",
+    "function": "Sintesis per model",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan sasaran memakai kondisi konteks, kedua model, dan kasus operasional.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1079,
+        "end_line": 1080,
+        "supports": "Sintesis per model"
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "Pembahasan mengaitkan kondisi dan kasus yang membedakan hasil."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1081",
+    "function": "Sintesis kombinasi",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan sasaran memakai kondisi konteks, kedua model, dan kasus operasional.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1081,
+        "end_line": 1082,
+        "supports": "Sintesis kombinasi"
+      },
+      {
+        "document": "target",
+        "start_line": 807,
+        "end_line": 809,
+        "supports": "Pembahasan mengaitkan kondisi dan kasus yang membedakan hasil."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u1083",
+    "function": "Perbandingan lintas domain",
+    "target_ids": [
+      "T-0069"
+    ],
+    "disposition": "adapted",
+    "rationale": "Perbandingan sasaran memakai kondisi konteks, kedua model, dan kasus operasional.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 1083,
+        "end_line": 1084,
+        "supports": "Perbandingan lintas domain"
+      },
+      {
+        "document": "target",
+        "start_line": 811,
+        "end_line": 813,
+        "supports": "Pembahasan mengaitkan kondisi dan kasus yang membedakan hasil."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0087",
+    "function": "Matriks perbandingan penelitian",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "Rangkaian dari matriks ke pembahasan dan posisi studi mendasari pertanyaan tentang konteks bisnis.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 87,
+        "end_line": 89,
+        "supports": "Matriks perbandingan penelitian"
+      },
+      {
+        "document": "target",
+        "start_line": 70,
+        "end_line": 83,
+        "supports": "Perbandingan studi dan relevansinya dengan lingkup penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0099",
+    "function": "Pembahasan bukti penelitian terdahulu",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "Rangkaian dari matriks ke pembahasan dan posisi studi mendasari pertanyaan tentang konteks bisnis.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 99,
+        "end_line": 101,
+        "supports": "Pembahasan bukti penelitian terdahulu"
+      },
+      {
+        "document": "target",
+        "start_line": 84,
+        "end_line": 91,
+        "supports": "Perbandingan studi dan relevansinya dengan lingkup penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0109",
+    "function": "Sintesis dan kebutuhan penelitian",
+    "target_ids": [
+      "T-0009"
+    ],
+    "disposition": "adapted",
+    "rationale": "Rangkaian dari matriks ke pembahasan dan posisi studi mendasari pertanyaan tentang konteks bisnis.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 109,
+        "end_line": 110,
+        "supports": "Sintesis dan kebutuhan penelitian"
+      },
+      {
+        "document": "target",
+        "start_line": 91,
+        "end_line": 93,
+        "supports": "Perbandingan studi dan relevansinya dengan lingkup penelitian."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0243",
+    "function": "Definisi matematis BLEU",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 243,
+        "end_line": 245,
+        "supports": "Definisi matematis BLEU"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0255",
+    "function": "Aturan penalti panjang",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 255,
+        "end_line": 257,
+        "supports": "Aturan penalti panjang"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0266",
+    "function": "Arti BLEU dalam domain",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 266,
+        "end_line": 267,
+        "supports": "Arti BLEU dalam domain"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0274",
+    "function": "Definisi ROUGE-L",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 274,
+        "end_line": 276,
+        "supports": "Definisi ROUGE-L"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0287",
+    "function": "Komponen recall dan precision LCS",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 287,
+        "end_line": 289,
+        "supports": "Komponen recall dan precision LCS"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0309",
+    "function": "Skor METEOR",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 309,
+        "end_line": 311,
+        "supports": "Skor METEOR"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0320",
+    "function": "Komponen rata-rata harmonik",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 320,
+        "end_line": 322,
+        "supports": "Komponen rata-rata harmonik"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0326",
+    "function": "Komponen penalti",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 326,
+        "end_line": 328,
+        "supports": "Komponen penalti"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0342",
+    "function": "Rumus F1 semantik",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 342,
+        "end_line": 344,
+        "supports": "Rumus F1 semantik"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0351",
+    "function": "Precision vektor",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 351,
+        "end_line": 353,
+        "supports": "Precision vektor"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0357",
+    "function": "Recall vektor dan simbol",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 357,
+        "end_line": 359,
+        "supports": "Recall vektor dan simbol"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0372",
+    "function": "Arti BERTScore dalam domain",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Ukuran ini didefinisikan untuk teks bebas. Aturan JSON menetapkan kecocokan struktur dan nilai secara langsung.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 372,
+        "end_line": 373,
+        "supports": "Arti BERTScore dalam domain"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0765",
+    "function": "Jumlah masukan",
+    "target_ids": [
+      "T-0044"
+    ],
+    "disposition": "adapted",
+    "rationale": "Desain dua kali dua dengan tiga pengulangan menentukan penyebut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 765,
+        "end_line": 766,
+        "supports": "Jumlah masukan"
+      },
+      {
+        "document": "target",
+        "start_line": 493,
+        "end_line": 495,
+        "supports": "Penjabaran kasus dan kombinasi menjadi jumlah jawaban."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0767",
+    "function": "Faktor dan kombinasi",
+    "target_ids": [
+      "T-0044"
+    ],
+    "disposition": "adapted",
+    "rationale": "Desain dua kali dua dengan tiga pengulangan menentukan penyebut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 767,
+        "end_line": 768,
+        "supports": "Faktor dan kombinasi"
+      },
+      {
+        "document": "target",
+        "start_line": 495,
+        "end_line": 507,
+        "supports": "Penjabaran kasus dan kombinasi menjadi jumlah jawaban."
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0769",
+    "function": "Perluasan kondisi one-shot",
+    "target_ids": [],
+    "disposition": "not_applicable",
+    "rationale": "Variasi sumber demonstrasi tidak dipakai pada sasaran.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 769,
+        "end_line": 770,
+        "supports": "Perluasan kondisi one-shot"
+      }
+    ]
+  },
+  {
+    "node_id": "R-u0771",
+    "function": "Pencatatan dan total keluaran",
+    "target_ids": [
+      "T-0044"
+    ],
+    "disposition": "adapted",
+    "rationale": "Desain dua kali dua dengan tiga pengulangan menentukan penyebut.",
+    "evidence": [
+      {
+        "document": "reference",
+        "start_line": 771,
+        "end_line": 773,
+        "supports": "Pencatatan dan total keluaran"
+      },
+      {
+        "document": "target",
+        "start_line": 495,
+        "end_line": 507,
+        "supports": "Penjabaran kasus dan kombinasi menjadi jumlah jawaban."
+      }
+    ]
+  }
+]

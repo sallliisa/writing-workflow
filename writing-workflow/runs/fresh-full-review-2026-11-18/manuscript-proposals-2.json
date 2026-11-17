@@ -1,0 +1,35 @@
+[
+  {
+    "start": 803,
+    "end": 803,
+    "replacement": "Sebanyak 170 dari 180 jawaban agen sesuai dengan *expected result* dan memperoleh PASS. Pengujian dengan konteks bisnis menghasilkan 90/90 PASS, sedangkan pengujian tanpa konteks bisnis menghasilkan 80/90 PASS dan sepuluh FAIL. Masing-masing kondisi mencakup 45 jawaban dari setiap model.",
+    "finding_ids": [
+      "W020"
+    ]
+  },
+  {
+    "start": 815,
+    "end": 815,
+    "replacement": "Pada DeepSeek v4 Flash tanpa konteks bisnis, jumlah PASS tetap 13/15, tetapi kasus kedua yang gagal berganti antara T7-C2 dan T7-C1. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.\n\nTanpa konteks bisnis, Muse Spark 1.3 selalu memperoleh PASS pada 12 kasus, memiliki status yang berubah antara PASS dan FAIL pada tiga kasus, dan tidak memiliki kasus yang selalu FAIL. Pada DeepSeek v4 Flash, 12 kasus selalu PASS, dua kasus memiliki status yang berubah, dan satu kasus selalu FAIL. Dengan konteks bisnis, seluruh 15 kasus selalu PASS pada kedua model.",
+    "finding_ids": [
+      "W021",
+      "S03"
+    ]
+  },
+  {
+    "start": 817,
+    "end": 817,
+    "replacement": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Perbandingan ini menilai ketersediaan ketujuh dokumen konteks bisnis secara bersama. Pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui karena ketersediaannya tidak diubah secara terpisah. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.",
+    "finding_ids": [
+      "W022"
+    ]
+  },
+  {
+    "start": 837,
+    "end": 837,
+    "replacement": "Pengujian *Agentic Business Intelligence* selanjutnya sebaiknya mencakup data dari bidang bisnis lain dan tugas analisis yang lebih beragam. Evaluasi dapat menilai ketepatan pemilihan data, kelengkapan jawaban, serta penerapan aturan bisnis secara terpisah. Kelengkapan dapat dilaporkan melalui jumlah rincian yang diminta tetapi tidak dicantumkan, sehingga kekurangan tersebut dapat diketahui selain dari status PASS atau FAIL untuk keseluruhan jawaban. Pengaruh isi konteks bisnis dapat diperiksa dengan membandingkan konteks lengkap dan beberapa variasi yang masing-masing tidak menyertakan satu dokumen atau menggunakan tingkat detail berbeda untuk masing-masing aturan. Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus. Evaluasi juga dapat melibatkan analis dan pengguna bisnis untuk menilai kegunaan jawaban agen dalam pekerjaan mereka. Pertanyaan pengujian dapat disusun dari kebutuhan analisis pengguna, dengan rubrik yang mencakup ketepatan hasil, kejelasan penjelasan, dan kegunaan jawaban.",
+    "finding_ids": [
+      "W024"
+    ]
+  }
+]

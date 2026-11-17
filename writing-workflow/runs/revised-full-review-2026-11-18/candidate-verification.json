@@ -1,0 +1,483 @@
+{
+  "hashes": {
+    "baseline.md": "3a09391b85f32f246690f66eed8ccbb096a34029555a954e7f3975e0c0c3587d",
+    "reference.md": "9e7b74a927d01dc076b73e449b21f1dd2f2355d95b7cef73986570a7eec3b748",
+    "candidate.md": "8f249aaa3e3e24ffcfe94df0bfbf4de9c200a6bb3627bbd981632f87eb814056",
+    "candidate.diff": "3c5ed117df71edbf061fd76768fd59bc49c4ddea633df33b7fc969b7a74cb91f"
+  },
+  "originals_match_frozen": true,
+  "diff_reconstructs_candidate": true,
+  "caption_numbers_and_counts_match": true,
+  "source_nonblank_lines_covered": 554,
+  "source_passages": 366,
+  "preserved_blocks": [
+    {
+      "id": "P113",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 264,
+      "present_verbatim": true
+    },
+    {
+      "id": "P114",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 266,
+      "present_verbatim": true
+    },
+    {
+      "id": "P115",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 268,
+      "present_verbatim": true
+    },
+    {
+      "id": "P116",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 270,
+      "present_verbatim": true
+    },
+    {
+      "id": "P129",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 319,
+      "present_verbatim": true
+    },
+    {
+      "id": "P131",
+      "kind": "display equation",
+      "start": 327,
+      "present_verbatim": true
+    },
+    {
+      "id": "P133",
+      "kind": "display equation",
+      "start": 333,
+      "present_verbatim": true
+    },
+    {
+      "id": "P137",
+      "kind": "verbatim experiment material",
+      "start": 343,
+      "present_verbatim": true
+    },
+    {
+      "id": "P143",
+      "kind": "verbatim experiment material",
+      "start": 356,
+      "present_verbatim": true
+    },
+    {
+      "id": "P150",
+      "kind": "verbatim experiment material",
+      "start": 382,
+      "present_verbatim": true
+    },
+    {
+      "id": "P157",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 397,
+      "present_verbatim": true
+    },
+    {
+      "id": "P178",
+      "kind": "verbatim experiment material",
+      "start": 449,
+      "present_verbatim": true
+    },
+    {
+      "id": "P182",
+      "kind": "display equation",
+      "start": 461,
+      "present_verbatim": true
+    },
+    {
+      "id": "P203",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 517,
+      "present_verbatim": true
+    },
+    {
+      "id": "P208",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 530,
+      "present_verbatim": true
+    },
+    {
+      "id": "P213",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 543,
+      "present_verbatim": true
+    },
+    {
+      "id": "P219",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 560,
+      "present_verbatim": true
+    },
+    {
+      "id": "P224",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 573,
+      "present_verbatim": true
+    },
+    {
+      "id": "P229",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 586,
+      "present_verbatim": true
+    },
+    {
+      "id": "P237",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 607,
+      "present_verbatim": true
+    },
+    {
+      "id": "P242",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 620,
+      "present_verbatim": true
+    },
+    {
+      "id": "P247",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 633,
+      "present_verbatim": true
+    },
+    {
+      "id": "P251",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 646,
+      "present_verbatim": true
+    },
+    {
+      "id": "P258",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 665,
+      "present_verbatim": true
+    },
+    {
+      "id": "P263",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 678,
+      "present_verbatim": true
+    },
+    {
+      "id": "P268",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 691,
+      "present_verbatim": true
+    },
+    {
+      "id": "P274",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 708,
+      "present_verbatim": true
+    },
+    {
+      "id": "P279",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 721,
+      "present_verbatim": true
+    },
+    {
+      "id": "P284",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 734,
+      "present_verbatim": true
+    },
+    {
+      "id": "P287",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 745,
+      "present_verbatim": true
+    },
+    {
+      "id": "P288",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 752,
+      "present_verbatim": false
+    },
+    {
+      "id": "P289",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 754,
+      "present_verbatim": true
+    },
+    {
+      "id": "P290",
+      "kind": "author-praised explanation; compare each change manually",
+      "start": 756,
+      "present_verbatim": true
+    },
+    {
+      "id": "P295",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 766,
+      "present_verbatim": true
+    },
+    {
+      "id": "P300",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 779,
+      "present_verbatim": true
+    },
+    {
+      "id": "P305",
+      "kind": "reported measurements, experimental settings or example values",
+      "start": 792,
+      "present_verbatim": true
+    },
+    {
+      "id": "P327",
+      "kind": "bibliography",
+      "start": 841,
+      "present_verbatim": true
+    },
+    {
+      "id": "P328",
+      "kind": "bibliography",
+      "start": 843,
+      "present_verbatim": true
+    },
+    {
+      "id": "P329",
+      "kind": "bibliography",
+      "start": 845,
+      "present_verbatim": true
+    },
+    {
+      "id": "P330",
+      "kind": "bibliography",
+      "start": 847,
+      "present_verbatim": true
+    },
+    {
+      "id": "P331",
+      "kind": "bibliography",
+      "start": 849,
+      "present_verbatim": true
+    },
+    {
+      "id": "P332",
+      "kind": "bibliography",
+      "start": 851,
+      "present_verbatim": true
+    },
+    {
+      "id": "P333",
+      "kind": "bibliography",
+      "start": 853,
+      "present_verbatim": true
+    },
+    {
+      "id": "P334",
+      "kind": "bibliography",
+      "start": 855,
+      "present_verbatim": true
+    },
+    {
+      "id": "P335",
+      "kind": "bibliography",
+      "start": 857,
+      "present_verbatim": true
+    },
+    {
+      "id": "P336",
+      "kind": "bibliography",
+      "start": 859,
+      "present_verbatim": true
+    },
+    {
+      "id": "P337",
+      "kind": "bibliography",
+      "start": 861,
+      "present_verbatim": true
+    },
+    {
+      "id": "P338",
+      "kind": "bibliography",
+      "start": 863,
+      "present_verbatim": true
+    },
+    {
+      "id": "P339",
+      "kind": "bibliography",
+      "start": 865,
+      "present_verbatim": true
+    },
+    {
+      "id": "P340",
+      "kind": "bibliography",
+      "start": 867,
+      "present_verbatim": true
+    },
+    {
+      "id": "P341",
+      "kind": "bibliography",
+      "start": 869,
+      "present_verbatim": true
+    },
+    {
+      "id": "P342",
+      "kind": "bibliography",
+      "start": 871,
+      "present_verbatim": true
+    },
+    {
+      "id": "P343",
+      "kind": "bibliography",
+      "start": 873,
+      "present_verbatim": true
+    },
+    {
+      "id": "P344",
+      "kind": "bibliography",
+      "start": 875,
+      "present_verbatim": true
+    },
+    {
+      "id": "P345",
+      "kind": "bibliography",
+      "start": 877,
+      "present_verbatim": true
+    },
+    {
+      "id": "P346",
+      "kind": "bibliography",
+      "start": 879,
+      "present_verbatim": true
+    },
+    {
+      "id": "P347",
+      "kind": "bibliography",
+      "start": 881,
+      "present_verbatim": true
+    },
+    {
+      "id": "P348",
+      "kind": "bibliography",
+      "start": 883,
+      "present_verbatim": true
+    },
+    {
+      "id": "P349",
+      "kind": "bibliography",
+      "start": 885,
+      "present_verbatim": true
+    },
+    {
+      "id": "P350",
+      "kind": "bibliography",
+      "start": 887,
+      "present_verbatim": true
+    },
+    {
+      "id": "P351",
+      "kind": "bibliography",
+      "start": 889,
+      "present_verbatim": true
+    },
+    {
+      "id": "P352",
+      "kind": "bibliography",
+      "start": 891,
+      "present_verbatim": true
+    },
+    {
+      "id": "P353",
+      "kind": "bibliography",
+      "start": 893,
+      "present_verbatim": true
+    },
+    {
+      "id": "P354",
+      "kind": "bibliography",
+      "start": 895,
+      "present_verbatim": true
+    },
+    {
+      "id": "P355",
+      "kind": "bibliography",
+      "start": 897,
+      "present_verbatim": true
+    },
+    {
+      "id": "P356",
+      "kind": "bibliography",
+      "start": 899,
+      "present_verbatim": true
+    },
+    {
+      "id": "P357",
+      "kind": "bibliography",
+      "start": 901,
+      "present_verbatim": true
+    },
+    {
+      "id": "P358",
+      "kind": "bibliography",
+      "start": 903,
+      "present_verbatim": true
+    },
+    {
+      "id": "P359",
+      "kind": "bibliography",
+      "start": 905,
+      "present_verbatim": true
+    },
+    {
+      "id": "P360",
+      "kind": "bibliography",
+      "start": 907,
+      "present_verbatim": true
+    },
+    {
+      "id": "P361",
+      "kind": "bibliography",
+      "start": 909,
+      "present_verbatim": true
+    },
+    {
+      "id": "P362",
+      "kind": "bibliography",
+      "start": 911,
+      "present_verbatim": true
+    },
+    {
+      "id": "P363",
+      "kind": "bibliography",
+      "start": 913,
+      "present_verbatim": true
+    },
+    {
+      "id": "P364",
+      "kind": "bibliography",
+      "start": 915,
+      "present_verbatim": true
+    },
+    {
+      "id": "P365",
+      "kind": "bibliography",
+      "start": 917,
+      "present_verbatim": true
+    },
+    {
+      "id": "P366",
+      "kind": "bibliography",
+      "start": 919,
+      "present_verbatim": true
+    }
+  ],
+  "project_name_counts_match": true,
+  "spelling_forms": {
+    "source": {
+      "antarperiode": 9,
+      "Antarperiode": 4
+    },
+    "candidate": {
+      "antarperiode": 9,
+      "Antarperiode": 4
+    }
+  },
+  "heading_sequence_matches": true
+}

@@ -1,0 +1,1947 @@
+{
+  "documents": {
+    "reference": {
+      "original_path": "/Users/gamer/Documents/school/thesis-writing/fikbas_skripsi_full.md",
+      "file": "reference.md",
+      "sha256": "9e7b74a927d01dc076b73e449b21f1dd2f2355d95b7cef73986570a7eec3b748",
+      "line_count": 1151,
+      "nodes": [
+        {
+          "id": "R-root",
+          "parent": null,
+          "level": 0,
+          "title": "Document",
+          "start_line": 1,
+          "direct_end_line": 0,
+          "end_line": 1151
+        },
+        {
+          "id": "R-0001",
+          "parent": "R-root",
+          "level": 1,
+          "title": "BAB I — PENDAHULUAN",
+          "start_line": 1,
+          "direct_end_line": 4,
+          "end_line": 78
+        },
+        {
+          "id": "R-0002",
+          "parent": "R-0001",
+          "level": 2,
+          "title": "1.1. Latar Belakang",
+          "start_line": 5,
+          "direct_end_line": 12,
+          "end_line": 22
+        },
+        {
+          "id": "R-u0013",
+          "parent": "R-0002",
+          "level": 3,
+          "title": "Identify the practical gap between generated and human feedback.",
+          "start_line": 13,
+          "end_line": 14,
+          "direct_end_line": 14
+        },
+        {
+          "id": "R-u0015",
+          "parent": "R-0002",
+          "level": 3,
+          "title": "Compare possible interventions and explain the selection of prompt design.",
+          "start_line": 15,
+          "end_line": 18,
+          "direct_end_line": 18
+        },
+        {
+          "id": "R-u0019",
+          "parent": "R-0002",
+          "level": 3,
+          "title": "Translate the selected intervention into the actual experiment.",
+          "start_line": 19,
+          "end_line": 22,
+          "direct_end_line": 22
+        },
+        {
+          "id": "R-0003",
+          "parent": "R-0001",
+          "level": 2,
+          "title": "1.2. Rumusan Masalah",
+          "start_line": 23,
+          "direct_end_line": 28,
+          "end_line": 28
+        },
+        {
+          "id": "R-0004",
+          "parent": "R-0001",
+          "level": 2,
+          "title": "1.3. Tujuan Penelitian",
+          "start_line": 29,
+          "direct_end_line": 34,
+          "end_line": 34
+        },
+        {
+          "id": "R-0005",
+          "parent": "R-0001",
+          "level": 2,
+          "title": "1.4. Manfaat Penelitian",
+          "start_line": 35,
+          "direct_end_line": 40,
+          "end_line": 40
+        },
+        {
+          "id": "R-0006",
+          "parent": "R-0001",
+          "level": 2,
+          "title": "1.5. Batasan Penelitian",
+          "start_line": 41,
+          "direct_end_line": 54,
+          "end_line": 54
+        },
+        {
+          "id": "R-0007",
+          "parent": "R-0001",
+          "level": 2,
+          "title": "1.6. Sistematika Penulisan",
+          "start_line": 55,
+          "direct_end_line": 78,
+          "end_line": 78
+        },
+        {
+          "id": "R-0008",
+          "parent": "R-root",
+          "level": 1,
+          "title": "BAB II — TINJAUAN PUSTAKA",
+          "start_line": 79,
+          "direct_end_line": 82,
+          "end_line": 373
+        },
+        {
+          "id": "R-0009",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.1. State-of-the-Art",
+          "start_line": 83,
+          "direct_end_line": 86,
+          "end_line": 110
+        },
+        {
+          "id": "R-u0087",
+          "parent": "R-0009",
+          "level": 3,
+          "title": "Survey the design, metrics and findings of prior studies in a comparative table.",
+          "start_line": 87,
+          "end_line": 98,
+          "direct_end_line": 98
+        },
+        {
+          "id": "R-u0099",
+          "parent": "R-0009",
+          "level": 3,
+          "title": "Interpret the studies and derive the position of the current experiment.",
+          "start_line": 99,
+          "end_line": 110,
+          "direct_end_line": 110
+        },
+        {
+          "id": "R-0010",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.2. Feedback dalam Pendidikan",
+          "start_line": 111,
+          "direct_end_line": 116,
+          "end_line": 116
+        },
+        {
+          "id": "R-0011",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.3. Feedback Generation Otomatis",
+          "start_line": 117,
+          "direct_end_line": 122,
+          "end_line": 122
+        },
+        {
+          "id": "R-0012",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.4. Artificial Intelligence",
+          "start_line": 123,
+          "direct_end_line": 128,
+          "end_line": 128
+        },
+        {
+          "id": "R-0013",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.5. Natural Language Processing",
+          "start_line": 129,
+          "direct_end_line": 134,
+          "end_line": 134
+        },
+        {
+          "id": "R-0014",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.6. Prompt Engineering",
+          "start_line": 135,
+          "direct_end_line": 140,
+          "end_line": 182
+        },
+        {
+          "id": "R-0015",
+          "parent": "R-0014",
+          "level": 3,
+          "title": "2.6.1. Strategi Prompting",
+          "start_line": 141,
+          "direct_end_line": 142,
+          "end_line": 174
+        },
+        {
+          "id": "R-0016",
+          "parent": "R-0015",
+          "level": 4,
+          "title": "2.6.1.1. Zero-Shot Prompting",
+          "start_line": 143,
+          "direct_end_line": 150,
+          "end_line": 150
+        },
+        {
+          "id": "R-0017",
+          "parent": "R-0015",
+          "level": 4,
+          "title": "2.6.1.2. One-Shot Prompting",
+          "start_line": 151,
+          "direct_end_line": 158,
+          "end_line": 158
+        },
+        {
+          "id": "R-0018",
+          "parent": "R-0015",
+          "level": 4,
+          "title": "2.6.1.3. Few-Shot Prompting",
+          "start_line": 159,
+          "direct_end_line": 166,
+          "end_line": 166
+        },
+        {
+          "id": "R-0019",
+          "parent": "R-0015",
+          "level": 4,
+          "title": "2.6.1.4. Chain-of-Thought Prompting",
+          "start_line": 167,
+          "direct_end_line": 174,
+          "end_line": 174
+        },
+        {
+          "id": "R-0020",
+          "parent": "R-0014",
+          "level": 3,
+          "title": "2.6.2. Persona dalam Prompting",
+          "start_line": 175,
+          "direct_end_line": 182,
+          "end_line": 182
+        },
+        {
+          "id": "R-0021",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.7. Large Language Models",
+          "start_line": 183,
+          "direct_end_line": 186,
+          "end_line": 232
+        },
+        {
+          "id": "R-u0187",
+          "parent": "R-0021",
+          "level": 3,
+          "title": "Explain the choice of the two models and compare their characteristics.",
+          "start_line": 187,
+          "end_line": 202,
+          "direct_end_line": 202
+        },
+        {
+          "id": "R-0022",
+          "parent": "R-0021",
+          "level": 3,
+          "title": "2.7.1. GPT4o-mini",
+          "start_line": 203,
+          "direct_end_line": 206,
+          "end_line": 216
+        },
+        {
+          "id": "R-u0207",
+          "parent": "R-0022",
+          "level": 4,
+          "title": "Discuss semi-causal language interfaces and a visual transformer through captions and accompanying prose.",
+          "start_line": 207,
+          "end_line": 214,
+          "direct_end_line": 214
+        },
+        {
+          "id": "R-u0215",
+          "parent": "R-0022",
+          "level": 4,
+          "title": "Relate the first model to feedback generation.",
+          "start_line": 215,
+          "end_line": 216,
+          "direct_end_line": 216
+        },
+        {
+          "id": "R-0023",
+          "parent": "R-0021",
+          "level": 3,
+          "title": "2.7.2. LLaMa",
+          "start_line": 217,
+          "direct_end_line": 220,
+          "end_line": 232
+        },
+        {
+          "id": "R-u0221",
+          "parent": "R-0023",
+          "level": 4,
+          "title": "Describe the second model’s architecture.",
+          "start_line": 221,
+          "end_line": 224,
+          "direct_end_line": 224
+        },
+        {
+          "id": "R-u0225",
+          "parent": "R-0023",
+          "level": 4,
+          "title": "Relate deployment, access and adaptation to the model choice.",
+          "start_line": 225,
+          "end_line": 232,
+          "direct_end_line": 232
+        },
+        {
+          "id": "R-0024",
+          "parent": "R-0008",
+          "level": 2,
+          "title": "2.8. Evaluasi Kualitas Feedback",
+          "start_line": 233,
+          "direct_end_line": 238,
+          "end_line": 373
+        },
+        {
+          "id": "R-0025",
+          "parent": "R-0024",
+          "level": 3,
+          "title": "2.8.1. BLEU",
+          "start_line": 239,
+          "direct_end_line": 242,
+          "end_line": 267
+        },
+        {
+          "id": "R-u0243",
+          "parent": "R-0025",
+          "level": 4,
+          "title": "Define modified precision and brevity penalty mathematically.",
+          "start_line": 243,
+          "end_line": 265,
+          "direct_end_line": 265
+        },
+        {
+          "id": "R-u0266",
+          "parent": "R-0025",
+          "level": 4,
+          "title": "Relate lexical overlap to feedback comparison.",
+          "start_line": 266,
+          "end_line": 267,
+          "direct_end_line": 267
+        },
+        {
+          "id": "R-0026",
+          "parent": "R-0024",
+          "level": 3,
+          "title": "2.8.2. ROUGE-L",
+          "start_line": 268,
+          "direct_end_line": 273,
+          "end_line": 302
+        },
+        {
+          "id": "R-u0274",
+          "parent": "R-0026",
+          "level": 4,
+          "title": "Derive the composite from an ordered subsequence and its component ratios.",
+          "start_line": 274,
+          "end_line": 302,
+          "direct_end_line": 302
+        },
+        {
+          "id": "R-0027",
+          "parent": "R-0024",
+          "level": 3,
+          "title": "2.8.3. METEOR",
+          "start_line": 303,
+          "direct_end_line": 308,
+          "end_line": 337
+        },
+        {
+          "id": "R-u0309",
+          "parent": "R-0027",
+          "level": 4,
+          "title": "Define weighted matching and the fragmentation penalty.",
+          "start_line": 309,
+          "end_line": 337,
+          "direct_end_line": 337
+        },
+        {
+          "id": "R-0028",
+          "parent": "R-0024",
+          "level": 3,
+          "title": "2.8.4. BERTScore",
+          "start_line": 338,
+          "direct_end_line": 341,
+          "end_line": 373
+        },
+        {
+          "id": "R-u0342",
+          "parent": "R-0028",
+          "level": 4,
+          "title": "Define embedding-based precision, recall and their harmonic mean.",
+          "start_line": 342,
+          "end_line": 371,
+          "direct_end_line": 371
+        },
+        {
+          "id": "R-u0372",
+          "parent": "R-0028",
+          "level": 4,
+          "title": "Interpret semantic similarity for educational feedback.",
+          "start_line": 372,
+          "end_line": 373,
+          "direct_end_line": 373
+        },
+        {
+          "id": "R-0029",
+          "parent": "R-root",
+          "level": 1,
+          "title": "BAB III — METODOLOGI PENELITIAN",
+          "start_line": 374,
+          "direct_end_line": 377,
+          "end_line": 748
+        },
+        {
+          "id": "R-0030",
+          "parent": "R-0029",
+          "level": 2,
+          "title": "3.1. Gambaran Umum Penelitian",
+          "start_line": 378,
+          "direct_end_line": 393,
+          "end_line": 393
+        },
+        {
+          "id": "R-0031",
+          "parent": "R-0029",
+          "level": 2,
+          "title": "3.2. Pengumpulan Data",
+          "start_line": 394,
+          "direct_end_line": 399,
+          "end_line": 419
+        },
+        {
+          "id": "R-u0400",
+          "parent": "R-0031",
+          "level": 3,
+          "title": "Illustrate student answers and their reference evaluations in the two domains.",
+          "start_line": 400,
+          "end_line": 417,
+          "direct_end_line": 417
+        },
+        {
+          "id": "R-u0418",
+          "parent": "R-0031",
+          "level": 3,
+          "title": "Use the separate grade to choose a one-shot demonstration.",
+          "start_line": 418,
+          "end_line": 419,
+          "direct_end_line": 419
+        },
+        {
+          "id": "R-0032",
+          "parent": "R-0029",
+          "level": 2,
+          "title": "3.3. Penyusunan Prompt",
+          "start_line": 420,
+          "direct_end_line": 427,
+          "end_line": 521
+        },
+        {
+          "id": "R-0033",
+          "parent": "R-0032",
+          "level": 3,
+          "title": "3.3.1. Strategi Zero-Shot",
+          "start_line": 428,
+          "direct_end_line": 431,
+          "end_line": 451
+        },
+        {
+          "id": "R-u0432",
+          "parent": "R-0033",
+          "level": 4,
+          "title": "Give the actual prompt components for the same strategy in both courses.",
+          "start_line": 432,
+          "end_line": 451,
+          "direct_end_line": 451
+        },
+        {
+          "id": "R-0034",
+          "parent": "R-0032",
+          "level": 3,
+          "title": "3.3.2. Strategi One-Shot",
+          "start_line": 452,
+          "direct_end_line": 455,
+          "end_line": 473
+        },
+        {
+          "id": "R-u0456",
+          "parent": "R-0034",
+          "level": 4,
+          "title": "Give the actual prompt components for the same strategy in both courses.",
+          "start_line": 456,
+          "end_line": 473,
+          "direct_end_line": 473
+        },
+        {
+          "id": "R-0035",
+          "parent": "R-0032",
+          "level": 3,
+          "title": "3.3.3. Strategi Few-Shot",
+          "start_line": 474,
+          "direct_end_line": 477,
+          "end_line": 497
+        },
+        {
+          "id": "R-u0478",
+          "parent": "R-0035",
+          "level": 4,
+          "title": "Give the actual prompt components for the same strategy in both courses.",
+          "start_line": 478,
+          "end_line": 497,
+          "direct_end_line": 497
+        },
+        {
+          "id": "R-0036",
+          "parent": "R-0032",
+          "level": 3,
+          "title": "3.3.4. Strategi Chain-of-Thought",
+          "start_line": 498,
+          "direct_end_line": 501,
+          "end_line": 521
+        },
+        {
+          "id": "R-u0502",
+          "parent": "R-0036",
+          "level": 4,
+          "title": "Give the actual prompt components for the same strategy in both courses.",
+          "start_line": 502,
+          "end_line": 521,
+          "direct_end_line": 521
+        },
+        {
+          "id": "R-0037",
+          "parent": "R-0029",
+          "level": 2,
+          "title": "3.4. Generasi Feedback oleh LLM",
+          "start_line": 522,
+          "direct_end_line": 527,
+          "end_line": 529
+        },
+        {
+          "id": "R-u0528",
+          "parent": "R-0037",
+          "level": 3,
+          "title": "Define the saved record that connects a generated response to its experimental condition.",
+          "start_line": 528,
+          "end_line": 529,
+          "direct_end_line": 529
+        },
+        {
+          "id": "R-0038",
+          "parent": "R-0029",
+          "level": 2,
+          "title": "3.5. Evaluasi Hasil Generasi",
+          "start_line": 530,
+          "direct_end_line": 533,
+          "end_line": 748
+        },
+        {
+          "id": "R-u0534",
+          "parent": "R-0038",
+          "level": 3,
+          "title": "Establish the shared reference–candidate pair used in the scoring examples.",
+          "start_line": 534,
+          "end_line": 551,
+          "direct_end_line": 551
+        },
+        {
+          "id": "R-0039",
+          "parent": "R-0038",
+          "level": 3,
+          "title": "3.5.1. Perhitungan Metrik Evaluasi BLEU",
+          "start_line": 552,
+          "direct_end_line": 555,
+          "end_line": 636
+        },
+        {
+          "id": "R-u0556",
+          "parent": "R-0039",
+          "level": 4,
+          "title": "Count tokens in the reference and candidate.",
+          "start_line": 556,
+          "end_line": 557,
+          "direct_end_line": 557
+        },
+        {
+          "id": "R-u0558",
+          "parent": "R-0039",
+          "level": 4,
+          "title": "Calculate unigram and bigram agreement from explicit match evidence.",
+          "start_line": 558,
+          "end_line": 618,
+          "direct_end_line": 559
+        },
+        {
+          "id": "R-u0560",
+          "parent": "R-u0558",
+          "level": 5,
+          "title": "Tabulate unigram matches and divide by the candidate token count.",
+          "start_line": 560,
+          "end_line": 597,
+          "direct_end_line": 597
+        },
+        {
+          "id": "R-u0598",
+          "parent": "R-u0558",
+          "level": 5,
+          "title": "Tabulate bigram matches and divide by the number of candidate bigrams.",
+          "start_line": 598,
+          "end_line": 618,
+          "direct_end_line": 618
+        },
+        {
+          "id": "R-u0619",
+          "parent": "R-0039",
+          "level": 4,
+          "title": "Adjust for candidate length.",
+          "start_line": 619,
+          "end_line": 624,
+          "direct_end_line": 624
+        },
+        {
+          "id": "R-u0625",
+          "parent": "R-0039",
+          "level": 4,
+          "title": "Combine precisions and penalty and explain the final lexical score.",
+          "start_line": 625,
+          "end_line": 636,
+          "direct_end_line": 636
+        },
+        {
+          "id": "R-0040",
+          "parent": "R-0038",
+          "level": 3,
+          "title": "3.5.2. Perhitungan Metrik Evaluasi ROUGE-L",
+          "start_line": 637,
+          "direct_end_line": 640,
+          "end_line": 670
+        },
+        {
+          "id": "R-u0641",
+          "parent": "R-0040",
+          "level": 4,
+          "title": "Identify the longest common subsequence in the example.",
+          "start_line": 641,
+          "end_line": 648,
+          "direct_end_line": 648
+        },
+        {
+          "id": "R-u0649",
+          "parent": "R-0040",
+          "level": 4,
+          "title": "Normalize the subsequence by the candidate and reference lengths.",
+          "start_line": 649,
+          "end_line": 658,
+          "direct_end_line": 658
+        },
+        {
+          "id": "R-u0659",
+          "parent": "R-0040",
+          "level": 4,
+          "title": "Combine the two components and interpret the ordered-overlap score.",
+          "start_line": 659,
+          "end_line": 670,
+          "direct_end_line": 670
+        },
+        {
+          "id": "R-0041",
+          "parent": "R-0038",
+          "level": 3,
+          "title": "3.5.3. Perhitungan Metrik Evaluasi METEOR",
+          "start_line": 671,
+          "direct_end_line": 674,
+          "end_line": 710
+        },
+        {
+          "id": "R-u0675",
+          "parent": "R-0041",
+          "level": 4,
+          "title": "Tokenize the pair and count matching unigrams.",
+          "start_line": 675,
+          "end_line": 678,
+          "direct_end_line": 678
+        },
+        {
+          "id": "R-u0679",
+          "parent": "R-0041",
+          "level": 4,
+          "title": "Convert matches into precision, recall and a weighted mean.",
+          "start_line": 679,
+          "end_line": 696,
+          "direct_end_line": 696
+        },
+        {
+          "id": "R-u0697",
+          "parent": "R-0041",
+          "level": 4,
+          "title": "Apply the fragmentation penalty using an assumed chunk count.",
+          "start_line": 697,
+          "end_line": 702,
+          "direct_end_line": 702
+        },
+        {
+          "id": "R-u0703",
+          "parent": "R-0041",
+          "level": 4,
+          "title": "Apply the penalty to the mean and interpret the resulting METEOR value.",
+          "start_line": 703,
+          "end_line": 710,
+          "direct_end_line": 710
+        },
+        {
+          "id": "R-0042",
+          "parent": "R-0038",
+          "level": 3,
+          "title": "3.5.4. Perhitungan Metrik Evaluasi BERTScore",
+          "start_line": 711,
+          "direct_end_line": 716,
+          "end_line": 748
+        },
+        {
+          "id": "R-u0717",
+          "parent": "R-0042",
+          "level": 4,
+          "title": "Represent tokens as embeddings and match by cosine similarity.",
+          "start_line": 717,
+          "end_line": 722,
+          "direct_end_line": 722
+        },
+        {
+          "id": "R-u0723",
+          "parent": "R-0042",
+          "level": 4,
+          "title": "Derive precision, recall and F1 and report the estimated values.",
+          "start_line": 723,
+          "end_line": 746,
+          "direct_end_line": 746
+        },
+        {
+          "id": "R-u0747",
+          "parent": "R-0042",
+          "level": 4,
+          "title": "Interpret the reported F1 for the paired texts.",
+          "start_line": 747,
+          "end_line": 748,
+          "direct_end_line": 748
+        },
+        {
+          "id": "R-0043",
+          "parent": "R-root",
+          "level": 1,
+          "title": "BAB IV — HASIL DAN PEMBAHASAN",
+          "start_line": 749,
+          "direct_end_line": 752,
+          "end_line": 1084
+        },
+        {
+          "id": "R-0044",
+          "parent": "R-0043",
+          "level": 2,
+          "title": "4.1. Lingkungan Proses Generating dan Evaluasi",
+          "start_line": 753,
+          "direct_end_line": 762,
+          "end_line": 762
+        },
+        {
+          "id": "R-0045",
+          "parent": "R-0043",
+          "level": 2,
+          "title": "4.2. Data Penelitian",
+          "start_line": 763,
+          "direct_end_line": 770,
+          "end_line": 780
+        },
+        {
+          "id": "R-u0771",
+          "parent": "R-0045",
+          "level": 3,
+          "title": "Identify the stored observation and reconcile totals by course and configuration.",
+          "start_line": 771,
+          "end_line": 780,
+          "direct_end_line": 780
+        },
+        {
+          "id": "R-0046",
+          "parent": "R-0043",
+          "level": 2,
+          "title": "4.3. Analisis Hasil pada Mata Kuliah Sistem Cerdas",
+          "start_line": 781,
+          "direct_end_line": 782,
+          "end_line": 925
+        },
+        {
+          "id": "R-0047",
+          "parent": "R-0046",
+          "level": 3,
+          "title": "4.3.1. Berdasarkan Strategi Prompting",
+          "start_line": 783,
+          "direct_end_line": 786,
+          "end_line": 813
+        },
+        {
+          "id": "R-u0787",
+          "parent": "R-0047",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 787,
+          "end_line": 802,
+          "direct_end_line": 802
+        },
+        {
+          "id": "R-u0803",
+          "parent": "R-0047",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 803,
+          "end_line": 813,
+          "direct_end_line": 813
+        },
+        {
+          "id": "R-0048",
+          "parent": "R-0046",
+          "level": 3,
+          "title": "4.3.2. Berdasarkan Strategi Persona",
+          "start_line": 814,
+          "direct_end_line": 817,
+          "end_line": 843
+        },
+        {
+          "id": "R-u0818",
+          "parent": "R-0048",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 818,
+          "end_line": 833,
+          "direct_end_line": 833
+        },
+        {
+          "id": "R-u0834",
+          "parent": "R-0048",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 834,
+          "end_line": 843,
+          "direct_end_line": 843
+        },
+        {
+          "id": "R-0049",
+          "parent": "R-0046",
+          "level": 3,
+          "title": "4.3.3. Berdasarkan Strategi Model",
+          "start_line": 844,
+          "direct_end_line": 847,
+          "end_line": 874
+        },
+        {
+          "id": "R-u0848",
+          "parent": "R-0049",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 848,
+          "end_line": 863,
+          "direct_end_line": 863
+        },
+        {
+          "id": "R-u0864",
+          "parent": "R-0049",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 864,
+          "end_line": 874,
+          "direct_end_line": 874
+        },
+        {
+          "id": "R-0050",
+          "parent": "R-0046",
+          "level": 3,
+          "title": "4.3.4. Berdasarkan Kombinasi Strategi, Persona, dan Model",
+          "start_line": 875,
+          "direct_end_line": 878,
+          "end_line": 925
+        },
+        {
+          "id": "R-u0879",
+          "parent": "R-0050",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 879,
+          "end_line": 894,
+          "direct_end_line": 894
+        },
+        {
+          "id": "R-u0895",
+          "parent": "R-0050",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 895,
+          "end_line": 925,
+          "direct_end_line": 925
+        },
+        {
+          "id": "R-0051",
+          "parent": "R-0043",
+          "level": 2,
+          "title": "4.4. Analisis Hasil pada Mata Kuliah Metodologi Penelitian dan Penulisan Ilmiah",
+          "start_line": 926,
+          "direct_end_line": 927,
+          "end_line": 1070
+        },
+        {
+          "id": "R-0052",
+          "parent": "R-0051",
+          "level": 3,
+          "title": "4.4.1. Berdasarkan Strategi Prompting",
+          "start_line": 928,
+          "direct_end_line": 931,
+          "end_line": 960
+        },
+        {
+          "id": "R-u0932",
+          "parent": "R-0052",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 932,
+          "end_line": 947,
+          "direct_end_line": 947
+        },
+        {
+          "id": "R-u0948",
+          "parent": "R-0052",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 948,
+          "end_line": 960,
+          "direct_end_line": 960
+        },
+        {
+          "id": "R-0053",
+          "parent": "R-0051",
+          "level": 3,
+          "title": "4.4.2. Berdasarkan Strategi Persona",
+          "start_line": 961,
+          "direct_end_line": 964,
+          "end_line": 990
+        },
+        {
+          "id": "R-u0965",
+          "parent": "R-0053",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 965,
+          "end_line": 980,
+          "direct_end_line": 980
+        },
+        {
+          "id": "R-u0981",
+          "parent": "R-0053",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 981,
+          "end_line": 990,
+          "direct_end_line": 990
+        },
+        {
+          "id": "R-0054",
+          "parent": "R-0051",
+          "level": 3,
+          "title": "4.4.3. Berdasarkan Strategi Model",
+          "start_line": 991,
+          "direct_end_line": 994,
+          "end_line": 1019
+        },
+        {
+          "id": "R-u0995",
+          "parent": "R-0054",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 995,
+          "end_line": 1010,
+          "direct_end_line": 1010
+        },
+        {
+          "id": "R-u1011",
+          "parent": "R-0054",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 1011,
+          "end_line": 1019,
+          "direct_end_line": 1019
+        },
+        {
+          "id": "R-0055",
+          "parent": "R-0051",
+          "level": 3,
+          "title": "4.4.4. Berdasarkan Kombinasi Strategi, Persona dan Model",
+          "start_line": 1020,
+          "direct_end_line": 1023,
+          "end_line": 1070
+        },
+        {
+          "id": "R-u1024",
+          "parent": "R-0055",
+          "level": 4,
+          "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+          "start_line": 1024,
+          "end_line": 1039,
+          "direct_end_line": 1039
+        },
+        {
+          "id": "R-u1040",
+          "parent": "R-0055",
+          "level": 4,
+          "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+          "start_line": 1040,
+          "end_line": 1070,
+          "direct_end_line": 1070
+        },
+        {
+          "id": "R-0056",
+          "parent": "R-0043",
+          "level": 2,
+          "title": "4.5. Interpretasi Hasil",
+          "start_line": 1071,
+          "direct_end_line": 1074,
+          "end_line": 1084
+        },
+        {
+          "id": "R-u1075",
+          "parent": "R-0056",
+          "level": 3,
+          "title": "Synthesize prompt-strategy performance across the courses.",
+          "start_line": 1075,
+          "end_line": 1076,
+          "direct_end_line": 1076
+        },
+        {
+          "id": "R-u1077",
+          "parent": "R-0056",
+          "level": 3,
+          "title": "Synthesize the comparison of three personas across courses.",
+          "start_line": 1077,
+          "end_line": 1078,
+          "direct_end_line": 1078
+        },
+        {
+          "id": "R-u1079",
+          "parent": "R-0056",
+          "level": 3,
+          "title": "Compare model performance across measures.",
+          "start_line": 1079,
+          "end_line": 1080,
+          "direct_end_line": 1080
+        },
+        {
+          "id": "R-u1081",
+          "parent": "R-0056",
+          "level": 3,
+          "title": "Identify the combinations that performed best overall.",
+          "start_line": 1081,
+          "end_line": 1082,
+          "direct_end_line": 1082
+        },
+        {
+          "id": "R-u1083",
+          "parent": "R-0056",
+          "level": 3,
+          "title": "Identify which results differ across the two courses.",
+          "start_line": 1083,
+          "end_line": 1084,
+          "direct_end_line": 1084
+        },
+        {
+          "id": "R-0057",
+          "parent": "R-root",
+          "level": 1,
+          "title": "BAB V — PENUTUP",
+          "start_line": 1085,
+          "direct_end_line": 1088,
+          "end_line": 1096
+        },
+        {
+          "id": "R-0058",
+          "parent": "R-0057",
+          "level": 2,
+          "title": "5.1. Kesimpulan",
+          "start_line": 1089,
+          "direct_end_line": 1092,
+          "end_line": 1092
+        },
+        {
+          "id": "R-0059",
+          "parent": "R-0057",
+          "level": 2,
+          "title": "5.2. Saran",
+          "start_line": 1093,
+          "direct_end_line": 1096,
+          "end_line": 1096
+        },
+        {
+          "id": "R-0060",
+          "parent": "R-root",
+          "level": 1,
+          "title": "DAFTAR PUSTAKA",
+          "start_line": 1097,
+          "direct_end_line": 1151,
+          "end_line": 1151
+        }
+      ]
+    },
+    "target": {
+      "original_path": "/Users/gamer/Documents/school/thesis-writing/thesis_BAB_I_to_Daftar_Pustaka_revised.md",
+      "file": "baseline.md",
+      "sha256": "3a09391b85f32f246690f66eed8ccbb096a34029555a954e7f3975e0c0c3587d",
+      "line_count": 919,
+      "nodes": [
+        {
+          "id": "T-root",
+          "parent": null,
+          "level": 0,
+          "title": "Document",
+          "start_line": 1,
+          "direct_end_line": 0,
+          "end_line": 919
+        },
+        {
+          "id": "T-0001",
+          "parent": "T-root",
+          "level": 1,
+          "title": "BAB I — PENDAHULUAN",
+          "start_line": 1,
+          "direct_end_line": 4,
+          "end_line": 61
+        },
+        {
+          "id": "T-0002",
+          "parent": "T-0001",
+          "level": 2,
+          "title": "1.1. Latar Belakang",
+          "start_line": 5,
+          "direct_end_line": 20,
+          "end_line": 20
+        },
+        {
+          "id": "T-0003",
+          "parent": "T-0001",
+          "level": 2,
+          "title": "1.2. Rumusan Masalah",
+          "start_line": 21,
+          "direct_end_line": 24,
+          "end_line": 24
+        },
+        {
+          "id": "T-0004",
+          "parent": "T-0001",
+          "level": 2,
+          "title": "1.3. Tujuan Penelitian",
+          "start_line": 25,
+          "direct_end_line": 28,
+          "end_line": 28
+        },
+        {
+          "id": "T-0005",
+          "parent": "T-0001",
+          "level": 2,
+          "title": "1.4. Manfaat Penelitian",
+          "start_line": 29,
+          "direct_end_line": 35,
+          "end_line": 35
+        },
+        {
+          "id": "T-0006",
+          "parent": "T-0001",
+          "level": 2,
+          "title": "1.5. Batasan Penelitian",
+          "start_line": 36,
+          "direct_end_line": 45,
+          "end_line": 45
+        },
+        {
+          "id": "T-0007",
+          "parent": "T-0001",
+          "level": 2,
+          "title": "1.6. Sistematika Penulisan",
+          "start_line": 46,
+          "direct_end_line": 61,
+          "end_line": 61
+        },
+        {
+          "id": "T-0008",
+          "parent": "T-root",
+          "level": 1,
+          "title": "BAB II — TINJAUAN PUSTAKA",
+          "start_line": 62,
+          "direct_end_line": 65,
+          "end_line": 201
+        },
+        {
+          "id": "T-0009",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.1. State-of-the-art",
+          "start_line": 66,
+          "direct_end_line": 69,
+          "end_line": 94
+        },
+        {
+          "id": "T-X01",
+          "parent": "T-0009",
+          "level": 3,
+          "title": "Perbandingan delapan penelitian",
+          "start_line": 70,
+          "direct_end_line": 82,
+          "end_line": 82
+        },
+        {
+          "id": "T-X02",
+          "parent": "T-0009",
+          "level": 3,
+          "title": "Posisi penelitian operasional",
+          "start_line": 83,
+          "direct_end_line": 94,
+          "end_line": 94
+        },
+        {
+          "id": "T-0010",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.2. Business Intelligence",
+          "start_line": 95,
+          "direct_end_line": 100,
+          "end_line": 100
+        },
+        {
+          "id": "T-0011",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.3. Agentic Business Intelligence",
+          "start_line": 101,
+          "direct_end_line": 110,
+          "end_line": 110
+        },
+        {
+          "id": "T-0012",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.4. Agen Berbasis Kecerdasan Buatan",
+          "start_line": 111,
+          "direct_end_line": 118,
+          "end_line": 126
+        },
+        {
+          "id": "T-0013",
+          "parent": "T-0012",
+          "level": 3,
+          "title": "2.4.1. Tool dan Model Context Protocol",
+          "start_line": 119,
+          "direct_end_line": 126,
+          "end_line": 126
+        },
+        {
+          "id": "T-0014",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.5. Analisis Data melalui Bahasa Alami",
+          "start_line": 127,
+          "direct_end_line": 134,
+          "end_line": 134
+        },
+        {
+          "id": "T-0015",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.6. Prompt dan Konteks Bisnis",
+          "start_line": 135,
+          "direct_end_line": 140,
+          "end_line": 154
+        },
+        {
+          "id": "T-0016",
+          "parent": "T-0015",
+          "level": 3,
+          "title": "2.6.1. Struktur dan Isi Konteks Bisnis",
+          "start_line": 141,
+          "direct_end_line": 148,
+          "end_line": 148
+        },
+        {
+          "id": "T-0017",
+          "parent": "T-0015",
+          "level": 3,
+          "title": "2.6.2. Skills",
+          "start_line": 149,
+          "direct_end_line": 154,
+          "end_line": 154
+        },
+        {
+          "id": "T-0018",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.7. Large Language Models",
+          "start_line": 155,
+          "direct_end_line": 173,
+          "end_line": 181
+        },
+        {
+          "id": "T-0019",
+          "parent": "T-0018",
+          "level": 3,
+          "title": "2.7.1. Muse Spark 1.3",
+          "start_line": 174,
+          "direct_end_line": 177,
+          "end_line": 177
+        },
+        {
+          "id": "T-0020",
+          "parent": "T-0018",
+          "level": 3,
+          "title": "2.7.2. DeepSeek v4 Flash",
+          "start_line": 178,
+          "direct_end_line": 181,
+          "end_line": 181
+        },
+        {
+          "id": "T-0021",
+          "parent": "T-0008",
+          "level": 2,
+          "title": "2.8. Evaluasi Hasil Analisis",
+          "start_line": 182,
+          "direct_end_line": 185,
+          "end_line": 201
+        },
+        {
+          "id": "T-0022",
+          "parent": "T-0021",
+          "level": 3,
+          "title": "2.8.1. Kesesuaian Struktur dan Nilai Jawaban",
+          "start_line": 186,
+          "direct_end_line": 191,
+          "end_line": 191
+        },
+        {
+          "id": "T-0023",
+          "parent": "T-0021",
+          "level": 3,
+          "title": "2.8.2. Tingkat Keberhasilan",
+          "start_line": 192,
+          "direct_end_line": 195,
+          "end_line": 195
+        },
+        {
+          "id": "T-0024",
+          "parent": "T-0021",
+          "level": 3,
+          "title": "2.8.3. Konsistensi Hasil Pengulangan",
+          "start_line": 196,
+          "direct_end_line": 201,
+          "end_line": 201
+        },
+        {
+          "id": "T-0025",
+          "parent": "T-root",
+          "level": 1,
+          "title": "BAB III — METODOLOGI PENELITIAN",
+          "start_line": 202,
+          "direct_end_line": 205,
+          "end_line": 474
+        },
+        {
+          "id": "T-0026",
+          "parent": "T-0025",
+          "level": 2,
+          "title": "3.1. Gambaran Umum Penelitian",
+          "start_line": 206,
+          "direct_end_line": 217,
+          "end_line": 231
+        },
+        {
+          "id": "T-X03",
+          "parent": "T-0026",
+          "level": 3,
+          "title": "Unit kasus dan empat kombinasi",
+          "start_line": 218,
+          "direct_end_line": 231,
+          "end_line": 231
+        },
+        {
+          "id": "T-0027",
+          "parent": "T-0025",
+          "level": 2,
+          "title": "3.2. Data Penelitian",
+          "start_line": 232,
+          "direct_end_line": 235,
+          "end_line": 338
+        },
+        {
+          "id": "T-0028",
+          "parent": "T-0027",
+          "level": 3,
+          "title": "3.2.1. Sumber dan Cakupan Data",
+          "start_line": 236,
+          "direct_end_line": 253,
+          "end_line": 253
+        },
+        {
+          "id": "T-0029",
+          "parent": "T-0027",
+          "level": 3,
+          "title": "3.2.2. Pemilihan Kasus Uji",
+          "start_line": 254,
+          "direct_end_line": 257,
+          "end_line": 295
+        },
+        {
+          "id": "T-X04",
+          "parent": "T-0029",
+          "level": 4,
+          "title": "Pertimbangan pemilihan kasus",
+          "start_line": 258,
+          "direct_end_line": 275,
+          "end_line": 275
+        },
+        {
+          "id": "T-X05",
+          "parent": "T-0029",
+          "level": 4,
+          "title": "Matriks kondisi dan kemampuan analisis",
+          "start_line": 276,
+          "direct_end_line": 295,
+          "end_line": 295
+        },
+        {
+          "id": "T-0030",
+          "parent": "T-0027",
+          "level": 3,
+          "title": "3.2.3. Penyusunan Expected Result",
+          "start_line": 296,
+          "direct_end_line": 301,
+          "end_line": 338
+        },
+        {
+          "id": "T-X06",
+          "parent": "T-0030",
+          "level": 4,
+          "title": "Aturan pemilihan data dan perhitungan",
+          "start_line": 302,
+          "direct_end_line": 314,
+          "end_line": 314
+        },
+        {
+          "id": "T-X07",
+          "parent": "T-0030",
+          "level": 4,
+          "title": "Perhitungan acuan untuk T1-C2",
+          "start_line": 315,
+          "direct_end_line": 338,
+          "end_line": 338
+        },
+        {
+          "id": "T-0031",
+          "parent": "T-0025",
+          "level": 2,
+          "title": "3.3. Penyusunan Prompt dan Konteks Bisnis",
+          "start_line": 339,
+          "direct_end_line": 347,
+          "end_line": 386
+        },
+        {
+          "id": "T-0032",
+          "parent": "T-0031",
+          "level": 3,
+          "title": "3.3.1. Pertanyaan dan Format Jawaban",
+          "start_line": 348,
+          "direct_end_line": 351,
+          "end_line": 361
+        },
+        {
+          "id": "T-X08",
+          "parent": "T-0032",
+          "level": 4,
+          "title": "Contoh pertanyaan dan skema T2-C1",
+          "start_line": 352,
+          "direct_end_line": 361,
+          "end_line": 361
+        },
+        {
+          "id": "T-0033",
+          "parent": "T-0031",
+          "level": 3,
+          "title": "3.3.2. Konteks Bisnis",
+          "start_line": 362,
+          "direct_end_line": 367,
+          "end_line": 386
+        },
+        {
+          "id": "T-X09",
+          "parent": "T-0033",
+          "level": 4,
+          "title": "Fungsi tujuh dokumen",
+          "start_line": 368,
+          "direct_end_line": 379,
+          "end_line": 379
+        },
+        {
+          "id": "T-X10",
+          "parent": "T-0033",
+          "level": 4,
+          "title": "Contoh pemilihan lebih dari satu referensi",
+          "start_line": 380,
+          "direct_end_line": 386,
+          "end_line": 386
+        },
+        {
+          "id": "T-0034",
+          "parent": "T-0025",
+          "level": 2,
+          "title": "3.4. Generasi Jawaban oleh LLM",
+          "start_line": 387,
+          "direct_end_line": 388,
+          "end_line": 434
+        },
+        {
+          "id": "T-0035",
+          "parent": "T-0034",
+          "level": 3,
+          "title": "3.4.1. Model dan Lingkungan Pengujian",
+          "start_line": 389,
+          "direct_end_line": 410,
+          "end_line": 410
+        },
+        {
+          "id": "T-0036",
+          "parent": "T-0034",
+          "level": 3,
+          "title": "3.4.2. Akses Data",
+          "start_line": 411,
+          "direct_end_line": 428,
+          "end_line": 428
+        },
+        {
+          "id": "T-0037",
+          "parent": "T-0034",
+          "level": 3,
+          "title": "3.4.3. Prosedur Generasi Jawaban",
+          "start_line": 429,
+          "direct_end_line": 434,
+          "end_line": 434
+        },
+        {
+          "id": "T-0038",
+          "parent": "T-0025",
+          "level": 2,
+          "title": "3.5. Evaluasi Hasil Generasi",
+          "start_line": 435,
+          "direct_end_line": 438,
+          "end_line": 474
+        },
+        {
+          "id": "T-0039",
+          "parent": "T-0038",
+          "level": 3,
+          "title": "3.5.1. Perbandingan Respons dan *Expected Result*",
+          "start_line": 439,
+          "direct_end_line": 444,
+          "end_line": 456
+        },
+        {
+          "id": "T-X11",
+          "parent": "T-0039",
+          "level": 4,
+          "title": "Contoh dua keputusan T5-C1",
+          "start_line": 445,
+          "direct_end_line": 456,
+          "end_line": 456
+        },
+        {
+          "id": "T-0040",
+          "parent": "T-0038",
+          "level": 3,
+          "title": "3.5.2. Perhitungan Tingkat Keberhasilan",
+          "start_line": 457,
+          "direct_end_line": 468,
+          "end_line": 468
+        },
+        {
+          "id": "T-0041",
+          "parent": "T-0038",
+          "level": 3,
+          "title": "3.5.3. Analisis Perbandingan Hasil",
+          "start_line": 469,
+          "direct_end_line": 474,
+          "end_line": 474
+        },
+        {
+          "id": "T-0042",
+          "parent": "T-root",
+          "level": 1,
+          "title": "BAB IV — HASIL DAN PEMBAHASAN",
+          "start_line": 475,
+          "direct_end_line": 478,
+          "end_line": 820
+        },
+        {
+          "id": "T-0043",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.1. Lingkungan Pengujian",
+          "start_line": 479,
+          "direct_end_line": 490,
+          "end_line": 490
+        },
+        {
+          "id": "T-0044",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.2. Data Penelitian",
+          "start_line": 491,
+          "direct_end_line": 508,
+          "end_line": 508
+        },
+        {
+          "id": "T-0045",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.3. Analisis Hasil pada Durasi Transaksi",
+          "start_line": 509,
+          "direct_end_line": 510,
+          "end_line": 551
+        },
+        {
+          "id": "T-0046",
+          "parent": "T-0045",
+          "level": 3,
+          "title": "4.3.1. Berdasarkan Ketersediaan Konteks Bisnis",
+          "start_line": 511,
+          "direct_end_line": 523,
+          "end_line": 523
+        },
+        {
+          "id": "T-0047",
+          "parent": "T-0045",
+          "level": 3,
+          "title": "4.3.2. Berdasarkan Model",
+          "start_line": 524,
+          "direct_end_line": 536,
+          "end_line": 536
+        },
+        {
+          "id": "T-0048",
+          "parent": "T-0045",
+          "level": 3,
+          "title": "4.3.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+          "start_line": 537,
+          "direct_end_line": 551,
+          "end_line": 551
+        },
+        {
+          "id": "T-0049",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.4. Analisis Hasil pada Volume Lalu Lintas dan LHR",
+          "start_line": 552,
+          "direct_end_line": 553,
+          "end_line": 598
+        },
+        {
+          "id": "T-0050",
+          "parent": "T-0049",
+          "level": 3,
+          "title": "4.4.1. Berdasarkan Ketersediaan Konteks Bisnis",
+          "start_line": 554,
+          "direct_end_line": 566,
+          "end_line": 566
+        },
+        {
+          "id": "T-0051",
+          "parent": "T-0049",
+          "level": 3,
+          "title": "4.4.2. Berdasarkan Model",
+          "start_line": 567,
+          "direct_end_line": 579,
+          "end_line": 579
+        },
+        {
+          "id": "T-0052",
+          "parent": "T-0049",
+          "level": 3,
+          "title": "4.4.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+          "start_line": 580,
+          "direct_end_line": 594,
+          "end_line": 598
+        },
+        {
+          "id": "T-X12",
+          "parent": "T-0052",
+          "level": 4,
+          "title": "Kelengkapan golongan pada T3-C1",
+          "start_line": 595,
+          "direct_end_line": 598,
+          "end_line": 598
+        },
+        {
+          "id": "T-0053",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.5. Analisis Hasil pada Insiden dan Penyebab Kecelakaan",
+          "start_line": 599,
+          "direct_end_line": 600,
+          "end_line": 656
+        },
+        {
+          "id": "T-0054",
+          "parent": "T-0053",
+          "level": 3,
+          "title": "4.5.1. Berdasarkan Ketersediaan Konteks Bisnis",
+          "start_line": 601,
+          "direct_end_line": 613,
+          "end_line": 613
+        },
+        {
+          "id": "T-0055",
+          "parent": "T-0053",
+          "level": 3,
+          "title": "4.5.2. Berdasarkan Model",
+          "start_line": 614,
+          "direct_end_line": 626,
+          "end_line": 626
+        },
+        {
+          "id": "T-0056",
+          "parent": "T-0053",
+          "level": 3,
+          "title": "4.5.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+          "start_line": 627,
+          "direct_end_line": 641,
+          "end_line": 656
+        },
+        {
+          "id": "T-X13",
+          "parent": "T-0056",
+          "level": 4,
+          "title": "Pemilihan insiden dan frekuensi T5-C1",
+          "start_line": 642,
+          "direct_end_line": 656,
+          "end_line": 656
+        },
+        {
+          "id": "T-0057",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.6. Analisis Hasil pada Inspeksi dan Identitas Aset",
+          "start_line": 657,
+          "direct_end_line": 658,
+          "end_line": 699
+        },
+        {
+          "id": "T-0058",
+          "parent": "T-0057",
+          "level": 3,
+          "title": "4.6.1. Berdasarkan Ketersediaan Konteks Bisnis",
+          "start_line": 659,
+          "direct_end_line": 671,
+          "end_line": 671
+        },
+        {
+          "id": "T-0059",
+          "parent": "T-0057",
+          "level": 3,
+          "title": "4.6.2. Berdasarkan Model",
+          "start_line": 672,
+          "direct_end_line": 684,
+          "end_line": 684
+        },
+        {
+          "id": "T-0060",
+          "parent": "T-0057",
+          "level": 3,
+          "title": "4.6.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+          "start_line": 685,
+          "direct_end_line": 699,
+          "end_line": 699
+        },
+        {
+          "id": "T-0061",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.7. Analisis Hasil pada SPM dan SLA per Laporan",
+          "start_line": 700,
+          "direct_end_line": 701,
+          "end_line": 757
+        },
+        {
+          "id": "T-0062",
+          "parent": "T-0061",
+          "level": 3,
+          "title": "4.7.1. Berdasarkan Ketersediaan Konteks Bisnis",
+          "start_line": 702,
+          "direct_end_line": 714,
+          "end_line": 714
+        },
+        {
+          "id": "T-0063",
+          "parent": "T-0061",
+          "level": 3,
+          "title": "4.7.2. Berdasarkan Model",
+          "start_line": 715,
+          "direct_end_line": 727,
+          "end_line": 727
+        },
+        {
+          "id": "T-0064",
+          "parent": "T-0061",
+          "level": 3,
+          "title": "4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+          "start_line": 728,
+          "direct_end_line": 742,
+          "end_line": 757
+        },
+        {
+          "id": "T-X14",
+          "parent": "T-0064",
+          "level": 4,
+          "title": "Rincian empat jawaban gagal pada T7",
+          "start_line": 743,
+          "direct_end_line": 757,
+          "end_line": 757
+        },
+        {
+          "id": "T-0065",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode",
+          "start_line": 758,
+          "direct_end_line": 759,
+          "end_line": 802
+        },
+        {
+          "id": "T-0066",
+          "parent": "T-0065",
+          "level": 3,
+          "title": "4.8.1. Berdasarkan Ketersediaan Konteks Bisnis",
+          "start_line": 760,
+          "direct_end_line": 772,
+          "end_line": 772
+        },
+        {
+          "id": "T-0067",
+          "parent": "T-0065",
+          "level": 3,
+          "title": "4.8.2. Berdasarkan Model",
+          "start_line": 773,
+          "direct_end_line": 785,
+          "end_line": 785
+        },
+        {
+          "id": "T-0068",
+          "parent": "T-0065",
+          "level": 3,
+          "title": "4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+          "start_line": 786,
+          "direct_end_line": 800,
+          "end_line": 802
+        },
+        {
+          "id": "T-X15",
+          "parent": "T-0068",
+          "level": 4,
+          "title": "Status indikator dan jumlah kegagalan T9-C2",
+          "start_line": 801,
+          "direct_end_line": 802,
+          "end_line": 802
+        },
+        {
+          "id": "T-0069",
+          "parent": "T-0042",
+          "level": 2,
+          "title": "4.9. Interpretasi Hasil",
+          "start_line": 803,
+          "direct_end_line": 808,
+          "end_line": 820
+        },
+        {
+          "id": "T-X16",
+          "parent": "T-0069",
+          "level": 3,
+          "title": "Perbedaan menurut tugas dan bentuk kesalahan",
+          "start_line": 809,
+          "direct_end_line": 814,
+          "end_line": 814
+        },
+        {
+          "id": "T-X17",
+          "parent": "T-0069",
+          "level": 3,
+          "title": "Hasil per pengulangan dan batas penafsiran",
+          "start_line": 815,
+          "direct_end_line": 820,
+          "end_line": 820
+        },
+        {
+          "id": "T-0070",
+          "parent": "T-root",
+          "level": 1,
+          "title": "BAB V — PENUTUP",
+          "start_line": 821,
+          "direct_end_line": 824,
+          "end_line": 840
+        },
+        {
+          "id": "T-0071",
+          "parent": "T-0070",
+          "level": 2,
+          "title": "5.1. Kesimpulan",
+          "start_line": 825,
+          "direct_end_line": 836,
+          "end_line": 836
+        },
+        {
+          "id": "T-0072",
+          "parent": "T-0070",
+          "level": 2,
+          "title": "5.2. Saran",
+          "start_line": 837,
+          "direct_end_line": 840,
+          "end_line": 840
+        },
+        {
+          "id": "T-0073",
+          "parent": "T-root",
+          "level": 1,
+          "title": "DAFTAR PUSTAKA",
+          "start_line": 841,
+          "direct_end_line": 919,
+          "end_line": 919
+        }
+      ]
+    }
+  },
+  "inventory_limit": "ATX headings outside fenced code. Inspect and register other structural divisions manually."
+}

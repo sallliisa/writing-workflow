@@ -1,0 +1,28 @@
+{
+  "id": "RC-W15",
+  "same_in_both": [
+    {
+      "lines": [
+        186,
+        190
+      ],
+      "text": "### 2.8.1. Kesesuaian Struktur dan Nilai Jawaban\n\nPada jawaban berbentuk JSON, pemeriksaan mencakup struktur dan nilai yang dihasilkan. Dalam penelitian ini, struktur yang diperiksa meliputi atribut yang diminta, tipe nilai, dan urutan elemen *array*. Dalam evaluasi *in-context learning*, DataBench memeriksa apakah *output* merupakan JSON yang valid dan memuat atribut yang diperlukan sebelum menilai ketepatan isinya (Osés Grijalba dkk., 2024).\n\nNilai jawaban dibandingkan dengan *expected result* yang disusun berdasarkan data dan aturan perhitungan untuk setiap pertanyaan. Pada InfiAgent-DABench, seluruh bagian jawaban harus benar agar tugas dinilai berhasil (Hu dkk., 2024). Dalam penelitian ini, jawaban diberi status PASS jika struktur dan seluruh nilainya sesuai dengan *expected result*. Jika ada bagian yang tidak sesuai, jawaban dinilai FAIL."
+    },
+    {
+      "lines": [
+        429,
+        435
+      ],
+      "text": "### 3.4.3. Prosedur Generasi Jawaban\n\nPada evaluasi utama τ-bench, setiap tugas dijalankan minimal tiga kali (Yao dkk., 2025). Data Interpreter melaporkan rata-rata hasil dari tiga eksekusi pada evaluasi tugas *open-ended* (Hong dkk., 2025).\n\nSetiap kasus dalam penelitian ini dijalankan tiga kali pada masing-masing model, baik dengan ataupun tanpa konteks bisnis, untuk memeriksa konsistensi keberhasilan agen. Pada setiap pengulangan, agen menerima *prompt* dalam percakapan baru, kemudian membaca data melalui *tool* dan menghitung jawaban sesuai permintaan. Ketiga jawaban akhir dibandingkan dengan *expected result* yang sama untuk kasus tersebut.\n\n## 3.5. Evaluasi Hasil Generasi"
+    },
+    {
+      "lines": [
+        439,
+        445
+      ],
+      "text": "### 3.5.1. Perbandingan Respons dan *Expected Result*\n\nJawaban dinilai PASS jika merupakan JSON yang valid dan seluruh struktur serta nilainya sesuai dengan *expected result*. Perbandingan mencakup seluruh atribut, nilai, dan urutan elemen array. Urutan properti dalam JSON tidak memengaruhi penilaian.\n\nAngka dibandingkan berdasarkan nilainya tanpa toleransi tambahan. Misalnya, nilai 10 dan 10.0 dinilai sama.\n\nTabel 3.10 menunjukkan contoh penilaian PASS dan FAIL pada dua jawaban agen untuk kasus T5-C1 tentang distribusi penyebab kecelakaan di Ruas PEKBANG selama April 2030."
+    }
+  ],
+  "A": "Setiap jawaban akhir agen dibandingkan dengan *expected result* untuk menentukan status PASS atau FAIL.",
+  "B": "Setiap jawaban akhir agen dibandingkan dengan *expected result* untuk menentukan status PASS atau FAIL. Pada InfiAgent-DABench, satu pertanyaan dinilai berhasil jika seluruh bagian jawabannya benar (Hu dkk., 2024). Ketentuan pencocokan JSON dalam penelitian ini dijelaskan pada Bagian 3.5.1."
+}

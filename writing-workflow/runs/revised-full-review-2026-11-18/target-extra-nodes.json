@@ -1,0 +1,155 @@
+[
+  {
+    "id": "T-X01",
+    "parent": "T-0009",
+    "level": 3,
+    "title": "Perbandingan delapan penelitian",
+    "start_line": 70,
+    "direct_end_line": 82,
+    "end_line": 82
+  },
+  {
+    "id": "T-X02",
+    "parent": "T-0009",
+    "level": 3,
+    "title": "Posisi penelitian operasional",
+    "start_line": 83,
+    "direct_end_line": 94,
+    "end_line": 94
+  },
+  {
+    "id": "T-X03",
+    "parent": "T-0026",
+    "level": 3,
+    "title": "Unit kasus dan empat kombinasi",
+    "start_line": 218,
+    "direct_end_line": 231,
+    "end_line": 231
+  },
+  {
+    "id": "T-X04",
+    "parent": "T-0029",
+    "level": 4,
+    "title": "Pertimbangan pemilihan kasus",
+    "start_line": 258,
+    "direct_end_line": 275,
+    "end_line": 275
+  },
+  {
+    "id": "T-X05",
+    "parent": "T-0029",
+    "level": 4,
+    "title": "Matriks kondisi dan kemampuan analisis",
+    "start_line": 276,
+    "direct_end_line": 295,
+    "end_line": 295
+  },
+  {
+    "id": "T-X06",
+    "parent": "T-0030",
+    "level": 4,
+    "title": "Aturan pemilihan data dan perhitungan",
+    "start_line": 302,
+    "direct_end_line": 314,
+    "end_line": 314
+  },
+  {
+    "id": "T-X07",
+    "parent": "T-0030",
+    "level": 4,
+    "title": "Perhitungan acuan untuk T1-C2",
+    "start_line": 315,
+    "direct_end_line": 338,
+    "end_line": 338
+  },
+  {
+    "id": "T-X08",
+    "parent": "T-0032",
+    "level": 4,
+    "title": "Contoh pertanyaan dan skema T2-C1",
+    "start_line": 352,
+    "direct_end_line": 361,
+    "end_line": 361
+  },
+  {
+    "id": "T-X09",
+    "parent": "T-0033",
+    "level": 4,
+    "title": "Fungsi tujuh dokumen",
+    "start_line": 368,
+    "direct_end_line": 379,
+    "end_line": 379
+  },
+  {
+    "id": "T-X10",
+    "parent": "T-0033",
+    "level": 4,
+    "title": "Contoh pemilihan lebih dari satu referensi",
+    "start_line": 380,
+    "direct_end_line": 386,
+    "end_line": 386
+  },
+  {
+    "id": "T-X11",
+    "parent": "T-0039",
+    "level": 4,
+    "title": "Contoh dua keputusan T5-C1",
+    "start_line": 445,
+    "direct_end_line": 456,
+    "end_line": 456
+  },
+  {
+    "id": "T-X12",
+    "parent": "T-0052",
+    "level": 4,
+    "title": "Kelengkapan golongan pada T3-C1",
+    "start_line": 595,
+    "direct_end_line": 598,
+    "end_line": 598
+  },
+  {
+    "id": "T-X13",
+    "parent": "T-0056",
+    "level": 4,
+    "title": "Pemilihan insiden dan frekuensi T5-C1",
+    "start_line": 642,
+    "direct_end_line": 656,
+    "end_line": 656
+  },
+  {
+    "id": "T-X14",
+    "parent": "T-0064",
+    "level": 4,
+    "title": "Rincian empat jawaban gagal pada T7",
+    "start_line": 743,
+    "direct_end_line": 757,
+    "end_line": 757
+  },
+  {
+    "id": "T-X15",
+    "parent": "T-0068",
+    "level": 4,
+    "title": "Status indikator dan jumlah kegagalan T9-C2",
+    "start_line": 801,
+    "direct_end_line": 802,
+    "end_line": 802
+  },
+  {
+    "id": "T-X16",
+    "parent": "T-0069",
+    "level": 3,
+    "title": "Perbedaan menurut tugas dan bentuk kesalahan",
+    "start_line": 809,
+    "direct_end_line": 814,
+    "end_line": 814
+  },
+  {
+    "id": "T-X17",
+    "parent": "T-0069",
+    "level": 3,
+    "title": "Hasil per pengulangan dan batas penafsiran",
+    "start_line": 815,
+    "direct_end_line": 820,
+    "end_line": 820
+  }
+]

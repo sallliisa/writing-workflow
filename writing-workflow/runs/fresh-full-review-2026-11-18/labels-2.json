@@ -1,0 +1,39 @@
+{
+  "C2-01": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 803,
+    "end": 803,
+    "finding_ids": [
+      "W020"
+    ]
+  },
+  "C2-02": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 815,
+    "end": 815,
+    "finding_ids": [
+      "W021",
+      "S03"
+    ]
+  },
+  "C2-03": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 817,
+    "end": 817,
+    "finding_ids": [
+      "W022"
+    ]
+  },
+  "C2-04": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 837,
+    "end": 837,
+    "finding_ids": [
+      "W024"
+    ]
+  }
+}

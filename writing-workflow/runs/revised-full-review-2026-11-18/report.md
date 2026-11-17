@@ -1,0 +1,19 @@
+# Telaah naskah revisi lengkap
+
+[Kandidat yang ditelaah](candidate.md) · [Diff terhadap baseline beku](candidate.diff) · [Pertanyaan yang masih terbuka](unresolved.md)
+
+**Pertahankan susunan lima bab dan enam kelompok hasil.** Susunan itu membawa pembaca dari pertanyaan tentang dua model dan dua kondisi ke hasil per tugas, lalu ke perbandingan keseluruhan. Perbaikan terpenting ada di dua tempat. Tabel 3.4 sekarang menerangkan mengapa golongan tanpa catatan bulanan tetap dicantumkan pada T3-C1 dan insiden mana yang boleh dihitung pada T5-C1. Di §5.1, simpulan menyebut dua kasus yang sama-sama mengalami kegagalan pada kedua model serta satu kasus tambahan untuk tiap model. Ketiga perbaikan dapat ditelusuri ke hasil yang sudah ada pada baseline. [Penilaian struktur](assessment.md) · [Rencana dalam urutan ketergantungan](structure-plan.md)
+
+Sebanyak **26 dari 366 bagian** memperoleh perubahan dalam kandidat. Bagian 3.1 kini membedakan masukan yang tersedia bagi model dari *expected result* yang digunakan untuk menilai jawabannya. Bagian 3.5.3 memisahkan perhitungan persentase gabungan dari perbandingan dengan model atau kondisi tetap. Contoh pembulatan pada §4.7.3 mempertahankan nilai sebelum dan sesudah pembulatan, batas, indikator, dan pengulangan. Contoh ini menjelaskan bagaimana nilai yang tampak sama setelah pembulatan dapat menghasilkan status yang berbeda. Ejaan *antarperiode* serta nama yang sudah ada di naskah dipertahankan. [Putusan untuk setiap bagian](passage-decisions.json) · [Lokasi perubahan](accepted-locations.json)
+
+| Hasil telaah | Bukti yang dapat diperiksa |
+|---|---|
+| 91 simpul sasaran dan 123 simpul pembanding, dari akar hingga pembagian terdalam | [Inventaris](inventory.json), [fungsi pembanding](reference-functions.md), [pemetaan per simpul](reference-reviews.json), [cakupan menurut kedalaman](coverage.json) |
+| 22 hubungan antarsimpul, tiga perbaikan struktural diterima, empat pertanyaan bukti terbuka | [Kebutuhan penelitian](target-brief.md), [keputusan struktural](evaluation.json), [telaah independen](challenge.md) |
+| 30 temuan bahasa dan ketepatan makna | [Temuan dan syarat perbaikan](writing-review.json), [putusan akhir per temuan](writing-decisions.json), [indeks 139 komentar penulis](feedback-index.json) |
+| 28 usulan pada putaran pertama, enam usulan terbatas pada putaran kedua, satu usulan setelah pembacaan utuh, 25 penggantian diterapkan pada kandidat akhir | [Putusan atas semua usulan](coordinator-decisions.json), [perbandingan pertama](blind-verdicts.json), [rekonsiliasi](comparison-reconciliation.md), [perbandingan kedua](round2-verdicts.json), [perbaikan §3.5](continuity-verdict.json) |
+| Pembacaan naskah hasil penggabungan dan pemeriksaan terhadap sumber | [Telaah kesinambungan kandidat](continuity-review.md), [verifikasi berkas dan artefak](candidate-verification.json), [pemeriksaan ulang hitungan kandidat](candidate-arithmetic.json) |
+
+Baseline yang dipakai adalah [salinan beku naskah revisi](baseline.md) dengan SHA-256 `3a09391b85f32f246690f66eed8ccbb096a34029555a954e7f3975e0c0c3587d`. Koordinator dan semua penelaah menggunakan GPT 6.2 Astra. Penulis menggunakan GPT 6 Astra. Penelaah baru membandingkan versi A/B sebelum melihat alasan penulis. Urutan label dibalik antarbagian. Putaran berhenti sesudah perbaikan yang didukung sumber diterima, pilihan redaksional yang lebih lemah dikembalikan ke baseline, atau bukti penelitian tambahan diperlukan. [Model yang tercatat per peran](model-roles.json)
+
+Jumlah yang dapat dihitung ulang dari tabel utama adalah 45/45 PASS untuk masing-masing model dengan konteks bisnis, serta 41/45 dan 39/45 tanpa konteks bisnis. Penelusuran ini mencakup hubungan antara tabel, persentase, dan simpulan. Asal keterangan mengenai tindakan agen, rincian per indikator pada T9-C2, isi lampiran, dan penggunaan tiga entri pustaka masih memerlukan bahan penulis. [Bukti yang diperlukan dan lokasi terkait](unresolved.md)

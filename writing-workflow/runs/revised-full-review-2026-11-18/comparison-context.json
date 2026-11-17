@@ -1,0 +1,810 @@
+[
+  {
+    "id": "R01",
+    "section": "## 1.1. Latar Belakang",
+    "context": [
+      {
+        "baseline_start": 9,
+        "text": "Pengguna dapat menyampaikan pertanyaan melalui antarmuka bahasa alami, sehingga tidak perlu menulis *query* secara langsung. Namun, sistem masih kesulitan menjawab pertanyaan analitis yang kompleks serta memahami konteks dan istilah bisnis yang digunakan (Sawant dan Sonawane, 2024)."
+      },
+      {
+        "baseline_start": 11,
+        "text": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis *Large Language Model* (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic *Business Intelligence* merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab pertanyaan pengguna secara *on-demand*."
+      },
+      {
+        "baseline_start": 13,
+        "text": "HKA TROM merupakan sistem internal HK Aston yang mengelola data transaksi, lalu lintas, insiden, inspeksi, serta pengukuran Standar Pelayanan Minimal (SPM) dan Service Level Agreement (SLA). Nama tabel dan kolom belum tentu menjelaskan apa yang diukur oleh suatu indikator, rumus yang digunakan, syarat berlakunya aturan, atau arti status. Sebagai contoh, Lalu Lintas Harian Rata-rata (LHR) pada HKA TROM dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode yang diminta. Jika total volume hanya dibagi dengan jumlah hari yang memiliki laporan, nilai LHR dapat berbeda."
+      },
+      {
+        "baseline_start": 19,
+        "text": "Penelitian ini membandingkan ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada kasus analisis operasional HKA TROM. Setiap model diuji dengan dan tanpa konteks bisnis menggunakan kasus dan *expected result* yang sama. *Expected result* dihitung dari data setiap kasus sesuai aturan bisnis HKA TROM, lalu digunakan untuk menilai jawaban agen. Hasil perbandingan dapat menjadi pertimbangan saat membuat dokumentasi bisnis untuk analisis berbasis agen."
+      },
+      {
+        "baseline_start": 21,
+        "text": "## 1.2. Rumusan Masalah"
+      }
+    ]
+  },
+  {
+    "id": "R02",
+    "section": "## 1.1. Latar Belakang",
+    "context": [
+      {
+        "baseline_start": 11,
+        "text": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis *Large Language Model* (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic *Business Intelligence* merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab pertanyaan pengguna secara *on-demand*."
+      },
+      {
+        "baseline_start": 13,
+        "text": "HKA TROM merupakan sistem internal HK Aston yang mengelola data transaksi, lalu lintas, insiden, inspeksi, serta pengukuran Standar Pelayanan Minimal (SPM) dan Service Level Agreement (SLA). Nama tabel dan kolom belum tentu menjelaskan apa yang diukur oleh suatu indikator, rumus yang digunakan, syarat berlakunya aturan, atau arti status. Sebagai contoh, Lalu Lintas Harian Rata-rata (LHR) pada HKA TROM dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode yang diminta. Jika total volume hanya dibagi dengan jumlah hari yang memiliki laporan, nilai LHR dapat berbeda."
+      },
+      {
+        "baseline_start": 19,
+        "text": "Penelitian ini membandingkan ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada kasus analisis operasional HKA TROM. Setiap model diuji dengan dan tanpa konteks bisnis menggunakan kasus dan *expected result* yang sama. *Expected result* dihitung dari data setiap kasus sesuai aturan bisnis HKA TROM, lalu digunakan untuk menilai jawaban agen. Hasil perbandingan dapat menjadi pertimbangan saat membuat dokumentasi bisnis untuk analisis berbasis agen."
+      },
+      {
+        "baseline_start": 21,
+        "text": "## 1.2. Rumusan Masalah"
+      },
+      {
+        "baseline_start": 23,
+        "text": "Penelitian ini berfokus pada ketepatan jawaban agen dalam analisis transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA pada HKA TROM. Rumusan masalah yang dikaji adalah bagaimana ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash ketika diuji dengan dan tanpa konteks bisnis, berdasarkan kesesuaian jawaban masing-masing model dengan *expected result* pada setiap kasus."
+      }
+    ]
+  },
+  {
+    "id": "R03",
+    "section": "## 1.5. Batasan Penelitian",
+    "context": [
+      {
+        "baseline_start": 33,
+        "text": "1. Memberikan bukti empiris tentang ketepatan jawaban *Agentic Business Intelligence* pada kasus analisis operasional HKA TROM.\n2. Memberikan contoh cara mengevaluasi agen analisis data dan membuat konteks bisnis. Hasil penelitian dapat menjadi pertimbangan saat memilih model dan menyiapkan dokumentasi bisnis untuk kebutuhan analisis yang sejenis."
+      },
+      {
+        "baseline_start": 36,
+        "text": "## 1.5. Batasan Penelitian"
+      },
+      {
+        "baseline_start": 38,
+        "text": "Batasan penelitian ini adalah sebagai berikut:"
+      },
+      {
+        "baseline_start": 40,
+        "text": "1. Pengujian terbatas pada 15 kasus dari sembilan jenis tugas analisis operasional HKA TROM, yang mencakup transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA.\n2. Sebanyak 237 baris data sintetis digunakan untuk kasus uji dan perhitungan *expected result*. Data ini dibuat berdasarkan struktur, relasi tabel, konfigurasi, dan aturan bisnis HKA TROM.\n3. Pada kedua kondisi pengujian, agen dapat membaca sumber data, data master, dan konfigurasi melalui layanan yang sama. Agen tidak diberi kode fitur analitik, query yang digunakan oleh fitur tersebut, hasil dashboard, *expected result*, atau data yang sudah diolah menjadi jawaban untuk kasus uji.\n5. Evaluasi membandingkan 180 jawaban terstruktur dari kedua model dengan *expected result*. Hasil penilaian digunakan untuk membandingkan tingkat keberhasilan kedua model dan melihat apakah hasil setiap kasus berubah antara pengulangan."
+      },
+      {
+        "baseline_start": 46,
+        "text": "## 1.6. Sistematika Penulisan"
+      },
+      {
+        "baseline_start": 48,
+        "text": "Laporan skripsi ini disusun dalam lima bab dengan sistematika penulisan sebagai berikut:"
+      },
+      {
+        "baseline_start": 50,
+        "text": "| BAB I | PENDAHULUAN |\n| :---- | :---- |\n|  | Bab ini menyajikan latar belakang, rumusan masalah, tujuan penelitian, manfaat penelitian, batasan penelitian, serta sistematika penulisan. |\n| BAB II | TINJAUAN PUSTAKA |\n|  | Bab ini membahas penelitian terdahulu serta teori *Business Intelligence*, agen berbasis *Large Language Model*, analisis melalui bahasa alami, konteks bisnis, dan evaluasi hasil analisis. |\n| BAB III | METODOLOGI PENELITIAN |\n|  | Bab ini menjelaskan data dan kasus uji, prompt dan konteks bisnis yang digunakan, cara agen menghasilkan jawaban, serta evaluasi hasil. Pengujian membandingkan kedua model dengan dan tanpa konteks bisnis. |\n| BAB IV | HASIL DAN PEMBAHASAN |\n|  | Bab ini menyajikan hasil evaluasi Muse Spark 1.3 dan DeepSeek v4 Flash dengan dan tanpa konteks bisnis. Pembahasan mencakup ketepatan jawaban menurut kelompok tugas, hasil pengulangan, perbandingan kedua model, serta interpretasi dan keterbatasan penelitian. |\n| BAB V | PENUTUP |\n|  | Bab ini berisi kesimpulan yang menjawab rumusan masalah berdasarkan hasil evaluasi serta saran untuk pengembangan dan penelitian selanjutnya. |"
+      }
+    ]
+  },
+  {
+    "id": "R04",
+    "section": "## 2.1. State-of-the-art",
+    "context": [
+      {
+        "baseline_start": 66,
+        "text": "## 2.1. State-of-the-art"
+      },
+      {
+        "baseline_start": 68,
+        "text": "Penelitian terkait *Agentic Business Intelligence* mencakup penggunaan bahasa alami untuk mengakses data, agen berbasis LLM untuk menjalankan analisis, dan evaluasi agen pada tugas bisnis. Perbandingan penelitian tersebut disajikan pada Tabel 2.1."
+      },
+      {
+        "baseline_start": 70,
+        "text": "**Tabel 2.1 Perbandingan Penelitian Terkait**"
+      },
+      {
+        "baseline_start": 72,
+        "text": "| No | Penelitian | Fokus | Data / Lingkungan | Evaluasi dan Temuan | Relevansi / Keterbatasan |\n| ----- | ----- | ----- | ----- | ----- | ----- |\n| 1 | Sawant & Sonawane (2024) | Antarmuka bahasa alami untuk basis data dan visualisasi | Kajian NLIDB, NLIV, dan BI | Antarmuka bahasa alami memudahkan akses ke data. Kendalanya mencakup pertanyaan analitis yang kompleks serta pemahaman konteks dan semantik. | Memberikan dasar bagi conversational analytics melalui kajian antarmuka bahasa alami untuk basis data dan visualisasi. |\n| 2 | X. Liu dkk. (2024) - AgentBench | Evaluasi LLM sebagai agen pada lingkungan interaktif | 8 lingkungan dan 29 model API ataupun open-source | Menemukan kendala utama pada penalaran jangka panjang, pengambilan keputusan, dan kepatuhan terhadap instruksi. | Mendukung evaluasi berbasis tugas interaktif pada beragam lingkungan umum. |\n| 3 | Hong dkk. (2025) - Data Interpreter | Agen LLM untuk *workflow* data science dengan beberapa tahap | InfiAgent-DABench, tugas machine learning, dan tugas open-ended | Perencanaan berbasis graph dan verifikasi bertahap meningkatkan kinerja pada beberapa *benchmark* analisis data. | Menunjukkan penggunaan agen untuk merencanakan dan memeriksa analisis data secara bertahap. |\n| 5 | Lei dkk. (2025) - Spider 2.0 | *Workflow* *Text-to-SQL* tingkat enterprise | 632 tugas dengan basis data besar, metadata, dokumentasi, dan beberapa sistem basis data | Code agent yang diuji menyelesaikan 21,3% tugas, dibandingkan 91,2% pada Spider 1.0. | Menunjukkan kesulitan menyelesaikan tugas SQL pada lingkungan enterprise. |\n| 6 | Vishwakarma dkk. (2025) - EnterpriseBench | Evaluasi agen pada lingkungan enterprise | 500 tugas pada software engineering, HR, finance, dan administrasi | Lingkungan pengujian mencakup data yang tersebar, kontrol akses, dan workflow lintas fungsi. Hasil penyelesaian tugas bervariasi menurut model, framework, dan strategi perencanaan. | Mencakup tugas dari beberapa fungsi organisasi dalam satu lingkungan pengujian. |\n| 7 | Rumiantsau & Fokeev (2026) | Pengaruh semantic layer pada analisis berbasis LLM | 100 pertanyaan retail. Sebanyak 99 dinilai setelah satu query referensi gagal dieksekusi | Analytical Pass Rate meningkat 17,2–23,2 poin persentase berdasarkan penilaian Claude Sonnet 4.6 sebagai judge. | Menguji pemberian dokumen konteks bisnis pada satu dataset retail. Dengan maupun tanpa konteks bisnis, model menghasilkan satu query SQL per pertanyaan tanpa menerima umpan balik eksekusi atau kesempatan memperbaiki query. |\n| 8 | Egg dkk. (2025) — DABstep | Evaluasi agen pada tugas analisis data bertahap | Data CSV/JSON dan dokumentasi bisnis untuk 450 pertanyaan analisis pembayaran | Jawaban akhir dibandingkan dengan *expected result* menggunakan normalisasi dan toleransi sesuai tipe jawaban | Mencakup analisis dari beberapa sumber data dan penerapan aturan bisnis. Perbandingan dengan dan tanpa dokumen konteks tidak diuji. |"
+      },
+      {
+        "baseline_start": 83,
+        "text": "Sawant dan Sonawane (2024) membahas antarmuka bahasa alami yang memungkinkan pengguna mengakses data tanpa menulis *query* sendiri. Salah satu kesulitannya adalah memahami pertanyaan analitis yang kompleks, termasuk konteks dan arti data yang dimaksud pengguna. Pada penggunaan agen, pekerjaan ini juga mencakup pemilihan sumber data dan langkah analisis yang diperlukan untuk menjawab pertanyaan."
+      },
+      {
+        "baseline_start": 85,
+        "text": "Kemampuan agen menjalankan tugas diuji dalam AgentBench pada berbagai lingkungan interaktif. Pengujian tersebut menemukan kendala dalam penalaran, pengambilan keputusan, dan kepatuhan terhadap instruksi (X. Liu dkk., 2024). Untuk tugas *data science*, Data Interpreter menggunakan perencanaan berbasis graf dan verifikasi bertahap selama analisis berlangsung (Hong dkk., 2025)."
+      },
+      {
+        "baseline_start": 87,
+        "text": "Tugas bisnis yang digunakan dalam evaluasi agen cukup beragam. InsightBench menilai *insight* dan ringkasan hasil analisis yang bersifat *open-ended* (Sahu dkk., 2025), sedangkan EnterpriseBench mencakup pekerjaan dari beberapa fungsi organisasi (Vishwakarma dkk., 2025). Spider 2.0 menguji *workflow Text-to-SQL* pada lingkungan *enterprise*, yang memerlukan pemahaman terhadap metadata dan dokumentasi data (Lei dkk., 2025)."
+      }
+    ]
+  },
+  {
+    "id": "R05",
+    "section": "## 2.1. State-of-the-art",
+    "context": [
+      {
+        "baseline_start": 85,
+        "text": "Kemampuan agen menjalankan tugas diuji dalam AgentBench pada berbagai lingkungan interaktif. Pengujian tersebut menemukan kendala dalam penalaran, pengambilan keputusan, dan kepatuhan terhadap instruksi (X. Liu dkk., 2024). Untuk tugas *data science*, Data Interpreter menggunakan perencanaan berbasis graf dan verifikasi bertahap selama analisis berlangsung (Hong dkk., 2025)."
+      },
+      {
+        "baseline_start": 87,
+        "text": "Tugas bisnis yang digunakan dalam evaluasi agen cukup beragam. InsightBench menilai *insight* dan ringkasan hasil analisis yang bersifat *open-ended* (Sahu dkk., 2025), sedangkan EnterpriseBench mencakup pekerjaan dari beberapa fungsi organisasi (Vishwakarma dkk., 2025). Spider 2.0 menguji *workflow Text-to-SQL* pada lingkungan *enterprise*, yang memerlukan pemahaman terhadap metadata dan dokumentasi data (Lei dkk., 2025)."
+      },
+      {
+        "baseline_start": 89,
+        "text": "DABstep menggunakan pertanyaan analisis dari kegiatan operasional Adyen, perusahaan penyedia layanan pembayaran (Adyen, n.d.). Agen perlu membaca data terstruktur dan dokumentasi bisnis, lalu menjalankan beberapa langkah analisis. Jawaban akhirnya dibandingkan dengan *expected result*, yaitu jawaban yang diharapkan untuk pertanyaan tersebut. Aturan perbandingannya disesuaikan dengan tipe jawaban (Egg dkk., 2025)."
+      },
+      {
+        "baseline_start": 93,
+        "text": "Dalam penelitian ini, Muse Spark 1.3 dan DeepSeek v4 Flash digunakan untuk menjawab pertanyaan analisis operasional HKA TROM. Kedua model diuji dengan dan tanpa konteks bisnis. Agen membaca data melalui *tool* dan menghasilkan jawaban dalam format *JavaScript Object Notation* (JSON). Struktur dan nilai jawaban kemudian dibandingkan dengan *expected result*."
+      },
+      {
+        "baseline_start": 95,
+        "text": "## 2.2. Business Intelligence"
+      },
+      {
+        "baseline_start": 97,
+        "text": "*Business Intelligence* (BI) adalah kumpulan teknologi, proses, dan aplikasi untuk mengolah data organisasi menjadi informasi yang membantu pengambilan keputusan. BI mencakup komponen seperti *data warehouse*, *Online Analytical Processing* (OLAP), *reporting server*, *dashboard*, *ad hoc query*, dan *analytical engine*. Komponen tersebut digunakan untuk menyimpan dan mengolah data, menyajikan laporan, serta melakukan analisis sesuai kebutuhan pengguna (Chaudhuri dkk., 2011)."
+      }
+    ]
+  },
+  {
+    "id": "R06a",
+    "section": "### 2.6.1. Struktur dan Isi Konteks Bisnis",
+    "context": [
+      {
+        "baseline_start": 139,
+        "text": "Dalam analisis data, agen dapat menggunakan dokumen konteks bisnis untuk memahami arti data dan aturan perhitungannya. Pada DABstep, dokumentasi bisnis disertakan bersama data dari beberapa sumber agar agen dapat menjalankan analisis sesuai aturan yang berlaku (Egg dkk., 2025). Dalam penelitian ini, agen diuji dengan dan tanpa akses ke dokumen konteks bisnis."
+      },
+      {
+        "baseline_start": 141,
+        "text": "### 2.6.1. Struktur dan Isi Konteks Bisnis"
+      },
+      {
+        "baseline_start": 143,
+        "text": "Dokumen konteks bisnis dapat memuat arti setiap baris data, hubungan antartabel, satuan, dan arti nilai status. Istilah yang digunakan perlu konsisten agar objek atau proses yang sama tidak dijelaskan dengan arti yang berbeda. Dalam *ontology engineering*, pengetahuan suatu bidang dijelaskan melalui konsep, relasi, dan fungsi yang didefinisikan secara eksplisit (Gruber, 1993)."
+      },
+      {
+        "baseline_start": 147,
+        "text": "Aturan perhitungan menjelaskan, misalnya, cara memperlakukan nilai null dan jumlah hari yang digunakan untuk menghitung rata-rata harian. Rata-rata volume kendaraan per hari dapat berbeda jika total volume dibagi dengan jumlah seluruh hari kalender atau hanya jumlah hari yang memiliki data. Dokumen konteks juga perlu menjelaskan kapan suatu batas atau syarat berlaku. Dalam penelitian ini, penjelasan tersebut dikelompokkan menurut topik analisis."
+      },
+      {
+        "baseline_start": 149,
+        "text": "### 2.6.2. Skills"
+      },
+      {
+        "baseline_start": 151,
+        "text": "*Skill* adalah kumpulan instruksi dan bahan pendukung untuk membantu agen menjalankan tugas tertentu. Dalam format Agent Skills, SKILL.md memuat nama, deskripsi kegunaan, dan instruksi utama. Informasi yang lebih rinci dapat disimpan dalam dokumen referensi dan dibaca saat diperlukan (Agent Skills, n.d.)."
+      }
+    ]
+  },
+  {
+    "id": "R07",
+    "section": "### 2.8.1. Kesesuaian Struktur dan Nilai Jawaban",
+    "context": [
+      {
+        "baseline_start": 182,
+        "text": "## 2.8. Evaluasi Hasil Analisis"
+      },
+      {
+        "baseline_start": 184,
+        "text": "Evaluasi hasil analisis dilakukan dengan memeriksa jawaban yang dihasilkan agen. Untuk tugas yang memiliki jawaban pasti, hasilnya dapat dibandingkan dengan *expected result*, seperti pada InfiAgent-DABench (Hu dkk., 2024) dan DABstep (Egg dkk., 2025). Dalam penelitian ini, evaluasi mencakup kesesuaian struktur dan nilai jawaban, tingkat keberhasilan, serta konsistensi hasil pengulangan."
+      },
+      {
+        "baseline_start": 186,
+        "text": "### 2.8.1. Kesesuaian Struktur dan Nilai Jawaban"
+      },
+      {
+        "baseline_start": 190,
+        "text": "Nilai jawaban dibandingkan dengan *expected result* yang disusun berdasarkan data dan aturan perhitungan untuk setiap pertanyaan. Pada InfiAgent-DABench, seluruh bagian jawaban harus benar agar tugas dinilai berhasil (Hu dkk., 2024). Dalam penelitian ini, jawaban diberi status PASS jika struktur dan seluruh nilainya sesuai dengan *expected result*. Jika ada bagian yang tidak sesuai, jawaban dinilai FAIL."
+      },
+      {
+        "baseline_start": 192,
+        "text": "### 2.8.2. Tingkat Keberhasilan"
+      },
+      {
+        "baseline_start": 194,
+        "text": "Tingkat keberhasilan adalah persentase jawaban yang benar (Hu dkk., 2024). Dalam penelitian ini, persentase PASS dihitung untuk setiap model pada kondisi dengan dan tanpa konteks bisnis. Seluruh jawaban dari ketiga pengulangan ikut dihitung."
+      }
+    ]
+  },
+  {
+    "id": "R30",
+    "section": "## 3.1. Gambaran Umum Penelitian",
+    "context": [
+      {
+        "baseline_start": 204,
+        "text": "Bab ini menjelaskan data, rancangan pengujian, dan prosedur evaluasi hasil analisis Agentic Business Intelligence pada HKA TROM. Uraian metode mengikuti proses penyiapan data, penyusunan prompt dan konteks bisnis, generasi jawaban, serta evaluasi hasil."
+      },
+      {
+        "baseline_start": 206,
+        "text": "## 3.1. Gambaran Umum Penelitian"
+      },
+      {
+        "baseline_start": 208,
+        "text": "Penelitian ini menggunakan pendekatan kuantitatif komparatif untuk mengevaluasi ketepatan jawaban agen pada HKA TROM. Setiap kasus berisi pertanyaan analisis dan ketentuan jawaban, sedangkan jawaban akhir agen dibandingkan dengan *expected result* (Egg dkk., 2025)."
+      },
+      {
+        "baseline_start": 212,
+        "text": "Penelitian dimulai dengan menyiapkan data dan *expected result* untuk 15 kasus berdasarkan aturan HKA TROM. Setelah itu, prompt dan dokumen konteks bisnis dibuat. Prompt berisi pertanyaan dalam bahasa Indonesia dan ketentuan jawaban JSON, sedangkan dokumen konteks bisnis menjelaskan data dan aturan analisis."
+      },
+      {
+        "baseline_start": 214,
+        "text": "Pada tahap generasi jawaban, agen membaca data dan menghasilkan jawaban berdasarkan prompt. Jawaban tersebut kemudian dibandingkan dengan *expected result* untuk menentukan PASS atau FAIL. Pada tahap analisis hasil, tingkat keberhasilan kedua model dibandingkan pada pengujian dengan dan tanpa konteks bisnis. Jawaban yang gagal serta perbedaan hasil pada tiga pengulangan juga diperiksa. Gambar 3.1 merangkum kelima tahap penelitian."
+      },
+      {
+        "baseline_start": 216,
+        "text": "*Gambar 3.1 Alur Tahapan Penelitian*"
+      }
+    ]
+  },
+  {
+    "id": "R08",
+    "section": "## 3.1. Gambaran Umum Penelitian",
+    "context": [
+      {
+        "baseline_start": 212,
+        "text": "Penelitian dimulai dengan menyiapkan data dan *expected result* untuk 15 kasus berdasarkan aturan HKA TROM. Setelah itu, prompt dan dokumen konteks bisnis dibuat. Prompt berisi pertanyaan dalam bahasa Indonesia dan ketentuan jawaban JSON, sedangkan dokumen konteks bisnis menjelaskan data dan aturan analisis."
+      },
+      {
+        "baseline_start": 214,
+        "text": "Pada tahap generasi jawaban, agen membaca data dan menghasilkan jawaban berdasarkan prompt. Jawaban tersebut kemudian dibandingkan dengan *expected result* untuk menentukan PASS atau FAIL. Pada tahap analisis hasil, tingkat keberhasilan kedua model dibandingkan pada pengujian dengan dan tanpa konteks bisnis. Jawaban yang gagal serta perbedaan hasil pada tiga pengulangan juga diperiksa. Gambar 3.1 merangkum kelima tahap penelitian."
+      },
+      {
+        "baseline_start": 216,
+        "text": "*Gambar 3.1 Alur Tahapan Penelitian*"
+      },
+      {
+        "baseline_start": 220,
+        "text": "Untuk setiap model, 15 kasus dijalankan tiga kali dengan konteks bisnis dan tiga kali tanpa konteks bisnis. Pengujian ini menghasilkan 45 jawaban pada masing-masing kondisi, sehingga terdapat 90 jawaban per model dan 180 jawaban dari kedua model. Rincian pengujian dapat dilihat pada Tabel 3.1."
+      },
+      {
+        "baseline_start": 222,
+        "text": "**Tabel 3.1 Rancangan Pengujian Kedua Model**"
+      },
+      {
+        "baseline_start": 224,
+        "text": "| Model | Konteks bisnis | Kasus | Pengulangan | Jumlah jawaban |\n| ----- | ----- | ----- | ----- | ----- |\n| Muse Spark 1.3 | Dengan konteks bisnis | 15 | 3 | 45 |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 15 | 3 | 45 |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 15 | 3 | 45 |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 15 | 3 | 45 |\n| Total | Seluruh pengujian | – | – | 180 |"
+      }
+    ]
+  },
+  {
+    "id": "R09",
+    "section": "### 3.2.1. Sumber dan Cakupan Data",
+    "context": [
+      {
+        "baseline_start": 234,
+        "text": "Data penelitian mencakup data HKA TROM yang digunakan agen untuk menjawab pertanyaan serta *expected result* untuk menilai ketepatan jawaban agen."
+      },
+      {
+        "baseline_start": 236,
+        "text": "### 3.2.1. Sumber dan Cakupan Data"
+      },
+      {
+        "baseline_start": 238,
+        "text": "Basis data penelitian menggunakan skema HKA TROM dan diisi dengan data sintetis."
+      },
+      {
+        "baseline_start": 244,
+        "text": "| ----- | ----- |\n| Transaksi | monitoring_transactions, monitoring_transaction_details |\n| Lalu lintas | toll_volume_revenue, toll_traffic_volumes |\n| Insiden | incidents, incident_actions, accident_reports |\n| Inspeksi | inspection_schedules, inspections, inspection_elements, inspection_items |\n| SPM/SLA | monitoring_transactions, monitoring_transaction_details, view_section_spm_sla |"
+      },
+      {
+        "baseline_start": 252,
+        "text": "Ruas, tanggal, gerbang, *shift*, atau periode dalam setiap prompt menentukan data yang harus dianalisis. Agen juga dapat membaca data di luar cakupan tersebut, sehingga perlu memilih data yang sesuai sebelum melakukan perhitungan."
+      },
+      {
+        "baseline_start": 254,
+        "text": "### 3.2.2. Pemilihan Kasus Uji"
+      },
+      {
+        "baseline_start": 256,
+        "text": "Penelitian ini menggunakan 15 kasus dari sembilan jenis tugas, T1 hingga T9. Kasus dipilih dari analisis operasional yang dapat dikerjakan dengan data HKA TROM dan memerlukan kemampuan yang dijelaskan pada Bagian 2.3."
+      }
+    ]
+  },
+  {
+    "id": "R10",
+    "section": "### 3.2.2. Pemilihan Kasus Uji",
+    "context": [
+      {
+        "baseline_start": 272,
+        "text": "Di T7, agen perlu menentukan status SPM/SLA dengan membandingkan rata-rata durasi setiap gardu dengan batas indikator dan memeriksa apakah SLA berlaku untuk setiap indikator di ruas yang dianalisis. Di T7-C1, terdapat rata-rata durasi yang tepat pada batas indikator dan yang sedikit melebihi batas. Jika rata-rata durasi dibulatkan sebelum dibandingkan dengan batas, nilai yang sedikit melebihi batas dapat terlihat sama dengan batasnya. Di T7-C2, SLA hanya berlaku pada indikator ketiga, sedangkan di T7-C3 tidak ada SLA yang berlaku."
+      },
+      {
+        "baseline_start": 274,
+        "text": "Di T8, agen perlu memeriksa status pemenuhan setiap indikator SPM/SLA pada seluruh laporan untuk menentukan statusnya selama periode yang diminta pada prompt. Di T8-C1, ada indikator yang terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain. Di T9, agen diminta membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode, lalu menentukan apakah statusnya tetap, membaik, atau memburuk. Tabel 3.3 menyajikan kondisi setiap kasus dan kemampuan analisis yang diuji."
+      },
+      {
+        "baseline_start": 276,
+        "text": "**Tabel 3.3 Daftar Lima Belas Kasus Uji**"
+      },
+      {
+        "baseline_start": 278,
+        "text": "| Kasus | Analisis | Kondisi utama | Kemampuan analisis yang diuji |\n| ----- | ----- | ----- | ----- |\n| T1-C1 | Rata-rata durasi transaksi | Tiga laporan dengan jumlah data durasi yang berbeda, termasuk data durasi bernilai null | Menggabungkan informasi dari beberapa laporan dengan memperhitungkan perbedaan jumlah data yang dapat digunakan pada setiap laporan. |\n| T1-C2 | Rata-rata durasi transaksi | Data durasi *booth* dan *longbooth* | Menentukan informasi yang relevan dari berbagai jenis data dan menggunakannya dalam analisis. |\n| T2-C1 | Volume dan LHR | Hari tanpa laporan dan golongan dengan volume nol | Memperhitungkan seluruh hari dalam periode yang diminta dan tetap menyertakan kelompok dengan nilai nol. |\n| T3-C1 | Tren lalu lintas | Empat bulan dengan jumlah hari berbeda dan golongan kendaraan dengan volume nol | Mengelompokkan data berdasarkan periode waktu dan menghasilkan ringkasan yang dapat dibandingkan antarperiode. |\n| T4-C1 | Status insiden | Tidak ada tindakan, satu tindakan dengan stage 50, dua tindakan dengan stage 100, atau dua tindakan dengan stage 100 dan null | Mempertimbangkan tindakan yang berkaitan dengan suatu insiden dan menerapkan syarat untuk menentukan statusnya. |\n| T5-C1 | Penyebab kecelakaan | Lebih dari satu penyebab dan penyebab yang berulang | Mempertimbangkan beberapa faktor yang berkaitan dengan suatu kejadian dan menghitung seberapa sering setiap faktor muncul. |\n| T6-C1 | Kerusakan pada item inspeksi | Kategori kerusakan di luar R1–R3, item tanpa prioritas, serta item inspeksi yang terhubung dengan data aset melalui beberapa tabel | Menghubungkan data yang saling berkaitan dan tetap menyertakan temuan yang relevan ketika sebagian informasi tidak tersedia. |\n| T7-C1 | SPM/SLA per laporan | Rata-rata durasi tepat pada batas dan sedikit melebihi batas, yang dibandingkan sebelum pembulatan | Membandingkan angka dengan batas yang ditetapkan, termasuk saat selisihnya kecil. |\n| T7-C2 | SPM/SLA per laporan | SLA hanya berlaku pada indikator ketiga | Mempertimbangkan syarat yang berlaku pada setiap item sebelum menilainya. |\n| T7-C3 | SPM/SLA per laporan | Tidak ada SLA yang berlaku | Mengenali kapan suatu syarat tidak berlaku dan mempertimbangkannya saat menarik kesimpulan. |\n| T7-C4 | SPM/SLA per laporan | Beberapa laporan pemantauan dengan informasi yang serupa | Memilih informasi yang relevan dengan prompt dari beberapa laporan yang serupa. |\n| T8-C1 | SPM/SLA periode | Indikator yang terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain | Mempertimbangkan hasil dari beberapa laporan untuk menarik kesimpulan mengenai keseluruhan periode. |\n| T8-C2 | SPM/SLA periode | Perhitungan menggunakan data durasi *booth*, tanpa menghitung data durasi *longbooth* | Memilih data yang relevan sebelum menarik kesimpulan mengenai suatu periode. |"
+      },
+      {
+        "baseline_start": 296,
+        "text": "### 3.2.3. Penyusunan Expected Result"
+      },
+      {
+        "baseline_start": 298,
+        "text": "*Expected result* untuk setiap kasus dihitung dari data yang sesuai dengan prompt berdasarkan aturan bisnis HKA TROM. Hasilnya ditulis dalam format JSON. *Expected result* yang sama digunakan pada semua pengulangan dan tidak dapat diakses oleh agen."
+      },
+      {
+        "baseline_start": 300,
+        "text": "Aturan bisnis untuk menghitung expected result dirangkum pada Tabel 3.4."
+      }
+    ]
+  },
+  {
+    "id": "R11",
+    "section": "### 3.2.3. Penyusunan Expected Result",
+    "context": [
+      {
+        "baseline_start": 296,
+        "text": "### 3.2.3. Penyusunan Expected Result"
+      },
+      {
+        "baseline_start": 298,
+        "text": "*Expected result* untuk setiap kasus dihitung dari data yang sesuai dengan prompt berdasarkan aturan bisnis HKA TROM. Hasilnya ditulis dalam format JSON. *Expected result* yang sama digunakan pada semua pengulangan dan tidak dapat diakses oleh agen."
+      },
+      {
+        "baseline_start": 300,
+        "text": "Aturan bisnis untuk menghitung expected result dirangkum pada Tabel 3.4."
+      },
+      {
+        "baseline_start": 304,
+        "text": "**Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian**"
+      },
+      {
+        "baseline_start": 306,
+        "text": "| Analisis | Aturan bisnis | Jenis tugas |\n| ----- | ----- | ----- |\n| Durasi transaksi | Total durasi dari data *booth* dan *longbooth* yang memiliki durasi non-null dibagi dengan jumlah data tersebut. | T1 |\n| Status insiden | Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan nilai stage pada seluruh tindakan tersebut adalah 100. | T4 |\n| Kondisi inspeksi | Item inspeksi dengan kategori kerusakan non-null tetap dihitung meskipun prioritasnya kosong. | T6 |\n| Kecepatan transaksi | Rata-rata durasi (detik) dihitung hanya dari data durasi *booth* untuk setiap gardu dalam satu laporan. Nilai sebelum pembulatan dibandingkan dengan batas kelima indikator SPM serta batas SLA jika berlaku. Batas dan operator pembanding mengikuti konfigurasi ruas dan indikator saat pengujian. Konfigurasi tersebut menentukan kapan SLA berlaku dan digunakan untuk semua periode. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu. | T7–T9 |"
+      },
+      {
+        "baseline_start": 315,
+        "text": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Perhitungan menggunakan laporan transaksi dari ruas tersebut dengan tanggal operasional 27 Januari 2030. Laporan ini memiliki enam data durasi booth masing-masing 10 detik dan satu data durasi longbooth sebesar 2 detik. Tabel 3.5 menunjukkan jumlah data dan total durasinya."
+      }
+    ]
+  },
+  {
+    "id": "RS02",
+    "section": "### 3.2.3. Penyusunan Expected Result",
+    "context": [
+      {
+        "baseline_start": 300,
+        "text": "Aturan bisnis untuk menghitung expected result dirangkum pada Tabel 3.4."
+      },
+      {
+        "baseline_start": 304,
+        "text": "**Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian**"
+      },
+      {
+        "baseline_start": 306,
+        "text": "| Analisis | Aturan bisnis | Jenis tugas |\n| ----- | ----- | ----- |\n| Durasi transaksi | Total durasi dari data *booth* dan *longbooth* yang memiliki durasi non-null dibagi dengan jumlah data tersebut. | T1 |\n| Status insiden | Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan nilai stage pada seluruh tindakan tersebut adalah 100. | T4 |\n| Kondisi inspeksi | Item inspeksi dengan kategori kerusakan non-null tetap dihitung meskipun prioritasnya kosong. | T6 |\n| Kecepatan transaksi | Rata-rata durasi (detik) dihitung hanya dari data durasi *booth* untuk setiap gardu dalam satu laporan. Nilai sebelum pembulatan dibandingkan dengan batas kelima indikator SPM serta batas SLA jika berlaku. Batas dan operator pembanding mengikuti konfigurasi ruas dan indikator saat pengujian. Konfigurasi tersebut menentukan kapan SLA berlaku dan digunakan untuk semua periode. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu. | T7–T9 |"
+      },
+      {
+        "baseline_start": 315,
+        "text": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Perhitungan menggunakan laporan transaksi dari ruas tersebut dengan tanggal operasional 27 Januari 2030. Laporan ini memiliki enam data durasi booth masing-masing 10 detik dan satu data durasi longbooth sebesar 2 detik. Tabel 3.5 menunjukkan jumlah data dan total durasinya."
+      },
+      {
+        "baseline_start": 317,
+        "text": "**Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2**"
+      },
+      {
+        "baseline_start": 319,
+        "text": "| Jenis data | Jumlah data | Total durasi (detik) |\n| ----- | ----- | ----- |\n| *booth* | 6 | 60 |\n| *longbooth* | 1 | 2 |\n| Total | 7 | 62 |"
+      }
+    ]
+  },
+  {
+    "id": "R12",
+    "section": "### 3.2.3. Penyusunan Expected Result",
+    "context": [
+      {
+        "baseline_start": 300,
+        "text": "Aturan bisnis untuk menghitung expected result dirangkum pada Tabel 3.4."
+      },
+      {
+        "baseline_start": 304,
+        "text": "**Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian**"
+      },
+      {
+        "baseline_start": 306,
+        "text": "| Analisis | Aturan bisnis | Jenis tugas |\n| ----- | ----- | ----- |\n| Durasi transaksi | Total durasi dari data *booth* dan *longbooth* yang memiliki durasi non-null dibagi dengan jumlah data tersebut. | T1 |\n| Status insiden | Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan nilai stage pada seluruh tindakan tersebut adalah 100. | T4 |\n| Kondisi inspeksi | Item inspeksi dengan kategori kerusakan non-null tetap dihitung meskipun prioritasnya kosong. | T6 |\n| Kecepatan transaksi | Rata-rata durasi (detik) dihitung hanya dari data durasi *booth* untuk setiap gardu dalam satu laporan. Nilai sebelum pembulatan dibandingkan dengan batas kelima indikator SPM serta batas SLA jika berlaku. Batas dan operator pembanding mengikuti konfigurasi ruas dan indikator saat pengujian. Konfigurasi tersebut menentukan kapan SLA berlaku dan digunakan untuk semua periode. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu. | T7–T9 |"
+      },
+      {
+        "baseline_start": 315,
+        "text": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Perhitungan menggunakan laporan transaksi dari ruas tersebut dengan tanggal operasional 27 Januari 2030. Laporan ini memiliki enam data durasi booth masing-masing 10 detik dan satu data durasi longbooth sebesar 2 detik. Tabel 3.5 menunjukkan jumlah data dan total durasinya."
+      },
+      {
+        "baseline_start": 317,
+        "text": "**Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2**"
+      },
+      {
+        "baseline_start": 319,
+        "text": "| Jenis data | Jumlah data | Total durasi (detik) |\n| ----- | ----- | ----- |\n| *booth* | 6 | 60 |\n| *longbooth* | 1 | 2 |\n| Total | 7 | 62 |"
+      }
+    ]
+  },
+  {
+    "id": "R13",
+    "section": "## 3.3. Penyusunan Prompt dan Konteks Bisnis",
+    "context": [
+      {
+        "baseline_start": 339,
+        "text": "## 3.3. Penyusunan Prompt dan Konteks Bisnis"
+      },
+      {
+        "baseline_start": 341,
+        "text": "Kedua model menggunakan system prompt yang sama pada pengujian dengan dan tanpa konteks bisnis. System prompt ini menetapkan ALASKA sebagai asisten HKA TROM dan mengatur cara agen menjawab ketika informasi yang dibutuhkan tidak tersedia atau bertentangan."
+      },
+      {
+        "baseline_start": 343,
+        "text": "| You're ALASKA, a personal assistant within HKA TROM. If required data, tools, scope, configuration, or business definitions are unavailable or conflict, state the specific gap. Do not invent values. Do not request a connection or use another endpoint. |\n| :---- |"
+      },
+      {
+        "baseline_start": 348,
+        "text": "### 3.3.1. Pertanyaan dan Format Jawaban"
+      },
+      {
+        "baseline_start": 350,
+        "text": "Setiap kasus menggunakan satu prompt yang berisi pertanyaan analisis dan ketentuan jawaban, tanpa menyertakan nama tabel, rumus, atau langkah penyelesaian. Blok output_schema berisi JSON Schema yang menentukan atribut, tipe data, dan nilai status yang diperbolehkan dalam jawaban. Instruksi pada blok ini juga mengatur penulisan nama sesuai data sumber, pembulatan angka, dan urutan array."
+      },
+      {
+        "baseline_start": 352,
+        "text": "Sebagai contoh, Tabel 3.6 menyajikan *prompt* T2-C1 yang digunakan dalam pengujian. Prompt ini tidak menjelaskan jumlah hari yang digunakan untuk menghitung LHR ataupun cara memperhitungkan hari tanpa laporan."
+      }
+    ]
+  },
+  {
+    "id": "R06b",
+    "section": "### 3.3.2. Konteks Bisnis",
+    "context": [
+      {
+        "baseline_start": 354,
+        "text": "**Tabel 3.6 *Prompt* T2-C1**"
+      },
+      {
+        "baseline_start": 356,
+        "text": "| Bagian | Isi prompt |\n| ----- | ----- |\n| Pertanyaan | Berikan ringkasan lalu lintas Ruas PEKBANG untuk 1–7 Maret 2030: total volume, LHR, dan volume per golongan kendaraan. |\n| Instruksi output | `<output_schema>` Kembalikan tepat satu objek JSON yang sesuai dengan skema berikut, tanpa teks tambahan atau blok kode. Gunakan ejaan nama sesuai data sumber. Tampilkan LHR sebagai integer; bulatkan ke bilangan terdekat dengan nilai tengah menjauh dari nol. Urutkan by_vehicle_class berdasarkan vehicle_class_id menaik. |\n| JSON Schema | {   \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",   \"title\": \"T2 Traffic summary\",   \"type\": \"object\",   \"properties\": {     \"section_id\": {       \"type\": \"integer\"     },     \"section_name\": {       \"type\": \"string\"     },     \"period\": {       \"type\": \"object\",       \"properties\": {         \"start\": {           \"type\": \"string\",           \"format\": \"date\"         },         \"end\": {           \"type\": \"string\",           \"format\": \"date\"         }       },       \"required\": [         \"start\",         \"end\"       ],       \"additionalProperties\": false     },     \"total_volume\": {       \"type\": \"integer\",       \"minimum\": 0     },     \"lhr\": {       \"type\": \"integer\",       \"minimum\": 0     },     \"by_vehicle_class\": {       \"type\": \"array\",       \"items\": {         \"type\": \"object\",         \"properties\": {           \"vehicle_class_id\": {             \"type\": \"integer\"           },           \"vehicle_class_name\": {             \"type\": \"string\"           },           \"volume\": {             \"type\": \"integer\",             \"minimum\": 0           }         },         \"required\": [           \"vehicle_class_id\",           \"vehicle_class_name\",           \"volume\"         ],         \"additionalProperties\": false       }     }   },   \"required\": [     \"section_id\",     \"section_name\",     \"period\",     \"total_volume\",     \"lhr\",     \"by_vehicle_class\"   ],   \"additionalProperties\": false } `</output_schema>` |"
+      },
+      {
+        "baseline_start": 362,
+        "text": "### 3.3.2. Konteks Bisnis"
+      },
+      {
+        "baseline_start": 366,
+        "text": "Konteks bisnis diberikan dalam bentuk skill hka-trom-business-context, yang terdiri atas SKILL.md dan enam dokumen referensi dalam folder references. Tabel 3.7 merangkum isi setiap dokumen dan fungsinya bagi agen."
+      },
+      {
+        "baseline_start": 368,
+        "text": "**Tabel 3.7 Susunan dan Fungsi Dokumen Konteks Bisnis**"
+      }
+    ]
+  },
+  {
+    "id": "R14",
+    "section": "### 3.3.2. Konteks Bisnis",
+    "context": [
+      {
+        "baseline_start": 366,
+        "text": "Konteks bisnis diberikan dalam bentuk skill hka-trom-business-context, yang terdiri atas SKILL.md dan enam dokumen referensi dalam folder references. Tabel 3.7 merangkum isi setiap dokumen dan fungsinya bagi agen."
+      },
+      {
+        "baseline_start": 368,
+        "text": "**Tabel 3.7 Susunan dan Fungsi Dokumen Konteks Bisnis**"
+      },
+      {
+        "baseline_start": 380,
+        "text": "Untuk prompt yang mencakup beberapa topik analisis, SKILL.md memberi petunjuk berikut:"
+      },
+      {
+        "baseline_start": 382,
+        "text": "| Read the reference for each domain involved in the request. For a request spanning domains, use each relevant reference. |\n| :---- |"
+      },
+      {
+        "baseline_start": 385,
+        "text": "Sebagai contoh, SKILL.md mengarahkan agen membaca transactions.md dan spm-sla.md untuk mengevaluasi durasi transaksi menurut aturan SPM/SLA. Konteks bisnis yang digunakan dalam pengujian ini dilampirkan pada Lampiran 3."
+      }
+    ]
+  },
+  {
+    "id": "R15",
+    "section": "## 3.5. Evaluasi Hasil Generasi",
+    "context": [
+      {
+        "baseline_start": 431,
+        "text": "Pada evaluasi utama τ-bench, setiap tugas dijalankan minimal tiga kali (Yao dkk., 2025). Data Interpreter melaporkan rata-rata hasil dari tiga eksekusi pada evaluasi tugas *open-ended* (Hong dkk., 2025)."
+      },
+      {
+        "baseline_start": 433,
+        "text": "Setiap kasus dalam penelitian ini dijalankan tiga kali pada masing-masing model, baik dengan ataupun tanpa konteks bisnis, untuk memeriksa konsistensi keberhasilan agen. Pada setiap pengulangan, agen menerima *prompt* dalam percakapan baru, kemudian membaca data melalui *tool* dan menghitung jawaban sesuai permintaan. Ketiga jawaban akhir dibandingkan dengan *expected result* yang sama untuk kasus tersebut."
+      },
+      {
+        "baseline_start": 435,
+        "text": "## 3.5. Evaluasi Hasil Generasi"
+      },
+      {
+        "baseline_start": 439,
+        "text": "### 3.5.1. Perbandingan Respons dan *Expected Result*"
+      },
+      {
+        "baseline_start": 441,
+        "text": "Jawaban dinilai PASS jika merupakan JSON yang valid dan seluruh struktur serta nilainya sesuai dengan *expected result*. Perbandingan mencakup seluruh atribut, nilai, dan urutan elemen array. Urutan properti dalam JSON tidak memengaruhi penilaian."
+      },
+      {
+        "baseline_start": 443,
+        "text": "Angka dibandingkan berdasarkan nilainya tanpa toleransi tambahan. Misalnya, nilai 10 dan 10.0 dinilai sama."
+      }
+    ]
+  },
+  {
+    "id": "R16",
+    "section": "### 3.5.3. Analisis Perbandingan Hasil",
+    "context": [
+      {
+        "baseline_start": 465,
+        "text": "Setiap model menghasilkan 45 jawaban pada setiap kondisi konteks bisnis, dari 15 kasus yang masing-masing dijalankan tiga kali. Persentase pada setiap tabel dihitung dari jumlah jawaban untuk kasus, model, dan kondisi konteks bisnis yang ditampilkan."
+      },
+      {
+        "baseline_start": 467,
+        "text": "Untuk setiap kasus pada model dan kondisi konteks bisnis yang sama, jumlah PASS disajikan sebagai 0/3 hingga 3/3."
+      },
+      {
+        "baseline_start": 469,
+        "text": "### 3.5.3. Analisis Perbandingan Hasil"
+      },
+      {
+        "baseline_start": 473,
+        "text": "Pembahasan dibagi menjadi enam kelompok analisis: durasi transaksi (T1), volume lalu lintas dan LHR (T2–T3), insiden dan penyebab kecelakaan (T4–T5), inspeksi dan identitas aset (T6), SPM/SLA per laporan (T7), serta SPM/SLA periode dan antarperiode (T8–T9). Jawaban yang dinilai FAIL diperiksa untuk melihat bagian yang tidak sesuai dengan *expected result*. Status PASS/FAIL pada tiga pengulangan dibandingkan untuk memeriksa konsistensi keberhasilan pada kasus, model, dan kondisi konteks bisnis yang sama."
+      },
+      {
+        "baseline_start": 475,
+        "text": "# BAB IV — HASIL DAN PEMBAHASAN"
+      },
+      {
+        "baseline_start": 477,
+        "text": "Bab ini membahas hasil evaluasi *Agentic Business Intelligence* pada enam kelompok kebutuhan operasional HKA TROM. Pembahasan dimulai dengan lingkungan pengujian dan data penelitian, kemudian dilanjutkan dengan hasil setiap kelompok berdasarkan konteks bisnis, model, dan kombinasi keduanya. Bab ini diakhiri dengan interpretasi hasil pengujian."
+      }
+    ]
+  },
+  {
+    "id": "R17",
+    "section": "## 4.1. Lingkungan Pengujian",
+    "context": [
+      {
+        "baseline_start": 475,
+        "text": "# BAB IV — HASIL DAN PEMBAHASAN"
+      },
+      {
+        "baseline_start": 477,
+        "text": "Bab ini membahas hasil evaluasi *Agentic Business Intelligence* pada enam kelompok kebutuhan operasional HKA TROM. Pembahasan dimulai dengan lingkungan pengujian dan data penelitian, kemudian dilanjutkan dengan hasil setiap kelompok berdasarkan konteks bisnis, model, dan kombinasi keduanya. Bab ini diakhiri dengan interpretasi hasil pengujian."
+      },
+      {
+        "baseline_start": 479,
+        "text": "## 4.1. Lingkungan Pengujian"
+      },
+      {
+        "baseline_start": 483,
+        "text": "**Tabel 4.1 Lingkungan Pengujian**"
+      },
+      {
+        "baseline_start": 485,
+        "text": "| Aspek | Keterangan |\n| ----- | ----- |\n| Lingkungan agen | Cloudflare OS |\n| *Tool* akses data | list_entities, describe_entity, dan read_records |"
+      },
+      {
+        "baseline_start": 491,
+        "text": "## 4.2. Data Penelitian"
+      }
+    ]
+  },
+  {
+    "id": "R18",
+    "section": "## 4.1. Lingkungan Pengujian",
+    "context": [
+      {
+        "baseline_start": 479,
+        "text": "## 4.1. Lingkungan Pengujian"
+      },
+      {
+        "baseline_start": 483,
+        "text": "**Tabel 4.1 Lingkungan Pengujian**"
+      },
+      {
+        "baseline_start": 485,
+        "text": "| Aspek | Keterangan |\n| ----- | ----- |\n| Lingkungan agen | Cloudflare OS |\n| *Tool* akses data | list_entities, describe_entity, dan read_records |"
+      },
+      {
+        "baseline_start": 491,
+        "text": "## 4.2. Data Penelitian"
+      },
+      {
+        "baseline_start": 493,
+        "text": "Pengujian menggunakan 237 baris data sintetis. Data tersebut digunakan pada 15 kasus dari sembilan jenis tugas, T1 sampai T9, yang dibagi menjadi enam kelompok analisis."
+      },
+      {
+        "baseline_start": 495,
+        "text": "Setiap kasus dijalankan tiga kali pada Muse Spark 1.3 dan DeepSeek v4 Flash, masing-masing dengan dan tanpa konteks bisnis. Keempat kombinasi tersebut menghasilkan 45 jawaban per kombinasi dan 180 jawaban secara keseluruhan. Tabel 4.2 menyajikan pembagian kasus dan jumlah jawaban untuk setiap kelompok analisis."
+      }
+    ]
+  },
+  {
+    "id": "R21",
+    "section": "### 4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "context": [
+      {
+        "baseline_start": 741,
+        "text": "Dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 12/12 PASS. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 11/12 PASS dan DeepSeek v4 Flash memperoleh 9/12 PASS. T7-C3 dan T7-C4 memperoleh 3/3 PASS pada seluruh kombinasi. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2, dengan rincian pada Tabel 4.19."
+      },
+      {
+        "baseline_start": 743,
+        "text": "**Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis**"
+      },
+      {
+        "baseline_start": 745,
+        "text": "| Kasus | Model dan pengulangan | Bagian jawaban | *Expected result* | Jawaban agen |\n| ----- | ----- | ----- | :---: | ----- |\n| T7-C1 | DeepSeek v4 Flash, ke-2 | Gardu 3, indikator 1: spm_passed dan sla_passed | false, false | true, true |\n| T7-C2 | Muse Spark 1.3, ke-2 | Gardu 4, indikator 3: spm_passed dan sla_passed | false, false | true, true |\n| T7-C2 | DeepSeek v4 Flash, ke-1 | Gardu 4, indikator 3: spm_passed dan sla_passed | false, false | true, true |\n| T7-C2 | DeepSeek v4 Flash, ke-3 | Jumlah evaluasi | 20 | 4, seluruhnya indikator 3 |"
+      },
+      {
+        "baseline_start": 754,
+        "text": "Pada T7-C2, rata-rata durasi gardu 4 adalah 9,004 detik, yang ditampilkan sebagai 9 detik setelah pembulatan. Nilai sebelum pembulatan melebihi batas 9 detik pada indikator ketiga, sehingga spm_passed dan sla_passed pada *expected result* bernilai false. Tanpa konteks bisnis, DeepSeek v4 Flash pada pengulangan pertama membandingkan nilai 9,00 detik setelah pembulatan dengan batas 9 detik, sehingga kedua status bernilai true. Kedua status juga bernilai true dalam jawaban Muse Spark 1.3 pada pengulangan kedua tanpa konteks bisnis."
+      },
+      {
+        "baseline_start": 756,
+        "text": "Satu jawaban lain pada T7-C2 dinilai FAIL karena tidak berisi seluruh hasil evaluasi yang diminta. *Expected result* berisi 20 hasil evaluasi dari lima indikator pada empat gardu. Pada pengulangan ketiga tanpa konteks bisnis, DeepSeek v4 Flash membaca konfigurasi kelima indikator, lalu menggunakan indikator ketiga saja untuk menilai setiap gardu. Jawabannya berisi empat hasil evaluasi yang sesuai dengan *expected result*, sedangkan 16 hasil evaluasi lainnya tidak dicantumkan. Pada pengulangan ketiga dengan konteks bisnis, agen menilai setiap gardu menggunakan kelima indikator, sehingga jawabannya berisi 20 hasil evaluasi yang sesuai dengan *expected result*."
+      },
+      {
+        "baseline_start": 758,
+        "text": "## 4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode"
+      }
+    ]
+  },
+  {
+    "id": "RS07",
+    "section": "### 4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "context": [
+      {
+        "baseline_start": 790,
+        "text": "**Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis**"
+      },
+      {
+        "baseline_start": 792,
+        "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 12/12 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 12/12 | 100,00% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 12/12 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 12/12 | 100,00% |"
+      },
+      {
+        "baseline_start": 799,
+        "text": "Keempat kombinasi memperoleh 12/12 PASS, dengan 3/3 PASS pada masing-masing kasus."
+      },
+      {
+        "baseline_start": 803,
+        "text": "## 4.9. Interpretasi Hasil"
+      },
+      {
+        "baseline_start": 805,
+        "text": "Hasil pengujian pada enam kelompok analisis menunjukkan bahwa 170 dari 180 jawaban memperoleh PASS. Sepuluh jawaban yang dinilai FAIL berasal dari kondisi tanpa konteks bisnis."
+      },
+      {
+        "baseline_start": 807,
+        "text": "Dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 45/45 PASS atau 100,00%. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 41/45 PASS atau 91,11%, sedangkan DeepSeek v4 Flash memperoleh 39/45 PASS atau 86,67%. Pada kasus yang diuji, kedua model memperoleh lebih banyak PASS ketika diberi konteks bisnis."
+      }
+    ]
+  },
+  {
+    "id": "R23",
+    "section": "## 4.9. Interpretasi Hasil",
+    "context": [
+      {
+        "baseline_start": 807,
+        "text": "Dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 45/45 PASS atau 100,00%. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 41/45 PASS atau 91,11%, sedangkan DeepSeek v4 Flash memperoleh 39/45 PASS atau 86,67%. Pada kasus yang diuji, kedua model memperoleh lebih banyak PASS ketika diberi konteks bisnis."
+      },
+      {
+        "baseline_start": 809,
+        "text": "Tanpa konteks bisnis, Muse Spark 1.3 memperoleh lebih banyak PASS dibandingkan DeepSeek v4 Flash pada volume lalu lintas dan LHR serta SPM/SLA per laporan. DeepSeek v4 Flash memperoleh lebih banyak PASS pada insiden dan penyebab kecelakaan. Pada durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada keempat kombinasi."
+      },
+      {
+        "baseline_start": 811,
+        "text": "Kelengkapan jawaban ikut menentukan hasil evaluasi. Nilai yang dicantumkan dalam jawaban T3-C1 yang gagal dan satu jawaban T7-C2 sesuai dengan *expected result*. Jawaban tersebut dinilai FAIL karena rincian golongan kendaraan pada T3-C1 dan evaluasi indikator pada T7-C2 tidak lengkap."
+      },
+      {
+        "baseline_start": 815,
+        "text": "Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 Flash memperoleh 13/15 PASS pada masing-masing pengulangan."
+      }
+    ]
+  },
+  {
+    "id": "R24",
+    "section": "## 4.9. Interpretasi Hasil",
+    "context": [
+      {
+        "baseline_start": 811,
+        "text": "Kelengkapan jawaban ikut menentukan hasil evaluasi. Nilai yang dicantumkan dalam jawaban T3-C1 yang gagal dan satu jawaban T7-C2 sesuai dengan *expected result*. Jawaban tersebut dinilai FAIL karena rincian golongan kendaraan pada T3-C1 dan evaluasi indikator pada T7-C2 tidak lengkap."
+      },
+      {
+        "baseline_start": 815,
+        "text": "Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 Flash memperoleh 13/15 PASS pada masing-masing pengulangan."
+      },
+      {
+        "baseline_start": 821,
+        "text": "# BAB V — PENUTUP"
+      },
+      {
+        "baseline_start": 823,
+        "text": "Bab ini berisi kesimpulan dari evaluasi kemampuan *Agentic Business Intelligence* dengan HKA TROM sebagai studi kasus. Pembahasan mencakup ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada pengujian dengan dan tanpa konteks bisnis, serta saran untuk penelitian selanjutnya."
+      }
+    ]
+  },
+  {
+    "id": "R03b",
+    "section": "## 4.9. Interpretasi Hasil",
+    "context": [
+      {
+        "baseline_start": 815,
+        "text": "Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 Flash memperoleh 13/15 PASS pada masing-masing pengulangan."
+      },
+      {
+        "baseline_start": 821,
+        "text": "# BAB V — PENUTUP"
+      },
+      {
+        "baseline_start": 823,
+        "text": "Bab ini berisi kesimpulan dari evaluasi kemampuan *Agentic Business Intelligence* dengan HKA TROM sebagai studi kasus. Pembahasan mencakup ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada pengujian dengan dan tanpa konteks bisnis, serta saran untuk penelitian selanjutnya."
+      },
+      {
+        "baseline_start": 825,
+        "text": "## 5.1. Kesimpulan"
+      }
+    ]
+  },
+  {
+    "id": "R25",
+    "section": "## 5.1. Kesimpulan",
+    "context": [
+      {
+        "baseline_start": 827,
+        "text": "Pada pengujian dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 45/45 PASS atau 100,00% dalam menjawab kasus analisis operasional HKA TROM. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 41/45 PASS atau 91,11%, sedangkan DeepSeek v4 Flash memperoleh 39/45 PASS atau 86,67%. Tingkat keberhasilan pada pengujian dengan konteks bisnis lebih tinggi sebesar 8,89 poin persentase untuk Muse Spark 1.3 dan 13,33 poin persentase untuk DeepSeek v4 Flash."
+      },
+      {
+        "baseline_start": 829,
+        "text": "Dalam pengujian tanpa konteks bisnis, Muse Spark 1.3 memperoleh dua PASS lebih banyak daripada DeepSeek v4 Flash. Muse Spark 1.3 menghasilkan lebih banyak PASS pada volume lalu lintas dan LHR serta SPM/SLA per laporan, sementara DeepSeek v4 Flash menghasilkan lebih banyak PASS pada insiden dan penyebab kecelakaan. Untuk durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada kedua model, baik dengan ataupun tanpa konteks bisnis."
+      },
+      {
+        "baseline_start": 831,
+        "text": "Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5. Pada dua jawaban T5-C1, frekuensi Kelalaian Pengemudi terlalu besar dan terdapat kategori Kondisi Jalan yang tidak ada dalam *expected result*, sedangkan frekuensi Mengantuk tetap sesuai. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta."
+      },
+      {
+        "baseline_start": 835,
+        "text": "Penilaian dilakukan terhadap struktur dan nilai jawaban akhir berdasarkan *expected result*. Kesimpulan ini terbatas pada 15 kasus yang masing-masing dijalankan tiga kali untuk setiap model dan kondisi pengujian."
+      },
+      {
+        "baseline_start": 837,
+        "text": "## 5.2. Saran"
+      }
+    ]
+  },
+  {
+    "id": "R26",
+    "section": "## 5.2. Saran",
+    "context": [
+      {
+        "baseline_start": 835,
+        "text": "Penilaian dilakukan terhadap struktur dan nilai jawaban akhir berdasarkan *expected result*. Kesimpulan ini terbatas pada 15 kasus yang masing-masing dijalankan tiga kali untuk setiap model dan kondisi pengujian."
+      },
+      {
+        "baseline_start": 837,
+        "text": "## 5.2. Saran"
+      },
+      {
+        "baseline_start": 841,
+        "text": "# DAFTAR PUSTAKA"
+      },
+      {
+        "baseline_start": 843,
+        "text": "Adyen. (n.d.). About Adyen. https://www.adyen.com/about"
+      },
+      {
+        "baseline_start": 845,
+        "text": "Agent Skills. (n.d.). Agent Skills overview. https://agentskills.io/home"
+      }
+    ]
+  }
+]

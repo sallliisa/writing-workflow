@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "R-root",
+    "parent": null,
+    "level": 0,
+    "title": "Document",
+    "start_line": 1,
+    "direct_end_line": 0,
+    "end_line": 1151
+  },
+  {
+    "id": "R-0001",
+    "parent": "R-root",
+    "level": 1,
+    "title": "BAB I — PENDAHULUAN",
+    "start_line": 1,
+    "direct_end_line": 4,
+    "end_line": 78
+  },
+  {
+    "id": "R-0002",
+    "parent": "R-0001",
+    "level": 2,
+    "title": "1.1. Latar Belakang",
+    "start_line": 5,
+    "direct_end_line": 22,
+    "end_line": 22
+  },
+  {
+    "id": "R-0003",
+    "parent": "R-0001",
+    "level": 2,
+    "title": "1.2. Rumusan Masalah",
+    "start_line": 23,
+    "direct_end_line": 28,
+    "end_line": 28
+  },
+  {
+    "id": "R-0004",
+    "parent": "R-0001",
+    "level": 2,
+    "title": "1.3. Tujuan Penelitian",
+    "start_line": 29,
+    "direct_end_line": 34,
+    "end_line": 34
+  },
+  {
+    "id": "R-0005",
+    "parent": "R-0001",
+    "level": 2,
+    "title": "1.4. Manfaat Penelitian",
+    "start_line": 35,
+    "direct_end_line": 40,
+    "end_line": 40
+  },
+  {
+    "id": "R-0006",
+    "parent": "R-0001",
+    "level": 2,
+    "title": "1.5. Batasan Penelitian",
+    "start_line": 41,
+    "direct_end_line": 44,
+    "end_line": 54
+  },
+  {
+    "id": "R-0007",
+    "parent": "R-0001",
+    "level": 2,
+    "title": "1.6. Sistematika Penulisan",
+    "start_line": 55,
+    "direct_end_line": 58,
+    "end_line": 78
+  },
+  {
+    "id": "R-0008",
+    "parent": "R-root",
+    "level": 1,
+    "title": "BAB II — TINJAUAN PUSTAKA",
+    "start_line": 79,
+    "direct_end_line": 82,
+    "end_line": 373
+  },
+  {
+    "id": "R-0009",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.1. State-of-the-Art",
+    "start_line": 83,
+    "direct_end_line": 86,
+    "end_line": 110
+  },
+  {
+    "id": "R-0010",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.2. Feedback dalam Pendidikan",
+    "start_line": 111,
+    "direct_end_line": 116,
+    "end_line": 116
+  },
+  {
+    "id": "R-0011",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.3. Feedback Generation Otomatis",
+    "start_line": 117,
+    "direct_end_line": 122,
+    "end_line": 122
+  },
+  {
+    "id": "R-0012",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.4. Artificial Intelligence",
+    "start_line": 123,
+    "direct_end_line": 128,
+    "end_line": 128
+  },
+  {
+    "id": "R-0013",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.5. Natural Language Processing",
+    "start_line": 129,
+    "direct_end_line": 134,
+    "end_line": 134
+  },
+  {
+    "id": "R-0014",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.6. Prompt Engineering",
+    "start_line": 135,
+    "direct_end_line": 140,
+    "end_line": 182
+  },
+  {
+    "id": "R-0015",
+    "parent": "R-0014",
+    "level": 3,
+    "title": "2.6.1. Strategi Prompting",
+    "start_line": 141,
+    "direct_end_line": 142,
+    "end_line": 174
+  },
+  {
+    "id": "R-0016",
+    "parent": "R-0015",
+    "level": 4,
+    "title": "2.6.1.1. Zero-Shot Prompting",
+    "start_line": 143,
+    "direct_end_line": 150,
+    "end_line": 150
+  },
+  {
+    "id": "R-0017",
+    "parent": "R-0015",
+    "level": 4,
+    "title": "2.6.1.2. One-Shot Prompting",
+    "start_line": 151,
+    "direct_end_line": 158,
+    "end_line": 158
+  },
+  {
+    "id": "R-0018",
+    "parent": "R-0015",
+    "level": 4,
+    "title": "2.6.1.3. Few-Shot Prompting",
+    "start_line": 159,
+    "direct_end_line": 166,
+    "end_line": 166
+  },
+  {
+    "id": "R-0019",
+    "parent": "R-0015",
+    "level": 4,
+    "title": "2.6.1.4. Chain-of-Thought Prompting",
+    "start_line": 167,
+    "direct_end_line": 174,
+    "end_line": 174
+  },
+  {
+    "id": "R-0020",
+    "parent": "R-0014",
+    "level": 3,
+    "title": "2.6.2. Persona dalam Prompting",
+    "start_line": 175,
+    "direct_end_line": 182,
+    "end_line": 182
+  },
+  {
+    "id": "R-0021",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.7. Large Language Models",
+    "start_line": 183,
+    "direct_end_line": 202,
+    "end_line": 232
+  },
+  {
+    "id": "R-0022",
+    "parent": "R-0021",
+    "level": 3,
+    "title": "2.7.1. GPT4o-mini",
+    "start_line": 203,
+    "direct_end_line": 216,
+    "end_line": 216
+  },
+  {
+    "id": "R-0023",
+    "parent": "R-0021",
+    "level": 3,
+    "title": "2.7.2. LLaMa",
+    "start_line": 217,
+    "direct_end_line": 232,
+    "end_line": 232
+  },
+  {
+    "id": "R-0024",
+    "parent": "R-0008",
+    "level": 2,
+    "title": "2.8. Evaluasi Kualitas Feedback",
+    "start_line": 233,
+    "direct_end_line": 238,
+    "end_line": 373
+  },
+  {
+    "id": "R-0025",
+    "parent": "R-0024",
+    "level": 3,
+    "title": "2.8.1. BLEU",
+    "start_line": 239,
+    "direct_end_line": 242,
+    "end_line": 267
+  },
+  {
+    "id": "R-0026",
+    "parent": "R-0024",
+    "level": 3,
+    "title": "2.8.2. ROUGE-L",
+    "start_line": 268,
+    "direct_end_line": 273,
+    "end_line": 302
+  },
+  {
+    "id": "R-0027",
+    "parent": "R-0024",
+    "level": 3,
+    "title": "2.8.3. METEOR",
+    "start_line": 303,
+    "direct_end_line": 308,
+    "end_line": 337
+  },
+  {
+    "id": "R-0028",
+    "parent": "R-0024",
+    "level": 3,
+    "title": "2.8.4. BERTScore",
+    "start_line": 338,
+    "direct_end_line": 341,
+    "end_line": 373
+  },
+  {
+    "id": "R-0029",
+    "parent": "R-root",
+    "level": 1,
+    "title": "BAB III — METODOLOGI PENELITIAN",
+    "start_line": 374,
+    "direct_end_line": 377,
+    "end_line": 748
+  },
+  {
+    "id": "R-0030",
+    "parent": "R-0029",
+    "level": 2,
+    "title": "3.1. Gambaran Umum Penelitian",
+    "start_line": 378,
+    "direct_end_line": 381,
+    "end_line": 393
+  },
+  {
+    "id": "R-0031",
+    "parent": "R-0029",
+    "level": 2,
+    "title": "3.2. Pengumpulan Data",
+    "start_line": 394,
+    "direct_end_line": 395,
+    "end_line": 419
+  },
+  {
+    "id": "R-0032",
+    "parent": "R-0029",
+    "level": 2,
+    "title": "3.3. Penyusunan Prompt",
+    "start_line": 420,
+    "direct_end_line": 427,
+    "end_line": 521
+  },
+  {
+    "id": "R-0033",
+    "parent": "R-0032",
+    "level": 3,
+    "title": "3.3.1. Strategi Zero-Shot",
+    "start_line": 428,
+    "direct_end_line": 431,
+    "end_line": 451
+  },
+  {
+    "id": "R-0034",
+    "parent": "R-0032",
+    "level": 3,
+    "title": "3.3.2. Strategi One-Shot",
+    "start_line": 452,
+    "direct_end_line": 455,
+    "end_line": 473
+  },
+  {
+    "id": "R-0035",
+    "parent": "R-0032",
+    "level": 3,
+    "title": "3.3.3. Strategi Few-Shot",
+    "start_line": 474,
+    "direct_end_line": 477,
+    "end_line": 497
+  },
+  {
+    "id": "R-0036",
+    "parent": "R-0032",
+    "level": 3,
+    "title": "3.3.4. Strategi Chain-of-Thought",
+    "start_line": 498,
+    "direct_end_line": 501,
+    "end_line": 521
+  },
+  {
+    "id": "R-0037",
+    "parent": "R-0029",
+    "level": 2,
+    "title": "3.4. Generasi Feedback oleh LLM",
+    "start_line": 522,
+    "direct_end_line": 529,
+    "end_line": 529
+  },
+  {
+    "id": "R-0038",
+    "parent": "R-0029",
+    "level": 2,
+    "title": "3.5. Evaluasi Hasil Generasi",
+    "start_line": 530,
+    "direct_end_line": 535,
+    "end_line": 748
+  },
+  {
+    "id": "R-0039",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "3.5.1. Perhitungan Metrik Evaluasi BLEU",
+    "start_line": 552,
+    "direct_end_line": 555,
+    "end_line": 636
+  },
+  {
+    "id": "R-0040",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "3.5.2. Perhitungan Metrik Evaluasi ROUGE-L",
+    "start_line": 637,
+    "direct_end_line": 640,
+    "end_line": 670
+  },
+  {
+    "id": "R-0041",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "3.5.3. Perhitungan Metrik Evaluasi METEOR",
+    "start_line": 671,
+    "direct_end_line": 674,
+    "end_line": 710
+  },
+  {
+    "id": "R-0042",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "3.5.4. Perhitungan Metrik Evaluasi BERTScore",
+    "start_line": 711,
+    "direct_end_line": 716,
+    "end_line": 748
+  },
+  {
+    "id": "R-0043",
+    "parent": "R-root",
+    "level": 1,
+    "title": "BAB IV — HASIL DAN PEMBAHASAN",
+    "start_line": 749,
+    "direct_end_line": 752,
+    "end_line": 1084
+  },
+  {
+    "id": "R-0044",
+    "parent": "R-0043",
+    "level": 2,
+    "title": "4.1. Lingkungan Proses Generating dan Evaluasi",
+    "start_line": 753,
+    "direct_end_line": 756,
+    "end_line": 762
+  },
+  {
+    "id": "R-0045",
+    "parent": "R-0043",
+    "level": 2,
+    "title": "4.2. Data Penelitian",
+    "start_line": 763,
+    "direct_end_line": 764,
+    "end_line": 780
+  },
+  {
+    "id": "R-0046",
+    "parent": "R-0043",
+    "level": 2,
+    "title": "4.3. Analisis Hasil pada Mata Kuliah Sistem Cerdas",
+    "start_line": 781,
+    "direct_end_line": 782,
+    "end_line": 925
+  },
+  {
+    "id": "R-0047",
+    "parent": "R-0046",
+    "level": 3,
+    "title": "4.3.1. Berdasarkan Strategi Prompting",
+    "start_line": 783,
+    "direct_end_line": 786,
+    "end_line": 813
+  },
+  {
+    "id": "R-0048",
+    "parent": "R-0046",
+    "level": 3,
+    "title": "4.3.2. Berdasarkan Strategi Persona",
+    "start_line": 814,
+    "direct_end_line": 817,
+    "end_line": 843
+  },
+  {
+    "id": "R-0049",
+    "parent": "R-0046",
+    "level": 3,
+    "title": "4.3.3. Berdasarkan Strategi Model",
+    "start_line": 844,
+    "direct_end_line": 847,
+    "end_line": 874
+  },
+  {
+    "id": "R-0050",
+    "parent": "R-0046",
+    "level": 3,
+    "title": "4.3.4. Berdasarkan Kombinasi Strategi, Persona, dan Model",
+    "start_line": 875,
+    "direct_end_line": 878,
+    "end_line": 925
+  },
+  {
+    "id": "R-0051",
+    "parent": "R-0043",
+    "level": 2,
+    "title": "4.4. Analisis Hasil pada Mata Kuliah Metodologi Penelitian dan Penulisan Ilmiah",
+    "start_line": 926,
+    "direct_end_line": 927,
+    "end_line": 1070
+  },
+  {
+    "id": "R-0052",
+    "parent": "R-0051",
+    "level": 3,
+    "title": "4.4.1. Berdasarkan Strategi Prompting",
+    "start_line": 928,
+    "direct_end_line": 931,
+    "end_line": 960
+  },
+  {
+    "id": "R-0053",
+    "parent": "R-0051",
+    "level": 3,
+    "title": "4.4.2. Berdasarkan Strategi Persona",
+    "start_line": 961,
+    "direct_end_line": 964,
+    "end_line": 990
+  },
+  {
+    "id": "R-0054",
+    "parent": "R-0051",
+    "level": 3,
+    "title": "4.4.3. Berdasarkan Strategi Model",
+    "start_line": 991,
+    "direct_end_line": 994,
+    "end_line": 1019
+  },
+  {
+    "id": "R-0055",
+    "parent": "R-0051",
+    "level": 3,
+    "title": "4.4.4. Berdasarkan Kombinasi Strategi, Persona dan Model",
+    "start_line": 1020,
+    "direct_end_line": 1023,
+    "end_line": 1070
+  },
+  {
+    "id": "R-0056",
+    "parent": "R-0043",
+    "level": 2,
+    "title": "4.5. Interpretasi Hasil",
+    "start_line": 1071,
+    "direct_end_line": 1074,
+    "end_line": 1084
+  },
+  {
+    "id": "R-0057",
+    "parent": "R-root",
+    "level": 1,
+    "title": "BAB V — PENUTUP",
+    "start_line": 1085,
+    "direct_end_line": 1088,
+    "end_line": 1096
+  },
+  {
+    "id": "R-0058",
+    "parent": "R-0057",
+    "level": 2,
+    "title": "5.1. Kesimpulan",
+    "start_line": 1089,
+    "direct_end_line": 1092,
+    "end_line": 1092
+  },
+  {
+    "id": "R-0059",
+    "parent": "R-0057",
+    "level": 2,
+    "title": "5.2. Saran",
+    "start_line": 1093,
+    "direct_end_line": 1096,
+    "end_line": 1096
+  },
+  {
+    "id": "R-0060",
+    "parent": "R-root",
+    "level": 1,
+    "title": "DAFTAR PUSTAKA",
+    "start_line": 1097,
+    "direct_end_line": 1151,
+    "end_line": 1151
+  },
+  {
+    "id": "R-u0045",
+    "parent": "R-0006",
+    "level": 3,
+    "title": "Batasi domain pengujian",
+    "start_line": 45,
+    "direct_end_line": 46,
+    "end_line": 46
+  },
+  {
+    "id": "R-u0047",
+    "parent": "R-0006",
+    "level": 3,
+    "title": "Batasi ukuran pada keluaran otomatis",
+    "start_line": 47,
+    "direct_end_line": 48,
+    "end_line": 48
+  },
+  {
+    "id": "R-u0049",
+    "parent": "R-0006",
+    "level": 3,
+    "title": "Batasi model dan konfigurasi",
+    "start_line": 49,
+    "direct_end_line": 50,
+    "end_line": 50
+  },
+  {
+    "id": "R-u0051",
+    "parent": "R-0006",
+    "level": 3,
+    "title": "Nyatakan variasi contoh yang tidak dipisahkan",
+    "start_line": 51,
+    "direct_end_line": 52,
+    "end_line": 52
+  },
+  {
+    "id": "R-u0053",
+    "parent": "R-0006",
+    "level": 3,
+    "title": "Batasi tafsir manfaat bagi pengguna",
+    "start_line": 53,
+    "direct_end_line": 54,
+    "end_line": 54
+  },
+  {
+    "id": "R-u0059",
+    "parent": "R-0007",
+    "level": 3,
+    "title": "Petunjuk isi Bab 1",
+    "start_line": 59,
+    "direct_end_line": 62,
+    "end_line": 62
+  },
+  {
+    "id": "R-u0063",
+    "parent": "R-0007",
+    "level": 3,
+    "title": "Petunjuk isi Bab 2",
+    "start_line": 63,
+    "direct_end_line": 66,
+    "end_line": 66
+  },
+  {
+    "id": "R-u0067",
+    "parent": "R-0007",
+    "level": 3,
+    "title": "Petunjuk isi Bab 3",
+    "start_line": 67,
+    "direct_end_line": 70,
+    "end_line": 70
+  },
+  {
+    "id": "R-u0071",
+    "parent": "R-0007",
+    "level": 3,
+    "title": "Petunjuk isi Bab 4",
+    "start_line": 71,
+    "direct_end_line": 74,
+    "end_line": 74
+  },
+  {
+    "id": "R-u0075",
+    "parent": "R-0007",
+    "level": 3,
+    "title": "Petunjuk isi Bab 5",
+    "start_line": 75,
+    "direct_end_line": 78,
+    "end_line": 78
+  },
+  {
+    "id": "R-u0382",
+    "parent": "R-0030",
+    "level": 3,
+    "title": "Orientasi alur dan pengumpulan data",
+    "start_line": 382,
+    "direct_end_line": 385,
+    "end_line": 385
+  },
+  {
+    "id": "R-u0386",
+    "parent": "R-0030",
+    "level": 3,
+    "title": "Penyusunan masukan",
+    "start_line": 386,
+    "direct_end_line": 387,
+    "end_line": 387
+  },
+  {
+    "id": "R-u0388",
+    "parent": "R-0030",
+    "level": 3,
+    "title": "Generasi",
+    "start_line": 388,
+    "direct_end_line": 389,
+    "end_line": 389
+  },
+  {
+    "id": "R-u0390",
+    "parent": "R-0030",
+    "level": 3,
+    "title": "Evaluasi otomatis",
+    "start_line": 390,
+    "direct_end_line": 391,
+    "end_line": 391
+  },
+  {
+    "id": "R-u0392",
+    "parent": "R-0030",
+    "level": 3,
+    "title": "Analisis konfigurasi",
+    "start_line": 392,
+    "direct_end_line": 393,
+    "end_line": 393
+  },
+  {
+    "id": "R-u0396",
+    "parent": "R-0031",
+    "level": 3,
+    "title": "Sumber tugas dan contoh data pertama",
+    "start_line": 396,
+    "direct_end_line": 407,
+    "end_line": 407
+  },
+  {
+    "id": "R-u0408",
+    "parent": "R-0031",
+    "level": 3,
+    "title": "Acuan penilaian dan contoh data kedua",
+    "start_line": 408,
+    "direct_end_line": 417,
+    "end_line": 417
+  },
+  {
+    "id": "R-u0418",
+    "parent": "R-0031",
+    "level": 3,
+    "title": "Skor tugas asal",
+    "start_line": 418,
+    "direct_end_line": 419,
+    "end_line": 419
+  },
+  {
+    "id": "R-u0432",
+    "parent": "R-0033",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas pertama",
+    "start_line": 432,
+    "direct_end_line": 441,
+    "end_line": 441
+  },
+  {
+    "id": "R-u0442",
+    "parent": "R-0033",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas kedua",
+    "start_line": 442,
+    "direct_end_line": 451,
+    "end_line": 451
+  },
+  {
+    "id": "R-u0456",
+    "parent": "R-0034",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas pertama",
+    "start_line": 456,
+    "direct_end_line": 464,
+    "end_line": 464
+  },
+  {
+    "id": "R-u0465",
+    "parent": "R-0034",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas kedua",
+    "start_line": 465,
+    "direct_end_line": 473,
+    "end_line": 473
+  },
+  {
+    "id": "R-u0478",
+    "parent": "R-0035",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas pertama",
+    "start_line": 478,
+    "direct_end_line": 486,
+    "end_line": 486
+  },
+  {
+    "id": "R-u0487",
+    "parent": "R-0035",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas kedua",
+    "start_line": 487,
+    "direct_end_line": 497,
+    "end_line": 497
+  },
+  {
+    "id": "R-u0502",
+    "parent": "R-0036",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas pertama",
+    "start_line": 502,
+    "direct_end_line": 511,
+    "end_line": 511
+  },
+  {
+    "id": "R-u0512",
+    "parent": "R-0036",
+    "level": 4,
+    "title": "Contoh komponen prompt pada tugas kedua",
+    "start_line": 512,
+    "direct_end_line": 521,
+    "end_line": 521
+  },
+  {
+    "id": "R-u0536",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "Pasangan tugas dan jawaban acuan",
+    "start_line": 536,
+    "direct_end_line": 542,
+    "end_line": 542
+  },
+  {
+    "id": "R-u0543",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "Keluaran yang akan dinilai",
+    "start_line": 543,
+    "direct_end_line": 551,
+    "end_line": 551
+  },
+  {
+    "id": "R-u0556",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Tokenisasi",
+    "start_line": 556,
+    "direct_end_line": 557,
+    "end_line": 557
+  },
+  {
+    "id": "R-u0558",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Kecocokan unigram",
+    "start_line": 558,
+    "direct_end_line": 597,
+    "end_line": 597
+  },
+  {
+    "id": "R-u0598",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Kecocokan bigram",
+    "start_line": 598,
+    "direct_end_line": 618,
+    "end_line": 618
+  },
+  {
+    "id": "R-u0619",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Penalti panjang",
+    "start_line": 619,
+    "direct_end_line": 624,
+    "end_line": 624
+  },
+  {
+    "id": "R-u0625",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Penggabungan skor",
+    "start_line": 625,
+    "direct_end_line": 634,
+    "end_line": 634
+  },
+  {
+    "id": "R-u0635",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Tafsir skor BLEU-2",
+    "start_line": 635,
+    "direct_end_line": 636,
+    "end_line": 636
+  },
+  {
+    "id": "R-u0641",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Penentuan subsekuens",
+    "start_line": 641,
+    "direct_end_line": 648,
+    "end_line": 648
+  },
+  {
+    "id": "R-u0649",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Perhitungan recall dan precision",
+    "start_line": 649,
+    "direct_end_line": 658,
+    "end_line": 658
+  },
+  {
+    "id": "R-u0659",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Penggabungan dengan bobot seimbang",
+    "start_line": 659,
+    "direct_end_line": 668,
+    "end_line": 668
+  },
+  {
+    "id": "R-u0669",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Tafsir ROUGE-L",
+    "start_line": 669,
+    "direct_end_line": 670,
+    "end_line": 670
+  },
+  {
+    "id": "R-u0675",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Tokenisasi",
+    "start_line": 675,
+    "direct_end_line": 676,
+    "end_line": 676
+  },
+  {
+    "id": "R-u0677",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Penghitungan pasangan unigram",
+    "start_line": 677,
+    "direct_end_line": 678,
+    "end_line": 678
+  },
+  {
+    "id": "R-u0679",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Precision kandidat",
+    "start_line": 679,
+    "direct_end_line": 684,
+    "end_line": 684
+  },
+  {
+    "id": "R-u0685",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Recall acuan",
+    "start_line": 685,
+    "direct_end_line": 690,
+    "end_line": 690
+  },
+  {
+    "id": "R-u0691",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Rata-rata harmonik berbobot",
+    "start_line": 691,
+    "direct_end_line": 696,
+    "end_line": 696
+  },
+  {
+    "id": "R-u0697",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Penalti fragmen",
+    "start_line": 697,
+    "direct_end_line": 702,
+    "end_line": 702
+  },
+  {
+    "id": "R-u0703",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Skor setelah penalti",
+    "start_line": 703,
+    "direct_end_line": 708,
+    "end_line": 708
+  },
+  {
+    "id": "R-u0709",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Tafsir METEOR",
+    "start_line": 709,
+    "direct_end_line": 710,
+    "end_line": 710
+  },
+  {
+    "id": "R-u0717",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Pembentukan vektor token",
+    "start_line": 717,
+    "direct_end_line": 718,
+    "end_line": 718
+  },
+  {
+    "id": "R-u0719",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Kemiripan kosinus",
+    "start_line": 719,
+    "direct_end_line": 720,
+    "end_line": 720
+  },
+  {
+    "id": "R-u0721",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Contoh padanan makna",
+    "start_line": 721,
+    "direct_end_line": 722,
+    "end_line": 722
+  },
+  {
+    "id": "R-u0723",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Komponen ukuran semantik",
+    "start_line": 723,
+    "direct_end_line": 724,
+    "end_line": 728
+  },
+  {
+    "id": "R-u0729",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Estimasi pustaka dan rumus",
+    "start_line": 729,
+    "direct_end_line": 746,
+    "end_line": 746
+  },
+  {
+    "id": "R-u0747",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Tafsir estimasi BERTScore",
+    "start_line": 747,
+    "direct_end_line": 748,
+    "end_line": 748
+  },
+  {
+    "id": "R-u0725",
+    "parent": "R-u0723",
+    "level": 5,
+    "title": "Precision semantik",
+    "start_line": 725,
+    "direct_end_line": 725,
+    "end_line": 725
+  },
+  {
+    "id": "R-u0726",
+    "parent": "R-u0723",
+    "level": 5,
+    "title": "Recall semantik",
+    "start_line": 726,
+    "direct_end_line": 726,
+    "end_line": 726
+  },
+  {
+    "id": "R-u0727",
+    "parent": "R-u0723",
+    "level": 5,
+    "title": "F1 semantik",
+    "start_line": 727,
+    "direct_end_line": 728,
+    "end_line": 728
+  },
+  {
+    "id": "R-u0757",
+    "parent": "R-0044",
+    "level": 3,
+    "title": "Spesifikasi CPU",
+    "start_line": 757,
+    "direct_end_line": 757,
+    "end_line": 757
+  },
+  {
+    "id": "R-u0758",
+    "parent": "R-0044",
+    "level": 3,
+    "title": "Spesifikasi RAM",
+    "start_line": 758,
+    "direct_end_line": 758,
+    "end_line": 758
+  },
+  {
+    "id": "R-u0759",
+    "parent": "R-0044",
+    "level": 3,
+    "title": "Spesifikasi GPU",
+    "start_line": 759,
+    "direct_end_line": 759,
+    "end_line": 759
+  },
+  {
+    "id": "R-u0760",
+    "parent": "R-0044",
+    "level": 3,
+    "title": "Spesifikasi Memori GPU",
+    "start_line": 760,
+    "direct_end_line": 760,
+    "end_line": 760
+  },
+  {
+    "id": "R-u0761",
+    "parent": "R-0044",
+    "level": 3,
+    "title": "Spesifikasi Penyimpanan",
+    "start_line": 761,
+    "direct_end_line": 762,
+    "end_line": 762
+  },
+  {
+    "id": "R-u0787",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 787,
+    "direct_end_line": 790,
+    "end_line": 790
+  },
+  {
+    "id": "R-u0791",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 791,
+    "direct_end_line": 794,
+    "end_line": 794
+  },
+  {
+    "id": "R-u0795",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 795,
+    "direct_end_line": 798,
+    "end_line": 798
+  },
+  {
+    "id": "R-u0799",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 799,
+    "direct_end_line": 802,
+    "end_line": 802
+  },
+  {
+    "id": "R-u0803",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 803,
+    "direct_end_line": 813,
+    "end_line": 813
+  },
+  {
+    "id": "R-u0818",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 818,
+    "direct_end_line": 821,
+    "end_line": 821
+  },
+  {
+    "id": "R-u0822",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 822,
+    "direct_end_line": 825,
+    "end_line": 825
+  },
+  {
+    "id": "R-u0826",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 826,
+    "direct_end_line": 829,
+    "end_line": 829
+  },
+  {
+    "id": "R-u0830",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 830,
+    "direct_end_line": 833,
+    "end_line": 833
+  },
+  {
+    "id": "R-u0834",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 834,
+    "direct_end_line": 843,
+    "end_line": 843
+  },
+  {
+    "id": "R-u0848",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 848,
+    "direct_end_line": 851,
+    "end_line": 851
+  },
+  {
+    "id": "R-u0852",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 852,
+    "direct_end_line": 855,
+    "end_line": 855
+  },
+  {
+    "id": "R-u0856",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 856,
+    "direct_end_line": 859,
+    "end_line": 859
+  },
+  {
+    "id": "R-u0860",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 860,
+    "direct_end_line": 863,
+    "end_line": 863
+  },
+  {
+    "id": "R-u0864",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 864,
+    "direct_end_line": 874,
+    "end_line": 874
+  },
+  {
+    "id": "R-u0879",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 879,
+    "direct_end_line": 882,
+    "end_line": 882
+  },
+  {
+    "id": "R-u0883",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 883,
+    "direct_end_line": 886,
+    "end_line": 886
+  },
+  {
+    "id": "R-u0887",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 887,
+    "direct_end_line": 890,
+    "end_line": 890
+  },
+  {
+    "id": "R-u0891",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 891,
+    "direct_end_line": 894,
+    "end_line": 894
+  },
+  {
+    "id": "R-u0895",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 895,
+    "direct_end_line": 925,
+    "end_line": 925
+  },
+  {
+    "id": "R-u0932",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 932,
+    "direct_end_line": 935,
+    "end_line": 935
+  },
+  {
+    "id": "R-u0936",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 936,
+    "direct_end_line": 939,
+    "end_line": 939
+  },
+  {
+    "id": "R-u0940",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 940,
+    "direct_end_line": 943,
+    "end_line": 943
+  },
+  {
+    "id": "R-u0944",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 944,
+    "direct_end_line": 947,
+    "end_line": 947
+  },
+  {
+    "id": "R-u0948",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 948,
+    "direct_end_line": 960,
+    "end_line": 960
+  },
+  {
+    "id": "R-u0965",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 965,
+    "direct_end_line": 968,
+    "end_line": 968
+  },
+  {
+    "id": "R-u0969",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 969,
+    "direct_end_line": 972,
+    "end_line": 972
+  },
+  {
+    "id": "R-u0973",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 973,
+    "direct_end_line": 976,
+    "end_line": 976
+  },
+  {
+    "id": "R-u0977",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 977,
+    "direct_end_line": 980,
+    "end_line": 980
+  },
+  {
+    "id": "R-u0981",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 981,
+    "direct_end_line": 990,
+    "end_line": 990
+  },
+  {
+    "id": "R-u0995",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 995,
+    "direct_end_line": 998,
+    "end_line": 998
+  },
+  {
+    "id": "R-u0999",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 999,
+    "direct_end_line": 1002,
+    "end_line": 1002
+  },
+  {
+    "id": "R-u1003",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 1003,
+    "direct_end_line": 1006,
+    "end_line": 1006
+  },
+  {
+    "id": "R-u1007",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 1007,
+    "direct_end_line": 1010,
+    "end_line": 1010
+  },
+  {
+    "id": "R-u1011",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 1011,
+    "direct_end_line": 1019,
+    "end_line": 1019
+  },
+  {
+    "id": "R-u1024",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Sebaran BLEU",
+    "start_line": 1024,
+    "direct_end_line": 1027,
+    "end_line": 1027
+  },
+  {
+    "id": "R-u1028",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Sebaran ROUGE-L",
+    "start_line": 1028,
+    "direct_end_line": 1031,
+    "end_line": 1031
+  },
+  {
+    "id": "R-u1032",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Sebaran METEOR",
+    "start_line": 1032,
+    "direct_end_line": 1035,
+    "end_line": 1035
+  },
+  {
+    "id": "R-u1036",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Sebaran BERTScore",
+    "start_line": 1036,
+    "direct_end_line": 1039,
+    "end_line": 1039
+  },
+  {
+    "id": "R-u1040",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Rekap dan tafsir rata-rata menurut kelompok",
+    "start_line": 1040,
+    "direct_end_line": 1070,
+    "end_line": 1070
+  },
+  {
+    "id": "R-u1075",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Sintesis strategi masukan",
+    "start_line": 1075,
+    "direct_end_line": 1076,
+    "end_line": 1076
+  },
+  {
+    "id": "R-u1077",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Sintesis persona",
+    "start_line": 1077,
+    "direct_end_line": 1078,
+    "end_line": 1078
+  },
+  {
+    "id": "R-u1079",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Sintesis per model",
+    "start_line": 1079,
+    "direct_end_line": 1080,
+    "end_line": 1080
+  },
+  {
+    "id": "R-u1081",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Sintesis kombinasi",
+    "start_line": 1081,
+    "direct_end_line": 1082,
+    "end_line": 1082
+  },
+  {
+    "id": "R-u1083",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Perbandingan lintas domain",
+    "start_line": 1083,
+    "direct_end_line": 1084,
+    "end_line": 1084
+  },
+  {
+    "id": "R-u0087",
+    "parent": "R-0009",
+    "level": 3,
+    "title": "Matriks perbandingan penelitian",
+    "start_line": 87,
+    "direct_end_line": 98,
+    "end_line": 98
+  },
+  {
+    "id": "R-u0099",
+    "parent": "R-0009",
+    "level": 3,
+    "title": "Pembahasan bukti penelitian terdahulu",
+    "start_line": 99,
+    "direct_end_line": 108,
+    "end_line": 108
+  },
+  {
+    "id": "R-u0109",
+    "parent": "R-0009",
+    "level": 3,
+    "title": "Sintesis dan kebutuhan penelitian",
+    "start_line": 109,
+    "direct_end_line": 110,
+    "end_line": 110
+  },
+  {
+    "id": "R-u0243",
+    "parent": "R-0025",
+    "level": 4,
+    "title": "Definisi matematis BLEU",
+    "start_line": 243,
+    "direct_end_line": 254,
+    "end_line": 254
+  },
+  {
+    "id": "R-u0255",
+    "parent": "R-0025",
+    "level": 4,
+    "title": "Aturan penalti panjang",
+    "start_line": 255,
+    "direct_end_line": 265,
+    "end_line": 265
+  },
+  {
+    "id": "R-u0266",
+    "parent": "R-0025",
+    "level": 4,
+    "title": "Arti BLEU dalam domain",
+    "start_line": 266,
+    "direct_end_line": 267,
+    "end_line": 267
+  },
+  {
+    "id": "R-u0274",
+    "parent": "R-0026",
+    "level": 4,
+    "title": "Definisi ROUGE-L",
+    "start_line": 274,
+    "direct_end_line": 286,
+    "end_line": 286
+  },
+  {
+    "id": "R-u0287",
+    "parent": "R-0026",
+    "level": 4,
+    "title": "Komponen recall dan precision LCS",
+    "start_line": 287,
+    "direct_end_line": 302,
+    "end_line": 302
+  },
+  {
+    "id": "R-u0309",
+    "parent": "R-0027",
+    "level": 4,
+    "title": "Skor METEOR",
+    "start_line": 309,
+    "direct_end_line": 319,
+    "end_line": 319
+  },
+  {
+    "id": "R-u0320",
+    "parent": "R-0027",
+    "level": 4,
+    "title": "Komponen rata-rata harmonik",
+    "start_line": 320,
+    "direct_end_line": 325,
+    "end_line": 325
+  },
+  {
+    "id": "R-u0326",
+    "parent": "R-0027",
+    "level": 4,
+    "title": "Komponen penalti",
+    "start_line": 326,
+    "direct_end_line": 337,
+    "end_line": 337
+  },
+  {
+    "id": "R-u0342",
+    "parent": "R-0028",
+    "level": 4,
+    "title": "Rumus F1 semantik",
+    "start_line": 342,
+    "direct_end_line": 350,
+    "end_line": 350
+  },
+  {
+    "id": "R-u0351",
+    "parent": "R-0028",
+    "level": 4,
+    "title": "Precision vektor",
+    "start_line": 351,
+    "direct_end_line": 356,
+    "end_line": 356
+  },
+  {
+    "id": "R-u0357",
+    "parent": "R-0028",
+    "level": 4,
+    "title": "Recall vektor dan simbol",
+    "start_line": 357,
+    "direct_end_line": 371,
+    "end_line": 371
+  },
+  {
+    "id": "R-u0372",
+    "parent": "R-0028",
+    "level": 4,
+    "title": "Arti BERTScore dalam domain",
+    "start_line": 372,
+    "direct_end_line": 373,
+    "end_line": 373
+  },
+  {
+    "id": "R-u0765",
+    "parent": "R-0045",
+    "level": 3,
+    "title": "Jumlah masukan",
+    "start_line": 765,
+    "direct_end_line": 766,
+    "end_line": 766
+  },
+  {
+    "id": "R-u0767",
+    "parent": "R-0045",
+    "level": 3,
+    "title": "Faktor dan kombinasi",
+    "start_line": 767,
+    "direct_end_line": 768,
+    "end_line": 768
+  },
+  {
+    "id": "R-u0769",
+    "parent": "R-0045",
+    "level": 3,
+    "title": "Perluasan kondisi one-shot",
+    "start_line": 769,
+    "direct_end_line": 770,
+    "end_line": 770
+  },
+  {
+    "id": "R-u0771",
+    "parent": "R-0045",
+    "level": 3,
+    "title": "Pencatatan dan total keluaran",
+    "start_line": 771,
+    "direct_end_line": 780,
+    "end_line": 780
+  }
+]

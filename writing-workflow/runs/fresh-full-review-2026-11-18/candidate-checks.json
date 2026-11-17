@@ -1,0 +1,277 @@
+{
+  "checks": {
+    "system prompt": true,
+    "case prompt and schema": true,
+    "quoted skill instruction": true,
+    "T5-C1 expected output and two responses": true,
+    "total duration equation": true,
+    "mean duration equation": true,
+    "success equation": true,
+    "headings": true,
+    "table and figure numbers": true,
+    "result table rows and reported percentages": true,
+    "project name retained 1": true,
+    "project name retained 2": true,
+    "project name retained 3": true,
+    "project name retained 4": true,
+    "no split spelling": true,
+    "protected quoted semicolon": true,
+    "baseline Tabel references resolve": true,
+    "baseline Gambar references resolve": true,
+    "baseline section references resolve": true,
+    "candidate Tabel references resolve": true,
+    "candidate Gambar references resolve": true,
+    "candidate section references resolve": true,
+    "appendix table identifiers preserved": true,
+    "bibliographic entries and order preserved": true,
+    "canonical baseline": true,
+    "canonical reference": true
+  },
+  "baseline_sha256": "3a09391b85f32f246690f66eed8ccbb096a34029555a954e7f3975e0c0c3587d",
+  "candidate_sha256": "428d49ed1a3353931630ccf35a22d2766cb2b744c8db81e7b6cee790c5b8d36a",
+  "diff_sha256": "43250de08a9dabbe3a96ce4e3cdf69271c4443bd8edda5aeda25bf9925be4c22",
+  "source_antarperiode_occurrences": 13,
+  "candidate_antarperiode_occurrences": 13,
+  "changed_line_blocks": [
+    {
+      "source_span": [
+        15,
+        15
+      ],
+      "candidate_span": [
+        15,
+        15
+      ]
+    },
+    {
+      "source_span": [
+        17,
+        17
+      ],
+      "candidate_span": [
+        17,
+        17
+      ]
+    },
+    {
+      "source_span": [
+        50,
+        60
+      ],
+      "candidate_span": [
+        50,
+        56
+      ]
+    },
+    {
+      "source_span": [
+        77,
+        77
+      ],
+      "candidate_span": [
+        73,
+        73
+      ]
+    },
+    {
+      "source_span": [
+        93,
+        93
+      ],
+      "candidate_span": [
+        89,
+        89
+      ]
+    },
+    {
+      "source_span": [
+        133,
+        133
+      ],
+      "candidate_span": [
+        129,
+        129
+      ]
+    },
+    {
+      "source_span": [
+        180,
+        180
+      ],
+      "candidate_span": [
+        176,
+        176
+      ]
+    },
+    {
+      "source_span": [
+        208,
+        208
+      ],
+      "candidate_span": [
+        204,
+        204
+      ]
+    },
+    {
+      "source_span": [
+        210,
+        210
+      ],
+      "candidate_span": [
+        206,
+        206
+      ]
+    },
+    {
+      "source_span": [
+        240,
+        240
+      ],
+      "candidate_span": [
+        236,
+        236
+      ]
+    },
+    {
+      "source_span": [
+        242,
+        242
+      ],
+      "candidate_span": [
+        238,
+        238
+      ]
+    },
+    {
+      "source_span": [
+        244,
+        244
+      ],
+      "candidate_span": [
+        240,
+        240
+      ]
+    },
+    {
+      "source_span": [
+        309,
+        309
+      ],
+      "candidate_span": [
+        305,
+        305
+      ]
+    },
+    {
+      "source_span": [
+        311,
+        311
+      ],
+      "candidate_span": [
+        307,
+        307
+      ]
+    },
+    {
+      "source_span": [
+        337,
+        337
+      ],
+      "candidate_span": [
+        333,
+        333
+      ]
+    },
+    {
+      "source_span": [
+        346,
+        346
+      ],
+      "candidate_span": [
+        342,
+        342
+      ]
+    },
+    {
+      "source_span": [
+        471,
+        471
+      ],
+      "candidate_span": [
+        467,
+        469
+      ]
+    },
+    {
+      "source_span": [
+        481,
+        481
+      ],
+      "candidate_span": [
+        479,
+        479
+      ]
+    },
+    {
+      "source_span": [
+        488,
+        488
+      ],
+      "candidate_span": [
+        486,
+        486
+      ]
+    },
+    {
+      "source_span": [
+        661,
+        661
+      ],
+      "candidate_span": [
+        659,
+        659
+      ]
+    },
+    {
+      "source_span": [
+        805,
+        805
+      ],
+      "candidate_span": [
+        803,
+        803
+      ]
+    },
+    {
+      "source_span": [
+        817,
+        817
+      ],
+      "candidate_span": [
+        815,
+        817
+      ]
+    },
+    {
+      "source_span": [
+        833,
+        833
+      ],
+      "candidate_span": [
+        833,
+        833
+      ]
+    },
+    {
+      "source_span": [
+        839,
+        839
+      ],
+      "candidate_span": [
+        839,
+        839
+      ]
+    }
+  ]
+}

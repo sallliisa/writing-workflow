@@ -1,0 +1,251 @@
+{
+  "C1-01": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 15,
+    "end": 15,
+    "finding_ids": [
+      "W001"
+    ]
+  },
+  "C1-02": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 17,
+    "end": 17,
+    "finding_ids": [
+      "W002"
+    ]
+  },
+  "C1-03": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 50,
+    "end": 60,
+    "finding_ids": [
+      "W003",
+      "S06"
+    ]
+  },
+  "C1-04": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 77,
+    "end": 77,
+    "finding_ids": [
+      "W004"
+    ]
+  },
+  "C1-05": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 91,
+    "end": 91,
+    "finding_ids": [
+      "W005"
+    ]
+  },
+  "C1-06": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 93,
+    "end": 93,
+    "finding_ids": [
+      "S08"
+    ]
+  },
+  "C1-07": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 133,
+    "end": 133,
+    "finding_ids": [
+      "W006"
+    ]
+  },
+  "C1-08": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 145,
+    "end": 145,
+    "finding_ids": [
+      "W007"
+    ]
+  },
+  "C1-09": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 176,
+    "end": 176,
+    "finding_ids": [
+      "W008"
+    ]
+  },
+  "C1-10": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 180,
+    "end": 180,
+    "finding_ids": [
+      "W008"
+    ]
+  },
+  "C1-11": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 208,
+    "end": 208,
+    "finding_ids": [
+      "W009"
+    ]
+  },
+  "C1-12": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 210,
+    "end": 210,
+    "finding_ids": [
+      "W010",
+      "S07"
+    ]
+  },
+  "C1-13": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 240,
+    "end": 244,
+    "finding_ids": [
+      "W011"
+    ]
+  },
+  "C1-14": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 309,
+    "end": 309,
+    "finding_ids": [
+      "W013",
+      "S02"
+    ]
+  },
+  "C1-15": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 311,
+    "end": 311,
+    "finding_ids": [
+      "W013",
+      "S02"
+    ]
+  },
+  "C1-16": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 337,
+    "end": 337,
+    "finding_ids": [
+      "W014"
+    ]
+  },
+  "C1-17": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 346,
+    "end": 346,
+    "finding_ids": [
+      "W015"
+    ]
+  },
+  "C1-18": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 364,
+    "end": 364,
+    "finding_ids": [
+      "W016"
+    ]
+  },
+  "C1-19": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 471,
+    "end": 471,
+    "finding_ids": [
+      "W017"
+    ]
+  },
+  "C1-20": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 481,
+    "end": 481,
+    "finding_ids": [
+      "W018"
+    ]
+  },
+  "C1-21": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 488,
+    "end": 488,
+    "finding_ids": [
+      "W018"
+    ]
+  },
+  "C1-22": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 661,
+    "end": 661,
+    "finding_ids": [
+      "W019"
+    ]
+  },
+  "C1-23": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 805,
+    "end": 807,
+    "finding_ids": [
+      "W020"
+    ]
+  },
+  "C1-24": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 817,
+    "end": 817,
+    "finding_ids": [
+      "W021",
+      "S03"
+    ]
+  },
+  "C1-25": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 819,
+    "end": 819,
+    "finding_ids": [
+      "W022"
+    ]
+  },
+  "C1-26": {
+    "previous_label": "B",
+    "proposed_label": "A",
+    "start": 833,
+    "end": 833,
+    "finding_ids": [
+      "W023",
+      "S03"
+    ]
+  },
+  "C1-27": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 839,
+    "end": 839,
+    "finding_ids": [
+      "W024"
+    ]
+  }
+}

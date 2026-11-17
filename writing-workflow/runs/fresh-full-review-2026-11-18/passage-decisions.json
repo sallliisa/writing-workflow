@@ -1,0 +1,4830 @@
+[
+  {
+    "id": "P001",
+    "start": 1,
+    "end": 1,
+    "node": "T-0001",
+    "structural_ids": [
+      "T-0001"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul BAB I — PENDAHULUAN menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P002",
+    "start": 3,
+    "end": 3,
+    "node": "T-0001",
+    "structural_ids": [
+      "T-0001"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Peta isi memperkenalkan susunan pendahuluan."
+  },
+  {
+    "id": "P003",
+    "start": 5,
+    "end": 5,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 1.1. Latar Belakang menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P004",
+    "start": 7,
+    "end": 7,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Laporan BI dan self-service memperkenalkan pengguna yang kemudian mengajukan pertanyaan."
+  },
+  {
+    "id": "P005",
+    "start": 9,
+    "end": 9,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Kesulitan memahami istilah bisnis memberi alasan untuk membahas pertanyaan bahasa alami."
+  },
+  {
+    "id": "P006",
+    "start": 11,
+    "end": 11,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Urutan memilih tool dan memeriksa hasil membedakan agen dari antarmuka pertanyaan biasa."
+  },
+  {
+    "id": "P007",
+    "start": 13,
+    "end": 13,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Dua pembagi LHR menunjukkan konsekuensi praktis definisi bisnis pada angka yang dihasilkan."
+  },
+  {
+    "id": "P008",
+    "start": 15,
+    "end": 15,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W001"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "A generic accuracy gain conceals that the cited study scored a specific Analytical Pass Rate on 99 retail questions. The opening can be mistaken for the effect in the current study."
+  },
+  {
+    "id": "P009",
+    "start": 17,
+    "end": 17,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W002"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "How agents use information sounds like the primary dependent variable, although PASS depends only on the final answer."
+  },
+  {
+    "id": "P010",
+    "start": 19,
+    "end": 19,
+    "node": "T-0002",
+    "structural_ids": [
+      "T-0002"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Model, kondisi dokumen dan cara menilai jawaban mengantar pembaca ke rumusan masalah."
+  },
+  {
+    "id": "P011",
+    "start": 21,
+    "end": 21,
+    "node": "T-0003",
+    "structural_ids": [
+      "T-0003"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 1.2. Rumusan Masalah menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P012",
+    "start": 23,
+    "end": 23,
+    "node": "T-0003",
+    "structural_ids": [
+      "T-0003"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Satu pertanyaan dalam prosa menyebut kedua model, ketersediaan konteks dan kesesuaian per kasus."
+  },
+  {
+    "id": "P013",
+    "start": 25,
+    "end": 25,
+    "node": "T-0004",
+    "structural_ids": [
+      "T-0004"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 1.3. Tujuan Penelitian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P014",
+    "start": 27,
+    "end": 27,
+    "node": "T-0004",
+    "structural_ids": [
+      "T-0004"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Ukuran keberhasilan serta rincian kasus dan pengulangan langsung menjawab tujuan tunggal."
+  },
+  {
+    "id": "P015",
+    "start": 29,
+    "end": 29,
+    "node": "T-0005",
+    "structural_ids": [
+      "T-0005"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 1.4. Manfaat Penelitian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P016",
+    "start": 31,
+    "end": 31,
+    "node": "T-0005",
+    "structural_ids": [
+      "T-0005"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Pengantar membedakan dua penerima manfaat sebelum perincian."
+  },
+  {
+    "id": "P017",
+    "start": 33,
+    "end": 34,
+    "node": "T-0005",
+    "structural_ids": [
+      "T-U033",
+      "T-U034"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Dua butir menjelaskan kontribusi empiris dan contoh evaluasi untuk kebutuhan sejenis."
+  },
+  {
+    "id": "P018",
+    "start": 36,
+    "end": 36,
+    "node": "T-0006",
+    "structural_ids": [
+      "T-0006"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 1.5. Batasan Penelitian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P019",
+    "start": 38,
+    "end": 38,
+    "node": "T-0006",
+    "structural_ids": [
+      "T-0006"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Pengantar singkat menyediakan tempat bagi batasan dengan objek yang berbeda."
+  },
+  {
+    "id": "P020",
+    "start": 40,
+    "end": 44,
+    "node": "T-0006",
+    "structural_ids": [
+      "T-U040",
+      "T-U041",
+      "T-U042",
+      "T-U043",
+      "T-U044"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Batasan membedakan 237 baris, akses data bersama, dokumen yang dibedakan dan 180 jawaban."
+  },
+  {
+    "id": "P021",
+    "start": 46,
+    "end": 46,
+    "node": "T-0007",
+    "structural_ids": [
+      "T-0007"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 1.6. Sistematika Penulisan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P022",
+    "start": 48,
+    "end": 48,
+    "node": "T-0007",
+    "structural_ids": [
+      "T-0007"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Jumlah bab memberi konteks untuk tabel sistematika."
+  },
+  {
+    "id": "P023",
+    "start": 50,
+    "end": 60,
+    "node": "T-0007",
+    "structural_ids": [
+      "T-0007"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W003"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The first chapter is encoded as the header of the table. Each remaining chapter title occupies a data row, and each description is detached in a row with an empty first column."
+  },
+  {
+    "id": "P024",
+    "start": 62,
+    "end": 62,
+    "node": "T-0008",
+    "structural_ids": [
+      "T-0008"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul BAB II — TINJAUAN PUSTAKA menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P025",
+    "start": 64,
+    "end": 64,
+    "node": "T-0008",
+    "structural_ids": [
+      "T-0008"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Orientasi menempatkan konsep evaluasi sesudah pembahasan agen dan dokumen."
+  },
+  {
+    "id": "P026",
+    "start": 66,
+    "end": 66,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-0009"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.1. State-of-the-art menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P027",
+    "start": 68,
+    "end": 68,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-0009"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tiga bidang kajian memberi cakupan yang dapat dicocokkan dengan tabel."
+  },
+  {
+    "id": "P028",
+    "start": 70,
+    "end": 70,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U070"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 2.1 Perbandingan Penelitian Terkait mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P029",
+    "start": 72,
+    "end": 81,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U070"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W004"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Both cells tell the reader that open-ended insights receive model-based ratings. The last cell does not explain how that differs from scoring a structured answer with a fixed expected result."
+  },
+  {
+    "id": "P030",
+    "start": 83,
+    "end": 83,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U083"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Mengaitkan kesulitan pemahaman pertanyaan dengan kebutuhan agen memilih sumber dan tindakan."
+  },
+  {
+    "id": "P031",
+    "start": 85,
+    "end": 85,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U083"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "AgentBench memberi contoh kendala, Data Interpreter memberi contoh perencanaan dan pemeriksaan."
+  },
+  {
+    "id": "P032",
+    "start": 87,
+    "end": 87,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U083"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tiga benchmark mewakili bentuk tugas serta keluaran bisnis yang berlainan."
+  },
+  {
+    "id": "P033",
+    "start": 89,
+    "end": 89,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U083"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Kegiatan pembayaran dan identitas penyedia menjelaskan latar pertanyaan DABstep."
+  },
+  {
+    "id": "P034",
+    "start": 91,
+    "end": 91,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U083"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W005"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "“berdasarkan hasil eksekusi dan Claude Sonnet 4.6” places a result and its evaluator in parallel, hiding their respective roles."
+  },
+  {
+    "id": "P035",
+    "start": 93,
+    "end": 93,
+    "node": "T-0009",
+    "structural_ids": [
+      "T-U083"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "changed",
+    "review_reason": "Bentuk keluaran JSON dan akses melalui tool menempatkan studi relatif terhadap dua studi terdekat."
+  },
+  {
+    "id": "P036",
+    "start": 95,
+    "end": 95,
+    "node": "T-0010",
+    "structural_ids": [
+      "T-0010"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.2. Business Intelligence menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P037",
+    "start": 97,
+    "end": 97,
+    "node": "T-0010",
+    "structural_ids": [
+      "T-0010"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Definisi BI diikuti fungsi komponen dan sumber pengertian."
+  },
+  {
+    "id": "P038",
+    "start": 99,
+    "end": 99,
+    "node": "T-0010",
+    "structural_ids": [
+      "T-0010"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Measure dan dimension dijelaskan melalui nilai dan pengelompokan yang dipahami pengguna."
+  },
+  {
+    "id": "P039",
+    "start": 101,
+    "end": 101,
+    "node": "T-0011",
+    "structural_ids": [
+      "T-0011"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.3. Agentic Business Intelligence menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P040",
+    "start": 103,
+    "end": 103,
+    "node": "T-0011",
+    "structural_ids": [
+      "T-0011"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Urutan pertanyaan hingga jawaban mendefinisikan penggunaan istilah Agentic BI secara lokal."
+  },
+  {
+    "id": "P041",
+    "start": 105,
+    "end": 105,
+    "node": "T-0011",
+    "structural_ids": [
+      "T-0011"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh tindakan penanganan menjelaskan kebutuhan menghubungkan tabel terpisah."
+  },
+  {
+    "id": "P042",
+    "start": 107,
+    "end": 107,
+    "node": "T-0011",
+    "structural_ids": [
+      "T-0011"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Mengaitkan penghitungan seluruh data dan per kelompok dengan tugas dua benchmark."
+  },
+  {
+    "id": "P043",
+    "start": 109,
+    "end": 109,
+    "node": "T-0011",
+    "structural_ids": [
+      "T-0011"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan akibat tepat pada batas ketika operator inklusif atau eksklusif."
+  },
+  {
+    "id": "P044",
+    "start": 111,
+    "end": 111,
+    "node": "T-0012",
+    "structural_ids": [
+      "T-0012"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.4. Agen Berbasis Kecerdasan Buatan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P045",
+    "start": 113,
+    "end": 113,
+    "node": "T-0012",
+    "structural_ids": [
+      "T-0012"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Model memilih tindakan dan tool menjalankannya, memberi dasar untuk pembahasan loop."
+  },
+  {
+    "id": "P046",
+    "start": 115,
+    "end": 115,
+    "node": "T-0012",
+    "structural_ids": [
+      "T-0012"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh memeriksa skema lalu membaca data menjelaskan alasan tool call berikutnya."
+  },
+  {
+    "id": "P047",
+    "start": 117,
+    "end": 117,
+    "node": "T-0012",
+    "structural_ids": [
+      "T-0012"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menunjukkan bagaimana salah memilih data memengaruhi perhitungan berikutnya."
+  },
+  {
+    "id": "P048",
+    "start": 119,
+    "end": 119,
+    "node": "T-0013",
+    "structural_ids": [
+      "T-0013"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.4.1. Tool dan Model Context Protocol menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P049",
+    "start": 121,
+    "end": 121,
+    "node": "T-0013",
+    "structural_ids": [
+      "T-0013"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Fungsi, input dan keluaran menjelaskan bagaimana agen membedakan tool."
+  },
+  {
+    "id": "P050",
+    "start": 123,
+    "end": 123,
+    "node": "T-0013",
+    "structural_ids": [
+      "T-0013"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Nama fungsi dokumen dan eksekusi Python mencontohkan pembagian tugas antar-tool."
+  },
+  {
+    "id": "P051",
+    "start": 125,
+    "end": 125,
+    "node": "T-0013",
+    "structural_ids": [
+      "T-0013"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Peran host, client dan server dibedakan, termasuk jumlah koneksi."
+  },
+  {
+    "id": "P052",
+    "start": 127,
+    "end": 127,
+    "node": "T-0014",
+    "structural_ids": [
+      "T-0014"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.5. Analisis Data melalui Bahasa Alami menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P053",
+    "start": 129,
+    "end": 129,
+    "node": "T-0014",
+    "structural_ids": [
+      "T-0014"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan kepanjangan NLIDB dan NLIV serta tujuan tiap antarmuka."
+  },
+  {
+    "id": "P054",
+    "start": 131,
+    "end": 131,
+    "node": "T-0014",
+    "structural_ids": [
+      "T-0014"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh bulanan memperlihatkan tindakan pengelompokan, penjumlahan dan penyaringan."
+  },
+  {
+    "id": "P055",
+    "start": 133,
+    "end": 133,
+    "node": "T-0014",
+    "structural_ids": [
+      "T-0014"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W006"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The citation immediately follows examples of a completion rule and a daily average. Readers cannot distinguish the published general claim from local illustrations introduced in Chapters I and III."
+  },
+  {
+    "id": "P056",
+    "start": 135,
+    "end": 135,
+    "node": "T-0015",
+    "structural_ids": [
+      "T-0015"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.6. Prompt dan Konteks Bisnis menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P057",
+    "start": 137,
+    "end": 137,
+    "node": "T-0015",
+    "structural_ids": [
+      "T-0015"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memisahkan tugas dan informasi tambahan dalam prompt dengan contoh penggunaan GPT-3."
+  },
+  {
+    "id": "P058",
+    "start": 139,
+    "end": 139,
+    "node": "T-0015",
+    "structural_ids": [
+      "T-0015"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi contoh fungsi dokumen pada tugas bertahap sebelum menjelaskan kondisi studi."
+  },
+  {
+    "id": "P059",
+    "start": 141,
+    "end": 141,
+    "node": "T-0016",
+    "structural_ids": [
+      "T-0016"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.6.1. Struktur dan Isi Konteks Bisnis menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P060",
+    "start": 143,
+    "end": 143,
+    "node": "T-0016",
+    "structural_ids": [
+      "T-0016"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menghubungkan istilah, satuan dan relasi dengan definisi konsep dalam ontologi."
+  },
+  {
+    "id": "P061",
+    "start": 145,
+    "end": 145,
+    "node": "T-0016",
+    "structural_ids": [
+      "T-0016"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W007"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "The authors’ use of questions to scope an ontology is followed by a list of document contents. The reader cannot tell whether the same technique was used to construct the local documents."
+  },
+  {
+    "id": "P062",
+    "start": 147,
+    "end": 147,
+    "node": "T-0016",
+    "structural_ids": [
+      "T-0016"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Dua cara menghitung rata-rata harian menunjukkan isi aturan yang perlu didokumentasikan."
+  },
+  {
+    "id": "P063",
+    "start": 149,
+    "end": 149,
+    "node": "T-0017",
+    "structural_ids": [
+      "T-0017"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.6.2. Skills menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P064",
+    "start": 151,
+    "end": 151,
+    "node": "T-0017",
+    "structural_ids": [
+      "T-0017"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "File instruksi utama dan referensi tambahan diberi peran yang berbeda."
+  },
+  {
+    "id": "P065",
+    "start": 153,
+    "end": 153,
+    "node": "T-0017",
+    "structural_ids": [
+      "T-0017"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan bahwa pertanyaan lintas topik dapat memerlukan beberapa referensi."
+  },
+  {
+    "id": "P066",
+    "start": 155,
+    "end": 155,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.7. Large Language Models menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P067",
+    "start": 157,
+    "end": 157,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Definisi LLM disertai perannya dalam agen dan atribusi yang sesuai."
+  },
+  {
+    "id": "P068",
+    "start": 159,
+    "end": 159,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan isi konteks aktual dan batas maksimum token."
+  },
+  {
+    "id": "P069",
+    "start": 161,
+    "end": 161,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Temuan tentang posisi informasi dan distraksi disajikan dengan tugas asalnya."
+  },
+  {
+    "id": "P070",
+    "start": 163,
+    "end": 163,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Mengantar pembaca ke tabel spesifikasi bersama."
+  },
+  {
+    "id": "P071",
+    "start": 165,
+    "end": 165,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 2.2 Karakteristik Model yang Digunakan mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P072",
+    "start": 167,
+    "end": 170,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 2.2 Karakteristik Model yang Digunakan menyediakan rincian menurut kolom Aspek, Muse Spark 1.3, DeepSeek v4 Flash."
+  },
+  {
+    "id": "P073",
+    "start": 172,
+    "end": 172,
+    "node": "T-0018",
+    "structural_ids": [
+      "T-0018"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Dua sumber disandingkan dengan tabel pengembang dan kapasitas."
+  },
+  {
+    "id": "P074",
+    "start": 174,
+    "end": 174,
+    "node": "T-0019",
+    "structural_ids": [
+      "T-0019"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.7.1. Muse Spark 1.3 menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P075",
+    "start": 176,
+    "end": 176,
+    "node": "T-0019",
+    "structural_ids": [
+      "T-0019"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W008"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "The same token limit appears again in both profiles immediately below the comparative table. It provides no additional model-specific distinction."
+  },
+  {
+    "id": "P076",
+    "start": 178,
+    "end": 178,
+    "node": "T-0020",
+    "structural_ids": [
+      "T-0020"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.7.2. DeepSeek v4 Flash menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P077",
+    "start": 180,
+    "end": 180,
+    "node": "T-0020",
+    "structural_ids": [
+      "T-0020"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W008"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The same token limit appears again in both profiles immediately below the comparative table. It provides no additional model-specific distinction."
+  },
+  {
+    "id": "P078",
+    "start": 182,
+    "end": 182,
+    "node": "T-0021",
+    "structural_ids": [
+      "T-0021"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.8. Evaluasi Hasil Analisis menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P079",
+    "start": 184,
+    "end": 184,
+    "node": "T-0021",
+    "structural_ids": [
+      "T-0021"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memperkenalkan perbandingan jawaban pasti dan ketiga ukuran studi."
+  },
+  {
+    "id": "P080",
+    "start": 186,
+    "end": 186,
+    "node": "T-0022",
+    "structural_ids": [
+      "T-0022"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.8.1. Kesesuaian Struktur dan Nilai Jawaban menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P081",
+    "start": 188,
+    "end": 188,
+    "node": "T-0022",
+    "structural_ids": [
+      "T-0022"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan struktur JSON dan nilai serta memberi contoh pemeriksaan prasyarat."
+  },
+  {
+    "id": "P082",
+    "start": 190,
+    "end": 190,
+    "node": "T-0022",
+    "structural_ids": [
+      "T-0022"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menetapkan bahwa satu ketidaksesuaian cukup untuk FAIL."
+  },
+  {
+    "id": "P083",
+    "start": 192,
+    "end": 192,
+    "node": "T-0023",
+    "structural_ids": [
+      "T-0023"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.8.2. Tingkat Keberhasilan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P084",
+    "start": 194,
+    "end": 194,
+    "node": "T-0023",
+    "structural_ids": [
+      "T-0023"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Persentase menjelaskan unit jawaban dan mencakup semua pengulangan."
+  },
+  {
+    "id": "P085",
+    "start": 196,
+    "end": 196,
+    "node": "T-0024",
+    "structural_ids": [
+      "T-0024"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 2.8.3. Konsistensi Hasil Pengulangan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P086",
+    "start": 198,
+    "end": 198,
+    "node": "T-0024",
+    "structural_ids": [
+      "T-0024"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi landasan penggunaan beberapa pengulangan tanpa menyamakan metrik studi."
+  },
+  {
+    "id": "P087",
+    "start": 200,
+    "end": 200,
+    "node": "T-0024",
+    "structural_ids": [
+      "T-0024"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Arti 3/3 dan 0/3 jelas untuk satu kasus dan konfigurasi, berbeda dari persentase gabungan."
+  },
+  {
+    "id": "P088",
+    "start": 202,
+    "end": 202,
+    "node": "T-0025",
+    "structural_ids": [
+      "T-0025"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul BAB III — METODOLOGI PENELITIAN menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P089",
+    "start": 204,
+    "end": 204,
+    "node": "T-0025",
+    "structural_ids": [
+      "T-0025"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Urutan persiapan hingga evaluasi memberi orientasi metode."
+  },
+  {
+    "id": "P090",
+    "start": 206,
+    "end": 206,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-0026"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.1. Gambaran Umum Penelitian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P091",
+    "start": 208,
+    "end": 208,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-0026"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W009"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The citation appears to source the composition of the local cases as well as the benchmark comparison principle."
+  },
+  {
+    "id": "P092",
+    "start": 210,
+    "end": 210,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-0026"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W010"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The list reads as if both models used the reference answers. P122 explicitly says the agent could not access them."
+  },
+  {
+    "id": "P093",
+    "start": 212,
+    "end": 212,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-0026"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memisahkan penyiapan jawaban acuan dan dua jenis materi yang tersedia bagi agen."
+  },
+  {
+    "id": "P094",
+    "start": 214,
+    "end": 214,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-0026"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Alur dari pembacaan data hingga pemeriksaan kegagalan mengantar ke gambar."
+  },
+  {
+    "id": "P095",
+    "start": 216,
+    "end": 216,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-0026"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Gambar 3.1 Alur Tahapan Penelitian mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P096",
+    "start": 218,
+    "end": 218,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-U218"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh T1-C2 memperjelas posisi nomor tugas dan nomor kasus sebelum daftar kasus."
+  },
+  {
+    "id": "P097",
+    "start": 220,
+    "end": 220,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-U218"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Perkalian 15 kasus dengan tiga run menjelaskan 45 per kondisi dan 180 keseluruhan."
+  },
+  {
+    "id": "P098",
+    "start": 222,
+    "end": 222,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-U218"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.1 Rancangan Pengujian Kedua Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P099",
+    "start": 224,
+    "end": 230,
+    "node": "T-0026",
+    "structural_ids": [
+      "T-U218"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 3.1 Rancangan Pengujian Kedua Model menyediakan rincian menurut kolom Model, Konteks bisnis, Kasus, Pengulangan, Jumlah jawaban."
+  },
+  {
+    "id": "P100",
+    "start": 232,
+    "end": 232,
+    "node": "T-0027",
+    "structural_ids": [
+      "T-0027"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.2. Data Penelitian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P101",
+    "start": 234,
+    "end": 234,
+    "node": "T-0027",
+    "structural_ids": [
+      "T-0027"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan data untuk agen dari jawaban untuk penilai."
+  },
+  {
+    "id": "P102",
+    "start": 236,
+    "end": 236,
+    "node": "T-0028",
+    "structural_ids": [
+      "T-0028"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.2.1. Sumber dan Cakupan Data menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P103",
+    "start": 238,
+    "end": 238,
+    "node": "T-0028",
+    "structural_ids": [
+      "T-0028"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menetapkan asal skema dan sifat sintetis data tanpa membawa riwayat anonim yang belum terkonfirmasi."
+  },
+  {
+    "id": "P104",
+    "start": 240,
+    "end": 240,
+    "node": "T-0028",
+    "structural_ids": [
+      "T-0028"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W011"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Five source domains are called kelompok analisis here, but the same term later names six result groups. Readers cannot map the two directly."
+  },
+  {
+    "id": "P105",
+    "start": 242,
+    "end": 242,
+    "node": "T-0028",
+    "structural_ids": [
+      "T-0028"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W011"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Five source domains are called kelompok analisis here, but the same term later names six result groups. Readers cannot map the two directly."
+  },
+  {
+    "id": "P106",
+    "start": 244,
+    "end": 250,
+    "node": "T-0028",
+    "structural_ids": [
+      "T-0028"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W011"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Five source domains are called kelompok analisis here, but the same term later names six result groups. Readers cannot map the two directly."
+  },
+  {
+    "id": "P107",
+    "start": 252,
+    "end": 252,
+    "node": "T-0028",
+    "structural_ids": [
+      "T-0028"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Pembaca dapat membedakan data yang dapat dibaca dan data yang diminta prompt."
+  },
+  {
+    "id": "P108",
+    "start": 254,
+    "end": 254,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-0029"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.2.2. Pemilihan Kasus Uji menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P109",
+    "start": 256,
+    "end": 256,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-0029"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi dasar pemilihan kasus dan rujukan kemampuan di §2.3."
+  },
+  {
+    "id": "P110",
+    "start": 258,
+    "end": 258,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-0029"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memetakan kebutuhan agregasi, relasi tabel dan konfigurasi ke contoh tugas."
+  },
+  {
+    "id": "P111",
+    "start": 260,
+    "end": 260,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan bobot data durasi non-null dan perbedaan jumlah data per laporan."
+  },
+  {
+    "id": "P112",
+    "start": 262,
+    "end": 262,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Hari tanpa laporan dan panjang bulan membedakan dua tugas LHR."
+  },
+  {
+    "id": "P113",
+    "start": 264,
+    "end": 264,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Aturan minimal satu tindakan dan seluruh stage 100 jelas. Bagian kasus dipuji pada komentar 2."
+  },
+  {
+    "id": "P114",
+    "start": 266,
+    "end": 266,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh empat insiden konkret mempertahankan kontras jumlah tindakan dan nilai null yang dipuji."
+  },
+  {
+    "id": "P115",
+    "start": 268,
+    "end": 268,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Kemunculan penyebab berulang menjelaskan satuan hitungan. Pertahankan contoh yang dipuji."
+  },
+  {
+    "id": "P116",
+    "start": 270,
+    "end": 270,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Prioritas kosong dan kategori kerusakan mempunyai peran berbeda dalam hitungan. Komentar 2 memuji uraian kasus."
+  },
+  {
+    "id": "P117",
+    "start": 272,
+    "end": 272,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh nilai tepat dan sedikit di atas batas menjelaskan mengapa urutan pembulatan penting."
+  },
+  {
+    "id": "P118",
+    "start": 274,
+    "end": 274,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U260"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan penentuan status dari seluruh laporan dengan perbandingan status dua periode."
+  },
+  {
+    "id": "P119",
+    "start": 276,
+    "end": 276,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U276"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.3 Daftar Lima Belas Kasus Uji mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P120",
+    "start": 278,
+    "end": 294,
+    "node": "T-0029",
+    "structural_ids": [
+      "T-U276"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W012",
+      "W013"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "The inventory says the status worsens. The sole worked indicator stays failed in both periods while its failed evaluations double. A different indicator could account for the inventory, but it is not named. Neither the reference-rule table nor the selection table specifies the true-only accident filter. The volume rule gives the calendar denominator but omits how monthly zero-volume classes enter the expected result. Both omissions matter to observed failures."
+  },
+  {
+    "id": "P121",
+    "start": 296,
+    "end": 296,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-0030"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.2.3. Penyusunan Expected Result menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P122",
+    "start": 298,
+    "end": 298,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-0030"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjaga perbedaan data yang bisa diakses agen dan expected result tetap untuk evaluasi."
+  },
+  {
+    "id": "P123",
+    "start": 300,
+    "end": 300,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U300"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Kalimat mengantar pembaca ke ringkasan aturan dan seleksi laporan."
+  },
+  {
+    "id": "P124",
+    "start": 302,
+    "end": 302,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U300"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menetapkan inklusi tanggal batas, ruas, gerbang, shift dan identitas gardu."
+  },
+  {
+    "id": "P125",
+    "start": 304,
+    "end": 304,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U300"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P126",
+    "start": 306,
+    "end": 313,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U300"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W013"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Neither the reference-rule table nor the selection table specifies the true-only accident filter. The volume rule gives the calendar denominator but omits how monthly zero-volume classes enter the expected result. Both omissions matter to observed failures."
+  },
+  {
+    "id": "P127",
+    "start": 315,
+    "end": 315,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U315"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh menghubungkan periode pertanyaan, tanggal laporan dan tujuh durasi tanpa memerlukan ID teknis terdahulu."
+  },
+  {
+    "id": "P128",
+    "start": 317,
+    "end": 317,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U315"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2 mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P129",
+    "start": 319,
+    "end": 323,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U315"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2 menyediakan rincian menurut kolom Jenis data, Jumlah data, Total durasi (detik)."
+  },
+  {
+    "id": "P130",
+    "start": 325,
+    "end": 325,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U325"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memperkenalkan simbol D yang sungguh digunakan pada kedua persamaan."
+  },
+  {
+    "id": "P131",
+    "start": 327,
+    "end": 329,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U325"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Persamaan total mempertahankan enam durasi sepuluh detik ditambah dua detik."
+  },
+  {
+    "id": "P132",
+    "start": 331,
+    "end": 331,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U331"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi alasan n bernilai tujuh sebelum pembagian."
+  },
+  {
+    "id": "P133",
+    "start": 333,
+    "end": 335,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U331"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Rumus membagi 62 detik dengan tujuh pengamatan untuk menghasilkan 8,86 detik."
+  },
+  {
+    "id": "P134",
+    "start": 337,
+    "end": 337,
+    "node": "T-0030",
+    "structural_ids": [
+      "T-U331"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W014"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The sentence can place identifiers, period and unit inside the numeric duration attribute."
+  },
+  {
+    "id": "P135",
+    "start": 339,
+    "end": 339,
+    "node": "T-0031",
+    "structural_ids": [
+      "T-0031"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.3. Penyusunan Prompt dan Konteks Bisnis menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P136",
+    "start": 341,
+    "end": 341,
+    "node": "T-0031",
+    "structural_ids": [
+      "T-0031"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memperkenalkan instruksi sistem bersama dan fungsi teks yang dikutip."
+  },
+  {
+    "id": "P137",
+    "start": 343,
+    "end": 344,
+    "node": "T-0031",
+    "structural_ids": [
+      "T-0031"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Instruksi sistem verbatim ditempatkan dalam tabel satu sel sebagaimana diminta komentar 23."
+  },
+  {
+    "id": "P138",
+    "start": 346,
+    "end": 346,
+    "node": "T-0031",
+    "structural_ids": [
+      "T-0031"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W015"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Immediately after a verbatim system prompt the subject “Prompt” can still mean that system instruction. The next subsection again introduces the question and answer requirements of a case prompt."
+  },
+  {
+    "id": "P139",
+    "start": 348,
+    "end": 348,
+    "node": "T-0032",
+    "structural_ids": [
+      "T-0032"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.3.1. Pertanyaan dan Format Jawaban menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P140",
+    "start": 350,
+    "end": 350,
+    "node": "T-0032",
+    "structural_ids": [
+      "T-0032"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Spesifikasi keluaran dipisahkan dari petunjuk perhitungan yang tidak diberikan."
+  },
+  {
+    "id": "P141",
+    "start": 352,
+    "end": 352,
+    "node": "T-0032",
+    "structural_ids": [
+      "T-U352"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menandai T2-C1 sebagai contoh dan menunjukkan aturan hari yang harus ditemukan."
+  },
+  {
+    "id": "P142",
+    "start": 354,
+    "end": 354,
+    "node": "T-0032",
+    "structural_ids": [
+      "T-U352"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.6 *Prompt* T2-C1 mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P143",
+    "start": 356,
+    "end": 360,
+    "node": "T-0032",
+    "structural_ids": [
+      "T-U352"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Pertanyaan, instruksi dan JSON Schema adalah artefak eksperimen. Pertahankan semikolon dalam kutipan."
+  },
+  {
+    "id": "P144",
+    "start": 362,
+    "end": 362,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-0033"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.3.2. Konteks Bisnis menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P145",
+    "start": 364,
+    "end": 364,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-0033"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W016"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "The anonymous “pemahaman ... yang didapat” gives no usable attribution for the author’s account of how the materials originated. Similar wording was explicitly criticized."
+  },
+  {
+    "id": "P146",
+    "start": 366,
+    "end": 366,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-0033"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan file utama dan enam referensi serta menunjuk tabel fungsi."
+  },
+  {
+    "id": "P147",
+    "start": 368,
+    "end": 368,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-U368"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.7 Susunan dan Fungsi Dokumen Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P148",
+    "start": 370,
+    "end": 378,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-U368"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 3.7 Susunan dan Fungsi Dokumen Konteks Bisnis menyediakan rincian menurut kolom Dokumen, Isi utama, Fungsi bagi agen."
+  },
+  {
+    "id": "P149",
+    "start": 380,
+    "end": 380,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-U380"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menempatkan petunjuk lintas topik persis sebelum kutipannya."
+  },
+  {
+    "id": "P150",
+    "start": 382,
+    "end": 383,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-U380"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Instruksi lintas domain verbatim sudah dalam tabel satu sel, sesuai komentar 22."
+  },
+  {
+    "id": "P151",
+    "start": 385,
+    "end": 385,
+    "node": "T-0033",
+    "structural_ids": [
+      "T-U380"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Dua file yang relevan memperlihatkan cara memakai instruksi lintas topik."
+  },
+  {
+    "id": "P152",
+    "start": 387,
+    "end": 387,
+    "node": "T-0034",
+    "structural_ids": [
+      "T-0034"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.4. Generasi Jawaban oleh LLM menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P153",
+    "start": 389,
+    "end": 389,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.4.1. Model dan Lingkungan Pengujian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P154",
+    "start": 391,
+    "end": 391,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan model yang dijalankan dan tempat pengaturan akses dokumen."
+  },
+  {
+    "id": "P155",
+    "start": 393,
+    "end": 393,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Ketentuan sampling dibedakan dari parameter yang dicatat di tabel."
+  },
+  {
+    "id": "P156",
+    "start": 395,
+    "end": 395,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.8 Pengaturan Model pada Pengujian mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P157",
+    "start": 397,
+    "end": 403,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 3.8 Pengaturan Model pada Pengujian menyediakan rincian menurut kolom Pengaturan pengujian, Muse Spark 1.3, DeepSeek v4 Flash."
+  },
+  {
+    "id": "P158",
+    "start": 405,
+    "end": 405,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi sumber konfigurasi dan dokumentasi dengan penanda tahun berbeda."
+  },
+  {
+    "id": "P159",
+    "start": 407,
+    "end": 407,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Pembaca mengetahui bahwa gambar mencakup tiap model, kondisi dan tiga pengulangan."
+  },
+  {
+    "id": "P160",
+    "start": 409,
+    "end": 409,
+    "node": "T-0035",
+    "structural_ids": [
+      "T-0035"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Gambar 3.2 Alur Pelaksanaan Pengujian mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P161",
+    "start": 411,
+    "end": 411,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.4.2. Akses Data menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P162",
+    "start": 413,
+    "end": 413,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan pemilihan tool oleh agen dari permintaan yang dijalankan server."
+  },
+  {
+    "id": "P163",
+    "start": 415,
+    "end": 415,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Nama tabel dan skema yang dikembalikan memberi alasan menggunakan dua fungsi berbeda."
+  },
+  {
+    "id": "P164",
+    "start": 417,
+    "end": 417,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Satu halaman dan cursor menjelaskan kapan agen harus membaca lagi."
+  },
+  {
+    "id": "P165",
+    "start": 419,
+    "end": 419,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.9 Tool Akses Data sistem operasional mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P166",
+    "start": 421,
+    "end": 425,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 3.9 Tool Akses Data sistem operasional menyediakan rincian menurut kolom *Tool*, Input utama, Kegunaan."
+  },
+  {
+    "id": "P167",
+    "start": 427,
+    "end": 427,
+    "node": "T-0036",
+    "structural_ids": [
+      "T-0036"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menunjukkan lokasi parameter dan pagination di luar ringkasan."
+  },
+  {
+    "id": "P168",
+    "start": 429,
+    "end": 429,
+    "node": "T-0037",
+    "structural_ids": [
+      "T-0037"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.4.3. Prosedur Generasi Jawaban menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P169",
+    "start": 431,
+    "end": 431,
+    "node": "T-0037",
+    "structural_ids": [
+      "T-0037"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi dua preseden tiga pengulangan tanpa mengklaim itu ukuran sampel yang optimal."
+  },
+  {
+    "id": "P170",
+    "start": 433,
+    "end": 433,
+    "node": "T-0037",
+    "structural_ids": [
+      "T-0037"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Percakapan baru dan expected result yang sama menjelaskan satu pengulangan."
+  },
+  {
+    "id": "P171",
+    "start": 435,
+    "end": 435,
+    "node": "T-0038",
+    "structural_ids": [
+      "T-0038"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.5. Evaluasi Hasil Generasi menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P172",
+    "start": 437,
+    "end": 437,
+    "node": "T-0038",
+    "structural_ids": [
+      "T-0038"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menghubungkan keputusan per jawaban dengan preseden InfiAgent-DABench."
+  },
+  {
+    "id": "P173",
+    "start": 439,
+    "end": 439,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-0039"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.5.1. Perbandingan Respons dan *Expected Result* menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P174",
+    "start": 441,
+    "end": 441,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-0039"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Urutan properti dan urutan elemen array memiliki konsekuensi penilaian berbeda."
+  },
+  {
+    "id": "P175",
+    "start": 443,
+    "end": 443,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-0039"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Contoh 10 dan 10.0 menjelaskan kesamaan nilai tanpa toleransi tambahan."
+  },
+  {
+    "id": "P176",
+    "start": 445,
+    "end": 445,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-U445"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas kasus dan periode mengantar dua jawaban contoh."
+  },
+  {
+    "id": "P177",
+    "start": 447,
+    "end": 447,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-U445"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 3.10 Contoh Evaluasi PASS dan FAIL pada T5-C1 mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P178",
+    "start": 449,
+    "end": 453,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-U445"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tiga objek JSON memungkinkan pembaca memeriksa langsung selisih jawaban B dan kecocokan A."
+  },
+  {
+    "id": "P179",
+    "start": 455,
+    "end": 455,
+    "node": "T-0039",
+    "structural_ids": [
+      "T-U445"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tiga selisih konkret menjelaskan mengapa B gagal sementara A lulus."
+  },
+  {
+    "id": "P180",
+    "start": 457,
+    "end": 457,
+    "node": "T-0040",
+    "structural_ids": [
+      "T-0040"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.5.2. Perhitungan Tingkat Keberhasilan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P181",
+    "start": 459,
+    "end": 459,
+    "node": "T-0040",
+    "structural_ids": [
+      "T-0040"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Mendefinisikan pembilang dan kumpulan jawaban sebelum persamaan."
+  },
+  {
+    "id": "P182",
+    "start": 461,
+    "end": 463,
+    "node": "T-0040",
+    "structural_ids": [
+      "T-0040"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Rumus menempatkan jumlah jawaban PASS atas jumlah jawaban yang dinilai dan mengalikan 100%."
+  },
+  {
+    "id": "P183",
+    "start": 465,
+    "end": 465,
+    "node": "T-0040",
+    "structural_ids": [
+      "T-0040"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menghubungkan 45 jawaban per konfigurasi dengan penyebut tabel yang bervariasi."
+  },
+  {
+    "id": "P184",
+    "start": 467,
+    "end": 467,
+    "node": "T-0040",
+    "structural_ids": [
+      "T-0040"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Bentuk 0/3 hingga 3/3 mudah dipakai, tanpa simbol Pi yang dipertanyakan di komentar 4."
+  },
+  {
+    "id": "P185",
+    "start": 469,
+    "end": 469,
+    "node": "T-0041",
+    "structural_ids": [
+      "T-0041"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 3.5.3. Analisis Perbandingan Hasil menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P186",
+    "start": 471,
+    "end": 471,
+    "node": "T-0041",
+    "structural_ids": [
+      "T-0041"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W017"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The paragraph shifts from two pooled summaries to four individual combinations and back to two directions of comparison, with the repetition statement interrupting the shift. A reader cannot quickly identify which answers enter each denominator."
+  },
+  {
+    "id": "P187",
+    "start": 473,
+    "end": 473,
+    "node": "T-0041",
+    "structural_ids": [
+      "T-0041"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Daftar kode mengidentifikasi keenam rumpun hasil dan tujuan menelaah FAIL."
+  },
+  {
+    "id": "P188",
+    "start": 475,
+    "end": 475,
+    "node": "T-0042",
+    "structural_ids": [
+      "T-0042"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul BAB IV — HASIL DAN PEMBAHASAN menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P189",
+    "start": 477,
+    "end": 477,
+    "node": "T-0042",
+    "structural_ids": [
+      "T-0042"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memperkenalkan urutan keenam topik dan ketiga cara pengelompokan."
+  },
+  {
+    "id": "P190",
+    "start": 479,
+    "end": 479,
+    "node": "T-0043",
+    "structural_ids": [
+      "T-0043"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.1. Lingkungan Pengujian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P191",
+    "start": 481,
+    "end": 481,
+    "node": "T-0043",
+    "structural_ids": [
+      "T-0043"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W018"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Methods distinguish the software through which runs were made and each model’s provider defaults. The results use provider as a label for that software. The relationship may differ between setups."
+  },
+  {
+    "id": "P192",
+    "start": 483,
+    "end": 483,
+    "node": "T-0043",
+    "structural_ids": [
+      "T-0043"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.1 Lingkungan Pengujian mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P193",
+    "start": 485,
+    "end": 489,
+    "node": "T-0043",
+    "structural_ids": [
+      "T-0043"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W018"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Methods distinguish the software through which runs were made and each model’s provider defaults. The results use provider as a label for that software. The relationship may differ between setups."
+  },
+  {
+    "id": "P194",
+    "start": 491,
+    "end": 491,
+    "node": "T-0044",
+    "structural_ids": [
+      "T-0044"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.2. Data Penelitian menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P195",
+    "start": 493,
+    "end": 493,
+    "node": "T-0044",
+    "structural_ids": [
+      "T-0044"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memisahkan jumlah baris, kasus dan jenis tugas sebelum tabel hasil."
+  },
+  {
+    "id": "P196",
+    "start": 495,
+    "end": 495,
+    "node": "T-0044",
+    "structural_ids": [
+      "T-0044"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan bagaimana pengulangan menghasilkan empat kali 45 jawaban."
+  },
+  {
+    "id": "P197",
+    "start": 497,
+    "end": 497,
+    "node": "T-0044",
+    "structural_ids": [
+      "T-0044"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.2 Distribusi Kasus dan Jawaban menurut Kelompok Analisis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P198",
+    "start": 499,
+    "end": 507,
+    "node": "T-0044",
+    "structural_ids": [
+      "T-0044"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.2 Distribusi Kasus dan Jawaban menurut Kelompok Analisis menyediakan rincian menurut kolom Kelompok analisis, Jenis tugas, Kasus, Jawaban per kombinasi, Total jawaban."
+  },
+  {
+    "id": "P199",
+    "start": 509,
+    "end": 509,
+    "node": "T-0045",
+    "structural_ids": [
+      "T-0045"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.3. Analisis Hasil pada Durasi Transaksi menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P200",
+    "start": 511,
+    "end": 511,
+    "node": "T-0046",
+    "structural_ids": [
+      "T-0046"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.3.1. Berdasarkan Ketersediaan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P201",
+    "start": 513,
+    "end": 513,
+    "node": "T-0046",
+    "structural_ids": [
+      "T-0046"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menetapkan T1-C1 dan T1-C2 serta penyebut 12 per kondisi."
+  },
+  {
+    "id": "P202",
+    "start": 515,
+    "end": 515,
+    "node": "T-0046",
+    "structural_ids": [
+      "T-0046"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.3 Hasil Durasi Transaksi menurut Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P203",
+    "start": 517,
+    "end": 520,
+    "node": "T-0046",
+    "structural_ids": [
+      "T-0046"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.3 Hasil Durasi Transaksi menurut Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P204",
+    "start": 522,
+    "end": 522,
+    "node": "T-0046",
+    "structural_ids": [
+      "T-0046"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menghubungkan keberhasilan dengan bobot laporan dan dua sumber durasi."
+  },
+  {
+    "id": "P205",
+    "start": 524,
+    "end": 524,
+    "node": "T-0047",
+    "structural_ids": [
+      "T-0047"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.3.2. Berdasarkan Model menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P206",
+    "start": 526,
+    "end": 526,
+    "node": "T-0047",
+    "structural_ids": [
+      "T-0047"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan bahwa dua kondisi digabungkan untuk mendapat 12 jawaban per model."
+  },
+  {
+    "id": "P207",
+    "start": 528,
+    "end": 528,
+    "node": "T-0047",
+    "structural_ids": [
+      "T-0047"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.4 Hasil Durasi Transaksi menurut Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P208",
+    "start": 530,
+    "end": 533,
+    "node": "T-0047",
+    "structural_ids": [
+      "T-0047"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.4 Hasil Durasi Transaksi menurut Model menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P209",
+    "start": 535,
+    "end": 535,
+    "node": "T-0047",
+    "structural_ids": [
+      "T-0047"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memberi nilai hasil 23,09 dan 8,86 detik yang tidak tercantum di tabel."
+  },
+  {
+    "id": "P210",
+    "start": 537,
+    "end": 537,
+    "node": "T-0048",
+    "structural_ids": [
+      "T-0048"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.3.3. Berdasarkan Kombinasi Model dan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P211",
+    "start": 539,
+    "end": 539,
+    "node": "T-0048",
+    "structural_ids": [
+      "T-0048"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyatakan pembentukan enam jawaban dari dua kasus di tiap kombinasi."
+  },
+  {
+    "id": "P212",
+    "start": 541,
+    "end": 541,
+    "node": "T-0048",
+    "structural_ids": [
+      "T-0048"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.5 Hasil Durasi Transaksi menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P213",
+    "start": 543,
+    "end": 548,
+    "node": "T-0048",
+    "structural_ids": [
+      "T-0048"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.5 Hasil Durasi Transaksi menurut Kombinasi Model dan Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P214",
+    "start": 550,
+    "end": 550,
+    "node": "T-0048",
+    "structural_ids": [
+      "T-0048"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjabarkan enam keberhasilan menjadi 3/3 per kasus."
+  },
+  {
+    "id": "P215",
+    "start": 552,
+    "end": 552,
+    "node": "T-0049",
+    "structural_ids": [
+      "T-0049"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.4. Analisis Hasil pada Volume Lalu Lintas dan LHR menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P216",
+    "start": 554,
+    "end": 554,
+    "node": "T-0050",
+    "structural_ids": [
+      "T-0050"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.4.1. Berdasarkan Ketersediaan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P217",
+    "start": 556,
+    "end": 556,
+    "node": "T-0050",
+    "structural_ids": [
+      "T-0050"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan pertanyaan mingguan dan tren bulanan dalam total gabungan."
+  },
+  {
+    "id": "P218",
+    "start": 558,
+    "end": 558,
+    "node": "T-0050",
+    "structural_ids": [
+      "T-0050"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.6 Hasil Volume Lalu Lintas dan LHR menurut Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P219",
+    "start": 560,
+    "end": 563,
+    "node": "T-0050",
+    "structural_ids": [
+      "T-0050"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.6 Hasil Volume Lalu Lintas dan LHR menurut Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P220",
+    "start": 565,
+    "end": 565,
+    "node": "T-0050",
+    "structural_ids": [
+      "T-0050"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memisahkan keempat kegagalan T3-C1 dari keberhasilan T2-C1."
+  },
+  {
+    "id": "P221",
+    "start": 567,
+    "end": 567,
+    "node": "T-0051",
+    "structural_ids": [
+      "T-0051"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.4.2. Berdasarkan Model menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P222",
+    "start": 569,
+    "end": 569,
+    "node": "T-0051",
+    "structural_ids": [
+      "T-0051"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Enam jawaban pada tiap kondisi menjelaskan asal 12 jawaban per model."
+  },
+  {
+    "id": "P223",
+    "start": 571,
+    "end": 571,
+    "node": "T-0051",
+    "structural_ids": [
+      "T-0051"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.7 Hasil Volume Lalu Lintas dan LHR menurut Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P224",
+    "start": 573,
+    "end": 576,
+    "node": "T-0051",
+    "structural_ids": [
+      "T-0051"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.7 Hasil Volume Lalu Lintas dan LHR menurut Model menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P225",
+    "start": 578,
+    "end": 578,
+    "node": "T-0051",
+    "structural_ids": [
+      "T-0051"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menghubungkan perbedaan model dengan satu kasus dan kondisi tertentu."
+  },
+  {
+    "id": "P226",
+    "start": 580,
+    "end": 580,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-0052"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.4.3. Berdasarkan Kombinasi Model dan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P227",
+    "start": 582,
+    "end": 582,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-0052"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tiga pengulangan dari dua kasus menghasilkan enam jawaban per kombinasi."
+  },
+  {
+    "id": "P228",
+    "start": 584,
+    "end": 584,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-0052"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.8 Hasil Volume Lalu Lintas dan LHR menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P229",
+    "start": 586,
+    "end": 591,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-0052"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.8 Hasil Volume Lalu Lintas dan LHR menurut Kombinasi Model dan Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P230",
+    "start": 593,
+    "end": 593,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-0052"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menempatkan perbedaan kedua model pada kondisi tanpa dokumen dan mengecualikan T2-C1."
+  },
+  {
+    "id": "P231",
+    "start": 595,
+    "end": 595,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-U595"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyebut bulan, golongan, dua angka nol dan pengulangan yang kehilangan golongan itu."
+  },
+  {
+    "id": "P232",
+    "start": 597,
+    "end": 597,
+    "node": "T-0052",
+    "structural_ids": [
+      "T-U595"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membandingkan daftar golongan dari volume dengan daftar lengkap dari data master pada pengulangan tertentu."
+  },
+  {
+    "id": "P233",
+    "start": 599,
+    "end": 599,
+    "node": "T-0053",
+    "structural_ids": [
+      "T-0053"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.5. Analisis Hasil pada Insiden dan Penyebab Kecelakaan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P234",
+    "start": 601,
+    "end": 601,
+    "node": "T-0054",
+    "structural_ids": [
+      "T-0054"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.5.1. Berdasarkan Ketersediaan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P235",
+    "start": 603,
+    "end": 603,
+    "node": "T-0054",
+    "structural_ids": [
+      "T-0054"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Memisahkan penentuan status dan distribusi penyebab sebelum perbandingan hasil."
+  },
+  {
+    "id": "P236",
+    "start": 605,
+    "end": 605,
+    "node": "T-0054",
+    "structural_ids": [
+      "T-0054"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.9 Hasil Insiden dan Penyebab Kecelakaan menurut Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P237",
+    "start": 607,
+    "end": 610,
+    "node": "T-0054",
+    "structural_ids": [
+      "T-0054"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.9 Hasil Insiden dan Penyebab Kecelakaan menurut Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P238",
+    "start": 612,
+    "end": 612,
+    "node": "T-0054",
+    "structural_ids": [
+      "T-0054"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Melokalisasi kegagalan di T5 dan menjelaskan status keempat insiden di T4."
+  },
+  {
+    "id": "P239",
+    "start": 614,
+    "end": 614,
+    "node": "T-0055",
+    "structural_ids": [
+      "T-0055"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.5.2. Berdasarkan Model menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P240",
+    "start": 616,
+    "end": 616,
+    "node": "T-0055",
+    "structural_ids": [
+      "T-0055"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Kedua kondisi masuk ke 12 jawaban yang dihitung untuk tiap model."
+  },
+  {
+    "id": "P241",
+    "start": 618,
+    "end": 618,
+    "node": "T-0055",
+    "structural_ids": [
+      "T-0055"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.10 Hasil Insiden dan Penyebab Kecelakaan menurut Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P242",
+    "start": 620,
+    "end": 623,
+    "node": "T-0055",
+    "structural_ids": [
+      "T-0055"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.10 Hasil Insiden dan Penyebab Kecelakaan menurut Model menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P243",
+    "start": 625,
+    "end": 625,
+    "node": "T-0055",
+    "structural_ids": [
+      "T-0055"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menempatkan kedua kegagalan hanya pada satu model dan satu kasus tanpa dokumen."
+  },
+  {
+    "id": "P244",
+    "start": 627,
+    "end": 627,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-0056"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.5.3. Berdasarkan Kombinasi Model dan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P245",
+    "start": 629,
+    "end": 629,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-0056"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Dua kasus dan tiga pengulangan menjelaskan penyebut enam per kombinasi."
+  },
+  {
+    "id": "P246",
+    "start": 631,
+    "end": 631,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-0056"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.11 Hasil Insiden dan Penyebab Kecelakaan menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P247",
+    "start": 633,
+    "end": 638,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-0056"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.11 Hasil Insiden dan Penyebab Kecelakaan menurut Kombinasi Model dan Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P248",
+    "start": 640,
+    "end": 640,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-0056"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyebut pengulangan pertama dan ketiga pada model serta kondisi yang gagal."
+  },
+  {
+    "id": "P249",
+    "start": 642,
+    "end": 642,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-U642"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Mengaitkan filter is_accident dengan perbedaan jumlah lima dan tujuh."
+  },
+  {
+    "id": "P250",
+    "start": 644,
+    "end": 644,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-U642"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.12 Perbedaan Jawaban pada T5-C1 mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P251",
+    "start": 646,
+    "end": 651,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-U642"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.12 Perbedaan Jawaban pada T5-C1 menyediakan rincian menurut kolom Komponen output, *Expected result*, Muse Spark 1.3 tanpa konteks bisnis, pengulangan 1 dan 3."
+  },
+  {
+    "id": "P252",
+    "start": 653,
+    "end": 653,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-U642"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyebut dua penyebab pada laporan yang terkait dengan insiden berflag false."
+  },
+  {
+    "id": "P253",
+    "start": 655,
+    "end": 655,
+    "node": "T-0056",
+    "structural_ids": [
+      "T-U642"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menunjukkan satu pengulangan yang memakai aturan dan menemukan tiga insiden memenuhi syarat."
+  },
+  {
+    "id": "P254",
+    "start": 657,
+    "end": 657,
+    "node": "T-0057",
+    "structural_ids": [
+      "T-0057"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.6. Analisis Hasil pada Inspeksi dan Identitas Aset menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P255",
+    "start": 659,
+    "end": 659,
+    "node": "T-0058",
+    "structural_ids": [
+      "T-0058"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.6.1. Berdasarkan Ketersediaan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P256",
+    "start": 661,
+    "end": 661,
+    "node": "T-0058",
+    "structural_ids": [
+      "T-0058"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W019"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The table compares proportions of passing answers, while the wording suggests that the contents of two damage summaries were compared with each other."
+  },
+  {
+    "id": "P257",
+    "start": 663,
+    "end": 663,
+    "node": "T-0058",
+    "structural_ids": [
+      "T-0058"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.13 Hasil Inspeksi dan Identitas Aset menurut Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P258",
+    "start": 665,
+    "end": 668,
+    "node": "T-0058",
+    "structural_ids": [
+      "T-0058"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.13 Hasil Inspeksi dan Identitas Aset menurut Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P259",
+    "start": 670,
+    "end": 670,
+    "node": "T-0058",
+    "structural_ids": [
+      "T-0058"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Empat item rusak dan tiga yang punya prioritas menjelaskan perbedaan dua hitungan."
+  },
+  {
+    "id": "P260",
+    "start": 672,
+    "end": 672,
+    "node": "T-0059",
+    "structural_ids": [
+      "T-0059"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.6.2. Berdasarkan Model menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P261",
+    "start": 674,
+    "end": 674,
+    "node": "T-0059",
+    "structural_ids": [
+      "T-0059"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan enam jawaban gabungan per model untuk satu kasus inspeksi."
+  },
+  {
+    "id": "P262",
+    "start": 676,
+    "end": 676,
+    "node": "T-0059",
+    "structural_ids": [
+      "T-0059"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.14 Hasil Inspeksi dan Identitas Aset menurut Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P263",
+    "start": 678,
+    "end": 681,
+    "node": "T-0059",
+    "structural_ids": [
+      "T-0059"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.14 Hasil Inspeksi dan Identitas Aset menurut Model menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P264",
+    "start": 683,
+    "end": 683,
+    "node": "T-0059",
+    "structural_ids": [
+      "T-0059"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Rincian aset tiga dan satu menambah interpretasi atas 6/6."
+  },
+  {
+    "id": "P265",
+    "start": 685,
+    "end": 685,
+    "node": "T-0060",
+    "structural_ids": [
+      "T-0060"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.6.3. Berdasarkan Kombinasi Model dan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P266",
+    "start": 687,
+    "end": 687,
+    "node": "T-0060",
+    "structural_ids": [
+      "T-0060"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menetapkan satu kasus dan tiga pengulangan untuk tiap kombinasi."
+  },
+  {
+    "id": "P267",
+    "start": 689,
+    "end": 689,
+    "node": "T-0060",
+    "structural_ids": [
+      "T-0060"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.15 Hasil Inspeksi dan Identitas Aset menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P268",
+    "start": 691,
+    "end": 696,
+    "node": "T-0060",
+    "structural_ids": [
+      "T-0060"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.15 Hasil Inspeksi dan Identitas Aset menurut Kombinasi Model dan Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P269",
+    "start": 698,
+    "end": 698,
+    "node": "T-0060",
+    "structural_ids": [
+      "T-0060"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyatakan seluruh kombinasi mencapai hasil yang sama di ketiga pengulangan."
+  },
+  {
+    "id": "P270",
+    "start": 700,
+    "end": 700,
+    "node": "T-0061",
+    "structural_ids": [
+      "T-0061"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.7. Analisis Hasil pada SPM dan SLA per Laporan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P271",
+    "start": 702,
+    "end": 702,
+    "node": "T-0062",
+    "structural_ids": [
+      "T-0062"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.7.1. Berdasarkan Ketersediaan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P272",
+    "start": 704,
+    "end": 704,
+    "node": "T-0062",
+    "structural_ids": [
+      "T-0062"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menetapkan empat kasus dan 24 jawaban gabungan per kondisi."
+  },
+  {
+    "id": "P273",
+    "start": 706,
+    "end": 706,
+    "node": "T-0062",
+    "structural_ids": [
+      "T-0062"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.16 Hasil SPM/SLA per Laporan menurut Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P274",
+    "start": 708,
+    "end": 711,
+    "node": "T-0062",
+    "structural_ids": [
+      "T-0062"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.16 Hasil SPM/SLA per Laporan menurut Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P275",
+    "start": 713,
+    "end": 713,
+    "node": "T-0062",
+    "structural_ids": [
+      "T-0062"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membedakan tiga jawaban dengan status salah dari satu jawaban tidak lengkap."
+  },
+  {
+    "id": "P276",
+    "start": 715,
+    "end": 715,
+    "node": "T-0063",
+    "structural_ids": [
+      "T-0063"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.7.2. Berdasarkan Model menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P277",
+    "start": 717,
+    "end": 717,
+    "node": "T-0063",
+    "structural_ids": [
+      "T-0063"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjelaskan bahwa 24 jawaban per model menggabungkan kedua kondisi dokumen."
+  },
+  {
+    "id": "P278",
+    "start": 719,
+    "end": 719,
+    "node": "T-0063",
+    "structural_ids": [
+      "T-0063"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.17 Hasil SPM/SLA per Laporan menurut Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P279",
+    "start": 721,
+    "end": 724,
+    "node": "T-0063",
+    "structural_ids": [
+      "T-0063"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.17 Hasil SPM/SLA per Laporan menurut Model menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P280",
+    "start": 726,
+    "end": 726,
+    "node": "T-0063",
+    "structural_ids": [
+      "T-0063"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Melokalisasi selisih dua model pada kondisi tanpa dokumen."
+  },
+  {
+    "id": "P281",
+    "start": 728,
+    "end": 728,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-0064"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P282",
+    "start": 730,
+    "end": 730,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-0064"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Empat kasus kali tiga menghasilkan 12 jawaban per kombinasi."
+  },
+  {
+    "id": "P283",
+    "start": 732,
+    "end": 732,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-0064"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.18 Hasil SPM/SLA per Laporan menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P284",
+    "start": 734,
+    "end": 739,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-0064"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.18 Hasil SPM/SLA per Laporan menurut Kombinasi Model dan Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P285",
+    "start": 741,
+    "end": 741,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-0064"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyisihkan T7-C3 dan T7-C4 yang selalu lulus sebelum merinci kegagalan."
+  },
+  {
+    "id": "P286",
+    "start": 743,
+    "end": 743,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-U743"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P287",
+    "start": 745,
+    "end": 750,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-U743"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis menyediakan rincian menurut kolom Kasus, Model dan pengulangan, Bagian jawaban, *Expected result*, Jawaban agen."
+  },
+  {
+    "id": "P288",
+    "start": 752,
+    "end": 752,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-U752"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Penjelasan yang dipuji di komentar 36 membedakan 6,004 dari 6,00 dan kedua status Boolean."
+  },
+  {
+    "id": "P289",
+    "start": 754,
+    "end": 754,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-U752"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Uraian yang dipuji membedakan cara perhitungan DeepSeek yang dilaporkan dari nilai keluaran Muse yang diamati."
+  },
+  {
+    "id": "P290",
+    "start": 756,
+    "end": 756,
+    "node": "T-0064",
+    "structural_ids": [
+      "T-U756"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Lima indikator kali empat gardu menjelaskan 20 hasil dan 16 yang tidak tercantum."
+  },
+  {
+    "id": "P291",
+    "start": 758,
+    "end": 758,
+    "node": "T-0065",
+    "structural_ids": [
+      "T-0065"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P292",
+    "start": 760,
+    "end": 760,
+    "node": "T-0066",
+    "structural_ids": [
+      "T-0066"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.8.1. Berdasarkan Ketersediaan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P293",
+    "start": 762,
+    "end": 762,
+    "node": "T-0066",
+    "structural_ids": [
+      "T-0066"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membandingkan dua tujuan pengujian, penilaian satu periode dan perbandingan dua periode."
+  },
+  {
+    "id": "P294",
+    "start": 764,
+    "end": 764,
+    "node": "T-0066",
+    "structural_ids": [
+      "T-0066"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P295",
+    "start": 766,
+    "end": 769,
+    "node": "T-0066",
+    "structural_ids": [
+      "T-0066"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P296",
+    "start": 771,
+    "end": 771,
+    "node": "T-0066",
+    "structural_ids": [
+      "T-0066"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Kedua ukuran keluaran dilaporkan cocok di kedua kondisi."
+  },
+  {
+    "id": "P297",
+    "start": 773,
+    "end": 773,
+    "node": "T-0067",
+    "structural_ids": [
+      "T-0067"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.8.2. Berdasarkan Model menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P298",
+    "start": 775,
+    "end": 775,
+    "node": "T-0067",
+    "structural_ids": [
+      "T-0067"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyatakan penyebut 24 per model untuk empat kasus periode dan antarperiode."
+  },
+  {
+    "id": "P299",
+    "start": 777,
+    "end": 777,
+    "node": "T-0067",
+    "structural_ids": [
+      "T-0067"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P300",
+    "start": 779,
+    "end": 782,
+    "node": "T-0067",
+    "structural_ids": [
+      "T-0067"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P301",
+    "start": 784,
+    "end": 784,
+    "node": "T-0067",
+    "structural_ids": [
+      "T-0067"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Mempertahankan status not_applicable bagi SLA yang tidak berlaku."
+  },
+  {
+    "id": "P302",
+    "start": 786,
+    "end": 786,
+    "node": "T-0068",
+    "structural_ids": [
+      "T-0068"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis menandai sumbu perbandingan sesuai judul induk."
+  },
+  {
+    "id": "P303",
+    "start": 788,
+    "end": 788,
+    "node": "T-0068",
+    "structural_ids": [
+      "T-0068"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyebut keempat kode kasus dan 12 jawaban di tiap kombinasi."
+  },
+  {
+    "id": "P304",
+    "start": 790,
+    "end": 790,
+    "node": "T-0068",
+    "structural_ids": [
+      "T-0068"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keterangan Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi objek dan cocok dengan rujukan di teks."
+  },
+  {
+    "id": "P305",
+    "start": 792,
+    "end": 797,
+    "node": "T-0068",
+    "structural_ids": [
+      "T-0068"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis menyediakan jumlah PASS, jumlah jawaban dan persentase untuk baris perbandingan yang ditampilkan."
+  },
+  {
+    "id": "P306",
+    "start": 799,
+    "end": 799,
+    "node": "T-0068",
+    "structural_ids": [
+      "T-0068"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjabarkan 12/12 menjadi 3/3 pada setiap kasus."
+  },
+  {
+    "id": "P307",
+    "start": 801,
+    "end": 801,
+    "node": "T-0068",
+    "structural_ids": [
+      "T-U801"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W012"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "The inventory says the status worsens. The sole worked indicator stays failed in both periods while its failed evaluations double. A different indicator could account for the inventory, but it is not named."
+  },
+  {
+    "id": "P308",
+    "start": 803,
+    "end": 803,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-0069"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 4.9. Interpretasi Hasil menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P309",
+    "start": 805,
+    "end": 805,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U805"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W020"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Opening with the total conceals the comparison requested in the research question. It also closely reproduces wording the author explicitly criticized."
+  },
+  {
+    "id": "P310",
+    "start": 807,
+    "end": 807,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U805"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Keempat skor membandingkan model dalam kondisi yang sama dan membatasi hasil pada kasus uji."
+  },
+  {
+    "id": "P311",
+    "start": 809,
+    "end": 809,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U805"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Komentar 39 memuji pemetaan keunggulan tiap model ke kelompok tugas dan penyebutan kelompok seri."
+  },
+  {
+    "id": "P312",
+    "start": 811,
+    "end": 811,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U811"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Komentar 38 memuji perbedaan antara angka yang benar dan rincian jawaban yang tidak lengkap."
+  },
+  {
+    "id": "P313",
+    "start": 813,
+    "end": 813,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U811"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Komentar 37 memuji contoh pembulatan. Contoh T5 memakai nilai nyata 7 dan 5 alih-alih pembuka umum yang dikritik pada 46."
+  },
+  {
+    "id": "P314",
+    "start": 815,
+    "end": 815,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U815"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Komentar 40 memuji hitungan tiap pengulangan yang membuat variasi terlihat meski total mirip."
+  },
+  {
+    "id": "P315",
+    "start": 817,
+    "end": 817,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U815"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W021"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The opening sounds as though all failed cases changed, even though T3-C1 failed every time and only the second case changed. The detailed account itself was praised."
+  },
+  {
+    "id": "P316",
+    "start": 819,
+    "end": 819,
+    "node": "T-0069",
+    "structural_ids": [
+      "T-U819"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W022"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "The scope paragraph repeats the formulation criticized twice by the author. It tells the reader that the package was supplied together without directly saying what the observed increase can be attributed to."
+  },
+  {
+    "id": "P317",
+    "start": 821,
+    "end": 821,
+    "node": "T-0070",
+    "structural_ids": [
+      "T-0070"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul BAB V — PENUTUP menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P318",
+    "start": 823,
+    "end": 823,
+    "node": "T-0070",
+    "structural_ids": [
+      "T-0070"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Orientasi singkat sesuai permintaan komentar 18, tanpa arahan penyuntingan yang dikritik pada 3."
+  },
+  {
+    "id": "P319",
+    "start": 825,
+    "end": 825,
+    "node": "T-0071",
+    "structural_ids": [
+      "T-0071"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 5.1. Kesimpulan menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P320",
+    "start": 827,
+    "end": 827,
+    "node": "T-0071",
+    "structural_ids": [
+      "T-U827"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjawab pertanyaan dengan empat nilai dan dua selisih dalam poin persentase."
+  },
+  {
+    "id": "P321",
+    "start": 829,
+    "end": 829,
+    "node": "T-0071",
+    "structural_ids": [
+      "T-U827"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menyebut arah perbedaan per topik serta tiga kelompok yang lulus pada semua kombinasi."
+  },
+  {
+    "id": "P322",
+    "start": 831,
+    "end": 831,
+    "node": "T-0071",
+    "structural_ids": [
+      "T-U831"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Menjabarkan sepuluh FAIL menjadi empat penghilangan golongan, dua kesalahan frekuensi, tiga status dan satu jawaban parsial."
+  },
+  {
+    "id": "P323",
+    "start": 833,
+    "end": 833,
+    "node": "T-0071",
+    "structural_ids": [
+      "T-U831"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W023"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "The phrasing permits a disjoint reading. Of the three cases per model that fell short of 3/3, both models share T3-C1 and T7-C2."
+  },
+  {
+    "id": "P324",
+    "start": 835,
+    "end": 835,
+    "node": "T-0071",
+    "structural_ids": [
+      "T-U831"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Membatasi kesimpulan pada 15 kasus, tiga pengulangan dan struktur serta nilai jawaban akhir."
+  },
+  {
+    "id": "P325",
+    "start": 837,
+    "end": 837,
+    "node": "T-0072",
+    "structural_ids": [
+      "T-0072"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul 5.2. Saran menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P326",
+    "start": 839,
+    "end": 839,
+    "node": "T-0072",
+    "structural_ids": [
+      "T-0072"
+    ],
+    "initial_decision": "revise",
+    "finding_ids": [
+      "W024"
+    ],
+    "candidate_decision": "changed",
+    "review_reason": "Completeness already determines PASS and whole-answer comparisons already reveal missing items. Its appearance among future outcomes leaves the extension unspecified."
+  },
+  {
+    "id": "P327",
+    "start": 841,
+    "end": 841,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "keep",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Judul DAFTAR PUSTAKA menandai pokok bahasan yang dijabarkan sesudahnya."
+  },
+  {
+    "id": "P328",
+    "start": 843,
+    "end": 843,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Adyen. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P329",
+    "start": 845,
+    "end": 845,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Agent Skills. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P330",
+    "start": 847,
+    "end": 847,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Alpar dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P331",
+    "start": 849,
+    "end": 849,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Anthropic. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P332",
+    "start": 851,
+    "end": 851,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Brown dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P333",
+    "start": 853,
+    "end": 853,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Chaudhuri dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P334",
+    "start": 855,
+    "end": 855,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W025"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "These three entries have no identifiable in-text citations in the supplied chapters. Readers cannot locate the claim each supports."
+  },
+  {
+    "id": "P335",
+    "start": 857,
+    "end": 857,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Cloudflare. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P336",
+    "start": 859,
+    "end": 859,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis DeepSeek. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P337",
+    "start": 861,
+    "end": 861,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis DeepSeek. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P338",
+    "start": 863,
+    "end": 863,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis DeepSeek-AI. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P339",
+    "start": 865,
+    "end": 865,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Egg dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P340",
+    "start": 867,
+    "end": 867,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Gruber dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P341",
+    "start": 869,
+    "end": 869,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Hong dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P342",
+    "start": 871,
+    "end": 871,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Hu dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P343",
+    "start": 873,
+    "end": 873,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Lei dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P344",
+    "start": 875,
+    "end": 875,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Li dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P345",
+    "start": 877,
+    "end": 877,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W025"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "These three entries have no identifiable in-text citations in the supplied chapters. Readers cannot locate the claim each supports."
+  },
+  {
+    "id": "P346",
+    "start": 879,
+    "end": 879,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Li dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P347",
+    "start": 881,
+    "end": 881,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Liu dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P348",
+    "start": 883,
+    "end": 883,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Liu dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P349",
+    "start": 885,
+    "end": 885,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Meta. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P350",
+    "start": 887,
+    "end": 887,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Meta. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P351",
+    "start": 889,
+    "end": 889,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Meta. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P352",
+    "start": 891,
+    "end": 891,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Meta. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P353",
+    "start": 893,
+    "end": 893,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Meta. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P354",
+    "start": 895,
+    "end": 895,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "query",
+    "finding_ids": [
+      "W025"
+    ],
+    "candidate_decision": "retained",
+    "review_reason": "These three entries have no identifiable in-text citations in the supplied chapters. Readers cannot locate the claim each supports."
+  },
+  {
+    "id": "P355",
+    "start": 897,
+    "end": 897,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Model Context Protocol. dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P356",
+    "start": 899,
+    "end": 899,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Noy dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P357",
+    "start": 901,
+    "end": 901,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Osés Grijalba dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P358",
+    "start": 903,
+    "end": 903,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Quamar dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P359",
+    "start": 905,
+    "end": 905,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Rumiantsau dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P360",
+    "start": 907,
+    "end": 907,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Sahu dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P361",
+    "start": 909,
+    "end": 909,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Sawant dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P362",
+    "start": 911,
+    "end": 911,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Shi dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P363",
+    "start": 913,
+    "end": 913,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Vishwakarma dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P364",
+    "start": 915,
+    "end": 915,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Wang dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P365",
+    "start": 917,
+    "end": 917,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Wu dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  },
+  {
+    "id": "P366",
+    "start": 919,
+    "end": 919,
+    "node": "T-0073",
+    "structural_ids": [
+      "T-0073"
+    ],
+    "initial_decision": "protect",
+    "finding_ids": [],
+    "candidate_decision": "retained",
+    "review_reason": "Identitas bibliografis Yao dan pengenal sumber dipertahankan untuk mencocokkan rujukan dalam naskah."
+  }
+]

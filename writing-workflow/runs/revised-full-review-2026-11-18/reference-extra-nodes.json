@@ -1,0 +1,560 @@
+[
+  {
+    "id": "R-u0013",
+    "parent": "R-0002",
+    "level": 3,
+    "title": "Identify the practical gap between generated and human feedback.",
+    "start_line": 13,
+    "end_line": 14,
+    "direct_end_line": 14
+  },
+  {
+    "id": "R-u0015",
+    "parent": "R-0002",
+    "level": 3,
+    "title": "Compare possible interventions and explain the selection of prompt design.",
+    "start_line": 15,
+    "end_line": 18,
+    "direct_end_line": 18
+  },
+  {
+    "id": "R-u0019",
+    "parent": "R-0002",
+    "level": 3,
+    "title": "Translate the selected intervention into the actual experiment.",
+    "start_line": 19,
+    "end_line": 22,
+    "direct_end_line": 22
+  },
+  {
+    "id": "R-u0087",
+    "parent": "R-0009",
+    "level": 3,
+    "title": "Survey the design, metrics and findings of prior studies in a comparative table.",
+    "start_line": 87,
+    "end_line": 98,
+    "direct_end_line": 98
+  },
+  {
+    "id": "R-u0099",
+    "parent": "R-0009",
+    "level": 3,
+    "title": "Interpret the studies and derive the position of the current experiment.",
+    "start_line": 99,
+    "end_line": 110,
+    "direct_end_line": 110
+  },
+  {
+    "id": "R-u0187",
+    "parent": "R-0021",
+    "level": 3,
+    "title": "Explain the choice of the two models and compare their characteristics.",
+    "start_line": 187,
+    "end_line": 202,
+    "direct_end_line": 202
+  },
+  {
+    "id": "R-u0207",
+    "parent": "R-0022",
+    "level": 4,
+    "title": "Discuss semi-causal language interfaces and a visual transformer through captions and accompanying prose.",
+    "start_line": 207,
+    "end_line": 214,
+    "direct_end_line": 214
+  },
+  {
+    "id": "R-u0215",
+    "parent": "R-0022",
+    "level": 4,
+    "title": "Relate the first model to feedback generation.",
+    "start_line": 215,
+    "end_line": 216,
+    "direct_end_line": 216
+  },
+  {
+    "id": "R-u0221",
+    "parent": "R-0023",
+    "level": 4,
+    "title": "Describe the second model’s architecture.",
+    "start_line": 221,
+    "end_line": 224,
+    "direct_end_line": 224
+  },
+  {
+    "id": "R-u0225",
+    "parent": "R-0023",
+    "level": 4,
+    "title": "Relate deployment, access and adaptation to the model choice.",
+    "start_line": 225,
+    "end_line": 232,
+    "direct_end_line": 232
+  },
+  {
+    "id": "R-u0243",
+    "parent": "R-0025",
+    "level": 4,
+    "title": "Define modified precision and brevity penalty mathematically.",
+    "start_line": 243,
+    "end_line": 265,
+    "direct_end_line": 265
+  },
+  {
+    "id": "R-u0266",
+    "parent": "R-0025",
+    "level": 4,
+    "title": "Relate lexical overlap to feedback comparison.",
+    "start_line": 266,
+    "end_line": 267,
+    "direct_end_line": 267
+  },
+  {
+    "id": "R-u0274",
+    "parent": "R-0026",
+    "level": 4,
+    "title": "Derive the composite from an ordered subsequence and its component ratios.",
+    "start_line": 274,
+    "end_line": 302,
+    "direct_end_line": 302
+  },
+  {
+    "id": "R-u0309",
+    "parent": "R-0027",
+    "level": 4,
+    "title": "Define weighted matching and the fragmentation penalty.",
+    "start_line": 309,
+    "end_line": 337,
+    "direct_end_line": 337
+  },
+  {
+    "id": "R-u0342",
+    "parent": "R-0028",
+    "level": 4,
+    "title": "Define embedding-based precision, recall and their harmonic mean.",
+    "start_line": 342,
+    "end_line": 371,
+    "direct_end_line": 371
+  },
+  {
+    "id": "R-u0372",
+    "parent": "R-0028",
+    "level": 4,
+    "title": "Interpret semantic similarity for educational feedback.",
+    "start_line": 372,
+    "end_line": 373,
+    "direct_end_line": 373
+  },
+  {
+    "id": "R-u0400",
+    "parent": "R-0031",
+    "level": 3,
+    "title": "Illustrate student answers and their reference evaluations in the two domains.",
+    "start_line": 400,
+    "end_line": 417,
+    "direct_end_line": 417
+  },
+  {
+    "id": "R-u0418",
+    "parent": "R-0031",
+    "level": 3,
+    "title": "Use the separate grade to choose a one-shot demonstration.",
+    "start_line": 418,
+    "end_line": 419,
+    "direct_end_line": 419
+  },
+  {
+    "id": "R-u0432",
+    "parent": "R-0033",
+    "level": 4,
+    "title": "Give the actual prompt components for the same strategy in both courses.",
+    "start_line": 432,
+    "end_line": 451,
+    "direct_end_line": 451
+  },
+  {
+    "id": "R-u0456",
+    "parent": "R-0034",
+    "level": 4,
+    "title": "Give the actual prompt components for the same strategy in both courses.",
+    "start_line": 456,
+    "end_line": 473,
+    "direct_end_line": 473
+  },
+  {
+    "id": "R-u0478",
+    "parent": "R-0035",
+    "level": 4,
+    "title": "Give the actual prompt components for the same strategy in both courses.",
+    "start_line": 478,
+    "end_line": 497,
+    "direct_end_line": 497
+  },
+  {
+    "id": "R-u0502",
+    "parent": "R-0036",
+    "level": 4,
+    "title": "Give the actual prompt components for the same strategy in both courses.",
+    "start_line": 502,
+    "end_line": 521,
+    "direct_end_line": 521
+  },
+  {
+    "id": "R-u0528",
+    "parent": "R-0037",
+    "level": 3,
+    "title": "Define the saved record that connects a generated response to its experimental condition.",
+    "start_line": 528,
+    "end_line": 529,
+    "direct_end_line": 529
+  },
+  {
+    "id": "R-u0534",
+    "parent": "R-0038",
+    "level": 3,
+    "title": "Establish the shared reference–candidate pair used in the scoring examples.",
+    "start_line": 534,
+    "end_line": 551,
+    "direct_end_line": 551
+  },
+  {
+    "id": "R-u0556",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Count tokens in the reference and candidate.",
+    "start_line": 556,
+    "end_line": 557,
+    "direct_end_line": 557
+  },
+  {
+    "id": "R-u0558",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Calculate unigram and bigram agreement from explicit match evidence.",
+    "start_line": 558,
+    "end_line": 618,
+    "direct_end_line": 559
+  },
+  {
+    "id": "R-u0619",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Adjust for candidate length.",
+    "start_line": 619,
+    "end_line": 624,
+    "direct_end_line": 624
+  },
+  {
+    "id": "R-u0641",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Identify the longest common subsequence in the example.",
+    "start_line": 641,
+    "end_line": 648,
+    "direct_end_line": 648
+  },
+  {
+    "id": "R-u0649",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Normalize the subsequence by the candidate and reference lengths.",
+    "start_line": 649,
+    "end_line": 658,
+    "direct_end_line": 658
+  },
+  {
+    "id": "R-u0675",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Tokenize the pair and count matching unigrams.",
+    "start_line": 675,
+    "end_line": 678,
+    "direct_end_line": 678
+  },
+  {
+    "id": "R-u0679",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Convert matches into precision, recall and a weighted mean.",
+    "start_line": 679,
+    "end_line": 696,
+    "direct_end_line": 696
+  },
+  {
+    "id": "R-u0697",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Apply the fragmentation penalty using an assumed chunk count.",
+    "start_line": 697,
+    "end_line": 702,
+    "direct_end_line": 702
+  },
+  {
+    "id": "R-u0717",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Represent tokens as embeddings and match by cosine similarity.",
+    "start_line": 717,
+    "end_line": 722,
+    "direct_end_line": 722
+  },
+  {
+    "id": "R-u0723",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Derive precision, recall and F1 and report the estimated values.",
+    "start_line": 723,
+    "end_line": 746,
+    "direct_end_line": 746
+  },
+  {
+    "id": "R-u0560",
+    "parent": "R-u0558",
+    "level": 5,
+    "title": "Tabulate unigram matches and divide by the candidate token count.",
+    "start_line": 560,
+    "end_line": 597,
+    "direct_end_line": 597
+  },
+  {
+    "id": "R-u0598",
+    "parent": "R-u0558",
+    "level": 5,
+    "title": "Tabulate bigram matches and divide by the number of candidate bigrams.",
+    "start_line": 598,
+    "end_line": 618,
+    "direct_end_line": 618
+  },
+  {
+    "id": "R-u0625",
+    "parent": "R-0039",
+    "level": 4,
+    "title": "Combine precisions and penalty and explain the final lexical score.",
+    "start_line": 625,
+    "end_line": 636,
+    "direct_end_line": 636
+  },
+  {
+    "id": "R-u0659",
+    "parent": "R-0040",
+    "level": 4,
+    "title": "Combine the two components and interpret the ordered-overlap score.",
+    "start_line": 659,
+    "end_line": 670,
+    "direct_end_line": 670
+  },
+  {
+    "id": "R-u0703",
+    "parent": "R-0041",
+    "level": 4,
+    "title": "Apply the penalty to the mean and interpret the resulting METEOR value.",
+    "start_line": 703,
+    "end_line": 710,
+    "direct_end_line": 710
+  },
+  {
+    "id": "R-u0747",
+    "parent": "R-0042",
+    "level": 4,
+    "title": "Interpret the reported F1 for the paired texts.",
+    "start_line": 747,
+    "end_line": 748,
+    "direct_end_line": 748
+  },
+  {
+    "id": "R-u0771",
+    "parent": "R-0045",
+    "level": 3,
+    "title": "Identify the stored observation and reconcile totals by course and configuration.",
+    "start_line": 771,
+    "end_line": 780,
+    "direct_end_line": 780
+  },
+  {
+    "id": "R-u0787",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 787,
+    "end_line": 802,
+    "direct_end_line": 802
+  },
+  {
+    "id": "R-u0803",
+    "parent": "R-0047",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 803,
+    "end_line": 813,
+    "direct_end_line": 813
+  },
+  {
+    "id": "R-u0818",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 818,
+    "end_line": 833,
+    "direct_end_line": 833
+  },
+  {
+    "id": "R-u0834",
+    "parent": "R-0048",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 834,
+    "end_line": 843,
+    "direct_end_line": 843
+  },
+  {
+    "id": "R-u0848",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 848,
+    "end_line": 863,
+    "direct_end_line": 863
+  },
+  {
+    "id": "R-u0864",
+    "parent": "R-0049",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 864,
+    "end_line": 874,
+    "direct_end_line": 874
+  },
+  {
+    "id": "R-u0879",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 879,
+    "end_line": 894,
+    "direct_end_line": 894
+  },
+  {
+    "id": "R-u0895",
+    "parent": "R-0050",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 895,
+    "end_line": 925,
+    "direct_end_line": 925
+  },
+  {
+    "id": "R-u0932",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 932,
+    "end_line": 947,
+    "direct_end_line": 947
+  },
+  {
+    "id": "R-u0948",
+    "parent": "R-0052",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 948,
+    "end_line": 960,
+    "direct_end_line": 960
+  },
+  {
+    "id": "R-u0965",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 965,
+    "end_line": 980,
+    "direct_end_line": 980
+  },
+  {
+    "id": "R-u0981",
+    "parent": "R-0053",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 981,
+    "end_line": 990,
+    "direct_end_line": 990
+  },
+  {
+    "id": "R-u0995",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 995,
+    "end_line": 1010,
+    "direct_end_line": 1010
+  },
+  {
+    "id": "R-u1011",
+    "parent": "R-0054",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 1011,
+    "end_line": 1019,
+    "direct_end_line": 1019
+  },
+  {
+    "id": "R-u1024",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Describe metric distributions using the four captions and their accompanying interpretations.",
+    "start_line": 1024,
+    "end_line": 1039,
+    "direct_end_line": 1039
+  },
+  {
+    "id": "R-u1040",
+    "parent": "R-0055",
+    "level": 4,
+    "title": "Compare tabulated means and interpret the marginal or joint configuration ranking.",
+    "start_line": 1040,
+    "end_line": 1070,
+    "direct_end_line": 1070
+  },
+  {
+    "id": "R-u1075",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Synthesize prompt-strategy performance across the courses.",
+    "start_line": 1075,
+    "end_line": 1076,
+    "direct_end_line": 1076
+  },
+  {
+    "id": "R-u1079",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Compare model performance across measures.",
+    "start_line": 1079,
+    "end_line": 1080,
+    "direct_end_line": 1080
+  },
+  {
+    "id": "R-u1081",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Identify the combinations that performed best overall.",
+    "start_line": 1081,
+    "end_line": 1082,
+    "direct_end_line": 1082
+  },
+  {
+    "id": "R-u1083",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Identify which results differ across the two courses.",
+    "start_line": 1083,
+    "end_line": 1084,
+    "direct_end_line": 1084
+  },
+  {
+    "id": "R-u1077",
+    "parent": "R-0056",
+    "level": 3,
+    "title": "Synthesize the comparison of three personas across courses.",
+    "start_line": 1077,
+    "end_line": 1078,
+    "direct_end_line": 1078
+  }
+]

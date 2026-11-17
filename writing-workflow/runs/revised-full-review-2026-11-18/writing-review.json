@@ -1,0 +1,2694 @@
+{
+  "passages": [
+    {
+      "id": "P001",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan BAB I — PENDAHULUAN.",
+      "finding_ids": []
+    },
+    {
+      "id": "P002",
+      "decision": "pertahankan",
+      "reason": "Susunan Bab I dapat ditemukan lewat judul, tetapi ikhtisar ini juga berfungsi sebagai orientasi singkat.",
+      "finding_ids": []
+    },
+    {
+      "id": "P003",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 1.1. Latar Belakang.",
+      "finding_ids": []
+    },
+    {
+      "id": "P004",
+      "decision": "pertahankan",
+      "reason": "Memperkenalkan kegunaan BI sebelum menjelaskan cara pengguna mengakses data.",
+      "finding_ids": []
+    },
+    {
+      "id": "P005",
+      "decision": "pertahankan",
+      "reason": "Menghubungkan pertanyaan bahasa alami dengan kesulitan memahami istilah bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P006",
+      "decision": "pertahankan",
+      "reason": "Membedakan peran agen dalam memilih tool dan menghitung jawaban dari antarmuka pertanyaan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P007",
+      "decision": "pertahankan",
+      "reason": "Contoh LHR memperjelas akibat penggunaan hari dengan laporan dibandingkan semua hari kalender.",
+      "finding_ids": []
+    },
+    {
+      "id": "P008",
+      "decision": "revisi",
+      "reason": "Istilah akurasi menutupi bahwa ukuran pada studi retail adalah Analytical Pass Rate. Pembaca dapat menyamakannya dengan kecocokan JSON pada studi ini.",
+      "finding_ids": [
+        "W01"
+      ]
+    },
+    {
+      "id": "P009",
+      "decision": "revisi",
+      "reason": "Tujuan melihat bagaimana agen menggunakan aturan menyiratkan bahwa proses penggunaan aturan diamati untuk semua kasus. Penilaian utama memeriksa jawaban akhir.",
+      "finding_ids": [
+        "W02"
+      ]
+    },
+    {
+      "id": "P010",
+      "decision": "pertahankan",
+      "reason": "Menamai dua model, kondisi yang dibandingkan dan dasar penilaian jawaban.",
+      "finding_ids": []
+    },
+    {
+      "id": "P011",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 1.2. Rumusan Masalah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P012",
+      "decision": "pertahankan",
+      "reason": "Pertanyaan tunggal sudah berbentuk paragraf sesuai masukan 14.",
+      "finding_ids": []
+    },
+    {
+      "id": "P013",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 1.3. Tujuan Penelitian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P014",
+      "decision": "pertahankan",
+      "reason": "Tujuan tunggal menghubungkan ukuran persentase dengan rincian kasus dan pengulangan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P015",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 1.4. Manfaat Penelitian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P016",
+      "decision": "pertahankan",
+      "reason": "Mengantar dua manfaat yang ditujukan kepada pembaca berbeda.",
+      "finding_ids": []
+    },
+    {
+      "id": "P017",
+      "decision": "pertahankan",
+      "reason": "Dua manfaat membatasi penerapan pada kebutuhan analisis sejenis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P018",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 1.5. Batasan Penelitian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P019",
+      "decision": "pertahankan",
+      "reason": "Menandai daftar batasan dan kondisi yang menentukan penafsiran hasil.",
+      "finding_ids": []
+    },
+    {
+      "id": "P020",
+      "decision": "revisi",
+      "reason": "Frasa diberikan bersama kepada agen dapat dibaca sebagai penyisipan tujuh isi dokumen dalam setiap prompt, sementara L346 dan L366–385 menggambarkan akses melalui skill.",
+      "finding_ids": [
+        "W03"
+      ]
+    },
+    {
+      "id": "P021",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 1.6. Sistematika Penulisan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P022",
+      "decision": "pertahankan",
+      "reason": "Mengantar peta lima bab.",
+      "finding_ids": []
+    },
+    {
+      "id": "P023",
+      "decision": "pertahankan",
+      "reason": "Memetakan lima bab ke isinya. Deskripsi Bab V merujuk kesimpulan dan saran yang memang tersedia.",
+      "finding_ids": []
+    },
+    {
+      "id": "P024",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan BAB II — TINJAUAN PUSTAKA.",
+      "finding_ids": []
+    },
+    {
+      "id": "P025",
+      "decision": "pertahankan",
+      "reason": "Mengantar urutan pustaka dari konsep BI hingga evaluasi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P026",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.1. State-of-the-art.",
+      "finding_ids": []
+    },
+    {
+      "id": "P027",
+      "decision": "pertahankan",
+      "reason": "Menentukan lingkup pustaka dan mengarahkan pembaca ke perbandingan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P028",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 2.1 Perbandingan Penelitian Terkait sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P029",
+      "decision": "revisi",
+      "reason": "Dua sel berturut-turut pada baris InsightBench sama-sama mengatakan bahwa insight terbuka dievaluasi dengan LLM. Pembaca belum mengetahui apa arti pilihan evaluasi itu untuk perbandingan di tabel.",
+      "finding_ids": [
+        "W04"
+      ]
+    },
+    {
+      "id": "P030",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan pergeseran dari akses bahasa alami ke pemilihan sumber oleh agen.",
+      "finding_ids": []
+    },
+    {
+      "id": "P031",
+      "decision": "pertahankan",
+      "reason": "Memisahkan kesulitan tugas interaktif dari metode perencanaan analisis data.",
+      "finding_ids": []
+    },
+    {
+      "id": "P032",
+      "decision": "pertahankan",
+      "reason": "Contoh InsightBench, EnterpriseBench dan Spider menunjukkan tiga jenis tugas bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P033",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan siapa Adyen dan arti expected result saat memperkenalkan DABstep.",
+      "finding_ids": []
+    },
+    {
+      "id": "P034",
+      "decision": "revisi",
+      "reason": "Dua kelompok model dalam kalimat pertama dapat terbaca sebagai model berbeda pada setiap kondisi. Frasa berdasarkan hasil eksekusi dan Claude sebagai judge menyandingkan bahan penilaian dengan pihak yang menilai.",
+      "finding_ids": [
+        "W05"
+      ]
+    },
+    {
+      "id": "P035",
+      "decision": "pertahankan",
+      "reason": "Menempatkan perbandingan dua model lokal setelah studi konteks dan studi evaluasi agen.",
+      "finding_ids": []
+    },
+    {
+      "id": "P036",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.2. Business Intelligence.",
+      "finding_ids": []
+    },
+    {
+      "id": "P037",
+      "decision": "pertahankan",
+      "reason": "Definisi BI diikuti fungsi konkret komponen teknologi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P038",
+      "decision": "pertahankan",
+      "reason": "Measure dan dimension dijelaskan lewat apa yang dihitung dan bagaimana data dikelompokkan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P039",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.3. Agentic Business Intelligence.",
+      "finding_ids": []
+    },
+    {
+      "id": "P040",
+      "decision": "pertahankan",
+      "reason": "Definisi lokal menghubungkan pertanyaan, pembacaan data, perhitungan dan jawaban.",
+      "finding_ids": []
+    },
+    {
+      "id": "P041",
+      "decision": "pertahankan",
+      "reason": "Contoh relasi insiden dan tindakan membuat kebutuhan beberapa sumber mudah dipahami.",
+      "finding_ids": []
+    },
+    {
+      "id": "P042",
+      "decision": "pertahankan",
+      "reason": "Membedakan agregasi seluruh data dari agregasi per kelompok dan memberi rujukan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P043",
+      "decision": "pertahankan",
+      "reason": "Perbedaan dua operator terlihat pada perlakuan terhadap nilai tepat pada batas.",
+      "finding_ids": []
+    },
+    {
+      "id": "P044",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.4. Agen Berbasis Kecerdasan Buatan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P045",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan peran model, tool dan pemanfaatan hasil tindakan berikutnya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P046",
+      "decision": "pertahankan",
+      "reason": "Contoh skema dan data memberi isi konkret pada urutan tool call.",
+      "finding_ids": []
+    },
+    {
+      "id": "P047",
+      "decision": "pertahankan",
+      "reason": "Menghubungkan kesalahan pemilihan data dengan perhitungan berikutnya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P048",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.4.1. Tool dan Model Context Protocol.",
+      "finding_ids": []
+    },
+    {
+      "id": "P049",
+      "decision": "pertahankan",
+      "reason": "Menyebut fungsi, parameter dan keluaran tool yang menentukan pemilihannya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P050",
+      "decision": "pertahankan",
+      "reason": "Memisahkan fungsi tiga tool dokumen LongTA dari eksekusi perhitungan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P051",
+      "decision": "pertahankan",
+      "reason": "Hubungan host, client dan server diuraikan lengkap untuk pembacaan metode.",
+      "finding_ids": []
+    },
+    {
+      "id": "P052",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.5. Analisis Data melalui Bahasa Alami.",
+      "finding_ids": []
+    },
+    {
+      "id": "P053",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan dua jenis antarmuka dan objek yang dituju masing-masing.",
+      "finding_ids": []
+    },
+    {
+      "id": "P054",
+      "decision": "pertahankan",
+      "reason": "Contoh volume bulanan membedakan pengelompokan, agregasi dan penyaringan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P055",
+      "decision": "pertahankan",
+      "reason": "Contoh definisi pekerjaan selesai menjembatani antarmuka dan konteks bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P056",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.6. Prompt dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P057",
+      "decision": "pertahankan",
+      "reason": "Memisahkan instruksi, contoh dan format jawaban sebagai kemungkinan isi prompt.",
+      "finding_ids": []
+    },
+    {
+      "id": "P058",
+      "decision": "pertahankan",
+      "reason": "Membedakan dokumentasi dalam penelitian terdahulu dari kondisi akses penelitian ini.",
+      "finding_ids": []
+    },
+    {
+      "id": "P059",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.6.1. Struktur dan Isi Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P060",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan contoh isi dokumen dan konsep ontologi dengan atribusi tersendiri.",
+      "finding_ids": []
+    },
+    {
+      "id": "P061",
+      "decision": "revisi",
+      "reason": "Dua kalimat berpindah dari pertanyaan penentu cakupan ontologi ke isi dokumen lokal tanpa menjelaskan apakah penelitian menerapkan metode ontologi atau hanya menggunakan gagasan yang sebanding.",
+      "finding_ids": [
+        "W06"
+      ]
+    },
+    {
+      "id": "P062",
+      "decision": "pertahankan",
+      "reason": "Dua pilihan jumlah hari memperjelas pengaruh aturan terhadap LHR.",
+      "finding_ids": []
+    },
+    {
+      "id": "P063",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.6.2. Skills.",
+      "finding_ids": []
+    },
+    {
+      "id": "P064",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan fungsi instruksi utama dan referensi dalam format skill.",
+      "finding_ids": []
+    },
+    {
+      "id": "P065",
+      "decision": "pertahankan",
+      "reason": "Merinci perbedaan dokumen routing dengan referensi tiap topik.",
+      "finding_ids": []
+    },
+    {
+      "id": "P066",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.7. Large Language Models.",
+      "finding_ids": []
+    },
+    {
+      "id": "P067",
+      "decision": "pertahankan",
+      "reason": "Definisi LLM diikuti perannya dalam agen.",
+      "finding_ids": []
+    },
+    {
+      "id": "P068",
+      "decision": "pertahankan",
+      "reason": "Membedakan isi percakapan dari kapasitas token model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P069",
+      "decision": "pertahankan",
+      "reason": "Menyebut dua keterbatasan pada tugas yang berbeda dan melekatkan sumbernya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P070",
+      "decision": "pertahankan",
+      "reason": "Mengantar perbandingan pengembang dan kapasitas kedua model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P071",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 2.2 Karakteristik Model yang Digunakan sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P072",
+      "decision": "pertahankan",
+      "reason": "Kolom Aspek, Muse Spark 1.3, DeepSeek v4 Flash memberi dasar membaca Tabel 2.2 Karakteristik Model yang Digunakan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P073",
+      "decision": "pertahankan",
+      "reason": "Sumber untuk dua model terletak tepat sesudah tabel.",
+      "finding_ids": []
+    },
+    {
+      "id": "P074",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.7.1. Muse Spark 1.3.",
+      "finding_ids": []
+    },
+    {
+      "id": "P075",
+      "decision": "pertahankan",
+      "reason": "Mempertahankan tanggal pengenalan dan dukungan tool calling yang spesifik bagi Muse.",
+      "finding_ids": []
+    },
+    {
+      "id": "P076",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.7.2. DeepSeek v4 Flash.",
+      "finding_ids": []
+    },
+    {
+      "id": "P077",
+      "decision": "pertahankan",
+      "reason": "Menautkan nama model pendek ke versi dan sumber konfigurasi spesifik.",
+      "finding_ids": []
+    },
+    {
+      "id": "P078",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.8. Evaluasi Hasil Analisis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P079",
+      "decision": "pertahankan",
+      "reason": "Menyebut tiga dimensi evaluasi sebelum subseksi masing-masing.",
+      "finding_ids": []
+    },
+    {
+      "id": "P080",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.8.1. Kesesuaian Struktur dan Nilai Jawaban.",
+      "finding_ids": []
+    },
+    {
+      "id": "P081",
+      "decision": "revisi",
+      "reason": "Urutan array tampak menjadi ketentuan umum semua pemeriksaan JSON. Kalimat tentang DataBench hanya menyebut JSON valid dan keberadaan atribut.",
+      "finding_ids": [
+        "W07"
+      ]
+    },
+    {
+      "id": "P082",
+      "decision": "pertahankan",
+      "reason": "Memisahkan prinsip seluruh bagian benar dan keputusan PASS/FAIL lokal.",
+      "finding_ids": []
+    },
+    {
+      "id": "P083",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.8.2. Tingkat Keberhasilan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P084",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan bahwa seluruh pengulangan masuk dalam persentase.",
+      "finding_ids": []
+    },
+    {
+      "id": "P085",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 2.8.3. Konsistensi Hasil Pengulangan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P086",
+      "decision": "pertahankan",
+      "reason": "Memperkenalkan pengulangan lewat tugas sama pada τ-bench.",
+      "finding_ids": []
+    },
+    {
+      "id": "P087",
+      "decision": "pertahankan",
+      "reason": "Jumlah PASS dari tiga percobaan mengoperasionalkan konsistensi dalam satu kasus dan konfigurasi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P088",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan BAB III — METODOLOGI PENELITIAN.",
+      "finding_ids": []
+    },
+    {
+      "id": "P089",
+      "decision": "pertahankan",
+      "reason": "Mengorientasikan pembaca pada tahap data sampai evaluasi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P090",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.1. Gambaran Umum Penelitian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P091",
+      "decision": "pertahankan",
+      "reason": "Menyebut jenis desain dan objek pembandingan pada tingkat kasus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P092",
+      "decision": "revisi",
+      "reason": "Subjek kedua model menggunakan mencakup expected result dalam daftar yang sama dengan prompt dan tool. Pada L42 dan L298 jawaban rujukan justru tidak dapat diakses oleh agen.",
+      "finding_ids": [
+        "W30"
+      ]
+    },
+    {
+      "id": "P093",
+      "decision": "pertahankan",
+      "reason": "Menempatkan penyiapan expected result sebelum penyusunan materi yang dilihat agen.",
+      "finding_ids": []
+    },
+    {
+      "id": "P094",
+      "decision": "pertahankan",
+      "reason": "Menyambungkan generasi, penilaian dan analisis sebelum rujukan ke diagram.",
+      "finding_ids": []
+    },
+    {
+      "id": "P095",
+      "decision": "pertahankan",
+      "reason": "Keterangan menamai Gambar 3.1 Alur Tahapan Penelitian. Bentuk diagram memerlukan naskah bergambar.",
+      "finding_ids": []
+    },
+    {
+      "id": "P096",
+      "decision": "revisi",
+      "reason": "Arti angka n dan m jelas, tetapi asal huruf T dan C masih harus ditebak, padahal penulis secara khusus meminta keduanya dijelaskan.",
+      "finding_ids": [
+        "W08"
+      ]
+    },
+    {
+      "id": "P097",
+      "decision": "pertahankan",
+      "reason": "Perhitungan 15 dikali tiga dijelaskan per kondisi lalu per model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P098",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.1 Rancangan Pengujian Kedua Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P099",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, Kasus, Pengulangan, Jumlah jawaban memberi dasar membaca Tabel 3.1 Rancangan Pengujian Kedua Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P100",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.2. Data Penelitian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P101",
+      "decision": "pertahankan",
+      "reason": "Memisahkan data yang dapat dibaca agen dari jawaban rujukan untuk penilaian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P102",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.2.1. Sumber dan Cakupan Data.",
+      "finding_ids": []
+    },
+    {
+      "id": "P103",
+      "decision": "pertahankan",
+      "reason": "Menyatakan skema sumber dan sifat sintetis data yang diisikan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P104",
+      "decision": "revisi",
+      "reason": "Istilah kelompok analisis mengacu pada lima baris tabel sumber, sedangkan 3.5.3 dan Bab IV membagi hasil menjadi enam kelompok. SPM/SLA khususnya memiliki satu baris di sini dan dua kelompok hasil.",
+      "finding_ids": [
+        "W09"
+      ]
+    },
+    {
+      "id": "P105",
+      "decision": "revisi",
+      "reason": "Istilah kelompok analisis mengacu pada lima baris tabel sumber, sedangkan 3.5.3 dan Bab IV membagi hasil menjadi enam kelompok. SPM/SLA khususnya memiliki satu baris di sini dan dua kelompok hasil.",
+      "finding_ids": [
+        "W09"
+      ]
+    },
+    {
+      "id": "P106",
+      "decision": "pertahankan",
+      "reason": "Kolom Kelompok, Sumber data memberi dasar membaca Tabel 3.2 Kelompok Analisis dan Sumber Data Utama.",
+      "finding_ids": []
+    },
+    {
+      "id": "P107",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan perbedaan cakupan permintaan dan data yang bisa diakses.",
+      "finding_ids": []
+    },
+    {
+      "id": "P108",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.2.2. Pemilihan Kasus Uji.",
+      "finding_ids": []
+    },
+    {
+      "id": "P109",
+      "decision": "pertahankan",
+      "reason": "Menunjuk kemampuan pada Bab II sebagai alasan pemilihan kasus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P110",
+      "decision": "pertahankan",
+      "reason": "Menghubungkan jenis sumber dengan operasi yang dibutuhkan setiap kelompok tugas.",
+      "finding_ids": []
+    },
+    {
+      "id": "P111",
+      "decision": "pertahankan",
+      "reason": "Membedakan jumlah durasi non-null pada T1-C1 dari pemakaian dua jenis durasi pada T1-C2.",
+      "finding_ids": []
+    },
+    {
+      "id": "P112",
+      "decision": "pertahankan",
+      "reason": "Membedakan periode mingguan dari perhitungan setiap bulan tanpa mengabaikan hari tanpa laporan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P113",
+      "decision": "pertahankan",
+      "reason": "Pertahankan contoh yang dipuji pada rekaman 2 tentang syarat minimal satu tindakan dan stage semua tindakan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P114",
+      "decision": "pertahankan",
+      "reason": "Pertahankan rincian empat pola tindakan T4-C1 yang mendukung contoh pada rekaman 2.",
+      "finding_ids": []
+    },
+    {
+      "id": "P115",
+      "decision": "pertahankan",
+      "reason": "Pertahankan penjelasan kemunculan berulang pada T5 yang terkait pujian rekaman 2.",
+      "finding_ids": []
+    },
+    {
+      "id": "P116",
+      "decision": "pertahankan",
+      "reason": "Pertahankan kondisi prioritas kosong pada item rusak yang terkait pujian rekaman 2.",
+      "finding_ids": []
+    },
+    {
+      "id": "P117",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan tepat pada batas, sedikit melampaui batas dan keberlakuan SLA menurut ruas.",
+      "finding_ids": []
+    },
+    {
+      "id": "P118",
+      "decision": "pertahankan",
+      "reason": "Menamai objek pembandingan yaitu status tiap indikator serta arah perubahannya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P119",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.3 Daftar Lima Belas Kasus Uji sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P120",
+      "decision": "revisi",
+      "reason": "Kolom kemampuan memakai hasil yang berubah atau membaik tanpa menyebut objeknya. Baris T9-C2 dapat terbaca seolah setiap indikator memburuk, sedangkan contoh indikator keempat di L801 tetap gagal.",
+      "finding_ids": [
+        "W10"
+      ]
+    },
+    {
+      "id": "P121",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.2.3. Penyusunan Expected Result.",
+      "finding_ids": []
+    },
+    {
+      "id": "P122",
+      "decision": "pertahankan",
+      "reason": "Memisahkan perhitungan jawaban rujukan, representasi JSON dan pembatasan akses.",
+      "finding_ids": []
+    },
+    {
+      "id": "P123",
+      "decision": "pertahankan",
+      "reason": "Menunjuk tabel yang memuat aturan lintas tugas.",
+      "finding_ids": []
+    },
+    {
+      "id": "P124",
+      "decision": "revisi",
+      "reason": "Rentang tanggal pada test case memperkenalkan istilah baru untuk kasus atau prompt, padahal kalimat berikut kembali menyebut prompt dan L252 sudah menetapkan sumber batas tanggal.",
+      "finding_ids": [
+        "W11"
+      ]
+    },
+    {
+      "id": "P125",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P126",
+      "decision": "revisi",
+      "reason": "Aturan T5 hanya menjelaskan frekuensi. Pembaca yang mengikuti tabel untuk menyusun expected result masih dapat menghitung penyebab pada insiden dengan is_accident = false, persis perbedaan 7 dan 5 pada hasil.",
+      "finding_ids": [
+        "W12"
+      ]
+    },
+    {
+      "id": "P127",
+      "decision": "pertahankan",
+      "reason": "Contoh menyebut periode prompt, tanggal laporan, jumlah dan nilai dua jenis durasi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P128",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2 sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P129",
+      "decision": "pertahankan",
+      "reason": "Kolom Jenis data, Jumlah data, Total durasi (detik) memberi dasar membaca Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2.",
+      "finding_ids": []
+    },
+    {
+      "id": "P130",
+      "decision": "pertahankan",
+      "reason": "Menghubungkan lambang D dan komponen pada tabel dengan persamaan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P131",
+      "decision": "pertahankan",
+      "reason": "Persamaan menampilkan penjumlahan enam durasi 10 detik dan satu durasi 2 detik.",
+      "finding_ids": []
+    },
+    {
+      "id": "P132",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan mengapa tujuh durasi semuanya masuk dalam pembagian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P133",
+      "decision": "pertahankan",
+      "reason": "Persamaan menampilkan pembagian 62 detik dengan tujuh dan pembulatan menjadi 8,86 detik.",
+      "finding_ids": []
+    },
+    {
+      "id": "P134",
+      "decision": "pertahankan",
+      "reason": "Menghubungkan pembulatan dengan atribut JSON yang menyimpan angka dan lokasi lampiran.",
+      "finding_ids": []
+    },
+    {
+      "id": "P135",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.3. Penyusunan Prompt dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P136",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan fungsi instruksi sistem sebelum pembaca melihat instruksi verbatim.",
+      "finding_ids": []
+    },
+    {
+      "id": "P137",
+      "decision": "pertahankan",
+      "reason": "Instruksi sistem dikutip verbatim dalam tabel satu sel.",
+      "finding_ids": []
+    },
+    {
+      "id": "P138",
+      "decision": "revisi",
+      "reason": "Prompt sesudah kutipan system prompt belum dibedakan dari instruksi kasus. Kalimat pertama praktis diulang sebagai Setiap kasus menggunakan satu prompt di L350.",
+      "finding_ids": [
+        "W13"
+      ]
+    },
+    {
+      "id": "P139",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.3.1. Pertanyaan dan Format Jawaban.",
+      "finding_ids": []
+    },
+    {
+      "id": "P140",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan isi permintaan, batas informasi kasus dan fungsi output_schema.",
+      "finding_ids": []
+    },
+    {
+      "id": "P141",
+      "decision": "pertahankan",
+      "reason": "Menandai contoh serta aturan LHR yang memang tidak dibocorkan dalam prompt.",
+      "finding_ids": []
+    },
+    {
+      "id": "P142",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.6 *Prompt* T2-C1 sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P143",
+      "decision": "pertahankan",
+      "reason": "Pertanyaan, instruksi pembulatan dan JSON Schema adalah artefak. Pertahankan tanda titik koma dalam instruksi sumber.",
+      "finding_ids": []
+    },
+    {
+      "id": "P144",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.3.2. Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P145",
+      "decision": "pertahankan",
+      "reason": "Menyatakan dasar pengetahuan penyusun dokumen tanpa mengklaim verifikasi eksternal.",
+      "finding_ids": []
+    },
+    {
+      "id": "P146",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan bahwa satu skill berisi satu dokumen utama dan enam referensi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P147",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.7 Susunan dan Fungsi Dokumen Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P148",
+      "decision": "revisi",
+      "reason": "Kolom Fungsi bagi agen berpindah dari tindakan dokumen SKILL.md yang mengarahkan agen ke aktivitas agen sendiri, misalnya memahami istilah dan menghitung volume. Akibatnya subjek tersirat kolom berubah antarbaris.",
+      "finding_ids": [
+        "W14"
+      ]
+    },
+    {
+      "id": "P149",
+      "decision": "pertahankan",
+      "reason": "Mengantar kutipan instruksi untuk pertanyaan lintas topik.",
+      "finding_ids": []
+    },
+    {
+      "id": "P150",
+      "decision": "pertahankan",
+      "reason": "Instruksi lintas topik dikutip verbatim dalam tabel satu sel.",
+      "finding_ids": []
+    },
+    {
+      "id": "P151",
+      "decision": "pertahankan",
+      "reason": "Contoh pasangan berkas menerangkan instruksi lintas topik secara konkret.",
+      "finding_ids": []
+    },
+    {
+      "id": "P152",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.4. Generasi Jawaban oleh LLM.",
+      "finding_ids": []
+    },
+    {
+      "id": "P153",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.4.1. Model dan Lingkungan Pengujian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P154",
+      "decision": "pertahankan",
+      "reason": "Menempatkan versi model dan pengaturan akses di lingkungan pengujian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P155",
+      "decision": "pertahankan",
+      "reason": "Menempatkan pengaturan tetap sebelum rincian konfigurasi dan sumbernya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P156",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.8 Pengaturan Model pada Pengujian sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P157",
+      "decision": "pertahankan",
+      "reason": "Kolom Pengaturan pengujian, Muse Spark 1.3, DeepSeek v4 Flash memberi dasar membaca Tabel 3.8 Pengaturan Model pada Pengujian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P158",
+      "decision": "pertahankan",
+      "reason": "Menautkan konfigurasi lokal dan sumber penyedia pada tabel pengaturan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P159",
+      "decision": "pertahankan",
+      "reason": "Mengidentifikasi eksekusi per konfigurasi dan pengulangan sebagai isi diagram.",
+      "finding_ids": []
+    },
+    {
+      "id": "P160",
+      "decision": "pertahankan",
+      "reason": "Keterangan menamai Gambar 3.2 Alur Pelaksanaan Pengujian. Bentuk diagram memerlukan naskah bergambar.",
+      "finding_ids": []
+    },
+    {
+      "id": "P161",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.4.2. Akses Data.",
+      "finding_ids": []
+    },
+    {
+      "id": "P162",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan alih tugas dari agen yang memilih parameter ke server MCP.",
+      "finding_ids": []
+    },
+    {
+      "id": "P163",
+      "decision": "pertahankan",
+      "reason": "Membedakan daftar sumber yang tersedia dari struktur satu sumber terpilih.",
+      "finding_ids": []
+    },
+    {
+      "id": "P164",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan halaman data, cursor dan penggunaan hasil pembacaan oleh agen.",
+      "finding_ids": []
+    },
+    {
+      "id": "P165",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.9 tentang tool akses data sistem operasional sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P166",
+      "decision": "pertahankan",
+      "reason": "Kolom Tool, Input utama, Kegunaan memberi dasar membaca Tabel 3.9 tentang tool akses data sistem operasional.",
+      "finding_ids": []
+    },
+    {
+      "id": "P167",
+      "decision": "pertahankan",
+      "reason": "Memberi lokasi rincian akses data untuk pembaca yang membutuhkan parameter.",
+      "finding_ids": []
+    },
+    {
+      "id": "P168",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.4.3. Prosedur Generasi Jawaban.",
+      "finding_ids": []
+    },
+    {
+      "id": "P169",
+      "decision": "pertahankan",
+      "reason": "Menyebut tujuan penggunaan pengulangan pada dua penelitian asal.",
+      "finding_ids": []
+    },
+    {
+      "id": "P170",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan percakapan baru per eksekusi dan penggunaan expected result yang sama.",
+      "finding_ids": []
+    },
+    {
+      "id": "P171",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.5. Evaluasi Hasil Generasi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P172",
+      "decision": "revisi",
+      "reason": "Cara penilaian per pertanyaan ini dapat membuat rujukan Hu dkk. terbaca sebagai dukungan untuk semua rincian pencocokan JSON yang menyusul.",
+      "finding_ids": [
+        "W15"
+      ]
+    },
+    {
+      "id": "P173",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.5.1. Perbandingan Respons dan *Expected Result*.",
+      "finding_ids": []
+    },
+    {
+      "id": "P174",
+      "decision": "pertahankan",
+      "reason": "Menetapkan beda urutan elemen array dan urutan properti objek.",
+      "finding_ids": []
+    },
+    {
+      "id": "P175",
+      "decision": "pertahankan",
+      "reason": "Contoh 10 dan 10.0 memperjelas kesetaraan nilai tanpa toleransi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P176",
+      "decision": "pertahankan",
+      "reason": "Memberi konteks kasus untuk dua contoh keputusan di tabel berikut.",
+      "finding_ids": []
+    },
+    {
+      "id": "P177",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 3.10 Contoh Evaluasi PASS dan FAIL pada T5-C1 sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P178",
+      "decision": "pertahankan",
+      "reason": "Dua objek jawaban dan expected result mendukung pemeriksaan contoh L455. Pertahankan nilai dan kunci persis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P179",
+      "decision": "pertahankan",
+      "reason": "Menamai tiga selisih pada jawaban B sehingga keputusan FAIL dapat diperiksa.",
+      "finding_ids": []
+    },
+    {
+      "id": "P180",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.5.2. Perhitungan Tingkat Keberhasilan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P181",
+      "decision": "pertahankan",
+      "reason": "Menunjuk pembilang dan penyebut rumus keberhasilan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P182",
+      "decision": "pertahankan",
+      "reason": "Persamaan menampilkan persentase PASS terhadap seluruh jawaban yang dinilai.",
+      "finding_ids": []
+    },
+    {
+      "id": "P183",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan basis 45 per konfigurasi dan perbedaan penyebut pada tabel hasil.",
+      "finding_ids": []
+    },
+    {
+      "id": "P184",
+      "decision": "pertahankan",
+      "reason": "Notasi x/3 terikat pada satu kasus, model dan kondisi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P185",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 3.5.3. Analisis Perbandingan Hasil.",
+      "finding_ids": []
+    },
+    {
+      "id": "P186",
+      "decision": "revisi",
+      "reason": "Pergantian dari menggabungkan jawaban menurut kondisi, lalu menurut model, ke dua perbandingan dengan satu faktor tetap tersembunyi dalam satu deret enam kalimat dengan istilah hasil. Pembaca perlu melacak sendiri penyebut yang berubah.",
+      "finding_ids": [
+        "W16"
+      ]
+    },
+    {
+      "id": "P187",
+      "decision": "pertahankan",
+      "reason": "Menyebut enam kelompok secara eksplisit dan langkah pemeriksaan jawaban gagal.",
+      "finding_ids": []
+    },
+    {
+      "id": "P188",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan BAB IV — HASIL DAN PEMBAHASAN.",
+      "finding_ids": []
+    },
+    {
+      "id": "P189",
+      "decision": "pertahankan",
+      "reason": "Memberi orientasi urutan enam kelompok dan sintesis hasil.",
+      "finding_ids": []
+    },
+    {
+      "id": "P190",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.1. Lingkungan Pengujian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P191",
+      "decision": "periksa bukti",
+      "reason": "OpenCode disebut provider di sini dan pada baris L488, sedangkan L391 menyebut model dijalankan melalui OpenCode dan L393 membedakan provider masing-masing model. Identitas penyedia dan perangkat perantara menjadi kabur.",
+      "finding_ids": [
+        "W17"
+      ]
+    },
+    {
+      "id": "P192",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.1 Lingkungan Pengujian sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P193",
+      "decision": "periksa bukti",
+      "reason": "Sel model memuat pelabelan provider OpenCode yang sama dengan L481.",
+      "finding_ids": [
+        "W18"
+      ]
+    },
+    {
+      "id": "P194",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.2. Data Penelitian.",
+      "finding_ids": []
+    },
+    {
+      "id": "P195",
+      "decision": "pertahankan",
+      "reason": "Membedakan baris sintetis, kasus, jenis tugas dan kelompok pembahasan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P196",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan 45 jawaban per konfigurasi dan jumlah 180.",
+      "finding_ids": []
+    },
+    {
+      "id": "P197",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.2 Distribusi Kasus dan Jawaban menurut Kelompok Analisis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P198",
+      "decision": "pertahankan",
+      "reason": "Kolom Kelompok analisis, Jenis tugas, Kasus, Jawaban per kombinasi, Total jawaban memberi dasar membaca Tabel 4.2 Distribusi Kasus dan Jawaban menurut Kelompok Analisis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P199",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.3. Analisis Hasil pada Durasi Transaksi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P200",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.3.1. Berdasarkan Ketersediaan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P201",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan bahwa 12 jawaban per kondisi mencakup kedua model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P202",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.3 Hasil Durasi Transaksi menurut Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P203",
+      "decision": "pertahankan",
+      "reason": "Kolom Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.3 Hasil Durasi Transaksi menurut Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P204",
+      "decision": "pertahankan",
+      "reason": "Mengaitkan kecocokan rata-rata dengan perbedaan jumlah durasi dan jenis gardu.",
+      "finding_ids": []
+    },
+    {
+      "id": "P205",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.3.2. Berdasarkan Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P206",
+      "decision": "pertahankan",
+      "reason": "Menetapkan penyebut 12 per model saat kondisi digabung.",
+      "finding_ids": []
+    },
+    {
+      "id": "P207",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.4 Hasil Durasi Transaksi menurut Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P208",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.4 Hasil Durasi Transaksi menurut Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P209",
+      "decision": "pertahankan",
+      "reason": "Menamai rata-rata dalam detik untuk masing-masing kasus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P210",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.3.3. Berdasarkan Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P211",
+      "decision": "pertahankan",
+      "reason": "Menurunkan enam jawaban per konfigurasi dari dua kasus dan tiga pengulangan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P212",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.5 Hasil Durasi Transaksi menurut Kombinasi Model dan Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P213",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.5 Hasil Durasi Transaksi menurut Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P214",
+      "decision": "pertahankan",
+      "reason": "Menambahkan rincian 3/3 per kasus pada hasil 6/6.",
+      "finding_ids": []
+    },
+    {
+      "id": "P215",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.4. Analisis Hasil pada Volume Lalu Lintas dan LHR.",
+      "finding_ids": []
+    },
+    {
+      "id": "P216",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.4.1. Berdasarkan Ketersediaan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P217",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan dua cakupan waktu dan asal 12 jawaban pada setiap kondisi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P218",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.6 Hasil Volume Lalu Lintas dan LHR menurut Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P219",
+      "decision": "pertahankan",
+      "reason": "Kolom Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.6 Hasil Volume Lalu Lintas dan LHR menurut Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P220",
+      "decision": "pertahankan",
+      "reason": "Melokalisasi kegagalan pada kelengkapan T3-C1 serta menyatakan T2-C1 lulus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P221",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.4.2. Berdasarkan Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P222",
+      "decision": "pertahankan",
+      "reason": "Membagi 12 jawaban per model menjadi enam per kondisi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P223",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.7 Hasil Volume Lalu Lintas dan LHR menurut Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P224",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.7 Hasil Volume Lalu Lintas dan LHR menurut Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P225",
+      "decision": "pertahankan",
+      "reason": "Menentukan bahwa perbedaan antarmodel berada pada T3-C1 tanpa dokumen.",
+      "finding_ids": []
+    },
+    {
+      "id": "P226",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.4.3. Berdasarkan Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P227",
+      "decision": "pertahankan",
+      "reason": "Menjelaskan enam jawaban per konfigurasi pada dua kasus lalu lintas.",
+      "finding_ids": []
+    },
+    {
+      "id": "P228",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.8 Hasil Volume Lalu Lintas dan LHR menurut Kombinasi Model dan Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P229",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.8 Hasil Volume Lalu Lintas dan LHR menurut Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P230",
+      "decision": "pertahankan",
+      "reason": "Mengaitkan hasil konfigurasi dengan T2-C1 yang selalu lulus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P231",
+      "decision": "pertahankan",
+      "reason": "Membedakan Gol. 5 yang absen dari nilai nol yang seharusnya ditampilkan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P232",
+      "decision": "periksa bukti",
+      "reason": "Keluaran membuktikan Gol. 5 tercantum atau hilang. Pernyataan bahwa agen membentuk daftar dari satu sumber atau menggunakan seluruh data master memerlukan bukti langkah pembacaan.",
+      "finding_ids": [
+        "W19"
+      ]
+    },
+    {
+      "id": "P233",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.5. Analisis Hasil pada Insiden dan Penyebab Kecelakaan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P234",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.5.1. Berdasarkan Ketersediaan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P235",
+      "decision": "pertahankan",
+      "reason": "Menamai dua keluaran yang berbeda yaitu status insiden dan distribusi penyebab.",
+      "finding_ids": []
+    },
+    {
+      "id": "P236",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.9 Hasil Insiden dan Penyebab Kecelakaan menurut Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P237",
+      "decision": "pertahankan",
+      "reason": "Kolom Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.9 Hasil Insiden dan Penyebab Kecelakaan menurut Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P238",
+      "decision": "pertahankan",
+      "reason": "Merinci keadaan empat insiden sekaligus memisahkan kasus penyebab kecelakaan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P239",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.5.2. Berdasarkan Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P240",
+      "decision": "pertahankan",
+      "reason": "Menentukan cakupan kedua kasus dan 12 jawaban per model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P241",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.10 Hasil Insiden dan Penyebab Kecelakaan menurut Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P242",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.10 Hasil Insiden dan Penyebab Kecelakaan menurut Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P243",
+      "decision": "pertahankan",
+      "reason": "Melokalisasi kesenjangan model pada T5-C1 tanpa konteks.",
+      "finding_ids": []
+    },
+    {
+      "id": "P244",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.5.3. Berdasarkan Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P245",
+      "decision": "pertahankan",
+      "reason": "Menetapkan dua kasus dan tiga pengulangan per kombinasi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P246",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.11 Hasil Insiden dan Penyebab Kecelakaan menurut Kombinasi Model dan Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P247",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.11 Hasil Insiden dan Penyebab Kecelakaan menurut Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P248",
+      "decision": "pertahankan",
+      "reason": "Menunjuk dua pengulangan Muse yang gagal untuk pembandingan berikutnya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P249",
+      "decision": "pertahankan",
+      "reason": "Menyebut kriteria true dan selisih 7 terhadap 5 sebelum tabel.",
+      "finding_ids": []
+    },
+    {
+      "id": "P250",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.12 Perbedaan Jawaban pada T5-C1 sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P251",
+      "decision": "pertahankan",
+      "reason": "Kolom Komponen output, Expected result, Muse Spark 1.3 tanpa konteks bisnis, pengulangan 1 dan 3 memberi dasar membaca Tabel 4.12 Perbedaan Jawaban pada T5-C1.",
+      "finding_ids": []
+    },
+    {
+      "id": "P252",
+      "decision": "periksa bukti",
+      "reason": "Status is_accident dan dua penyebab menjelaskan selisih output. Pernyataan bahwa Muse membaca empat insiden atau membaca aturan pada pengulangan tertentu mengklaim langkah yang tidak ditampilkan oleh Tabel 4.12.",
+      "finding_ids": [
+        "W20"
+      ]
+    },
+    {
+      "id": "P253",
+      "decision": "periksa bukti",
+      "reason": "Status is_accident dan dua penyebab menjelaskan selisih output. Pernyataan bahwa Muse membaca empat insiden atau membaca aturan pada pengulangan tertentu mengklaim langkah yang tidak ditampilkan oleh Tabel 4.12.",
+      "finding_ids": [
+        "W20"
+      ]
+    },
+    {
+      "id": "P254",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.6. Analisis Hasil pada Inspeksi dan Identitas Aset.",
+      "finding_ids": []
+    },
+    {
+      "id": "P255",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.6.1. Berdasarkan Ketersediaan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P256",
+      "decision": "pertahankan",
+      "reason": "Menempatkan ringkasan kerusakan pada satu kasus dan enam jawaban per kondisi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P257",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.13 Hasil Inspeksi dan Identitas Aset menurut Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P258",
+      "decision": "pertahankan",
+      "reason": "Kolom Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.13 Hasil Inspeksi dan Identitas Aset menurut Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P259",
+      "decision": "pertahankan",
+      "reason": "Membedakan empat item rusak dari tiga item berprioritas P1 atau P2.",
+      "finding_ids": []
+    },
+    {
+      "id": "P260",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.6.2. Berdasarkan Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P261",
+      "decision": "pertahankan",
+      "reason": "Menentukan enam jawaban per model setelah kedua kondisi digabung.",
+      "finding_ids": []
+    },
+    {
+      "id": "P262",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.14 Hasil Inspeksi dan Identitas Aset menurut Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P263",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.14 Hasil Inspeksi dan Identitas Aset menurut Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P264",
+      "decision": "pertahankan",
+      "reason": "Menambahkan rincian aset Bahu dan Lajur 1 pada penilaian per model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P265",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.6.3. Berdasarkan Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P266",
+      "decision": "pertahankan",
+      "reason": "Menamai tiga pengulangan untuk tiap konfigurasi kasus inspeksi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P267",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.15 Hasil Inspeksi dan Identitas Aset menurut Kombinasi Model dan Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P268",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.15 Hasil Inspeksi dan Identitas Aset menurut Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P269",
+      "decision": "pertahankan",
+      "reason": "Mengaitkan 3/3 dengan satu kasus inspeksi pada seluruh pengulangan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P270",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.7. Analisis Hasil pada SPM dan SLA per Laporan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P271",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.7.1. Berdasarkan Ketersediaan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P272",
+      "decision": "pertahankan",
+      "reason": "Membatasi perbandingan pada empat kasus per laporan dan 24 jawaban per kondisi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P273",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.16 Hasil SPM/SLA per Laporan menurut Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P274",
+      "decision": "pertahankan",
+      "reason": "Kolom Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.16 Hasil SPM/SLA per Laporan menurut Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P275",
+      "decision": "pertahankan",
+      "reason": "Memisahkan tiga jawaban dengan status keliru dan satu jawaban yang tidak lengkap.",
+      "finding_ids": []
+    },
+    {
+      "id": "P276",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.7.2. Berdasarkan Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P277",
+      "decision": "pertahankan",
+      "reason": "Menetapkan 24 jawaban kedua kondisi untuk setiap model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P278",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.17 Hasil SPM/SLA per Laporan menurut Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P279",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.17 Hasil SPM/SLA per Laporan menurut Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P280",
+      "decision": "pertahankan",
+      "reason": "Melokalisasi perbedaan model pada kondisi tanpa konteks.",
+      "finding_ids": []
+    },
+    {
+      "id": "P281",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P282",
+      "decision": "pertahankan",
+      "reason": "Mendefinisikan 12 jawaban setiap konfigurasi sebagai tiga kali empat kasus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P283",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.18 Hasil SPM/SLA per Laporan menurut Kombinasi Model dan Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P284",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.18 Hasil SPM/SLA per Laporan menurut Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P285",
+      "decision": "pertahankan",
+      "reason": "Menyebut dua kasus tanpa kegagalan dan mengarahkan ke empat kegagalan spesifik.",
+      "finding_ids": []
+    },
+    {
+      "id": "P286",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P287",
+      "decision": "pertahankan",
+      "reason": "Kolom Kasus, Model dan pengulangan, Bagian jawaban, Expected result, Jawaban agen memberi dasar membaca Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P288",
+      "decision": "revisi",
+      "reason": "Frasa rata-rata durasi yang selisih sedikit di atas batas mencampur nilai durasi dengan selisihnya. Angka berikut menunjukkan bahwa rata-rata itu sendiri melebihi batas. Penjelasan menyebut pembulatan sebelum perbandingan dan pembacaan konfigurasi sebagai langkah aktual pada pengulangan tertentu. Tabel 4.19 memperlihatkan hasil akhirnya. Dua status true saja tidak membuktikan urutan operasi.",
+      "finding_ids": [
+        "W21",
+        "W22"
+      ]
+    },
+    {
+      "id": "P289",
+      "decision": "periksa bukti",
+      "reason": "Penjelasan menyebut pembulatan sebelum perbandingan dan pembacaan konfigurasi sebagai langkah aktual pada pengulangan tertentu. Tabel 4.19 memperlihatkan hasil akhirnya. Dua status true saja tidak membuktikan urutan operasi.",
+      "finding_ids": [
+        "W22"
+      ]
+    },
+    {
+      "id": "P290",
+      "decision": "periksa bukti",
+      "reason": "Penjelasan menyebut pembulatan sebelum perbandingan dan pembacaan konfigurasi sebagai langkah aktual pada pengulangan tertentu. Tabel 4.19 memperlihatkan hasil akhirnya. Dua status true saja tidak membuktikan urutan operasi.",
+      "finding_ids": [
+        "W22"
+      ]
+    },
+    {
+      "id": "P291",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode.",
+      "finding_ids": []
+    },
+    {
+      "id": "P292",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.8.1. Berdasarkan Ketersediaan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P293",
+      "decision": "pertahankan",
+      "reason": "Membedakan evaluasi satu periode dari perbandingan status dua periode.",
+      "finding_ids": []
+    },
+    {
+      "id": "P294",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P295",
+      "decision": "pertahankan",
+      "reason": "Kolom Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P296",
+      "decision": "pertahankan",
+      "reason": "Mengaitkan 24/24 dengan status dan perubahan status yang diuji.",
+      "finding_ids": []
+    },
+    {
+      "id": "P297",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.8.2. Berdasarkan Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P298",
+      "decision": "pertahankan",
+      "reason": "Menetapkan empat kasus dan 24 jawaban per model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P299",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P300",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P301",
+      "decision": "pertahankan",
+      "reason": "Menjaga perbedaan status not_applicable dan hasil indikator gagal.",
+      "finding_ids": []
+    },
+    {
+      "id": "P302",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P303",
+      "decision": "pertahankan",
+      "reason": "Menamai empat kasus serta asal penyebut 12.",
+      "finding_ids": []
+    },
+    {
+      "id": "P304",
+      "decision": "pertahankan",
+      "reason": "Keterangan mengidentifikasi Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis sebelum isinya.",
+      "finding_ids": []
+    },
+    {
+      "id": "P305",
+      "decision": "pertahankan",
+      "reason": "Kolom Model, Konteks bisnis, PASS/Total jawaban, Tingkat keberhasilan memberi dasar membaca Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis.",
+      "finding_ids": []
+    },
+    {
+      "id": "P306",
+      "decision": "pertahankan",
+      "reason": "Memecah 12/12 menjadi tiga keberhasilan pada setiap kasus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P307",
+      "decision": "pertahankan",
+      "reason": "Contoh membedakan perubahan jumlah evaluasi gagal dari status tetap gagal.",
+      "finding_ids": []
+    },
+    {
+      "id": "P308",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 4.9. Interpretasi Hasil.",
+      "finding_ids": []
+    },
+    {
+      "id": "P309",
+      "decision": "pertahankan",
+      "reason": "Menempatkan kesepuluh kegagalan dalam satu kondisi sebelum angka per model.",
+      "finding_ids": []
+    },
+    {
+      "id": "P310",
+      "decision": "pertahankan",
+      "reason": "Menyajikan keempat angka dengan penyebut 45 dan membatasi pernyataan pada kasus uji.",
+      "finding_ids": []
+    },
+    {
+      "id": "P311",
+      "decision": "pertahankan",
+      "reason": "Rekaman 39 memuji penjelasan ini. Paragraf menyebut arah selisih menurut bidang dan bidang tempat semua jawaban lulus.",
+      "finding_ids": []
+    },
+    {
+      "id": "P312",
+      "decision": "pertahankan",
+      "reason": "Rekaman 38 menilai gaya ini secara positif dengan kualifikasi. Contoh menjelaskan mengapa nilai yang dicantumkan bisa benar saat jawaban tidak lengkap.",
+      "finding_ids": []
+    },
+    {
+      "id": "P313",
+      "decision": "revisi",
+      "reason": "Ringkasan menyebut agen memasukkan satu insiden dan membandingkan angka setelah pembulatan tanpa membatasi klaim pada model dan pengulangan contoh atau menunjukkan sumber proses.",
+      "finding_ids": [
+        "W23"
+      ]
+    },
+    {
+      "id": "P314",
+      "decision": "pertahankan",
+      "reason": "Pertahankan rincian yang dipuji pada rekaman 40. Teks membedakan jumlah PASS per pengulangan pada masing-masing model dan kondisi.",
+      "finding_ids": []
+    },
+    {
+      "id": "P315",
+      "decision": "revisi",
+      "reason": "Kasus yang gagal berubah antarpengulangan dapat berarti semua kasus berganti. T3-C1 selalu gagal, sedangkan hanya kasus kedua yang berbeda.",
+      "finding_ids": [
+        "W24"
+      ]
+    },
+    {
+      "id": "P316",
+      "decision": "pertahankan",
+      "reason": "Membatasi interpretasi pada pemberian semua dokumen bersama dan evaluasi hasil akhir.",
+      "finding_ids": []
+    },
+    {
+      "id": "P317",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan BAB V — PENUTUP.",
+      "finding_ids": []
+    },
+    {
+      "id": "P318",
+      "decision": "pertahankan",
+      "reason": "Mempertahankan orientasi kesimpulan yang diminta dalam rekaman 18.",
+      "finding_ids": []
+    },
+    {
+      "id": "P319",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 5.1. Kesimpulan.",
+      "finding_ids": []
+    },
+    {
+      "id": "P320",
+      "decision": "pertahankan",
+      "reason": "Menjawab rumusan masalah dengan empat proporsi dan selisih dalam poin persentase.",
+      "finding_ids": []
+    },
+    {
+      "id": "P321",
+      "decision": "pertahankan",
+      "reason": "Menguraikan selisih dua jawaban melalui arah perbedaan pada kelompok tugas.",
+      "finding_ids": []
+    },
+    {
+      "id": "P322",
+      "decision": "pertahankan",
+      "reason": "Jumlah empat, dua, tiga dan satu menjelaskan seluruh sepuluh jawaban FAIL.",
+      "finding_ids": []
+    },
+    {
+      "id": "P323",
+      "decision": "revisi",
+      "reason": "Kasus gagal yang berbeda antara kedua model dapat terbaca sebagai dua himpunan tanpa irisan. T3-C1 dan T7-C2 muncul pada keduanya.",
+      "finding_ids": [
+        "W25"
+      ]
+    },
+    {
+      "id": "P324",
+      "decision": "pertahankan",
+      "reason": "Membatasi kesimpulan pada 15 kasus, tiga pengulangan dan evaluasi struktur serta nilai.",
+      "finding_ids": []
+    },
+    {
+      "id": "P325",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan 5.2. Saran.",
+      "finding_ids": []
+    },
+    {
+      "id": "P326",
+      "decision": "revisi",
+      "reason": "Usulan mengevaluasi kelengkapan jawaban terlihat mengulang kriteria yang sudah menyebabkan FAIL pada T3-C1 dan T7-C2. Belum terlihat apa yang akan diukur secara berbeda.",
+      "finding_ids": [
+        "W26"
+      ]
+    },
+    {
+      "id": "P327",
+      "decision": "pertahankan",
+      "reason": "Judul menandai cakupan DAFTAR PUSTAKA.",
+      "finding_ids": []
+    },
+    {
+      "id": "P328",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Adyen (n.d.) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P329",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Agent Skills (n.d.) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P330",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Alpar (2016) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P331",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Anthropic (2025, 11 September) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P332",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Brown (2020) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P333",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Chaudhuri (2011) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P334",
+      "decision": "periksa bukti",
+      "reason": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+      "finding_ids": [
+        "W27"
+      ]
+    },
+    {
+      "id": "P335",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Cloudflare (2026) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P336",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis DeepSeek (2026a, 17 Oktober) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P337",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis DeepSeek (2026b) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P338",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis DeepSeek-AI (2026) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P339",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Egg (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P340",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Gruber (1993) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P341",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Hong (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P342",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Hu (2024) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P343",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Lei (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P344",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Li (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P345",
+      "decision": "periksa bukti",
+      "reason": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+      "finding_ids": [
+        "W28"
+      ]
+    },
+    {
+      "id": "P346",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Li (2026) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P347",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Liu (2024) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P348",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Liu (2024) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P349",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Meta (2026a) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P350",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Meta (2026b) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P351",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Meta (2026c) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P352",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Meta (2026d) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P353",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Meta (2026e) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P354",
+      "decision": "periksa bukti",
+      "reason": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+      "finding_ids": [
+        "W29"
+      ]
+    },
+    {
+      "id": "P355",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Model Context Protocol (2026) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P356",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Noy (2001) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P357",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Osés Grijalba (2024) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P358",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Quamar (2020) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P359",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Rumiantsau (2026) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P360",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Sahu (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P361",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Sawant (2024) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P362",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Shi (2023) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P363",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Vishwakarma (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P364",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Wang (2024) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P365",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Wu (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    },
+    {
+      "id": "P366",
+      "decision": "pertahankan",
+      "reason": "Entri bibliografis Yao (2025) dapat ditelusuri dari atribusi dalam naskah.",
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "W01",
+      "start": 15,
+      "end": 15,
+      "passage_ids": [
+        "P008"
+      ],
+      "problem": "Istilah akurasi menutupi bahwa ukuran pada studi retail adalah Analytical Pass Rate. Pembaca dapat menyamakannya dengan kecocokan JSON pada studi ini.",
+      "kind": "makna",
+      "acceptance_condition": "Sebutkan ukuran asal dan selaraskan presisi angka dengan L91.",
+      "preserve": "17,2–23,2 poin persentase dan atribusi kepada Rumiantsau dan Fokeev.",
+      "feedback_records": []
+    },
+    {
+      "id": "W02",
+      "start": 17,
+      "end": 17,
+      "passage_ids": [
+        "P009"
+      ],
+      "problem": "Tujuan melihat bagaimana agen menggunakan aturan menyiratkan bahwa proses penggunaan aturan diamati untuk semua kasus. Penilaian utama memeriksa jawaban akhir.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Jelaskan mengapa kondisi data pada kasus terpilih menuntut aturan tertentu untuk memperoleh jawaban yang diharapkan.",
+      "preserve": "Contoh tindakan insiden, data yang tidak tersedia, dan status setiap indikator pada dua periode.",
+      "feedback_records": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "W03",
+      "start": 43,
+      "end": 43,
+      "passage_ids": [
+        "P020"
+      ],
+      "problem": "Frasa diberikan bersama kepada agen dapat dibaca sebagai penyisipan tujuh isi dokumen dalam setiap prompt, sementara L346 dan L366–385 menggambarkan akses melalui skill.",
+      "kind": "makna",
+      "acceptance_condition": "Bedakan ketersediaan ketujuh dokumen dari pembacaan referensi oleh agen.",
+      "preserve": "Semua dokumen tersedia bersama hanya pada satu kondisi dan efek tiap dokumen tidak dipisahkan.",
+      "feedback_records": []
+    },
+    {
+      "id": "W04",
+      "start": 77,
+      "end": 77,
+      "passage_ids": [
+        "P029"
+      ],
+      "problem": "Dua sel berturut-turut pada baris InsightBench sama-sama mengatakan bahwa insight terbuka dievaluasi dengan LLM. Pembaca belum mengetahui apa arti pilihan evaluasi itu untuk perbandingan di tabel.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Gunakan kolom terakhir untuk menerangkan satu hubungan yang relevan dengan penggunaan jawaban pasti di sini.",
+      "preserve": "Perumusan pertanyaan, analisis, interpretasi, 100 dataset, dan atribusi Sahu dkk.",
+      "feedback_records": []
+    },
+    {
+      "id": "W05",
+      "start": 91,
+      "end": 91,
+      "passage_ids": [
+        "P034"
+      ],
+      "problem": "Dua kelompok model dalam kalimat pertama dapat terbaca sebagai model berbeda pada setiap kondisi. Frasa berdasarkan hasil eksekusi dan Claude sebagai judge menyandingkan bahan penilaian dengan pihak yang menilai.",
+      "kind": "makna",
+      "acceptance_condition": "Nyatakan apa yang berbeda pada masukan dan bedakan hasil eksekusi dari peran penilai sejauh didukung sumber.",
+      "preserve": "99 pertanyaan, ukuran asli, rentang poin persentase, nama penilai dan atribusi.",
+      "feedback_records": []
+    },
+    {
+      "id": "W06",
+      "start": 145,
+      "end": 145,
+      "passage_ids": [
+        "P061"
+      ],
+      "problem": "Dua kalimat berpindah dari pertanyaan penentu cakupan ontologi ke isi dokumen lokal tanpa menjelaskan apakah penelitian menerapkan metode ontologi atau hanya menggunakan gagasan yang sebanding.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Nyatakan kaitannya atau tempatkan pilihan isi lokal bersama uraian dokumen pada metode.",
+      "preserve": "Batasi atribusi Noy dan McGuinness pada cakupan dan perincian ontologi.",
+      "feedback_records": []
+    },
+    {
+      "id": "W07",
+      "start": 188,
+      "end": 188,
+      "passage_ids": [
+        "P081"
+      ],
+      "problem": "Urutan array tampak menjadi ketentuan umum semua pemeriksaan JSON. Kalimat tentang DataBench hanya menyebut JSON valid dan keberadaan atribut.",
+      "kind": "makna",
+      "acceptance_condition": "Tandai urutan array sebagai ketentuan evaluasi penelitian ini dan batasi klaim tentang DataBench pada pemeriksaan yang dijelaskan.",
+      "preserve": "Urutan elemen array, keberadaan atribut, tipe nilai, dan sumber DataBench.",
+      "feedback_records": []
+    },
+    {
+      "id": "W08",
+      "start": 218,
+      "end": 218,
+      "passage_ids": [
+        "P096"
+      ],
+      "problem": "Arti angka n dan m jelas, tetapi asal huruf T dan C masih harus ditebak, padahal penulis secara khusus meminta keduanya dijelaskan.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Hubungkan T dengan task atau jenis tugas dan C dengan case atau kasus pada penggunaan pertama.",
+      "preserve": "Pola T[n]-C[m], penomoran T1–T9, contoh T1-C2.",
+      "feedback_records": [
+        15,
+        25
+      ]
+    },
+    {
+      "id": "W09",
+      "start": 240,
+      "end": 242,
+      "passage_ids": [
+        "P104",
+        "P105"
+      ],
+      "problem": "Istilah kelompok analisis mengacu pada lima baris tabel sumber, sedangkan 3.5.3 dan Bab IV membagi hasil menjadi enam kelompok. SPM/SLA khususnya memiliki satu baris di sini dan dua kelompok hasil.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Gunakan sebutan yang menunjukkan lima topik pemetaan sumber dan selaraskan judul serta pengantarnya.",
+      "preserve": "15 tabel operasional, 237 baris, pemisahan data master dan konfigurasi serta identitas sumber.",
+      "feedback_records": [
+        5
+      ]
+    },
+    {
+      "id": "W10",
+      "start": 293,
+      "end": 294,
+      "passage_ids": [
+        "P120"
+      ],
+      "problem": "Kolom kemampuan memakai hasil yang berubah atau membaik tanpa menyebut objeknya. Baris T9-C2 dapat terbaca seolah setiap indikator memburuk, sedangkan contoh indikator keempat di L801 tetap gagal.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Sebutkan status pemenuhan tiap indikator dan bedakan keberadaan status memburuk dari klaim bahwa semua status memburuk.",
+      "preserve": "Dua periode, dua laporan per periode pada T9-C2, perbedaan antara status dan jumlah kegagalan.",
+      "feedback_records": [
+        27,
+        28
+      ]
+    },
+    {
+      "id": "W11",
+      "start": 302,
+      "end": 302,
+      "passage_ids": [
+        "P124"
+      ],
+      "problem": "Rentang tanggal pada test case memperkenalkan istilah baru untuk kasus atau prompt, padahal kalimat berikut kembali menyebut prompt dan L252 sudah menetapkan sumber batas tanggal.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Nyatakan sumber tanggal dengan istilah yang sudah digunakan untuk instruksi setiap kasus.",
+      "preserve": "Tanggal operasional, kedua ujung rentang, ruas, gerbang, shift, identitas gardu.",
+      "feedback_records": []
+    },
+    {
+      "id": "W12",
+      "start": 311,
+      "end": 311,
+      "passage_ids": [
+        "P126"
+      ],
+      "problem": "Aturan T5 hanya menjelaskan frekuensi. Pembaca yang mengikuti tabel untuk menyusun expected result masih dapat menghitung penyebab pada insiden dengan is_accident = false, persis perbedaan 7 dan 5 pada hasil.",
+      "kind": "makna",
+      "acceptance_condition": "Tambahkan kriteria pemilihan insiden yang sudah dinyatakan di L642 dan pertahankan cara menghitung kemunculan.",
+      "preserve": "is_accident = true, penyebab berulang dan perbedaan jumlah insiden dengan jumlah kemunculan.",
+      "feedback_records": []
+    },
+    {
+      "id": "W13",
+      "start": 346,
+      "end": 346,
+      "passage_ids": [
+        "P138"
+      ],
+      "problem": "Prompt sesudah kutipan system prompt belum dibedakan dari instruksi kasus. Kalimat pertama praktis diulang sebagai Setiap kasus menggunakan satu prompt di L350.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Bedakan instruksi bersama dan pertanyaan tiap kasus, lalu pertahankan satu tempat untuk uraian isinya.",
+      "preserve": "System prompt verbatim, prompt kasus identik pada keempat konfigurasi, akses tambahan pada 3.3.2.",
+      "feedback_records": [
+        72,
+        73
+      ]
+    },
+    {
+      "id": "W14",
+      "start": 370,
+      "end": 378,
+      "passage_ids": [
+        "P148"
+      ],
+      "problem": "Kolom Fungsi bagi agen berpindah dari tindakan dokumen SKILL.md yang mengarahkan agen ke aktivitas agen sendiri, misalnya memahami istilah dan menghitung volume. Akibatnya subjek tersirat kolom berubah antarbaris.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Pilih sudut pandang yang sama untuk fungsi semua dokumen dan pertahankan perbedaan antara petunjuk pemilihan referensi dan isi aturan.",
+      "preserve": "Ketujuh nama berkas, LHR per hari kalender, aturan per gardu, kategori, prioritas, aset dan antarperiode.",
+      "feedback_records": [
+        56,
+        57
+      ]
+    },
+    {
+      "id": "W15",
+      "start": 437,
+      "end": 437,
+      "passage_ids": [
+        "P172"
+      ],
+      "problem": "Cara penilaian per pertanyaan ini dapat membuat rujukan Hu dkk. terbaca sebagai dukungan untuk semua rincian pencocokan JSON yang menyusul.",
+      "kind": "makna",
+      "acceptance_condition": "Sebutkan prinsip per pertanyaan yang dirujuk dan tandai aturan pencocokan sebagai ketentuan studi ini.",
+      "preserve": "Perbandingan seluruh jawaban akhir dengan expected result dan identitas sumber.",
+      "feedback_records": []
+    },
+    {
+      "id": "W16",
+      "start": 471,
+      "end": 471,
+      "passage_ids": [
+        "P186"
+      ],
+      "problem": "Pergantian dari menggabungkan jawaban menurut kondisi, lalu menurut model, ke dua perbandingan dengan satu faktor tetap tersembunyi dalam satu deret enam kalimat dengan istilah hasil. Pembaca perlu melacak sendiri penyebut yang berubah.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Pisahkan penjelasan perhitungan gabungan dari pembacaan empat konfigurasi dan sebut persentase PASS sebagai yang dibandingkan.",
+      "preserve": "Kedua arah agregasi dan perbandingan, tiga pengulangan pada kasus yang dibahas, analisis deskriptif.",
+      "feedback_records": [
+        5,
+        111,
+        117,
+        120
+      ]
+    },
+    {
+      "id": "W17",
+      "start": 481,
+      "end": 481,
+      "passage_ids": [
+        "P191"
+      ],
+      "problem": "OpenCode disebut provider di sini dan pada baris L488, sedangkan L391 menyebut model dijalankan melalui OpenCode dan L393 membedakan provider masing-masing model. Identitas penyedia dan perangkat perantara menjadi kabur.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Cocokkan penyebutan peran OpenCode pada narasi dan Tabel 4.1 dengan uraian konfigurasi yang dapat ditunjukkan.",
+      "preserve": "Nama OpenCode, Cloudflare OS, kedua model serta ketiga tool.",
+      "feedback_records": []
+    },
+    {
+      "id": "W18",
+      "start": 488,
+      "end": 488,
+      "passage_ids": [
+        "P193"
+      ],
+      "problem": "Sel model memuat pelabelan provider OpenCode yang sama dengan L481.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Selaraskan sel ini dengan peran yang telah dipastikan pada 3.4.1.",
+      "preserve": "Nama kedua model dan lingkungan pengujian.",
+      "feedback_records": []
+    },
+    {
+      "id": "W19",
+      "start": 597,
+      "end": 597,
+      "passage_ids": [
+        "P232"
+      ],
+      "problem": "Keluaran membuktikan Gol. 5 tercantum atau hilang. Pernyataan bahwa agen membentuk daftar dari satu sumber atau menggunakan seluruh data master memerlukan bukti langkah pembacaan.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Tautkan pernyataan proses ke jejak yang tersedia atau pisahkan pola jawaban dari penjelasan proses yang belum dapat diperiksa.",
+      "preserve": "Tiga pengulangan tanpa konteks, satu contoh dengan konteks, Januari dan Februari, nol dan entri yang absen.",
+      "feedback_records": []
+    },
+    {
+      "id": "W20",
+      "start": 653,
+      "end": 655,
+      "passage_ids": [
+        "P252",
+        "P253"
+      ],
+      "problem": "Status is_accident dan dua penyebab menjelaskan selisih output. Pernyataan bahwa Muse membaca empat insiden atau membaca aturan pada pengulangan tertentu mengklaim langkah yang tidak ditampilkan oleh Tabel 4.12.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Tunjuk catatan langkah bila tersedia, atau bedakan penjelasan kecocokan selisih dengan data dari pembacaan yang benar-benar tercatat.",
+      "preserve": "Pengulangan pertama dan ketiga tanpa konteks, ketiga dengan konteks, nilai false dan true, total 7 dan 5.",
+      "feedback_records": []
+    },
+    {
+      "id": "W21",
+      "start": 752,
+      "end": 752,
+      "passage_ids": [
+        "P288"
+      ],
+      "problem": "Frasa rata-rata durasi yang selisih sedikit di atas batas mencampur nilai durasi dengan selisihnya. Angka berikut menunjukkan bahwa rata-rata itu sendiri melebihi batas.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Perbaiki hanya hubungan gramatikal pada pembuka. Pertahankan penjelasan terperinci yang secara khusus dipuji.",
+      "preserve": "6,004 dan 6,00 detik, batas 6 detik, gardu 3, indikator pertama, model dan pengulangan, dua status.",
+      "feedback_records": [
+        36
+      ]
+    },
+    {
+      "id": "W22",
+      "start": 752,
+      "end": 756,
+      "passage_ids": [
+        "P288",
+        "P289",
+        "P290"
+      ],
+      "problem": "Penjelasan menyebut pembulatan sebelum perbandingan dan pembacaan konfigurasi sebagai langkah aktual pada pengulangan tertentu. Tabel 4.19 memperlihatkan hasil akhirnya. Dua status true saja tidak membuktikan urutan operasi.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Pertahankan contoh perhitungan dan tingkat perinciannya. Beri rujukan ke catatan langkah atau rumuskan sebagai penjelasan numerik yang sesuai dengan hasil bila jejak tidak tersedia.",
+      "preserve": "6,004 dan 9,004, nilai setelah pembulatan, batas per indikator, 4 dari 20, serta perlakuan berbeda terhadap bukti Muse dan DeepSeek.",
+      "feedback_records": [
+        36
+      ]
+    },
+    {
+      "id": "W23",
+      "start": 813,
+      "end": 813,
+      "passage_ids": [
+        "P313"
+      ],
+      "problem": "Ringkasan menyebut agen memasukkan satu insiden dan membandingkan angka setelah pembulatan tanpa membatasi klaim pada model dan pengulangan contoh atau menunjukkan sumber proses.",
+      "kind": "makna",
+      "acceptance_condition": "Ikat setiap contoh ke hasil dan bukti proses pada bagian hasil terkait.",
+      "preserve": "is_accident = false, 7 dan 5, efek pembulatan pada status, dan batas generalisasi, dan penilaian positif tentatif pada rekaman 37.",
+      "feedback_records": [
+        37
+      ]
+    },
+    {
+      "id": "W24",
+      "start": 817,
+      "end": 817,
+      "passage_ids": [
+        "P315"
+      ],
+      "problem": "Kasus yang gagal berubah antarpengulangan dapat berarti semua kasus berganti. T3-C1 selalu gagal, sedangkan hanya kasus kedua yang berbeda.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Bedakan kegagalan tetap pada T3-C1 dari pergantian T7-C1 dan T7-C2 dengan menyebut pengulangan masing-masing.",
+      "preserve": "DeepSeek tanpa konteks, 13/15 setiap kali, referensi Lampiran 1 dan penilaian positif atas penjelasan pengulangan.",
+      "feedback_records": [
+        40,
+        104
+      ]
+    },
+    {
+      "id": "W25",
+      "start": 833,
+      "end": 833,
+      "passage_ids": [
+        "P323"
+      ],
+      "problem": "Kasus gagal yang berbeda antara kedua model dapat terbaca sebagai dua himpunan tanpa irisan. T3-C1 dan T7-C2 muncul pada keduanya.",
+      "kind": "makna",
+      "acceptance_condition": "Jelaskan bahwa sebagian pengulangan gagal pada kasus yang disebutkan. Nyatakan dua kasus yang sama serta yang khusus pada tiap model.",
+      "preserve": "12 kasus dengan 3/3 per model, kegagalan T5-C1 khusus Muse dan T7-C1 khusus DeepSeek, semua kasus dengan konteks lulus.",
+      "feedback_records": []
+    },
+    {
+      "id": "W26",
+      "start": 839,
+      "end": 839,
+      "passage_ids": [
+        "P326"
+      ],
+      "problem": "Usulan mengevaluasi kelengkapan jawaban terlihat mengulang kriteria yang sudah menyebabkan FAIL pada T3-C1 dan T7-C2. Belum terlihat apa yang akan diukur secara berbeda.",
+      "kind": "keterbacaan",
+      "acceptance_condition": "Bedakan penilaian terpisah terhadap komponen atau proses dari PASS/FAIL atas jawaban utuh yang sudah dilakukan, apabila itu yang dimaksud.",
+      "preserve": "Usulan variasi dokumen, jumlah pengulangan, kebutuhan pengguna dan rubrik kegunaan.",
+      "feedback_records": []
+    },
+    {
+      "id": "W27",
+      "start": 855,
+      "end": 855,
+      "passage_ids": [
+        "P334"
+      ],
+      "problem": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Periksa apakah ada klaim yang memang memakai sumber ini atau sesuaikan daftar dengan cakupan naskah akhir.",
+      "preserve": "Identitas bibliografis dan kemungkinan penggunaan pada materi yang belum tersedia.",
+      "feedback_records": []
+    },
+    {
+      "id": "W28",
+      "start": 877,
+      "end": 877,
+      "passage_ids": [
+        "P345"
+      ],
+      "problem": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Periksa apakah ada klaim yang memang memakai sumber ini atau sesuaikan daftar dengan cakupan naskah akhir.",
+      "preserve": "Identitas bibliografis dan kemungkinan penggunaan pada materi yang belum tersedia.",
+      "feedback_records": []
+    },
+    {
+      "id": "W29",
+      "start": 895,
+      "end": 895,
+      "passage_ids": [
+        "P354"
+      ],
+      "problem": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+      "kind": "pertanyaan faktual",
+      "acceptance_condition": "Periksa apakah ada klaim yang memang memakai sumber ini atau sesuaikan daftar dengan cakupan naskah akhir.",
+      "preserve": "Identitas bibliografis dan kemungkinan penggunaan pada materi yang belum tersedia.",
+      "feedback_records": []
+    },
+    {
+      "id": "W30",
+      "start": 210,
+      "end": 210,
+      "passage_ids": [
+        "P092"
+      ],
+      "problem": "Subjek kedua model menggunakan mencakup expected result dalam daftar yang sama dengan prompt dan tool. Pada L42 dan L298 jawaban rujukan justru tidak dapat diakses oleh agen.",
+      "kind": "makna",
+      "acceptance_condition": "Pisahkan materi dan tool yang digunakan agen dari expected result yang digunakan untuk menilai jawaban.",
+      "preserve": "Kasus, data, tool dan prompt sama, perbedaan akses dokumen serta expected result yang sama untuk penilaian.",
+      "feedback_records": []
+    }
+  ]
+}

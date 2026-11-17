@@ -1,0 +1,10 @@
+[
+  {
+    "id": "C1-05",
+    "finding_ids": [
+      "W005"
+    ],
+    "decision": "restore frozen passage",
+    "reason": "The supplied account identifies execution results as evidence and Claude as judge. It does not specify that execution results were what the judge received. The continuity reviewer identified this shift in the implied procedure. Return to the full original passage."
+  }
+]

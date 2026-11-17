@@ -1,0 +1,15 @@
+[
+  {
+    "id": "C3-01",
+    "A": "Dalam penelitian ini, Muse Spark 1.3 dan DeepSeek v4 Flash digunakan untuk menjawab pertanyaan analisis operasional [sistem operasional]. Kedua model diuji dengan dan tanpa konteks bisnis. Agen membaca data melalui *tool* dan menghasilkan jawaban dalam format *JavaScript Object Notation* (JSON). Struktur dan nilai jawaban kemudian dibandingkan dengan *expected result*. Perbandingan ketersediaan konteks bisnis memiliki kesamaan dengan penelitian Rumiantsau dan Fokeev (2026), sedangkan analisis bertahap melalui tool dan penilaian jawaban akhir memiliki kesamaan dengan DABstep (Egg dkk., 2025).",
+    "B": "Dalam penelitian ini, Muse Spark 1.3 dan DeepSeek v4 Flash digunakan untuk menjawab pertanyaan analisis operasional [sistem operasional]. Kedua model diuji dengan dan tanpa konteks bisnis. Agen membaca data melalui *tool* dan menghasilkan jawaban dalam format *JavaScript Object Notation* (JSON). Struktur dan nilai jawaban kemudian dibandingkan dengan *expected result*. Perbandingan ketersediaan konteks bisnis memiliki kesamaan dengan penelitian Rumiantsau dan Fokeev (2026), sedangkan analisis bertahap dan penilaian jawaban akhir memiliki kesamaan dengan DABstep (Egg dkk., 2025).",
+    "source_lines": [
+      89,
+      89
+    ],
+    "author_comments": [],
+    "preference_context": [],
+    "context_before": "\nDABstep menggunakan pertanyaan analisis dari kegiatan operasional Adyen, perusahaan penyedia layanan pembayaran (Adyen, n.d.). Agen perlu membaca data terstruktur dan dokumentasi bisnis, lalu menjalankan beberapa langkah analisis. Jawaban akhirnya dibandingkan dengan *expected result*, yaitu jawaban yang diharapkan untuk pertanyaan tersebut. Aturan perbandingannya disesuaikan dengan tipe jawaban (Egg dkk., 2025).\n\nRumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*.\n",
+    "context_after": "\n## 2.2. Business Intelligence\n\n*Business Intelligence* (BI) adalah kumpulan teknologi, proses, dan aplikasi untuk mengolah data organisasi menjadi informasi yang membantu pengambilan keputusan. BI mencakup komponen seperti *data warehouse*, *Online Analytical Processing* (OLAP), *reporting server*, *dashboard*, *ad hoc query*, dan *analytical engine*. Komponen tersebut digunakan untuk menyimpan dan mengolah data, menyajikan laporan, serta melakukan analisis sesuai kebutuhan pengguna (Chaudhuri dkk., 2011).\n"
+  }
+]

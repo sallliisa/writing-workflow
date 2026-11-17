@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "reference": {
+      "original": "fikbas_skripsi_full.md",
+      "snapshot": "reference.md",
+      "sha256": "9e7b74a927d01dc076b73e449b21f1dd2f2355d95b7cef73986570a7eec3b748",
+      "bytes_match_original": true
+    },
+    "target": {
+      "original": "thesis_BAB_I_to_Daftar_Pustaka_revised.md",
+      "snapshot": "baseline.md",
+      "sha256": "3a09391b85f32f246690f66eed8ccbb096a34029555a954e7f3975e0c0c3587d",
+      "bytes_match_original": true
+    }
+  },
+  "feedback_source_sha256": "4958882dfae543b77d4dac1c781700ee277cc0a74128f0bc3d16ed08f534e5eb",
+  "parsed_feedback_records": 139,
+  "feedback_index_check": "Record numbers and comments match the CSV. Historical passage matches are search leads. Record 19 is withdrawn.",
+  "passage_count": 366,
+  "nonblank_lines_covered_once": 554,
+  "passage_ids": "P001–P366, assigned to the original Markdown heading for stable lookup.",
+  "reuse": "Created a fresh source snapshot and detected outline. Verified and reused passage boundaries, feedback leads and target brief. Reference-function sketch supplied to the reference reviewer for reinspection. All review judgments are made in this run.",
+  "coordinator_model": "gpt-6.2-astra (session turn metadata)"
+}

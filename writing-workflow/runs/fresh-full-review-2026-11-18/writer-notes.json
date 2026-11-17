@@ -1,0 +1,241 @@
+[
+  {
+    "finding_id": "W001",
+    "status": "revised",
+    "baseline_spans": [
+      "15–15"
+    ],
+    "note": "Metric, population and exact percentage-point range recovered from the existing literature table and discussion. No external source verification added."
+  },
+  {
+    "finding_id": "W002",
+    "status": "revised",
+    "baseline_spans": [
+      "17–17"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W003",
+    "status": "revised",
+    "baseline_spans": [
+      "50–60"
+    ],
+    "note": "Repaired chapter-title-description mapping using parallel table rows. All five chapter functions retained."
+  },
+  {
+    "finding_id": "W004",
+    "status": "revised",
+    "baseline_spans": [
+      "77–77"
+    ],
+    "note": "Final cell now contrasts open-ended insight assessment with fixed structured-answer comparison. Existing evaluator and benchmark scope retained."
+  },
+  {
+    "finding_id": "W005",
+    "status": "revised",
+    "baseline_spans": [
+      "91–91"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W006",
+    "status": "revised",
+    "baseline_spans": [
+      "133–133"
+    ],
+    "note": "Citation attached to the general terminology principle. The completion and daily-average examples are explicitly local."
+  },
+  {
+    "finding_id": "W007",
+    "status": "revised",
+    "baseline_spans": [
+      "145–145"
+    ],
+    "note": "The ontology principle is linked to document scope without asserting that the local documents were constructed using that procedure."
+  },
+  {
+    "finding_id": "W008",
+    "status": "revised",
+    "baseline_spans": [
+      "176–176",
+      "180–180"
+    ],
+    "note": "Duplicate token limits removed from the profiles and retained in the shared comparison table. Version and source citations retained."
+  },
+  {
+    "finding_id": "W009",
+    "status": "revised",
+    "baseline_spans": [
+      "208–208"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W010",
+    "status": "revised",
+    "baseline_spans": [
+      "210–210"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W011",
+    "status": "revised",
+    "baseline_spans": [
+      "240–244"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W012",
+    "status": "deferred",
+    "baseline_spans": [],
+    "note": "Unchanged. The fourth indicator remaining failed does not establish the status of other indicators. Complete reference answer is needed."
+  },
+  {
+    "finding_id": "W013",
+    "status": "revised",
+    "baseline_spans": [
+      "309–309",
+      "311–311"
+    ],
+    "note": "Both eligibility rules added to the reference-rule table using the existing result explanations. Monthly absent rows remain distinct from zero-valued output. The inventory need not repeat these rules."
+  },
+  {
+    "finding_id": "W014",
+    "status": "revised",
+    "baseline_spans": [
+      "337–337"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W015",
+    "status": "revised",
+    "baseline_spans": [
+      "346–346"
+    ],
+    "note": "Case prompt distinguished from the system instruction. Shared question and output requirements remain introduced once in the following subsection. Verbatim artifacts unchanged."
+  },
+  {
+    "finding_id": "W016",
+    "status": "partially_revised",
+    "baseline_spans": [
+      "364–364"
+    ],
+    "note": "Development-based provenance clarified without attributing knowledge to an unidentified person. The supplied account does not establish the knowledge supplier or an independent validation procedure. Historical replacement concerns different data and is not adopted."
+  },
+  {
+    "finding_id": "W017",
+    "status": "revised",
+    "baseline_spans": [
+      "471–471"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W018",
+    "status": "partially_revised",
+    "baseline_spans": [
+      "481–481",
+      "488–488"
+    ],
+    "note": "Removed the unsupported provider label while retaining the execution relationship already stated in the methods. Hosting and endpoint attribution remain unresolved."
+  },
+  {
+    "finding_id": "W019",
+    "status": "revised",
+    "baseline_spans": [
+      "661–661"
+    ],
+    "note": "Complete replacement preserves the source scope and applies the supported reading repair."
+  },
+  {
+    "finding_id": "W020",
+    "status": "revised",
+    "baseline_spans": [
+      "805–807"
+    ],
+    "note": "Four configurations lead the interpretation. Aggregate and failure location follow as secondary results. All counts retained."
+  },
+  {
+    "finding_id": "W021",
+    "status": "revised",
+    "baseline_spans": [
+      "817–817"
+    ],
+    "note": "Opening identifies the changing second failed case. Detailed praised explanation and appendix pointer retained. Added per-case status counts separately from per-round totals."
+  },
+  {
+    "finding_id": "W022",
+    "status": "revised",
+    "baseline_spans": [
+      "819–819"
+    ],
+    "note": "Connects the observed gain to joint availability of seven documents without attributing it to a particular document or equating availability with reading."
+  },
+  {
+    "finding_id": "W023",
+    "status": "revised",
+    "baseline_spans": [
+      "833–833"
+    ],
+    "note": "Names shared and model-specific cases, reports exact counts, and distinguishes stable failure from wholly successful or mixed outcomes. Counts derived from the supplied results."
+  },
+  {
+    "finding_id": "W024",
+    "status": "revised",
+    "baseline_spans": [
+      "839–839"
+    ],
+    "note": "Removed completeness from the proposed new assessment because it already determines PASS. Retained process assessment of selection and rule application, document variations, repetitions and user evaluation."
+  },
+  {
+    "finding_id": "W025",
+    "status": "deferred",
+    "baseline_spans": [],
+    "note": "Unchanged pending full-manuscript citation reconciliation and institutional requirements. No unsupported citations attached to retain entries."
+  },
+  {
+    "finding_id": "S01",
+    "status": "unresolved",
+    "note": "Reported process examples and praised calculations retained. Available materials do not establish the actual record type or inspection method. No logging claims added and reported observations not converted into guesses."
+  },
+  {
+    "finding_id": "S02",
+    "status": "revised",
+    "note": "Integrated with W013 in the reference-rule table."
+  },
+  {
+    "finding_id": "S03",
+    "status": "revised",
+    "note": "Interpretation keeps per-round totals and adds per-case status counts. Conclusion gives exact case counts and shared versus differing cases. Existing conceptual definition retained because it already defines both extremes."
+  },
+  {
+    "finding_id": "S04",
+    "status": "deferred",
+    "note": "See W012. Complete reference answer required."
+  },
+  {
+    "finding_id": "S05",
+    "status": "deferred",
+    "note": "See W025. Full manuscript and bibliography requirements required."
+  },
+  {
+    "finding_id": "S06",
+    "status": "revised",
+    "note": "Integrated with W003 in the five-chapter roadmap."
+  },
+  {
+    "finding_id": "S07",
+    "status": "revised",
+    "note": "Integrated with W010. Shared agent inputs and inaccessible assessment reference are distinct."
+  },
+  {
+    "finding_id": "S08",
+    "status": "revised",
+    "note": "Added a bounded local-design comparison with the two immediately preceding studies. Existing manuscript claims support the comparison. No universal novelty claim or new research added."
+  }
+]

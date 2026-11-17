@@ -1,0 +1,288 @@
+[
+  {
+    "id": "W001",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-01"
+    ],
+    "passages": [
+      "P008"
+    ]
+  },
+  {
+    "id": "W002",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-02"
+    ],
+    "passages": [
+      "P009"
+    ]
+  },
+  {
+    "id": "W003",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-03"
+    ],
+    "passages": [
+      "P023"
+    ]
+  },
+  {
+    "id": "W004",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-04"
+    ],
+    "passages": [
+      "P029"
+    ]
+  },
+  {
+    "id": "W005",
+    "status": "open — evidence needed",
+    "reason": "Original restored after continuity review. Establish exactly what the cited judge evaluated before rephrasing the division of roles. See assembly-decisions.json.",
+    "comparison_decisions": [
+      "C1-05"
+    ],
+    "passages": [
+      "P034"
+    ]
+  },
+  {
+    "id": "W006",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-07"
+    ],
+    "passages": [
+      "P055"
+    ]
+  },
+  {
+    "id": "W007",
+    "status": "retained",
+    "reason": "The proposed ontology explanation repeated the preceding sentence. The original attributes the published method separately from the contents of the local documents.",
+    "comparison_decisions": [
+      "C1-08"
+    ],
+    "passages": [
+      "P061"
+    ]
+  },
+  {
+    "id": "W008",
+    "status": "partial",
+    "reason": "Removed the redundant limit from one model profile. Kept the other profile’s joint attribution for tool support and window size because the local text does not disambiguate which source supports each claim.",
+    "comparison_decisions": [
+      "C1-09",
+      "C1-10"
+    ],
+    "passages": [
+      "P075",
+      "P077"
+    ]
+  },
+  {
+    "id": "W009",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-11"
+    ],
+    "passages": [
+      "P091"
+    ]
+  },
+  {
+    "id": "W010",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-12"
+    ],
+    "passages": [
+      "P092"
+    ]
+  },
+  {
+    "id": "W011",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-13"
+    ],
+    "passages": [
+      "P104",
+      "P105",
+      "P106"
+    ]
+  },
+  {
+    "id": "W012",
+    "status": "open — evidence needed",
+    "reason": "The fourth indicator stayed failed while its failure count rose. Only a complete T9-C2 expected result can establish whether another indicator worsened.",
+    "comparison_decisions": [],
+    "passages": [
+      "P120",
+      "P307"
+    ]
+  },
+  {
+    "id": "W013",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-14",
+      "C1-15"
+    ],
+    "passages": [
+      "P120",
+      "P126"
+    ]
+  },
+  {
+    "id": "W014",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-16"
+    ],
+    "passages": [
+      "P134"
+    ]
+  },
+  {
+    "id": "W015",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-17"
+    ],
+    "passages": [
+      "P138"
+    ]
+  },
+  {
+    "id": "W016",
+    "status": "open — evidence needed",
+    "reason": "Source reports knowledge gained during development. A proposed substitute implied a stronger documentary basis. Preserve provenance pending confirmation of who supplied the rules.",
+    "comparison_decisions": [
+      "C1-18"
+    ],
+    "passages": [
+      "P145"
+    ]
+  },
+  {
+    "id": "W017",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-19"
+    ],
+    "passages": [
+      "P186"
+    ]
+  },
+  {
+    "id": "W018",
+    "status": "partial",
+    "reason": "Both chapters now use the access relationship supported by the text. The exact provider or hosting role still requires the experimental configuration.",
+    "comparison_decisions": [
+      "C1-20",
+      "C1-21"
+    ],
+    "passages": [
+      "P191",
+      "P193"
+    ]
+  },
+  {
+    "id": "W019",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-22"
+    ],
+    "passages": [
+      "P256"
+    ]
+  },
+  {
+    "id": "W020",
+    "status": "resolved with adaptation",
+    "reason": "The second comparison favored the original total-first orientation followed immediately by 90/90 versus 80/90 with the denominator disaggregated. This addresses the objection to a context-free aggregate; the four model-condition rates follow.",
+    "comparison_decisions": [
+      "C1-23",
+      "C2-01"
+    ],
+    "passages": [
+      "P309"
+    ]
+  },
+  {
+    "id": "W021",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-24",
+      "C2-02"
+    ],
+    "passages": [
+      "P315"
+    ]
+  },
+  {
+    "id": "W022",
+    "status": "retained — author concern open",
+    "reason": "Both reformulations of the bundle limitation repeated the preceding result or restated joint availability. Retain the precise original pending a clearer formulation. The historical wording objection remains recorded.",
+    "comparison_decisions": [
+      "C1-25",
+      "C2-03"
+    ],
+    "passages": [
+      "P316"
+    ]
+  },
+  {
+    "id": "W023",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-26"
+    ],
+    "passages": [
+      "P323"
+    ]
+  },
+  {
+    "id": "W024",
+    "status": "resolved",
+    "reason": "Accepted text meets the recorded criterion.",
+    "comparison_decisions": [
+      "C1-27",
+      "C2-04"
+    ],
+    "passages": [
+      "P326"
+    ]
+  },
+  {
+    "id": "W025",
+    "status": "open — evidence needed",
+    "reason": "Three entries lack a matching body citation. Keep them pending a check of the full thesis and institutional bibliography rule.",
+    "comparison_decisions": [],
+    "passages": [
+      "P334",
+      "P345",
+      "P354"
+    ]
+  }
+]

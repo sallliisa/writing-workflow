@@ -1,0 +1,215 @@
+--- baseline.md
++++ candidate.md
+@@ -12,9 +12,9 @@
+ 
+ HKA TROM merupakan sistem internal HK Aston yang mengelola data transaksi, lalu lintas, insiden, inspeksi, serta pengukuran Standar Pelayanan Minimal (SPM) dan Service Level Agreement (SLA). Nama tabel dan kolom belum tentu menjelaskan apa yang diukur oleh suatu indikator, rumus yang digunakan, syarat berlakunya aturan, atau arti status. Sebagai contoh, Lalu Lintas Harian Rata-rata (LHR) pada HKA TROM dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode yang diminta. Jika total volume hanya dibagi dengan jumlah hari yang memiliki laporan, nilai LHR dapat berbeda.
+ 
+-Rumiantsau dan Fokeev (2026) menguji *semantic layer* pada analisis berbasis LLM menggunakan dokumen yang menjelaskan apa yang dihitung dan aturan yang digunakan serta memperjelas istilah bisnis. Ketika dokumen tersebut diberikan kepada model, akurasi meningkat sebesar 17 sampai 23 poin persentase. Dalam penelitian ini, konteks bisnis yang diberikan ke agen menjelaskan arti data dan aturan analisis HKA TROM.
+-
+-Kasus uji dipilih untuk melihat bagaimana agen menggunakan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode.
++Rumiantsau dan Fokeev (2026) menguji *semantic layer* pada analisis berbasis LLM menggunakan dokumen yang menjelaskan apa yang dihitung dan aturan yang digunakan serta memperjelas istilah bisnis. Ketika dokumen tersebut diberikan kepada model, *Analytical Pass Rate* meningkat sebesar 17,2–23,2 poin persentase. Dalam penelitian ini, konteks bisnis yang diberikan ke agen menjelaskan arti data dan aturan analisis HKA TROM.
++
++Kasus uji dipilih karena jawaban yang diharapkan memerlukan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode.
+ 
+ Penelitian ini membandingkan ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada kasus analisis operasional HKA TROM. Setiap model diuji dengan dan tanpa konteks bisnis menggunakan kasus dan *expected result* yang sama. *Expected result* dihitung dari data setiap kasus sesuai aturan bisnis HKA TROM, lalu digunakan untuk menilai jawaban agen. Hasil perbandingan dapat menjadi pertimbangan saat membuat dokumentasi bisnis untuk analisis berbasis agen.
+ 
+@@ -40,7 +40,7 @@
+ 1. Pengujian terbatas pada 15 kasus dari sembilan jenis tugas analisis operasional HKA TROM, yang mencakup transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA.
+ 2. Sebanyak 237 baris data sintetis digunakan untuk kasus uji dan perhitungan *expected result*. Data ini dibuat berdasarkan struktur, relasi tabel, konfigurasi, dan aturan bisnis HKA TROM.
+ 3. Pada kedua kondisi pengujian, agen dapat membaca sumber data, data master, dan konfigurasi melalui layanan yang sama. Agen tidak diberi kode fitur analitik, query yang digunakan oleh fitur tersebut, hasil dashboard, *expected result*, atau data yang sudah diolah menjadi jawaban untuk kasus uji.
+-4. Tujuh dokumen konteks bisnis hanya tersedia pada kondisi dengan konteks bisnis dan diberikan bersama kepada agen. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.
++4. Tujuh dokumen konteks bisnis tersedia bersama untuk diakses agen hanya pada kondisi dengan konteks bisnis. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.
+ 5. Evaluasi membandingkan 180 jawaban terstruktur dari kedua model dengan *expected result*. Hasil penilaian digunakan untuk membandingkan tingkat keberhasilan kedua model dan melihat apakah hasil setiap kasus berubah antara pengulangan.
+ 
+ ## 1.6. Sistematika Penulisan
+@@ -74,7 +74,7 @@
+ | 1 | Sawant & Sonawane (2024) | Antarmuka bahasa alami untuk basis data dan visualisasi | Kajian NLIDB, NLIV, dan BI | Antarmuka bahasa alami memudahkan akses ke data. Kendalanya mencakup pertanyaan analitis yang kompleks serta pemahaman konteks dan semantik. | Memberikan dasar bagi conversational analytics melalui kajian antarmuka bahasa alami untuk basis data dan visualisasi. |
+ | 2 | X. Liu dkk. (2024) - AgentBench | Evaluasi LLM sebagai agen pada lingkungan interaktif | 8 lingkungan dan 29 model API ataupun open-source | Menemukan kendala utama pada penalaran jangka panjang, pengambilan keputusan, dan kepatuhan terhadap instruksi. | Mendukung evaluasi berbasis tugas interaktif pada beragam lingkungan umum. |
+ | 3 | Hong dkk. (2025) - Data Interpreter | Agen LLM untuk *workflow* data science dengan beberapa tahap | InfiAgent-DABench, tugas machine learning, dan tugas open-ended | Perencanaan berbasis graph dan verifikasi bertahap meningkatkan kinerja pada beberapa *benchmark* analisis data. | Menunjukkan penggunaan agen untuk merencanakan dan memeriksa analisis data secara bertahap. |
+-| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Mengevaluasi insight dari analisis bisnis yang bersifat open-ended dengan penilaian berbasis LLM. |
++| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Penilaian insight yang bersifat open-ended berbeda dari pencocokan jawaban pasti dengan *expected result* dalam penelitian ini. |
+ | 5 | Lei dkk. (2025) - Spider 2.0 | *Workflow* *Text-to-SQL* tingkat enterprise | 632 tugas dengan basis data besar, metadata, dokumentasi, dan beberapa sistem basis data | Code agent yang diuji menyelesaikan 21,3% tugas, dibandingkan 91,2% pada Spider 1.0. | Menunjukkan kesulitan menyelesaikan tugas SQL pada lingkungan enterprise. |
+ | 6 | Vishwakarma dkk. (2025) - EnterpriseBench | Evaluasi agen pada lingkungan enterprise | 500 tugas pada software engineering, HR, finance, dan administrasi | Lingkungan pengujian mencakup data yang tersebar, kontrol akses, dan workflow lintas fungsi. Hasil penyelesaian tugas bervariasi menurut model, framework, dan strategi perencanaan. | Mencakup tugas dari beberapa fungsi organisasi dalam satu lingkungan pengujian. |
+ | 7 | Rumiantsau & Fokeev (2026) | Pengaruh semantic layer pada analisis berbasis LLM | 100 pertanyaan retail. Sebanyak 99 dinilai setelah satu query referensi gagal dieksekusi | Analytical Pass Rate meningkat 17,2–23,2 poin persentase berdasarkan penilaian Claude Sonnet 4.6 sebagai judge. | Menguji pemberian dokumen konteks bisnis pada satu dataset retail. Dengan maupun tanpa konteks bisnis, model menghasilkan satu query SQL per pertanyaan tanpa menerima umpan balik eksekusi atau kesempatan memperbaiki query. |
+@@ -88,7 +88,7 @@
+ 
+ DABstep menggunakan pertanyaan analisis dari kegiatan operasional Adyen, perusahaan penyedia layanan pembayaran (Adyen, n.d.). Agen perlu membaca data terstruktur dan dokumentasi bisnis, lalu menjalankan beberapa langkah analisis. Jawaban akhirnya dibandingkan dengan *expected result*, yaitu jawaban yang diharapkan untuk pertanyaan tersebut. Aturan perbandingannya disesuaikan dengan tipe jawaban (Egg dkk., 2025).
+ 
+-Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*.
++Rumiantsau dan Fokeev (2026) membandingkan dua kondisi masukan bagi model: skema data saja dan skema data beserta dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian menggunakan hasil eksekusi dan melibatkan Claude Sonnet 4.6 sebagai *judge*.
+ 
+ Dalam penelitian ini, Muse Spark 1.3 dan DeepSeek v4 Flash digunakan untuk menjawab pertanyaan analisis operasional HKA TROM. Kedua model diuji dengan dan tanpa konteks bisnis. Agen membaca data melalui *tool* dan menghasilkan jawaban dalam format *JavaScript Object Notation* (JSON). Struktur dan nilai jawaban kemudian dibandingkan dengan *expected result*.
+ 
+@@ -142,7 +142,7 @@
+ 
+ Dokumen konteks bisnis dapat memuat arti setiap baris data, hubungan antartabel, satuan, dan arti nilai status. Istilah yang digunakan perlu konsisten agar objek atau proses yang sama tidak dijelaskan dengan arti yang berbeda. Dalam *ontology engineering*, pengetahuan suatu bidang dijelaskan melalui konsep, relasi, dan fungsi yang didefinisikan secara eksplisit (Gruber, 1993).
+ 
+-Untuk menentukan cakupan dan tingkat perincian ontologi, Noy dan McGuinness (2001) menggunakan pertanyaan yang perlu dijawab. Dokumen konteks bisnis dalam penelitian ini menjelaskan cara memilih data, hubungan antartabel, dan ketentuan perhitungan sesuai aturan HKA TROM.
++Untuk menentukan cakupan dan tingkat perincian ontologi, Noy dan McGuinness (2001) menggunakan pertanyaan yang perlu dijawab. Kaitan gagasan tersebut dengan dokumen konteks bisnis terletak pada informasi yang diperlukan untuk menjawab pertanyaan analisis. Dalam penelitian ini, dokumen konteks bisnis menjelaskan cara memilih data, hubungan antartabel, dan ketentuan perhitungan sesuai aturan HKA TROM.
+ 
+ Aturan perhitungan menjelaskan, misalnya, cara memperlakukan nilai null dan jumlah hari yang digunakan untuk menghitung rata-rata harian. Rata-rata volume kendaraan per hari dapat berbeda jika total volume dibagi dengan jumlah seluruh hari kalender atau hanya jumlah hari yang memiliki data. Dokumen konteks juga perlu menjelaskan kapan suatu batas atau syarat berlaku. Dalam penelitian ini, penjelasan tersebut dikelompokkan menurut topik analisis.
+ 
+@@ -185,7 +185,7 @@
+ 
+ ### 2.8.1. Kesesuaian Struktur dan Nilai Jawaban
+ 
+-Pada jawaban berbentuk JSON, pemeriksaan mencakup struktur dan nilai yang dihasilkan. Struktur meliputi atribut yang diminta, tipe nilai, dan urutan elemen *array*. Dalam evaluasi *in-context learning*, DataBench memeriksa apakah *output* merupakan JSON yang valid dan memuat atribut yang diperlukan sebelum menilai ketepatan isinya (Osés Grijalba dkk., 2024).
++Pada jawaban berbentuk JSON, pemeriksaan mencakup struktur dan nilai yang dihasilkan. Dalam penelitian ini, struktur yang diperiksa meliputi atribut yang diminta, tipe nilai, dan urutan elemen *array*. Dalam evaluasi *in-context learning*, DataBench memeriksa apakah *output* merupakan JSON yang valid dan memuat atribut yang diperlukan sebelum menilai ketepatan isinya (Osés Grijalba dkk., 2024).
+ 
+ Nilai jawaban dibandingkan dengan *expected result* yang disusun berdasarkan data dan aturan perhitungan untuk setiap pertanyaan. Pada InfiAgent-DABench, seluruh bagian jawaban harus benar agar tugas dinilai berhasil (Hu dkk., 2024). Dalam penelitian ini, jawaban diberi status PASS jika struktur dan seluruh nilainya sesuai dengan *expected result*. Jika ada bagian yang tidak sesuai, jawaban dinilai FAIL.
+ 
+@@ -207,7 +207,7 @@
+ 
+ Penelitian ini menggunakan pendekatan kuantitatif komparatif untuk mengevaluasi ketepatan jawaban agen pada HKA TROM. Setiap kasus berisi pertanyaan analisis dan ketentuan jawaban, sedangkan jawaban akhir agen dibandingkan dengan *expected result* (Egg dkk., 2025).
+ 
+-Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing diuji dengan dan tanpa konteks bisnis. Kedua model menggunakan kasus, data, *tool*, *prompt*, dan *expected result* yang sama, dengan akses ke dokumen konteks bisnis yang dibedakan.
++Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing diuji dengan dan tanpa konteks bisnis. Kedua model menggunakan kasus, data, *tool*, dan *prompt* yang sama, dengan akses ke dokumen konteks bisnis yang dibedakan. Jawaban kedua model dinilai menggunakan *expected result* yang sama.
+ 
+ Penelitian dimulai dengan menyiapkan data dan *expected result* untuk 15 kasus berdasarkan aturan HKA TROM. Setelah itu, prompt dan dokumen konteks bisnis dibuat. Prompt berisi pertanyaan dalam bahasa Indonesia dan ketentuan jawaban JSON, sedangkan dokumen konteks bisnis menjelaskan data dan aturan analisis.
+ 
+@@ -215,7 +215,7 @@
+ 
+ *Gambar 3.1 Alur Tahapan Penelitian*
+ 
+-Kelima belas kasus dalam penelitian ini dikelompokkan ke dalam sembilan jenis tugas, yaitu T1 hingga T9. Kode setiap kasus mengikuti pola T[n]-C[m], dengan n menunjukkan nomor jenis tugas dan m menunjukkan nomor kasus dalam tugas tersebut. Sebagai contoh, T1-C2 adalah kasus kedua pada jenis tugas T1.
++Kelima belas kasus dalam penelitian ini dikelompokkan ke dalam sembilan jenis tugas, yaitu T1 hingga T9. Kode setiap kasus mengikuti pola T[n]-C[m], dengan T berarti *task* atau jenis tugas dan C berarti *case* atau kasus. Angka n menunjukkan nomor jenis tugas dan m menunjukkan nomor kasus dalam tugas tersebut. Sebagai contoh, T1-C2 adalah kasus kedua pada jenis tugas T1.
+ 
+ Untuk setiap model, 15 kasus dijalankan tiga kali dengan konteks bisnis dan tiga kali tanpa konteks bisnis. Pengujian ini menghasilkan 45 jawaban pada masing-masing kondisi, sehingga terdapat 90 jawaban per model dan 180 jawaban dari kedua model. Rincian pengujian dapat dilihat pada Tabel 3.1.
+ 
+@@ -237,11 +237,11 @@
+ 
+ Basis data penelitian menggunakan skema HKA TROM dan diisi dengan data sintetis.
+ 
+-Kumpulan data uji berisi 237 baris pada 15 tabel operasional. Baris tersebut mencakup laporan pemantauan transaksi beserta rincian durasi, laporan lalu lintas dan jumlah kendaraan, data insiden berikut tindakan penanganan, laporan kecelakaan, serta jadwal dan hasil inspeksi. Data master dan konfigurasi berisi identitas ruas, gerbang, golongan kendaraan, aset, serta parameter SPM/SLA yang diperlukan dalam analisis. Tabel 3.2 merangkum sumber data utama untuk setiap kelompok analisis.
+-
+-**Tabel 3.2 Kelompok Analisis dan Sumber Data Utama**
+-
+-| Kelompok | Sumber data |
++Kumpulan data uji berisi 237 baris pada 15 tabel operasional. Baris tersebut mencakup laporan pemantauan transaksi beserta rincian durasi, laporan lalu lintas dan jumlah kendaraan, data insiden berikut tindakan penanganan, laporan kecelakaan, serta jadwal dan hasil inspeksi. Data master dan konfigurasi berisi identitas ruas, gerbang, golongan kendaraan, aset, serta parameter SPM/SLA yang diperlukan dalam analisis. Tabel 3.2 merangkum sumber data utama untuk setiap topik analisis.
++
++**Tabel 3.2 Topik Analisis dan Sumber Data Utama**
++
++| Topik analisis | Sumber data |
+ | ----- | ----- |
+ | Transaksi | monitoring_transactions, monitoring_transaction_details |
+ | Lalu lintas | toll_volume_revenue, toll_traffic_volumes |
+@@ -290,8 +290,8 @@
+ | T7-C4 | SPM/SLA per laporan | Beberapa laporan pemantauan dengan informasi yang serupa | Memilih informasi yang relevan dengan prompt dari beberapa laporan yang serupa. |
+ | T8-C1 | SPM/SLA periode | Indikator yang terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain | Mempertimbangkan hasil dari beberapa laporan untuk menarik kesimpulan mengenai keseluruhan periode. |
+ | T8-C2 | SPM/SLA periode | Perhitungan menggunakan data durasi *booth*, tanpa menghitung data durasi *longbooth* | Memilih data yang relevan sebelum menarik kesimpulan mengenai suatu periode. |
+-| T9-C1 | Perbandingan periode | Status tetap dan membaik | Membandingkan dua periode untuk menentukan hasil yang tidak berubah dan hasil yang membaik. |
+-| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status memburuk | Menggabungkan informasi dalam setiap periode, lalu membandingkan hasil kedua periode. |
++| T9-C1 | Perbandingan periode | Status tetap dan membaik | Membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode untuk menentukan status yang tetap dan membaik. |
++| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status memburuk | Menggabungkan informasi dari dua laporan dalam setiap periode, lalu membandingkan status pemenuhan setiap indikator SPM/SLA pada kedua periode. |
+ 
+ ### 3.2.3. Penyusunan Expected Result
+ 
+@@ -299,16 +299,16 @@
+ 
+ Aturan bisnis untuk menghitung expected result dirangkum pada Tabel 3.4.
+ 
+-Laporan dipilih berdasarkan tanggal operasional dalam rentang tanggal pada test case, termasuk tanggal awal dan akhir. Untuk evaluasi SPM/SLA per laporan, laporan juga harus sesuai dengan ruas, gerbang, dan jadwal *shift* dalam prompt. Gardu diidentifikasi dari nomor gardu dan laporan pemantauannya.
++Laporan dipilih berdasarkan tanggal operasional dalam rentang tanggal pada prompt kasus, termasuk tanggal awal dan akhir. Untuk evaluasi SPM/SLA per laporan, laporan juga harus sesuai dengan ruas, gerbang, dan jadwal *shift* dalam prompt. Gardu diidentifikasi dari nomor gardu dan laporan pemantauannya.
+ 
+ **Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian**
+ 
+ | Analisis | Aturan bisnis | Jenis tugas |
+ | ----- | ----- | ----- |
+ | Durasi transaksi | Total durasi dari data *booth* dan *longbooth* yang memiliki durasi non-null dibagi dengan jumlah data tersebut. | T1 |
+-| Volume dan LHR | LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender, termasuk tanggal awal, tanggal akhir, dan hari tanpa laporan. | T2–T3 |
++| Volume dan LHR | LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender, termasuk tanggal awal, tanggal akhir, dan hari tanpa laporan. Pada T3-C1, golongan kendaraan yang tidak memiliki data volume pada suatu bulan tetap dicantumkan dengan volume 0 dan LHR 0. | T2–T3 |
+ | Status insiden | Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan nilai stage pada seluruh tindakan tersebut adalah 100. | T4 |
+-| Penyebab kecelakaan | Setiap penyebab dihitung sesuai jumlah kemunculannya dalam data kecelakaan. | T5 |
++| Penyebab kecelakaan | Perhitungan hanya menggunakan insiden dengan is_accident = true. Setiap penyebab dihitung sesuai jumlah kemunculannya dalam data kecelakaan dari insiden tersebut. | T5 |
+ | Kondisi inspeksi | Item inspeksi dengan kategori kerusakan non-null tetap dihitung meskipun prioritasnya kosong. | T6 |
+ | Kecepatan transaksi | Rata-rata durasi (detik) dihitung hanya dari data durasi *booth* untuk setiap gardu dalam satu laporan. Nilai sebelum pembulatan dibandingkan dengan batas kelima indikator SPM serta batas SLA jika berlaku. Batas dan operator pembanding mengikuti konfigurasi ruas dan indikator saat pengujian. Konfigurasi tersebut menentukan kapan SLA berlaku dan digunakan untuk semua periode. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu. | T7–T9 |
+ 
+@@ -343,7 +343,7 @@
+ | You're ALASKA, a personal assistant within HKA TROM. If required data, tools, scope, configuration, or business definitions are unavailable or conflict, state the specific gap. Do not invent values. Do not request a connection or use another endpoint. |
+ | :---- |
+ 
+-Prompt berisi pertanyaan analisis dan ketentuan jawaban. Pada pengujian dengan konteks bisnis, agen juga memiliki akses ke dokumen yang dijelaskan pada Bagian 3.3.2.
++Selain system prompt tersebut, setiap kasus memiliki prompt yang dijelaskan pada Bagian 3.3.1. Pada pengujian dengan konteks bisnis, agen juga memiliki akses ke dokumen yang dijelaskan pada Bagian 3.3.2.
+ 
+ ### 3.3.1. Pertanyaan dan Format Jawaban
+ 
+@@ -434,7 +434,7 @@
+ 
+ ## 3.5. Evaluasi Hasil Generasi
+ 
+-Setiap jawaban akhir agen dibandingkan dengan *expected result* untuk menentukan status PASS atau FAIL. Cara penilaian per pertanyaan ini juga digunakan dalam InfiAgent-DABench (Hu dkk., 2024).
++Setiap jawaban akhir agen dibandingkan dengan *expected result* untuk menentukan status PASS atau FAIL.
+ 
+ ### 3.5.1. Perbandingan Respons dan *Expected Result*
+ 
+@@ -468,7 +468,9 @@
+ 
+ ### 3.5.3. Analisis Perbandingan Hasil
+ 
+-Analisis dilakukan secara deskriptif. Tingkat keberhasilan berdasarkan konteks bisnis dihitung dengan menggabungkan jawaban kedua model pada kondisi yang sama. Untuk tingkat keberhasilan setiap model, jawaban dari pengujian dengan dan tanpa konteks bisnis digabungkan. Hasil keempat kombinasi model dan konteks bisnis juga disajikan secara terpisah. Semua ringkasan mencakup ketiga pengulangan pada kasus yang dibahas. Hasil kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, hasil dengan konteks bisnis juga dibandingkan dengan hasil tanpa konteks bisnis.
++Analisis dilakukan secara deskriptif. Tingkat keberhasilan berdasarkan konteks bisnis dihitung dengan menggabungkan jawaban kedua model pada kondisi yang sama. Untuk tingkat keberhasilan setiap model, jawaban dari pengujian dengan dan tanpa konteks bisnis digabungkan.
++
++Persentase PASS pada keempat kombinasi model dan konteks bisnis juga disajikan secara terpisah. Persentase PASS kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, persentase PASS dengan konteks bisnis dibandingkan dengan persentase PASS tanpa konteks bisnis. Semua ringkasan mencakup ketiga pengulangan pada kasus yang dibahas.
+ 
+ Pembahasan dibagi menjadi enam kelompok analisis: durasi transaksi (T1), volume lalu lintas dan LHR (T2–T3), insiden dan penyebab kecelakaan (T4–T5), inspeksi dan identitas aset (T6), SPM/SLA per laporan (T7), serta SPM/SLA periode dan antarperiode (T8–T9). Jawaban yang dinilai FAIL diperiksa untuk melihat bagian yang tidak sesuai dengan *expected result*. Status PASS/FAIL pada tiga pengulangan dibandingkan untuk memeriksa konsistensi keberhasilan pada kasus, model, dan kondisi konteks bisnis yang sama.
+ 
+@@ -478,14 +480,14 @@
+ 
+ ## 4.1. Lingkungan Pengujian
+ 
+-Pengujian dilakukan pada Cloudflare OS dengan model Muse Spark 1.3 dan DeepSeek v4 Flash melalui *provider* OpenCode. Agen menggunakan *tool* melalui MCP untuk melihat daftar tabel dan *view*, melihat struktur tabel, dan membaca data HKA TROM. Lingkungan pengujian dirangkum pada Tabel 4.1.
++Pengujian dilakukan pada Cloudflare OS dengan model Muse Spark 1.3 dan DeepSeek v4 Flash melalui OpenCode. Agen menggunakan *tool* melalui MCP untuk melihat daftar tabel dan *view*, melihat struktur tabel, dan membaca data HKA TROM. Lingkungan pengujian dirangkum pada Tabel 4.1.
+ 
+ **Tabel 4.1 Lingkungan Pengujian**
+ 
+ | Aspek | Keterangan |
+ | ----- | ----- |
+ | Lingkungan agen | Cloudflare OS |
+-| Model | Muse Spark 1.3 dan DeepSeek v4 Flash, melalui *provider* OpenCode |
++| Model | Muse Spark 1.3 dan DeepSeek v4 Flash, melalui OpenCode |
+ | *Tool* akses data | list_entities, describe_entity, dan read_records |
+ 
+ ## 4.2. Data Penelitian
+@@ -749,7 +751,7 @@
+ | T7-C2 | DeepSeek v4 Flash, ke-1 | Gardu 4, indikator 3: spm_passed dan sla_passed | false, false | true, true |
+ | T7-C2 | DeepSeek v4 Flash, ke-3 | Jumlah evaluasi | 20 | 4, seluruhnya indikator 3 |
+ 
+-Terdapat tiga jawaban dengan status SPM/SLA salah untuk gardu dengan rata-rata durasi yang selisih sedikit di atas batas. Status SPM/SLA ditentukan dengan membandingkan rata-rata durasi sebelum pembulatan dengan batas indikator. Pada T7-C1, rata-rata durasi gardu 3 adalah 6,004 detik, yang melebihi batas 6 detik pada indikator pertama. Pada pengulangan kedua tanpa konteks bisnis, DeepSeek v4 Flash membulatkan rata-rata durasi ini menjadi 6,00 detik sebelum membandingkannya dengan batas 6 detik, sehingga spm_passed dan sla_passed bernilai true. Pada pengulangan kedua dengan konteks bisnis, agen membandingkan nilai 6,004 detik dengan batas 6 detik, sehingga kedua status bernilai false sesuai dengan *expected result*.
++Terdapat tiga jawaban dengan status SPM/SLA salah untuk gardu dengan rata-rata durasi sedikit di atas batas. Status SPM/SLA ditentukan dengan membandingkan rata-rata durasi sebelum pembulatan dengan batas indikator. Pada T7-C1, rata-rata durasi gardu 3 adalah 6,004 detik, yang melebihi batas 6 detik pada indikator pertama. Pada pengulangan kedua tanpa konteks bisnis, DeepSeek v4 Flash membulatkan rata-rata durasi ini menjadi 6,00 detik sebelum membandingkannya dengan batas 6 detik, sehingga spm_passed dan sla_passed bernilai true. Pada pengulangan kedua dengan konteks bisnis, agen membandingkan nilai 6,004 detik dengan batas 6 detik, sehingga kedua status bernilai false sesuai dengan *expected result*.
+ 
+ Pada T7-C2, rata-rata durasi gardu 4 adalah 9,004 detik, yang ditampilkan sebagai 9 detik setelah pembulatan. Nilai sebelum pembulatan melebihi batas 9 detik pada indikator ketiga, sehingga spm_passed dan sla_passed pada *expected result* bernilai false. Tanpa konteks bisnis, DeepSeek v4 Flash pada pengulangan pertama membandingkan nilai 9,00 detik setelah pembulatan dengan batas 9 detik, sehingga kedua status bernilai true. Kedua status juga bernilai true dalam jawaban Muse Spark 1.3 pada pengulangan kedua tanpa konteks bisnis.
+ 
+@@ -810,13 +812,13 @@
+ 
+ Kelengkapan jawaban ikut menentukan hasil evaluasi. Nilai yang dicantumkan dalam jawaban T3-C1 yang gagal dan satu jawaban T7-C2 sesuai dengan *expected result*. Jawaban tersebut dinilai FAIL karena rincian golongan kendaraan pada T3-C1 dan evaluasi indikator pada T7-C2 tidak lengkap.
+ 
+-Pada contoh T5-C1, agen memasukkan insiden dengan is_accident = false ke dalam perhitungan penyebab kecelakaan, padahal insiden tersebut seharusnya dikecualikan. Akibatnya, nilai total_cause_assignments pada jawaban menjadi 7, sedangkan nilai pada *expected result* adalah 5. Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.
++Pada T5-C1, jawaban Muse Spark 1.3 pada pengulangan pertama dan ketiga tanpa konteks bisnis memiliki nilai total_cause_assignments sebesar 7, sedangkan nilai pada *expected result* adalah 5. Selisih ini sesuai dengan dua kemunculan penyebab kecelakaan pada insiden dengan is_accident = false yang dijelaskan pada Bagian 4.5. Pada T7-C1, jawaban DeepSeek v4 Flash pada pengulangan kedua tanpa konteks bisnis menyatakan gardu dengan rata-rata durasi di atas batas memenuhi SPM/SLA. Bagian 4.7 menjelaskan contoh perbandingan nilai setelah pembulatan dengan batas indikator yang menghasilkan status tersebut.
+ 
+ Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 Flash memperoleh 13/15 PASS pada masing-masing pengulangan.
+ 
+-Pada DeepSeek v4 Flash tanpa konteks bisnis, kasus yang gagal berubah antarpengulangan meskipun jumlah PASS tetap sama. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.
+-
+-Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Karena seluruh dokumen konteks bisnis diberikan bersama, pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.
++Pada DeepSeek v4 Flash tanpa konteks bisnis, sebagian kasus yang gagal berbeda antara pengulangan meskipun jumlah PASS tetap sama. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.
++
++Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Karena seluruh dokumen konteks bisnis tersedia bersama melalui skill, pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.
+ 
+ # BAB V — PENUTUP
+ 
+@@ -830,13 +832,13 @@
+ 
+ Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5. Pada dua jawaban T5-C1, frekuensi Kelalaian Pengemudi terlalu besar dan terdapat kategori Kondisi Jalan yang tidak ada dalam *expected result*, sedangkan frekuensi Mengantuk tetap sesuai. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta.
+ 
+-Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus, dengan kasus gagal yang berbeda antara kedua model.
++Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus. Kedua model memiliki pengulangan yang gagal pada T3-C1 dan T7-C2. Kegagalan pada T5-C1 hanya terjadi pada Muse Spark 1.3, sedangkan kegagalan pada T7-C1 hanya terjadi pada DeepSeek v4 Flash.
+ 
+ Penilaian dilakukan terhadap struktur dan nilai jawaban akhir berdasarkan *expected result*. Kesimpulan ini terbatas pada 15 kasus yang masing-masing dijalankan tiga kali untuk setiap model dan kondisi pengujian.
+ 
+ ## 5.2. Saran
+ 
+-Pengujian *Agentic Business Intelligence* selanjutnya sebaiknya mencakup data dari bidang bisnis lain dan tugas analisis yang lebih beragam. Evaluasi dapat mencakup ketepatan pemilihan data, kelengkapan jawaban, serta penerapan aturan bisnis. Pengaruh isi konteks bisnis dapat diperiksa dengan membandingkan konteks lengkap dan beberapa variasi yang masing-masing tidak menyertakan satu dokumen atau menggunakan tingkat detail berbeda untuk masing-masing aturan. Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus. Evaluasi juga dapat melibatkan analis dan pengguna bisnis untuk menilai kegunaan jawaban agen dalam pekerjaan mereka. Pertanyaan pengujian dapat disusun dari kebutuhan analisis pengguna, dengan rubrik yang mencakup ketepatan hasil, kejelasan penjelasan, dan kegunaan jawaban.
++Pengujian *Agentic Business Intelligence* selanjutnya sebaiknya mencakup data dari bidang bisnis lain dan tugas analisis yang lebih beragam. Selain status PASS/FAIL atas jawaban utuh, evaluasi dapat memberi penilaian terpisah terhadap ketepatan pemilihan data, kelengkapan jawaban, serta penerapan aturan bisnis. Pengaruh isi konteks bisnis dapat diperiksa dengan membandingkan konteks lengkap dan beberapa variasi yang masing-masing tidak menyertakan satu dokumen atau menggunakan tingkat detail berbeda untuk masing-masing aturan. Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus. Evaluasi juga dapat melibatkan analis dan pengguna bisnis untuk menilai kegunaan jawaban agen dalam pekerjaan mereka. Pertanyaan pengujian dapat disusun dari kebutuhan analisis pengguna, dengan rubrik yang mencakup ketepatan hasil, kejelasan penjelasan, dan kegunaan jawaban.
+ 
+ # DAFTAR PUSTAKA
+ 

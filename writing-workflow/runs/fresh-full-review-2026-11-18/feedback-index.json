@@ -1,0 +1,1129 @@
+[
+  {
+    "record": 1,
+    "feedback": "This is already implied. Why the fuck do you have to keep repeating \"while keeping x, y, and z\"? Why the fuck do you love saying that so much?",
+    "passage_leads": [
+      "P326"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 2,
+    "feedback": "This sounds human",
+    "passage_leads": [
+      "P113",
+      "P114",
+      "P116",
+      "P115"
+    ],
+    "status": "explicit praise",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 3,
+    "feedback": "Check if my friend's thesis explicitly connects this this way/write it this way. If not, remove it. This feels like you're just putting my prompt into the thesis",
+    "passage_leads": [
+      "P023"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 4,
+    "feedback": "Is this needed for the explanation? Or can we simplify this? Feel free to push back.",
+    "passage_leads": [
+      "P184"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 5,
+    "feedback": "Present this in a simpler term/use terms that are already established. \"Kelompok analisis\" or \"kelompok\" here is hard to infer what that means.",
+    "passage_leads": [
+      "P183",
+      "P087"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 6,
+    "feedback": "Can we say \"data\" instead of \"sampel\"? Feel free to push back. Does that lose the intended meaning? This applies to the word \"sampel\" in the entire thesis, not just this block",
+    "passage_leads": [
+      "P130"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 7,
+    "feedback": "What does \"membaca catatan\" mean in this context? Read the data? Just say \"membaca data\". What the fuck is catatan?",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 8,
+    "feedback": "What does \"membaca catatan\" even mean in this context?",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 9,
+    "feedback": "Is this relevant? Both the information about the single-shot \"protocol\" (whatever that means, also please use a simpler diction. Stop trying to sound impressive. I need you to sound understandable), and the mention about preprint. I don't think any of these are relevant.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 10,
+    "feedback": "Give a bit of background context to what Adyen is, or if not relevant, don't mention it at all",
+    "passage_leads": [
+      "P033"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 11,
+    "feedback": "\"Pada tahap yang berbeda\" what does that even mean",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 12,
+    "feedback": "Write this in a paragraph since there's only one point. Don't write a bullet point if there's only one point. Just like my friend's thesis.",
+    "passage_leads": [
+      "P014"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 13,
+    "feedback": "Since there's only one, don't write this in a bullet point",
+    "passage_leads": [
+      "P014"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 14,
+    "feedback": "My friend's Rumusan Masalah is written in a paragraph style. Not bullet points like this. Since there's only one, we should also follow that. We may elaborate to my friend's thesis level of detail",
+    "passage_leads": [
+      "P012"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 15,
+    "feedback": "[This doesn't just apply here, but throughout the entire text], we mention things like T[n]-C[m] *before* we explain what that means. Either explain it early on, before it was first mentioned, or put this in the glossary. Whichever is most appropriate. Since this shows up early on in BAB 1, I think we should put this in the glossary",
+    "passage_leads": [
+      "P108"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 16,
+    "feedback": "Add a new Glossary section/chapter/page after \"Daftar Gambar\"",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 17,
+    "feedback": "rata kanan kiri",
+    "passage_leads": [
+      "P332",
+      "P330",
+      "P331",
+      "P329"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 18,
+    "feedback": "We got too straight to the point. Add some introductory paragraph, just like in my friend's",
+    "passage_leads": [
+      "P318"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 19,
+    "feedback": "The proper spelling is \"antar periode\". With a space",
+    "passage_leads": [],
+    "status": "withdrawn spelling request",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 20,
+    "feedback": "Write this in an equation instead of raw text like this.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 21,
+    "feedback": "tabel ditaruh ke atas",
+    "passage_leads": [
+      "P177"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 22,
+    "feedback": "Put this in a square. A single-cell table is fine",
+    "passage_leads": [
+      "P150"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 23,
+    "feedback": "Put this in a square. A single-cell table is fine",
+    "passage_leads": [
+      "P137"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 24,
+    "feedback": "Calculations like these should use equation instead of raw text like this. Refactor this paragraph.",
+    "passage_leads": [
+      "P134",
+      "P132",
+      "P130"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 25,
+    "feedback": "jelaskan.t == task c = case",
+    "passage_leads": [
+      "P109"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 26,
+    "feedback": "jangan ada ruang kosong",
+    "passage_leads": [
+      "P098"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 27,
+    "feedback": "\"Hasil\" of what?? This doesn't make any sense",
+    "passage_leads": [
+      "P118",
+      "P293",
+      "P009"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 28,
+    "feedback": "\"Berbeda\" against what?? This doesn't make sense",
+    "passage_leads": [
+      "P118",
+      "P120"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 29,
+    "feedback": "Doesn't have any connection to the previous sentence. If it starts with \"pada kasus lain\" I expect the previous one to be \"pada kasus ini/kasus X\". This doesn't make any sense and is just poor writing.",
+    "passage_leads": [
+      "P117"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 30,
+    "feedback": "\"Mencakup X dan Y sehingga selisih X/Y dapat mengubah status\" doesn't make any sense",
+    "passage_leads": [
+      "P117"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 31,
+    "feedback": "Do you mean \"SLA berlaku di ruas tersebut\"? If so, say so. Don't just write \"SLA berlaku\". Otherwise this sentence doesn't really make any sense",
+    "passage_leads": [
+      "P117"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 32,
+    "feedback": "This is hard to understand and also does not make sense",
+    "passage_leads": [
+      "P116"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 33,
+    "feedback": "This is awkward. \"T3 membandingkan lalu lintas antar bulan\" does not make any sense",
+    "passage_leads": [
+      "P112"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 34,
+    "feedback": "This is hard to understand and borderline does not make sense",
+    "passage_leads": [
+      "P112",
+      "P007",
+      "P126"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 35,
+    "feedback": "I don't understand what this means. This is unclear",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 36,
+    "feedback": "Sounds human",
+    "passage_leads": [
+      "P288",
+      "P289"
+    ],
+    "status": "explicit praise",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 37,
+    "feedback": "Sounds *likely* human",
+    "passage_leads": [
+      "P313"
+    ],
+    "status": "qualified positive feedback",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 38,
+    "feedback": "Sounds *likely* human",
+    "passage_leads": [
+      "P312"
+    ],
+    "status": "qualified positive feedback",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 39,
+    "feedback": "Sounds Human",
+    "passage_leads": [
+      "P311"
+    ],
+    "status": "explicit praise",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 40,
+    "feedback": "Sounds Human",
+    "passage_leads": [
+      "P315",
+      "P314"
+    ],
+    "status": "explicit praise",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 41,
+    "feedback": "AI Slop",
+    "passage_leads": [
+      "P007"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 42,
+    "feedback": "AI Slop",
+    "passage_leads": [
+      "P006"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 43,
+    "feedback": "AI slop",
+    "passage_leads": [
+      "P006"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 44,
+    "feedback": "Reads like AI slop",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 45,
+    "feedback": "Sounds like AI slop",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 46,
+    "feedback": "Sounds AI slop",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 47,
+    "feedback": "Sounds like AI slop",
+    "passage_leads": [
+      "P309"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 48,
+    "feedback": "Sounds like AI slop",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 49,
+    "feedback": "This is extremely hard to follow. Make this more natural",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 50,
+    "feedback": "If it's not consistent we already say that it's gonna FAIL. Do you think we should keep this sentence?",
+    "passage_leads": [
+      "P187",
+      "P087"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 51,
+    "feedback": "I'm not sure about this. This feels like a very detailed rule about our validation rule. Which is good, but it seems like too much information. What do you think?",
+    "passage_leads": [
+      "P175"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 52,
+    "feedback": "In our experiment, the agent ended up returning all valid, parsable JSON. Should we remove the sentence saying that invalid JSONs are considered a FAIL? Since that never happens and hence irrelevant to our experiment?",
+    "passage_leads": [
+      "P174"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 53,
+    "feedback": "This is hard to understand. Impossible to understand, even. You're just writing fucking gibberish",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 54,
+    "feedback": "This is already explained in the explanation about agent tool-loop. Justify the existence of this otherwise remove it",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 55,
+    "feedback": "Unnecessary information. It should be already implied",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 56,
+    "feedback": "This is useful, keep this, but find a way so that it doesn't feel like it just repeats again what the table directly above it was saying",
+    "passage_leads": [
+      "P150",
+      "P149"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 57,
+    "feedback": "Check these for calques and get fucking rid of them",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 58,
+    "feedback": "Calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 59,
+    "feedback": "Calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 60,
+    "feedback": "Calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 61,
+    "feedback": "This is a calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 62,
+    "feedback": "This is a calque. I've seen this being used across the thesis. Find a better way to express your idea. Don't use \"penyebut ...\"",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 63,
+    "feedback": "This is a calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 64,
+    "feedback": "This implies that you're saying \"Arti sampel transaksi\", which doesn't make any sense",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 65,
+    "feedback": "This is a calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 66,
+    "feedback": "Stop using this word. This is clearly a calque",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 67,
+    "feedback": "This is a calque",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 68,
+    "feedback": "This is a calque. Find a better term",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 69,
+    "feedback": "This is a calque. Find a better term",
+    "passage_leads": [
+      "P148"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 70,
+    "feedback": "Consider merging this with the previous paragraph, or removing it completely. This sounds idiotic, because it's basically:\n\n\"Without X, there's no X. With X, there's X\". That sounds idiotic as fuck",
+    "passage_leads": [
+      "P146"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 71,
+    "feedback": "Say that this is an example. Things like these make you look like you're presenting one fact after another, and makes it hard to follow. Don't let things like this happens in ANY AND ALL part of our thesis",
+    "passage_leads": [
+      "P141"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 72,
+    "feedback": "Make this sentence connect with the previous one. This seems to mechanical",
+    "passage_leads": [
+      "P140"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 73,
+    "feedback": "Is this necessary? I think this is too much information. We're just adding vague, general facts to this paragraph.",
+    "passage_leads": [
+      "P140"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 74,
+    "feedback": "Use \"memiliki\".",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 75,
+    "feedback": "Slop. Hard to understand. Oddly formal and sounds unnatural",
+    "passage_leads": [
+      "P127"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 76,
+    "feedback": "Slop. Hard to understand. Oddly formal and sounds unnatural",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 77,
+    "feedback": "I don't understand why this is here",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 78,
+    "feedback": "Unnecessary slop information. Stop putting more informations than what's being discussed.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 79,
+    "feedback": "This is extremely confusing. I've re-read this multiple times and still don't get what you actually want to express here",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 80,
+    "feedback": "Yeah fucking of course?? This information is not relevant to the experiment/is already implied",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 81,
+    "feedback": "This information is not relevant to the experiment",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 82,
+    "feedback": "This information is not relevant to the experiment",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 83,
+    "feedback": "Sounds too complicated for what it actually is",
+    "passage_leads": [
+      "P187"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 84,
+    "feedback": "\"SPM/SLA satu kegiatan\" sounds like a calque, and just sounds out of place and unnatural in general",
+    "passage_leads": [
+      "P321",
+      "P311",
+      "P286",
+      "P283",
+      "P278",
+      "P277"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 85,
+    "feedback": "Why do we all of a sudden talk about \"selisih\"? What is the relevance of \"selisih\"?",
+    "passage_leads": [
+      "P186"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 86,
+    "feedback": "Sounds like you're trying to impress someone rather than wanting to make it sound understandable. Simplify this. Use other, more natural term rather than \"rerata makro\"",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 87,
+    "feedback": "The term \"acuan\" don't really sit right with me. Feels like a calque. Find a more natural alternative",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 88,
+    "feedback": "Overly formal, overly complicated (for a simple thing that we actually want to communicate), and I feel there are a lot of unnecessary details in there.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 89,
+    "feedback": "This feels awkwardly indonesian. find a better way to express this.\n\nAlso, for the rest of the thesis, \"pelaksanaan\" (which I assume you meant \"runs\") sounds like a calque. Find a more natural term",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 90,
+    "feedback": "I think \"sandbox\" here is a technical implementation detail. Do you think we should mention it? \n\nAlso \"komputasi\" is overly formal and \"too indonesian\", and feels like a calque.\n\nFind a better, more natural term for \"execution environment\"",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 91,
+    "feedback": "I'm asking you, feel free to push back: do you think it's more natural to use \"task\" or do you think we should keep \"tugas\"? Across the entire thesis, not just here",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 92,
+    "feedback": "use a more \"human\" term rather than going full-blast on \"as indonesian as possible\". Instead of \"sedikitnya\", I think \"minimal\" sounds better here",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 93,
+    "feedback": "awkwardly formal. use a different term. not just here, but all usage of \"ambang\" across this thesis. Again, use a more natural term rather than going full blast \"too indonesian\".",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 94,
+    "feedback": "awkwardly formal",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 95,
+    "feedback": "This doesn't even make any fucking sense",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 96,
+    "feedback": "What are you even trying to say? \"data is calculated from the data\"?",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 97,
+    "feedback": "Unnecessary detail. \"[implied] correct data is calculated from correct data\". What the fuck is wrong with you?",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 98,
+    "feedback": "Does \"data induk\" here mean master data? Use \"data master\". It's well-known",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 99,
+    "feedback": "Slop",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 100,
+    "feedback": "Slop",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 101,
+    "feedback": "Unnecessary detail, signs of AI slop.\n\nDetails that you write must justify its existence. I don't think these are justified",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 102,
+    "feedback": "AI slop. Do a \"No AI Slop\" skill pass again, focus on Chapter 3. I see a lot of slop writing",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 103,
+    "feedback": "This can get conflated with public-access schema, which it is NOT.",
+    "passage_leads": [
+      "P103"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 104,
+    "feedback": "Same with above. Also \"antarpengulangan\" sounds made-up",
+    "passage_leads": [
+      "P094"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 105,
+    "feedback": "Same with above. Really. What the fuck is wrong with you?",
+    "passage_leads": [
+      "P094"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 106,
+    "feedback": "Same as the previous comment. Jesus fucking christ",
+    "passage_leads": [
+      "P093"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 107,
+    "feedback": "Are you fucking kidding me? \"Tahap pertama  (subject) menyiapkan (verb) data (noun)...\"? What the fuck is wrong with you? Can't write a coherent sentence?",
+    "passage_leads": [
+      "P093"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 108,
+    "feedback": "Overly formal and a lot of unnecessary detail",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 109,
+    "feedback": "Overly technical. Find simpler way to express this",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 110,
+    "feedback": "Find a simpler way to express this. This is a bunch of technobabble",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 111,
+    "feedback": "Jesus fuck what the fuck is \"kondisi konteks\"",
+    "passage_leads": [
+      "P293",
+      "P261",
+      "P217",
+      "P084"
+    ],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 112,
+    "feedback": "Isn't \"konsistensi pengulangan\" part of \"tingkat keberhasilan\"?",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 113,
+    "feedback": "What does \"Untuk setiap jawaban akhir\" even mean",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 114,
+    "feedback": "Unnecessary detail",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 115,
+    "feedback": "Should we say \"prompt\" instead of \"permintaan\"? What do you think?",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 116,
+    "feedback": "We've said this before. I feel like we're repeating things. Pick one place where it's the most appropriate",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 117,
+    "feedback": "Again, \"kondisi konteks\" isn't clear what it is",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 118,
+    "feedback": "Avoid using \"Konteks\" since that might get conflated with konteks bisnis. Use another term. Experiment environment? Or things like that",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 119,
+    "feedback": "I feel like this is unnecessary detail. Or is it? Feel free to push back. Or maybe we should rephrase this so that it feels it connects with the rest of the text instead of being an \"outlier\"...all of a sudden we're explaining \"data, tool, pertanyaan, ...\"",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 120,
+    "feedback": "I feel like this is a bunch of technobabble. Find a simpler way to explain this",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 121,
+    "feedback": "AI slop. Stop using semicolon. Semicolon is completely banned from this thesis. Find other way to more naturally convey your idea.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 122,
+    "feedback": "Nobody fucking even thought about a separate JSON schema validator. Don't even fucking bring it up.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 123,
+    "feedback": "What made you fucking think this belongs to the DeepSeek v4 section. Re-read my friend's thesis and follow its subsection structure. Don't fucking invent explanations like these.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 124,
+    "feedback": "What made you fucking think this belongs to the Muse Spark 1.3 subsection",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 125,
+    "feedback": "What made you fucking think this belongs to the Muse Spark 1.3 subsection",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 126,
+    "feedback": "This is not specific to Muse Spark 1.3. Why are we implying that? I see you have a lot of problem with attributing general aspects/descriptions to a specific thing. This doesn't happen just here, but all across the thesis. Re-read the thesis and purge it of these kinds of horrible pattern.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 127,
+    "feedback": "is this information really necessary? Stop trying to explain every little detail",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 128,
+    "feedback": "This is factually ambiguous. \"Larger model can do xxx\", why is \"large\" a necessary modifier there? I think we shouldn't make that distinction. Feel free to push back.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 129,
+    "feedback": "No need to call it \"Evaluasi otomatis\". Just call it \"Evaluasi\".",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 130,
+    "feedback": "This is quite hard to follow",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 131,
+    "feedback": "Instead of \"paket konteks\", say \"konteks bisnis\" instead. Applies everywhere throughout this document.",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 132,
+    "feedback": "Hard to read. Too technical and unclear on what we intend to say",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 133,
+    "feedback": "overly formal",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 134,
+    "feedback": "oddly formal, sounds inhuman",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 135,
+    "feedback": "what the fuck is \"sistem agen\"? stop using weird fucking terms like these",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 136,
+    "feedback": "sounds awkward. avoid oddly formal languages like this. \n\nthis rule doesn't just apply to this selection, but everywhere in your writing. do a re-review of weird patterns like these. make sure you understand the nuance of this complaint",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 137,
+    "feedback": "also sounds awkward. we're overtranslating here",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 138,
+    "feedback": "sounds awkward. again, i think we're overtranslating here",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  },
+  {
+    "record": 139,
+    "feedback": "tool call. use english terms",
+    "passage_leads": [],
+    "status": "historical comment; inspect original CSV and context for applicability",
+    "historical_replacement": "unconfirmed"
+  }
+]

@@ -1,0 +1,11 @@
+# Yang masih memerlukan bukti penulis
+
+| Lokasi pada baseline | Pertanyaan | Mengapa jawabannya diperlukan |
+|---|---|---|
+| §§3.5.3, 4.4.3, 4.5.3, 4.7.3, 4.9 (S03) | Catatan apa yang menunjukkan langkah pengambilan data, pemilihan referensi atau pembulatan pada pengulangan yang disebut? | Tabel dan jawaban akhir cukup untuk mengenali elemen yang hilang atau status yang keliru. Penjelasan tentang tindakan tertentu memerlukan jejak pengulangan atau keterangan mengenai bahan yang diperiksa. Contoh numerik dan kondisi pembanding tetap dapat dibaca. |
+| Tabel 3.3 dan §4.8.3 (S07) | Dalam T9-C2, indikator mana yang statusnya memburuk antara periode A dan B? Apakah label di matriks kasus merujuk pada status atau pada jumlah evaluasi gagal? | Contoh yang tersedia menyebut indikator keempat. Statusnya tetap gagal, sedangkan jumlah evaluasi yang gagal berubah dari empat menjadi delapan dari delapan evaluasi per periode. Acuan per indikator dapat menyelesaikan pertanyaan ini. |
+| Lampiran 1–3 (S04) | Apakah isi lampiran cocok dengan rujukan di baris 337, 385, 427 dan 817, termasuk rekap Tabel L1.2 dan L1.3? | Naskah yang diberikan berakhir pada daftar pustaka. Contoh dan hitungan yang tertulis di bab utama dapat diperiksa. Kelengkapan lampiran belum terverifikasi. |
+| Daftar pustaka (S05) | Apakah Chen dkk. (2012), J. Li dkk. (2023), dan Mialon dkk. (2024) dirujuk di bagian lain, atau diperbolehkan sebagai bacaan tambahan? | Ketiga entri ditemukan di daftar pustaka tanpa pasangan sitasi yang ditemukan di Bab I–V. Konfirmasi naskah lengkap dan ketentuan daftar pustaka sebelum penghapusan. |
+| §3.4.1 dan Tabel 4.1 (W17–W18) | Jika peran tepat OpenCode perlu disebut, perangkat atau layanan mana yang menjadi penyedia model pada konfigurasi pengujian? | Frasa “melalui OpenCode” sesuai dengan uraian metode. Konfirmasi konfigurasi dibutuhkan untuk menyatakan peran penyedia secara lebih spesifik. |
+
+Penilaian ini menggunakan transkripsi Markdown. Gambar 3.1 dan 3.2 memiliki pengantar dan keterangan. Tata letak halaman, visual kedua gambar, dan keberadaan glosarium setelah Daftar Gambar memerlukan naskah berformat akhir dengan bagian awalnya. Kutipan dan daftar pustaka diperiksa sebagai bagian dari argumen dan untuk konsistensi internal. Pemeriksaan ini tidak mencakup verifikasi eksternal setiap publikasi atau replikasi eksperimen.

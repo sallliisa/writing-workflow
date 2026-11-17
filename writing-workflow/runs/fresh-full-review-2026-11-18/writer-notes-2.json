@@ -1,0 +1,27 @@
+[
+  {
+    "finding_id": "W020",
+    "status": "revised",
+    "note": "Retained total-first orientation preferred in the blind comparison, removed the vague six-group formulation, and distinguished the two pooled denominators of 90 from the four configuration denominators of 45. The following paragraph retains all four rates and the case-limited interpretation. Totals follow directly from the reported configuration counts."
+  },
+  {
+    "finding_id": "W021",
+    "status": "revised",
+    "note": "The second failure alternates between two cases, rather than changing to a different case on every run. Preserved the praised exact run sequence, invariant failure, appendix pointer, and preceding per-round tallies."
+  },
+  {
+    "finding_id": "S03",
+    "status": "revised",
+    "note": "Added separate per-model counts for always successful, mixed and always failed cases: 12/3/0 and 12/2/1 without documents. These are counts for each model, not a shared set of twelve. All fifteen cases remain always successful with documents. Left the accepted conclusion unchanged and added no repeated case detail there."
+  },
+  {
+    "finding_id": "W022",
+    "status": "revised",
+    "note": "Explains that all seven documents were varied jointly, so individual effects remain unknown. Does not repeat the reported gain, infer reading from availability, or alter certainty. Preserves scope and unassessed operational usefulness."
+  },
+  {
+    "finding_id": "W024",
+    "status": "revised",
+    "note": "Completeness retained as a proposed separate criterion. The added reporting proposal counts requested but omitted details, making its value beyond whole-answer PASS explicit. All other future-work suggestions retained; no proposed assessment is presented as completed."
+  }
+]

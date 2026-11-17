@@ -1,0 +1,226 @@
+[
+  {
+    "id": "R01",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "The named metric and decimal endpoints agree with the detailed literature discussion. Accuracy could suggest a different scoring rule."
+  },
+  {
+    "id": "R02",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The opening gives the case-selection criterion. Measuring how the agent uses rules would imply a process evaluation beyond the final-answer comparison."
+  },
+  {
+    "id": "R03",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "keep",
+    "reason": "Ketersediaan sudah jelas, tetapi istilah skill baru didefinisikan di §2.6.2. Hindari prasyarat ini pada daftar batasan."
+  },
+  {
+    "id": "R04",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The final cell explains why open-ended insight assessment differs from this study's scoring. B repeats the evaluation column."
+  },
+  {
+    "id": "R05",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "keep",
+    "reason": "Faktor masukan sudah jelas. Bahan yang dilihat penilai belum dapat dipastikan dari ringkasan pustaka yang diberikan."
+  },
+  {
+    "id": "R06a",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "keep",
+    "reason": "Pindahnya uraian lokal menyisakan kalimat ontologi yang berdiri sendiri. Tinjau kembali kaitan dua kalimat pada lokasi awal."
+  },
+  {
+    "id": "R07",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "The scope marker makes the array-order check a local rule and leaves the following citation attached to the narrower checks it describes."
+  },
+  {
+    "id": "R30",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The shared expected result is explicitly used to score the answers. Listing it alongside prompts risks suggesting the models receive it."
+  },
+  {
+    "id": "R08",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "Expanding T and C explains both letters before the reader interprets their numbers."
+  },
+  {
+    "id": "R09",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The rows identify data sources by topic. Calling them groups leaves their relation to the later six analysis groups unclear."
+  },
+  {
+    "id": "R10",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "keep",
+    "reason": "Objek perbandingan pada tabel lebih jelas. Makna status memburuk pada baris T9-C2 masih perlu dipastikan."
+  },
+  {
+    "id": "R11",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The prompt is the precise location specifying the dates. Both versions retain the inclusive endpoints."
+  },
+  {
+    "id": "RS02",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "The added case-specific rule explains why an absent monthly value still requires an output entry with two zeroes."
+  },
+  {
+    "id": "R12",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The Boolean selection rule precedes the count and makes clear which incidents contribute cause occurrences."
+  },
+  {
+    "id": "R13",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "Distinguishing the shared system prompt from the case prompt clarifies which varies. The next subsection already supplies its contents."
+  },
+  {
+    "id": "R06b",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "keep",
+    "reason": "Usulan ini merupakan pasangan R06a. Penambahan di metode ditunda selama alasan pemindahan belum diselesaikan."
+  },
+  {
+    "id": "R14",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "keep",
+    "reason": "Kepala kolom bisa dibaca sebagai laporan pemakaian aktual, sedangkan baris-barisnya menjelaskan fungsi yang tersedia."
+  },
+  {
+    "id": "R15",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "This identifies the common whole-question criterion and separately attributes local JSON matching to the methods subsection."
+  },
+  {
+    "id": "R16",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "The paragraph break separates pooling from comparison, and the repeated percentage specifies exactly what the two within-condition comparisons use."
+  },
+  {
+    "id": "R17",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "Uraian metode pada L391 menyebut rute melalui perangkat yang sama. Usulan menghindari penetapan peran provider yang belum terverifikasi."
+  },
+  {
+    "id": "R18",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "Uraian metode pada L391 menyebut rute melalui perangkat yang sama. Usulan menghindari penetapan peran provider yang belum terverifikasi."
+  },
+  {
+    "id": "R21",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The shorter phrase directly locates the average just above the boundary and retains the detailed rounding example."
+  },
+  {
+    "id": "RS07",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "keep",
+    "reason": "Penanda contoh membantu tetapi frasa pembuka kurang lancar. Tinjau perbaikan terbatas."
+  },
+  {
+    "id": "R23",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "The run identifiers and cautious attribution distinguish the observed discrepancy from an inferred operation by the agent."
+  },
+  {
+    "id": "R24",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "The qualifier sebagian preserves the overlap among failed cases when the total PASS count remains constant."
+  },
+  {
+    "id": "R03b",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "Skill access explains why the design cannot isolate an individual document's effect without implying all contents reached the agent."
+  },
+  {
+    "id": "R25",
+    "source": "round 1",
+    "blind_choice": "B",
+    "reconciled_choice": "B",
+    "decision": "accept",
+    "reason": "The distinction between shared and model-specific failures prevents a reading in which all failed cases differ."
+  },
+  {
+    "id": "R26",
+    "source": "round 1",
+    "blind_choice": "A",
+    "reconciled_choice": "A",
+    "decision": "accept",
+    "reason": "Separate criteria alongside whole-answer scoring identify what the proposed evaluation would add."
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "finding_id": "S08",
+    "status": "revised",
+    "note": "Removed only the tool-use mechanism from the comparison with the cited benchmark. The supplied discussion supports multistep analysis and final-answer assessment. Preserved local tool use, JSON output, both comparative references, and all remaining passage content. Line 89 refers to candidate.md."
+  }
+]

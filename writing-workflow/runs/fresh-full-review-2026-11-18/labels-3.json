@@ -1,0 +1,11 @@
+{
+  "C3-01": {
+    "previous_label": "A",
+    "proposed_label": "B",
+    "start": 89,
+    "end": 89,
+    "finding_ids": [
+      "S08"
+    ]
+  }
+}

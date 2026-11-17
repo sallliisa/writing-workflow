@@ -1,0 +1,11 @@
+[
+  {
+    "id": "RC-W15",
+    "start": 437,
+    "end": 437,
+    "replacement": "Setiap jawaban akhir agen dibandingkan dengan *expected result* untuk menentukan status PASS atau FAIL.",
+    "finding_ids": [
+      "W15"
+    ]
+  }
+]

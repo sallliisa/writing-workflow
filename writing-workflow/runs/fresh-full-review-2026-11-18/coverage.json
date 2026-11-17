@@ -1,0 +1,36 @@
+{
+  "status": "coverage_and_evidence_locations_valid",
+  "inventory_sha256": "d1590f19d2bdfe635a2f1efac271f39204ab1c18a0de400dad8b9f783b4db290",
+  "evaluation_sha256": "055a4cfb8b4d8818d7f0172092e2a4f6dc13437def4a8526006ae6d990b14806",
+  "scope": {
+    "reference": {
+      "reviewed": 185,
+      "total_inventory": 185,
+      "by_heading_level": {
+        "0": 1,
+        "1": 6,
+        "2": 26,
+        "3": 61,
+        "4": 88,
+        "5": 3
+      }
+    },
+    "target": {
+      "reviewed": 106,
+      "total_inventory": 106,
+      "by_heading_level": {
+        "0": 1,
+        "1": 6,
+        "2": 30,
+        "3": 53,
+        "4": 12,
+        "5": 4
+      }
+    }
+  },
+  "finding_decisions": {
+    "accepted": 6,
+    "unresolved": 2
+  },
+  "limit": "This verifies records and source locations, not semantic sufficiency or the truth of judgments."
+}

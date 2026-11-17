@@ -1,0 +1,9 @@
+# Usulan penilaian struktur
+
+Dua aturan yang menjelaskan enam dari sepuluh jawaban FAIL perlu tersedia saat pembaca mempelajari penyusunan jawaban acuan. Pada T3-C1, golongan yang tidak memiliki catatan volume untuk bulan tertentu tetap dicantumkan dengan volume dan LHR nol (283, 309, 595–597, S02). Pada T5-C1, jumlah kemunculan penyebab hanya dihitung dari insiden dengan is_accident = true (311, 642–655, S01). Tambahkan kedua aturan itu pada uraian Tabel 3.4. Rincian per model dan pengulangan tetap berguna di Bab IV.
+
+Bukti untuk putusan akhir dan bukti untuk tindakan agen memerlukan pemeriksaan terpisah. Bagian 3.5.3 menjelaskan perbandingan jawaban akhir. Bagian 4.4.3, 4.5.3 dan 4.7.3 juga melaporkan pemilihan data, pembacaan aturan atau pembulatan pada pengulangan tertentu. Asal keterangan proses masih perlu dikonfirmasi sebelum mengubah uraian atau menambahkan prosedur (S03). Lampiran 1–3 serta peran tiga entri pustaka pada naskah lengkap juga masih memerlukan pemeriksaan (S04–S05).
+
+Pertahankan contoh 62/7 detik pada T1-C2 sebagai demonstrasi pembentukan acuan dan pasangan jawaban T5-C1 sebagai demonstrasi penilaian. Pembagian enam kelompok memberi penyebut yang sesuai untuk perbandingan menurut dokumen, model dan empat kombinasi. Rekap hasil membedakan jumlah PASS per pengulangan dari identitas kasus yang gagal. Penjelasan pemilihan kasus serta contoh batas pembulatan yang dipuji pada umpan balik 2 dan 36 memiliki fungsi berbeda dalam metode dan pembahasan. Kedua bagian tersebut patut dipertahankan.
+
+Register usulan memuat 74 simpul awal termasuk akar, 17 pembagian argumentasi tanpa judul, dan pemeriksaan hubungan antarsimpul. Keputusan di register ini merupakan usulan untuk penelaah independen. Gambar 3.1 dan 3.2 hanya dapat diperiksa melalui judul dan teks penyerta dalam transkripsi.

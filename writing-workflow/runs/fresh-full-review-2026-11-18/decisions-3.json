@@ -1,0 +1,10 @@
+[
+  {
+    "id": "C3-01",
+    "decision": "accept",
+    "reason": "Frasa B ‘analisis bertahap dan penilaian jawaban akhir’ sesuai dengan uraian DABstep di Tabel 2.1 dan paragraf sebelumnya. Frasa A ‘analisis bertahap melalui tool’ memperluas kesamaan hingga ke cara agen menjalankan analisis. Naskah menjelaskan penggunaan tool untuk membaca data dalam penelitian ini, tetapi uraian DABstep hanya merinci pembacaan data dan dokumen, langkah analisis, serta penilaian jawaban. Kedua versi mengaitkan Rumiantsau dan Fokeev dengan perbandingan kondisi pemberian konteks bisnis. Tidak teridentifikasi pada B. Kalimat ketiga tetap menyebut penggunaan tool dalam penelitian ini.",
+    "finding_ids": [
+      "S08"
+    ]
+  }
+]

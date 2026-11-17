@@ -1,0 +1,18 @@
+# Fungsi argumentatif naskah pembanding
+
+Pada naskah sasaran, pertanyaan pokoknya adalah seberapa tepat jawaban dua model untuk kasus yang sama dengan dan tanpa tujuh dokumen konteks bisnis. Kriteria ketepatan mengikat kesimpulan pada struktur dan nilai jawaban akhir. Sebanyak 15 kasus, empat kombinasi dan tiga pengulangan menghasilkan 180 jawaban. Rekap 170 PASS menyisakan sepuluh FAIL untuk dijelaskan, termasuk perbedaan antara hasil per kasus dan jumlah PASS per pengulangan (sasaran 19–44, 439–473, 803–835).
+
+| Bagian pembanding | Fungsi dan penerapan pada sasaran |
+|---|---|
+| I, 5–77 | Bergerak dari masalah pengguna ke pilihan pendekatan, pertanyaan, tujuan, manfaat, batas dan peta bab. Pada sasaran, contoh pembagi LHR menunjukkan mengapa akses data saja menyisakan keputusan perhitungan. |
+| II, 83–183 | Inventarisasi penelitian mengantar pembaca ke kebutuhan studi. Bedakan bidang aplikasi, mekanisme yang menghasilkan jawaban, dan unsur masukan yang divariasikan. Konteks bisnis pada sasaran menjelaskan aturan dan istilah. Empat strategi prompt dan tiga persona adalah variabel khusus studi pendidikan. |
+| II, 183–372 | Perkenalkan kedua model dan arti ukuran sebelum menyebut kinerja. Pada sasaran, kesesuaian struktur serta nilai, tingkat keberhasilan dan konsistensi tiga pengulangan memberi tiga tingkat interpretasi yang berbeda. |
+| III, 378–528 | Susun urutan kerja dari sumber dan acuan, melalui rancangan masukan, sampai respons yang disimpan. Untuk kasus operasional, perhitungan acuan dari data sintetis, batas akses agen, dan keberadaan bersama tujuh dokumen menentukan makna perbandingan. |
+| III, 530–748 | Mulai dari satu pasangan acuan–respons, tunjukkan unsur yang dibandingkan, cara menjadikannya skor dan arti keputusan. BLEU membedakan unigram, bigram dan penalti panjang. ROUGE-L menelusuri subsekuens, METEOR memberi bobot serta penalti fragmen, BERTScore menjelaskan pencocokan vektor dan estimasi skor. Sasaran memperlihatkan dua keputusan untuk acuan T5-C1 yang sama, menunjukkan atribut penyebab yang berubah, kemudian menjelaskan penyebut tingkat keberhasilan (439–467). |
+| IV, 749–1070 | Nyatakan lingkungan serta jumlah data aktual sebelum hasil. Dalam tiap kelompok tugas, periksa perbandingan satu faktor lalu setiap kombinasi faktor. Sasaran memakai enam kelompok, dengan penggabungan yang dijelaskan di 469–473. Interpretasi selisih kecil memerlukan penyebut dan identitas kasus yang gagal. |
+| IV–V, 1071–1095 | Bandingkan temuan lintas kelompok dan batasi jawaban penelitian pada pengukuran yang dilakukan. Pada sasaran, hasil setiap kombinasi, rincian kegagalan dan konsistensi antarulangan mendasari kesimpulan. Kegunaan bagi pengguna dan kontribusi masing-masing dokumen masih merupakan usulan penelitian. |
+| Daftar pustaka, 1097–1151 | Beri jalan dari sitasi ke sumber. Korespondensi fungsi daftar pustaka tidak memverifikasi isi publikasi. |
+
+Angka jumlah jawaban pada pembanding berubah dari 154 di baris 398 menjadi 153 di baris 765–779. Penjelasan BLEU membalik arti simbol di baris 249–252 relatif terhadap rumus dan contoh di 595–632. Contoh METEOR mengasumsikan empat fragmen (697). Judul ilustrasi dan uraian distribusi pada bab IV mendukung pembacaan susunan argumen melalui teks. Bentuk grafik aslinya tidak dapat diperiksa dari transkripsi. Istilah signifikansi pada kesimpulan pembanding (1091) melampaui fungsi ringkasan deskriptif yang diperlukan oleh sasaran.
+
+Rincian per simpul, termasuk langkah dalam contoh dan pemetaan ke bukti lokal, tersedia di [register fungsi](reference-reviews.json). Pemetaan menunjukkan lokasi yang menjalankan fungsi sepadan. Kecukupan bukti di lokasi tersebut dinilai tersendiri pada evaluasi sasaran.

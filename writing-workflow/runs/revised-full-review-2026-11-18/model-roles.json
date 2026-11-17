@@ -1,0 +1,75 @@
+{
+  "evidence": "Thread session metadata and turn_context.model for each role in this review.",
+  "roles": [
+    {
+      "role": "coordinator",
+      "thread_id": "01a1ebd1-c639-77f0-aa16-36cdd6c81fca",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/reference",
+      "thread_id": "01a1ebd2-902d-7031-9349-b5c27666812c",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/structure",
+      "thread_id": "01a1ebd3-58c0-7aa2-b44d-61b5251227e1",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/writing",
+      "thread_id": "01a1ebd3-86c0-79c3-95c3-c5da3a4394af",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/challenge",
+      "thread_id": "01a1ebd6-d401-73a1-ac19-954aa0734629",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/writer",
+      "thread_id": "01a1ebd7-9425-73c3-beb1-f0bc855cb9b6",
+      "turn_models": [
+        "gpt-6-astra"
+      ]
+    },
+    {
+      "role": "/root/comparison",
+      "thread_id": "01a1ebda-38df-72c1-871a-637d8dd359c2",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/comparison_second",
+      "thread_id": "01a1ebdd-7592-7262-98ad-b0c232c5e20a",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/continuity",
+      "thread_id": "01a1ebde-4248-7792-aca3-53431bdb47b9",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/final_pair",
+      "thread_id": "01a1ebdf-c939-7c42-92a1-3992a82749a2",
+      "turn_models": [
+        "gpt-6.2-astra"
+      ]
+    }
+  ]
+}

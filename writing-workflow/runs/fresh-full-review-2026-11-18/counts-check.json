@@ -1,0 +1,191 @@
+{
+  "basis": "Frozen Chapter IV tables. Each [PASS, answers] pair is transcribed from its configuration row. Both marginal comparisons were recomputed and every printed percentage checked at two decimals.",
+  "ordering": [
+    "Muse with context",
+    "Muse without context",
+    "DeepSeek with context",
+    "DeepSeek without context"
+  ],
+  "groups": [
+    {
+      "tasks": "T1",
+      "lines": [
+        511,
+        551
+      ],
+      "cells": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "tasks": "T2–T3",
+      "lines": [
+        554,
+        598
+      ],
+      "cells": [
+        [
+          6,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "tasks": "T4–T5",
+      "lines": [
+        601,
+        656
+      ],
+      "cells": [
+        [
+          6,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ]
+    },
+    {
+      "tasks": "T6",
+      "lines": [
+        659,
+        699
+      ],
+      "cells": [
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "tasks": "T7",
+      "lines": [
+        702,
+        757
+      ],
+      "cells": [
+        [
+          12,
+          12
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          9,
+          12
+        ]
+      ]
+    },
+    {
+      "tasks": "T8–T9",
+      "lines": [
+        760,
+        802
+      ],
+      "cells": [
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          12,
+          12
+        ]
+      ]
+    }
+  ],
+  "total_by_configuration": [
+    [
+      45,
+      45
+    ],
+    [
+      41,
+      45
+    ],
+    [
+      45,
+      45
+    ],
+    [
+      39,
+      45
+    ]
+  ],
+  "verified_percentage_rows": 48,
+  "grand_total": [
+    170,
+    180
+  ],
+  "failure_locations": {
+    "T3-C1": "L595, Muse run 2 and all three DeepSeek runs",
+    "T5-C1": "L640–651, Muse runs 1 and 3",
+    "T7-C1": "L745–750, DeepSeek run 2",
+    "T7-C2": "L745–750, Muse run 2 and DeepSeek runs 1 and 3"
+  },
+  "limit": "Internal consistency with the reported results. Original responses and execution records were not independently reproduced."
+}

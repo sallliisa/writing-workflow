@@ -1,0 +1,32 @@
+[
+  {
+    "id": "R2-W03",
+    "choice": "A",
+    "reason": "Frasa ‘untuk diakses agen’ membatasi klaim pada ketersediaan dokumen. ‘Diberikan bersama kepada agen’ dapat dibaca seolah seluruh isi langsung diterima, sedangkan panduan pemilihan referensi membedakan akses dan pembacaan."
+  },
+  {
+    "id": "R2-W05",
+    "choice": "B",
+    "reason": "‘Dua kondisi masukan’ menyebut apa yang dibandingkan dan ‘melibatkan’ membedakan peran penilai dari hasil eksekusi. Jumlah pertanyaan, rentang kenaikan, satuan, dan atribusi tetap sama."
+  },
+  {
+    "id": "R2-W06",
+    "choice": "A",
+    "reason": "Kalimat tengah menyebut informasi yang dibutuhkan untuk menjawab pertanyaan analisis sebagai penghubung. Tanpanya, pembaca harus menerka mengapa pembahasan cakupan ontologi langsung beralih ke pemilihan data dan aturan perhitungan."
+  },
+  {
+    "id": "R2-W10",
+    "choice": "B",
+    "reason": "‘Status pemenuhan setiap indikator SPM/SLA’ menyatakan apa yang dibandingkan. Untuk T9-C2, dua laporan digabungkan dalam masing-masing periode sebelum status antarperiode dibandingkan. Istilah ‘hasil’ saja dapat pula merujuk ke jumlah evaluasi yang gagal."
+  },
+  {
+    "id": "R2-W14",
+    "choice": "B",
+    "reason": "Judul kolom mengikuti pengantar dan judul tabel. ‘Mengarahkan agen ke referensi’ menyebut fungsi dokumen secara langsung. Pada A, ‘berdasarkan petunjuk SKILL.md’ mengulang nama dokumen yang sudah tertera di awal baris."
+  },
+  {
+    "id": "R2-S07",
+    "choice": "A",
+    "reason": "Kalimat pertama langsung menyebut indikator keempat dan jumlah evaluasi yang gagal pada kedua periode. Penyebut delapan dan aturan status kemudian menjelaskan mengapa status tetap gagal. Kalimat pembuka tambahan pada B mendahului dan mengulang pembedaan yang dinyatakan di kalimat akhir."
+  }
+]

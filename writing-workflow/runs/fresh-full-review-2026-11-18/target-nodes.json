@@ -1,0 +1,956 @@
+[
+  {
+    "id": "T-root",
+    "parent": null,
+    "level": 0,
+    "title": "Document",
+    "start_line": 1,
+    "direct_end_line": 0,
+    "end_line": 919
+  },
+  {
+    "id": "T-0001",
+    "parent": "T-root",
+    "level": 1,
+    "title": "BAB I — PENDAHULUAN",
+    "start_line": 1,
+    "direct_end_line": 4,
+    "end_line": 61
+  },
+  {
+    "id": "T-0002",
+    "parent": "T-0001",
+    "level": 2,
+    "title": "1.1. Latar Belakang",
+    "start_line": 5,
+    "direct_end_line": 20,
+    "end_line": 20
+  },
+  {
+    "id": "T-0003",
+    "parent": "T-0001",
+    "level": 2,
+    "title": "1.2. Rumusan Masalah",
+    "start_line": 21,
+    "direct_end_line": 24,
+    "end_line": 24
+  },
+  {
+    "id": "T-0004",
+    "parent": "T-0001",
+    "level": 2,
+    "title": "1.3. Tujuan Penelitian",
+    "start_line": 25,
+    "direct_end_line": 28,
+    "end_line": 28
+  },
+  {
+    "id": "T-0005",
+    "parent": "T-0001",
+    "level": 2,
+    "title": "1.4. Manfaat Penelitian",
+    "start_line": 29,
+    "direct_end_line": 32,
+    "end_line": 35
+  },
+  {
+    "id": "T-U033",
+    "parent": "T-0005",
+    "level": 3,
+    "title": "Bukti akademik",
+    "start_line": 33,
+    "direct_end_line": 33,
+    "end_line": 33
+  },
+  {
+    "id": "T-U034",
+    "parent": "T-0005",
+    "level": 3,
+    "title": "Penerapan metode",
+    "start_line": 34,
+    "direct_end_line": 35,
+    "end_line": 35
+  },
+  {
+    "id": "T-0006",
+    "parent": "T-0001",
+    "level": 2,
+    "title": "1.5. Batasan Penelitian",
+    "start_line": 36,
+    "direct_end_line": 39,
+    "end_line": 45
+  },
+  {
+    "id": "T-U040",
+    "parent": "T-0006",
+    "level": 3,
+    "title": "Kasus dan jenis tugas",
+    "start_line": 40,
+    "direct_end_line": 40,
+    "end_line": 40
+  },
+  {
+    "id": "T-U041",
+    "parent": "T-0006",
+    "level": 3,
+    "title": "Batas data",
+    "start_line": 41,
+    "direct_end_line": 41,
+    "end_line": 41
+  },
+  {
+    "id": "T-U042",
+    "parent": "T-0006",
+    "level": 3,
+    "title": "Batas akses agen",
+    "start_line": 42,
+    "direct_end_line": 42,
+    "end_line": 42
+  },
+  {
+    "id": "T-U043",
+    "parent": "T-0006",
+    "level": 3,
+    "title": "Perlakuan konteks",
+    "start_line": 43,
+    "direct_end_line": 43,
+    "end_line": 43
+  },
+  {
+    "id": "T-U044",
+    "parent": "T-0006",
+    "level": 3,
+    "title": "Batas evaluasi",
+    "start_line": 44,
+    "direct_end_line": 45,
+    "end_line": 45
+  },
+  {
+    "id": "T-0007",
+    "parent": "T-0001",
+    "level": 2,
+    "title": "1.6. Sistematika Penulisan",
+    "start_line": 46,
+    "direct_end_line": 61,
+    "end_line": 61
+  },
+  {
+    "id": "T-0008",
+    "parent": "T-root",
+    "level": 1,
+    "title": "BAB II — TINJAUAN PUSTAKA",
+    "start_line": 62,
+    "direct_end_line": 65,
+    "end_line": 201
+  },
+  {
+    "id": "T-0009",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.1. State-of-the-art",
+    "start_line": 66,
+    "direct_end_line": 69,
+    "end_line": 94
+  },
+  {
+    "id": "T-U070",
+    "parent": "T-0009",
+    "level": 3,
+    "title": "Perbandingan delapan penelitian",
+    "start_line": 70,
+    "direct_end_line": 82,
+    "end_line": 82
+  },
+  {
+    "id": "T-U083",
+    "parent": "T-0009",
+    "level": 3,
+    "title": "Penempatan penelitian",
+    "start_line": 83,
+    "direct_end_line": 94,
+    "end_line": 94
+  },
+  {
+    "id": "T-0010",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.2. Business Intelligence",
+    "start_line": 95,
+    "direct_end_line": 100,
+    "end_line": 100
+  },
+  {
+    "id": "T-0011",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.3. Agentic Business Intelligence",
+    "start_line": 101,
+    "direct_end_line": 110,
+    "end_line": 110
+  },
+  {
+    "id": "T-0012",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.4. Agen Berbasis Kecerdasan Buatan",
+    "start_line": 111,
+    "direct_end_line": 118,
+    "end_line": 126
+  },
+  {
+    "id": "T-0013",
+    "parent": "T-0012",
+    "level": 3,
+    "title": "2.4.1. Tool dan Model Context Protocol",
+    "start_line": 119,
+    "direct_end_line": 126,
+    "end_line": 126
+  },
+  {
+    "id": "T-0014",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.5. Analisis Data melalui Bahasa Alami",
+    "start_line": 127,
+    "direct_end_line": 134,
+    "end_line": 134
+  },
+  {
+    "id": "T-0015",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.6. Prompt dan Konteks Bisnis",
+    "start_line": 135,
+    "direct_end_line": 140,
+    "end_line": 154
+  },
+  {
+    "id": "T-0016",
+    "parent": "T-0015",
+    "level": 3,
+    "title": "2.6.1. Struktur dan Isi Konteks Bisnis",
+    "start_line": 141,
+    "direct_end_line": 148,
+    "end_line": 148
+  },
+  {
+    "id": "T-0017",
+    "parent": "T-0015",
+    "level": 3,
+    "title": "2.6.2. Skills",
+    "start_line": 149,
+    "direct_end_line": 154,
+    "end_line": 154
+  },
+  {
+    "id": "T-0018",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.7. Large Language Models",
+    "start_line": 155,
+    "direct_end_line": 173,
+    "end_line": 181
+  },
+  {
+    "id": "T-0019",
+    "parent": "T-0018",
+    "level": 3,
+    "title": "2.7.1. Muse Spark 1.3",
+    "start_line": 174,
+    "direct_end_line": 177,
+    "end_line": 177
+  },
+  {
+    "id": "T-0020",
+    "parent": "T-0018",
+    "level": 3,
+    "title": "2.7.2. DeepSeek v4 Flash",
+    "start_line": 178,
+    "direct_end_line": 181,
+    "end_line": 181
+  },
+  {
+    "id": "T-0021",
+    "parent": "T-0008",
+    "level": 2,
+    "title": "2.8. Evaluasi Hasil Analisis",
+    "start_line": 182,
+    "direct_end_line": 185,
+    "end_line": 201
+  },
+  {
+    "id": "T-0022",
+    "parent": "T-0021",
+    "level": 3,
+    "title": "2.8.1. Kesesuaian Struktur dan Nilai Jawaban",
+    "start_line": 186,
+    "direct_end_line": 191,
+    "end_line": 191
+  },
+  {
+    "id": "T-0023",
+    "parent": "T-0021",
+    "level": 3,
+    "title": "2.8.2. Tingkat Keberhasilan",
+    "start_line": 192,
+    "direct_end_line": 195,
+    "end_line": 195
+  },
+  {
+    "id": "T-0024",
+    "parent": "T-0021",
+    "level": 3,
+    "title": "2.8.3. Konsistensi Hasil Pengulangan",
+    "start_line": 196,
+    "direct_end_line": 201,
+    "end_line": 201
+  },
+  {
+    "id": "T-0025",
+    "parent": "T-root",
+    "level": 1,
+    "title": "BAB III — METODOLOGI PENELITIAN",
+    "start_line": 202,
+    "direct_end_line": 205,
+    "end_line": 474
+  },
+  {
+    "id": "T-0026",
+    "parent": "T-0025",
+    "level": 2,
+    "title": "3.1. Gambaran Umum Penelitian",
+    "start_line": 206,
+    "direct_end_line": 217,
+    "end_line": 231
+  },
+  {
+    "id": "T-U218",
+    "parent": "T-0026",
+    "level": 3,
+    "title": "Kode kasus dan ukuran rancangan",
+    "start_line": 218,
+    "direct_end_line": 231,
+    "end_line": 231
+  },
+  {
+    "id": "T-0027",
+    "parent": "T-0025",
+    "level": 2,
+    "title": "3.2. Data Penelitian",
+    "start_line": 232,
+    "direct_end_line": 235,
+    "end_line": 338
+  },
+  {
+    "id": "T-0028",
+    "parent": "T-0027",
+    "level": 3,
+    "title": "3.2.1. Sumber dan Cakupan Data",
+    "start_line": 236,
+    "direct_end_line": 253,
+    "end_line": 253
+  },
+  {
+    "id": "T-0029",
+    "parent": "T-0027",
+    "level": 3,
+    "title": "3.2.2. Pemilihan Kasus Uji",
+    "start_line": 254,
+    "direct_end_line": 259,
+    "end_line": 295
+  },
+  {
+    "id": "T-U260",
+    "parent": "T-0029",
+    "level": 4,
+    "title": "Kondisi kasus menurut tugas",
+    "start_line": 260,
+    "direct_end_line": 275,
+    "end_line": 275
+  },
+  {
+    "id": "T-U276",
+    "parent": "T-0029",
+    "level": 4,
+    "title": "Daftar kasus dan kemampuan",
+    "start_line": 276,
+    "direct_end_line": 295,
+    "end_line": 295
+  },
+  {
+    "id": "T-0030",
+    "parent": "T-0027",
+    "level": 3,
+    "title": "3.2.3. Penyusunan Expected Result",
+    "start_line": 296,
+    "direct_end_line": 299,
+    "end_line": 338
+  },
+  {
+    "id": "T-U300",
+    "parent": "T-0030",
+    "level": 4,
+    "title": "Pemilihan data dan aturan",
+    "start_line": 300,
+    "direct_end_line": 314,
+    "end_line": 314
+  },
+  {
+    "id": "T-U315",
+    "parent": "T-0030",
+    "level": 4,
+    "title": "Contoh perhitungan T1-C2",
+    "start_line": 315,
+    "direct_end_line": 324,
+    "end_line": 338
+  },
+  {
+    "id": "T-U325",
+    "parent": "T-U315",
+    "level": 5,
+    "title": "Total durasi",
+    "start_line": 325,
+    "direct_end_line": 330,
+    "end_line": 330
+  },
+  {
+    "id": "T-U331",
+    "parent": "T-U315",
+    "level": 5,
+    "title": "Rata-rata dan penyimpanan",
+    "start_line": 331,
+    "direct_end_line": 338,
+    "end_line": 338
+  },
+  {
+    "id": "T-0031",
+    "parent": "T-0025",
+    "level": 2,
+    "title": "3.3. Penyusunan Prompt dan Konteks Bisnis",
+    "start_line": 339,
+    "direct_end_line": 347,
+    "end_line": 386
+  },
+  {
+    "id": "T-0032",
+    "parent": "T-0031",
+    "level": 3,
+    "title": "3.3.1. Pertanyaan dan Format Jawaban",
+    "start_line": 348,
+    "direct_end_line": 351,
+    "end_line": 361
+  },
+  {
+    "id": "T-U352",
+    "parent": "T-0032",
+    "level": 4,
+    "title": "Contoh prompt T2-C1",
+    "start_line": 352,
+    "direct_end_line": 361,
+    "end_line": 361
+  },
+  {
+    "id": "T-0033",
+    "parent": "T-0031",
+    "level": 3,
+    "title": "3.3.2. Konteks Bisnis",
+    "start_line": 362,
+    "direct_end_line": 367,
+    "end_line": 386
+  },
+  {
+    "id": "T-U368",
+    "parent": "T-0033",
+    "level": 4,
+    "title": "Isi tujuh dokumen",
+    "start_line": 368,
+    "direct_end_line": 379,
+    "end_line": 379
+  },
+  {
+    "id": "T-U380",
+    "parent": "T-0033",
+    "level": 4,
+    "title": "Pemilihan referensi lintas topik",
+    "start_line": 380,
+    "direct_end_line": 386,
+    "end_line": 386
+  },
+  {
+    "id": "T-0034",
+    "parent": "T-0025",
+    "level": 2,
+    "title": "3.4. Generasi Jawaban oleh LLM",
+    "start_line": 387,
+    "direct_end_line": 388,
+    "end_line": 434
+  },
+  {
+    "id": "T-0035",
+    "parent": "T-0034",
+    "level": 3,
+    "title": "3.4.1. Model dan Lingkungan Pengujian",
+    "start_line": 389,
+    "direct_end_line": 410,
+    "end_line": 410
+  },
+  {
+    "id": "T-0036",
+    "parent": "T-0034",
+    "level": 3,
+    "title": "3.4.2. Akses Data",
+    "start_line": 411,
+    "direct_end_line": 428,
+    "end_line": 428
+  },
+  {
+    "id": "T-0037",
+    "parent": "T-0034",
+    "level": 3,
+    "title": "3.4.3. Prosedur Generasi Jawaban",
+    "start_line": 429,
+    "direct_end_line": 434,
+    "end_line": 434
+  },
+  {
+    "id": "T-0038",
+    "parent": "T-0025",
+    "level": 2,
+    "title": "3.5. Evaluasi Hasil Generasi",
+    "start_line": 435,
+    "direct_end_line": 438,
+    "end_line": 474
+  },
+  {
+    "id": "T-0039",
+    "parent": "T-0038",
+    "level": 3,
+    "title": "3.5.1. Perbandingan Respons dan *Expected Result*",
+    "start_line": 439,
+    "direct_end_line": 444,
+    "end_line": 456
+  },
+  {
+    "id": "T-U445",
+    "parent": "T-0039",
+    "level": 4,
+    "title": "Dua keputusan untuk T5-C1",
+    "start_line": 445,
+    "direct_end_line": 456,
+    "end_line": 456
+  },
+  {
+    "id": "T-0040",
+    "parent": "T-0038",
+    "level": 3,
+    "title": "3.5.2. Perhitungan Tingkat Keberhasilan",
+    "start_line": 457,
+    "direct_end_line": 468,
+    "end_line": 468
+  },
+  {
+    "id": "T-0041",
+    "parent": "T-0038",
+    "level": 3,
+    "title": "3.5.3. Analisis Perbandingan Hasil",
+    "start_line": 469,
+    "direct_end_line": 474,
+    "end_line": 474
+  },
+  {
+    "id": "T-0042",
+    "parent": "T-root",
+    "level": 1,
+    "title": "BAB IV — HASIL DAN PEMBAHASAN",
+    "start_line": 475,
+    "direct_end_line": 478,
+    "end_line": 820
+  },
+  {
+    "id": "T-0043",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.1. Lingkungan Pengujian",
+    "start_line": 479,
+    "direct_end_line": 490,
+    "end_line": 490
+  },
+  {
+    "id": "T-0044",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.2. Data Penelitian",
+    "start_line": 491,
+    "direct_end_line": 508,
+    "end_line": 508
+  },
+  {
+    "id": "T-0045",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.3. Analisis Hasil pada Durasi Transaksi",
+    "start_line": 509,
+    "direct_end_line": 510,
+    "end_line": 551
+  },
+  {
+    "id": "T-0046",
+    "parent": "T-0045",
+    "level": 3,
+    "title": "4.3.1. Berdasarkan Ketersediaan Konteks Bisnis",
+    "start_line": 511,
+    "direct_end_line": 523,
+    "end_line": 523
+  },
+  {
+    "id": "T-0047",
+    "parent": "T-0045",
+    "level": 3,
+    "title": "4.3.2. Berdasarkan Model",
+    "start_line": 524,
+    "direct_end_line": 536,
+    "end_line": 536
+  },
+  {
+    "id": "T-0048",
+    "parent": "T-0045",
+    "level": 3,
+    "title": "4.3.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "start_line": 537,
+    "direct_end_line": 551,
+    "end_line": 551
+  },
+  {
+    "id": "T-0049",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.4. Analisis Hasil pada Volume Lalu Lintas dan LHR",
+    "start_line": 552,
+    "direct_end_line": 553,
+    "end_line": 598
+  },
+  {
+    "id": "T-0050",
+    "parent": "T-0049",
+    "level": 3,
+    "title": "4.4.1. Berdasarkan Ketersediaan Konteks Bisnis",
+    "start_line": 554,
+    "direct_end_line": 566,
+    "end_line": 566
+  },
+  {
+    "id": "T-0051",
+    "parent": "T-0049",
+    "level": 3,
+    "title": "4.4.2. Berdasarkan Model",
+    "start_line": 567,
+    "direct_end_line": 579,
+    "end_line": 579
+  },
+  {
+    "id": "T-0052",
+    "parent": "T-0049",
+    "level": 3,
+    "title": "4.4.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "start_line": 580,
+    "direct_end_line": 594,
+    "end_line": 598
+  },
+  {
+    "id": "T-U595",
+    "parent": "T-0052",
+    "level": 4,
+    "title": "Rincian T3-C1",
+    "start_line": 595,
+    "direct_end_line": 598,
+    "end_line": 598
+  },
+  {
+    "id": "T-0053",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.5. Analisis Hasil pada Insiden dan Penyebab Kecelakaan",
+    "start_line": 599,
+    "direct_end_line": 600,
+    "end_line": 656
+  },
+  {
+    "id": "T-0054",
+    "parent": "T-0053",
+    "level": 3,
+    "title": "4.5.1. Berdasarkan Ketersediaan Konteks Bisnis",
+    "start_line": 601,
+    "direct_end_line": 613,
+    "end_line": 613
+  },
+  {
+    "id": "T-0055",
+    "parent": "T-0053",
+    "level": 3,
+    "title": "4.5.2. Berdasarkan Model",
+    "start_line": 614,
+    "direct_end_line": 626,
+    "end_line": 626
+  },
+  {
+    "id": "T-0056",
+    "parent": "T-0053",
+    "level": 3,
+    "title": "4.5.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "start_line": 627,
+    "direct_end_line": 641,
+    "end_line": 656
+  },
+  {
+    "id": "T-U642",
+    "parent": "T-0056",
+    "level": 4,
+    "title": "Diagnosis T5-C1",
+    "start_line": 642,
+    "direct_end_line": 656,
+    "end_line": 656
+  },
+  {
+    "id": "T-0057",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.6. Analisis Hasil pada Inspeksi dan Identitas Aset",
+    "start_line": 657,
+    "direct_end_line": 658,
+    "end_line": 699
+  },
+  {
+    "id": "T-0058",
+    "parent": "T-0057",
+    "level": 3,
+    "title": "4.6.1. Berdasarkan Ketersediaan Konteks Bisnis",
+    "start_line": 659,
+    "direct_end_line": 671,
+    "end_line": 671
+  },
+  {
+    "id": "T-0059",
+    "parent": "T-0057",
+    "level": 3,
+    "title": "4.6.2. Berdasarkan Model",
+    "start_line": 672,
+    "direct_end_line": 684,
+    "end_line": 684
+  },
+  {
+    "id": "T-0060",
+    "parent": "T-0057",
+    "level": 3,
+    "title": "4.6.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "start_line": 685,
+    "direct_end_line": 699,
+    "end_line": 699
+  },
+  {
+    "id": "T-0061",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.7. Analisis Hasil pada SPM dan SLA per Laporan",
+    "start_line": 700,
+    "direct_end_line": 701,
+    "end_line": 757
+  },
+  {
+    "id": "T-0062",
+    "parent": "T-0061",
+    "level": 3,
+    "title": "4.7.1. Berdasarkan Ketersediaan Konteks Bisnis",
+    "start_line": 702,
+    "direct_end_line": 714,
+    "end_line": 714
+  },
+  {
+    "id": "T-0063",
+    "parent": "T-0061",
+    "level": 3,
+    "title": "4.7.2. Berdasarkan Model",
+    "start_line": 715,
+    "direct_end_line": 727,
+    "end_line": 727
+  },
+  {
+    "id": "T-0064",
+    "parent": "T-0061",
+    "level": 3,
+    "title": "4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "start_line": 728,
+    "direct_end_line": 742,
+    "end_line": 757
+  },
+  {
+    "id": "T-U743",
+    "parent": "T-0064",
+    "level": 4,
+    "title": "Empat ketidaksesuaian per laporan",
+    "start_line": 743,
+    "direct_end_line": 751,
+    "end_line": 757
+  },
+  {
+    "id": "T-U752",
+    "parent": "T-U743",
+    "level": 5,
+    "title": "Status pada batas indikator",
+    "start_line": 752,
+    "direct_end_line": 755,
+    "end_line": 755
+  },
+  {
+    "id": "T-U756",
+    "parent": "T-U743",
+    "level": 5,
+    "title": "Kelengkapan evaluasi",
+    "start_line": 756,
+    "direct_end_line": 757,
+    "end_line": 757
+  },
+  {
+    "id": "T-0065",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode",
+    "start_line": 758,
+    "direct_end_line": 759,
+    "end_line": 802
+  },
+  {
+    "id": "T-0066",
+    "parent": "T-0065",
+    "level": 3,
+    "title": "4.8.1. Berdasarkan Ketersediaan Konteks Bisnis",
+    "start_line": 760,
+    "direct_end_line": 772,
+    "end_line": 772
+  },
+  {
+    "id": "T-0067",
+    "parent": "T-0065",
+    "level": 3,
+    "title": "4.8.2. Berdasarkan Model",
+    "start_line": 773,
+    "direct_end_line": 785,
+    "end_line": 785
+  },
+  {
+    "id": "T-0068",
+    "parent": "T-0065",
+    "level": 3,
+    "title": "4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "start_line": 786,
+    "direct_end_line": 800,
+    "end_line": 802
+  },
+  {
+    "id": "T-U801",
+    "parent": "T-0068",
+    "level": 4,
+    "title": "Contoh T9-C2",
+    "start_line": 801,
+    "direct_end_line": 802,
+    "end_line": 802
+  },
+  {
+    "id": "T-0069",
+    "parent": "T-0042",
+    "level": 2,
+    "title": "4.9. Interpretasi Hasil",
+    "start_line": 803,
+    "direct_end_line": 804,
+    "end_line": 820
+  },
+  {
+    "id": "T-U805",
+    "parent": "T-0069",
+    "level": 3,
+    "title": "Keempat kombinasi dan enam kelompok",
+    "start_line": 805,
+    "direct_end_line": 810,
+    "end_line": 810
+  },
+  {
+    "id": "T-U811",
+    "parent": "T-0069",
+    "level": 3,
+    "title": "Bentuk ketidaksesuaian",
+    "start_line": 811,
+    "direct_end_line": 814,
+    "end_line": 814
+  },
+  {
+    "id": "T-U815",
+    "parent": "T-0069",
+    "level": 3,
+    "title": "Hasil antarulangan",
+    "start_line": 815,
+    "direct_end_line": 818,
+    "end_line": 818
+  },
+  {
+    "id": "T-U819",
+    "parent": "T-0069",
+    "level": 3,
+    "title": "Batas interpretasi",
+    "start_line": 819,
+    "direct_end_line": 820,
+    "end_line": 820
+  },
+  {
+    "id": "T-0070",
+    "parent": "T-root",
+    "level": 1,
+    "title": "BAB V — PENUTUP",
+    "start_line": 821,
+    "direct_end_line": 824,
+    "end_line": 840
+  },
+  {
+    "id": "T-0071",
+    "parent": "T-0070",
+    "level": 2,
+    "title": "5.1. Kesimpulan",
+    "start_line": 825,
+    "direct_end_line": 826,
+    "end_line": 836
+  },
+  {
+    "id": "T-U827",
+    "parent": "T-0071",
+    "level": 3,
+    "title": "Ketepatan per kondisi dan model",
+    "start_line": 827,
+    "direct_end_line": 830,
+    "end_line": 830
+  },
+  {
+    "id": "T-U831",
+    "parent": "T-0071",
+    "level": 3,
+    "title": "Kegagalan dan pengulangan",
+    "start_line": 831,
+    "direct_end_line": 836,
+    "end_line": 836
+  },
+  {
+    "id": "T-0072",
+    "parent": "T-0070",
+    "level": 2,
+    "title": "5.2. Saran",
+    "start_line": 837,
+    "direct_end_line": 840,
+    "end_line": 840
+  },
+  {
+    "id": "T-0073",
+    "parent": "T-root",
+    "level": 1,
+    "title": "DAFTAR PUSTAKA",
+    "start_line": 841,
+    "direct_end_line": 919,
+    "end_line": 919
+  }
+]

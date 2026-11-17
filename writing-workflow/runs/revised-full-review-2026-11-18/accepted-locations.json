@@ -1,0 +1,255 @@
+[
+  {
+    "id": "R01",
+    "baseline_start": 15,
+    "baseline_end": 15,
+    "candidate_start": 15,
+    "candidate_end": 15,
+    "finding_ids": [
+      "W01"
+    ]
+  },
+  {
+    "id": "R02",
+    "baseline_start": 17,
+    "baseline_end": 17,
+    "candidate_start": 17,
+    "candidate_end": 17,
+    "finding_ids": [
+      "W02"
+    ]
+  },
+  {
+    "id": "R2-W03",
+    "baseline_start": 43,
+    "baseline_end": 43,
+    "candidate_start": 43,
+    "candidate_end": 43,
+    "finding_ids": [
+      "W03"
+    ]
+  },
+  {
+    "id": "R04",
+    "baseline_start": 77,
+    "baseline_end": 77,
+    "candidate_start": 77,
+    "candidate_end": 77,
+    "finding_ids": [
+      "W04"
+    ]
+  },
+  {
+    "id": "R2-W05",
+    "baseline_start": 91,
+    "baseline_end": 91,
+    "candidate_start": 91,
+    "candidate_end": 91,
+    "finding_ids": [
+      "W05"
+    ]
+  },
+  {
+    "id": "R2-W06",
+    "baseline_start": 145,
+    "baseline_end": 145,
+    "candidate_start": 145,
+    "candidate_end": 145,
+    "finding_ids": [
+      "W06"
+    ]
+  },
+  {
+    "id": "R07",
+    "baseline_start": 188,
+    "baseline_end": 188,
+    "candidate_start": 188,
+    "candidate_end": 188,
+    "finding_ids": [
+      "W07"
+    ]
+  },
+  {
+    "id": "R30",
+    "baseline_start": 210,
+    "baseline_end": 210,
+    "candidate_start": 210,
+    "candidate_end": 210,
+    "finding_ids": [
+      "W30"
+    ]
+  },
+  {
+    "id": "R08",
+    "baseline_start": 218,
+    "baseline_end": 218,
+    "candidate_start": 218,
+    "candidate_end": 218,
+    "finding_ids": [
+      "W08"
+    ]
+  },
+  {
+    "id": "R09",
+    "baseline_start": 240,
+    "baseline_end": 244,
+    "candidate_start": 240,
+    "candidate_end": 244,
+    "finding_ids": [
+      "W09"
+    ]
+  },
+  {
+    "id": "R2-W10",
+    "baseline_start": 293,
+    "baseline_end": 294,
+    "candidate_start": 293,
+    "candidate_end": 294,
+    "finding_ids": [
+      "W10",
+      "S07"
+    ]
+  },
+  {
+    "id": "R11",
+    "baseline_start": 302,
+    "baseline_end": 302,
+    "candidate_start": 302,
+    "candidate_end": 302,
+    "finding_ids": [
+      "W11"
+    ]
+  },
+  {
+    "id": "RS02",
+    "baseline_start": 309,
+    "baseline_end": 309,
+    "candidate_start": 309,
+    "candidate_end": 309,
+    "finding_ids": [
+      "S02"
+    ]
+  },
+  {
+    "id": "R12",
+    "baseline_start": 311,
+    "baseline_end": 311,
+    "candidate_start": 311,
+    "candidate_end": 311,
+    "finding_ids": [
+      "W12",
+      "S01"
+    ]
+  },
+  {
+    "id": "R13",
+    "baseline_start": 346,
+    "baseline_end": 346,
+    "candidate_start": 346,
+    "candidate_end": 346,
+    "finding_ids": [
+      "W13"
+    ]
+  },
+  {
+    "id": "RC-W15",
+    "baseline_start": 437,
+    "baseline_end": 437,
+    "candidate_start": 437,
+    "candidate_end": 437,
+    "finding_ids": [
+      "W15"
+    ]
+  },
+  {
+    "id": "R16",
+    "baseline_start": 471,
+    "baseline_end": 471,
+    "candidate_start": 471,
+    "candidate_end": 473,
+    "finding_ids": [
+      "W16"
+    ]
+  },
+  {
+    "id": "R17",
+    "baseline_start": 481,
+    "baseline_end": 481,
+    "candidate_start": 483,
+    "candidate_end": 483,
+    "finding_ids": [
+      "W17"
+    ]
+  },
+  {
+    "id": "R18",
+    "baseline_start": 488,
+    "baseline_end": 488,
+    "candidate_start": 490,
+    "candidate_end": 490,
+    "finding_ids": [
+      "W18"
+    ]
+  },
+  {
+    "id": "R21",
+    "baseline_start": 752,
+    "baseline_end": 752,
+    "candidate_start": 754,
+    "candidate_end": 754,
+    "finding_ids": [
+      "W21"
+    ]
+  },
+  {
+    "id": "R23",
+    "baseline_start": 813,
+    "baseline_end": 813,
+    "candidate_start": 815,
+    "candidate_end": 815,
+    "finding_ids": [
+      "W23"
+    ]
+  },
+  {
+    "id": "R24",
+    "baseline_start": 817,
+    "baseline_end": 817,
+    "candidate_start": 819,
+    "candidate_end": 819,
+    "finding_ids": [
+      "W24"
+    ]
+  },
+  {
+    "id": "R03b",
+    "baseline_start": 819,
+    "baseline_end": 819,
+    "candidate_start": 821,
+    "candidate_end": 821,
+    "finding_ids": [
+      "W03"
+    ]
+  },
+  {
+    "id": "R25",
+    "baseline_start": 833,
+    "baseline_end": 833,
+    "candidate_start": 835,
+    "candidate_end": 835,
+    "finding_ids": [
+      "W25",
+      "S06"
+    ]
+  },
+  {
+    "id": "R26",
+    "baseline_start": 839,
+    "baseline_end": 839,
+    "candidate_start": 841,
+    "candidate_end": 841,
+    "finding_ids": [
+      "W26"
+    ]
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "id": "P113",
+    "start": 264,
+    "end": 264,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "3b84d979a37679c71a64366aba2bfb8ba8a35edb459d6c5e687b87a24b7c0940"
+  },
+  {
+    "id": "P114",
+    "start": 266,
+    "end": 266,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "cdf4f267457b621790f9b8e32f59647d884122f193a4338bdd0ddfac4d930feb"
+  },
+  {
+    "id": "P115",
+    "start": 268,
+    "end": 268,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "9ee7a52c9dbc63b87e8dad9eb82ce01ff276575b02cede3fb5a74b0509142a2b"
+  },
+  {
+    "id": "P116",
+    "start": 270,
+    "end": 270,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "fb6ed5f27c52588403e7de403af471e3edddbe60e661cb642a7b67ebef6d2f02"
+  },
+  {
+    "id": "P129",
+    "start": 319,
+    "end": 323,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "40531ffebcf3b8fd55640ef4290f3bdeef3fb3f783e9a46c154cfd24c28dd6fa"
+  },
+  {
+    "id": "P131",
+    "start": 327,
+    "end": 329,
+    "role": "display equation",
+    "sha256": "fa271579f79f70f36676957751d9564b1ca6ff446eac0b26a29868da440c8b09"
+  },
+  {
+    "id": "P133",
+    "start": 333,
+    "end": 335,
+    "role": "display equation",
+    "sha256": "7325ee876f7b14e57e84e96b9deb7e72d1f557508fdd83294c92c7e5577fab05"
+  },
+  {
+    "id": "P137",
+    "start": 343,
+    "end": 344,
+    "role": "verbatim experiment material",
+    "sha256": "84c9afad90044bebaeaf12580a6b066cc8e93bbcabc1e65576f760b92e2e6f3f"
+  },
+  {
+    "id": "P143",
+    "start": 356,
+    "end": 360,
+    "role": "verbatim experiment material",
+    "sha256": "58eff315d6c32b0b8665fd38dfcdc02dde269fcf0212bbf00004374fc44d5671"
+  },
+  {
+    "id": "P150",
+    "start": 382,
+    "end": 383,
+    "role": "verbatim experiment material",
+    "sha256": "5cd96a768c11f4d8f226761267dba34a7f990a6dcc7c5b3b432d8ea8dfd47777"
+  },
+  {
+    "id": "P157",
+    "start": 397,
+    "end": 403,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "f79b1ece1fe31ce121ab4eb26dfccad3e0dc9976dfcdfab36557e7965130b81b"
+  },
+  {
+    "id": "P178",
+    "start": 449,
+    "end": 453,
+    "role": "verbatim experiment material",
+    "sha256": "963b155a6d09ed7d6fb40dcf5e2a253f76efad9cd410891643d2ca632217593e"
+  },
+  {
+    "id": "P182",
+    "start": 461,
+    "end": 463,
+    "role": "display equation",
+    "sha256": "849b60fcdac3483457c3671e75cf3786ffb9d2ce04ebd8f84d6d0a7ecf9b83cd"
+  },
+  {
+    "id": "P203",
+    "start": 517,
+    "end": 520,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "b2510f32ecfd272e5bcee6c752444f78d618fb16c0521ca89f61bd7605fce1d6"
+  },
+  {
+    "id": "P208",
+    "start": 530,
+    "end": 533,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "59d9da30c6b86a94e5e73f446a9c5bbcdd97349a0c0277a718dd49f7f3e01404"
+  },
+  {
+    "id": "P213",
+    "start": 543,
+    "end": 548,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "f7977a110a2c3957c8455554a179c875145b2985d2bcd3896082c385f5b321ff"
+  },
+  {
+    "id": "P219",
+    "start": 560,
+    "end": 563,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "dcbd9dbb355ed7e1b814f6d00a71a2f4271dd8f9dc28c39fc9b2182901de0796"
+  },
+  {
+    "id": "P224",
+    "start": 573,
+    "end": 576,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "65b6e24d32e67783e11fa6cd0ee5601853ed61c40c33a935c2752da2d9e5ad8d"
+  },
+  {
+    "id": "P229",
+    "start": 586,
+    "end": 591,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "3f9b611d8c4bc80007a681b45a9f9f03934c6a88fc55af59f6ec2f92f65995a1"
+  },
+  {
+    "id": "P237",
+    "start": 607,
+    "end": 610,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "a1e03fa6c4e354546b46ee640234685d840f435c5eedcdf9584d3c683db8ca4d"
+  },
+  {
+    "id": "P242",
+    "start": 620,
+    "end": 623,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "87aa5a84b5b2b2b3a471ef03c05188c511852fa6005bc650cf1b10b31c141e64"
+  },
+  {
+    "id": "P247",
+    "start": 633,
+    "end": 638,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "9df23f9f3552f5a0a29b76e6fabc32997c7733d6efe12e3b4fc5758cf56a5cd4"
+  },
+  {
+    "id": "P251",
+    "start": 646,
+    "end": 651,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "ff1eb68f1c9aaf7e722b10695bc5e665283c1e2c8db9c449a9d9aabe1b86abf0"
+  },
+  {
+    "id": "P258",
+    "start": 665,
+    "end": 668,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "563af3a3c6a9222018450aaa5f4ceeee7ff5602ba19c0d4bd6776da5eb946f1e"
+  },
+  {
+    "id": "P263",
+    "start": 678,
+    "end": 681,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "388d443614163abc2e5b3e81bf2f0a07fb656ef605f73f3d8123a708322826d8"
+  },
+  {
+    "id": "P268",
+    "start": 691,
+    "end": 696,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "35a2a95fe7997a041bda65bbe6d2fc8af9dd10e6b29061110a89eca905aaf4ce"
+  },
+  {
+    "id": "P274",
+    "start": 708,
+    "end": 711,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "9356e4557086157a957be7da48fd46f20f041faa17d234824fab37d7c29c6a18"
+  },
+  {
+    "id": "P279",
+    "start": 721,
+    "end": 724,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "f872ea14767edea75bbc9fad8aa0fff47b38a22962c284516d9107730b1dcdd7"
+  },
+  {
+    "id": "P284",
+    "start": 734,
+    "end": 739,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "6686d0761fd222dd22a4e7b68ab58daf4f61742ae16e78badc20f080a9c8e974"
+  },
+  {
+    "id": "P287",
+    "start": 745,
+    "end": 750,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "3ba4351e4c6e36d1b0a76f064480fff603f98a13c62820449a2014ff8c6e895e"
+  },
+  {
+    "id": "P288",
+    "start": 752,
+    "end": 752,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "b3befbb52eefa5afc639098f93dc9d5ec23741767a2e6b337e4ccdddf4f0937e"
+  },
+  {
+    "id": "P289",
+    "start": 754,
+    "end": 754,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "853c1e498a3cb79b55da777a618e9ba4c5e5d0b2abff66c4bb39dc27011f74bf"
+  },
+  {
+    "id": "P290",
+    "start": 756,
+    "end": 756,
+    "role": "author-praised explanation; compare each change manually",
+    "sha256": "499f7b1d5ed96866a3c361625e969758881b714bb2986e6b711474368b781269"
+  },
+  {
+    "id": "P295",
+    "start": 766,
+    "end": 769,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "ec41b55d5cdf3d65dd9a42a2e60b118d2502ccb605a0c2de0410e9176775c72d"
+  },
+  {
+    "id": "P300",
+    "start": 779,
+    "end": 782,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "cf3d0f9055fe4cccbc8e8e1eb62956e308b17ae1522c765d124306fffa87c152"
+  },
+  {
+    "id": "P305",
+    "start": 792,
+    "end": 797,
+    "role": "reported measurements, experimental settings or example values",
+    "sha256": "707ebfee49f06aaadbda0a0189f36686370f33ebc12b5583618cbecad0cf7aa1"
+  },
+  {
+    "id": "P327",
+    "start": 841,
+    "end": 841,
+    "role": "bibliography",
+    "sha256": "8402391006903b0f17cc0d5d92d730fb4f0e9bea47479996490840702f95464d"
+  },
+  {
+    "id": "P328",
+    "start": 843,
+    "end": 843,
+    "role": "bibliography",
+    "sha256": "8299f7221782e4be7ac55248b65d2fe9c77fce8d490dab16da2eebcd80a11157"
+  },
+  {
+    "id": "P329",
+    "start": 845,
+    "end": 845,
+    "role": "bibliography",
+    "sha256": "af53dedb32fa5fab9a45dfa87769912570a682a5b9a150db63526b2fbcce23fb"
+  },
+  {
+    "id": "P330",
+    "start": 847,
+    "end": 847,
+    "role": "bibliography",
+    "sha256": "d687ab8fa5189a2aed9256abdab073698eb20fc59e83813cf7ea41c1de9db81f"
+  },
+  {
+    "id": "P331",
+    "start": 849,
+    "end": 849,
+    "role": "bibliography",
+    "sha256": "0c2a0745182ff6b00cd9ab57ba17e41dbd5344b81eaae24d6deaecc26bd6c46c"
+  },
+  {
+    "id": "P332",
+    "start": 851,
+    "end": 851,
+    "role": "bibliography",
+    "sha256": "4bdb9a37bec94d537b69e1710109db26de2c4f932c6817f39e97b528faedb856"
+  },
+  {
+    "id": "P333",
+    "start": 853,
+    "end": 853,
+    "role": "bibliography",
+    "sha256": "16ed9146cb1c8af2f7881c840fd4e5ad98801f8e8ff94bfaf00e233ba5599876"
+  },
+  {
+    "id": "P334",
+    "start": 855,
+    "end": 855,
+    "role": "bibliography",
+    "sha256": "8c9b6a8675c9247d3832452acb404b872d0c3ce5b8fa3586d513ea437536382f"
+  },
+  {
+    "id": "P335",
+    "start": 857,
+    "end": 857,
+    "role": "bibliography",
+    "sha256": "483d152e6ac87550b232de464b6ed88c526ffe8537e55ce93987474708f333d4"
+  },
+  {
+    "id": "P336",
+    "start": 859,
+    "end": 859,
+    "role": "bibliography",
+    "sha256": "741b513e8f28df4aebabeef68c45f279494a480525582f57502e9216ae3f4b5c"
+  },
+  {
+    "id": "P337",
+    "start": 861,
+    "end": 861,
+    "role": "bibliography",
+    "sha256": "65d55ac5a5c6e0896fd4a5d27d9799f173cc8ff705fd3ad5620a8dba526ac4de"
+  },
+  {
+    "id": "P338",
+    "start": 863,
+    "end": 863,
+    "role": "bibliography",
+    "sha256": "a07da282ebe23c5f612c2d8158c217217526a4ad558001d2fcf00c6835a78746"
+  },
+  {
+    "id": "P339",
+    "start": 865,
+    "end": 865,
+    "role": "bibliography",
+    "sha256": "c7894ab44f046eded2d9c44e1953bf9b3b7c070f403702d97640c29a27629888"
+  },
+  {
+    "id": "P340",
+    "start": 867,
+    "end": 867,
+    "role": "bibliography",
+    "sha256": "f50e46bbf0105dcc81f2f8d456efd61817902aeba8ac2896a72dfa3c9d3623d7"
+  },
+  {
+    "id": "P341",
+    "start": 869,
+    "end": 869,
+    "role": "bibliography",
+    "sha256": "f9708b030f6b22ffdb853b28661b3c8521d0a94c1aaa2d0911fa5e8b3fc01810"
+  },
+  {
+    "id": "P342",
+    "start": 871,
+    "end": 871,
+    "role": "bibliography",
+    "sha256": "3ed0a8a32123055b756f5ebe1786ec5170c6a30bf88091bec00cf32a57ac1705"
+  },
+  {
+    "id": "P343",
+    "start": 873,
+    "end": 873,
+    "role": "bibliography",
+    "sha256": "3fbf2c7dfc7b53fe5ba24cf6167e0de40f5260854f5130eeb87a4bbcfdab0446"
+  },
+  {
+    "id": "P344",
+    "start": 875,
+    "end": 875,
+    "role": "bibliography",
+    "sha256": "02f757e8b767a2e3f2bdc498c7fbd644ac9c67ff75a38a0136fda06bc1358051"
+  },
+  {
+    "id": "P345",
+    "start": 877,
+    "end": 877,
+    "role": "bibliography",
+    "sha256": "4c76742fb6da1895a61ea8cde5690f1e5331289bbb21a774bb704e3d2483ce5c"
+  },
+  {
+    "id": "P346",
+    "start": 879,
+    "end": 879,
+    "role": "bibliography",
+    "sha256": "d8ebf3717c59ae6822f9ed918c7f287bdd8801bf291e319e5bb17844c1570c24"
+  },
+  {
+    "id": "P347",
+    "start": 881,
+    "end": 881,
+    "role": "bibliography",
+    "sha256": "9ee0aa7b0b71424f10b058b3de89c38f8f649b0520eee70ed28238048b1c69ee"
+  },
+  {
+    "id": "P348",
+    "start": 883,
+    "end": 883,
+    "role": "bibliography",
+    "sha256": "a5158d55babe76dfa82cd625fe6e47e0fec604af182fa2afdd3170785d0619a8"
+  },
+  {
+    "id": "P349",
+    "start": 885,
+    "end": 885,
+    "role": "bibliography",
+    "sha256": "a2808df929aef4f9caeb46d79706194a3ee5a3a355309c47151feb7f3ed372b2"
+  },
+  {
+    "id": "P350",
+    "start": 887,
+    "end": 887,
+    "role": "bibliography",
+    "sha256": "7104d0ddd3041fe025178b239004c6d4e03cf0dcfb08c6a215e62d924ae8d4fa"
+  },
+  {
+    "id": "P351",
+    "start": 889,
+    "end": 889,
+    "role": "bibliography",
+    "sha256": "7e2c78a082e7cd1119bcb0f2ffe667722d02137dd188a5bb6fe6bedcb7958a8a"
+  },
+  {
+    "id": "P352",
+    "start": 891,
+    "end": 891,
+    "role": "bibliography",
+    "sha256": "c404e5420123487106ab1be4d12ca1ea1223a01c6773c509ce78910d39bff31f"
+  },
+  {
+    "id": "P353",
+    "start": 893,
+    "end": 893,
+    "role": "bibliography",
+    "sha256": "131b93d73b95dcf3117b6dcd8f827debe4369d6e2bb671d2b8bcae6c4cf54a4a"
+  },
+  {
+    "id": "P354",
+    "start": 895,
+    "end": 895,
+    "role": "bibliography",
+    "sha256": "2db2f68eebf1f990069f9630cb3a7426268834c73df36621d9559f350f8a3f68"
+  },
+  {
+    "id": "P355",
+    "start": 897,
+    "end": 897,
+    "role": "bibliography",
+    "sha256": "980970ef9d793ae684167c8976a9c7eb739077a7da23ad7df45300c62e44895c"
+  },
+  {
+    "id": "P356",
+    "start": 899,
+    "end": 899,
+    "role": "bibliography",
+    "sha256": "0d5a7c9e00a03891fdc77e5c56c5f2fdf08e367e0db9cae9516693f7fac18907"
+  },
+  {
+    "id": "P357",
+    "start": 901,
+    "end": 901,
+    "role": "bibliography",
+    "sha256": "4a906a2c014ca07e9a8ed14feff4fae7387438dfbae68cc1cfa63226c466bc38"
+  },
+  {
+    "id": "P358",
+    "start": 903,
+    "end": 903,
+    "role": "bibliography",
+    "sha256": "f40379c50235a5ee8394956fa2e5c8199ec5003ffc99aaaa9b03a36198b9995f"
+  },
+  {
+    "id": "P359",
+    "start": 905,
+    "end": 905,
+    "role": "bibliography",
+    "sha256": "f2ce40eca199a1899dd0fed9c25f050ffc7790be8dd3b3fd8dca4309fda0af34"
+  },
+  {
+    "id": "P360",
+    "start": 907,
+    "end": 907,
+    "role": "bibliography",
+    "sha256": "696c86d14e20fc494dd0ea731a9ff424630db5cb3c6827e8dfd8ac324033537e"
+  },
+  {
+    "id": "P361",
+    "start": 909,
+    "end": 909,
+    "role": "bibliography",
+    "sha256": "1952b5ae087e8ba3a5d10474ddcebdf4ad054463842071c58ce875ea8e74435f"
+  },
+  {
+    "id": "P362",
+    "start": 911,
+    "end": 911,
+    "role": "bibliography",
+    "sha256": "8f858bb7f4167688751d25ee726bb00d17cbdc5a1772d3d47f9c7204d821522d"
+  },
+  {
+    "id": "P363",
+    "start": 913,
+    "end": 913,
+    "role": "bibliography",
+    "sha256": "fe839f79e4301c2ea106b6b29f7651528a670b6a32079e74461600d48eb6d0a1"
+  },
+  {
+    "id": "P364",
+    "start": 915,
+    "end": 915,
+    "role": "bibliography",
+    "sha256": "27612e80a00eddbb69eff149bc1a22c802d260a81e73dd909a9aef84daf5984c"
+  },
+  {
+    "id": "P365",
+    "start": 917,
+    "end": 917,
+    "role": "bibliography",
+    "sha256": "f1ad1b7a56421957677682b5234c3f357db675e5bb15ef317632594da840de4e"
+  },
+  {
+    "id": "P366",
+    "start": 919,
+    "end": 919,
+    "role": "bibliography",
+    "sha256": "85d5fcc6a0a6417055ffabe1fb0237d4e3b093490c29738d8284f3f2046dfcfa"
+  }
+]

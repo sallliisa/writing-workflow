@@ -1,0 +1,465 @@
+[
+  {
+    "id": "W01",
+    "baseline_lines": [
+      15,
+      15
+    ],
+    "problem": "Istilah akurasi menutupi bahwa ukuran pada studi retail adalah Analytical Pass Rate. Pembaca dapat menyamakannya dengan kecocokan JSON pada studi ini.",
+    "outcome": "resolved",
+    "proposed": [
+      "R01"
+    ],
+    "accepted": [
+      "R01"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R01."
+  },
+  {
+    "id": "W02",
+    "baseline_lines": [
+      17,
+      17
+    ],
+    "problem": "Tujuan melihat bagaimana agen menggunakan aturan menyiratkan bahwa proses penggunaan aturan diamati untuk semua kasus. Penilaian utama memeriksa jawaban akhir.",
+    "outcome": "resolved",
+    "proposed": [
+      "R02"
+    ],
+    "accepted": [
+      "R02"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R02."
+  },
+  {
+    "id": "W03",
+    "baseline_lines": [
+      43,
+      43
+    ],
+    "problem": "Frasa diberikan bersama kepada agen dapat dibaca sebagai penyisipan tujuh isi dokumen dalam setiap prompt, sementara L346 dan L366–385 menggambarkan akses melalui skill.",
+    "outcome": "resolved",
+    "proposed": [
+      "R03",
+      "R03b",
+      "R2-W03"
+    ],
+    "accepted": [
+      "R03b",
+      "R2-W03"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R03b, R2-W03."
+  },
+  {
+    "id": "W04",
+    "baseline_lines": [
+      77,
+      77
+    ],
+    "problem": "Dua sel berturut-turut pada baris InsightBench sama-sama mengatakan bahwa insight terbuka dievaluasi dengan LLM. Pembaca belum mengetahui apa arti pilihan evaluasi itu untuk perbandingan di tabel.",
+    "outcome": "resolved",
+    "proposed": [
+      "R04"
+    ],
+    "accepted": [
+      "R04"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R04."
+  },
+  {
+    "id": "W05",
+    "baseline_lines": [
+      91,
+      91
+    ],
+    "problem": "Dua kelompok model dalam kalimat pertama dapat terbaca sebagai model berbeda pada setiap kondisi. Frasa berdasarkan hasil eksekusi dan Claude sebagai judge menyandingkan bahan penilaian dengan pihak yang menilai.",
+    "outcome": "resolved",
+    "proposed": [
+      "R05",
+      "R2-W05"
+    ],
+    "accepted": [
+      "R2-W05"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R2-W05."
+  },
+  {
+    "id": "W06",
+    "baseline_lines": [
+      145,
+      145
+    ],
+    "problem": "Dua kalimat berpindah dari pertanyaan penentu cakupan ontologi ke isi dokumen lokal tanpa menjelaskan apakah penelitian menerapkan metode ontologi atau hanya menggunakan gagasan yang sebanding.",
+    "outcome": "resolved",
+    "proposed": [
+      "R06a",
+      "R06b",
+      "R2-W06"
+    ],
+    "accepted": [
+      "R2-W06"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R2-W06."
+  },
+  {
+    "id": "W07",
+    "baseline_lines": [
+      188,
+      188
+    ],
+    "problem": "Urutan array tampak menjadi ketentuan umum semua pemeriksaan JSON. Kalimat tentang DataBench hanya menyebut JSON valid dan keberadaan atribut.",
+    "outcome": "resolved",
+    "proposed": [
+      "R07"
+    ],
+    "accepted": [
+      "R07"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R07."
+  },
+  {
+    "id": "W08",
+    "baseline_lines": [
+      218,
+      218
+    ],
+    "problem": "Arti angka n dan m jelas, tetapi asal huruf T dan C masih harus ditebak, padahal penulis secara khusus meminta keduanya dijelaskan.",
+    "outcome": "resolved",
+    "proposed": [
+      "R08"
+    ],
+    "accepted": [
+      "R08"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R08."
+  },
+  {
+    "id": "W09",
+    "baseline_lines": [
+      240,
+      242
+    ],
+    "problem": "Istilah kelompok analisis mengacu pada lima baris tabel sumber, sedangkan 3.5.3 dan Bab IV membagi hasil menjadi enam kelompok. SPM/SLA khususnya memiliki satu baris di sini dan dua kelompok hasil.",
+    "outcome": "resolved",
+    "proposed": [
+      "R09"
+    ],
+    "accepted": [
+      "R09"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R09."
+  },
+  {
+    "id": "W10",
+    "baseline_lines": [
+      293,
+      294
+    ],
+    "problem": "Kolom kemampuan memakai hasil yang berubah atau membaik tanpa menyebut objeknya. Baris T9-C2 dapat terbaca seolah setiap indikator memburuk, sedangkan contoh indikator keempat di L801 tetap gagal.",
+    "outcome": "wording clarified; case evidence needed",
+    "proposed": [
+      "R10",
+      "R2-W10"
+    ],
+    "accepted": [
+      "R2-W10"
+    ],
+    "reason": "Acuan per indikator pada T9-C2 diperlukan untuk mengidentifikasi status yang memburuk (S07)."
+  },
+  {
+    "id": "W11",
+    "baseline_lines": [
+      302,
+      302
+    ],
+    "problem": "Rentang tanggal pada test case memperkenalkan istilah baru untuk kasus atau prompt, padahal kalimat berikut kembali menyebut prompt dan L252 sudah menetapkan sumber batas tanggal.",
+    "outcome": "resolved",
+    "proposed": [
+      "R11"
+    ],
+    "accepted": [
+      "R11"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R11."
+  },
+  {
+    "id": "W12",
+    "baseline_lines": [
+      311,
+      311
+    ],
+    "problem": "Aturan T5 hanya menjelaskan frekuensi. Pembaca yang mengikuti tabel untuk menyusun expected result masih dapat menghitung penyebab pada insiden dengan is_accident = false, persis perbedaan 7 dan 5 pada hasil.",
+    "outcome": "resolved",
+    "proposed": [
+      "R12"
+    ],
+    "accepted": [
+      "R12"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R12."
+  },
+  {
+    "id": "W13",
+    "baseline_lines": [
+      346,
+      346
+    ],
+    "problem": "Prompt sesudah kutipan system prompt belum dibedakan dari instruksi kasus. Kalimat pertama praktis diulang sebagai Setiap kasus menggunakan satu prompt di L350.",
+    "outcome": "resolved",
+    "proposed": [
+      "R13"
+    ],
+    "accepted": [
+      "R13"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R13."
+  },
+  {
+    "id": "W14",
+    "baseline_lines": [
+      370,
+      378
+    ],
+    "problem": "Kolom Fungsi bagi agen berpindah dari tindakan dokumen SKILL.md yang mengarahkan agen ke aktivitas agen sendiri, misalnya memahami istilah dan menghitung volume. Akibatnya subjek tersirat kolom berubah antarbaris.",
+    "outcome": "retained",
+    "proposed": [
+      "R14",
+      "R2-W14"
+    ],
+    "accepted": [],
+    "reason": "Usulan tidak memberikan perbaikan yang cukup aman atau lebih jelas setelah perbandingan. Lihat alasan per usulan."
+  },
+  {
+    "id": "W15",
+    "baseline_lines": [
+      437,
+      437
+    ],
+    "problem": "Cara penilaian per pertanyaan ini dapat membuat rujukan Hu dkk. terbaca sebagai dukungan untuk semua rincian pencocokan JSON yang menyusul.",
+    "outcome": "resolved",
+    "proposed": [
+      "R15",
+      "RC-W15"
+    ],
+    "accepted": [
+      "RC-W15"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada RC-W15."
+  },
+  {
+    "id": "W16",
+    "baseline_lines": [
+      471,
+      471
+    ],
+    "problem": "Pergantian dari menggabungkan jawaban menurut kondisi, lalu menurut model, ke dua perbandingan dengan satu faktor tetap tersembunyi dalam satu deret enam kalimat dengan istilah hasil. Pembaca perlu melacak sendiri penyebut yang berubah.",
+    "outcome": "resolved",
+    "proposed": [
+      "R16"
+    ],
+    "accepted": [
+      "R16"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R16."
+  },
+  {
+    "id": "W17",
+    "baseline_lines": [
+      481,
+      481
+    ],
+    "problem": "OpenCode disebut provider di sini dan pada baris L488, sedangkan L391 menyebut model dijalankan melalui OpenCode dan L393 membedakan provider masing-masing model. Identitas penyedia dan perangkat perantara menjadi kabur.",
+    "outcome": "wording resolved; role unverified",
+    "proposed": [
+      "R17"
+    ],
+    "accepted": [
+      "R17"
+    ],
+    "reason": "Ungkapan di Bab IV kini sesuai dengan keterangan melalui OpenCode di §3.4.1. Penetapan peran penyedia yang lebih spesifik memerlukan bukti konfigurasi."
+  },
+  {
+    "id": "W18",
+    "baseline_lines": [
+      488,
+      488
+    ],
+    "problem": "Sel model memuat pelabelan provider OpenCode yang sama dengan L481.",
+    "outcome": "wording resolved; role unverified",
+    "proposed": [
+      "R18"
+    ],
+    "accepted": [
+      "R18"
+    ],
+    "reason": "Ungkapan di Bab IV kini sesuai dengan keterangan melalui OpenCode di §3.4.1. Penetapan peran penyedia yang lebih spesifik memerlukan bukti konfigurasi."
+  },
+  {
+    "id": "W19",
+    "baseline_lines": [
+      597,
+      597
+    ],
+    "problem": "Keluaran membuktikan Gol. 5 tercantum atau hilang. Pernyataan bahwa agen membentuk daftar dari satu sumber atau menggunakan seluruh data master memerlukan bukti langkah pembacaan.",
+    "outcome": "evidence needed",
+    "proposed": [],
+    "accepted": [],
+    "reason": "Verifikasi terkait S03. Perlu catatan atau penjelasan asal informasi langkah per pengulangan."
+  },
+  {
+    "id": "W20",
+    "baseline_lines": [
+      653,
+      655
+    ],
+    "problem": "Status is_accident dan dua penyebab menjelaskan selisih output. Pernyataan bahwa Muse membaca empat insiden atau membaca aturan pada pengulangan tertentu mengklaim langkah yang tidak ditampilkan oleh Tabel 4.12.",
+    "outcome": "evidence needed",
+    "proposed": [],
+    "accepted": [],
+    "reason": "Verifikasi terkait S03. Perlu catatan atau penjelasan asal informasi langkah per pengulangan."
+  },
+  {
+    "id": "W21",
+    "baseline_lines": [
+      752,
+      752
+    ],
+    "problem": "Frasa rata-rata durasi yang selisih sedikit di atas batas mencampur nilai durasi dengan selisihnya. Angka berikut menunjukkan bahwa rata-rata itu sendiri melebihi batas.",
+    "outcome": "resolved",
+    "proposed": [
+      "R21"
+    ],
+    "accepted": [
+      "R21"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R21."
+  },
+  {
+    "id": "W22",
+    "baseline_lines": [
+      752,
+      756
+    ],
+    "problem": "Penjelasan menyebut pembulatan sebelum perbandingan dan pembacaan konfigurasi sebagai langkah aktual pada pengulangan tertentu. Tabel 4.19 memperlihatkan hasil akhirnya. Dua status true saja tidak membuktikan urutan operasi.",
+    "outcome": "evidence needed",
+    "proposed": [],
+    "accepted": [],
+    "reason": "Verifikasi terkait S03. Perlu catatan atau penjelasan asal informasi langkah per pengulangan."
+  },
+  {
+    "id": "W23",
+    "baseline_lines": [
+      813,
+      813
+    ],
+    "problem": "Ringkasan menyebut agen memasukkan satu insiden dan membandingkan angka setelah pembulatan tanpa membatasi klaim pada model dan pengulangan contoh atau menunjukkan sumber proses.",
+    "outcome": "resolved",
+    "proposed": [
+      "R23"
+    ],
+    "accepted": [
+      "R23"
+    ],
+    "reason": "Ringkasan membedakan keluaran dari penjelasan contoh. Asal langkah dalam uraian rinci masih dibahas pada S03."
+  },
+  {
+    "id": "W24",
+    "baseline_lines": [
+      817,
+      817
+    ],
+    "problem": "Kasus yang gagal berubah antarpengulangan dapat berarti semua kasus berganti. T3-C1 selalu gagal, sedangkan hanya kasus kedua yang berbeda.",
+    "outcome": "resolved",
+    "proposed": [
+      "R24"
+    ],
+    "accepted": [
+      "R24"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R24."
+  },
+  {
+    "id": "W25",
+    "baseline_lines": [
+      833,
+      833
+    ],
+    "problem": "Kasus gagal yang berbeda antara kedua model dapat terbaca sebagai dua himpunan tanpa irisan. T3-C1 dan T7-C2 muncul pada keduanya.",
+    "outcome": "resolved",
+    "proposed": [
+      "R25"
+    ],
+    "accepted": [
+      "R25"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R25."
+  },
+  {
+    "id": "W26",
+    "baseline_lines": [
+      839,
+      839
+    ],
+    "problem": "Usulan mengevaluasi kelengkapan jawaban terlihat mengulang kriteria yang sudah menyebabkan FAIL pada T3-C1 dan T7-C2. Belum terlihat apa yang akan diukur secara berbeda.",
+    "outcome": "resolved",
+    "proposed": [
+      "R26"
+    ],
+    "accepted": [
+      "R26"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R26."
+  },
+  {
+    "id": "W27",
+    "baseline_lines": [
+      855,
+      855
+    ],
+    "problem": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+    "outcome": "evidence needed",
+    "proposed": [],
+    "accepted": [],
+    "reason": "Verifikasi terkait S05. Perlu naskah lengkap untuk memastikan penggunaan sumber."
+  },
+  {
+    "id": "W28",
+    "baseline_lines": [
+      877,
+      877
+    ],
+    "problem": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+    "outcome": "evidence needed",
+    "proposed": [],
+    "accepted": [],
+    "reason": "Verifikasi terkait S05. Perlu naskah lengkap untuk memastikan penggunaan sumber."
+  },
+  {
+    "id": "W29",
+    "baseline_lines": [
+      895,
+      895
+    ],
+    "problem": "Rujukan ini tercantum dalam daftar pustaka tetapi tidak memiliki pasangan sitasi yang ditemukan dalam Bab I–V.",
+    "outcome": "evidence needed",
+    "proposed": [],
+    "accepted": [],
+    "reason": "Verifikasi terkait S05. Perlu naskah lengkap untuk memastikan penggunaan sumber."
+  },
+  {
+    "id": "W30",
+    "baseline_lines": [
+      210,
+      210
+    ],
+    "problem": "Subjek kedua model menggunakan mencakup expected result dalam daftar yang sama dengan prompt dan tool. Pada L42 dan L298 jawaban rujukan justru tidak dapat diakses oleh agen.",
+    "outcome": "resolved",
+    "proposed": [
+      "R30"
+    ],
+    "accepted": [
+      "R30"
+    ],
+    "reason": "Perubahan terpilih memenuhi syarat pembacaan pada temuan. Periksa alasan keputusan pada R30."
+  }
+]
