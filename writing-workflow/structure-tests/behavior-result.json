@@ -1,0 +1,23 @@
+{
+  "kind": "synthetic behavioral probe",
+  "review": "behavior-review.md",
+  "independence": "Fresh reviewer received the skill, neutral source filenames, and task; no expected outcomes or design history. Its challenge was a separate self-review pass, not an independent second reader.",
+  "expectations": {
+    "version-x.md": "Recognize a valid functional adaptation to count correctness, including a complete deepest scoring rule.",
+    "version-y.md": "Identify the missing operational rule/example in the sixth-level section despite matching headings."
+  },
+  "observed": {
+    "valid_adaptation_recognized": true,
+    "deep_scoring_gap_identified": true,
+    "reference_metric_not_imposed": true,
+    "extra_heading_introductions_not_imposed": true,
+    "additional_finding": "Both synthetic targets promise per-case statuses but supply only aggregates. Parent confirmed the shared reporting omission in the fixtures."
+  },
+  "limits": "A designed probe, not a reliability estimate or evidence that the full thesis has been evaluated.",
+  "sha256": {
+    "behavior-review.md": "8ea540c47abcaabfe9bbb09c062c374b9a70021cd27256e56b3e7c2fb8f63b36",
+    "reference.md": "32c238093b40ef97e7b96c6dcec6b1690bc1b760b34a01897ba59e9151287166",
+    "version-x.md": "b0361de06aec122d789e99b23ef692209d5bc8614bee538ce4e99ed1e378d015",
+    "version-y.md": "bc30d912bd6e275b3a57a38fc66ad2649c4363268c9bdaa11123bca7fb5f3880"
+  }
+}

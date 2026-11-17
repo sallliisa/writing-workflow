@@ -1,0 +1,872 @@
+{
+  "scope": {
+    "reference": [
+      "R-0024",
+      "R-0038"
+    ],
+    "target": [
+      "T-0021",
+      "T-0030",
+      "T-0038"
+    ]
+  },
+  "reference_reviews": [
+    {
+      "node_id": "R-0024",
+      "function": "Justify what the evaluation compares and divide the measurements by the properties they assess.",
+      "target_ids": [
+        "T-0021",
+        "T-0022",
+        "T-0023",
+        "T-0024"
+      ],
+      "disposition": "adapted",
+      "rationale": "The target needs exact analytical correctness, aggregate success, and repeated-run consistency. It replaces the four text-similarity metrics with those three functions.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 233,
+          "end_line": 237,
+          "supports": "Introduces reference-based comparison and four lexical/semantic metrics."
+        },
+        {
+          "document": "target",
+          "start_line": 182,
+          "end_line": 200,
+          "supports": "Introduces expected-result comparison, correctness, success rate, and consistency."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0025",
+      "function": "Define a measured property, explain its computation, and delimit the interpretation.",
+      "target_ids": [
+        "T-0022",
+        "T-0023",
+        "T-0040"
+      ],
+      "disposition": "adapted",
+      "rationale": "The general explanatory function is distributed across correctness and aggregation. BLEU-specific n-grams and brevity penalty do not apply to this target.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 241,
+          "end_line": 266,
+          "supports": "Defines similarity, formula, components, and a limitation."
+        },
+        {
+          "document": "target",
+          "start_line": 188,
+          "end_line": 194,
+          "supports": "Defines whole-answer correctness and PASS percentage."
+        },
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "Provides the target formula and denominators."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0026",
+      "function": "Connect the comparison rule and intermediate quantities to a reported score.",
+      "target_ids": [
+        "T-0022",
+        "T-0023",
+        "T-0040"
+      ],
+      "disposition": "adapted",
+      "rationale": "Merged with the same target explanation of correctness and success rate. JSON array order is an exact requirement, not an LCS measure, and the target does not require recall.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 270,
+          "end_line": 301,
+          "supports": "Introduces LCS and the precision/recall calculation."
+        },
+        {
+          "document": "target",
+          "start_line": 188,
+          "end_line": 194,
+          "supports": "Defines the comparison and success-rate concept."
+        },
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "Makes the target aggregate calculation explicit."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0027",
+      "function": "Explain which differences a scoring rule permits and how its components affect the judgment.",
+      "target_ids": [
+        "T-0022",
+        "T-0039"
+      ],
+      "disposition": "adapted",
+      "rationale": "The target substitutes an explicit exact-agreement rule, including numerical equivalence and order behavior. Synonym matching and chunk penalties are unnecessary.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 305,
+          "end_line": 336,
+          "supports": "Describes matching flexibility and score adjustments."
+        },
+        {
+          "document": "target",
+          "start_line": 188,
+          "end_line": 190,
+          "supports": "Defines complete structural and value agreement."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Specifies allowed numerical/property-order variation and demonstrates FAIL."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0028",
+      "function": "Relate the measured property and calculation to the meaning of the evaluation.",
+      "target_ids": [
+        "T-0021",
+        "T-0022"
+      ],
+      "disposition": "adapted",
+      "rationale": "The target evaluates correctness against expected results. Semantic similarity is not a substitute. The interpretation boundary is supplied later in the target.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 340,
+          "end_line": 372,
+          "supports": "Explains the semantic measurement, formula, and interpretation."
+        },
+        {
+          "document": "target",
+          "start_line": 184,
+          "end_line": 190,
+          "supports": "Defines the target criterion."
+        },
+        {
+          "document": "target",
+          "start_line": 819,
+          "end_line": 819,
+          "supports": "Separates PASS from operational usefulness."
+        },
+        {
+          "document": "target",
+          "start_line": 835,
+          "end_line": 835,
+          "supports": "Limits conclusions to final-answer agreement and tested cases."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0038",
+      "function": "Identify reference and generated inputs before demonstrating the evaluation.",
+      "target_ids": [
+        "T-0030",
+        "T-0038",
+        "T-0039"
+      ],
+      "disposition": "adapted",
+      "rationale": "Split: expected-result construction belongs with research data, while paired answers and scoring belong with evaluation. Four separate metric children become one correctness example plus aggregation and comparison procedures.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 532,
+          "end_line": 550,
+          "supports": "Introduces the evaluation and the reference/candidate pair."
+        },
+        {
+          "document": "target",
+          "start_line": 298,
+          "end_line": 337,
+          "supports": "Derives a target reference answer from selected data."
+        },
+        {
+          "document": "target",
+          "start_line": 437,
+          "end_line": 455,
+          "supports": "Introduces scoring and presents expected result, passing answer, failing answer, and interpretation."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0039",
+      "function": "Demonstrate how concrete input differences produce a judgment and explain its meaning.",
+      "target_ids": [
+        "T-0039",
+        "T-0040"
+      ],
+      "disposition": "adapted",
+      "rationale": "Merged into one PASS/FAIL example. The target separately aggregates binary decisions. It needs no tokenization or BLEU derivation.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 554,
+          "end_line": 635,
+          "supports": "Moves from candidate/reference tokens through calculations to interpretation."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Moves from exact comparison rules to concrete differences and decisions."
+        },
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "Defines aggregation of those decisions."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0040",
+      "function": "Expose intermediate comparison evidence before computing and interpreting the result.",
+      "target_ids": [
+        "T-0039"
+      ],
+      "disposition": "adapted",
+      "rationale": "Merged with the other metric demonstrations into the target field comparison. The target example already identifies the differing count, extra object, and total before interpreting FAIL.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 639,
+          "end_line": 669,
+          "supports": "Shows LCS evidence, derived components, and score interpretation."
+        },
+        {
+          "document": "target",
+          "start_line": 449,
+          "end_line": 455,
+          "supports": "Presents concrete compared values and explains their consequences."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0041",
+      "function": "Explain how intermediate matches and scoring adjustments determine the final score.",
+      "target_ids": [
+        "T-0039"
+      ],
+      "disposition": "adapted",
+      "rationale": "The reference demonstrates how comparison rules lead to a judgment. T-0039 fulfills that shared function with a concrete PASS/FAIL comparison. T-0030 is a separate target-specific prerequisite: constructing expected values from data. The reference metric demonstration takes its reference text as given and does not supply that construction function.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 675,
+          "end_line": 709,
+          "supports": "Demonstrates intermediate quantities and final score. Four chunks are assumed rather than demonstrated."
+        },
+        {
+          "document": "target",
+          "start_line": 315,
+          "end_line": 337,
+          "supports": "Shows the data, arithmetic, rounding, and output attribute."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Shows the scoring rule and its application."
+        }
+      ]
+    },
+    {
+      "node_id": "R-0042",
+      "function": "Connect the computational comparison and reported output to the substantive judgment.",
+      "target_ids": [
+        "T-0039",
+        "T-0040"
+      ],
+      "disposition": "adapted",
+      "rationale": "Merged into the concrete PASS/FAIL example and success-rate calculation. Do not transfer the reference inference that a higher number across different metrics establishes a superior meaning comparison.",
+      "evidence": [
+        {
+          "document": "reference",
+          "start_line": 717,
+          "end_line": 747,
+          "supports": "Explains the algorithm then gives estimated scores and interpretation."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 467,
+          "supports": "Shows the target comparison and formula using decisions as inputs."
+        }
+      ]
+    }
+  ],
+  "target_reviews": [
+    {
+      "node_id": "T-0021",
+      "purpose": "Explain what counts as a correct analytical answer and how correctness will be summarized.",
+      "direct_content": "The direct paragraph grounds expected-result comparison in tasks with definite answers and previews three evaluation aspects.",
+      "child_organization": "The children proceed from answer correctness to aggregate success to repeated-case consistency. Together they establish the concepts required by the methods.",
+      "assessment": "sufficient",
+      "rationale": "The three aspects fit the target research question and do not need four metric subsections to resemble the reference.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 184,
+          "end_line": 200,
+          "supports": "The paragraph and each child supply the promised conceptual distinction."
+        },
+        {
+          "document": "target",
+          "start_line": 23,
+          "end_line": 27,
+          "supports": "The question and objective concern correctness, success rate, and case/repetition detail."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0022",
+      "purpose": "Explain the criteria for an individual answer to count as correct.",
+      "direct_content": "Defines structure, attributes, types, array order, and whole-answer value agreement. The binary PASS/FAIL consequence is explicit.",
+      "child_organization": "Leaf. The structure discussion precedes value comparison and the decision rule.",
+      "assessment": "sufficient",
+      "rationale": "Study-specific normalization details properly appear in the method. No need to repeat its example here.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 188,
+          "end_line": 190,
+          "supports": "States the conceptual criterion and all-or-nothing decision."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Provides study-specific order/numerical rules and an application later."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0023",
+      "purpose": "Define the aggregate used to compare model/context performance.",
+      "direct_content": "Defines success rate as a percentage of correct answers and states that all three repetitions count.",
+      "child_organization": "Leaf. The short definition is complete at conceptual level, with the formula and denominator explained later.",
+      "assessment": "sufficient",
+      "rationale": "Its brevity does not create a missing calculation because §3.5.2 explicitly supplies it.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 194,
+          "end_line": 194,
+          "supports": "Defines the aggregate and repeated-answer inclusion."
+        },
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "Provides the operational calculation."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0024",
+      "purpose": "Distinguish repeated-case success from a single aggregate success rate.",
+      "direct_content": "Introduces repeated evaluation and defines counts from 0/3 to 3/3 for the same case, model, and context.",
+      "child_organization": "Leaf. Motivation precedes the target-specific representation.",
+      "assessment": "sufficient",
+      "rationale": "This is a useful target-specific addition. It supports the later observation that equal total PASS counts can conceal different failed cases, without claiming identical output on every run.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 198,
+          "end_line": 200,
+          "supports": "Defines the repeated-case success measure."
+        },
+        {
+          "document": "target",
+          "start_line": 815,
+          "end_line": 817,
+          "supports": "Shows why equal per-run totals do not imply the same failed cases."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0030",
+      "purpose": "Explain how case data and business rules produce the expected answers used for scoring.",
+      "direct_content": "The selection rules, business-rule table, seven-duration example, arithmetic, rounding, and output attribute create a coherent derivation. The T5 row names accident data but leaves its explicit is_accident filter to the results. Full appendix coverage is unavailable.",
+      "child_organization": "Leaf with distinct integrated components: common selection, task-specific rules, one worked derivation, then appendix navigation. Their order is coherent and does not require added headings.",
+      "assessment": "needs_change",
+      "rationale": "Preserve the existing example and arrangement. A small addition to the T5 table row would establish the precise filter before its use in the scoring example. Completeness of the referenced appendix remains unresolved, not a demonstrated omission.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 298,
+          "end_line": 313,
+          "supports": "Explains expected-result construction and business rules, with only general accident-data wording for T5."
+        },
+        {
+          "document": "target",
+          "start_line": 315,
+          "end_line": 337,
+          "supports": "Shows data-to-answer arithmetic and directs to Appendix 1."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 655,
+          "supports": "Later supplies the exact filter and a false-flagged incident with an accident report."
+        }
+      ],
+      "finding_ids": [
+        "F-01",
+        "F-02"
+      ]
+    },
+    {
+      "node_id": "T-0038",
+      "purpose": "Introduce the evaluation pipeline from final answer to comparisons.",
+      "direct_content": "The direct paragraph identifies the final answer, expected result, and PASS/FAIL decision. It is an adequate orientation.",
+      "child_organization": "Children progress through individual scoring, aggregation, and descriptive comparisons. Their combined subtree supplies a usable evaluation explanation.",
+      "assessment": "sufficient",
+      "rationale": "Expected-result construction has a sensible earlier home in §3.2.3. Repeating it under this parent is unnecessary.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 437,
+          "end_line": 473,
+          "supports": "Introduces and orders the three evaluation operations."
+        },
+        {
+          "document": "target",
+          "start_line": 298,
+          "end_line": 337,
+          "supports": "Supplies the reference-answer prerequisite earlier."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0039",
+      "purpose": "Explain how a final JSON answer is assigned PASS or FAIL.",
+      "direct_content": "States JSON validity, full structure/value agreement, array-order sensitivity, property-order irrelevance, and numerical equivalence. The paired JSON table and commentary demonstrate both outcomes.",
+      "child_organization": "Leaf. Rules precede the example, and the explanation names the discrepancies. The table is evidence, not a missing subsection.",
+      "assessment": "sufficient",
+      "rationale": "The supplied example makes the scoring decision inspectable. Deriving all expected values belongs in §3.2.3 and the appendix. The absence of a new scoring technology or four metric examples is not a structural defect.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Provides explicit rules, expected answer, two candidate answers, and interpretation."
+        },
+        {
+          "document": "target",
+          "start_line": 298,
+          "end_line": 337,
+          "supports": "Provides the separate reference-answer construction function."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0040",
+      "purpose": "Convert individual PASS decisions into comparable rates and repeated-case counts.",
+      "direct_content": "Provides a displayed equation, 45-answer denominator per model/context, subset denominator guidance, and counts out of three for each case.",
+      "child_organization": "Leaf. Formula precedes denominator explanation and repeat reporting.",
+      "assessment": "sufficient",
+      "rationale": "The formula and concrete denominators supply the calculation. A further arithmetic example is not necessary for the existing comparisons.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "States formula and denominator rules."
+        },
+        {
+          "document": "target",
+          "start_line": 220,
+          "end_line": 230,
+          "supports": "Derives 45 per condition and 180 total."
+        },
+        {
+          "document": "target",
+          "start_line": 513,
+          "end_line": 520,
+          "supports": "A downstream table identifies its 12-answer denominator."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "node_id": "T-0041",
+      "purpose": "Specify how the scored answers answer the research comparison and organize the results.",
+      "direct_content": "Explains descriptive marginal and conditional comparisons, six task groupings, FAIL inspection, and repeated-case analysis.",
+      "child_organization": "Leaf. Comparison rules precede task grouping and error/consistency inspection. The grouping bridges nine task types to six result sections.",
+      "assessment": "sufficient",
+      "rationale": "It supports the existing results without introducing statistical inference or isolating effects of individual context documents.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 471,
+          "end_line": 473,
+          "supports": "States comparison, grouping, and inspection procedures."
+        },
+        {
+          "document": "target",
+          "start_line": 807,
+          "end_line": 819,
+          "supports": "Shows conditional comparison, failure interpretation, consistency, and limitations."
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "dependencies": [
+    {
+      "from_ids": [
+        "T-0003",
+        "T-0004"
+      ],
+      "to_ids": [
+        "T-0021",
+        "T-0038"
+      ],
+      "relationship": "The correctness question and success-rate objective require reference-based scoring rather than text-similarity metrics.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 23,
+          "end_line": 27,
+          "supports": "States the question and objective."
+        },
+        {
+          "document": "target",
+          "start_line": 184,
+          "end_line": 200,
+          "supports": "Defines the matching concepts."
+        },
+        {
+          "document": "target",
+          "start_line": 437,
+          "end_line": 473,
+          "supports": "Applies them in the method."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0022"
+      ],
+      "to_ids": [
+        "T-0039"
+      ],
+      "relationship": "The conceptual correctness rule must precede and agree with its operational comparison and example.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 188,
+          "end_line": 190,
+          "supports": "Defines structure/value agreement."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Specifies the operational rule and both outcomes."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0030"
+      ],
+      "to_ids": [
+        "T-0039",
+        "T-0056"
+      ],
+      "relationship": "The T5 reference answer and its worked failure example should be preceded by the exact data-selection criterion.",
+      "assessment": "gap",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 311,
+          "end_line": 311,
+          "supports": "The T5 method row refers generally to accident data."
+        },
+        {
+          "document": "target",
+          "start_line": 445,
+          "end_line": 455,
+          "supports": "The example uses expected counts of 5 versus 7."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 655,
+          "supports": "Only the later results explicitly identify is_accident=true and explain an accident report under a false-flagged incident."
+        }
+      ],
+      "finding_ids": [
+        "F-01"
+      ]
+    },
+    {
+      "from_ids": [
+        "T-0030"
+      ],
+      "to_ids": [
+        "T-0039"
+      ],
+      "relationship": "The appendix should fulfill the body’s stated promises of an all-case expected-result summary, a complete T1-C2 example, and per-case/per-run tables.",
+      "assessment": "unresolved",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 337,
+          "end_line": 337,
+          "supports": "Points to Appendix 1 for the expected-result summary and a full case artifact."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "Provides one scoring example in the body."
+        },
+        {
+          "document": "target",
+          "start_line": 841,
+          "end_line": 919,
+          "supports": "The supplied frozen file ends with the bibliography, without the cited appendix."
+        }
+      ],
+      "finding_ids": [
+        "F-02"
+      ]
+    },
+    {
+      "from_ids": [
+        "T-0023",
+        "T-0026",
+        "T-0039"
+      ],
+      "to_ids": [
+        "T-0040"
+      ],
+      "relationship": "The individual decision, experiment counts, and success-rate definition determine the rate denominator.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 194,
+          "end_line": 194,
+          "supports": "All repeated answers count."
+        },
+        {
+          "document": "target",
+          "start_line": 220,
+          "end_line": 230,
+          "supports": "Establishes experimental answer counts."
+        },
+        {
+          "document": "target",
+          "start_line": 459,
+          "end_line": 467,
+          "supports": "Defines the equation and applicable denominators."
+        },
+        {
+          "document": "target",
+          "start_line": 441,
+          "end_line": 455,
+          "supports": "The individual PASS/FAIL comparison supplies the decisions counted in the success rate."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0024",
+        "T-0037"
+      ],
+      "to_ids": [
+        "T-0040",
+        "T-0041"
+      ],
+      "relationship": "Repeated runs on the same case and condition support 0/3–3/3 reporting and consistency inspection.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 198,
+          "end_line": 200,
+          "supports": "Defines the repeat count."
+        },
+        {
+          "document": "target",
+          "start_line": 433,
+          "end_line": 433,
+          "supports": "States fresh conversations and the same reference answer for each repeat."
+        },
+        {
+          "document": "target",
+          "start_line": 467,
+          "end_line": 473,
+          "supports": "Specifies counting and comparison."
+        }
+      ],
+      "finding_ids": []
+    },
+    {
+      "from_ids": [
+        "T-0041"
+      ],
+      "to_ids": [
+        "T-0048",
+        "T-0052",
+        "T-0056",
+        "T-0064",
+        "T-0069",
+        "T-0071"
+      ],
+      "relationship": "The comparison plan supports task-group results, conditional model/context comparisons, and a conclusion limited to tested cases.",
+      "assessment": "supported",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 471,
+          "end_line": 473,
+          "supports": "States the plan."
+        },
+        {
+          "document": "target",
+          "start_line": 539,
+          "end_line": 550,
+          "supports": "Shows a complete four-combination comparison."
+        },
+        {
+          "document": "target",
+          "start_line": 582,
+          "end_line": 597,
+          "supports": "Shows a group with differing outcomes and missing output details."
+        },
+        {
+          "document": "target",
+          "start_line": 805,
+          "end_line": 819,
+          "supports": "Synthesizes rates, errors, repetitions, and limitations."
+        },
+        {
+          "document": "target",
+          "start_line": 827,
+          "end_line": 835,
+          "supports": "Concludes within the stated evidence limits."
+        },
+        {
+          "document": "target",
+          "start_line": 627,
+          "end_line": 655,
+          "supports": "The incident group reports all four combinations and explains the observed failures."
+        },
+        {
+          "document": "target",
+          "start_line": 728,
+          "end_line": 756,
+          "supports": "The per-report status group reports the four combinations and investigates incomplete or incorrect outputs."
+        }
+      ],
+      "finding_ids": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-01",
+      "target_ids": [
+        "T-0030"
+      ],
+      "reference_ids": [],
+      "kind": "placement",
+      "severity": "low",
+      "problem": "The expected-result rule for T5 names accident data but the explicit is_accident=true selection condition first appears in the results. This matters because the results show an accident report attached to an incident with is_accident=false, so the broad phrase alone does not identify the eligible reports.",
+      "reader_consequence": "A reader of the methods and its T5 PASS/FAIL example must read ahead to learn the filter that explains why the expected total is 5 rather than 7.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 302,
+          "end_line": 313,
+          "supports": "The method gives common selection rules and a broad T5 counting rule."
+        },
+        {
+          "document": "target",
+          "start_line": 445,
+          "end_line": 455,
+          "supports": "The method uses the resulting counts as its PASS/FAIL example."
+        },
+        {
+          "document": "target",
+          "start_line": 642,
+          "end_line": 655,
+          "supports": "The results provide the exact eligibility condition and the counterexample showing why it matters."
+        }
+      ],
+      "searched_locations": [
+        "Searched the full frozen baseline for is_accident, kecelakaan, expected result, and Lampiran.",
+        "Read baseline.md:254–295 (case selection), 298–337 (reference answers), 350–385 (prompt/context), 441–455 (scoring example), and 642–655 plus 813 (results). Equivalent explicit coverage exists at 642 and 655, so this is placement rather than missing content."
+      ],
+      "action": "Add the already documented is_accident=true eligibility condition to the T5 row of Table 3.4 in §3.2.3. Preserve the full worked failure explanation in §4.5.3 and the table/example in §3.5.1. No section move or renumbering is needed. A brief reference to §3.2.3 from the T5 example is optional if it improves navigation. Check that the condition agrees with Appendix 1 and the supplied context when those artifacts are available.",
+      "decision": "accepted",
+      "decision_reason": "Coordinator accepted after independent challenge. An accident report can belong to a false-flagged incident, so the broad method label does not identify eligible records. Place the already documented filter in the existing rule table; no new experiment or heading is needed.",
+      "needed_evidence": []
+    },
+    {
+      "id": "F-02",
+      "target_ids": [
+        "T-0030"
+      ],
+      "reference_ids": [],
+      "kind": "unavailable_evidence",
+      "severity": "medium",
+      "problem": "The frozen baseline cites Appendix 1 for an all-case expected-result summary, a complete T1-C2 prompt/expected-result example, and per-case/per-run tables. The appendix was not supplied, so this pilot cannot assess whether it fulfills those specific promises.",
+      "reader_consequence": "The main text explains the local methods and examples, but the supplied file cannot establish whether the cited appendix fulfills its promised supporting role.",
+      "evidence": [
+        {
+          "document": "target",
+          "start_line": 337,
+          "end_line": 337,
+          "supports": "Directs the reader to Appendix 1 for expected-result material."
+        },
+        {
+          "document": "target",
+          "start_line": 817,
+          "end_line": 817,
+          "supports": "Directs the reader to per-case/per-run tables in Appendix 1."
+        },
+        {
+          "document": "target",
+          "start_line": 841,
+          "end_line": 919,
+          "supports": "The frozen baseline ends in the bibliography without those materials."
+        }
+      ],
+      "searched_locations": [
+        "Searched the full frozen baseline for Lampiran and expected result and inspected the cited passages at 337, 385, 427, and 817.",
+        "Inspected the document inventory and baseline.md:821–919. No appendix subtree or appendix content is supplied. The prompt and scoring example at 348–360 and 441–455 cover individual cases but cannot settle all-case appendix coverage."
+      ],
+      "action": "Inspect the existing Appendix 1 before prescribing additions. Check that its expected-result material and per-run tables resolve the citations from §3.2.3 and §4.9. If coverage exists, retain the current placement and improve only any ambiguous pointer. If an actual gap is confirmed, specify the missing existing artifact and its appendix destination. Do not fabricate reference answers, scores, or a new verification procedure.",
+      "decision": "unresolved",
+      "decision_reason": "Coordinator retains this as an evidence limitation. Inspect the promised summary, example, and run tables. This is not a requirement to publish all full JSON answers or all 180 scoring records, and it is not a confirmed defect in the complete thesis.",
+      "needed_evidence": [
+        "The existing Appendix 1, including its all-case expected-result summary, complete T1-C2 example, and Tables L1.2 and L1.3.",
+        "Only if a concrete ambiguity remains after inspecting those materials: the existing artifacts for the affected case."
+      ]
+    }
+  ]
+}

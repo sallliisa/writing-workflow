@@ -4,6 +4,8 @@
 
 When the user requests a friend's thesis as a reference, inspect its actual subsection order and the purpose of each subsection. Follow useful organizational habits while preserving the current thesis's argument and institutional requirements.
 
+For a systematic structural evaluation at every section depth, use [thesis-structure](../../thesis-structure/SKILL.md).
+
 Verify claims, citations, and definitions before reusing them. Keep the reference's datasets, model choices, results, and wording separate. If the reference is unavailable, state that limitation only when it affects the requested comparison.
 
 ## Assign chapter responsibilities

@@ -8,7 +8,7 @@ Address supplied passage-specific author comments explicitly. An author's stated
 
 Ask whether a reader can identify the object, action, comparison, and relevant condition. Check how each sentence connects to its neighbors and what the paragraph contributes to its section. Name missing referents rather than merely labeling prose abstract.
 
-Check that the described actor can perform the action in this context. A task label can identify a case, but an awkward label-as-actor construction may conceal what the agent actually does. Choose a natural subject or passive construction without imposing a universal ban on inanimate subjects.
+For awkward subjects, compressed relationships, formal wording, inconsistent terms, redundant commentary, or unexplained contrasts, read the [Indonesian diagnostics and exceptions](../../humanizer-id/references/diagnostics.md). Use the local context to distinguish a reading problem from a legitimate academic construction.
 
 Check whether detail explains a likely misunderstanding, supports a result, or enables inspection of the method. Preserve that detail. Identify repetition by quoting both locations. Distinguish useful orientation from a redundant roadmap. Retain a necessary limitation even when its wording needs repair.
 
@@ -17,7 +17,7 @@ Use the manuscript's terms. Treat phrase scanners as suggestions. A familiar wor
 For each finding record:
 
 - An identifier and exact source span with a section or passage locator.
-- The specific reader problem and evidence from context or the preference profile.
+- The specific reader problem and evidence from context or the preference profile. A tic name alone is insufficient. Explain what the reader must guess, could misunderstand, or has already been told, and why the construction's useful exceptions do not apply here.
 - Whether it is a meaning problem, a reading problem, or an unresolved factual question.
 - The repair's acceptance condition and the facts or distinctions it must preserve.
 
@@ -32,5 +32,7 @@ Inspect both versions before reading the writer's explanation. For each passage,
 Then check the proposed changes against the frozen source. Include quantities and denominators, inclusion rules, negation, chronology, uncertainty, attribution, technical identifiers, and what each citation supports. A change from pooled results to within-condition comparisons changes the method even if it reads more easily.
 
 Classify each original finding as resolved, unresolved, or withdrawn with evidence. Record new defects. A replacement cannot pass by increasing fluency while changing the research claim. Accept unchanged text when no justified edit remains.
+
+Check that simplification leaves the relationships explicit. Reject a shorter version that makes the reader reconstruct the objects, comparison, or condition. Retain useful orientation, worked explanations, and repeated comparison patterns when they still serve the passage's job.
 
 The review is complete when every supplied passage and finding has a decision. Report limitations of the available context. Do not imply that citation preservation verifies the cited source.

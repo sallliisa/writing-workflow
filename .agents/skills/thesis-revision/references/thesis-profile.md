@@ -59,4 +59,4 @@ The unit-penilaian example in the original academic-writing skill contains wordi
 
 The source history describes both anonymized operational data and synthetic data in different proposed revisions. Establish the actual data from the current manuscript and research materials. Style feedback cannot resolve that factual conflict.
 
-The friend's thesis is not included in these inputs. Follow supplied institutional requirements and the current manuscript. Do not claim to have matched an unavailable reference.
+The supplied reference thesis is `fikbas_skripsi_full.md`. For an evaluation of how its organization and reasoning apply to the revised manuscript, use [thesis-structure](../../thesis-structure/SKILL.md). Follow supplied institutional requirements and the target's research needs.

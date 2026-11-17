@@ -19,7 +19,7 @@ Pisahkan revisi bahasa dari persoalan substansi. Pertahankan fakta, angka, satua
 
 ## Sunting berdasarkan hubungan makna
 
-Gunakan [diagnostik bahasa](references/diagnostics.md) ketika menemukan nominalisasi, kalke, pengulangan, atau kalimat terputus. Perlakukan pola kata sebagai petunjuk untuk diperiksa. Kehadirannya bukan bukti bahwa kalimat salah atau ditulis AI.
+Gunakan [diagnostik bahasa](references/diagnostics.md) untuk subjek yang tidak sesuai dengan tindakannya, hubungan yang dipadatkan atau terputus, nominalisasi, kalke, istilah tidak konsisten, pengulangan, atau kontras tanpa fungsi. Contohnya mencakup kapan bentuk tersebut perlu diperbaiki dan kapan dipertahankan. Perlakukan pola kata sebagai petunjuk untuk diperiksa. Kehadirannya bukan bukti bahwa kalimat salah atau ditulis AI.
 
 Pilih verba yang menjelaskan tindakan. Pertahankan istilah teknis yang sudah dipahami pembaca dan digunakan secara konsisten dalam naskah. Padanan kamus tidak otomatis lebih tepat daripada istilah proyek.
 

@@ -1,0 +1,16 @@
+{
+  "manuscripts_unchanged_against_git_and_snapshots": true,
+  "local_links_resolve": true,
+  "final_pilot_coverage_matches_assessment": true,
+  "automated_tests": {
+    "passed": 19,
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s .agents/skills/thesis-structure/scripts -p 'test_*.py' -v",
+    "basis": "Successful execution recorded in this task after the audit fixes."
+  },
+  "scope": "Workflow construction, synthetic behavior probe, and bounded 10-reference/9-target node pilot. Not a full structural audit.",
+  "hashes": {
+    ".agents/skills/thesis-structure/SKILL.md": "c791fe2f1d69d65da18d60ff65ab92e7c321c15942238397f62c179b84857b84",
+    ".agents/skills/thesis-structure/scripts/structure.py": "ac35e521e76d7ab24296097e5ba9c2b893ce581a8b01b22ee6663aaafad986c1",
+    "writing-workflow/structure-pilot/evaluation.json": "d3b61a5c194649978cb346507fd892ee26523e1c30f2580319da0dfe60033719"
+  }
+}
