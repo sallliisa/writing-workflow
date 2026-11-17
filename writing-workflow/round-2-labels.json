@@ -1,0 +1,26 @@
+{
+  "P01": {
+    "X": "round-2",
+    "Y": "accepted-round-1"
+  },
+  "P02": {
+    "X": "accepted-round-1",
+    "Y": "round-2"
+  },
+  "P03": {
+    "X": "round-2",
+    "Y": "accepted-round-1"
+  },
+  "P04": {
+    "X": "accepted-round-1",
+    "Y": "round-2"
+  },
+  "P05": {
+    "X": "round-2",
+    "Y": "accepted-round-1"
+  },
+  "P06": {
+    "X": "accepted-round-1",
+    "Y": "round-2"
+  }
+}

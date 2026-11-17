@@ -1,0 +1,26 @@
+{
+  "P01": {
+    "X": "bunga",
+    "Y": "langit"
+  },
+  "P02": {
+    "X": "langit",
+    "Y": "bunga"
+  },
+  "P03": {
+    "X": "bunga",
+    "Y": "langit"
+  },
+  "P04": {
+    "X": "langit",
+    "Y": "bunga"
+  },
+  "P05": {
+    "X": "bunga",
+    "Y": "langit"
+  },
+  "P06": {
+    "X": "langit",
+    "Y": "bunga"
+  }
+}

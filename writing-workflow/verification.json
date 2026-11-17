@@ -1,0 +1,20 @@
+{
+  "P04_preserved": true,
+  "P05_preserved": true,
+  "P06_preserved": true,
+  "P02_deletion": true,
+  "local_skill_links_resolve": true,
+  "source_packet_hash_matches": true,
+  "original_artifact_sha256": {
+    "academic-writing.zip": "fc10152922a2e23cb97204694d5df30a03bbba9e7320c32b4ac35a2581b5fa61",
+    "humanizer-id.zip": "74655c33144421e06df973bc0bb9ad17b6d1eebce41b2680a876bb29ffe65de8",
+    "thesis_writing_taste_all.csv": "4958882dfae543b77d4dac1c781700ee277cc0a74128f0bc3d16ed08f534e5eb",
+    "thesis_BAB_I_to_Daftar_Pustaka_clean.md": "1e245efd6135f89a25ffcc2cf6aefa39e3eb072773988b475032422461d7fab2"
+  },
+  "accepted_text_matches_round_2": true,
+  "structural_validation": {
+    "academic-writing": "passed quick_validate.py",
+    "humanizer-id": "passed quick_validate.py",
+    "thesis-revision": "passed quick_validate.py"
+  }
+}

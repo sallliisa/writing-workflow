@@ -1,0 +1,18 @@
+{
+  "rounds": 2,
+  "stop": "All supported language findings addressed. P06 needs unavailable source context and remains unresolved.",
+  "passages": {
+    "P01": "Accept round 2. Notation removed, percentage calculation and three-answer denominator retained.",
+    "P02": "Accept round 1 deletion. Repetition established by supplied surrounding context.",
+    "P03": "Accept round 2. Names pooled groups without substituting within-condition comparisons or inventing a statistic.",
+    "P04": "Keep original. Positive author feedback and no demonstrated defect requiring a change.",
+    "P05": "Keep original. Positive author feedback and no demonstrated defect requiring a change.",
+    "P06": "Keep original provisionally. No permission to invent referent, model, failure, or causal evidence."
+  },
+  "limitations": [
+    "Author has not approved these new replacements.",
+    "Retrospective calibration, not untouched evaluation.",
+    "P06 is not publication-ready.",
+    "No full-thesis or document-layout pass performed."
+  ]
+}

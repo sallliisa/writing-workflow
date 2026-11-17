@@ -1,0 +1,48 @@
+{
+  "kind": "retrospective pilot, not untouched holdout",
+  "cases": [
+    {
+      "id": "P01",
+      "csv_record": 4,
+      "feedback": "Is this needed for the explanation? Or can we simplify this? Feel free to push back.",
+      "historical_after": "Untuk setiap kasus pada model dan kondisi konteks bisnis yang sama, jumlah PASS disajikan sebagai 0/3 hingga 3/3."
+    },
+    {
+      "id": "P02",
+      "csv_record": 70,
+      "feedback": "Consider merging this with the previous paragraph, or removing it completely. This sounds idiotic, because it's basically:\n\n\"Without X, there's no X. With X, there's X\". That sounds idiotic as fuck",
+      "historical_after": "Konteks bisnis diberikan dalam bentuk skill business-context, yang terdiri atas SKILL.md dan enam dokumen referensi dalam folder references. Tabel 3.7 merangkum isi setiap dokumen dan fungsinya bagi agen."
+    },
+    {
+      "id": "P03",
+      "csv_record": 79,
+      "feedback": "This is extremely confusing. I've re-read this multiple times and still don't get what you actually want to express here",
+      "historical_after": "Kedua model juga dibandingkan pada kondisi yang sama. Untuk setiap model, hasil pengujian dengan dan tanpa konteks bisnis dibandingkan."
+    },
+    {
+      "id": "P04",
+      "csv_record": 38,
+      "feedback": "Sounds *likely* human",
+      "historical_after": "null"
+    },
+    {
+      "id": "P05",
+      "csv_record": 40,
+      "feedback": "Sounds Human",
+      "historical_after": "null"
+    },
+    {
+      "id": "P06",
+      "origin": "constructed missing-context probe",
+      "expectation": "Report unresolved referent and causal evidence, do not invent a condition."
+    }
+  ],
+  "source_sha256": "20fcb93db7cecb5b1e0bb6b1b284578aa7cf766cc18c015fd9e8a4231f8fbca1",
+  "arms": {
+    "bunga": "single writer",
+    "langit": "reviewer and writer"
+  },
+  "limits": "One run on six passages. Whole history inspected during authoring. Historical answers hidden from workers. No claim of independent cross-family validation.",
+  "source_sha256_at_run": "ec3b93b2ffd5a93d658fab07eb275e2553ae47a342d12dc603fef23efb017429",
+  "anonymization_note": "Project identifiers in the generated source context and historical replacement excerpt were anonymized after the pilot. These excerpts are no longer verbatim. Original supplied files were not changed."
+}

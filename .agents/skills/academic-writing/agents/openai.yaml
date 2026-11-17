@@ -1,0 +1,14 @@
+interface:
+  display_name: academic writing
+  short_description: Clear, natural Indonesian academic prose
+  default_prompt: Use $academic-writing to revise this academic passage in clear,
+    natural Indonesian while preserving its meaning and evidence.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

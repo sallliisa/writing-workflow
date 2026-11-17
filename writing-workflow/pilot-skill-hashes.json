@@ -1,0 +1,12 @@
+{
+  ".agents/skills/humanizer-id/SKILL.md": "739aeadfaadda56f02f092211f7653d18c5b4f6a30c533e6da0d70ce01b548c2",
+  ".agents/skills/humanizer-id/references/diagnostics.md": "9b9eeca506146d37e8a44e615069faa8b77e55233dc3a8d67d1210c048c0d716",
+  ".agents/skills/academic-writing/SKILL.md": "cf7cc34a5ce239c131e5d4f100aaffd0ad7af895e90020c78e69a4ea4d30985c",
+  ".agents/skills/academic-writing/references/examples.md": "130508c7bb75479e4bfc17d7be23cbce62c8522479707c364ab79ace6d39cd76",
+  ".agents/skills/academic-writing/references/thesis-workflow.md": "63970685f474697712141d4cf8ffd4cdd87d84a2b8838a12696df5aa62cfbd8d",
+  ".agents/skills/thesis-revision/SKILL.md": "16bcd85c8d4240b855c1c3989be9f79e8ef44f9c1cb8f2fd001cb2188ce712b3",
+  ".agents/skills/thesis-revision/references/reviewer.md": "32d74ed5404cd0ef417cebb282e6144cddedc36badf4899d1671a33618eb88fb",
+  ".agents/skills/thesis-revision/references/writer.md": "54b6d856e24a005d7bd40dd981b8892e7c1322b5d1acf0c18ab490ad2d376fb1",
+  ".agents/skills/thesis-revision/references/calibration.md": "f384d5c75e39739218e83618825e1f6217b674d2436b353529efd5ed749bcc41",
+  ".agents/skills/thesis-revision/references/thesis-profile.md": "9664ea1fae2683fa90edf04bb334da5326bd3b77602963bd635c7ce9b80db178"
+}
