@@ -25,7 +25,9 @@ For a whole-thesis evaluation, select both document roots in `scope`. For a boun
 
 Read the target question, objectives, scope, methods, results, and conclusions before comparing outlines. Save a short `target-brief.md` identifying what the thesis needs to explain for its own claims to follow. Cite the baseline. Distinguish documented facts from unclear reporting and unavailable research evidence. An obligation to explain an existing comparison does not authorize inventing a new experiment.
 
-Extract the reference's section functions into `reference-functions.md`. Describe the reasoning move, such as justifying a variable or demonstrating an evaluation, before considering a target counterpart. Record useful organizational choices and reference weaknesses that should not transfer. Matching a title, paragraph count, or metric is not the objective.
+Extract the reference's section functions into `reference-functions.md` before mapping them to the target. Read each complete section, including its ending and children. Separate distinct contributions such as identification, explanation of relevant characteristics, comparison, justification, and limitations. A label such as "introduces the models" must not erase the other jobs performed by the section. Record useful organizational choices and reference weaknesses that should not transfer.
+
+Read [explanatory adequacy](references/adequacy.md) before judging sufficiency. Establish which reader questions the target must answer from its research needs and the applicable reference functions. The target's existing brevity is not evidence that its purpose is narrow.
 
 ## Review every level
 
@@ -35,11 +37,13 @@ For every target node, assess its direct content and the organization of its chi
 
 Map reference functions to target locations. Allow a function to be merged, split, relocated, or distributed across several sections. Allow target-specific sections and justified inapplicable reference functions. Search the target and inspect likely counterparts before alleging an omission. Assess adaptations against the target's needs, including when the target needs more explanation than the reference provides.
 
+For each correspondence, account for each distinct reference function as covered, partial, missing, unresolved, or unnecessary for this research. Cite the actual explanation, wherever it belongs. Identification, a heading, a citation, or a specification table does not by itself establish explanatory coverage. Record these checks in the existing evaluation fields as specified by the evaluation contract. Preserve needed explanations while adapting their placement to the target's chapter responsibilities.
+
 Check dependencies within and across chapters: problem to question, question to design, design to evaluation, evaluation to reported comparisons, and results to conclusions. Also inspect local dependencies such as a definition before its use, a worked example after its rule, and a table's interpretation. Keep claims about findings within the limits of the actual evidence.
 
 ## Challenge and decide
 
-Use a fresh reviewer to challenge the structural findings against the frozen sources and target brief. Ask it to search for overlooked coverage elsewhere, unnecessary imitation, unsupported additions, misplaced material, and mistaken assumptions about figures or appendices. Include a sample of sufficient and adapted nodes at different depths so the challenge can detect missed problems as well as false alarms. Save `challenge.md` with finding IDs and evidence.
+Use a fresh reviewer to challenge the structural findings against the frozen sources and target brief. Ask it to search for overlooked coverage elsewhere, unnecessary imitation, unsupported additions, misplaced material, and mistaken assumptions about figures or appendices. It must independently inspect the central comparison, intervention, and evaluation subtrees, all correspondences with substantially reduced explanatory depth or a narrower stated purpose, and a sample of other sufficient nodes at different depths. A reduction in length is a trigger to investigate, not a defect or a target word count. The challenger reconstructs the reference's functions from the complete passages and checks whether the first reviewer dropped any. Save `challenge.md` with finding IDs, evidence, and decisions on the sufficiency claims it challenged.
 
 The coordinator resolves each finding as accepted, rejected, or unresolved. A proposed addition must meet a demonstrated target need. A proposed move or deletion must name its destination or explain why the function is unnecessary, and account for affected references and dependencies. Resolve disagreements by source evidence and research purpose. Preserve the current structure when a preference alone cannot justify a change.
 

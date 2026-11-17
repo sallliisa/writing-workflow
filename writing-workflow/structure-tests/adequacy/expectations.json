@@ -1,0 +1,23 @@
+{
+  "version-k": {
+    "expected": "needs_change",
+    "reason": "Identification and settings leave relevant model background and actual selection rationale unexplained."
+  },
+  "version-m": {
+    "expected": "sufficient_for_scoped_functions",
+    "reason": "Shared cited background fulfills relevant capability/limitation/comparison functions; methods supplies actual selection. Short leaves are legitimate."
+  },
+  "version-r": {
+    "expected": "needs_change",
+    "reason": "Actual selection and settings in methods do not replace missing relevant model background."
+  },
+  "version-v": {
+    "expected": "needs_change_in_methods",
+    "reason": "BAB II background is fulfilled but actual selection rationale is absent; repair belongs in BAB III and requires author evidence."
+  },
+  "guards": [
+    "Do not require cloud/local contrast, equal paragraph counts, architecture absent from evidence, or generic theory repeated under each model.",
+    "No real-model or author facts may be invented.",
+    "Do not use one variant as factual evidence for another."
+  ]
+}

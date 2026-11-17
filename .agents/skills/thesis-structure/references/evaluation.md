@@ -4,7 +4,7 @@
 
 For each node, answer the following questions with source locations:
 
-1. What question does this section answer for the reader? Does that purpose serve the target research?
+1. What question must this section or its mapped counterparts answer for the reader, given the target research and applicable reference functions? Establish the purpose before judging the current text. Do not narrow it to whatever the target already provides.
 2. Does its direct text, table, figure, equation, or example provide the needed explanation or evidence? What must the reader infer without support?
 3. Is the material placed where readers need it? Do its children divide the purpose coherently, and does their order establish prerequisites before use?
 4. Does the assembled subtree fulfill the parent's purpose? Is any apparent repetition useful orientation, a distinct application, or avoidable duplication?
@@ -13,6 +13,10 @@ For each node, answer the following questions with source locations:
 Apply these questions at every depth. Use enough context to judge the function. A title match is neither evidence of sufficiency nor a requirement. More subsections, more words, or more equations do not inherently improve structure. A short section can be complete, and an empty organizing heading can be valid.
 
 Keep reference correspondence separate from target sufficiency. An adaptation can still contain a gap. A reference-only topic can be inapplicable. A target-only explanation can be essential. Match by argumentative function before naming a structural operation.
+
+Apply [explanatory adequacy](adequacy.md) to each correspondence. Read the full reference section before extracting its functions, including later paragraphs that justify or qualify earlier claims. Account for the strongest relevant explanatory move as well as identification and definitions. For every distinct function, record the reader question, its relevance to this research, actual target coverage, and any remaining gap. These function checks belong in the existing `function`, `rationale`, and `evidence` fields; no separate schema is needed.
+
+Use `covered`, `partial`, `missing`, `unresolved`, or `unnecessary` in the rationale for each distinct function. A covered function needs an evidence location and an explanation of what the target text establishes. A relocated function names its actual destination and evidence there. An unnecessary function needs a reason based on the target's research, not its present length. Partial or missing necessary functions produce findings at their appropriate target locations. Unknown source facts can prevent a repair without making the existing explanation sufficient.
 
 Before reporting missing content, search the full target for equivalent explanations and inspect the candidate locations. Record the search and the locations checked. If the explanation exists elsewhere, assess whether a reference or move would help. If only an unavailable appendix could establish coverage, mark the relevant judgment unresolved.
 
@@ -45,8 +49,8 @@ Each `reference_reviews` entry contains:
 
 - `node_id`, `function`, and `target_ids`. Several entries may share targets, and one entry may name several targets.
 - `disposition`: `fulfilled`, `adapted`, `not_applicable`, or `unresolved`.
-- `rationale` explaining applicability and the chosen mapping.
-- `evidence`, citing the reference function and target coverage when mapped.
+- `rationale` explaining applicability and the chosen mapping, with a function check for every distinct contribution identified in the reference. For mixed sections, account separately for useful background, study-specific choices, and irrelevant or unsupported material. A single blanket adaptation verdict cannot hide a missing contribution.
+- `evidence`, citing where each reference function is performed and its actual target coverage when mapped. Include the reference's justification or limitation passage when that is the function being assessed; an introductory identity sentence cannot stand in for it.
 
 Each `target_reviews` entry contains:
 
@@ -54,7 +58,7 @@ Each `target_reviews` entry contains:
 - `direct_content`: a concise judgment of the node's own content, including non-prose evidence or its legitimate role as an organizing heading.
 - `child_organization`: a judgment of grouping and order, or a statement that this is a leaf. Include the subtree's combined contribution where there are children.
 - `assessment`: `sufficient`, `needs_change`, or `unresolved`.
-- `rationale`, `evidence`, and `finding_ids`. Every `needs_change` or `unresolved` entry links to a finding. A sufficient node may have no finding or retain a rejected finding for traceability.
+- `rationale`, `evidence`, and `finding_ids`. Explain why the necessary reader questions have been answered before assigning `sufficient`. Resolve applicable reference-function gaps against this judgment. Every `needs_change` or `unresolved` entry links to a finding. A sufficient node may have no finding or retain a rejected finding for traceability.
 
 Each `dependencies` entry contains:
 
@@ -87,6 +91,6 @@ Keep entries concise. The JSON is the complete coverage record; `assessment.md` 
 
 ## Challenge the evaluation
 
-Give the fresh challenger the baseline, reference, target brief, and proposed assessment. It reads the cited passages with context and searches for competing explanations. It also checks sufficient nodes across depths. It records finding decisions, newly discovered issues, and sources, with no quota for changes.
+Give the fresh challenger the baseline, reference, target brief, and proposed assessment. It reads complete passages, not only the first reviewer's anchors, and searches for competing explanations. It independently checks the central comparison, intervention, and evaluation subtrees even if all their nodes passed. It also checks every substantially reduced or narrowed correspondence and a sample of other sufficient nodes across depths. For these checks, record the reference functions, target answers and locations, justified exclusions, and a retain-or-revise decision. Challenge silent reductions in explanatory purpose as well as unjustified additions. There is no quota for changes.
 
 The coordinator incorporates supported corrections into the final JSON. A machine-checked complete inventory is a coverage claim only. The final report must still explain why accepted changes improve the target's argument.

@@ -13,9 +13,12 @@ Potential correspondences are hypotheses to check:
 - Academic domain motivation can correspond to the need for reliable operational analysis.
 - Prompting and persona comparisons can inform how business-context conditions are explained and compared, without introducing new variables.
 - Reference feedback can correspond to expected results in its evaluative role, while their construction and meaning differ.
+- Model sections can explain documented characteristics relevant to the task and the conceptual basis for comparison. Read the full reference §2.7, including its concluding comparison paragraphs. Its cloud/local contrast is not an assumed property of the target pair. BAB II supplies relevant background; actual model-selection criteria and tested configurations belong in BAB III. Search both chapters before calling a function absent or relocated. Version names, API availability, and equal context limits alone do not establish that the reader understands the model comparison. Obtain missing selection reasons from the author rather than inventing them.
 - Metric explanations and worked examples can inform the explanation of PASS/FAIL rules and concrete scoring examples. Text-similarity metrics are not implied requirements for analytical correctness.
 - Course-specific result sections can inform task-specific result sections. The numbers of groups and subsections need not match.
 
 Determine completeness from the research and supplied evidence. A table, integrated paragraph, or appendix may fulfill a reference function without an identically named subsection. When an appendix is unavailable, state what cannot be established from the supplied file.
 
 Use [the prose preference profile](../../thesis-revision/references/thesis-profile.md) when wording or previously praised explanations affect a proposed structural change. Preserve existing names in manuscripts. Use neutral project descriptions in generated instructions and reports.
+
+The first full review's sufficiency judgments for §2.7 and its model subsections were challenged by the author. It credited identification as fulfillment of broader model-background and comparison functions. Reassess those judgments using [explanatory adequacy](adequacy.md). Earlier review counts and successful coverage checks are not approval of those judgments. The author's complaints about misplaced general material do not authorize reducing necessary model-specific explanations to identification.
