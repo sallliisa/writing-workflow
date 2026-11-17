@@ -1,0 +1,273 @@
+{
+  "edits": [
+    {
+      "id": "E-R-001",
+      "block_id": "B0258",
+      "before": "Perbandingan Muse Spark 1.3 dan DeepSeek v4 Flash mencakup hasil T6-C1 pada kedua kondisi konteks bisnis. Setiap model menghasilkan enam jawaban, dengan hasil seperti pada Tabel 4.14.",
+      "after": "Perbandingan Muse Spark 1.3 dan DeepSeek v4 Flash mencakup hasil T6-C1 pada kondisi dengan dan tanpa konteks bisnis. Setiap model menghasilkan enam jawaban, dengan hasil seperti pada Tabel 4.14.",
+      "findings": [
+        "R-001"
+      ],
+      "reason": "Menamai kondisi dengan dan tanpa konteks bisnis secara langsung agar cakupan perbandingan jelas."
+    },
+    {
+      "id": "E-R-002",
+      "block_id": "B0272",
+      "before": "Dengan konteks bisnis, seluruh 24 jawaban memperoleh PASS. Tanpa konteks bisnis, 20 dari 24 jawaban memperoleh PASS atau 83,33%. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2. Terdapat tiga jawaban dengan status SPM/SLA salah dan satu jawaban yang tidak mencantumkan seluruh evaluasi.",
+      "after": "Dengan konteks bisnis, seluruh 24 jawaban memperoleh PASS. Tanpa konteks bisnis, 20 dari 24 jawaban memperoleh PASS atau 83,33%. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2. Terdapat tiga jawaban dengan status SPM/SLA salah dan satu jawaban yang tidak mencantumkan seluruh hasil evaluasi yang diminta.",
+      "findings": [
+        "R-002"
+      ],
+      "reason": "Menjelaskan bahwa bagian yang tidak lengkap adalah hasil evaluasi yang dimuat dalam jawaban."
+    },
+    {
+      "id": "E-R-003",
+      "block_id": "B0290",
+      "before": "Evaluasi periode mencakup T8-C1 dan T8-C2 yang menilai SPM/SLA selama satu periode, serta T9-C1 dan T9-C2 yang membandingkan hasil dua periode. Hasil kedua jenis analisis pada kondisi dengan dan tanpa konteks bisnis disajikan pada Tabel 4.20.",
+      "after": "Pada T8-C1 dan T8-C2, agen diminta menilai SPM/SLA selama satu periode. Pada T9-C1 dan T9-C2, agen diminta membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode. Hasil kedua jenis analisis pada kondisi dengan dan tanpa konteks bisnis disajikan pada Tabel 4.20.",
+      "findings": [
+        "R-003"
+      ],
+      "reason": "Menempatkan agen sebagai pelaku dan menyebut status pemenuhan indikator sebagai objek perbandingan dua periode."
+    },
+    {
+      "id": "E-R-004",
+      "block_id": "B0298",
+      "before": "Kedua model memperoleh 24/24 PASS. Status, jumlah evaluasi, dan jumlah kegagalan yang dicantumkan pada jawaban sesuai dengan *expected result*. Pada evaluasi periode, SLA yang tidak berlaku juga ditandai dengan not_applicable.",
+      "after": "Kedua model memperoleh 24/24 PASS. Status, jumlah evaluasi, dan jumlah kegagalan yang dicantumkan pada jawaban sesuai dengan *expected result*. Pada evaluasi periode, SLA yang tidak berlaku untuk suatu indikator pada ruas yang dianalisis juga ditandai dengan not_applicable.",
+      "findings": [
+        "R-004"
+      ],
+      "reason": "Menghubungkan not_applicable dengan keberlakuan SLA pada indikator dan ruas yang dianalisis."
+    },
+    {
+      "id": "E-R-005",
+      "block_id": "B0306",
+      "before": "Hasil pengujian pada enam kelompok analisis menunjukkan bahwa 170 dari 180 jawaban memperoleh PASS. Sepuluh jawaban yang dinilai FAIL berasal dari kondisi tanpa konteks bisnis.",
+      "after": "Pada enam jenis analisis yang diuji, 170 dari 180 jawaban memperoleh PASS. Sepuluh jawaban yang dinilai FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis.",
+      "findings": [
+        "R-005"
+      ],
+      "reason": "Menyampaikan jumlah jawaban PASS dan asal seluruh FAIL secara langsung, dengan tetap menyebut enam jenis analisis."
+    },
+    {
+      "id": "E-R-006",
+      "block_id": "B0310",
+      "before": "Data yang digunakan dan cara agen menerapkan aturan bisnis juga memengaruhi hasil analisis. Pada contoh T5-C1, agen menggunakan data dari insiden yang tidak termasuk kecelakaan dan menghasilkan nilai total_cause_assignments yang lebih besar daripada nilai pada *expected result*. Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.",
+      "after": "Pada contoh T5-C1, agen memasukkan insiden dengan is_accident = false ke dalam perhitungan penyebab kecelakaan, padahal insiden tersebut seharusnya dikecualikan. Akibatnya, nilai total_cause_assignments pada jawaban menjadi 7, sedangkan nilai pada *expected result* adalah 5. Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.",
+      "findings": [
+        "R-006"
+      ],
+      "reason": "Mengganti pembuka umum dengan kesalahan pemilihan insiden dan perbandingan 7 terhadap 5 yang tercatat pada sumber. Kalimat penjelasan pembulatan dipertahankan utuh."
+    },
+    {
+      "id": "E-R-007",
+      "block_id": "B0313",
+      "before": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan *expected result*. Manfaat hasil analisis bagi pengambilan keputusan operasional belum dinilai.",
+      "after": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Karena seluruh dokumen konteks bisnis diberikan bersama, pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.",
+      "findings": [
+        "R-007"
+      ],
+      "reason": "Memisahkan batas atribusi pengaruh tiap dokumen terhadap ketepatan jawaban dari manfaat operasional yang belum dinilai, serta menjelaskan arti PASS secara ringkas."
+    },
+    {
+      "id": "E-R-008",
+      "block_id": "B0319",
+      "before": "Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5, sementara dua jawaban T5-C1 berisi frekuensi penyebab kecelakaan yang terlalu besar dan menambahkan kategori. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta.",
+      "after": "Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5. Pada dua jawaban T5-C1, frekuensi Kelalaian Pengemudi terlalu besar dan terdapat kategori Kondisi Jalan yang tidak ada dalam *expected result*, sedangkan frekuensi Mengantuk tetap sesuai. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta.",
+      "findings": [
+        "R-008"
+      ],
+      "reason": "Menyebut frekuensi penyebab yang berlebih dan kategori tambahan secara spesifik serta mempertahankan frekuensi penyebab yang sudah sesuai dengan expected result."
+    },
+    {
+      "id": "E-R-009",
+      "block_id": "B0195",
+      "before": "| Kelompok analisis | Jenis tugas | Kasus | Jawaban per kombinasi | Total jawaban |\n| ----- | ----- | :---: | :---: | :---: |\n| Durasi transaksi | T1 | 2 | 6 | 24 |\n| Volume lalu lintas dan LHR | T2, T3 | 2 | 6 | 24 |\n| Insiden dan penyebab kecelakaan | T4, T5 | 2 | 6 | 24 |\n| Inspeksi dan identitas aset | T6 | 1 | 3 | 12 |\n| SPM/SLA per laporan | T7 | 4 | 12 | 48 |\n| SPM/SLA periode dan antarperiode | T8, T9 | 4 | 12 | 48 |\n| Total | Sembilan jenis tugas | 15 | 45 | 180 |",
+      "after": "| Kelompok analisis | Jenis tugas | Kasus | Jawaban per kombinasi | Total jawaban |\n| ----- | ----- | :---: | :---: | :---: |\n| Durasi transaksi | T1 | 2 | 6 | 24 |\n| Volume lalu lintas dan LHR | T2, T3 | 2 | 6 | 24 |\n| Insiden dan penyebab kecelakaan | T4, T5 | 2 | 6 | 24 |\n| Inspeksi dan identitas aset | T6 | 1 | 3 | 12 |\n| SPM/SLA per laporan | T7 | 4 | 12 | 48 |\n| SPM/SLA periode dan antar periode | T8, T9 | 4 | 12 | 48 |\n| Total | Sembilan jenis tugas | 15 | 45 | 180 |",
+      "findings": [
+        "R-009"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-010",
+      "block_id": "B0288",
+      "before": "## 4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode",
+      "after": "## 4.8. Analisis Hasil pada SPM/SLA Periode dan Antar Periode",
+      "findings": [
+        "R-010"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-011",
+      "block_id": "B0291",
+      "before": "**Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis**",
+      "after": "**Tabel 4.20 Hasil SPM/SLA Periode dan Antar Periode menurut Konteks Bisnis**",
+      "findings": [
+        "R-011"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-012",
+      "block_id": "B0293",
+      "before": "Kondisi dengan dan tanpa konteks bisnis masing-masing memperoleh 24/24 PASS. Status indikator pada satu periode dan perubahan status antarperiode sesuai dengan *expected result* pada kedua kondisi.",
+      "after": "Kondisi dengan dan tanpa konteks bisnis masing-masing memperoleh 24/24 PASS. Status indikator pada satu periode dan perubahan status antar periode sesuai dengan *expected result* pada kedua kondisi.",
+      "findings": [
+        "R-012"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-013",
+      "block_id": "B0295",
+      "before": "Hasil Muse Spark 1.3 dan DeepSeek v4 Flash pada empat kasus periode dan antarperiode disajikan pada Tabel 4.21. Setiap model menghasilkan 24 jawaban dari pengujian dengan dan tanpa konteks bisnis.",
+      "after": "Hasil Muse Spark 1.3 dan DeepSeek v4 Flash pada empat kasus periode dan antar periode disajikan pada Tabel 4.21. Setiap model menghasilkan 24 jawaban dari pengujian dengan dan tanpa konteks bisnis.",
+      "findings": [
+        "R-013"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-014",
+      "block_id": "B0296",
+      "before": "**Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model**",
+      "after": "**Tabel 4.21 Hasil SPM/SLA Periode dan Antar Periode menurut Model**",
+      "findings": [
+        "R-014"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-015",
+      "block_id": "B0301",
+      "before": "**Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis**",
+      "after": "**Tabel 4.22 Hasil SPM/SLA Periode dan Antar Periode menurut Kombinasi Model dan Konteks Bisnis**",
+      "findings": [
+        "R-015"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-016",
+      "block_id": "B0308",
+      "before": "Tanpa konteks bisnis, Muse Spark 1.3 memperoleh lebih banyak PASS dibandingkan DeepSeek v4 Flash pada volume lalu lintas dan LHR serta SPM/SLA per laporan. DeepSeek v4 Flash memperoleh lebih banyak PASS pada insiden dan penyebab kecelakaan. Pada durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada keempat kombinasi.",
+      "after": "Tanpa konteks bisnis, Muse Spark 1.3 memperoleh lebih banyak PASS dibandingkan DeepSeek v4 Flash pada volume lalu lintas dan LHR serta SPM/SLA per laporan. DeepSeek v4 Flash memperoleh lebih banyak PASS pada insiden dan penyebab kecelakaan. Pada durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antar periode, seluruh jawaban memperoleh PASS pada keempat kombinasi.",
+      "findings": [
+        "R-016"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "id": "E-R-017",
+      "block_id": "B0318",
+      "before": "Dalam pengujian tanpa konteks bisnis, Muse Spark 1.3 memperoleh dua PASS lebih banyak daripada DeepSeek v4 Flash. Muse Spark 1.3 menghasilkan lebih banyak PASS pada volume lalu lintas dan LHR serta SPM/SLA per laporan, sementara DeepSeek v4 Flash menghasilkan lebih banyak PASS pada insiden dan penyebab kecelakaan. Untuk durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada kedua model, baik dengan ataupun tanpa konteks bisnis.",
+      "after": "Dalam pengujian tanpa konteks bisnis, Muse Spark 1.3 memperoleh dua PASS lebih banyak daripada DeepSeek v4 Flash. Muse Spark 1.3 menghasilkan lebih banyak PASS pada volume lalu lintas dan LHR serta SPM/SLA per laporan, sementara DeepSeek v4 Flash menghasilkan lebih banyak PASS pada insiden dan penyebab kecelakaan. Untuk durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antar periode, seluruh jawaban memperoleh PASS pada kedua model, baik dengan ataupun tanpa konteks bisnis.",
+      "findings": [
+        "R-017"
+      ],
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    }
+  ],
+  "dispositions": [
+    {
+      "finding_id": "R-001",
+      "status": "addressed",
+      "reason": "Menamai kondisi dengan dan tanpa konteks bisnis secara langsung agar cakupan perbandingan jelas."
+    },
+    {
+      "finding_id": "R-002",
+      "status": "addressed",
+      "reason": "Menjelaskan bahwa bagian yang tidak lengkap adalah hasil evaluasi yang dimuat dalam jawaban."
+    },
+    {
+      "finding_id": "R-003",
+      "status": "addressed",
+      "reason": "Menempatkan agen sebagai pelaku dan menyebut status pemenuhan indikator sebagai objek perbandingan dua periode."
+    },
+    {
+      "finding_id": "R-004",
+      "status": "addressed",
+      "reason": "Menghubungkan not_applicable dengan keberlakuan SLA pada indikator dan ruas yang dianalisis."
+    },
+    {
+      "finding_id": "R-005",
+      "status": "addressed",
+      "reason": "Menyampaikan jumlah jawaban PASS dan asal seluruh FAIL secara langsung, dengan tetap menyebut enam jenis analisis."
+    },
+    {
+      "finding_id": "R-006",
+      "status": "addressed",
+      "reason": "Mengganti pembuka umum dengan kesalahan pemilihan insiden dan perbandingan 7 terhadap 5 yang tercatat pada sumber. Kalimat penjelasan pembulatan dipertahankan utuh."
+    },
+    {
+      "finding_id": "R-007",
+      "status": "addressed",
+      "reason": "Memisahkan batas atribusi pengaruh tiap dokumen terhadap ketepatan jawaban dari manfaat operasional yang belum dinilai, serta menjelaskan arti PASS secara ringkas."
+    },
+    {
+      "finding_id": "R-008",
+      "status": "addressed",
+      "reason": "Menyebut frekuensi penyebab yang berlebih dan kategori tambahan secara spesifik serta mempertahankan frekuensi penyebab yang sudah sesuai dengan expected result."
+    },
+    {
+      "finding_id": "R-009",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-010",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-011",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-012",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-013",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-014",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-015",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-016",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-017",
+      "status": "addressed",
+      "reason": "Menerapkan pilihan ejaan penulis: antar periode. Isi, angka, dan struktur bagian dipertahankan."
+    },
+    {
+      "finding_id": "R-018",
+      "status": "unresolved",
+      "reason": "Perataan daftar pustaka harus diperiksa pada aplikasi dokumen atau hasil render akhir. Markdown tidak menyediakan bukti perataan, sehingga seluruh entri bibliografi dipertahankan persis."
+    }
+  ],
+  "unresolved": [
+    {
+      "finding_id": "R-018",
+      "block_id": "B0326",
+      "reason": "Perataan daftar pustaka harus diperiksa pada aplikasi dokumen atau hasil render akhir. Markdown tidak menyediakan bukti perataan, sehingga seluruh entri bibliografi dipertahankan persis."
+    }
+  ]
+}

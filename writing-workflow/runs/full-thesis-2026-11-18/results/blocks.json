@@ -1,0 +1,1434 @@
+[
+  {
+    "id": "B0185",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 463,
+    "start": 52839,
+    "end": 52870,
+    "text": "# BAB IV — HASIL DAN PEMBAHASAN"
+  },
+  {
+    "id": "B0186",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 465,
+    "start": 52872,
+    "end": 53217,
+    "text": "Bab ini membahas hasil evaluasi *Agentic Business Intelligence* pada enam kelompok kebutuhan operasional HKA TROM. Pembahasan dimulai dengan lingkungan pengujian dan data penelitian, kemudian dilanjutkan dengan hasil setiap kelompok berdasarkan konteks bisnis, model, dan kombinasi keduanya. Bab ini diakhiri dengan interpretasi hasil pengujian."
+  },
+  {
+    "id": "B0187",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 467,
+    "start": 53219,
+    "end": 53247,
+    "text": "## 4.1. Lingkungan Pengujian"
+  },
+  {
+    "id": "B0188",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 469,
+    "start": 53249,
+    "end": 53539,
+    "text": "Pengujian dilakukan pada Cloudflare OS dengan model Muse Spark 1.3 dan DeepSeek v4 Flash melalui *provider* OpenCode. Agen menggunakan *tool* melalui MCP untuk melihat daftar tabel dan *view*, melihat struktur tabel, dan membaca data HKA TROM. Lingkungan pengujian dirangkum pada Tabel 4.1."
+  },
+  {
+    "id": "B0189",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 471,
+    "start": 53541,
+    "end": 53575,
+    "text": "**Tabel 4.1 Lingkungan Pengujian**"
+  },
+  {
+    "id": "B0190",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 473,
+    "start": 53577,
+    "end": 53804,
+    "text": "| Aspek | Keterangan |\n| ----- | ----- |\n| Lingkungan agen | Cloudflare OS |\n| Model | Muse Spark 1.3 dan DeepSeek v4 Flash, melalui *provider* OpenCode |\n| *Tool* akses data | list_entities, describe_entity, dan read_records |"
+  },
+  {
+    "id": "B0191",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 479,
+    "start": 53806,
+    "end": 53829,
+    "text": "## 4.2. Data Penelitian"
+  },
+  {
+    "id": "B0192",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 481,
+    "start": 53831,
+    "end": 54000,
+    "text": "Pengujian menggunakan 237 baris data sintetis. Data tersebut digunakan pada 15 kasus dari sembilan jenis tugas, T1 sampai T9, yang dibagi menjadi enam kelompok analisis."
+  },
+  {
+    "id": "B0193",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 483,
+    "start": 54002,
+    "end": 54314,
+    "text": "Setiap kasus dijalankan tiga kali pada Muse Spark 1.3 dan DeepSeek v4 Flash, masing-masing dengan dan tanpa konteks bisnis. Keempat kombinasi tersebut menghasilkan 45 jawaban per kombinasi dan 180 jawaban secara keseluruhan. Tabel 4.2 menyajikan pembagian kasus dan jumlah jawaban untuk setiap kelompok analisis."
+  },
+  {
+    "id": "B0194",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 485,
+    "start": 54316,
+    "end": 54384,
+    "text": "**Tabel 4.2 Distribusi Kasus dan Jawaban menurut Kelompok Analisis**"
+  },
+  {
+    "id": "B0195",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 487,
+    "start": 54386,
+    "end": 54863,
+    "text": "| Kelompok analisis | Jenis tugas | Kasus | Jawaban per kombinasi | Total jawaban |\n| ----- | ----- | :---: | :---: | :---: |\n| Durasi transaksi | T1 | 2 | 6 | 24 |\n| Volume lalu lintas dan LHR | T2, T3 | 2 | 6 | 24 |\n| Insiden dan penyebab kecelakaan | T4, T5 | 2 | 6 | 24 |\n| Inspeksi dan identitas aset | T6 | 1 | 3 | 12 |\n| SPM/SLA per laporan | T7 | 4 | 12 | 48 |\n| SPM/SLA periode dan antarperiode | T8, T9 | 4 | 12 | 48 |\n| Total | Sembilan jenis tugas | 15 | 45 | 180 |"
+  },
+  {
+    "id": "B0196",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 497,
+    "start": 54865,
+    "end": 54909,
+    "text": "## 4.3. Analisis Hasil pada Durasi Transaksi"
+  },
+  {
+    "id": "B0197",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 499,
+    "start": 54911,
+    "end": 54961,
+    "text": "### 4.3.1. Berdasarkan Ketersediaan Konteks Bisnis"
+  },
+  {
+    "id": "B0198",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 501,
+    "start": 54963,
+    "end": 55142,
+    "text": "Pengujian durasi transaksi mencakup T1-C1 dan T1-C2. Hasil pengujian dengan dan tanpa konteks bisnis disajikan pada Tabel 4.3. Setiap kondisi mencakup 12 jawaban dari kedua model."
+  },
+  {
+    "id": "B0199",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 503,
+    "start": 55144,
+    "end": 55203,
+    "text": "**Tabel 4.3 Hasil Durasi Transaksi menurut Konteks Bisnis**"
+  },
+  {
+    "id": "B0200",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 505,
+    "start": 55205,
+    "end": 55380,
+    "text": "| Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Dengan konteks bisnis | 12/12 | 100,00% |\n| Tanpa konteks bisnis | 12/12 | 100,00% |"
+  },
+  {
+    "id": "B0201",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 510,
+    "start": 55382,
+    "end": 55673,
+    "text": "Kedua kondisi memperoleh 12/12 PASS atau 100,00%. Pada T1-C1, nilai rata-rata yang dihasilkan sesuai dengan *expected result* meskipun setiap laporan memiliki jumlah data durasi yang berbeda. Jawaban T1-C2 juga sesuai dengan *expected result* yang dihitung dari data *booth* dan *longbooth*."
+  },
+  {
+    "id": "B0202",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 512,
+    "start": 55675,
+    "end": 55703,
+    "text": "### 4.3.2. Berdasarkan Model"
+  },
+  {
+    "id": "B0203",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 514,
+    "start": 55705,
+    "end": 55868,
+    "text": "Perbandingan kedua model menggunakan hasil T1-C1 dan T1-C2 pada pengujian dengan dan tanpa konteks bisnis. Tabel 4.4 merangkum 12 jawaban dari masing-masing model."
+  },
+  {
+    "id": "B0204",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 516,
+    "start": 55870,
+    "end": 55920,
+    "text": "**Tabel 4.4 Hasil Durasi Transaksi menurut Model**"
+  },
+  {
+    "id": "B0205",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 518,
+    "start": 55922,
+    "end": 56078,
+    "text": "| Model | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Muse Spark 1.3 | 12/12 | 100,00% |\n| DeepSeek v4 Flash | 12/12 | 100,00% |"
+  },
+  {
+    "id": "B0206",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 523,
+    "start": 56080,
+    "end": 56271,
+    "text": "Muse Spark 1.3 dan DeepSeek v4 Flash sama-sama memperoleh 12/12 PASS. Nilai rata-rata yang dihasilkan adalah 23,09 detik pada T1-C1 dan 8,86 detik pada T1-C2, sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0207",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 525,
+    "start": 56273,
+    "end": 56330,
+    "text": "### 4.3.3. Berdasarkan Kombinasi Model dan Konteks Bisnis"
+  },
+  {
+    "id": "B0208",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 527,
+    "start": 56332,
+    "end": 56492,
+    "text": "Pada setiap kombinasi model dan konteks bisnis, T1-C1 dan T1-C2 diuji sebanyak tiga kali. Tabel 4.5 menunjukkan hasil enam jawaban pada masing-masing kombinasi."
+  },
+  {
+    "id": "B0209",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 529,
+    "start": 56494,
+    "end": 56573,
+    "text": "**Tabel 4.5 Hasil Durasi Transaksi menurut Kombinasi Model dan Konteks Bisnis**"
+  },
+  {
+    "id": "B0210",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 531,
+    "start": 56575,
+    "end": 56919,
+    "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 6/6 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 6/6 | 100,00% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 6/6 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 6/6 | 100,00% |"
+  },
+  {
+    "id": "B0211",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 538,
+    "start": 56921,
+    "end": 57039,
+    "text": "Keempat kombinasi memperoleh 6/6 PASS atau 100,00%. Pada masing-masing kombinasi, T1-C1 dan T1-C2 memperoleh 3/3 PASS."
+  },
+  {
+    "id": "B0212",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 540,
+    "start": 57041,
+    "end": 57095,
+    "text": "## 4.4. Analisis Hasil pada Volume Lalu Lintas dan LHR"
+  },
+  {
+    "id": "B0213",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 542,
+    "start": 57097,
+    "end": 57147,
+    "text": "### 4.4.1. Berdasarkan Ketersediaan Konteks Bisnis"
+  },
+  {
+    "id": "B0214",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 544,
+    "start": 57149,
+    "end": 57420,
+    "text": "Kelompok volume lalu lintas dan LHR mencakup T2-C1 untuk ringkasan mingguan dan T3-C1 untuk tren bulanan. Hasil kedua kasus dibandingkan pada kondisi dengan dan tanpa konteks bisnis. Setiap kondisi mencakup 12 jawaban dari kedua model, seperti ditampilkan pada Tabel 4.6."
+  },
+  {
+    "id": "B0215",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 546,
+    "start": 57422,
+    "end": 57491,
+    "text": "**Tabel 4.6 Hasil Volume Lalu Lintas dan LHR menurut Konteks Bisnis**"
+  },
+  {
+    "id": "B0216",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 548,
+    "start": 57493,
+    "end": 57666,
+    "text": "| Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Dengan konteks bisnis | 12/12 | 100,00% |\n| Tanpa konteks bisnis | 8/12 | 66,67% |"
+  },
+  {
+    "id": "B0217",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 553,
+    "start": 57668,
+    "end": 58032,
+    "text": "Dengan konteks bisnis, seluruh 12 jawaban memperoleh PASS. Tanpa konteks bisnis, delapan dari 12 jawaban memperoleh PASS atau 66,67%. Keempat jawaban yang gagal berasal dari T3-C1 dan tidak mencantumkan seluruh golongan kendaraan yang diminta dalam *prompt*. Pada T2-C1, total volume, LHR, dan rincian golongan pada seluruh jawaban sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0218",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 555,
+    "start": 58034,
+    "end": 58062,
+    "text": "### 4.4.2. Berdasarkan Model"
+  },
+  {
+    "id": "B0219",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 557,
+    "start": 58064,
+    "end": 58285,
+    "text": "Perbandingan Muse Spark 1.3 dan DeepSeek v4 Flash pada Tabel 4.7 mencakup hasil T2-C1 dan T3-C1. Setiap model menghasilkan 12 jawaban, terdiri atas enam jawaban dengan konteks bisnis dan enam jawaban tanpa konteks bisnis."
+  },
+  {
+    "id": "B0220",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 559,
+    "start": 58287,
+    "end": 58347,
+    "text": "**Tabel 4.7 Hasil Volume Lalu Lintas dan LHR menurut Model**"
+  },
+  {
+    "id": "B0221",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 561,
+    "start": 58349,
+    "end": 58502,
+    "text": "| Model | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Muse Spark 1.3 | 11/12 | 91,67% |\n| DeepSeek v4 Flash | 9/12 | 75,00% |"
+  },
+  {
+    "id": "B0222",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 566,
+    "start": 58504,
+    "end": 58813,
+    "text": "Muse Spark 1.3 memperoleh 11/12 PASS atau 91,67%, sedangkan DeepSeek v4 Flash memperoleh 9/12 PASS atau 75,00%. Kedua model memperoleh hasil yang sama ketika konteks bisnis tersedia. Perbedaan hasil muncul pada T3-C1 tanpa konteks bisnis, ketika sebagian jawaban tidak mencantumkan seluruh golongan kendaraan."
+  },
+  {
+    "id": "B0223",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 568,
+    "start": 58815,
+    "end": 58872,
+    "text": "### 4.4.3. Berdasarkan Kombinasi Model dan Konteks Bisnis"
+  },
+  {
+    "id": "B0224",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 570,
+    "start": 58874,
+    "end": 59047,
+    "text": "Tabel 4.8 menunjukkan hasil empat kombinasi model dan konteks bisnis pada T2-C1 dan T3-C1. Setiap kombinasi menghasilkan enam jawaban dari tiga pengulangan pada kedua kasus."
+  },
+  {
+    "id": "B0225",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 572,
+    "start": 59049,
+    "end": 59138,
+    "text": "**Tabel 4.8 Hasil Volume Lalu Lintas dan LHR menurut Kombinasi Model dan Konteks Bisnis**"
+  },
+  {
+    "id": "B0226",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 574,
+    "start": 59140,
+    "end": 59482,
+    "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 6/6 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 5/6 | 83,33% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 6/6 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 3/6 | 50,00% |"
+  },
+  {
+    "id": "B0227",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 581,
+    "start": 59484,
+    "end": 59740,
+    "text": "Dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 6/6 PASS. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 5/6 PASS dan DeepSeek v4 Flash memperoleh 3/6 PASS. Seluruh jawaban T2-C1 memperoleh PASS pada keempat kombinasi."
+  },
+  {
+    "id": "B0228",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 583,
+    "start": 59742,
+    "end": 60154,
+    "text": "Pada T3-C1, *expected result* berisi Gol. 5 untuk Januari dan Februari dengan volume 0 dan LHR 0. Tanpa konteks bisnis, Gol. 5 untuk kedua bulan itu tidak ada dalam jawaban Muse Spark 1.3 pada pengulangan kedua ataupun DeepSeek v4 Flash pada ketiga pengulangan. Keempat jawaban dinilai FAIL karena ringkasan golongan kendaraan tidak lengkap, meskipun nilai yang dicantumkan sudah sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0229",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 585,
+    "start": 60156,
+    "end": 60704,
+    "text": "Pada ketiga pengulangan DeepSeek v4 Flash tanpa konteks bisnis, agen membuat daftar golongan kendaraan berdasarkan data volume yang ada pada setiap bulan. Gol. 5 tidak ada dalam data volume untuk Januari dan Februari, sehingga tidak dicantumkan dalam ringkasan. Sebagai pembanding, pada pengulangan pertama dengan konteks bisnis, DeepSeek v4 Flash menggunakan seluruh golongan kendaraan dari data master. Jika tidak ada data volume untuk suatu golongan, agen mencantumkan volume 0 dan LHR 0, sehingga Gol. 5 tetap dicantumkan untuk kedua bulan itu."
+  },
+  {
+    "id": "B0230",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 587,
+    "start": 60706,
+    "end": 60765,
+    "text": "## 4.5. Analisis Hasil pada Insiden dan Penyebab Kecelakaan"
+  },
+  {
+    "id": "B0231",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 589,
+    "start": 60767,
+    "end": 60817,
+    "text": "### 4.5.1. Berdasarkan Ketersediaan Konteks Bisnis"
+  },
+  {
+    "id": "B0232",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 591,
+    "start": 60819,
+    "end": 61036,
+    "text": "Pengujian pada kelompok ini mencakup penentuan status insiden pada T4-C1 dan distribusi penyebab kecelakaan pada T5-C1. Tabel 4.9 merangkum hasil dengan dan tanpa konteks bisnis, dengan 12 jawaban pada setiap kondisi."
+  },
+  {
+    "id": "B0233",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 593,
+    "start": 61038,
+    "end": 61112,
+    "text": "**Tabel 4.9 Hasil Insiden dan Penyebab Kecelakaan menurut Konteks Bisnis**"
+  },
+  {
+    "id": "B0234",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 595,
+    "start": 61114,
+    "end": 61288,
+    "text": "| Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Dengan konteks bisnis | 12/12 | 100,00% |\n| Tanpa konteks bisnis | 10/12 | 83,33% |"
+  },
+  {
+    "id": "B0235",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 600,
+    "start": 61290,
+    "end": 61621,
+    "text": "Dengan konteks bisnis, seluruh 12 jawaban memperoleh PASS. Tanpa konteks bisnis, 10 dari 12 jawaban memperoleh PASS atau 83,33%. Kedua jawaban yang gagal berasal dari T5-C1. Pada T4-C1, jumlah dan status insiden pada seluruh jawaban sesuai dengan *expected result*, yaitu empat insiden dengan tiga masih ditangani dan satu selesai."
+  },
+  {
+    "id": "B0236",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 602,
+    "start": 61623,
+    "end": 61651,
+    "text": "### 4.5.2. Berdasarkan Model"
+  },
+  {
+    "id": "B0237",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 604,
+    "start": 61653,
+    "end": 61816,
+    "text": "Hasil pengujian T4-C1 dan T5-C1 berdasarkan model ditampilkan pada Tabel 4.10. Setiap model menghasilkan 12 jawaban dari pengujian dengan dan tanpa konteks bisnis."
+  },
+  {
+    "id": "B0238",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 606,
+    "start": 61818,
+    "end": 61884,
+    "text": "**Tabel 4.10 Hasil Insiden dan Penyebab Kecelakaan menurut Model**"
+  },
+  {
+    "id": "B0239",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 608,
+    "start": 61886,
+    "end": 62041,
+    "text": "| Model | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Muse Spark 1.3 | 10/12 | 83,33% |\n| DeepSeek v4 Flash | 12/12 | 100,00% |"
+  },
+  {
+    "id": "B0240",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 613,
+    "start": 62043,
+    "end": 62331,
+    "text": "Muse Spark 1.3 memperoleh 10/12 PASS atau 83,33%, sedangkan DeepSeek v4 Flash memperoleh 12/12 PASS atau 100,00%. Seluruh kegagalan Muse Spark 1.3 berasal dari T5-C1 tanpa konteks bisnis. Dengan konteks bisnis, hasil kedua model sama-sama sesuai dengan *expected result* pada kedua kasus."
+  },
+  {
+    "id": "B0241",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 615,
+    "start": 62333,
+    "end": 62390,
+    "text": "### 4.5.3. Berdasarkan Kombinasi Model dan Konteks Bisnis"
+  },
+  {
+    "id": "B0242",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 617,
+    "start": 62392,
+    "end": 62570,
+    "text": "Perbandingan empat kombinasi model dan konteks bisnis pada Tabel 4.11 mencakup T4-C1 dan T5-C1. Setiap kombinasi menghasilkan enam jawaban dari tiga pengulangan pada kedua kasus."
+  },
+  {
+    "id": "B0243",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 619,
+    "start": 62572,
+    "end": 62667,
+    "text": "**Tabel 4.11 Hasil Insiden dan Penyebab Kecelakaan menurut Kombinasi Model dan Konteks Bisnis**"
+  },
+  {
+    "id": "B0244",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 621,
+    "start": 62669,
+    "end": 63012,
+    "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 6/6 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 4/6 | 66,67% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 6/6 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 6/6 | 100,00% |"
+  },
+  {
+    "id": "B0245",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 628,
+    "start": 63014,
+    "end": 63278,
+    "text": "Muse Spark 1.3 memperoleh 6/6 PASS dengan konteks bisnis dan 4/6 PASS tanpa konteks bisnis. DeepSeek v4 Flash memperoleh 6/6 PASS pada kedua kondisi. Dua jawaban yang gagal berasal dari T5-C1 pada pengulangan pertama dan ketiga Muse Spark 1.3 tanpa konteks bisnis."
+  },
+  {
+    "id": "B0246",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 630,
+    "start": 63280,
+    "end": 63548,
+    "text": "Pada T5-C1, perhitungan penyebab kecelakaan hanya menggunakan data insiden dengan is_accident = true. Nilai total_cause_assignments pada kedua jawaban yang gagal adalah 7, sedangkan nilainya pada *expected result* adalah 5. Tabel 4.12 menunjukkan rincian perbedaannya."
+  },
+  {
+    "id": "B0247",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 632,
+    "start": 63550,
+    "end": 63593,
+    "text": "**Tabel 4.12 Perbedaan Jawaban pada T5-C1**"
+  },
+  {
+    "id": "B0248",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 634,
+    "start": 63595,
+    "end": 63936,
+    "text": "| Komponen output | *Expected result* | Muse Spark 1.3 tanpa konteks bisnis, pengulangan 1 dan 3 |\n| ----- | ----- | :---: |\n| assignment_count untuk Mengantuk | 4 | 4 |\n| assignment_count untuk Kelalaian Pengemudi | 1 | 2 |\n| assignment_count untuk Kondisi Jalan | Tidak ada dalam *expected result* | 1 |\n| total_cause_assignments | 5 | 7 |"
+  },
+  {
+    "id": "B0249",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 641,
+    "start": 63938,
+    "end": 64235,
+    "text": "Pada pengulangan pertama dan ketiga tanpa konteks bisnis, Muse Spark 1.3 membaca data dari empat insiden yang sesuai dengan ruas dan tanggal dalam *prompt*. Salah satu insiden memiliki is_accident = false. Laporan kecelakaannya berisi Kelalaian Pengemudi dan Kondisi Jalan masing-masing satu kali."
+  },
+  {
+    "id": "B0250",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 643,
+    "start": 64237,
+    "end": 64575,
+    "text": "Pada pengulangan ketiga dengan konteks bisnis, Muse Spark 1.3 membaca aturan bahwa hanya data insiden dengan is_accident = true yang digunakan untuk menghitung penyebab kecelakaan. Agen menggunakan laporan dari tiga insiden yang memenuhi syarat ini. Nilai total_cause_assignments pada jawabannya adalah 5, sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0251",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 645,
+    "start": 64577,
+    "end": 64632,
+    "text": "## 4.6. Analisis Hasil pada Inspeksi dan Identitas Aset"
+  },
+  {
+    "id": "B0252",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 647,
+    "start": 64634,
+    "end": 64684,
+    "text": "### 4.6.1. Berdasarkan Ketersediaan Konteks Bisnis"
+  },
+  {
+    "id": "B0253",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 649,
+    "start": 64686,
+    "end": 64890,
+    "text": "Pada T6-C1, hasil ringkasan kerusakan dibandingkan antara kondisi dengan dan tanpa konteks bisnis. Setiap kondisi mencakup enam jawaban dari kedua model. Tabel 4.13 menyajikan hasil perbandingan tersebut."
+  },
+  {
+    "id": "B0254",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 651,
+    "start": 64892,
+    "end": 64963,
+    "text": "**Tabel 4.13 Hasil Inspeksi dan Identitas Aset menurut Konteks Bisnis**"
+  },
+  {
+    "id": "B0255",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 653,
+    "start": 64965,
+    "end": 65136,
+    "text": "| Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Dengan konteks bisnis | 6/6 | 100,00% |\n| Tanpa konteks bisnis | 6/6 | 100,00% |"
+  },
+  {
+    "id": "B0256",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 658,
+    "start": 65138,
+    "end": 65402,
+    "text": "Kedua kondisi memperoleh 6/6 PASS. Seluruh jawaban mencakup empat item rusak, termasuk satu item yang tidak mempunyai prioritas. Jumlah item dengan prioritas P1 atau P2 adalah tiga, sedangkan jumlah item rusak tetap empat karena item tanpa prioritas juga dihitung."
+  },
+  {
+    "id": "B0257",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 660,
+    "start": 65404,
+    "end": 65432,
+    "text": "### 4.6.2. Berdasarkan Model"
+  },
+  {
+    "id": "B0258",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 662,
+    "start": 65434,
+    "end": 65617,
+    "text": "Perbandingan Muse Spark 1.3 dan DeepSeek v4 Flash mencakup hasil T6-C1 pada kedua kondisi konteks bisnis. Setiap model menghasilkan enam jawaban, dengan hasil seperti pada Tabel 4.14."
+  },
+  {
+    "id": "B0259",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 664,
+    "start": 65619,
+    "end": 65681,
+    "text": "**Tabel 4.14 Hasil Inspeksi dan Identitas Aset menurut Model**"
+  },
+  {
+    "id": "B0260",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 666,
+    "start": 65683,
+    "end": 65835,
+    "text": "| Model | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Muse Spark 1.3 | 6/6 | 100,00% |\n| DeepSeek v4 Flash | 6/6 | 100,00% |"
+  },
+  {
+    "id": "B0261",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 671,
+    "start": 65837,
+    "end": 66086,
+    "text": "Muse Spark 1.3 dan DeepSeek v4 Flash sama-sama memperoleh 6/6 PASS. Rincian kategori, prioritas, dan identitas aset pada jawaban kedua model sesuai dengan *expected result*. Pada rincian aset, tiga item tercatat pada Bahu dan satu item pada Lajur 1."
+  },
+  {
+    "id": "B0262",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 673,
+    "start": 66088,
+    "end": 66145,
+    "text": "### 4.6.3. Berdasarkan Kombinasi Model dan Konteks Bisnis"
+  },
+  {
+    "id": "B0263",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 675,
+    "start": 66147,
+    "end": 66249,
+    "text": "Tabel 4.15 memperlihatkan hasil setiap kombinasi model dan konteks bisnis pada tiga pengulangan T6-C1."
+  },
+  {
+    "id": "B0264",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 677,
+    "start": 66251,
+    "end": 66342,
+    "text": "**Tabel 4.15 Hasil Inspeksi dan Identitas Aset menurut Kombinasi Model dan Konteks Bisnis**"
+  },
+  {
+    "id": "B0265",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 679,
+    "start": 66344,
+    "end": 66688,
+    "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 3/3 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 3/3 | 100,00% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 3/3 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 3/3 | 100,00% |"
+  },
+  {
+    "id": "B0266",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 686,
+    "start": 66690,
+    "end": 66809,
+    "text": "Keempat kombinasi memperoleh 3/3 PASS, sehingga jawaban T6-C1 sesuai dengan *expected result* pada seluruh pengulangan."
+  },
+  {
+    "id": "B0267",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 688,
+    "start": 66811,
+    "end": 66862,
+    "text": "## 4.7. Analisis Hasil pada SPM dan SLA per Laporan"
+  },
+  {
+    "id": "B0268",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 690,
+    "start": 66864,
+    "end": 66914,
+    "text": "### 4.7.1. Berdasarkan Ketersediaan Konteks Bisnis"
+  },
+  {
+    "id": "B0269",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 692,
+    "start": 66916,
+    "end": 67102,
+    "text": "Perbandingan konteks bisnis pada evaluasi SPM/SLA per laporan mencakup T7-C1 hingga T7-C4. Setiap kondisi memiliki 24 jawaban dari kedua model. Hasil pengujian dirangkum pada Tabel 4.16."
+  },
+  {
+    "id": "B0270",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 694,
+    "start": 67104,
+    "end": 67167,
+    "text": "**Tabel 4.16 Hasil SPM/SLA per Laporan menurut Konteks Bisnis**"
+  },
+  {
+    "id": "B0271",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 696,
+    "start": 67169,
+    "end": 67343,
+    "text": "| Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Dengan konteks bisnis | 24/24 | 100,00% |\n| Tanpa konteks bisnis | 20/24 | 83,33% |"
+  },
+  {
+    "id": "B0272",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 701,
+    "start": 67345,
+    "end": 67639,
+    "text": "Dengan konteks bisnis, seluruh 24 jawaban memperoleh PASS. Tanpa konteks bisnis, 20 dari 24 jawaban memperoleh PASS atau 83,33%. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2. Terdapat tiga jawaban dengan status SPM/SLA salah dan satu jawaban yang tidak mencantumkan seluruh evaluasi."
+  },
+  {
+    "id": "B0273",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 703,
+    "start": 67641,
+    "end": 67669,
+    "text": "### 4.7.2. Berdasarkan Model"
+  },
+  {
+    "id": "B0274",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 705,
+    "start": 67671,
+    "end": 67860,
+    "text": "Tabel 4.17 menyajikan hasil Muse Spark 1.3 dan DeepSeek v4 Flash pada kelompok SPM/SLA per laporan. Setiap model memiliki 24 jawaban yang mencakup pengujian dengan dan tanpa konteks bisnis."
+  },
+  {
+    "id": "B0275",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 707,
+    "start": 67862,
+    "end": 67916,
+    "text": "**Tabel 4.17 Hasil SPM/SLA per Laporan menurut Model**"
+  },
+  {
+    "id": "B0276",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 709,
+    "start": 67918,
+    "end": 68072,
+    "text": "| Model | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Muse Spark 1.3 | 23/24 | 95,83% |\n| DeepSeek v4 Flash | 21/24 | 87,50% |"
+  },
+  {
+    "id": "B0277",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 714,
+    "start": 68074,
+    "end": 68351,
+    "text": "Muse Spark 1.3 memperoleh 23/24 PASS atau 95,83%, sedangkan DeepSeek v4 Flash memperoleh 21/24 PASS atau 87,50%. Perbedaan hasil kedua model muncul pada pengujian tanpa konteks bisnis. Ketika konteks bisnis tersedia, seluruh jawaban kedua model sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0278",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 716,
+    "start": 68353,
+    "end": 68410,
+    "text": "### 4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis"
+  },
+  {
+    "id": "B0279",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 718,
+    "start": 68412,
+    "end": 68565,
+    "text": "Hasil setiap kombinasi model dan konteks bisnis disajikan pada Tabel 4.18. Setiap kombinasi mencakup 12 jawaban dari tiga pengulangan pada keempat kasus."
+  },
+  {
+    "id": "B0280",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 720,
+    "start": 68567,
+    "end": 68650,
+    "text": "**Tabel 4.18 Hasil SPM/SLA per Laporan menurut Kombinasi Model dan Konteks Bisnis**"
+  },
+  {
+    "id": "B0281",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 722,
+    "start": 68652,
+    "end": 69001,
+    "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 12/12 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 11/12 | 91,67% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 12/12 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 9/12 | 75,00% |"
+  },
+  {
+    "id": "B0282",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 729,
+    "start": 69003,
+    "end": 69351,
+    "text": "Dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 12/12 PASS. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 11/12 PASS dan DeepSeek v4 Flash memperoleh 9/12 PASS. T7-C3 dan T7-C4 memperoleh 3/3 PASS pada seluruh kombinasi. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2, dengan rincian pada Tabel 4.19."
+  },
+  {
+    "id": "B0283",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 731,
+    "start": 69353,
+    "end": 69432,
+    "text": "**Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis**"
+  },
+  {
+    "id": "B0284",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 733,
+    "start": 69434,
+    "end": 69987,
+    "text": "| Kasus | Model dan pengulangan | Bagian jawaban | *Expected result* | Jawaban agen |\n| ----- | ----- | ----- | :---: | ----- |\n| T7-C1 | DeepSeek v4 Flash, ke-2 | Gardu 3, indikator 1: spm_passed dan sla_passed | false, false | true, true |\n| T7-C2 | Muse Spark 1.3, ke-2 | Gardu 4, indikator 3: spm_passed dan sla_passed | false, false | true, true |\n| T7-C2 | DeepSeek v4 Flash, ke-1 | Gardu 4, indikator 3: spm_passed dan sla_passed | false, false | true, true |\n| T7-C2 | DeepSeek v4 Flash, ke-3 | Jumlah evaluasi | 20 | 4, seluruhnya indikator 3 |"
+  },
+  {
+    "id": "B0285",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 740,
+    "start": 69989,
+    "end": 70713,
+    "text": "Terdapat tiga jawaban dengan status SPM/SLA salah untuk gardu dengan rata-rata durasi yang selisih sedikit di atas batas. Status SPM/SLA ditentukan dengan membandingkan rata-rata durasi sebelum pembulatan dengan batas indikator. Pada T7-C1, rata-rata durasi gardu 3 adalah 6,004 detik, yang melebihi batas 6 detik pada indikator pertama. Pada pengulangan kedua tanpa konteks bisnis, DeepSeek v4 Flash membulatkan rata-rata durasi ini menjadi 6,00 detik sebelum membandingkannya dengan batas 6 detik, sehingga spm_passed dan sla_passed bernilai true. Pada pengulangan kedua dengan konteks bisnis, agen membandingkan nilai 6,004 detik dengan batas 6 detik, sehingga kedua status bernilai false sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0286",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 742,
+    "start": 70715,
+    "end": 71249,
+    "text": "Pada T7-C2, rata-rata durasi gardu 4 adalah 9,004 detik, yang ditampilkan sebagai 9 detik setelah pembulatan. Nilai sebelum pembulatan melebihi batas 9 detik pada indikator ketiga, sehingga spm_passed dan sla_passed pada *expected result* bernilai false. Tanpa konteks bisnis, DeepSeek v4 Flash pada pengulangan pertama membandingkan nilai 9,00 detik setelah pembulatan dengan batas 9 detik, sehingga kedua status bernilai true. Kedua status juga bernilai true dalam jawaban Muse Spark 1.3 pada pengulangan kedua tanpa konteks bisnis."
+  },
+  {
+    "id": "B0287",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 744,
+    "start": 71251,
+    "end": 71917,
+    "text": "Satu jawaban lain pada T7-C2 dinilai FAIL karena tidak berisi seluruh hasil evaluasi yang diminta. *Expected result* berisi 20 hasil evaluasi dari lima indikator pada empat gardu. Pada pengulangan ketiga tanpa konteks bisnis, DeepSeek v4 Flash membaca konfigurasi kelima indikator, lalu menggunakan indikator ketiga saja untuk menilai setiap gardu. Jawabannya berisi empat hasil evaluasi yang sesuai dengan *expected result*, sedangkan 16 hasil evaluasi lainnya tidak dicantumkan. Pada pengulangan ketiga dengan konteks bisnis, agen menilai setiap gardu menggunakan kelima indikator, sehingga jawabannya berisi 20 hasil evaluasi yang sesuai dengan *expected result*."
+  },
+  {
+    "id": "B0288",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 746,
+    "start": 71919,
+    "end": 71979,
+    "text": "## 4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode"
+  },
+  {
+    "id": "B0289",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 748,
+    "start": 71981,
+    "end": 72031,
+    "text": "### 4.8.1. Berdasarkan Ketersediaan Konteks Bisnis"
+  },
+  {
+    "id": "B0290",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 750,
+    "start": 72033,
+    "end": 72275,
+    "text": "Evaluasi periode mencakup T8-C1 dan T8-C2 yang menilai SPM/SLA selama satu periode, serta T9-C1 dan T9-C2 yang membandingkan hasil dua periode. Hasil kedua jenis analisis pada kondisi dengan dan tanpa konteks bisnis disajikan pada Tabel 4.20."
+  },
+  {
+    "id": "B0291",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 752,
+    "start": 72277,
+    "end": 72353,
+    "text": "**Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis**"
+  },
+  {
+    "id": "B0292",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 754,
+    "start": 72355,
+    "end": 72530,
+    "text": "| Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Dengan konteks bisnis | 24/24 | 100,00% |\n| Tanpa konteks bisnis | 24/24 | 100,00% |"
+  },
+  {
+    "id": "B0293",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 759,
+    "start": 72532,
+    "end": 72729,
+    "text": "Kondisi dengan dan tanpa konteks bisnis masing-masing memperoleh 24/24 PASS. Status indikator pada satu periode dan perubahan status antarperiode sesuai dengan *expected result* pada kedua kondisi."
+  },
+  {
+    "id": "B0294",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 761,
+    "start": 72731,
+    "end": 72759,
+    "text": "### 4.8.2. Berdasarkan Model"
+  },
+  {
+    "id": "B0295",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 763,
+    "start": 72761,
+    "end": 72957,
+    "text": "Hasil Muse Spark 1.3 dan DeepSeek v4 Flash pada empat kasus periode dan antarperiode disajikan pada Tabel 4.21. Setiap model menghasilkan 24 jawaban dari pengujian dengan dan tanpa konteks bisnis."
+  },
+  {
+    "id": "B0296",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 765,
+    "start": 72959,
+    "end": 73026,
+    "text": "**Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model**"
+  },
+  {
+    "id": "B0297",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 767,
+    "start": 73028,
+    "end": 73184,
+    "text": "| Model | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | :---: | :---: |\n| Muse Spark 1.3 | 24/24 | 100,00% |\n| DeepSeek v4 Flash | 24/24 | 100,00% |"
+  },
+  {
+    "id": "B0298",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 772,
+    "start": 73186,
+    "end": 73412,
+    "text": "Kedua model memperoleh 24/24 PASS. Status, jumlah evaluasi, dan jumlah kegagalan yang dicantumkan pada jawaban sesuai dengan *expected result*. Pada evaluasi periode, SLA yang tidak berlaku juga ditandai dengan not_applicable."
+  },
+  {
+    "id": "B0299",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 774,
+    "start": 73414,
+    "end": 73471,
+    "text": "### 4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis"
+  },
+  {
+    "id": "B0300",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 776,
+    "start": 73473,
+    "end": 73632,
+    "text": "Tabel 4.22 menyajikan hasil empat kombinasi pada T8-C1, T8-C2, T9-C1, dan T9-C2. Setiap kombinasi mencakup 12 jawaban dari tiga pengulangan pada keempat kasus."
+  },
+  {
+    "id": "B0301",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 778,
+    "start": 73634,
+    "end": 73730,
+    "text": "**Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis**"
+  },
+  {
+    "id": "B0302",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 780,
+    "start": 73732,
+    "end": 74084,
+    "text": "| Model | Konteks bisnis | PASS/Total jawaban | Tingkat keberhasilan |\n| ----- | ----- | :---: | :---: |\n| Muse Spark 1.3 | Dengan konteks bisnis | 12/12 | 100,00% |\n| Muse Spark 1.3 | Tanpa konteks bisnis | 12/12 | 100,00% |\n| DeepSeek v4 Flash | Dengan konteks bisnis | 12/12 | 100,00% |\n| DeepSeek v4 Flash | Tanpa konteks bisnis | 12/12 | 100,00% |"
+  },
+  {
+    "id": "B0303",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 787,
+    "start": 74086,
+    "end": 74168,
+    "text": "Keempat kombinasi memperoleh 12/12 PASS, dengan 3/3 PASS pada masing-masing kasus."
+  },
+  {
+    "id": "B0304",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 789,
+    "start": 74170,
+    "end": 74586,
+    "text": "Pada T9-C2, jawaban pada seluruh kombinasi mencatat empat evaluasi yang gagal untuk indikator keempat pada periode A dan delapan pada periode B. Setiap periode memiliki delapan evaluasi untuk indikator tersebut. Status indikator tetap gagal pada kedua periode karena ada gardu yang gagal memenuhi indikator itu dalam salah satu laporan. Perubahan jumlah kegagalan tetap terlihat pada jawaban meskipun statusnya sama."
+  },
+  {
+    "id": "B0305",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 791,
+    "start": 74588,
+    "end": 74614,
+    "text": "## 4.9. Interpretasi Hasil"
+  },
+  {
+    "id": "B0306",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 793,
+    "start": 74616,
+    "end": 74792,
+    "text": "Hasil pengujian pada enam kelompok analisis menunjukkan bahwa 170 dari 180 jawaban memperoleh PASS. Sepuluh jawaban yang dinilai FAIL berasal dari kondisi tanpa konteks bisnis."
+  },
+  {
+    "id": "B0307",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 795,
+    "start": 74794,
+    "end": 75132,
+    "text": "Dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 45/45 PASS atau 100,00%. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 41/45 PASS atau 91,11%, sedangkan DeepSeek v4 Flash memperoleh 39/45 PASS atau 86,67%. Pada kasus yang diuji, kedua model memperoleh lebih banyak PASS ketika diberi konteks bisnis."
+  },
+  {
+    "id": "B0308",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 797,
+    "start": 75134,
+    "end": 75508,
+    "text": "Tanpa konteks bisnis, Muse Spark 1.3 memperoleh lebih banyak PASS dibandingkan DeepSeek v4 Flash pada volume lalu lintas dan LHR serta SPM/SLA per laporan. DeepSeek v4 Flash memperoleh lebih banyak PASS pada insiden dan penyebab kecelakaan. Pada durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada keempat kombinasi."
+  },
+  {
+    "id": "B0309",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 799,
+    "start": 75510,
+    "end": 75795,
+    "text": "Kelengkapan jawaban ikut menentukan hasil evaluasi. Nilai yang dicantumkan dalam jawaban T3-C1 yang gagal dan satu jawaban T7-C2 sesuai dengan *expected result*. Jawaban tersebut dinilai FAIL karena rincian golongan kendaraan pada T3-C1 dan evaluasi indikator pada T7-C2 tidak lengkap."
+  },
+  {
+    "id": "B0310",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 801,
+    "start": 75797,
+    "end": 76259,
+    "text": "Data yang digunakan dan cara agen menerapkan aturan bisnis juga memengaruhi hasil analisis. Pada contoh T5-C1, agen menggunakan data dari insiden yang tidak termasuk kecelakaan dan menghasilkan nilai total_cause_assignments yang lebih besar daripada nilai pada *expected result*. Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA."
+  },
+  {
+    "id": "B0311",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 803,
+    "start": 76261,
+    "end": 76502,
+    "text": "Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 Flash memperoleh 13/15 PASS pada masing-masing pengulangan."
+  },
+  {
+    "id": "B0312",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 805,
+    "start": 76504,
+    "end": 76882,
+    "text": "Pada DeepSeek v4 Flash tanpa konteks bisnis, kasus yang gagal berubah antarpengulangan meskipun jumlah PASS tetap sama. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1."
+  },
+  {
+    "id": "B0313",
+    "chapter": "# BAB IV — HASIL DAN PEMBAHASAN",
+    "line": 807,
+    "start": 76884,
+    "end": 77244,
+    "text": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan *expected result*. Manfaat hasil analisis bagi pengambilan keputusan operasional belum dinilai."
+  },
+  {
+    "id": "B0314",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 809,
+    "start": 77246,
+    "end": 77263,
+    "text": "# BAB V — PENUTUP"
+  },
+  {
+    "id": "B0315",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 811,
+    "start": 77265,
+    "end": 77548,
+    "text": "Bab ini berisi kesimpulan dari evaluasi kemampuan *Agentic Business Intelligence* dengan HKA TROM sebagai studi kasus. Pembahasan mencakup ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada pengujian dengan dan tanpa konteks bisnis, serta saran untuk penelitian selanjutnya."
+  },
+  {
+    "id": "B0316",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 813,
+    "start": 77550,
+    "end": 77568,
+    "text": "## 5.1. Kesimpulan"
+  },
+  {
+    "id": "B0317",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 815,
+    "start": 77570,
+    "end": 78052,
+    "text": "Pada pengujian dengan konteks bisnis, Muse Spark 1.3 dan DeepSeek v4 Flash masing-masing memperoleh 45/45 PASS atau 100,00% dalam menjawab kasus analisis operasional HKA TROM. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 41/45 PASS atau 91,11%, sedangkan DeepSeek v4 Flash memperoleh 39/45 PASS atau 86,67%. Tingkat keberhasilan pada pengujian dengan konteks bisnis lebih tinggi sebesar 8,89 poin persentase untuk Muse Spark 1.3 dan 13,33 poin persentase untuk DeepSeek v4 Flash."
+  },
+  {
+    "id": "B0318",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 817,
+    "start": 78054,
+    "end": 78540,
+    "text": "Dalam pengujian tanpa konteks bisnis, Muse Spark 1.3 memperoleh dua PASS lebih banyak daripada DeepSeek v4 Flash. Muse Spark 1.3 menghasilkan lebih banyak PASS pada volume lalu lintas dan LHR serta SPM/SLA per laporan, sementara DeepSeek v4 Flash menghasilkan lebih banyak PASS pada insiden dan penyebab kecelakaan. Untuk durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada kedua model, baik dengan ataupun tanpa konteks bisnis."
+  },
+  {
+    "id": "B0319",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 819,
+    "start": 78542,
+    "end": 78960,
+    "text": "Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5, sementara dua jawaban T5-C1 berisi frekuensi penyebab kecelakaan yang terlalu besar dan menambahkan kategori. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta."
+  },
+  {
+    "id": "B0320",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 821,
+    "start": 78962,
+    "end": 79176,
+    "text": "Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus, dengan kasus gagal yang berbeda antara kedua model."
+  },
+  {
+    "id": "B0321",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 823,
+    "start": 79178,
+    "end": 79390,
+    "text": "Penilaian dilakukan terhadap struktur dan nilai jawaban akhir berdasarkan *expected result*. Kesimpulan ini terbatas pada 15 kasus yang masing-masing dijalankan tiga kali untuk setiap model dan kondisi pengujian."
+  },
+  {
+    "id": "B0322",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 825,
+    "start": 79392,
+    "end": 79405,
+    "text": "## 5.2. Saran"
+  },
+  {
+    "id": "B0323",
+    "chapter": "# BAB V — PENUTUP",
+    "line": 827,
+    "start": 79407,
+    "end": 80246,
+    "text": "Pengujian *Agentic Business Intelligence* selanjutnya sebaiknya mencakup data dari bidang bisnis lain dan tugas analisis yang lebih beragam. Evaluasi dapat mencakup ketepatan pemilihan data, kelengkapan jawaban, serta penerapan aturan bisnis. Pengaruh isi konteks bisnis dapat diperiksa dengan membandingkan konteks lengkap dan beberapa variasi yang masing-masing tidak menyertakan satu dokumen atau menggunakan tingkat detail berbeda untuk masing-masing aturan. Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus. Evaluasi juga dapat melibatkan analis dan pengguna bisnis untuk menilai kegunaan jawaban agen dalam pekerjaan mereka. Pertanyaan pengujian dapat disusun dari kebutuhan analisis pengguna, dengan rubrik yang mencakup ketepatan hasil, kejelasan penjelasan, dan kegunaan jawaban."
+  },
+  {
+    "id": "B0324",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 829,
+    "start": 80248,
+    "end": 80264,
+    "text": "# DAFTAR PUSTAKA"
+  },
+  {
+    "id": "B0325",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 831,
+    "start": 80266,
+    "end": 80321,
+    "text": "Adyen. (n.d.). About Adyen. https://www.adyen.com/about"
+  },
+  {
+    "id": "B0326",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 833,
+    "start": 80323,
+    "end": 80395,
+    "text": "Agent Skills. (n.d.). Agent Skills overview. https://agentskills.io/home"
+  },
+  {
+    "id": "B0327",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 835,
+    "start": 80397,
+    "end": 80566,
+    "text": "Alpar, P., & Schulz, M. (2016). Self-service business intelligence. Business & Information Systems Engineering, 58(2), 151–155. https://doi.org/10.1007/s12599-016-0424-6"
+  },
+  {
+    "id": "B0328",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 837,
+    "start": 80568,
+    "end": 80710,
+    "text": "Anthropic. (2025, 11 September). Writing effective tools for agents — with agents. https://www.anthropic.com/research/writing-tools-for-agents"
+  },
+  {
+    "id": "B0329",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 839,
+    "start": 80712,
+    "end": 81009,
+    "text": "Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., dkk. (2020). Language models are few-shot learners. Dalam Advances in Neural Information Processing Systems, 33 (hlm. 1877–1901). https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html"
+  },
+  {
+    "id": "B0330",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 841,
+    "start": 81011,
+    "end": 81190,
+    "text": "Chaudhuri, S., Dayal, U., & Narasayya, V. (2011). An overview of business intelligence technology. Communications of the ACM, 54(8), 88–98. https://doi.org/10.1145/1978542.1978562"
+  },
+  {
+    "id": "B0331",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 843,
+    "start": 81192,
+    "end": 81375,
+    "text": "Chen, H., Chiang, R. H. L., & Storey, V. C. (2012). Business intelligence and analytics: From big data to big impact. MIS Quarterly, 36(4), 1165–1188. https://doi.org/10.2307/41703503"
+  },
+  {
+    "id": "B0332",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 845,
+    "start": 81377,
+    "end": 81495,
+    "text": "Cloudflare. (2026). Cloudflare OS: An AI productivity environment. GitHub. https://github.com/cloudflare/cloudflare-os"
+  },
+  {
+    "id": "B0333",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 847,
+    "start": 81497,
+    "end": 81627,
+    "text": "DeepSeek. (2026a, 17 Oktober). DeepSeek-V4.1-Flash-1017 release. DeepSeek API Docs. https://api-docs.deepseek.com/news/news261017/"
+  },
+  {
+    "id": "B0334",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 849,
+    "start": 81629,
+    "end": 81757,
+    "text": "DeepSeek. (2026b). Messages. DeepSeek API Docs. Diakses 14 November 2026, dari https://api-docs.deepseek.com/api/create-message/"
+  },
+  {
+    "id": "B0335",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 851,
+    "start": 81759,
+    "end": 81972,
+    "text": "DeepSeek-AI. (2026). DeepSeek-V4.1-Flash-1017: config.json [Berkas konfigurasi model]. Hugging Face. Diakses 14 November 2026, dari https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017/blob/main/config.json"
+  },
+  {
+    "id": "B0336",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 853,
+    "start": 81974,
+    "end": 82165,
+    "text": "Egg, A., Iglesias Goyanes, M., Kingma, F., Mora, A., von Werra, L., & Wolf, T. (2025). DABstep: Data Agent Benchmark for Multi-step Reasoning. arXiv. https://doi.org/10.48550/arXiv.2506.23719"
+  },
+  {
+    "id": "B0337",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 855,
+    "start": 82167,
+    "end": 82337,
+    "text": "Gruber, T. R. (1993). A translation approach to portable ontology specifications. Knowledge Acquisition, 5(2), 199–220. https://tomgruber.org/writing/ontolingua-kaj-1993/"
+  },
+  {
+    "id": "B0338",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 857,
+    "start": 82339,
+    "end": 82776,
+    "text": "Hong, S., Lin, Y., Liu, B., Liu, B., Wu, B., Zhang, C., Li, D., Chen, J., Zhang, J., Wang, J., Zhang, L., Zhang, L., Yang, M., Zhuge, M., Guo, T., Zhou, T., Tao, W., Tang, R., Lu, X., … Wu, C. (2025). Data Interpreter: An LLM Agent for Data Science. Dalam Findings of the Association for Computational Linguistics: ACL 2025 (hlm. 19796–19821). Association for Computational Linguistics. https://doi.org/10.18653/v1/2025.findings-acl.1016"
+  },
+  {
+    "id": "B0339",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 859,
+    "start": 82778,
+    "end": 83193,
+    "text": "Hu, X., Zhao, Z., Wei, S., Chai, Z., Ma, Q., Wang, G., Wang, X., Su, J., Xu, J., Zhu, M., Cheng, Y., Yuan, J., Li, J., Kuang, K., Yang, Y., Yang, H., & Wu, F. (2024). InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks. Dalam Proceedings of the 41st International Conference on Machine Learning (Proceedings of Machine Learning Research, 235, hlm. 19544–19572). https://proceedings.mlr.press/v235/hu24s.html"
+  },
+  {
+    "id": "B0340",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 861,
+    "start": 83195,
+    "end": 83611,
+    "text": "Lei, F., Chen, J., Ye, Y., Cao, R., Shin, D., Su, H., Suo, Z., Gao, H., Hu, W., Yin, P., Zhong, V., Xiong, C., Sun, R., Liu, Q., Wang, S., & Yu, T. (2025). Spider 2.0: Evaluating language models on real-world enterprise Text-to-SQL workflows. Dalam International Conference on Learning Representations. https://proceedings.iclr.cc/paper_files/paper/2025/hash/46c10f6c8ea5aa6f267bcdabcb123f97-Abstract-Conference.html"
+  },
+  {
+    "id": "B0341",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 863,
+    "start": 83613,
+    "end": 84016,
+    "text": "Li, H., Chen, X., Xu, Z., Li, D., Hu, N., Teng, F., Li, Y., Qiu, L., Zhang, C. J., Li, Q., & Chen, L. (2025). Exposing numeracy gaps: A benchmark to evaluate fundamental numerical abilities in large language models. Dalam Findings of the Association for Computational Linguistics: ACL 2025 (hlm. 20004–20026). Association for Computational Linguistics. https://doi.org/10.18653/v1/2025.findings-acl.1026"
+  },
+  {
+    "id": "B0342",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 865,
+    "start": 84018,
+    "end": 84512,
+    "text": "Li, J., Hui, B., Qu, G., Yang, J., Li, B., Li, B., Wang, B., Qin, B., Geng, R., Huo, N., Zhou, X., Ma, C., Li, G., Chang, K., Huang, F., Cheng, R., & Li, Y. (2023). Can LLM already serve as a database interface? A BIg bench for large-scale database grounded Text-to-SQLs. Dalam Advances in Neural Information Processing Systems, 36 (Datasets and Benchmarks Track). https://proceedings.neurips.cc/paper_files/paper/2023/hash/83fc8fab1710363050bbd1d4b8cc0021-Abstract-Datasets_and_Benchmarks.html"
+  },
+  {
+    "id": "B0343",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 867,
+    "start": 84514,
+    "end": 84841,
+    "text": "Li, Y., Zhang, Z., Ma, T., Wang, Z., Murugesan, K., Zhang, C., & Ye, Y. (2026). LongDA: Benchmarking LLM Agents for Long-Document Data Analysis. Dalam The Proceedings of Workshop on Document Intelligence and Understanding (hlm. 112–137). Association for Computational Linguistics. https://aclanthology.org/2026.docinsights-1.9/"
+  },
+  {
+    "id": "B0344",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 869,
+    "start": 84843,
+    "end": 85111,
+    "text": "Liu, N. F., Lin, K., Hewitt, J., Paranjape, A., Bevilacqua, M., Petroni, F., & Liang, P. (2024). Lost in the middle: How language models use long contexts. Transactions of the Association for Computational Linguistics, 12, 157–173. https://doi.org/10.1162/tacl_a_00638"
+  },
+  {
+    "id": "B0345",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 871,
+    "start": 85113,
+    "end": 85519,
+    "text": "Liu, X., Yu, H., Zhang, H., Xu, Y., Lei, X., Lai, H., Gu, Y., Ding, H., Men, K., Yang, K., Zhang, S., Deng, X., Zeng, A., Du, Z., Zhang, C., Shen, S., Zhang, T., Su, Y., Sun, H., … Tang, J. (2024). AgentBench: Evaluating LLMs as Agents. Dalam International Conference on Learning Representations. https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf"
+  },
+  {
+    "id": "B0346",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 873,
+    "start": 85521,
+    "end": 85638,
+    "text": "Meta. (2026a). Introducing Muse Spark 1.3. Meta AI Research. https://research.meta.ai/blog/introducing-muse-spark-1-3"
+  },
+  {
+    "id": "B0347",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 875,
+    "start": 85640,
+    "end": 85759,
+    "text": "Meta. (2026b). Muse Spark 1.3. Meta for Developers. Diakses 3 November 2026, dari https://dev.meta.ai/models/muse-spark"
+  },
+  {
+    "id": "B0348",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 877,
+    "start": 85761,
+    "end": 85861,
+    "text": "Meta. (2026c). Models. Meta Model API. Diakses 5 November 2026, dari https://dev.meta.ai/docs/models"
+  },
+  {
+    "id": "B0349",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 879,
+    "start": 85863,
+    "end": 85984,
+    "text": "Meta. (2026d). Responses API. Meta Model API. Diakses 14 November 2026, dari https://dev.meta.ai/docs/protocols/responses"
+  },
+  {
+    "id": "B0350",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 881,
+    "start": 85986,
+    "end": 86095,
+    "text": "Meta. (2026e). Quickstart. Meta Model API. Diakses 14 November 2026, dari https://dev.meta.ai/docs/quickstart"
+  },
+  {
+    "id": "B0351",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 883,
+    "start": 86097,
+    "end": 86384,
+    "text": "Mialon, G., Fourrier, C., Wolf, T., LeCun, Y., & Scialom, T. (2024). GAIA: A benchmark for General AI Assistants. Dalam International Conference on Learning Representations. https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html"
+  },
+  {
+    "id": "B0352",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 885,
+    "start": 86386,
+    "end": 86502,
+    "text": "Model Context Protocol. (2026). Architecture. https://modelcontextprotocol.io/specification/2026-07-28/architecture/"
+  },
+  {
+    "id": "B0353",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 887,
+    "start": 86504,
+    "end": 86773,
+    "text": "Noy, N. F., & McGuinness, D. L. (2001). Ontology development 101: A guide to creating your first ontology (Technical Report KSL-01-05). Stanford Knowledge Systems Laboratory. https://protege.stanford.edu/publications/ontology_development/ontology101-noy-mcguinness.html"
+  },
+  {
+    "id": "B0354",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 889,
+    "start": 86775,
+    "end": 87187,
+    "text": "Osés Grijalba, J., Ureña-López, L. A., Martínez Cámara, E., & Camacho-Collados, J. (2024). Question Answering over Tabular Data with DataBench: A Large-Scale Empirical Evaluation of LLMs. Dalam Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024) (hlm. 13471–13488). ELRA and ICCL. https://aclanthology.org/2024.lrec-main.1179/"
+  },
+  {
+    "id": "B0355",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 891,
+    "start": 87189,
+    "end": 87464,
+    "text": "Quamar, A., Özcan, F., Miller, D., Moore, R. J., Niehus, R., & Kreulen, J. (2020). Conversational BI: An Ontology-Driven Conversation System for Business Intelligence Applications. Proceedings of the VLDB Endowment, 13(12), 3369–3381. https://doi.org/10.14778/3415478.3415557"
+  },
+  {
+    "id": "B0356",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 893,
+    "start": 87466,
+    "end": 87678,
+    "text": "Rumiantsau, M., & Fokeev, I. (2026). Semantic layers for reliable LLM-powered data analytics: A paired benchmark of accuracy and hallucination across three frontier models. arXiv. https://arxiv.org/abs/2604.25149"
+  },
+  {
+    "id": "B0357",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 895,
+    "start": 87680,
+    "end": 88137,
+    "text": "Sahu, G., Puri, A., Rodriguez, J. A., Abaskohi, A., Chegini, M., Drouin, A., Taslakian, P., Zantedeschi, V., Lacoste, A., Vazquez, D., Chapados, N., Pal, C., Rajeswar, S., & Laradji, I. (2025). InsightBench: Evaluating business analytics agents through multi-step insight generation. Dalam International Conference on Learning Representations. https://proceedings.iclr.cc/paper_files/paper/2025/hash/0dfe31d6e703e138d46a7d2fced38b7c-Abstract-Conference.html"
+  },
+  {
+    "id": "B0358",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 897,
+    "start": 88139,
+    "end": 88323,
+    "text": "Sawant, P., & Sonawane, K. (2024). NLP-based smart decision making for business and academics. Natural Language Processing Journal, 8, 100090. https://doi.org/10.1016/j.nlp.2024.100090"
+  },
+  {
+    "id": "B0359",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 899,
+    "start": 88325,
+    "end": 88680,
+    "text": "Shi, F., Chen, X., Misra, K., Scales, N., Dohan, D., Chi, E. H., Schärli, N., & Zhou, D. (2023). Large language models can be easily distracted by irrelevant context. Dalam Proceedings of the 40th International Conference on Machine Learning (Proceedings of Machine Learning Research, 202, hlm. 31210–31227). https://proceedings.mlr.press/v202/shi23a.html"
+  },
+  {
+    "id": "B0360",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 901,
+    "start": 88682,
+    "end": 89055,
+    "text": "Vishwakarma, H., Agarwal, A., Patil, O., Devaguptapu, C., & Chandran, M. (2025). Can LLMs help you at work? A sandbox for evaluating LLM agents in enterprise environments. Dalam Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (hlm. 9167–9201). Association for Computational Linguistics. https://doi.org/10.18653/v1/2025.emnlp-main.466"
+  },
+  {
+    "id": "B0361",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 903,
+    "start": 89057,
+    "end": 89342,
+    "text": "Wang, L., Ma, C., Feng, X., Zhang, Z., Yang, H., Zhang, J., Chen, Z., Tang, J., Chen, X., Lin, Y., Zhao, W. X., Wei, Z., & Wen, J. (2024). A survey on large language model based autonomous agents. Frontiers of Computer Science, 18(6), 186345. https://doi.org/10.1007/s11704-024-40231-1"
+  },
+  {
+    "id": "B0362",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 905,
+    "start": 89344,
+    "end": 89679,
+    "text": "Wu, X., Yang, J., Chai, L., Zhang, G., Liu, J., Du, X., Liang, D., Shu, D., Cheng, X., Sun, T., Li, T., Li, Z., & Niu, G. (2025). TableBench: A Comprehensive and Complex Benchmark for Table Question Answering. Proceedings of the AAAI Conference on Artificial Intelligence, 39(24), 25497–25506. https://doi.org/10.1609/aaai.v39i24.34739"
+  },
+  {
+    "id": "B0363",
+    "chapter": "# DAFTAR PUSTAKA",
+    "line": 907,
+    "start": 89681,
+    "end": 89987,
+    "text": "Yao, S., Shinn, N., Razavi, P., & Narasimhan, K. R. (2025). τ-bench: A benchmark for tool-agent-user interaction in real-world domains. Dalam International Conference on Learning Representations. https://proceedings.iclr.cc/paper_files/paper/2025/file/1b126cc38b8638e07bef37e7b2bb72bf-Paper-Conference.pdf\n"
+  }
+]

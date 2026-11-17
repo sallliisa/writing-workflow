@@ -1,0 +1,57 @@
+{
+  "decisions": [
+    {
+      "id": "ME01",
+      "preferred": "X",
+      "reason": "T7-C1 menyebut objek yang dibandingkan, yaitu rata-rata durasi, serta menjelaskan bahwa perbandingan dilakukan sebelum pembulatan. T8-C1 memperjelas apa yang berbeda antar laporan. Keduanya didukung uraian kasus pada B0117–B0118. Semua nomor kasus, jumlah, baris, dan kolom tetap. Ejaan 'antar periode' mengikuti pilihan penulis.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "ME02",
+      "preferred": "Y",
+      "reason": "Persamaan yang ditampilkan memenuhi permintaan agar perhitungan ditulis sebagai equation. Enam data booth masing-masing 10 detik dan satu data longbooth 2 detik menghasilkan 62 detik, sesuai B0127 dan Tabel 3.5. Penambahan ini memperlihatkan operasi tanpa menambah asumsi atau statistik.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "ME03",
+      "preferred": "X",
+      "reason": "Persamaan memperjelas pembagian total durasi dengan tujuh data non-null. Nilai 62/7 dibulatkan menjadi 8,86 detik dengan benar dan tanda pendekatan mempertahankan perbedaan antara nilai tepat dan nilai pembulatan.",
+      "semantic_regression": false,
+      "remaining_problem": "B0132 kembali menyebut hasil 8,86 detik. Pengulangan singkat ini masih memiliki fungsi karena B0132 juga menjelaskan pembulatan dua desimal dan penyimpanan hasil, tetapi dapat dirapikan bila paragraf digabung."
+    },
+    {
+      "id": "ME04",
+      "preferred": "Y",
+      "reason": "Satu-satunya perbedaan ialah 'antar periode', yang memenuhi pilihan ejaan eksplisit penulis. Isi dan struktur tabel tidak berubah.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "ME05",
+      "preferred": "X",
+      "reason": "Persamaan menyatakan tingkat keberhasilan sebagai persentase dan menyertakan faktor 100%, sesuai tabel hasil. Jumlah jawaban yang dinilai tetap mengikuti tabel yang dibahas, sehingga rumus tidak keliru menetapkan 45 sebagai pembagi bagi semua ringkasan. Bentuk equation juga menjawab permintaan penulis.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "ME06",
+      "preferred": "Y",
+      "reason": "Y membedakan ringkasan yang menggabungkan kedua model, ringkasan yang menggabungkan kedua kondisi, dan perbandingan empat kombinasi. Pembedaan ini diperlukan agar metode sesuai dengan Tabel 4.3–4.5 dan pola penyajian berikutnya. Contoh enam jawaban per kombinasi dan 12 jawaban per kondisi atau per model benar untuk dua kasus dengan tiga pengulangan. Perbandingan pada kondisi yang sama tetap dipertahankan.",
+      "semantic_regression": false,
+      "remaining_problem": "Y memperbaiki kekurangan metode, tetapi penjelasannya terlalu panjang. Contoh numerik mengulang jumlah yang sudah dijelaskan pada pembukaan hasil durasi transaksi, sementara istilah 'ringkasan menurut' berulang. Tiga jenis ringkasan beserta cakupan jawabannya perlu dipertahankan, tetapi contoh numerik dapat dihapus tanpa menghilangkan metode. Dua kalimat terakhir tetap diperlukan untuk menyatakan perbandingan dalam kondisi yang sama."
+    },
+    {
+      "id": "ME07",
+      "preferred": "X",
+      "reason": "'Status PASS/FAIL pada tiga pengulangan' menyebut secara tepat apa yang dibandingkan, sehingga pembaca tidak mengira konsistensi berarti semua isi jawaban harus identik. Ini sesuai rekap pada BAB IV yang membedakan kasus gagal meskipun jumlah PASS sama. Enam kelompok pembahasan dan pemeriksaan jawaban FAIL tetap dipertahankan. Ejaan 'antar periode' sesuai pilihan penulis.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    }
+  ],
+  "notes": [
+    "Penilaian menggunakan teks sumber, konteks BAB III dan BAB IV, komentar penulis, serta pedoman akademik. Persamaan belum diperiksa dalam aplikasi dokumen, sehingga keputusan ini hanya memastikan isi matematis dan penulisan Markdown, bukan tampilan akhir halaman.",
+    "Tidak ada statistik, jumlah jawaban, aturan evaluasi, atau hasil eksperimen baru yang diperlukan untuk menerima versi-versi terpilih. ME06 tetap memerlukan pemadatan agar kejelasan cakupan ringkasan tidak dibayar dengan pengulangan yang berlebihan."
+  ]
+}

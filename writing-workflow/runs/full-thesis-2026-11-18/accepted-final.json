@@ -1,0 +1,211 @@
+[
+  {
+    "id": "OE01",
+    "block_id": "B0006",
+    "before": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis *Large Language Model* (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic *Business Intelligence* merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab permintaan analisis secara *on-demand*.",
+    "after": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis *Large Language Model* (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic *Business Intelligence* merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab pertanyaan pengguna secara *on-demand*.",
+    "findings": [
+      "O01"
+    ],
+    "reason": "Memperjelas objek yang dijawab agen dengan menggunakan pertanyaan pengguna, sesuai tindakan yang dijelaskan pada awal paragraf."
+  },
+  {
+    "id": "OE02",
+    "block_id": "B0009",
+    "before": "Kasus uji dipilih untuk melihat bagaimana agen menggunakan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan hasil dari dua periode.",
+    "after": "Kasus uji dipilih untuk melihat bagaimana agen menggunakan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode.",
+    "findings": [
+      "O02"
+    ],
+    "reason": "Menamai status yang dibandingkan pada dua periode sesuai uraian kasus, sehingga objek perbandingan tidak dibiarkan sebagai hasil yang tidak terjelaskan."
+  },
+  {
+    "id": "OE03",
+    "block_id": "B0020",
+    "before": "1. Pengujian terbatas pada 15 kasus dari sembilan jenis tugas analisis operasional HKA TROM, yang mencakup transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA.\n2. Sebanyak 237 baris data sintetis digunakan untuk kasus uji dan perhitungan *expected result*. Data ini dibuat berdasarkan struktur, relasi tabel, konfigurasi, dan aturan bisnis HKA TROM.\n3. Pada kedua kondisi pengujian, agen dapat membaca sumber data, data master, dan konfigurasi melalui layanan yang sama. Agen tidak diberi kode fitur analitik, query yang digunakan oleh fitur tersebut, hasil dashboard, *expected result*, atau data yang sudah diolah menjadi jawaban untuk kasus uji.\n4. Tujuh dokumen konteks bisnis hanya tersedia pada kondisi dengan konteks bisnis dan diberikan bersama kepada agen. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.\n5. Evaluasi membandingkan 180 jawaban terstruktur dari kedua model dengan *expected result*. Hasil penilaian digunakan untuk membandingkan tingkat keberhasilan kedua model dan melihat apakah hasil setiap kasus berubah antarpengulangan.",
+    "after": "1. Pengujian terbatas pada 15 kasus dari sembilan jenis tugas analisis operasional HKA TROM, yang mencakup transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA.\n2. Sebanyak 237 baris data sintetis digunakan untuk kasus uji dan perhitungan *expected result*. Data ini dibuat berdasarkan struktur, relasi tabel, konfigurasi, dan aturan bisnis HKA TROM.\n3. Pada kedua kondisi pengujian, agen dapat membaca sumber data, data master, dan konfigurasi melalui layanan yang sama. Agen tidak diberi kode fitur analitik, query yang digunakan oleh fitur tersebut, hasil dashboard, *expected result*, atau data yang sudah diolah menjadi jawaban untuk kasus uji.\n4. Tujuh dokumen konteks bisnis hanya tersedia pada kondisi dengan konteks bisnis dan diberikan bersama kepada agen. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.\n5. Evaluasi membandingkan 180 jawaban terstruktur dari kedua model dengan *expected result*. Hasil penilaian digunakan untuk membandingkan tingkat keberhasilan kedua model dan melihat apakah hasil setiap kasus berubah antara pengulangan.",
+    "findings": [
+      "O03"
+    ],
+    "reason": "Menggunakan ungkapan hubungan antara pengulangan yang lebih alami tanpa mengubah objek pengamatan atau isi batasan penelitian."
+  },
+  {
+    "id": "OE05",
+    "block_id": "B0034",
+    "before": "Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*, dengan protokol *single-shot*.",
+    "after": "Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*.",
+    "findings": [
+      "O05"
+    ],
+    "reason": "Menghapus rincian single-shot yang tidak dijelaskan dan tidak diperlukan bagi uraian pengaruh dokumen konteks bisnis. Kondisi perbandingan, jumlah pertanyaan, besarnya peningkatan, dasar penilaian, evaluator, dan atribusi tetap dipertahankan."
+  },
+  {
+    "id": "OE06",
+    "block_id": "B0041",
+    "before": "Untuk menjawab suatu pertanyaan, agen dapat memerlukan informasi dari beberapa sumber. Pada DABstep, agen memilih data yang diperlukan, menghubungkan informasi dari sumber yang berbeda, dan menerapkan aturan bisnis dalam perhitungan (Egg dkk., 2025). Dalam penelitian ini, data insiden HKA TROM perlu dihubungkan dengan data tindakan penanganan yang tersimpan dalam tabel terpisah. Insiden dinyatakan selesai jika memiliki setidaknya satu tindakan penanganan dan seluruh tindakan tersebut sudah selesai.",
+    "after": "Untuk menjawab suatu pertanyaan, agen dapat memerlukan informasi dari beberapa sumber. Pada DABstep, agen memilih data yang diperlukan, menghubungkan informasi dari sumber yang berbeda, dan menerapkan aturan bisnis dalam perhitungan (Egg dkk., 2025). Dalam penelitian ini, data insiden HKA TROM perlu dihubungkan dengan data tindakan penanganan yang tersimpan dalam tabel terpisah. Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan seluruh tindakan tersebut sudah selesai.",
+    "findings": [
+      "O06"
+    ],
+    "reason": "Menyelaraskan istilah untuk jumlah tindakan terendah dengan preferensi minimal, tanpa mengubah syarat bahwa seluruh tindakan harus selesai."
+  },
+  {
+    "id": "ME01",
+    "block_id": "B0120",
+    "before": "| Kasus | Analisis | Kondisi utama | Kemampuan analisis yang diuji |\n| ----- | ----- | ----- | ----- |\n| T1-C1 | Rata-rata durasi transaksi | Tiga laporan dengan jumlah data durasi yang berbeda, termasuk data durasi bernilai null | Menggabungkan informasi dari beberapa laporan dengan memperhitungkan perbedaan jumlah data yang dapat digunakan pada setiap laporan. |\n| T1-C2 | Rata-rata durasi transaksi | Data durasi *booth* dan *longbooth* | Menentukan informasi yang relevan dari berbagai jenis data dan menggunakannya dalam analisis. |\n| T2-C1 | Volume dan LHR | Hari tanpa laporan dan golongan dengan volume nol | Memperhitungkan seluruh hari dalam periode yang diminta dan tetap menyertakan kelompok dengan nilai nol. |\n| T3-C1 | Tren lalu lintas | Empat bulan dengan jumlah hari berbeda dan golongan kendaraan dengan volume nol | Mengelompokkan data berdasarkan periode waktu dan menghasilkan ringkasan yang dapat dibandingkan antarperiode. |\n| T4-C1 | Status insiden | Tidak ada tindakan, satu tindakan dengan stage 50, dua tindakan dengan stage 100, atau dua tindakan dengan stage 100 dan null | Mempertimbangkan tindakan yang berkaitan dengan suatu insiden dan menerapkan syarat untuk menentukan statusnya. |\n| T5-C1 | Penyebab kecelakaan | Lebih dari satu penyebab dan penyebab yang berulang | Mempertimbangkan beberapa faktor yang berkaitan dengan suatu kejadian dan menghitung seberapa sering setiap faktor muncul. |\n| T6-C1 | Kerusakan pada item inspeksi | Kategori kerusakan di luar R1–R3, item tanpa prioritas, serta item inspeksi yang terhubung dengan data aset melalui beberapa tabel | Menghubungkan data yang saling berkaitan dan tetap menyertakan temuan yang relevan ketika sebagian informasi tidak tersedia. |\n| T7-C1 | SPM/SLA per laporan | Nilai tepat pada batas dan nilai sebelum pembulatan | Membandingkan angka dengan batas yang ditetapkan, termasuk saat selisihnya kecil. |\n| T7-C2 | SPM/SLA per laporan | SLA hanya berlaku pada indikator ketiga | Mempertimbangkan syarat yang berlaku pada setiap item sebelum menilainya. |\n| T7-C3 | SPM/SLA per laporan | Tidak ada SLA yang berlaku | Mengenali kapan suatu syarat tidak berlaku dan mempertimbangkannya saat menarik kesimpulan. |\n| T7-C4 | SPM/SLA per laporan | Beberapa laporan pemantauan dengan informasi yang serupa | Memilih informasi yang relevan dengan prompt dari beberapa laporan yang serupa. |\n| T8-C1 | SPM/SLA periode | Beberapa laporan dengan kegagalan berbeda | Mempertimbangkan hasil dari beberapa laporan untuk menarik kesimpulan mengenai keseluruhan periode. |\n| T8-C2 | SPM/SLA periode | Perhitungan menggunakan data durasi *booth*, tanpa menghitung data durasi *longbooth* | Memilih data yang relevan sebelum menarik kesimpulan mengenai suatu periode. |\n| T9-C1 | Perbandingan periode | Status tetap dan membaik | Membandingkan dua periode untuk menentukan hasil yang tidak berubah dan hasil yang membaik. |\n| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status memburuk | Menggabungkan informasi dalam setiap periode, lalu membandingkan hasil kedua periode. |",
+    "after": "| Kasus | Analisis | Kondisi utama | Kemampuan analisis yang diuji |\n| ----- | ----- | ----- | ----- |\n| T1-C1 | Rata-rata durasi transaksi | Tiga laporan dengan jumlah data durasi yang berbeda, termasuk data durasi bernilai null | Menggabungkan informasi dari beberapa laporan dengan memperhitungkan perbedaan jumlah data yang dapat digunakan pada setiap laporan. |\n| T1-C2 | Rata-rata durasi transaksi | Data durasi *booth* dan *longbooth* | Menentukan informasi yang relevan dari berbagai jenis data dan menggunakannya dalam analisis. |\n| T2-C1 | Volume dan LHR | Hari tanpa laporan dan golongan dengan volume nol | Memperhitungkan seluruh hari dalam periode yang diminta dan tetap menyertakan kelompok dengan nilai nol. |\n| T3-C1 | Tren lalu lintas | Empat bulan dengan jumlah hari berbeda dan golongan kendaraan dengan volume nol | Mengelompokkan data berdasarkan periode waktu dan menghasilkan ringkasan yang dapat dibandingkan antarperiode. |\n| T4-C1 | Status insiden | Tidak ada tindakan, satu tindakan dengan stage 50, dua tindakan dengan stage 100, atau dua tindakan dengan stage 100 dan null | Mempertimbangkan tindakan yang berkaitan dengan suatu insiden dan menerapkan syarat untuk menentukan statusnya. |\n| T5-C1 | Penyebab kecelakaan | Lebih dari satu penyebab dan penyebab yang berulang | Mempertimbangkan beberapa faktor yang berkaitan dengan suatu kejadian dan menghitung seberapa sering setiap faktor muncul. |\n| T6-C1 | Kerusakan pada item inspeksi | Kategori kerusakan di luar R1–R3, item tanpa prioritas, serta item inspeksi yang terhubung dengan data aset melalui beberapa tabel | Menghubungkan data yang saling berkaitan dan tetap menyertakan temuan yang relevan ketika sebagian informasi tidak tersedia. |\n| T7-C1 | SPM/SLA per laporan | Rata-rata durasi tepat pada batas dan sedikit melebihi batas, yang dibandingkan sebelum pembulatan | Membandingkan angka dengan batas yang ditetapkan, termasuk saat selisihnya kecil. |\n| T7-C2 | SPM/SLA per laporan | SLA hanya berlaku pada indikator ketiga | Mempertimbangkan syarat yang berlaku pada setiap item sebelum menilainya. |\n| T7-C3 | SPM/SLA per laporan | Tidak ada SLA yang berlaku | Mengenali kapan suatu syarat tidak berlaku dan mempertimbangkannya saat menarik kesimpulan. |\n| T7-C4 | SPM/SLA per laporan | Beberapa laporan pemantauan dengan informasi yang serupa | Memilih informasi yang relevan dengan prompt dari beberapa laporan yang serupa. |\n| T8-C1 | SPM/SLA periode | Indikator yang terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain | Mempertimbangkan hasil dari beberapa laporan untuk menarik kesimpulan mengenai keseluruhan periode. |\n| T8-C2 | SPM/SLA periode | Perhitungan menggunakan data durasi *booth*, tanpa menghitung data durasi *longbooth* | Memilih data yang relevan sebelum menarik kesimpulan mengenai suatu periode. |\n| T9-C1 | Perbandingan periode | Status tetap dan membaik | Membandingkan dua periode untuk menentukan hasil yang tidak berubah dan hasil yang membaik. |\n| T9-C2 | Perbandingan periode | Dua laporan per periode dengan status memburuk | Menggabungkan informasi dalam setiap periode, lalu membandingkan hasil kedua periode. |",
+    "findings": [
+      "M01",
+      "M02",
+      "M03"
+    ],
+    "reason": "Retain the reviewed substantive clarification; restore the original spelling per the author’s latest instruction."
+  },
+  {
+    "id": "ME02",
+    "block_id": "B0130",
+    "before": "Pada T1-C2, total durasi *D* dihitung dari enam data durasi *booth* dan satu data durasi *longbooth* pada Tabel 3.5.",
+    "after": "Pada T1-C2, total durasi *D* dihitung dari enam data durasi *booth* dan satu data durasi *longbooth* pada Tabel 3.5.\n\n$$\nD = (6 \\times 10) + 2 = 62\\ \\text{detik}\n$$",
+    "findings": [
+      "M06"
+    ],
+    "reason": "Menampilkan total durasi sebagai persamaan tersendiri dari enam data masing-masing 10 detik dan satu data 2 detik. Sumber Markdown yang direvisi tidak memuat persamaan tersebut."
+  },
+  {
+    "id": "ME03",
+    "block_id": "B0131",
+    "before": "Seluruh data durasi bernilai non-null, sehingga jumlah data yang digunakan adalah *n = 7*. Rata-rata durasi *d̄* dihitung dengan membagi total durasi tersebut dengan jumlah data.",
+    "after": "Seluruh data durasi bernilai non-null, sehingga jumlah data yang digunakan adalah *n = 7*. Rata-rata durasi *d̄* dihitung dengan membagi total durasi tersebut dengan jumlah data.\n\n$$\n\\bar{d} = \\frac{D}{n} = \\frac{62}{7}\\ \\text{detik} \\approx 8{,}86\\ \\text{detik}\n$$",
+    "findings": [
+      "M06"
+    ],
+    "reason": "Menampilkan hubungan total durasi, tujuh data non-null, dan rata-rata. Tanda pendekatan menjaga perbedaan nilai tepat dan hasil pembulatan, yang tetap dijelaskan pada paragraf berikutnya."
+  },
+  {
+    "id": "ME05",
+    "block_id": "B0179",
+    "before": "Tingkat keberhasilan dihitung dengan membagi jumlah jawaban PASS dengan jumlah jawaban yang dinilai.",
+    "after": "Tingkat keberhasilan dinyatakan sebagai persentase jawaban PASS dari seluruh jawaban yang dinilai, dengan perhitungan berikut.\n\n$$\n\\text{Tingkat keberhasilan} = \\frac{\\text{Jumlah jawaban PASS}}{\\text{Jumlah jawaban yang dinilai}} \\times 100\\%\n$$",
+    "findings": [
+      "M07"
+    ],
+    "reason": "Melengkapi definisi persentase dengan persamaan yang memuat perkalian 100%. Penjelasan cakupan kasus, model, kondisi, dan 45 jawaban tetap dipertahankan pada B0180, serta 0/3–3/3 pada B0181."
+  },
+  {
+    "id": "ME07",
+    "block_id": "B0184",
+    "before": "Pembahasan dibagi menjadi enam kelompok analisis: durasi transaksi (T1), volume lalu lintas dan LHR (T2–T3), insiden dan penyebab kecelakaan (T4–T5), inspeksi dan identitas aset (T6), SPM/SLA per laporan (T7), serta SPM/SLA periode dan antarperiode (T8–T9). Jawaban yang dinilai FAIL diperiksa untuk melihat bagian yang tidak sesuai dengan *expected result*. Hasil tiga pengulangan juga dibandingkan pada kasus, model, dan kondisi konteks bisnis yang sama untuk melihat apakah hasilnya berubah.",
+    "after": "Pembahasan dibagi menjadi enam kelompok analisis: durasi transaksi (T1), volume lalu lintas dan LHR (T2–T3), insiden dan penyebab kecelakaan (T4–T5), inspeksi dan identitas aset (T6), SPM/SLA per laporan (T7), serta SPM/SLA periode dan antarperiode (T8–T9). Jawaban yang dinilai FAIL diperiksa untuk melihat bagian yang tidak sesuai dengan *expected result*. Status PASS/FAIL pada tiga pengulangan dibandingkan untuk memeriksa konsistensi keberhasilan pada kasus, model, dan kondisi konteks bisnis yang sama.",
+    "findings": [
+      "M05",
+      "M09"
+    ],
+    "reason": "Retain the reviewed substantive clarification; restore the original spelling per the author’s latest instruction."
+  },
+  {
+    "id": "E-R-001",
+    "block_id": "B0258",
+    "before": "Perbandingan Muse Spark 1.3 dan DeepSeek v4 Flash mencakup hasil T6-C1 pada kedua kondisi konteks bisnis. Setiap model menghasilkan enam jawaban, dengan hasil seperti pada Tabel 4.14.",
+    "after": "Perbandingan Muse Spark 1.3 dan DeepSeek v4 Flash mencakup hasil T6-C1 pada kondisi dengan dan tanpa konteks bisnis. Setiap model menghasilkan enam jawaban, dengan hasil seperti pada Tabel 4.14.",
+    "findings": [
+      "R-001"
+    ],
+    "reason": "Menamai kondisi dengan dan tanpa konteks bisnis secara langsung agar cakupan perbandingan jelas."
+  },
+  {
+    "id": "E-R-002",
+    "block_id": "B0272",
+    "before": "Dengan konteks bisnis, seluruh 24 jawaban memperoleh PASS. Tanpa konteks bisnis, 20 dari 24 jawaban memperoleh PASS atau 83,33%. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2. Terdapat tiga jawaban dengan status SPM/SLA salah dan satu jawaban yang tidak mencantumkan seluruh evaluasi.",
+    "after": "Dengan konteks bisnis, seluruh 24 jawaban memperoleh PASS. Tanpa konteks bisnis, 20 dari 24 jawaban memperoleh PASS atau 83,33%. Keempat jawaban yang gagal berasal dari T7-C1 dan T7-C2. Terdapat tiga jawaban dengan status SPM/SLA salah dan satu jawaban yang tidak mencantumkan seluruh hasil evaluasi yang diminta.",
+    "findings": [
+      "R-002"
+    ],
+    "reason": "Menjelaskan bahwa bagian yang tidak lengkap adalah hasil evaluasi yang dimuat dalam jawaban."
+  },
+  {
+    "id": "E-R-003",
+    "block_id": "B0290",
+    "before": "Evaluasi periode mencakup T8-C1 dan T8-C2 yang menilai SPM/SLA selama satu periode, serta T9-C1 dan T9-C2 yang membandingkan hasil dua periode. Hasil kedua jenis analisis pada kondisi dengan dan tanpa konteks bisnis disajikan pada Tabel 4.20.",
+    "after": "Pada T8-C1 dan T8-C2, agen diminta menilai SPM/SLA selama satu periode. Pada T9-C1 dan T9-C2, agen diminta membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode. Hasil kedua jenis analisis pada kondisi dengan dan tanpa konteks bisnis disajikan pada Tabel 4.20.",
+    "findings": [
+      "R-003"
+    ],
+    "reason": "Menempatkan agen sebagai pelaku dan menyebut status pemenuhan indikator sebagai objek perbandingan dua periode."
+  },
+  {
+    "id": "E-R-004",
+    "block_id": "B0298",
+    "before": "Kedua model memperoleh 24/24 PASS. Status, jumlah evaluasi, dan jumlah kegagalan yang dicantumkan pada jawaban sesuai dengan *expected result*. Pada evaluasi periode, SLA yang tidak berlaku juga ditandai dengan not_applicable.",
+    "after": "Kedua model memperoleh 24/24 PASS. Status, jumlah evaluasi, dan jumlah kegagalan yang dicantumkan pada jawaban sesuai dengan *expected result*. Pada evaluasi periode, SLA yang tidak berlaku untuk suatu indikator pada ruas yang dianalisis juga ditandai dengan not_applicable.",
+    "findings": [
+      "R-004"
+    ],
+    "reason": "Menghubungkan not_applicable dengan keberlakuan SLA pada indikator dan ruas yang dianalisis."
+  },
+  {
+    "id": "E-R-006",
+    "block_id": "B0310",
+    "before": "Data yang digunakan dan cara agen menerapkan aturan bisnis juga memengaruhi hasil analisis. Pada contoh T5-C1, agen menggunakan data dari insiden yang tidak termasuk kecelakaan dan menghasilkan nilai total_cause_assignments yang lebih besar daripada nilai pada *expected result*. Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.",
+    "after": "Pada contoh T5-C1, agen memasukkan insiden dengan is_accident = false ke dalam perhitungan penyebab kecelakaan, padahal insiden tersebut seharusnya dikecualikan. Akibatnya, nilai total_cause_assignments pada jawaban menjadi 7, sedangkan nilai pada *expected result* adalah 5. Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.",
+    "findings": [
+      "R-006"
+    ],
+    "reason": "Mengganti pembuka umum dengan kesalahan pemilihan insiden dan perbandingan 7 terhadap 5 yang tercatat pada sumber. Kalimat penjelasan pembulatan dipertahankan utuh."
+  },
+  {
+    "id": "E-R-007",
+    "block_id": "B0313",
+    "before": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan *expected result*. Manfaat hasil analisis bagi pengambilan keputusan operasional belum dinilai.",
+    "after": "Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Karena seluruh dokumen konteks bisnis diberikan bersama, pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.",
+    "findings": [
+      "R-007"
+    ],
+    "reason": "Memisahkan batas atribusi pengaruh tiap dokumen terhadap ketepatan jawaban dari manfaat operasional yang belum dinilai, serta menjelaskan arti PASS secara ringkas."
+  },
+  {
+    "id": "E-R-008",
+    "block_id": "B0319",
+    "before": "Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5, sementara dua jawaban T5-C1 berisi frekuensi penyebab kecelakaan yang terlalu besar dan menambahkan kategori. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta.",
+    "after": "Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5. Pada dua jawaban T5-C1, frekuensi Kelalaian Pengemudi terlalu besar dan terdapat kategori Kondisi Jalan yang tidak ada dalam *expected result*, sedangkan frekuensi Mengantuk tetap sesuai. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta.",
+    "findings": [
+      "R-008"
+    ],
+    "reason": "Menyebut frekuensi penyebab yang berlebih dan kategori tambahan secara spesifik serta mempertahankan frekuensi penyebab yang sudah sesuai dengan expected result."
+  },
+  {
+    "id": "S01",
+    "block_id": "B0029",
+    "before": "| No | Penelitian | Fokus | Data / Lingkungan | Evaluasi dan Temuan | Relevansi / Keterbatasan |\n| ----- | ----- | ----- | ----- | ----- | ----- |\n| 1 | Sawant & Sonawane (2024) | Antarmuka bahasa alami untuk basis data dan visualisasi | Kajian NLIDB, NLIV, dan BI | Antarmuka bahasa alami memudahkan akses ke data. Kendalanya mencakup pertanyaan analitis yang kompleks serta pemahaman konteks dan semantik. | Memberikan dasar bagi conversational analytics melalui kajian antarmuka bahasa alami untuk basis data dan visualisasi. |\n| 2 | X. Liu dkk. (2024) - AgentBench | Evaluasi LLM sebagai agen pada lingkungan interaktif | 8 lingkungan dan 29 model API ataupun open-source | Menemukan kendala utama pada penalaran jangka panjang, pengambilan keputusan, dan kepatuhan terhadap instruksi. | Mendukung evaluasi berbasis tugas interaktif pada beragam lingkungan umum. |\n| 3 | Hong dkk. (2025) - Data Interpreter | Agen LLM untuk *workflow* data science dengan beberapa tahap | InfiAgent-DABench, tugas machine learning, dan tugas open-ended | Perencanaan berbasis graph dan verifikasi bertahap meningkatkan kinerja pada beberapa *benchmark* analisis data. | Menunjukkan penggunaan agen untuk merencanakan dan memeriksa analisis data secara bertahap. |\n| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Mengevaluasi insight dari analisis bisnis yang bersifat open-ended dengan penilaian berbasis LLM. |\n| 5 | Lei dkk. (2025) - Spider 2.0 | *Workflow* *Text-to-SQL* tingkat enterprise | 632 tugas dengan basis data besar, metadata, dokumentasi, dan beberapa sistem basis data | Code agent yang diuji menyelesaikan 21,3% tugas, dibandingkan 91,2% pada Spider 1.0. | Menunjukkan kesulitan menyelesaikan tugas SQL pada lingkungan enterprise. |\n| 6 | Vishwakarma dkk. (2025) - EnterpriseBench | Evaluasi agen pada lingkungan enterprise | 500 tugas pada software engineering, HR, finance, dan administrasi | Lingkungan pengujian mencakup data yang tersebar, kontrol akses, dan workflow lintas fungsi. Hasil penyelesaian tugas bervariasi menurut model, framework, dan strategi perencanaan. | Mencakup tugas dari beberapa fungsi organisasi dalam satu lingkungan pengujian. |\n| 7 | Rumiantsau & Fokeev (2026) | Pengaruh semantic layer pada analisis berbasis LLM | 100 pertanyaan retail. Sebanyak 99 dinilai setelah satu query referensi gagal dieksekusi | Analytical Pass Rate meningkat 17,2–23,2 poin persentase berdasarkan penilaian Claude Sonnet 4.6 sebagai judge. | Menguji pemberian dokumen konteks bisnis melalui protokol *single-shot* pada satu dataset retail. Studi ini masih berupa preprint. |\n| 8 | Egg dkk. (2025) — DABstep | Evaluasi agen pada tugas analisis data bertahap | Data CSV/JSON dan dokumentasi bisnis untuk 450 pertanyaan analisis pembayaran | Jawaban akhir dibandingkan dengan *expected result* menggunakan normalisasi dan toleransi sesuai tipe jawaban | Mencakup analisis dari beberapa sumber data dan penerapan aturan bisnis. Perbandingan dengan dan tanpa dokumen konteks tidak diuji. |",
+    "after": "| No | Penelitian | Fokus | Data / Lingkungan | Evaluasi dan Temuan | Relevansi / Keterbatasan |\n| ----- | ----- | ----- | ----- | ----- | ----- |\n| 1 | Sawant & Sonawane (2024) | Antarmuka bahasa alami untuk basis data dan visualisasi | Kajian NLIDB, NLIV, dan BI | Antarmuka bahasa alami memudahkan akses ke data. Kendalanya mencakup pertanyaan analitis yang kompleks serta pemahaman konteks dan semantik. | Memberikan dasar bagi conversational analytics melalui kajian antarmuka bahasa alami untuk basis data dan visualisasi. |\n| 2 | X. Liu dkk. (2024) - AgentBench | Evaluasi LLM sebagai agen pada lingkungan interaktif | 8 lingkungan dan 29 model API ataupun open-source | Menemukan kendala utama pada penalaran jangka panjang, pengambilan keputusan, dan kepatuhan terhadap instruksi. | Mendukung evaluasi berbasis tugas interaktif pada beragam lingkungan umum. |\n| 3 | Hong dkk. (2025) - Data Interpreter | Agen LLM untuk *workflow* data science dengan beberapa tahap | InfiAgent-DABench, tugas machine learning, dan tugas open-ended | Perencanaan berbasis graph dan verifikasi bertahap meningkatkan kinerja pada beberapa *benchmark* analisis data. | Menunjukkan penggunaan agen untuk merencanakan dan memeriksa analisis data secara bertahap. |\n| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Mengevaluasi insight dari analisis bisnis yang bersifat open-ended dengan penilaian berbasis LLM. |\n| 5 | Lei dkk. (2025) - Spider 2.0 | *Workflow* *Text-to-SQL* tingkat enterprise | 632 tugas dengan basis data besar, metadata, dokumentasi, dan beberapa sistem basis data | Code agent yang diuji menyelesaikan 21,3% tugas, dibandingkan 91,2% pada Spider 1.0. | Menunjukkan kesulitan menyelesaikan tugas SQL pada lingkungan enterprise. |\n| 6 | Vishwakarma dkk. (2025) - EnterpriseBench | Evaluasi agen pada lingkungan enterprise | 500 tugas pada software engineering, HR, finance, dan administrasi | Lingkungan pengujian mencakup data yang tersebar, kontrol akses, dan workflow lintas fungsi. Hasil penyelesaian tugas bervariasi menurut model, framework, dan strategi perencanaan. | Mencakup tugas dari beberapa fungsi organisasi dalam satu lingkungan pengujian. |\n| 7 | Rumiantsau & Fokeev (2026) | Pengaruh semantic layer pada analisis berbasis LLM | 100 pertanyaan retail. Sebanyak 99 dinilai setelah satu query referensi gagal dieksekusi | Analytical Pass Rate meningkat 17,2–23,2 poin persentase berdasarkan penilaian Claude Sonnet 4.6 sebagai judge. | Menguji pemberian dokumen konteks bisnis pada satu dataset retail. Dengan maupun tanpa konteks bisnis, model menghasilkan satu query SQL per pertanyaan tanpa menerima umpan balik eksekusi atau kesempatan memperbaiki query. |\n| 8 | Egg dkk. (2025) — DABstep | Evaluasi agen pada tugas analisis data bertahap | Data CSV/JSON dan dokumentasi bisnis untuk 450 pertanyaan analisis pembayaran | Jawaban akhir dibandingkan dengan *expected result* menggunakan normalisasi dan toleransi sesuai tipe jawaban | Mencakup analisis dari beberapa sumber data dan penerapan aturan bisnis. Perbandingan dengan dan tanpa dokumen konteks tidak diuji. |",
+    "findings": [
+      "O04"
+    ],
+    "reason": "Menjelaskan prosedur satu query per pertanyaan yang berlaku pada kedua kondisi berdasarkan bukti sumber dalam brief. Cakupan satu dataset retail dan seluruh sel lainnya dipertahankan. Keterangan preprint dihapus dari sel karena status publikasi sudah terwakili dalam entri arXiv pada daftar pustaka."
+  },
+  {
+    "id": "S02",
+    "block_id": "B0183",
+    "before": "Analisis dilakukan secara deskriptif. Hasil pengujian dikelompokkan berdasarkan model dan ada atau tidaknya konteks bisnis. Tingkat keberhasilan setiap kelompok disajikan, kemudian hasil kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, hasil dengan konteks bisnis juga dibandingkan dengan hasil tanpa konteks bisnis.",
+    "after": "Analisis dilakukan secara deskriptif. Tingkat keberhasilan berdasarkan konteks bisnis dihitung dengan menggabungkan jawaban kedua model pada kondisi yang sama. Untuk tingkat keberhasilan setiap model, jawaban dari pengujian dengan dan tanpa konteks bisnis digabungkan. Hasil keempat kombinasi model dan konteks bisnis juga disajikan secara terpisah. Semua ringkasan mencakup ketiga pengulangan pada kasus yang dibahas. Hasil kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, hasil dengan konteks bisnis juga dibandingkan dengan hasil tanpa konteks bisnis.",
+    "findings": [
+      "M08"
+    ],
+    "reason": "Mempertahankan cakupan tiga bentuk ringkasan, ketiga pengulangan, dan kedua perbandingan. Contoh numerik dalam ME06 dihapus karena mengulang penjelasan pada bab hasil."
+  },
+  {
+    "id": "S04",
+    "block_id": "B0126",
+    "before": "| Analisis | Aturan bisnis | Jenis tugas |\n| ----- | ----- | ----- |\n| Durasi transaksi | Total durasi dari data *booth* dan *longbooth* yang memiliki durasi non-null dibagi dengan jumlah data tersebut. | T1 |\n| Volume dan LHR | LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender, termasuk tanggal awal, tanggal akhir, dan hari tanpa laporan. | T2–T3 |\n| Status insiden | Insiden dinyatakan selesai jika memiliki setidaknya satu tindakan penanganan dan nilai stage pada seluruh tindakan tersebut adalah 100. | T4 |\n| Penyebab kecelakaan | Setiap penyebab dihitung sesuai jumlah kemunculannya dalam data kecelakaan. | T5 |\n| Kondisi inspeksi | Item inspeksi dengan kategori kerusakan non-null tetap dihitung meskipun prioritasnya kosong. | T6 |\n| Kecepatan transaksi | Rata-rata durasi (detik) dihitung hanya dari data durasi *booth* untuk setiap gardu dalam satu laporan. Nilai sebelum pembulatan dibandingkan dengan batas kelima indikator SPM serta batas SLA jika berlaku. Batas dan operator pembanding mengikuti konfigurasi ruas dan indikator saat pengujian. Konfigurasi tersebut menentukan kapan SLA berlaku dan digunakan untuk semua periode. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu. | T7–T9 |",
+    "after": "| Analisis | Aturan bisnis | Jenis tugas |\n| ----- | ----- | ----- |\n| Durasi transaksi | Total durasi dari data *booth* dan *longbooth* yang memiliki durasi non-null dibagi dengan jumlah data tersebut. | T1 |\n| Volume dan LHR | LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender, termasuk tanggal awal, tanggal akhir, dan hari tanpa laporan. | T2–T3 |\n| Status insiden | Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan nilai stage pada seluruh tindakan tersebut adalah 100. | T4 |\n| Penyebab kecelakaan | Setiap penyebab dihitung sesuai jumlah kemunculannya dalam data kecelakaan. | T5 |\n| Kondisi inspeksi | Item inspeksi dengan kategori kerusakan non-null tetap dihitung meskipun prioritasnya kosong. | T6 |\n| Kecepatan transaksi | Rata-rata durasi (detik) dihitung hanya dari data durasi *booth* untuk setiap gardu dalam satu laporan. Nilai sebelum pembulatan dibandingkan dengan batas kelima indikator SPM serta batas SLA jika berlaku. Batas dan operator pembanding mengikuti konfigurasi ruas dan indikator saat pengujian. Konfigurasi tersebut menentukan kapan SLA berlaku dan digunakan untuk semua periode. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu. | T7–T9 |",
+    "findings": [],
+    "reason": "Mengganti setidaknya dengan minimal sesuai preferensi pada record 92. Seluruh isi blok lainnya dipertahankan."
+  },
+  {
+    "id": "S05",
+    "block_id": "B0167",
+    "before": "Pada evaluasi utama τ-bench, setiap tugas dijalankan sedikitnya tiga kali (Yao dkk., 2025). Data Interpreter melaporkan rata-rata hasil dari tiga eksekusi pada evaluasi tugas *open-ended* (Hong dkk., 2025).",
+    "after": "Pada evaluasi utama τ-bench, setiap tugas dijalankan minimal tiga kali (Yao dkk., 2025). Data Interpreter melaporkan rata-rata hasil dari tiga eksekusi pada evaluasi tugas *open-ended* (Hong dkk., 2025).",
+    "findings": [],
+    "reason": "Mengganti sedikitnya dengan minimal sesuai preferensi pada record 92. Jumlah pengulangan, sitasi, dan seluruh redaksi lainnya dipertahankan."
+  }
+]

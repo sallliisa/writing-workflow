@@ -1,0 +1,836 @@
+[
+  {
+    "record": 1,
+    "before": "Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus dengan mempertahankan prompt, data, dan pengaturan model.",
+    "feedback": "This is already implied. Why the fuck do you have to keep repeating \"while keeping x, y, and z\"? Why the fuck do you love saying that so much?",
+    "after": "Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus."
+  },
+  {
+    "record": 2,
+    "before": "Pada T4, agen menentukan status insiden dari data tindakan penanganan yang ada. Insiden dinyatakan selesai jika memiliki minimal satu data tindakan dan nilai stage pada seluruh data tindakannya adalah 100. Nilai 50 dan null diperlakukan sebagai tindakan yang belum selesai.\nT4-C1 mencakup empat insiden, dengan salah satunya tidak memiliki data tindakan. Tiga insiden lainnya masing-masing memiliki satu data tindakan bernilai 50, dua data tindakan bernilai 100, dan dua data tindakan dengan nilai 100 dan null.\nDi  T5, suatu kecelakaan dapat memiliki beberapa penyebab, dan penyebab yang sama dapat muncul lebih dari sekali. Agen perlu menghitung berapa kali setiap penyebab tersebut muncul.\nDi T6, agen perlu menghubungkan data hasil inspeksi dengan data aset. Di T6-C1, item inspeksi yang memiliki kategori kerusakan tetap dihitung sebagai item rusak meskipun prioritas perbaikannya kosong.\nDi T7, agen perlu menentukan status SPM/SLA dengan membandingkan rata-rata durasi setiap gardu dengan bata…",
+    "feedback": "This sounds human",
+    "after": "null"
+  },
+  {
+    "record": 3,
+    "before": "Bab ini membahas kesimpulan dari evaluasi ketepatan jawaban agen pada HKA TROM menggunakan Muse Spark 1.3 dan DeepSeek v4 Flash, dengan dan tanpa konteks bisnis. Saran penelitian selanjutnya disusun dari hasil evaluasi dan keterbatasan pengujian yang telah dibahas pada bab sebelumnya.",
+    "feedback": "Check if my friend's thesis explicitly connects this this way/write it this way. If not, remove it. This feels like you're just putting my prompt into the thesis",
+    "after": "Bab ini berisi kesimpulan yang menjawab rumusan masalah berdasarkan hasil evaluasi serta saran untuk pengembangan dan penelitian selanjutnya."
+  },
+  {
+    "record": 4,
+    "before": "Untuk satu kasus pada model dan kondisi konteks bisnis yang sama, jumlah jawaban PASS ditulis sebagai Pi, dengan i menunjukkan kasus yang dinilai. Persentasenya dihitung dari tiga jawaban hasil pengulangan.",
+    "feedback": "Is this needed for the explanation? Or can we simplify this? Feel free to push back.",
+    "after": "Untuk setiap kasus pada model dan kondisi konteks bisnis yang sama, jumlah PASS disajikan sebagai 0/3 hingga 3/3."
+  },
+  {
+    "record": 5,
+    "before": "Pada ringkasan menurut kelompok analisis, nilai N mengikuti jumlah jawaban dalam kelompok yang disajikan.",
+    "feedback": "Present this in a simpler term/use terms that are already established. \"Kelompok analisis\" or \"kelompok\" here is hard to infer what that means.",
+    "after": "Persentase pada setiap tabel dihitung dari jumlah jawaban untuk kasus, model, dan kondisi konteks bisnis yang ditampilkan."
+  },
+  {
+    "record": 6,
+    "before": "Pada T1-C2, total durasi D berasal dari enam sampel booth dan satu sampel longbooth pada Tabel 3.5.",
+    "feedback": "Can we say \"data\" instead of \"sampel\"? Feel free to push back. Does that lose the intended meaning? This applies to the word \"sampel\" in the entire thesis, not just this block",
+    "after": "Pada T1-C2, total durasi D dihitung dari enam data durasi booth dan satu data durasi longbooth pada Tabel 3.5."
+  },
+  {
+    "record": 7,
+    "before": "membaca catatan",
+    "feedback": "What does \"membaca catatan\" mean in this context? Read the data? Just say \"membaca data\". What the fuck is catatan?",
+    "after": "membaca data"
+  },
+  {
+    "record": 8,
+    "before": "membaca catatan",
+    "feedback": "What does \"membaca catatan\" even mean in this context?",
+    "after": "membaca data"
+  },
+  {
+    "record": 9,
+    "before": "Studi ini menggunakan protokol single-shot pada satu dataset retail dan masih berupa preprint.",
+    "feedback": "Is this relevant? Both the information about the single-shot \"protocol\" (whatever that means, also please use a simpler diction. Stop trying to sound impressive. I need you to sound understandable), and the mention about preprint. I don't think any of these are relevant.",
+    "after": ""
+  },
+  {
+    "record": 10,
+    "before": "Adyen",
+    "feedback": "Give a bit of background context to what Adyen is, or if not relevant, don't mention it at all",
+    "after": "Adyen, perusahaan penyedia layanan pembayaran (Adyen, n.d.)"
+  },
+  {
+    "record": 11,
+    "before": "T4-C1 mencakup insiden tanpa tindakan pengamanan dan juga insiden dengan tindakan pengamanan pada tahap yang berbeda.",
+    "feedback": "\"Pada tahap yang berbeda\" what does that even mean",
+    "after": "T4-C1 mencakup empat insiden, salah satunya tanpa tindakan. Tiga insiden lainnya masing-masing memiliki satu tindakan bernilai 50, dua tindakan bernilai 100, dan dua tindakan dengan nilai 100 dan null."
+  },
+  {
+    "record": 12,
+    "before": "Mengevaluasi kemampuan analitis Agentic Business Intelligence pada HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 pada kondisi dengan dan tanpa konteks bisnis. Evaluasi mengukur tingkat keberhasilan berdasarkan kesesuaian jawaban dengan expected result.",
+    "feedback": "Write this in a paragraph since there's only one point. Don't write a bullet point if there's only one point. Just like my friend's thesis.",
+    "after": "Penelitian ini bertujuan untuk mengevaluasi ketepatan jawaban Agentic Business Intelligence pada kasus analisis operasional HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 Flash, masing-masing dengan dan tanpa konteks bisnis. Perbandingan menggunakan tingkat keberhasilan, yaitu persentase jawaban yang sesuai dengan expected result, serta rincian hasil pada setiap kasus dan pengulangan."
+  },
+  {
+    "record": 13,
+    "before": "Mengevaluasi kemampuan analitis Agentic Business Intelligence pada HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 pada kondisi dengan dan tanpa konteks bisnis. Evaluasi mengukur tingkat keberhasilan berdasarkan kesesuaian jawaban dengan expected result.",
+    "feedback": "Since there's only one, don't write this in a bullet point",
+    "after": "Penelitian ini bertujuan untuk mengevaluasi ketepatan jawaban Agentic Business Intelligence pada kasus analisis operasional HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 Flash, masing-masing dengan dan tanpa konteks bisnis. Perbandingan menggunakan tingkat keberhasilan, yaitu persentase jawaban yang sesuai dengan expected result, serta rincian hasil pada setiap kasus dan pengulangan."
+  },
+  {
+    "record": 14,
+    "before": "Berdasarkan uraian latar belakang tersebut, rumusan masalah dalam penelitian ini adalah sebagai berikut:\nBagaimana ketepatan jawaban agen pada kasus analisis operasional HKA TROM ketika menggunakan Muse Spark 1.3 dan DeepSeek v4, masing-masing dengan dan tanpa konteks bisnis?",
+    "feedback": "My friend's Rumusan Masalah is written in a paragraph style. Not bullet points like this. Since there's only one, we should also follow that. We may elaborate to my friend's thesis level of detail",
+    "after": "Penelitian ini berfokus pada ketepatan jawaban agen dalam analisis transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA pada HKA TROM. Rumusan masalah yang dikaji adalah bagaimana ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash ketika diuji dengan dan tanpa konteks bisnis, berdasarkan kesesuaian jawaban masing-masing model dengan expected result pada setiap kasus."
+  },
+  {
+    "record": 15,
+    "before": "3.2.2. Pemilihan Kasus Uji",
+    "feedback": "[This doesn't just apply here, but throughout the entire text], we mention things like T[n]-C[m] *before* we explain what that means. Either explain it early on, before it was first mentioned, or put this in the glossary. Whichever is most appropriate. Since this shows up early on in BAB 1, I think we should put this in the glossary",
+    "after": "T[n] dan T[n]-C[m]\nT[n] menunjukkan jenis tugas ke-n. Kasus ke-m dalam tugas tersebut ditulis sebagai T[n]-C[m]. Sebagai contoh, T1-C2 adalah kasus kedua pada jenis tugas T1."
+  },
+  {
+    "record": 16,
+    "before": "DAFTAR GAMBAR",
+    "feedback": "Add a new Glossary section/chapter/page after \"Daftar Gambar\"",
+    "after": "GLOSARIUM\nIstilah\tPengertian dalam penelitian"
+  },
+  {
+    "record": 17,
+    "before": "Agent Skills. (n.d.). Agent Skills overview. https://agentskills.io/home\nAlpar, P., & Schulz, M. (2016). Self-service business intelligence. Business & Information Systems Engineering, 58(2), 151–155. https://doi.org/10.1007/s12599-016-0424-6\nAnthropic. (2025, 11 September). Writing effective tools for agents — with agents. https://www.anthropic.com/research/writing-tools-for-agents\nBrown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., dkk. (2020). Language models are few-shot learners. Dalam Advances in Neural Information Processing Systems, 33 (hlm. 1877–1901). https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+    "feedback": "rata kanan kiri",
+    "after": "null"
+  },
+  {
+    "record": 18,
+    "before": "Jawaban agen sesuai dengan expected result pada enam kelompok kebutuhan operasional HKA TROM yang diuji ketika konteks bisnis tersedia. Muse Spark 1.3 dan DeepSeek v4 masing-masing memperoleh 45/45 PASS atau 100,00%. Hasil tersebut mencakup durasi transaksi, volume lalu lintas dan LHR, insiden dan penyebab kecelakaan, inspeksi aset, SPM/SLA per laporan, serta SPM/SLA periode dan antar periode.",
+    "feedback": "We got too straight to the point. Add some introductory paragraph, just like in my friend's",
+    "after": "Bab ini berisi kesimpulan dari evaluasi kemampuan Agentic Business Intelligence dengan HKA TROM sebagai studi kasus. Pembahasan mencakup ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada pengujian dengan dan tanpa konteks bisnis, serta saran untuk penelitian selanjutnya."
+  },
+  {
+    "record": 19,
+    "before": "antarperiode",
+    "feedback": "The proper spelling is \"antar periode\". With a space",
+    "after": "null"
+  },
+  {
+    "record": 20,
+    "before": "Tingkat keberhasilan = (jumlah jawaban PASS / 45) × 100%\nTingkat keberhasilan per kasus = (jumlah jawaban PASS pada kasus tersebut / 3) × 100%",
+    "feedback": "Write this in an equation instead of raw text like this.",
+    "after": "Tingkat keberhasilan dihitung dengan membagi jumlah jawaban PASS dengan jumlah jawaban yang dinilai. Untuk setiap model, perhitungan dilakukan terpisah pada kondisi dengan dan tanpa konteks bisnis. Satu kondisi pada satu model mencakup 45 jawaban, yang berasal dari 15 kasus yang masing-masing dijalankan tiga kali."
+  },
+  {
+    "record": 21,
+    "before": "Tabel 3.9 Contoh Evaluasi PASS dan FAIL pada T5-C1",
+    "feedback": "tabel ditaruh ke atas",
+    "after": "null"
+  },
+  {
+    "record": 22,
+    "before": "Read the reference for each domain involved in the request. For a request spanning domains, use each relevant reference.",
+    "feedback": "Put this in a square. A single-cell table is fine",
+    "after": "null"
+  },
+  {
+    "record": 23,
+    "before": "You're ALASKA, a personal assistant within HKA TROM.\n\nIf required data, tools, scope, configuration, or business definitions are unavailable or conflict, state the specific gap. Do not invent values. Do not request a connection or use another endpoint.",
+    "feedback": "Put this in a square. A single-cell table is fine",
+    "after": "null"
+  },
+  {
+    "record": 24,
+    "before": "Jumlah durasi pada T1-C2 adalah (6 × 10) + 2 = 62 detik dengan tujuh sampel. Rata-rata 62/7 = 8,857142857 detik kemudian dibulatkan menjadi 8,86 detik. Nilai tersebut disimpan di atribut average_transaction_duration bersama identitas ruas, periode, dan satuan. Lampiran 1 memuat ringkasan expected result seluruh kasus serta prompt dan expected result lengkap untuk T1-C2.",
+    "feedback": "Calculations like these should use equation instead of raw text like this. Refactor this paragraph.",
+    "after": "Pada T1-C2, total durasi D dihitung dari enam data durasi booth dan satu data durasi longbooth pada Tabel 3.5.\nSeluruh data durasi bernilai non-null, sehingga jumlah data yang digunakan adalah n = 7. Rata-rata durasi d̄ dihitung dengan membagi total durasi tersebut dengan jumlah data.\nRata-rata tersebut dibulatkan menjadi dua angka desimal, yaitu 8,86 detik, dan disimpan pada atribut average_transaction_duration bersama identitas ruas, periode, dan satuan. Lampiran 1 berisi ringkasan expected result seluruh kasus serta prompt dan expected result lengkap untuk T1-C2."
+  },
+  {
+    "record": 25,
+    "before": "Penelitian ini menggunakan kasus analisis operasional HKA TROM untuk menguji kemampuan yang dibahas pada Bagian 2.3. Terdapat 15 kasus yang mencakup sembilan jenis tugas, T1 hingga T9.",
+    "feedback": "jelaskan.t == task c = case",
+    "after": "Penelitian ini menggunakan 15 kasus dari sembilan jenis tugas, T1 hingga T9. Kasus dipilih dari analisis operasional yang dapat dikerjakan dengan data HKA TROM dan memerlukan kemampuan yang dijelaskan pada Bagian 2.3."
+  },
+  {
+    "record": 26,
+    "before": "Tabel 3.1 Rancangan Pengujian Kedua Model",
+    "feedback": "jangan ada ruang kosong",
+    "after": "null"
+  },
+  {
+    "record": 27,
+    "before": "meminta agen untuk membandingkan hasil dua periode",
+    "feedback": "\"Hasil\" of what?? This doesn't make any sense",
+    "after": "Di T9, agen diminta membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode, lalu menentukan apakah statusnya tetap, membaik, atau memburuk."
+  },
+  {
+    "record": 28,
+    "before": "Kasus uji mencakup laporan yang gagal memenuhi indikator yang berbeda.",
+    "feedback": "\"Berbeda\" against what?? This doesn't make sense",
+    "after": "Di T8-C1, ada indikator yang terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain."
+  },
+  {
+    "record": 29,
+    "before": "Pada kasus lain, SLA hanya berlaku pada sebagian indikator atau tidak berlaku sama sekali.",
+    "feedback": "Doesn't have any connection to the previous sentence. If it starts with \"pada kasus lain\" I expect the previous one to be \"pada kasus ini/kasus X\". This doesn't make any sense and is just poor writing.",
+    "after": "Di T7-C2, SLA hanya berlaku pada indikator ketiga, sedangkan di T7-C3 tidak ada SLA yang berlaku."
+  },
+  {
+    "record": 30,
+    "before": "Kasus uji mencakup nilai yang berada tepat di batas dan juga sedikit di atas batas karena selisih kecil dapat mengubah status",
+    "feedback": "\"Mencakup X dan Y sehingga selisih X/Y dapat mengubah status\" doesn't make any sense",
+    "after": "Di T7-C1, terdapat rata-rata durasi yang tepat pada batas indikator dan yang sedikit melebihi batas. Jika rata-rata durasi dibulatkan sebelum dibandingkan dengan batas, nilai yang sedikit melebihi batas dapat terlihat sama dengan batasnya."
+  },
+  {
+    "record": 31,
+    "before": "dan memeriksa apakah SLA berlaku",
+    "feedback": "Do you mean \"SLA berlaku di ruas tersebut\"? If so, say so. Don't just write \"SLA berlaku\". Otherwise this sentence doesn't really make any sense",
+    "after": "Di T7, agen perlu menentukan status SPM/SLA dengan membandingkan rata-rata durasi setiap gardu dengan batas indikator dan memeriksa apakah SLA berlaku untuk setiap indikator di ruas yang dianalisis."
+  },
+  {
+    "record": 32,
+    "before": "Kasus ini mencakup item yang tetap dihitung karena kategori kerusakannya terisi, meskipun prioritas perbaikannya kosong.",
+    "feedback": "This is hard to understand and also does not make sense",
+    "after": "Di T6-C1, item inspeksi yang memiliki kategori kerusakan tetap dihitung sebagai item rusak meskipun prioritas perbaikannya kosong."
+  },
+  {
+    "record": 33,
+    "before": "T3 membandingkan lalu lintas antar bulan, sehingga jumlah hari yang berbeda pada setiap bulan juga perlu diperhitungkan.",
+    "feedback": "This is awkward. \"T3 membandingkan lalu lintas antar bulan\" does not make any sense",
+    "after": "Di T3, agen diminta menampilkan tren volume dan LHR bulanan berdasarkan golongan kendaraan. Perhitungan LHR menggunakan jumlah hari pada masing-masing bulan."
+  },
+  {
+    "record": 34,
+    "before": "Jumlah hari kalender untuk menghitung LHR tetap mencakup hari tanpa laporan.",
+    "feedback": "This is hard to understand and borderline does not make sense",
+    "after": "LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode tersebut, termasuk hari yang tidak memiliki laporan."
+  },
+  {
+    "record": 35,
+    "before": "Agen juga perlu menentukan sampel yang dihitung ketika terdapat durasi null serta sampel booth dan longbooth.",
+    "feedback": "I don't understand what this means. This is unclear",
+    "after": "Di T1-C1, jumlah sampel pada setiap laporan berbeda dan terdapat sampel dengan durasi null. Rata-rata keseluruhan dihitung dengan membagi total durasi dari seluruh laporan dengan jumlah sampel yang memiliki durasi non-null. Di T1-C2, sampel booth dan longbooth sama-sama digunakan dalam perhitungan rata-rata durasi transaksi."
+  },
+  {
+    "record": 36,
+    "before": "Terdapat tiga jawaban dengan status SPM/SLA salah untuk gardu dengan rata-rata durasi yang selisih sedikit di atas batas. Status SPM/SLA ditentukan dengan membandingkan rata-rata durasi sebelum pembulatan dengan batas indikator. Pada T7-C1, rata-rata durasi gardu 3 adalah 6,004 detik, yang melebihi batas 6 detik pada indikator pertama. Pada pengulangan kedua tanpa konteks bisnis, DeepSeek v4 membulatkan rata-rata durasi ini menjadi 6,00 detik sebelum membandingkannya dengan batas 6 detik, sehingga spm_passed dan sla_passed bernilai true. Pada pengulangan kedua dengan konteks bisnis, agen membandingkan nilai 6,004 detik dengan batas 6 detik, sehingga kedua status bernilai false sesuai dengan expected result.\nPada T7-C2, rata-rata durasi gardu 4 adalah 9,004 detik, yang ditampilkan sebagai 9 detik setelah pembulatan. Nilai sebelum pembulatan melebihi batas 9 detik pada indikator ketiga, sehingga spm_passed dan sla_passed pada expected result bernilai false. Tanpa konteks bisnis, DeepSeek…",
+    "feedback": "Sounds human",
+    "after": "null"
+  },
+  {
+    "record": 37,
+    "before": "Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.",
+    "feedback": "Sounds *likely* human",
+    "after": "null"
+  },
+  {
+    "record": 38,
+    "before": "Kelengkapan jawaban ikut menentukan hasil evaluasi. Nilai yang dicantumkan dalam jawaban T3-C1 yang gagal dan satu jawaban T7-C2 sesuai dengan expected result. Jawaban tersebut dinilai FAIL karena rincian golongan kendaraan pada T3-C1 dan evaluasi indikator pada T7-C2 tidak lengkap.",
+    "feedback": "Sounds *likely* human",
+    "after": "null"
+  },
+  {
+    "record": 39,
+    "before": "Tanpa konteks bisnis, Muse Spark 1.3 memperoleh lebih banyak PASS dibandingkan DeepSeek v4 pada volume lalu lintas dan LHR serta SPM/SLA per laporan. DeepSeek v4 memperoleh lebih banyak PASS pada insiden dan penyebab kecelakaan. Pada durasi transaksi, inspeksi aset, serta SPM/SLA periode dan antarperiode, seluruh jawaban memperoleh PASS pada keempat kombinasi.",
+    "feedback": "Sounds Human",
+    "after": "null"
+  },
+  {
+    "record": 40,
+    "before": "Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 memperoleh 13/15 PASS pada masing-masing pengulangan.\nPada DeepSeek v4 tanpa konteks bisnis, kasus yang gagal berubah antarpengulangan meskipun jumlah PASS tetap sama. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.",
+    "feedback": "Sounds Human",
+    "after": "null"
+  },
+  {
+    "record": 41,
+    "before": "Analisis data tersebut memerlukan pemilihan data, perhitungan indikator, dan penerapan aturan bisnis. Kebutuhan ini berkaitan dengan tujuan Business Intelligence (BI), yaitu membantu eksekutif, manajer, dan analis memperoleh informasi dari data organisasi untuk mendukung keputusan (Chaudhuri dkk., 2011).",
+    "feedback": "AI Slop",
+    "after": "HKA TROM merupakan sistem internal HK Aston yang mengelola data transaksi, lalu lintas, insiden, inspeksi, serta pengukuran Standar Pelayanan Minimal (SPM) dan Service Level Agreement (SLA). Nama tabel dan kolom belum tentu menjelaskan apa yang diukur oleh suatu indikator, rumus yang digunakan, syarat berlakunya aturan, atau arti status. Sebagai contoh, Lalu Lintas Harian Rata-rata (LHR) pada HKA TROM dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode yang diminta. Jika total volume hanya dibagi dengan jumlah hari yang memiliki laporan, nilai LHR dapat berbeda."
+  },
+  {
+    "record": 42,
+    "before": "Dalam data science, Hong dkk. (2025) menunjukkan bagaimana agen berbasis LLM menjalankan analisis melalui beberapa tahap perencanaan dan pemeriksaan hasil.",
+    "feedback": "AI Slop",
+    "after": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis Large Language Model (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic Business Intelligence merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab permintaan analisis secara on-demand."
+  },
+  {
+    "record": 43,
+    "before": "Sawant dan Sonawane (2024) mencatat kesulitan pada pertanyaan yang memerlukan korelasi, analisis kompleks, serta pemahaman konteks dan semantik bisnis. Large Language Model (LLM) dapat digunakan sebagai agen yang merencanakan langkah analisis, memilih tool, dan memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024).",
+    "feedback": "AI slop",
+    "after": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis Large Language Model (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic Business Intelligence merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab permintaan analisis secara on-demand."
+  },
+  {
+    "record": 44,
+    "before": "Penelitian ini mengevaluasi kemampuan analisis Agentic Business Intelligence pada HKA TROM menggunakan dua Large Language Model (LLM), yaitu Muse Spark 1.3 dan DeepSeek v4, pada kondisi dengan dan tanpa konteks bisnis. Agen menerima pertanyaan dalam bahasa alami, kemudian memilih data, melakukan perhitungan, dan menerapkan aturan bisnis untuk menghasilkan jawaban. Evaluasi mencakup 15 kasus dari sembilan jenis tugas pada domain transaksi, lalu lintas, insiden, inspeksi, serta Standar Pelayanan Minimal (SPM) dan Service Level Agreement (SLA). Kasus uji menggunakan data sintetis terkontrol dalam lingkungan yang juga memuat data operasional yang telah dianonimkan. Setiap prompt berisi pertanyaan dan ketentuan jawaban dalam format JavaScript Object Notation (JSON) yang sama untuk seluruh kondisi. Setiap model menjalankan 15 kasus sebanyak tiga kali dengan konteks bisnis dan tiga kali tanpa konteks bisnis. Pengujian ini menghasilkan 90 jawaban per model dan 180 jawaban secara keseluruhan. P…",
+    "feedback": "Reads like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 45,
+    "before": "Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan expected result. Manfaat hasil analisis bagi pengambilan keputusan operasional belum dinilai.",
+    "feedback": "Sounds like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 46,
+    "before": "Data yang digunakan dan cara agen menerapkan aturan bisnis juga memengaruhi hasil analisis. Pada contoh T5-C1, agen menggunakan data dari insiden yang tidak termasuk kecelakaan dan menghasilkan nilai total_cause_assignments yang lebih besar daripada nilai pada expected result.",
+    "feedback": "Sounds AI slop",
+    "after": "null"
+  },
+  {
+    "record": 47,
+    "before": "Hasil pengujian pada enam kelompok analisis menunjukkan bahwa 170 dari 180 jawaban memperoleh PASS. Sepuluh jawaban yang dinilai FAIL berasal dari kondisi tanpa konteks bisnis.",
+    "feedback": "Sounds like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 48,
+    "before": "Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan expected result.",
+    "feedback": "Sounds like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 49,
+    "before": "Ruas, gerbang, tanggal, dan shift dalam setiap kasus membatasi data yang dianalisis serta menjadi dasar penyusunan expected result.",
+    "feedback": "This is extremely hard to follow. Make this more natural",
+    "after": ""
+  },
+  {
+    "record": 50,
+    "before": "Jawaban dari tiga pengulangan juga dibandingkan untuk melihat apakah hasilnya konsisten.",
+    "feedback": "If it's not consistent we already say that it's gonna FAIL. Do you think we should keep this sentence?",
+    "after": "Hasil tiga pengulangan juga dibandingkan pada kasus, model, dan kondisi konteks bisnis yang sama untuk melihat apakah hasilnya berubah."
+  },
+  {
+    "record": 51,
+    "before": "Angka dibandingkan berdasarkan nilai numeriknya tanpa toleransi tambahan. Nilai 10, 10.0, dan 10.00 diperlakukan sama. Penilaian tidak memeriksa jumlah digit desimal yang ditampilkan, meskipun prompt menetapkan jumlah digit tersebut.",
+    "feedback": "I'm not sure about this. This feels like a very detailed rule about our validation rule. Which is good, but it seems like too much information. What do you think?",
+    "after": "Angka dibandingkan berdasarkan nilainya tanpa toleransi tambahan. Misalnya, nilai 10 dan 10.0 dinilai sama."
+  },
+  {
+    "record": 52,
+    "before": "Respons juga diberi status FAIL jika tidak dapat di-parse sebagai JSON atau jika struktur maupun nilainya berbeda dari expected result.",
+    "feedback": "In our experiment, the agent ended up returning all valid, parsable JSON. Should we remove the sentence saying that invalid JSONs are considered a FAIL? Since that never happens and hence irrelevant to our experiment?",
+    "after": "Jawaban dinilai PASS jika merupakan JSON yang valid dan seluruh struktur serta nilainya sesuai dengan expected result. Perbandingan mencakup seluruh atribut, nilai, dan urutan elemen array. Urutan properti dalam JSON tidak memengaruhi penilaian."
+  },
+  {
+    "record": 53,
+    "before": "Pada kedua kondisi pengujian, agen tidak dapat mengakses implementasi fungsi analisis untuk kasus yang diuji atau hasil perhitungan yang langsung menjawab kasus.",
+    "feedback": "This is hard to understand. Impossible to understand, even. You're just writing fucking gibberish",
+    "after": ""
+  },
+  {
+    "record": 54,
+    "before": "Agen menggabungkan data antar tabel dan melakukan perhitungan.",
+    "feedback": "This is already explained in the explanation about agent tool-loop. Justify the existence of this otherwise remove it",
+    "after": ""
+  },
+  {
+    "record": 55,
+    "before": "Tool hanya mengembalikan kolom dan entitas yang diizinkan.",
+    "feedback": "Unnecessary information. It should be already implied",
+    "after": ""
+  },
+  {
+    "record": 56,
+    "before": "SKILL.md berfungsi sebagai dokumen routing yang menghubungkan permintaan analisis dengan referensi yang perlu dibaca. Petunjuknya mencakup penggunaan beberapa referensi untuk permintaan yang melibatkan lebih dari satu domain:\nRead the reference for each domain involved in the request. For a request spanning domains, use each relevant reference.\nSebagai contoh, permintaan evaluasi SPM/SLA transaksi diarahkan ke transactions.md dan spm-sla.md. Dokumen transactions.md menjelaskan arti laporan dan sampel durasi, sedangkan spm-sla.md menjelaskan penilaian setiap gardu serta penentuan status periode. Semua dokumen konteks bisnis yang digunakan dalam eksperimen ini disajikan pada Lampiran 3.",
+    "feedback": "This is useful, keep this, but find a way so that it doesn't feel like it just repeats again what the table directly above it was saying",
+    "after": "Untuk prompt yang mencakup beberapa topik analisis, SKILL.md memberi petunjuk berikut:"
+  },
+  {
+    "record": 57,
+    "before": "Susunan data inspeksi, kriteria kerusakan, kategori, prioritas, dan hubungan dengan aset.\nMenentukan temuan yang dihitung sebagai kerusakan serta mengelompokkannya menurut kategori, prioritas, dan aset.",
+    "feedback": "Check these for calques and get fucking rid of them",
+    "after": "Struktur data inspeksi, kriteria dan kategori kerusakan, prioritas perbaikan, serta relasi tabel yang menghubungkan inspeksi dengan aset."
+  },
+  {
+    "record": 58,
+    "before": "jumlah setiap penyebab yang tercatat",
+    "feedback": "Calque",
+    "after": "Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan."
+  },
+  {
+    "record": 59,
+    "before": "berdasarkan tindakan terkait",
+    "feedback": "Calque",
+    "after": "Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan."
+  },
+  {
+    "record": 60,
+    "before": "catatan penyebab kecelakaan",
+    "feedback": "Calque",
+    "after": "Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan."
+  },
+  {
+    "record": 61,
+    "before": "syarat status",
+    "feedback": "This is a calque",
+    "after": "Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan."
+  },
+  {
+    "record": 62,
+    "before": "penyebut LHR",
+    "feedback": "This is a calque. I've seen this being used across the thesis. Find a better way to express your idea. Don't use \"penyebut ...\"",
+    "after": "Menghitung volume kendaraan dan mengelompokkan hasil berdasarkan periode yang ditanyakan. LHR dihitung menggunakan jumlah hari kalender pada periode tersebut."
+  },
+  {
+    "record": 63,
+    "before": "cara menggabungkannya menjadi ringkasan.",
+    "feedback": "This is a calque",
+    "after": "Memilih sampel durasi yang sesuai untuk menghitung rata-rata durasi transaksi."
+  },
+  {
+    "record": 64,
+    "before": "Arti laporan dan sampel transaksi",
+    "feedback": "This implies that you're saying \"Arti sampel transaksi\", which doesn't make any sense",
+    "after": "Penjelasan laporan pemantauan transaksi dan sampel durasinya, termasuk satuan dan perhitungan rata-rata."
+  },
+  {
+    "record": 65,
+    "before": "menentukan cakupan serta identitas data",
+    "feedback": "This is a calque",
+    "after": "Memahami istilah dalam prompt dan memilih data yang sesuai."
+  },
+  {
+    "record": 66,
+    "before": "Menafsirkan",
+    "feedback": "Stop using this word. This is clearly a calque",
+    "after": "Memahami istilah dalam prompt dan memilih data yang sesuai."
+  },
+  {
+    "record": 67,
+    "before": "hubungan data",
+    "feedback": "This is a calque",
+    "after": "Tool akses data memungkinkan agen menemukan tabel, memeriksa struktur dan relasi tabel, serta membaca baris data yang diperlukan. Tool yang digunakan dalam penelitian ini dijelaskan pada Bagian 3.4.2."
+  },
+  {
+    "record": 68,
+    "before": "permintaan analisis",
+    "feedback": "This is a calque. Find a better term",
+    "after": "Agen menerima pertanyaan dalam bahasa alami, kemudian memilih data, melakukan perhitungan, dan menerapkan aturan bisnis untuk menghasilkan jawaban."
+  },
+  {
+    "record": 69,
+    "before": "aturan bersama",
+    "feedback": "This is a calque. Find a better term",
+    "after": "Ruang lingkup sistem, instruksi umum, dan panduan memilih referensi."
+  },
+  {
+    "record": 70,
+    "before": "Pada kondisi dengan konteks bisnis, ketujuh dokumen tersebut tersedia untuk dibaca agen. Pada kondisi tanpa konteks bisnis, agen tidak memperoleh akses ke dokumen tersebut.",
+    "feedback": "Consider merging this with the previous paragraph, or removing it completely. This sounds idiotic, because it's basically:\n\n\"Without X, there's no X. With X, there's X\". That sounds idiotic as fuck",
+    "after": "Konteks bisnis diberikan dalam bentuk skill hka-trom-business-context, yang terdiri atas SKILL.md dan enam dokumen referensi dalam folder references. Tabel 3.7 merangkum isi setiap dokumen dan fungsinya bagi agen."
+  },
+  {
+    "record": 71,
+    "before": "Tabel 3.6 menyajikan prompt T2-C1 yang digunakan dalam pengujian.",
+    "feedback": "Say that this is an example. Things like these make you look like you're presenting one fact after another, and makes it hard to follow. Don't let things like this happens in ANY AND ALL part of our thesis",
+    "after": "Sebagai contoh, Tabel 3.6 menyajikan prompt T2-C1 yang digunakan dalam pengujian. Prompt ini tidak menjelaskan jumlah hari yang digunakan untuk menghitung LHR maupun cara memperhitungkan hari tanpa laporan."
+  },
+  {
+    "record": 72,
+    "before": "Prompt tidak memuat nama tabel, rumus, atau langkah penyelesaian.",
+    "feedback": "Make this sentence connect with the previous one. This seems to mechanical",
+    "after": "Setiap kasus menggunakan satu prompt yang berisi pertanyaan analisis dan ketentuan jawaban, tanpa menyertakan nama tabel, rumus, atau langkah penyelesaian. Blok output_schema memuat JSON Schema yang menentukan atribut, tipe data, dan nilai status yang diperbolehkan dalam jawaban. Instruksi pada blok ini juga mengatur penulisan nama sesuai data sumber, pembulatan angka, dan urutan array."
+  },
+  {
+    "record": 73,
+    "before": "Pertanyaan menetapkan ruas, gerbang, tanggal, shift, atau periode pembanding sesuai kebutuhan kasus.",
+    "feedback": "Is this necessary? I think this is too much information. We're just adding vague, general facts to this paragraph.",
+    "after": "Setiap kasus menggunakan satu prompt yang berisi pertanyaan analisis dan ketentuan jawaban, tanpa menyertakan nama tabel, rumus, atau langkah penyelesaian. Blok output_schema memuat JSON Schema yang menentukan atribut, tipe data, dan nilai status yang diperbolehkan dalam jawaban. Instruksi pada blok ini juga mengatur penulisan nama sesuai data sumber, pembulatan angka, dan urutan array."
+  },
+  {
+    "record": 74,
+    "before": "memperoleh",
+    "feedback": "Use \"memiliki\".",
+    "after": "null"
+  },
+  {
+    "record": 75,
+    "before": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Laporan 1600200001 memiliki section_id 10 untuk Ruas BINSTA dan tanggal operasional 27 Januari 2030, sehingga termasuk dalam cakupan pertanyaan. Laporan tersebut terhubung melalui transaction_id dengan tujuh catatan durasi, yaitu enam catatan booth masing-masing 10 detik dan satu catatan longbooth sebesar 2 detik. Tabel 3.5 merangkum jumlah catatan dan total durasinya.",
+    "feedback": "Slop. Hard to understand. Oddly formal and sounds unnatural",
+    "after": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Perhitungan menggunakan laporan transaksi dari ruas tersebut dengan tanggal operasional 27 Januari 2030. Laporan ini memiliki enam sampel booth masing-masing 10 detik dan satu sampel longbooth sebesar 2 detik. Tabel 3.5 menunjukkan jumlah sampel dan total durasinya."
+  },
+  {
+    "record": 76,
+    "before": "Expected result untuk seluruh 15 kasus diperiksa dengan menghitung ulang berdasarkan definisi kasus, baris uji terkontrol, data master, dan konfigurasi yang relevan. Perhitungan ulang menggunakan input tersebut tanpa mengambil nilai dari expected result dan menghasilkan nilai yang sama.",
+    "feedback": "Slop. Hard to understand. Oddly formal and sounds unnatural",
+    "after": ""
+  },
+  {
+    "record": 77,
+    "before": "Rata-rata durasi transaksi pada T1 dihitung dari seluruh catatan durasi non-null dalam laporan yang sesuai dengan cakupan pertanyaan, termasuk booth dan longbooth. Pada T7–T9, rata-rata untuk evaluasi SPM/SLA dihitung hanya dari sampel booth dan dikelompokkan menurut gardu dalam setiap laporan.\nParameter SPM/SLA diperoleh dari view_section_spm_sla berdasarkan ruas dan indikator yang dianalisis. Konfigurasi yang tersedia saat pengujian digunakan untuk semua periode, termasuk periode sebelumnya.\nRata-rata durasi setiap gardu sebelum pembulatan dibandingkan dengan batas SPM dan SLA. Konfigurasi tersebut juga menentukan operator pembanding dan kapan SLA berlaku. Jika ada gardu yang gagal memenuhi suatu indikator dalam salah satu laporan pada periode yang dianalisis, indikator tersebut dinyatakan gagal untuk periode itu.\nExpected result untuk seluruh 15 kasus diperiksa dengan menghitung ulang berdasarkan definisi kasus, baris uji terkontrol, data master, dan konfigurasi yang relevan. Perh…",
+    "feedback": "I don't understand why this is here",
+    "after": ""
+  },
+  {
+    "record": 78,
+    "before": "Penelaahan oleh pakar atau penilai independen belum didokumentasikan.",
+    "feedback": "Unnecessary slop information. Stop putting more informations than what's being discussed.",
+    "after": ""
+  },
+  {
+    "record": 79,
+    "before": "Untuk membandingkan hasil dengan dan tanpa konteks bisnis, jawaban kedua model digabungkan pada setiap kondisi. Untuk membandingkan kedua model, jawaban dengan dan tanpa konteks bisnis digabungkan pada setiap model.",
+    "feedback": "This is extremely confusing. I've re-read this multiple times and still don't get what you actually want to express here",
+    "after": "Kedua model juga dibandingkan pada kondisi yang sama. Untuk setiap model, hasil pengujian dengan dan tanpa konteks bisnis dibandingkan."
+  },
+  {
+    "record": 80,
+    "before": "Jawaban dari setiap pengujian disimpan untuk evaluasi.",
+    "feedback": "Yeah fucking of course?? This information is not relevant to the experiment/is already implied",
+    "after": ""
+  },
+  {
+    "record": 81,
+    "before": "Urutan pengujian tidak diacak",
+    "feedback": "This information is not relevant to the experiment",
+    "after": "Setiap pengujian dimulai dengan percakapan baru. Prompt kasus dikirim sebagai sebuah message, kemudian agen membaca data, melakukan perhitungan, dan menyusun jawaban. Prosedur ini dijalankan tiga kali untuk setiap kasus pada masing-masing model, dengan dan tanpa konteks bisnis. Jawaban akhir agen kemudian disimpan untuk dievaluasi."
+  },
+  {
+    "record": 82,
+    "before": "Pengujian pada beberapa kelompok berjalan bersamaan",
+    "feedback": "This information is not relevant to the experiment",
+    "after": "Setiap pengujian dimulai dengan percakapan baru. Prompt kasus dikirim sebagai sebuah message, kemudian agen membaca data, melakukan perhitungan, dan menyusun jawaban. Prosedur ini dijalankan tiga kali untuk setiap kasus pada masing-masing model, dengan dan tanpa konteks bisnis. Jawaban akhir agen kemudian disimpan untuk dievaluasi."
+  },
+  {
+    "record": 83,
+    "before": "Pada setiap kelompok, hasil perbandingan dibahas sesuai kebutuhan analisisnya. Jawaban berstatus FAIL serta perbedaan jawaban pada tiga pengulangan ditelaah untuk mengidentifikasi atribut dan nilai yang tidak sesuai dengan acuan.",
+    "feedback": "Sounds too complicated for what it actually is",
+    "after": "Pembahasan dibagi menjadi enam kelompok analisis: durasi transaksi (T1), volume lalu lintas dan LHR (T2–T3), insiden dan penyebab kecelakaan (T4–T5), inspeksi dan identitas aset (T6), SPM/SLA per laporan (T7), serta SPM/SLA periode dan antarperiode (T8–T9). Jawaban yang dinilai FAIL diperiksa untuk melihat bagian yang tidak sesuai dengan expected result. Hasil tiga pengulangan juga dibandingkan pada kasus, model, dan kondisi konteks bisnis yang sama untuk melihat apakah hasilnya berubah."
+  },
+  {
+    "record": 84,
+    "before": "SPM/SLA satu kegiatan",
+    "feedback": "\"SPM/SLA satu kegiatan\" sounds like a calque, and just sounds out of place and unnatural in general",
+    "after": "SPM/SLA per laporan"
+  },
+  {
+    "record": 85,
+    "before": "Pada setiap model, tingkat keberhasilan dengan konteks bisnis dibandingkan dengan hasil tanpa konteks bisnis. Selisih tingkat keberhasilan dinyatakan dalam poin persentase.",
+    "feedback": "Why do we all of a sudden talk about \"selisih\"? What is the relevance of \"selisih\"?",
+    "after": "Analisis dilakukan secara deskriptif. Hasil pengujian dikelompokkan berdasarkan model dan ada atau tidaknya konteks bisnis. Tingkat keberhasilan setiap kelompok disajikan, kemudian hasil kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, hasil dengan konteks bisnis juga dibandingkan dengan hasil tanpa konteks bisnis."
+  },
+  {
+    "record": 86,
+    "before": "Rerata makro memberi bobot yang sama kepada sembilan jenis tugas T1–T9. Tingkat keberhasilan setiap jenis tugas dihitung terlebih dahulu, kemudian kesembilan nilainya dirata-ratakan. Ukuran ini melengkapi tingkat keberhasilan keseluruhan karena jumlah kasus setiap jenis tugas berbeda. T7, misalnya, memiliki empat kasus, sedangkan T3 hanya satu. Perhitungan dilakukan untuk setiap model, dengan dan tanpa konteks bisnis.\nRerata makro = (jumlah tingkat keberhasilan T1–T9) / 9",
+    "feedback": "Sounds like you're trying to impress someone rather than wanting to make it sound understandable. Simplify this. Use other, more natural term rather than \"rerata makro\"",
+    "after": "Tingkat keberhasilan dihitung untuk setiap jenis tugas T1–T9, lalu kesembilan nilainya dirata-ratakan. Perhitungan ini memberi bobot yang sama kepada setiap jenis tugas, meskipun jumlah kasusnya berbeda. T7 memiliki empat kasus, sedangkan T3 hanya satu. Rata-rata ini dihitung untuk setiap model, dengan dan tanpa konteks bisnis."
+  },
+  {
+    "record": 87,
+    "before": "acuan",
+    "feedback": "The term \"acuan\" don't really sit right with me. Feels like a calque. Find a more natural alternative",
+    "after": "Penulis menyadari bahwa skripsi ini masih memiliki keterbatasan. Kritik dan saran dari pembaca diharapkan dapat membantu penyempurnaan penelitian ini. Penulis berharap skripsi ini dapat menjadi referensi bagi penelitian mengenai evaluasi kemampuan agen dalam analisis data bisnis."
+  },
+  {
+    "record": 88,
+    "before": "Jawaban disimpan bersama identitas kasus, model, ketersediaan konteks bisnis, nomor pengulangan, prompt, dan jawaban acuan.",
+    "feedback": "Overly formal, overly complicated (for a simple thing that we actually want to communicate), and I feel there are a lot of unnecessary details in there.",
+    "after": ""
+  },
+  {
+    "record": 89,
+    "before": "Pelaksanaan keempat kelompok saling tumpang tindih dan urutannya tidak diacak.",
+    "feedback": "This feels awkwardly indonesian. find a better way to express this.\n\nAlso, for the rest of the thesis, \"pelaksanaan\" (which I assume you meant \"runs\") sounds like a calque. Find a more natural term",
+    "after": "Setiap pengujian dimulai dengan percakapan baru. Prompt kasus dikirim sebagai pesan pertama, kemudian agen membaca data, melakukan perhitungan, dan menyusun jawaban. Prosedur ini dijalankan tiga kali untuk setiap kasus pada masing-masing model, dengan dan tanpa konteks bisnis. Pengujian pada beberapa kelompok berjalan bersamaan. Urutan pengujian tidak diacak."
+  },
+  {
+    "record": 90,
+    "before": "sandbox untuk komputasi",
+    "feedback": "I think \"sandbox\" here is a technical implementation detail. Do you think we should mention it? \n\nAlso \"komputasi\" is overly formal and \"too indonesian\", and feels like a calque.\n\nFind a better, more natural term for \"execution environment\"",
+    "after": "Muse Spark 1.3 dan DeepSeek v4 dijalankan melalui Cloudflare OS (Cloudflare, 2026). Kedua model menggunakan lingkungan pengujian dan tool akses data yang sama. Gambar 3.2 menunjukkan alur dari prompt, pembacaan data dan konteks bisnis, hingga penilaian jawaban."
+  },
+  {
+    "record": 91,
+    "before": "tugas",
+    "feedback": "I'm asking you, feel free to push back: do you think it's more natural to use \"task\" or do you think we should keep \"tugas\"? Across the entire thesis, not just here",
+    "after": "null"
+  },
+  {
+    "record": 92,
+    "before": "sedikitnya",
+    "feedback": "use a more \"human\" term rather than going full-blast on \"as indonesian as possible\". Instead of \"sedikitnya\", I think \"minimal\" sounds better here",
+    "after": "Rata-rata durasi setiap gardu sebelum pembulatan dibandingkan dengan batas SPM dan SLA. Operator pembanding dan aturan tentang kapan SLA berlaku mengikuti konfigurasi tersebut. Indikator dinyatakan gagal pada suatu periode jika hasil evaluasinya gagal pada minimal satu gardu dalam salah satu laporan pada periode itu."
+  },
+  {
+    "record": 93,
+    "before": "ambang",
+    "feedback": "awkwardly formal. use a different term. not just here, but all usage of \"ambang\" across this thesis. Again, use a more natural term rather than going full blast \"too indonesian\".",
+    "after": "Konfigurasi. Bagian ini menjelaskan sumber parameter yang dapat berubah, seperti batas SPM/SLA dan operator pembanding. Nilai parameter yang digunakan dalam pengujian dibahas pada Bagian 3.2.3."
+  },
+  {
+    "record": 94,
+    "before": "periode lampau",
+    "feedback": "awkwardly formal",
+    "after": "Parameter SPM/SLA diperoleh dari view_section_spm_sla berdasarkan ruas dan indikator yang dianalisis. Konfigurasi yang tersedia saat pengujian digunakan untuk semua periode, termasuk periode sebelumnya."
+  },
+  {
+    "record": 95,
+    "before": "Perbedaan ini perlu diperhatikan agar banyaknya baris rincian tidak mengubah hasil perhitungan",
+    "feedback": "This doesn't even make any fucking sense",
+    "after": ""
+  },
+  {
+    "record": 96,
+    "before": "sedangkan jumlah insiden dihitung dari insidennya",
+    "feedback": "What are you even trying to say? \"data is calculated from the data\"?",
+    "after": ""
+  },
+  {
+    "record": 97,
+    "before": "Rata-rata durasi dihitung dari catatan durasi yang valid",
+    "feedback": "Unnecessary detail. \"[implied] correct data is calculated from correct data\". What the fuck is wrong with you?",
+    "after": ""
+  },
+  {
+    "record": 98,
+    "before": "Data induk",
+    "feedback": "Does \"data induk\" here mean master data? Use \"data master\". It's well-known",
+    "after": "Kumpulan data uji memuat 237 baris yang disiapkan pada 15 tabel operasional. Baris tersebut mencakup laporan pemantauan transaksi beserta rincian durasi, laporan lalu lintas dan jumlah kendaraan, catatan insiden berikut tindakan penanganan, laporan kecelakaan, serta jadwal dan hasil inspeksi. Data master dan konfigurasi memuat identitas ruas, gerbang, golongan kendaraan, aset, serta parameter SPM/SLA yang diperlukan dalam analisis. Tabel 3.2 merangkum hubungan kelompok analisis dengan data sumber utamanya."
+  },
+  {
+    "record": 99,
+    "before": "Konteks bisnis disusun dari pemahaman sistem yang diperoleh selama pengembangan HKA TROM.",
+    "feedback": "Slop",
+    "after": "Data penelitian berasal dari basis data HKA TROM. Data operasional yang telah dianonimkan dan data uji terkontrol ditempatkan dalam tabel yang sama."
+  },
+  {
+    "record": 100,
+    "before": "Dokumen internal resmi tidak disertakan karena pembatasan kerahasiaan.",
+    "feedback": "Slop",
+    "after": "Data penelitian berasal dari basis data HKA TROM. Data operasional yang telah dianonimkan dan data uji terkontrol ditempatkan dalam tabel yang sama."
+  },
+  {
+    "record": 101,
+    "before": "Catatan lain tetap berada dalam lingkungan data yang dapat dibaca agen. Nama entitas, struktur kolom, hubungan data, dan catatan uji digunakan untuk menjelaskan metode tanpa memublikasikan data operasional nyata.",
+    "feedback": "Unnecessary detail, signs of AI slop.\n\nDetails that you write must justify its existence. I don't think these are justified",
+    "after": "Data penelitian berasal dari basis data HKA TROM. Data operasional yang telah dianonimkan dan data uji terkontrol ditempatkan dalam tabel yang sama."
+  },
+  {
+    "record": 102,
+    "before": "nyata",
+    "feedback": "AI slop. Do a \"No AI Slop\" skill pass again, focus on Chapter 3. I see a lot of slop writing",
+    "after": "null"
+  },
+  {
+    "record": 103,
+    "before": "skema public",
+    "feedback": "This can get conflated with public-access schema, which it is NOT.",
+    "after": "Basis data penelitian menggunakan skema HKA TROM dan diisi dengan data sintetis."
+  },
+  {
+    "record": 104,
+    "before": "Tahap terakhir membandingkan tingkat keberhasilan kedua model dengan dan tanpa konteks bisnis, lalu memeriksa kasus yang gagal atau hasilnya berubah antarpengulangan",
+    "feedback": "Same with above. Also \"antarpengulangan\" sounds made-up",
+    "after": "Pada tahap generasi jawaban, agen membaca data dan menyusun jawaban berdasarkan prompt. Jawaban tersebut kemudian dibandingkan dengan acuan untuk menentukan PASS atau FAIL. Pada tahap analisis hasil, tingkat keberhasilan kedua model dibandingkan pada pengujian dengan dan tanpa konteks bisnis. Jawaban yang gagal serta perbedaan hasil pada tiga pengulangan juga diperiksa. Gambar 3.1 merangkum kelima tahap penelitian."
+  },
+  {
+    "record": 105,
+    "before": "Tahap keempat membandingkan jawaban tersebut dengan acuan untuk menentukan PASS atau FAIL",
+    "feedback": "Same with above. Really. What the fuck is wrong with you?",
+    "after": "Pada tahap generasi jawaban, agen membaca data dan menyusun jawaban berdasarkan prompt. Jawaban tersebut kemudian dibandingkan dengan acuan untuk menentukan PASS atau FAIL. Pada tahap analisis hasil, tingkat keberhasilan kedua model dibandingkan pada pengujian dengan dan tanpa konteks bisnis. Jawaban yang gagal serta perbedaan hasil pada tiga pengulangan juga diperiksa. Gambar 3.1 merangkum kelima tahap penelitian."
+  },
+  {
+    "record": 106,
+    "before": "Tahap kedua menyusun pertanyaan berbahasa Indonesia beserta ketentuan jawaban JSON, serta dokumen konteks bisnis yang menjelaskan data dan aturan analisis",
+    "feedback": "Same as the previous comment. Jesus fucking christ",
+    "after": "Penelitian diawali dengan penyiapan data dan jawaban acuan untuk 15 kasus berdasarkan aturan HKA TROM. Selanjutnya, prompt dan dokumen konteks bisnis disusun. Prompt memuat pertanyaan berbahasa Indonesia dan ketentuan jawaban JSON, sedangkan dokumen konteks bisnis menjelaskan data dan aturan analisis."
+  },
+  {
+    "record": 107,
+    "before": "Tahap pertama menyiapkan data dan jawaban acuan untuk 15 kasus berdasarkan aturan HKA TROM",
+    "feedback": "Are you fucking kidding me? \"Tahap pertama  (subject) menyiapkan (verb) data (noun)...\"? What the fuck is wrong with you? Can't write a coherent sentence?",
+    "after": "Penelitian diawali dengan penyiapan data dan jawaban acuan untuk 15 kasus berdasarkan aturan HKA TROM. Selanjutnya, prompt dan dokumen konteks bisnis disusun. Prompt memuat pertanyaan berbahasa Indonesia dan ketentuan jawaban JSON, sedangkan dokumen konteks bisnis menjelaskan data dan aturan analisis."
+  },
+  {
+    "record": 108,
+    "before": "Jawaban tersebut terkait dengan satu kasus, satu kombinasi model dan kondisi konteks, serta satu nomor pengulangan",
+    "feedback": "Overly formal and a lot of unnecessary detail",
+    "after": "Lima belas kasus dipilih untuk menguji perhitungan durasi transaksi dan lalu lintas, status insiden dan penyebab kecelakaan, hasil inspeksi, serta kepatuhan terhadap SPM/SLA. Kasus tersebut mencakup sembilan jenis tugas T1 sampai T9. Setiap kasus dijalankan tiga kali. Dengan demikian, setiap model menghasilkan 45 jawaban dengan konteks bisnis dan 45 jawaban tanpa konteks bisnis. Total jawaban dari kedua model adalah 180, seperti dirinci pada Tabel 3.1."
+  },
+  {
+    "record": 109,
+    "before": "tersimpan menjadi satu unit penilaian",
+    "feedback": "Overly technical. Find simpler way to express this",
+    "after": "Lima belas kasus dipilih untuk menguji perhitungan durasi transaksi dan lalu lintas, status insiden dan penyebab kecelakaan, hasil inspeksi, serta kepatuhan terhadap SPM/SLA. Kasus tersebut mencakup sembilan jenis tugas T1 sampai T9. Setiap kasus dijalankan tiga kali. Dengan demikian, setiap model menghasilkan 45 jawaban dengan konteks bisnis dan 45 jawaban tanpa konteks bisnis. Total jawaban dari kedua model adalah 180, seperti dirinci pada Tabel 3.1."
+  },
+  {
+    "record": 110,
+    "before": "pemilihan populasi, hubungan antarentitas, perhitungan agregat, penentuan status, serta penggunaan konfigurasi indikator",
+    "feedback": "Find a simpler way to express this. This is a bunch of technobabble",
+    "after": "Lima belas kasus dipilih untuk menguji perhitungan durasi transaksi dan lalu lintas, status insiden dan penyebab kecelakaan, hasil inspeksi, serta kepatuhan terhadap SPM/SLA. Kasus tersebut mencakup sembilan jenis tugas T1 sampai T9. Setiap kasus dijalankan tiga kali. Dengan demikian, setiap model menghasilkan 45 jawaban dengan konteks bisnis dan 45 jawaban tanpa konteks bisnis. Total jawaban dari kedua model adalah 180, seperti dirinci pada Tabel 3.1."
+  },
+  {
+    "record": 111,
+    "before": "kondisi konteks",
+    "feedback": "Jesus fuck what the fuck is \"kondisi konteks\"",
+    "after": "pada kondisi dengan dan tanpa konteks bisnis"
+  },
+  {
+    "record": 112,
+    "before": "tingkat keberhasilan, konsistensi pengulangan,",
+    "feedback": "Isn't \"konsistensi pengulangan\" part of \"tingkat keberhasilan\"?",
+    "after": "Pada tahap ketiga, agen membaca data dan menyusun jawaban berdasarkan prompt. Tahap keempat membandingkan jawaban tersebut dengan acuan untuk menentukan PASS atau FAIL. Tahap terakhir membandingkan tingkat keberhasilan kedua model dengan dan tanpa konteks bisnis, lalu memeriksa kasus yang gagal atau hasilnya berubah antarpengulangan. Gambar 3.1 merangkum alur penelitian."
+  },
+  {
+    "record": 113,
+    "before": "untuk setiap jawaban akhir",
+    "feedback": "What does \"Untuk setiap jawaban akhir\" even mean",
+    "after": "Pada tahap ketiga, agen membaca data dan menyusun jawaban berdasarkan prompt. Tahap keempat membandingkan jawaban tersebut dengan acuan untuk menentukan PASS atau FAIL. Tahap terakhir membandingkan tingkat keberhasilan kedua model dengan dan tanpa konteks bisnis, lalu memeriksa kasus yang gagal atau hasilnya berubah antarpengulangan. Gambar 3.1 merangkum alur penelitian."
+  },
+  {
+    "record": 114,
+    "before": "yang disimpan terpisah",
+    "feedback": "Unnecessary detail",
+    "after": "Pada tahap ketiga, agen membaca data dan menyusun jawaban berdasarkan prompt. Tahap keempat membandingkan jawaban tersebut dengan acuan untuk menentukan PASS atau FAIL. Tahap terakhir membandingkan tingkat keberhasilan kedua model dengan dan tanpa konteks bisnis, lalu memeriksa kasus yang gagal atau hasilnya berubah antarpengulangan. Gambar 3.1 merangkum alur penelitian."
+  },
+  {
+    "record": 115,
+    "before": "permintaan",
+    "feedback": "Should we say \"prompt\" instead of \"permintaan\"? What do you think?",
+    "after": "pertanyaan dalam bahasa alami"
+  },
+  {
+    "record": 116,
+    "before": "Pertanyaan yang sama digunakan pada kondisi dengan dan tanpa konteks bisnis.",
+    "feedback": "We've said this before. I feel like we're repeating things. Pick one place where it's the most appropriate",
+    "after": "Penelitian dilakukan melalui lima tahap, yaitu penyiapan data, penyusunan prompt dan konteks bisnis, generasi jawaban, evaluasi, serta analisis hasil. Tahap pertama menyiapkan data dan jawaban acuan untuk 15 kasus berdasarkan aturan HKA TROM. Tahap kedua menyusun pertanyaan berbahasa Indonesia beserta ketentuan jawaban JSON, serta dokumen konteks bisnis yang menjelaskan data dan aturan analisis."
+  },
+  {
+    "record": 117,
+    "before": "penyusunan prompt dan kondisi konteks",
+    "feedback": "Again, \"kondisi konteks\" isn't clear what it is",
+    "after": "Penelitian dilakukan melalui lima tahap, yaitu penyiapan data, penyusunan prompt dan konteks bisnis, generasi jawaban, evaluasi, serta analisis hasil. Tahap pertama menyiapkan data dan jawaban acuan untuk 15 kasus berdasarkan aturan HKA TROM. Tahap kedua menyusun pertanyaan berbahasa Indonesia beserta ketentuan jawaban JSON, serta dokumen konteks bisnis yang menjelaskan data dan aturan analisis."
+  },
+  {
+    "record": 118,
+    "before": "Muse Spark 1.3 dan DeepSeek v4 dibandingkan pada kondisi konteks yang sama.",
+    "feedback": "Avoid using \"Konteks\" since that might get conflated with konteks bisnis. Use another term. Experiment environment? Or things like that",
+    "after": "Muse Spark 1.3 dan DeepSeek v4 masing-masing diuji dengan dan tanpa konteks bisnis. Agar hasilnya dapat dibandingkan, kedua model menggunakan kasus, data, tool, dan prompt yang sama serta dinilai dengan acuan yang sama. Pada setiap model, hanya akses ke dokumen konteks bisnis yang diubah, sedangkan pengaturan lainnya tetap."
+  },
+  {
+    "record": 119,
+    "before": "Data, tool, pertanyaan, ketentuan jawaban, jawaban acuan, dan pengaturan eksekusi dipertahankan sama",
+    "feedback": "I feel like this is unnecessary detail. Or is it? Feel free to push back. Or maybe we should rephrase this so that it feels it connects with the rest of the text instead of being an \"outlier\"...all of a sudden we're explaining \"data, tool, pertanyaan, ...\"",
+    "after": "Muse Spark 1.3 dan DeepSeek v4 masing-masing diuji dengan dan tanpa konteks bisnis. Agar hasilnya dapat dibandingkan, kedua model menggunakan kasus, data, tool, dan prompt yang sama serta dinilai dengan acuan yang sama. Pada setiap model, hanya akses ke dokumen konteks bisnis yang diubah, sedangkan pengaturan lainnya tetap."
+  },
+  {
+    "record": 120,
+    "before": "merupakan rancangan faktorial penuh",
+    "feedback": "I feel like this is a bunch of technobabble. Find a simpler way to explain this",
+    "after": "Muse Spark 1.3 dan DeepSeek v4 masing-masing diuji dengan dan tanpa konteks bisnis. Agar hasilnya dapat dibandingkan, kedua model menggunakan kasus, data, tool, dan prompt yang sama serta dinilai dengan acuan yang sama. Pada setiap model, hanya akses ke dokumen konteks bisnis yang diubah, sedangkan pengaturan lainnya tetap."
+  },
+  {
+    "record": 121,
+    "before": ";",
+    "feedback": "AI slop. Stop using semicolon. Semicolon is completely banned from this thesis. Find other way to more naturally convey your idea.",
+    "after": "Pada HKA TROM, aturan domain menentukan cara menghitung data dan memahami hasilnya. Sebagai contoh, Lalu Lintas Harian Rata-rata (LHR) menggunakan jumlah hari kalender sebagai penyebut. Penggunaan jumlah hari yang memiliki laporan dapat menghasilkan nilai berbeda. Implementasi fungsi-fungsi analitik yang sudah tersedia menjadi acuan untuk memeriksa hasil analisis agen. Selama pengujian, akses terhadap fitur analitik target dibatasi agar agen menyelesaikan permintaan melalui data yang disediakan."
+  },
+  {
+    "record": 122,
+    "before": "Penilaian membandingkan struktur dan nilai JSON yang telah dibaca terhadap jawaban acuan, tanpa validator JSON Schema yang terpisah.",
+    "feedback": "Nobody fucking even thought about a separate JSON schema validator. Don't even fucking bring it up.",
+    "after": "JSON Schema digunakan dalam prompt untuk menyampaikan ketentuan keluaran. Respons dan jawaban acuan dibaca sebagai JSON, kemudian struktur dan nilainya dibandingkan. Prosedur penilaian dijelaskan pada Bagian 3.5.1."
+  },
+  {
+    "record": 123,
+    "before": "Penelitian ini membandingkan DeepSeek v4 dan Muse Spark 1.3. Kedua model diuji menggunakan kasus analitis, akses ke tool, dan kriteria evaluasi yang sama pada kondisi dengan dan tanpa konteks bisnis. Perbandingan mengamati ketepatan hasil serta perbedaannya menurut ketersediaan paket konteks bisnis pada masing-masing model. Dalam dokumentasi pengujian, identitas model dicatat sebagai DeepSeek v4. Batas interpretasi berdasarkan rincian konfigurasi layanan dijelaskan pada Bagian 4.9.6.",
+    "feedback": "What made you fucking think this belongs to the DeepSeek v4 section. Re-read my friend's thesis and follow its subsection structure. Don't fucking invent explanations like these.",
+    "after": ""
+  },
+  {
+    "record": 124,
+    "before": "Pada HKA TROM, agen perlu memahami pertanyaan, memilih sumber data, membaca hasil tool call, dan menyusun jawaban sesuai aturan bisnis. Muse Spark 1.3 digunakan untuk menjalankan rangkaian tersebut pada kondisi dengan dan tanpa konteks bisnis. Kinerjanya dinilai melalui kesesuaian nilai respons JSON dengan jawaban acuan pada kasus penelitian.",
+    "feedback": "What made you fucking think this belongs to the Muse Spark 1.3 subsection",
+    "after": ""
+  },
+  {
+    "record": 125,
+    "before": "Context window menentukan jumlah token maksimum yang dapat diproses model. Token ini dapat berasal dari instruksi pengguna, deskripsi tool, konteks bisnis, dan hasil tool call sebelumnya.",
+    "feedback": "What made you fucking think this belongs to the Muse Spark 1.3 subsection",
+    "after": "Muse Spark 1.3 memiliki context window sebesar 1.048.576 token. Dokumentasi produknya mencantumkan dukungan pemrosesan gambar, video, dokumen, dan tool calling (Meta, 2026b, 2026c)."
+  },
+  {
+    "record": 126,
+    "before": "model ini dilatih untuk melakukan tool call, mengumpulkan informasi dari berbagai sumber, dan menggunakan kembali informasi tersebut pada langkah-langkah berikutnya",
+    "feedback": "This is not specific to Muse Spark 1.3. Why are we implying that? I see you have a lot of problem with attributing general aspects/descriptions to a specific thing. This doesn't happen just here, but all across the thesis. Re-read the thesis and purge it of these kinds of horrible pattern.",
+    "after": "Meta memperkenalkan Muse Spark 1.3 pada September 2026 sebagai pengembangan dari keluarga Muse Spark. Model ini tersedia melalui Meta Model API dan Muse Code (Meta, 2026a)."
+  },
+  {
+    "record": 127,
+    "before": "Jumlah token yang digunakan pada setiap pengujian bergantung pada prompt, hasil tool call, dan jawaban model.",
+    "feedback": "is this information really necessary? Stop trying to explain every little detail",
+    "after": ""
+  },
+  {
+    "record": 128,
+    "before": "Brown dkk. (2020) menunjukkan bahwa model yang lebih besar dapat menyelesaikan berbagai tugas pemrosesan bahasa berdasarkan instruksi dan contoh dalam prompt",
+    "feedback": "This is factually ambiguous. \"Larger model can do xxx\", why is \"large\" a necessary modifier there? I think we shouldn't make that distinction. Feel free to push back.",
+    "after": "Large Language Model (LLM) adalah model bahasa berskala besar yang dilatih pada kumpulan teks untuk mempelajari pola bahasa dan menghasilkan keluaran berdasarkan konteks. Brown dkk. (2020) menunjukkan bahwa GPT-3 dapat mengerjakan berbagai tugas pemrosesan bahasa melalui instruksi atau contoh dalam prompt, tanpa fine-tuning khusus untuk setiap tugas. Dalam agen, LLM memahami instruksi, memilih tindakan, dan menyusun jawaban menggunakan informasi serta tool yang tersedia (Wang dkk., 2024)."
+  },
+  {
+    "record": 129,
+    "before": "evaluasi otomatis",
+    "feedback": "No need to call it \"Evaluasi otomatis\". Just call it \"Evaluasi\".",
+    "after": "Penelitian dilakukan melalui lima tahap, yaitu penyiapan data, penyusunan prompt dan kondisi konteks, generasi jawaban, evaluasi, serta analisis hasil. Tahap pertama menentukan data HKA TROM yang digunakan, aturan analisis, dan jawaban acuan untuk 15 kasus. Pada tahap kedua, setiap kebutuhan analisis dirumuskan sebagai pertanyaan dalam bahasa Indonesia beserta ketentuan jawaban JSON. Pertanyaan yang sama digunakan pada kondisi dengan dan tanpa konteks bisnis."
+  },
+  {
+    "record": 130,
+    "before": "Hasil dibandingkan antarmodel pada kondisi konteks yang sama dan antarkondisi konteks pada model yang sama",
+    "feedback": "This is quite hard to follow",
+    "after": "Dua model diuji dengan dan tanpa konteks bisnis sehingga menghasilkan empat kombinasi pengujian. Penggabungan seluruh model dengan setiap kondisi konteks ini merupakan rancangan faktorial penuh (NIST/SEMATECH, t.t.). Data, tool, pertanyaan, ketentuan jawaban, jawaban acuan, dan pengaturan eksekusi dipertahankan sama. Muse Spark 1.3 dan DeepSeek v4 dibandingkan pada kondisi konteks yang sama. Untuk setiap model, hasil dengan konteks bisnis dibandingkan dengan hasil tanpa konteks bisnis."
+  },
+  {
+    "record": 131,
+    "before": "paket konteks",
+    "feedback": "Instead of \"paket konteks\", say \"konteks bisnis\" instead. Applies everywhere throughout this document.",
+    "after": "konteks bisnis"
+  },
+  {
+    "record": 132,
+    "before": "Rancangan faktorial penuh mengombinasikan setiap tingkat suatu faktor dengan seluruh tingkat faktor lainnya",
+    "feedback": "Hard to read. Too technical and unclear on what we intend to say",
+    "after": "Dua model diuji dengan dan tanpa konteks bisnis sehingga menghasilkan empat kombinasi pengujian. Penggabungan seluruh model dengan setiap kondisi konteks ini merupakan rancangan faktorial penuh (NIST/SEMATECH, t.t.). Data, tool, pertanyaan, ketentuan jawaban, jawaban acuan, dan pengaturan eksekusi dipertahankan sama. Muse Spark 1.3 dan DeepSeek v4 dibandingkan pada kondisi konteks yang sama. Untuk setiap model, hasil dengan konteks bisnis dibandingkan dengan hasil tanpa konteks bisnis."
+  },
+  {
+    "record": 133,
+    "before": "Kapasitas konteks dalam tabel menunjukkan batas yang dipublikasikan pengembang.",
+    "feedback": "overly formal",
+    "after": "Jumlah token yang digunakan pada setiap pengujian bergantung pada prompt, hasil tool call, dan jawaban model."
+  },
+  {
+    "record": 134,
+    "before": "menafsirkan instruksi, memilih tindakan, dan menyusun jawaban bersama dukungan lingkungan eksekusi, alat, serta informasi yang tersedia selama penyelesaian tugas",
+    "feedback": "oddly formal, sounds inhuman",
+    "after": "Large Language Model (LLM) adalah model bahasa berskala besar yang dilatih pada kumpulan teks untuk mempelajari pola bahasa dan menghasilkan keluaran berdasarkan konteks. Brown dkk. (2020) menunjukkan bahwa model yang lebih besar dapat menyelesaikan berbagai tugas pemrosesan bahasa berdasarkan instruksi dan contoh dalam prompt. Dalam agen, LLM memahami instruksi, memilih tindakan, dan menyusun jawaban menggunakan informasi serta tool yang tersedia (Wang dkk., 2024)."
+  },
+  {
+    "record": 135,
+    "before": "sistem agen",
+    "feedback": "what the fuck is \"sistem agen\"? stop using weird fucking terms like these",
+    "after": "Large Language Model (LLM) adalah model bahasa berskala besar yang dilatih pada kumpulan teks untuk mempelajari pola bahasa dan menghasilkan keluaran berdasarkan konteks. Brown dkk. (2020) menunjukkan bahwa model yang lebih besar dapat menyelesaikan berbagai tugas pemrosesan bahasa berdasarkan instruksi dan contoh dalam prompt. Dalam agen, LLM memahami instruksi, memilih tindakan, dan menyusun jawaban menggunakan informasi serta tool yang tersedia (Wang dkk., 2024)."
+  },
+  {
+    "record": 136,
+    "before": "peningkatan skala model memungkinkan berbagai tugas bahasa dikerjakan melalui instruksi dan contoh dalam masukan",
+    "feedback": "sounds awkward. avoid oddly formal languages like this. \n\nthis rule doesn't just apply to this selection, but everywhere in your writing. do a re-review of weird patterns like these. make sure you understand the nuance of this complaint",
+    "after": "Large Language Model (LLM) adalah model bahasa berskala besar yang dilatih pada kumpulan teks untuk mempelajari pola bahasa dan menghasilkan keluaran berdasarkan konteks. Brown dkk. (2020) menunjukkan bahwa model yang lebih besar dapat menyelesaikan berbagai tugas pemrosesan bahasa berdasarkan instruksi dan contoh dalam prompt. Dalam agen, LLM memahami instruksi, memilih tindakan, dan menyusun jawaban menggunakan informasi serta tool yang tersedia (Wang dkk., 2024)."
+  },
+  {
+    "record": 137,
+    "before": "mempertahankan informasi selama penyelesaian tugas",
+    "feedback": "also sounds awkward. we're overtranslating here",
+    "after": "Meta memperkenalkan Muse Spark 1.3 pada September 2026 sebagai model untuk alur kerja agentic dan pemrograman bertahap. Menurut Meta, model ini dilatih untuk melakukan tool call, mengumpulkan informasi dari berbagai sumber, dan menggunakan kembali informasi tersebut pada langkah-langkah berikutnya. Muse Spark 1.3 tersedia melalui Meta Model API dan Muse Code (Meta, 2026a)."
+  },
+  {
+    "record": 138,
+    "before": "mengumpulkan konteks dari berbagai sumber",
+    "feedback": "sounds awkward. again, i think we're overtranslating here",
+    "after": "Meta memperkenalkan Muse Spark 1.3 pada September 2026 sebagai model untuk alur kerja agentic dan pemrograman bertahap. Menurut Meta, model ini dilatih untuk melakukan tool call, mengumpulkan informasi dari berbagai sumber, dan menggunakan kembali informasi tersebut pada langkah-langkah berikutnya. Muse Spark 1.3 tersedia melalui Meta Model API dan Muse Code (Meta, 2026a)."
+  },
+  {
+    "record": 139,
+    "before": "menggunakan alat",
+    "feedback": "tool call. use english terms",
+    "after": "Meta memperkenalkan Muse Spark 1.3 pada September 2026 sebagai model untuk alur kerja agentic dan pemrograman bertahap. Menurut Meta, model ini dilatih untuk melakukan tool call, mengumpulkan informasi dari berbagai sumber, dan menggunakan kembali informasi tersebut pada langkah-langkah berikutnya. Muse Spark 1.3 tersedia melalui Meta Model API dan Muse Code (Meta, 2026a)."
+  }
+]

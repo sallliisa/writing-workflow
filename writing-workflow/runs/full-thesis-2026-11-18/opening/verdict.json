@@ -1,0 +1,58 @@
+{
+  "decisions": [
+    {
+      "id": "OE01",
+      "preferred": "X",
+      "reason": "‘Menjawab pertanyaan pengguna’ names the object naturally and follows the paragraph's opening sentence. It addresses the explicit objection to ‘permintaan analisis’ in record 68 without changing the analytical context or the cited account of agent behavior.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "OE02",
+      "preferred": "Y",
+      "reason": "‘Status pemenuhan setiap indikator SPM/SLA pada dua periode’ specifies what is compared, resolving the ambiguity of ‘hasil dari dua periode’ identified in record 27. The T9 explanation in the frozen source explicitly supports this comparison.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "OE03",
+      "preferred": "X",
+      "reason": "‘Antara pengulangan’ preserves the comparison across repetitions and addresses record 104's objection to ‘antarpengulangan’. The five boundaries, all quantities, and the evaluation scope remain intact.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "OE04",
+      "preferred": "X",
+      "reason": "Y removes both the protocol condition and the preprint qualification from the comparison table's limitations cell. Those are substantive qualifications of the cited evidence, not equivalent diction. X preserves them, along with the table structure, all numbers, names, and other cells.",
+      "semantic_regression": true,
+      "remaining_problem": "Record 9 remains unresolved: ‘protokol single-shot’ is unexplained and its relevance is unstated. Retaining X is a preservation decision, not an endorsement of its readability. A further repair should explain the protocol in ordinary language, after checking precisely what it constrains, and make its relevance to the comparison apparent. The concern about the preprint detail also needs a reasoned relevance decision rather than silent deletion."
+    },
+    {
+      "id": "OE05",
+      "preferred": "X",
+      "reason": "Removing the appended ‘dengan protokol single-shot’ makes the sentence about assessment easier to follow and avoids repeating the unexplained protocol label already retained in row 7 of Table 2.1. The paragraph still preserves the compared conditions, 99 questions, effect range, execution results, and named judge.",
+      "semantic_regression": false,
+      "remaining_problem": "This preference depends on retaining the protocol condition in the table, as recommended for OE04. Record 9's objection to the unexplained term remains in that table and is not fully resolved by this paragraph edit."
+    },
+    {
+      "id": "OE06",
+      "preferred": "Y",
+      "reason": "‘Minimal satu tindakan penanganan’ expresses the same minimum-count condition as ‘setidaknya satu’ and follows the explicit diction preference in record 92. The requirement that all associated actions be complete remains unchanged.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "OE07",
+      "preferred": "X",
+      "reason": "‘Antar periode’ follows the explicit spelling preference in record 19. The calculation types, missing-value condition, citations, and comparison scope are otherwise identical.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    }
+  ],
+  "notes": [
+    "For OE04, semantic_regression=true identifies the substantive qualifications removed by the rejected Y alternative; the preferred X retains the frozen source's scope.",
+    "OE05 was assessed with unchanged surrounding context and the recommended retention of OE04 X. Accepting both deletions would remove the protocol condition from this discussion entirely.",
+    "This comparison checks preservation against the frozen manuscript and supplied feedback. It does not independently verify the cited publications. Historical comments about unrelated blocks do not establish new defects in these seven passages."
+  ]
+}

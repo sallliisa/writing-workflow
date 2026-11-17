@@ -1,0 +1,46 @@
+{
+  "decisions": [
+    {
+      "id": "S01",
+      "preferred": "Y",
+      "reason": "Y mengganti istilah «protokol single-shot» dengan operasi yang dapat dipahami: kedua kondisi menghasilkan satu query SQL per pertanyaan tanpa umpan balik eksekusi atau kesempatan memperbaiki query. Batas ini relevan dalam kolom keterbatasan karena membatasi perbandingan dengan agen yang melakukan analisis bertahap. Penjelasan sesuai verifikasi Bagian 4.2 sumber primer yang diberikan koordinator dan tidak menyatakan satu pengulangan eksperimen. Angka 100, 99, dan kenaikan 17,2–23,2 poin persentase serta dasar penilaian tetap. Penghapusan kalimat tentang preprint menanggapi record 9 dan tidak menyembunyikan status sumber karena bibliografi tetap mengidentifikasi arXiv.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "S02",
+      "preferred": "X",
+      "reason": "X menjelaskan data yang digabungkan untuk dua ringkasan: jawaban kedua model dalam kondisi konteks yang sama, serta jawaban dengan dan tanpa konteks untuk setiap model. X juga membedakan kedua ringkasan tersebut dari hasil empat kombinasi yang disajikan terpisah dan menyatakan ketiga pengulangan tercakup. Ini sesuai Tabel 4.3–4.5 dan susunan yang berulang pada analisis berikutnya. Y hanya menyebut «setiap kelompok», sehingga pembaca dapat mengira seluruh ringkasan merupakan empat kombinasi terpisah. Perbandingan dalam kondisi yang sama tetap dipertahankan dalam X.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "S03",
+      "preferred": "tie",
+      "reason": "Kedua versi menyatakan 170 dari 180 jawaban PASS dan seluruh sepuluh kegagalan berasal dari pengujian tanpa konteks bisnis. Y lebih singkat, tetapi tidak memperbaiki ambiguitas yang terbukti pada lokasi ini: enam kelompok sudah dirinci dalam Bagian 3.5.3, Tabel 4.2, dan enam bagian hasil sebelum Bagian 4.9. Berbeda dari masalah record 5, penyebut di sini disebut langsung sebagai 180 jawaban. X memberi pengingat cakupan yang benar, sedangkan Y mengandalkan konteks yang tersedia. Tidak ada keuntungan pemahaman yang cukup kuat untuk mewajibkan perubahan.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "S04",
+      "preferred": "X",
+      "reason": "«Minimal satu tindakan penanganan» mempertahankan syarat adanya satu tindakan atau lebih dan syarat stage 100 untuk seluruh tindakan. Pilihan ini mengikuti istilah jumlah minimal yang ditetapkan profil tesis dan penggunaan «minimal satu» pada penjelasan status insiden yang dipuji dalam record 2. Ini penyesuaian terhadap preferensi istilah penulis, bukan klaim bahwa «setidaknya» mengubah makna atau selalu kurang jelas.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "S05",
+      "preferred": "Y",
+      "reason": "Y menerapkan permintaan langsung record 92 untuk memakai «minimal» menggantikan «sedikitnya». Batas minimal tiga kali tetap berbeda dari tepat tiga eksekusi pada kalimat berikutnya. Atribusi, cakupan evaluasi utama, dan tugas open-ended tidak berubah.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    }
+  ],
+  "notes": [
+    "Perbandingan dinilai sebelum membaca proposals.json, labels.json, atau penjelasan penulis. Ketiga berkas tersebut tidak dibaca.",
+    "Konteks yang digunakan: reviewer.md, thesis-profile.md, academic-writing/SKILL.md, bagian terkait source.md dan draft-round-1.md, serta feedback.json terutama record 2, 5, 9, dan 92.",
+    "Verifikasi tambahan S01 berasal dari laporan koordinator tentang sumber primer https://arxiv.org/pdf/2604.25149 Bagian 4.2. Pemeriksa ini tidak melakukan verifikasi sumber primer terpisah. Sumber lain yang kutipannya tidak berubah tidak diverifikasi ulang.",
+    "semantic_regression menilai ada tidaknya regresi pada versi yang dipilih terhadap sumber beku. Pada keputusan tie, tidak ditemukan regresi material pada kedua pilihan dalam konteks yang tersedia.",
+    "S01 dan S02 menyelesaikan masalah penjelasan yang teridentifikasi. S04 dan S05 menyelaraskan istilah dengan preferensi penulis. Dugaan perlunya perubahan S03 ditarik karena konteks sudah membuat cakupannya jelas. Tidak ada perubahan pada naskah dilakukan oleh pemeriksa."
+  ]
+}

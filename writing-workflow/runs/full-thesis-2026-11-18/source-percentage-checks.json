@@ -1,0 +1,338 @@
+[
+  {
+    "line": 507,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 508,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 520,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 521,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 533,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 534,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 535,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 536,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 550,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 551,
+    "ratio": "8/12",
+    "displayed": "66.67",
+    "calculated": "66.67",
+    "consistent": true
+  },
+  {
+    "line": 563,
+    "ratio": "11/12",
+    "displayed": "91.67",
+    "calculated": "91.67",
+    "consistent": true
+  },
+  {
+    "line": 564,
+    "ratio": "9/12",
+    "displayed": "75.00",
+    "calculated": "75.00",
+    "consistent": true
+  },
+  {
+    "line": 576,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 577,
+    "ratio": "5/6",
+    "displayed": "83.33",
+    "calculated": "83.33",
+    "consistent": true
+  },
+  {
+    "line": 578,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 579,
+    "ratio": "3/6",
+    "displayed": "50.00",
+    "calculated": "50.00",
+    "consistent": true
+  },
+  {
+    "line": 597,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 598,
+    "ratio": "10/12",
+    "displayed": "83.33",
+    "calculated": "83.33",
+    "consistent": true
+  },
+  {
+    "line": 610,
+    "ratio": "10/12",
+    "displayed": "83.33",
+    "calculated": "83.33",
+    "consistent": true
+  },
+  {
+    "line": 611,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 623,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 624,
+    "ratio": "4/6",
+    "displayed": "66.67",
+    "calculated": "66.67",
+    "consistent": true
+  },
+  {
+    "line": 625,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 626,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 655,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 656,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 668,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 669,
+    "ratio": "6/6",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 681,
+    "ratio": "3/3",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 682,
+    "ratio": "3/3",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 683,
+    "ratio": "3/3",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 684,
+    "ratio": "3/3",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 698,
+    "ratio": "24/24",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 699,
+    "ratio": "20/24",
+    "displayed": "83.33",
+    "calculated": "83.33",
+    "consistent": true
+  },
+  {
+    "line": 711,
+    "ratio": "23/24",
+    "displayed": "95.83",
+    "calculated": "95.83",
+    "consistent": true
+  },
+  {
+    "line": 712,
+    "ratio": "21/24",
+    "displayed": "87.50",
+    "calculated": "87.50",
+    "consistent": true
+  },
+  {
+    "line": 724,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 725,
+    "ratio": "11/12",
+    "displayed": "91.67",
+    "calculated": "91.67",
+    "consistent": true
+  },
+  {
+    "line": 726,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 727,
+    "ratio": "9/12",
+    "displayed": "75.00",
+    "calculated": "75.00",
+    "consistent": true
+  },
+  {
+    "line": 756,
+    "ratio": "24/24",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 757,
+    "ratio": "24/24",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 769,
+    "ratio": "24/24",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 770,
+    "ratio": "24/24",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 782,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 783,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 784,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  },
+  {
+    "line": 785,
+    "ratio": "12/12",
+    "displayed": "100.00",
+    "calculated": "100.00",
+    "consistent": true
+  }
+]

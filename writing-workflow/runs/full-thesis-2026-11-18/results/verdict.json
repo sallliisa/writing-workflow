@@ -1,0 +1,128 @@
+{
+  "decisions": [
+    {
+      "id": "E-R-001",
+      "preferred": "X",
+      "reason": "“Dengan dan tanpa konteks bisnis” langsung menyebut dua kondisi yang digabung dalam enam jawaban tiap model. “Kedua kondisi konteks bisnis” mengharuskan pembaca menebak kembali kondisi tersebut.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-002",
+      "preferred": "Y",
+      "reason": "“Seluruh hasil evaluasi yang diminta” memperjelas bagian jawaban yang hilang dan tetap sesuai dengan kasus T7-C2 yang hanya mencantumkan empat dari 20 hasil evaluasi. Jumlah jawaban dan pembagian kegagalan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-003",
+      "preferred": "X",
+      "reason": "X menyebut agen sebagai pelaku dan menjelaskan bahwa objek perbandingan T9 adalah status pemenuhan setiap indikator SPM/SLA, sesuai definisi T9. Y hanya menyebut “hasil dua periode” tanpa objek yang jelas.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-004",
+      "preferred": "Y",
+      "reason": "Tambahan “untuk suatu indikator pada ruas yang dianalisis” menjelaskan cakupan keberlakuan SLA, sesuai aturan konfigurasi ruas dan indikator untuk T7–T9. Makna not_applicable tetap dibedakan dari gagal.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-005",
+      "preferred": "Y",
+      "reason": "Y mempertahankan pembagian enam kelompok analisis yang didefinisikan pada akhir BAB III dan Tabel 4.2. X menggantinya dengan “enam jenis analisis”, yang mudah tertukar dengan sembilan jenis tugas analisis T1–T9. Penyederhanaan kalimat tidak cukup untuk membenarkan label baru ini.",
+      "semantic_regression": true,
+      "remaining_problem": "Kalimat Y masih menggunakan pembukaan “Hasil pengujian ... menunjukkan bahwa” yang dikritik dalam umpan balik. Perbaikannya perlu mempertahankan pembagian enam kelompok atau menghilangkan penyebutan pembagian itu tanpa menciptakan label jumlah baru."
+    },
+    {
+      "id": "E-R-006",
+      "preferred": "Y",
+      "reason": "Y langsung menjelaskan kesalahan pemilihan insiden, syarat is_accident = false yang seharusnya dikecualikan, dan akibat terukurnya, yaitu 7 dibanding 5. Rinciannya didukung uraian T5-C1 dan Tabel 4.12. Kalimat T7-C1 yang telah dipuji tetap utuh.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-007",
+      "preferred": "X",
+      "reason": "X memperjelas bahwa pengaruh tiap dokumen yang belum diketahui adalah pengaruh terhadap ketepatan jawaban. Hubungan antara PASS, kesesuaian dengan expected result, dan manfaat operasional yang belum dinilai menjadi jelas tanpa menghapus keterbatasan jumlah kasus atau pengulangan.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-008",
+      "preferred": "Y",
+      "reason": "Y menyebut frekuensi Kelalaian Pengemudi yang terlalu besar, kategori Kondisi Jalan yang ditambahkan, dan frekuensi Mengantuk yang tetap sesuai. Pembedaan ini sesuai Tabel 4.12 dan mencegah kesan bahwa semua frekuensi penyebab salah. Sepuluh kegagalan dan rinciannya tetap terjaga.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-009",
+      "preferred": "X",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama. Seluruh angka, urutan baris, dan struktur tabel tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-010",
+      "preferred": "Y",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-011",
+      "preferred": "X",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-012",
+      "preferred": "Y",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-013",
+      "preferred": "X",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-014",
+      "preferred": "Y",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-015",
+      "preferred": "X",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-016",
+      "preferred": "Y",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    },
+    {
+      "id": "E-R-017",
+      "preferred": "X",
+      "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+      "semantic_regression": false,
+      "remaining_problem": ""
+    }
+  ],
+  "notes": [
+    "Penilaian membandingkan kedua alternatif dengan naskah sumber dan umpan balik yang relevan. Tidak dilakukan verifikasi sumber eksternal.",
+    "Label baru pada E-R-005 menimbulkan ketidakjelasan antara enam kelompok pembahasan dan sembilan jenis tugas. semantic_regression pada item tersebut menandai masalah pada X, bukan pada Y yang dipilih.",
+    "Tidak ada alternatif yang mengubah daftar pustaka. Satu alternatif tabel hanya mengubah ejaan label dan mempertahankan angka serta strukturnya."
+  ]
+}

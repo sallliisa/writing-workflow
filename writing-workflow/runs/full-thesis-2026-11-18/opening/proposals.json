@@ -1,0 +1,112 @@
+{
+  "edits": [
+    {
+      "id": "OE01",
+      "block_id": "B0006",
+      "before": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis *Large Language Model* (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic *Business Intelligence* merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab permintaan analisis secara *on-demand*.",
+      "after": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis *Large Language Model* (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic *Business Intelligence* merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab pertanyaan pengguna secara *on-demand*.",
+      "findings": [
+        "O01"
+      ],
+      "reason": "Memperjelas objek yang dijawab agen dengan menggunakan pertanyaan pengguna, sesuai tindakan yang dijelaskan pada awal paragraf."
+    },
+    {
+      "id": "OE02",
+      "block_id": "B0009",
+      "before": "Kasus uji dipilih untuk melihat bagaimana agen menggunakan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan hasil dari dua periode.",
+      "after": "Kasus uji dipilih untuk melihat bagaimana agen menggunakan informasi dan aturan bisnis dalam beberapa jenis analisis. Pada sebagian kasus, agen perlu menggabungkan informasi dari beberapa laporan atau mempertimbangkan tindakan yang berkaitan dengan suatu kejadian untuk menentukan statusnya. Pada kasus lain, agen perlu memperhitungkan data yang tidak tersedia atau membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode.",
+      "findings": [
+        "O02"
+      ],
+      "reason": "Menamai status yang dibandingkan pada dua periode sesuai uraian kasus, sehingga objek perbandingan tidak dibiarkan sebagai hasil yang tidak terjelaskan."
+    },
+    {
+      "id": "OE03",
+      "block_id": "B0020",
+      "before": "1. Pengujian terbatas pada 15 kasus dari sembilan jenis tugas analisis operasional HKA TROM, yang mencakup transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA.\n2. Sebanyak 237 baris data sintetis digunakan untuk kasus uji dan perhitungan *expected result*. Data ini dibuat berdasarkan struktur, relasi tabel, konfigurasi, dan aturan bisnis HKA TROM.\n3. Pada kedua kondisi pengujian, agen dapat membaca sumber data, data master, dan konfigurasi melalui layanan yang sama. Agen tidak diberi kode fitur analitik, query yang digunakan oleh fitur tersebut, hasil dashboard, *expected result*, atau data yang sudah diolah menjadi jawaban untuk kasus uji.\n4. Tujuh dokumen konteks bisnis hanya tersedia pada kondisi dengan konteks bisnis dan diberikan bersama kepada agen. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.\n5. Evaluasi membandingkan 180 jawaban terstruktur dari kedua model dengan *expected result*. Hasil penilaian digunakan untuk membandingkan tingkat keberhasilan kedua model dan melihat apakah hasil setiap kasus berubah antarpengulangan.",
+      "after": "1. Pengujian terbatas pada 15 kasus dari sembilan jenis tugas analisis operasional HKA TROM, yang mencakup transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA.\n2. Sebanyak 237 baris data sintetis digunakan untuk kasus uji dan perhitungan *expected result*. Data ini dibuat berdasarkan struktur, relasi tabel, konfigurasi, dan aturan bisnis HKA TROM.\n3. Pada kedua kondisi pengujian, agen dapat membaca sumber data, data master, dan konfigurasi melalui layanan yang sama. Agen tidak diberi kode fitur analitik, query yang digunakan oleh fitur tersebut, hasil dashboard, *expected result*, atau data yang sudah diolah menjadi jawaban untuk kasus uji.\n4. Tujuh dokumen konteks bisnis hanya tersedia pada kondisi dengan konteks bisnis dan diberikan bersama kepada agen. Pengaruh tiap dokumen atau aturan tidak diuji secara terpisah.\n5. Evaluasi membandingkan 180 jawaban terstruktur dari kedua model dengan *expected result*. Hasil penilaian digunakan untuk membandingkan tingkat keberhasilan kedua model dan melihat apakah hasil setiap kasus berubah antara pengulangan.",
+      "findings": [
+        "O03"
+      ],
+      "reason": "Menggunakan ungkapan hubungan antara pengulangan yang lebih alami tanpa mengubah objek pengamatan atau isi batasan penelitian."
+    },
+    {
+      "id": "OE04",
+      "block_id": "B0029",
+      "before": "| No | Penelitian | Fokus | Data / Lingkungan | Evaluasi dan Temuan | Relevansi / Keterbatasan |\n| ----- | ----- | ----- | ----- | ----- | ----- |\n| 1 | Sawant & Sonawane (2024) | Antarmuka bahasa alami untuk basis data dan visualisasi | Kajian NLIDB, NLIV, dan BI | Antarmuka bahasa alami memudahkan akses ke data. Kendalanya mencakup pertanyaan analitis yang kompleks serta pemahaman konteks dan semantik. | Memberikan dasar bagi conversational analytics melalui kajian antarmuka bahasa alami untuk basis data dan visualisasi. |\n| 2 | X. Liu dkk. (2024) - AgentBench | Evaluasi LLM sebagai agen pada lingkungan interaktif | 8 lingkungan dan 29 model API ataupun open-source | Menemukan kendala utama pada penalaran jangka panjang, pengambilan keputusan, dan kepatuhan terhadap instruksi. | Mendukung evaluasi berbasis tugas interaktif pada beragam lingkungan umum. |\n| 3 | Hong dkk. (2025) - Data Interpreter | Agen LLM untuk *workflow* data science dengan beberapa tahap | InfiAgent-DABench, tugas machine learning, dan tugas open-ended | Perencanaan berbasis graph dan verifikasi bertahap meningkatkan kinerja pada beberapa *benchmark* analisis data. | Menunjukkan penggunaan agen untuk merencanakan dan memeriksa analisis data secara bertahap. |\n| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Mengevaluasi insight dari analisis bisnis yang bersifat open-ended dengan penilaian berbasis LLM. |\n| 5 | Lei dkk. (2025) - Spider 2.0 | *Workflow* *Text-to-SQL* tingkat enterprise | 632 tugas dengan basis data besar, metadata, dokumentasi, dan beberapa sistem basis data | Code agent yang diuji menyelesaikan 21,3% tugas, dibandingkan 91,2% pada Spider 1.0. | Menunjukkan kesulitan menyelesaikan tugas SQL pada lingkungan enterprise. |\n| 6 | Vishwakarma dkk. (2025) - EnterpriseBench | Evaluasi agen pada lingkungan enterprise | 500 tugas pada software engineering, HR, finance, dan administrasi | Lingkungan pengujian mencakup data yang tersebar, kontrol akses, dan workflow lintas fungsi. Hasil penyelesaian tugas bervariasi menurut model, framework, dan strategi perencanaan. | Mencakup tugas dari beberapa fungsi organisasi dalam satu lingkungan pengujian. |\n| 7 | Rumiantsau & Fokeev (2026) | Pengaruh semantic layer pada analisis berbasis LLM | 100 pertanyaan retail. Sebanyak 99 dinilai setelah satu query referensi gagal dieksekusi | Analytical Pass Rate meningkat 17,2–23,2 poin persentase berdasarkan penilaian Claude Sonnet 4.6 sebagai judge. | Menguji pemberian dokumen konteks bisnis melalui protokol *single-shot* pada satu dataset retail. Studi ini masih berupa preprint. |\n| 8 | Egg dkk. (2025) — DABstep | Evaluasi agen pada tugas analisis data bertahap | Data CSV/JSON dan dokumentasi bisnis untuk 450 pertanyaan analisis pembayaran | Jawaban akhir dibandingkan dengan *expected result* menggunakan normalisasi dan toleransi sesuai tipe jawaban | Mencakup analisis dari beberapa sumber data dan penerapan aturan bisnis. Perbandingan dengan dan tanpa dokumen konteks tidak diuji. |",
+      "after": "| No | Penelitian | Fokus | Data / Lingkungan | Evaluasi dan Temuan | Relevansi / Keterbatasan |\n| ----- | ----- | ----- | ----- | ----- | ----- |\n| 1 | Sawant & Sonawane (2024) | Antarmuka bahasa alami untuk basis data dan visualisasi | Kajian NLIDB, NLIV, dan BI | Antarmuka bahasa alami memudahkan akses ke data. Kendalanya mencakup pertanyaan analitis yang kompleks serta pemahaman konteks dan semantik. | Memberikan dasar bagi conversational analytics melalui kajian antarmuka bahasa alami untuk basis data dan visualisasi. |\n| 2 | X. Liu dkk. (2024) - AgentBench | Evaluasi LLM sebagai agen pada lingkungan interaktif | 8 lingkungan dan 29 model API ataupun open-source | Menemukan kendala utama pada penalaran jangka panjang, pengambilan keputusan, dan kepatuhan terhadap instruksi. | Mendukung evaluasi berbasis tugas interaktif pada beragam lingkungan umum. |\n| 3 | Hong dkk. (2025) - Data Interpreter | Agen LLM untuk *workflow* data science dengan beberapa tahap | InfiAgent-DABench, tugas machine learning, dan tugas open-ended | Perencanaan berbasis graph dan verifikasi bertahap meningkatkan kinerja pada beberapa *benchmark* analisis data. | Menunjukkan penggunaan agen untuk merencanakan dan memeriksa analisis data secara bertahap. |\n| 4 | Sahu dkk. (2025) - InsightBench | Evaluasi business analytics end-to-end | 100 dataset bisnis dengan insight yang sengaja disisipkan dan dikurasi | Mengevaluasi perumusan pertanyaan, analisis, interpretasi, dan penyusunan insight menggunakan evaluator berbasis LLM. | Mengevaluasi insight dari analisis bisnis yang bersifat open-ended dengan penilaian berbasis LLM. |\n| 5 | Lei dkk. (2025) - Spider 2.0 | *Workflow* *Text-to-SQL* tingkat enterprise | 632 tugas dengan basis data besar, metadata, dokumentasi, dan beberapa sistem basis data | Code agent yang diuji menyelesaikan 21,3% tugas, dibandingkan 91,2% pada Spider 1.0. | Menunjukkan kesulitan menyelesaikan tugas SQL pada lingkungan enterprise. |\n| 6 | Vishwakarma dkk. (2025) - EnterpriseBench | Evaluasi agen pada lingkungan enterprise | 500 tugas pada software engineering, HR, finance, dan administrasi | Lingkungan pengujian mencakup data yang tersebar, kontrol akses, dan workflow lintas fungsi. Hasil penyelesaian tugas bervariasi menurut model, framework, dan strategi perencanaan. | Mencakup tugas dari beberapa fungsi organisasi dalam satu lingkungan pengujian. |\n| 7 | Rumiantsau & Fokeev (2026) | Pengaruh semantic layer pada analisis berbasis LLM | 100 pertanyaan retail. Sebanyak 99 dinilai setelah satu query referensi gagal dieksekusi | Analytical Pass Rate meningkat 17,2–23,2 poin persentase berdasarkan penilaian Claude Sonnet 4.6 sebagai judge. | Menguji pemberian dokumen konteks bisnis pada satu dataset retail. |\n| 8 | Egg dkk. (2025) — DABstep | Evaluasi agen pada tugas analisis data bertahap | Data CSV/JSON dan dokumentasi bisnis untuk 450 pertanyaan analisis pembayaran | Jawaban akhir dibandingkan dengan *expected result* menggunakan normalisasi dan toleransi sesuai tipe jawaban | Mencakup analisis dari beberapa sumber data dan penerapan aturan bisnis. Perbandingan dengan dan tanpa dokumen konteks tidak diuji. |",
+      "findings": [
+        "O04"
+      ],
+      "reason": "Menghapus rincian single-shot dan status preprint karena tidak diperlukan untuk menjelaskan relevansi dokumen konteks bisnis dalam perbandingan ini. Cakupan satu dataset, temuan empiris, atribusi, struktur tabel, dan seluruh sel lainnya tetap dipertahankan."
+    },
+    {
+      "id": "OE05",
+      "block_id": "B0034",
+      "before": "Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*, dengan protokol *single-shot*.",
+      "after": "Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*.",
+      "findings": [
+        "O05"
+      ],
+      "reason": "Menghapus rincian single-shot yang tidak dijelaskan dan tidak diperlukan bagi uraian pengaruh dokumen konteks bisnis. Kondisi perbandingan, jumlah pertanyaan, besarnya peningkatan, dasar penilaian, evaluator, dan atribusi tetap dipertahankan."
+    },
+    {
+      "id": "OE06",
+      "block_id": "B0041",
+      "before": "Untuk menjawab suatu pertanyaan, agen dapat memerlukan informasi dari beberapa sumber. Pada DABstep, agen memilih data yang diperlukan, menghubungkan informasi dari sumber yang berbeda, dan menerapkan aturan bisnis dalam perhitungan (Egg dkk., 2025). Dalam penelitian ini, data insiden HKA TROM perlu dihubungkan dengan data tindakan penanganan yang tersimpan dalam tabel terpisah. Insiden dinyatakan selesai jika memiliki setidaknya satu tindakan penanganan dan seluruh tindakan tersebut sudah selesai.",
+      "after": "Untuk menjawab suatu pertanyaan, agen dapat memerlukan informasi dari beberapa sumber. Pada DABstep, agen memilih data yang diperlukan, menghubungkan informasi dari sumber yang berbeda, dan menerapkan aturan bisnis dalam perhitungan (Egg dkk., 2025). Dalam penelitian ini, data insiden HKA TROM perlu dihubungkan dengan data tindakan penanganan yang tersimpan dalam tabel terpisah. Insiden dinyatakan selesai jika memiliki minimal satu tindakan penanganan dan seluruh tindakan tersebut sudah selesai.",
+      "findings": [
+        "O06"
+      ],
+      "reason": "Menyelaraskan istilah untuk jumlah tindakan terendah dengan preferensi minimal, tanpa mengubah syarat bahwa seluruh tindakan harus selesai."
+    },
+    {
+      "id": "OE07",
+      "block_id": "B0042",
+      "before": "Setelah memperoleh data, agen dapat menjumlahkan nilai, menghitung banyaknya data, atau mencari rata-rata. Jika pertanyaan meminta hasil per kategori atau per periode, perhitungan dilakukan untuk setiap kelompok data. InfiAgent-DABench mencakup perhitungan rata-rata pada seluruh data dan pada setiap kelompok, termasuk tugas dengan nilai yang tidak tersedia (Hu dkk., 2024). TableBench juga mencakup perhitungan total, jumlah data, dan perbandingan hasil antarperiode (Wu dkk., 2025).",
+      "after": "Setelah memperoleh data, agen dapat menjumlahkan nilai, menghitung banyaknya data, atau mencari rata-rata. Jika pertanyaan meminta hasil per kategori atau per periode, perhitungan dilakukan untuk setiap kelompok data. InfiAgent-DABench mencakup perhitungan rata-rata pada seluruh data dan pada setiap kelompok, termasuk tugas dengan nilai yang tidak tersedia (Hu dkk., 2024). TableBench juga mencakup perhitungan total, jumlah data, dan perbandingan hasil antar periode (Wu dkk., 2025).",
+      "findings": [
+        "O07"
+      ],
+      "reason": "Mengikuti pilihan ejaan antar periode pada prosa biasa tanpa mengubah cakupan perbandingan atau sitasi."
+    }
+  ],
+  "dispositions": [
+    {
+      "finding_id": "O01",
+      "status": "addressed",
+      "reason": "Memperjelas objek yang dijawab agen dengan menggunakan pertanyaan pengguna, sesuai tindakan yang dijelaskan pada awal paragraf."
+    },
+    {
+      "finding_id": "O02",
+      "status": "addressed",
+      "reason": "Menamai status yang dibandingkan pada dua periode sesuai uraian kasus, sehingga objek perbandingan tidak dibiarkan sebagai hasil yang tidak terjelaskan."
+    },
+    {
+      "finding_id": "O03",
+      "status": "addressed",
+      "reason": "Menggunakan ungkapan hubungan antara pengulangan yang lebih alami tanpa mengubah objek pengamatan atau isi batasan penelitian."
+    },
+    {
+      "finding_id": "O04",
+      "status": "addressed",
+      "reason": "Menghapus rincian single-shot dan status preprint karena tidak diperlukan untuk menjelaskan relevansi dokumen konteks bisnis dalam perbandingan ini. Cakupan satu dataset, temuan empiris, atribusi, struktur tabel, dan seluruh sel lainnya tetap dipertahankan."
+    },
+    {
+      "finding_id": "O05",
+      "status": "addressed",
+      "reason": "Menghapus rincian single-shot yang tidak dijelaskan dan tidak diperlukan bagi uraian pengaruh dokumen konteks bisnis. Kondisi perbandingan, jumlah pertanyaan, besarnya peningkatan, dasar penilaian, evaluator, dan atribusi tetap dipertahankan."
+    },
+    {
+      "finding_id": "O06",
+      "status": "addressed",
+      "reason": "Menyelaraskan istilah untuk jumlah tindakan terendah dengan preferensi minimal, tanpa mengubah syarat bahwa seluruh tindakan harus selesai."
+    },
+    {
+      "finding_id": "O07",
+      "status": "addressed",
+      "reason": "Mengikuti pilihan ejaan antar periode pada prosa biasa tanpa mengubah cakupan perbandingan atau sitasi."
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "record": 3,
+    "match_field": "after",
+    "before": "Bab ini membahas kesimpulan dari evaluasi ketepatan jawaban agen pada HKA TROM menggunakan Muse Spark 1.3 dan DeepSeek v4 Flash, dengan dan tanpa konteks bisnis. Saran penelitian selanjutnya disusun dari hasil evaluasi dan keterbatasan pengujian yang telah dibahas pada bab sebelumnya.",
+    "feedback": "Check if my friend's thesis explicitly connects this this way/write it this way. If not, remove it. This feels like you're just putting my prompt into the thesis",
+    "after": "Bab ini berisi kesimpulan yang menjawab rumusan masalah berdasarkan hasil evaluasi serta saran untuk pengembangan dan penelitian selanjutnya."
+  },
+  {
+    "record": 10,
+    "match_field": "after",
+    "before": "Adyen",
+    "feedback": "Give a bit of background context to what Adyen is, or if not relevant, don't mention it at all",
+    "after": "Adyen, perusahaan penyedia layanan pembayaran (Adyen, n.d.)"
+  },
+  {
+    "record": 12,
+    "match_field": "after",
+    "before": "Mengevaluasi kemampuan analitis Agentic Business Intelligence pada HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 pada kondisi dengan dan tanpa konteks bisnis. Evaluasi mengukur tingkat keberhasilan berdasarkan kesesuaian jawaban dengan expected result.",
+    "feedback": "Write this in a paragraph since there's only one point. Don't write a bullet point if there's only one point. Just like my friend's thesis.",
+    "after": "Penelitian ini bertujuan untuk mengevaluasi ketepatan jawaban Agentic Business Intelligence pada kasus analisis operasional HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 Flash, masing-masing dengan dan tanpa konteks bisnis. Perbandingan menggunakan tingkat keberhasilan, yaitu persentase jawaban yang sesuai dengan expected result, serta rincian hasil pada setiap kasus dan pengulangan."
+  },
+  {
+    "record": 13,
+    "match_field": "after",
+    "before": "Mengevaluasi kemampuan analitis Agentic Business Intelligence pada HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 pada kondisi dengan dan tanpa konteks bisnis. Evaluasi mengukur tingkat keberhasilan berdasarkan kesesuaian jawaban dengan expected result.",
+    "feedback": "Since there's only one, don't write this in a bullet point",
+    "after": "Penelitian ini bertujuan untuk mengevaluasi ketepatan jawaban Agentic Business Intelligence pada kasus analisis operasional HKA TROM dengan membandingkan Muse Spark 1.3 dan DeepSeek v4 Flash, masing-masing dengan dan tanpa konteks bisnis. Perbandingan menggunakan tingkat keberhasilan, yaitu persentase jawaban yang sesuai dengan expected result, serta rincian hasil pada setiap kasus dan pengulangan."
+  },
+  {
+    "record": 14,
+    "match_field": "after",
+    "before": "Berdasarkan uraian latar belakang tersebut, rumusan masalah dalam penelitian ini adalah sebagai berikut:\nBagaimana ketepatan jawaban agen pada kasus analisis operasional HKA TROM ketika menggunakan Muse Spark 1.3 dan DeepSeek v4, masing-masing dengan dan tanpa konteks bisnis?",
+    "feedback": "My friend's Rumusan Masalah is written in a paragraph style. Not bullet points like this. Since there's only one, we should also follow that. We may elaborate to my friend's thesis level of detail",
+    "after": "Penelitian ini berfokus pada ketepatan jawaban agen dalam analisis transaksi, lalu lintas, insiden, inspeksi, serta SPM/SLA pada HKA TROM. Rumusan masalah yang dikaji adalah bagaimana ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash ketika diuji dengan dan tanpa konteks bisnis, berdasarkan kesesuaian jawaban masing-masing model dengan expected result pada setiap kasus."
+  },
+  {
+    "record": 41,
+    "match_field": "after",
+    "before": "Analisis data tersebut memerlukan pemilihan data, perhitungan indikator, dan penerapan aturan bisnis. Kebutuhan ini berkaitan dengan tujuan Business Intelligence (BI), yaitu membantu eksekutif, manajer, dan analis memperoleh informasi dari data organisasi untuk mendukung keputusan (Chaudhuri dkk., 2011).",
+    "feedback": "AI Slop",
+    "after": "HKA TROM merupakan sistem internal HK Aston yang mengelola data transaksi, lalu lintas, insiden, inspeksi, serta pengukuran Standar Pelayanan Minimal (SPM) dan Service Level Agreement (SLA). Nama tabel dan kolom belum tentu menjelaskan apa yang diukur oleh suatu indikator, rumus yang digunakan, syarat berlakunya aturan, atau arti status. Sebagai contoh, Lalu Lintas Harian Rata-rata (LHR) pada HKA TROM dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode yang diminta. Jika total volume hanya dibagi dengan jumlah hari yang memiliki laporan, nilai LHR dapat berbeda."
+  },
+  {
+    "record": 42,
+    "match_field": "after",
+    "before": "Dalam data science, Hong dkk. (2025) menunjukkan bagaimana agen berbasis LLM menjalankan analisis melalui beberapa tahap perencanaan dan pemeriksaan hasil.",
+    "feedback": "AI Slop",
+    "after": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis Large Language Model (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic Business Intelligence merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab permintaan analisis secara on-demand."
+  },
+  {
+    "record": 43,
+    "match_field": "after",
+    "before": "Sawant dan Sonawane (2024) mencatat kesulitan pada pertanyaan yang memerlukan korelasi, analisis kompleks, serta pemahaman konteks dan semantik bisnis. Large Language Model (LLM) dapat digunakan sebagai agen yang merencanakan langkah analisis, memilih tool, dan memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024).",
+    "feedback": "AI slop",
+    "after": "Pertanyaan pengguna juga dapat dijawab melalui agen berbasis Large Language Model (LLM). Agen merencanakan langkah analisis, memilih tool, lalu memeriksa hasil setiap langkah sebelum memberikan jawaban (Wang dkk., 2024). Dalam penelitian ini, Agentic Business Intelligence merupakan pendekatan BI yang menggunakan agen untuk membaca data, melakukan perhitungan, dan menjawab permintaan analisis secara on-demand."
+  },
+  {
+    "record": 111,
+    "match_field": "after",
+    "before": "kondisi konteks",
+    "feedback": "Jesus fuck what the fuck is \"kondisi konteks\"",
+    "after": "pada kondisi dengan dan tanpa konteks bisnis"
+  }
+]

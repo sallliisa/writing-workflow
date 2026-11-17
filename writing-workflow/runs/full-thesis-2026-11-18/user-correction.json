@@ -1,0 +1,73 @@
+{
+  "instruction": "Preserve antarperiode and remove the contrary spelling preference from the skill.",
+  "previous_accepted_blocks": 32,
+  "current_accepted_blocks": 21,
+  "corrections": [
+    {
+      "id": "OE07",
+      "block_id": "B0042",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "ME01",
+      "block_id": "B0120",
+      "action": "retain substantive changes"
+    },
+    {
+      "id": "ME04",
+      "block_id": "B0146",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "ME07",
+      "block_id": "B0184",
+      "action": "retain substantive changes"
+    },
+    {
+      "id": "E-R-009",
+      "block_id": "B0195",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-010",
+      "block_id": "B0288",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-011",
+      "block_id": "B0291",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-012",
+      "block_id": "B0293",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-013",
+      "block_id": "B0295",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-014",
+      "block_id": "B0296",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-015",
+      "block_id": "B0301",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-016",
+      "block_id": "B0308",
+      "action": "withdraw spelling-only edit"
+    },
+    {
+      "id": "E-R-017",
+      "block_id": "B0318",
+      "action": "withdraw spelling-only edit"
+    }
+  ],
+  "manuscript_change_limited_to_spelling_reversions": true
+}

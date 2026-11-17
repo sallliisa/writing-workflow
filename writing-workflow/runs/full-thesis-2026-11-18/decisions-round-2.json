@@ -1,0 +1,32 @@
+[
+  {
+    "id": "S01",
+    "block_id": "B0029",
+    "status": "accept",
+    "reason": "Y mengganti istilah «protokol single-shot» dengan operasi yang dapat dipahami: kedua kondisi menghasilkan satu query SQL per pertanyaan tanpa umpan balik eksekusi atau kesempatan memperbaiki query. Batas ini relevan dalam kolom keterbatasan karena membatasi perbandingan dengan agen yang melakukan analisis bertahap. Penjelasan sesuai verifikasi Bagian 4.2 sumber primer yang diberikan koordinator dan tidak menyatakan satu pengulangan eksperimen. Angka 100, 99, dan kenaikan 17,2–23,2 poin persentase serta dasar penilaian tetap. Penghapusan kalimat tentang preprint menanggapi record 9 dan tidak menyembunyikan status sumber karena bibliografi tetap mengidentifikasi arXiv."
+  },
+  {
+    "id": "S02",
+    "block_id": "B0183",
+    "status": "accept",
+    "reason": "X menjelaskan data yang digabungkan untuk dua ringkasan: jawaban kedua model dalam kondisi konteks yang sama, serta jawaban dengan dan tanpa konteks untuk setiap model. X juga membedakan kedua ringkasan tersebut dari hasil empat kombinasi yang disajikan terpisah dan menyatakan ketiga pengulangan tercakup. Ini sesuai Tabel 4.3–4.5 dan susunan yang berulang pada analisis berikutnya. Y hanya menyebut «setiap kelompok», sehingga pembaca dapat mengira seluruh ringkasan merupakan empat kombinasi terpisah. Perbandingan dalam kondisi yang sama tetap dipertahankan dalam X."
+  },
+  {
+    "id": "S03",
+    "block_id": "B0306",
+    "status": "keep source on tie",
+    "reason": "Kedua versi menyatakan 170 dari 180 jawaban PASS dan seluruh sepuluh kegagalan berasal dari pengujian tanpa konteks bisnis. Y lebih singkat, tetapi tidak memperbaiki ambiguitas yang terbukti pada lokasi ini: enam kelompok sudah dirinci dalam Bagian 3.5.3, Tabel 4.2, dan enam bagian hasil sebelum Bagian 4.9. Berbeda dari masalah record 5, penyebut di sini disebut langsung sebagai 180 jawaban. X memberi pengingat cakupan yang benar, sedangkan Y mengandalkan konteks yang tersedia. Tidak ada keuntungan pemahaman yang cukup kuat untuk mewajibkan perubahan."
+  },
+  {
+    "id": "S04",
+    "block_id": "B0126",
+    "status": "accept",
+    "reason": "«Minimal satu tindakan penanganan» mempertahankan syarat adanya satu tindakan atau lebih dan syarat stage 100 untuk seluruh tindakan. Pilihan ini mengikuti istilah jumlah minimal yang ditetapkan profil tesis dan penggunaan «minimal satu» pada penjelasan status insiden yang dipuji dalam record 2. Ini penyesuaian terhadap preferensi istilah penulis, bukan klaim bahwa «setidaknya» mengubah makna atau selalu kurang jelas."
+  },
+  {
+    "id": "S05",
+    "block_id": "B0167",
+    "status": "accept",
+    "reason": "Y menerapkan permintaan langsung record 92 untuk memakai «minimal» menggantikan «sedikitnya». Batas minimal tiga kali tetap berbeda dari tepat tiga eksekusi pada kalimat berikutnya. Atribusi, cakupan evaluasi utama, dan tugas open-ended tidak berubah."
+  }
+]

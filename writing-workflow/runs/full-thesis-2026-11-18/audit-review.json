@@ -1,0 +1,25 @@
+{
+  "reviewer_model": "gpt-6.2-sol",
+  "diversity_limit": "Only GPT-family models were available. This was a fresh-model review of the trail and its artifacts within that family.",
+  "flags": [
+    {
+      "severity": "low",
+      "claim": "The verification and source-check rows are retrospective and their timestamps obscure the order of the work.",
+      "evidence": "decisions.tsv rows 3–5 and root transcript lines 657–660, 811–814, 833–838, and 967–971. The source percentages were checked at 22:06:56 UTC and the primary-source result arrived at 22:12:11 UTC, both before round-one acceptance at 22:13:15 UTC. The two checks were logged at 22:17:47 UTC.",
+      "action": "If interpreting the TSV chronologically, treat its timestamps as append times and record the actual sequence in a short retrospective row. Keep the original rows."
+    },
+    {
+      "severity": "low",
+      "claim": "The TSV omits the scope protection decision and the coverage checkpoint.",
+      "evidence": "protected.json records the 46 blocks excluded from rewriting, selected in root transcript lines 630–634. coverage.json records the checked disjoint coverage of all 363 blocks and finding quotations, produced in lines 859–862. The current verification row records preservation at the end but does not point to the initial selection or coverage check.",
+      "action": "Append a checkpoint with pointers to protected.json and coverage.json so the excluded content and the review-scope check can be found from the canonical log."
+    },
+    {
+      "severity": "resolved",
+      "claim": "The earlier continuity row called feedback record 40 an exact match for the praised passage.",
+      "evidence": "feedback.json record 40 and blocks.json B0311–B0312 differ in the model name. The passage, including the questioned term, is otherwise substantively the same. The superseding decisions.tsv row and updated continuity-review.json and report.md record the distinction.",
+      "action": "Already corrected in the trail and report. The preservation decision remains supported."
+    }
+  ],
+  "verdict": "Pass with minor trail gaps. All TSV pointers resolve as files or commits. The root transcript supports the workflow commit preceding the frozen source, the two editorial rounds, the targeted source check, and the corrected verification run. Read-only recomputation matched verification.json and revision.diff. The coverage sets and finding quotations, all 36 proposal decisions, and 34 main-body table caption and reference identifiers also reconcile. The earlier heading-check failure and its successful retry are now recorded."
+}

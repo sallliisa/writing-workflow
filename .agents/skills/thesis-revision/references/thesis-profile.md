@@ -49,9 +49,11 @@ Record 121 bans semicolons in thesis prose. Rewrite naturally. Preserve verbatim
 
 Records 12–14 request prose for a single objective or question. Records 15–16 request a glossary and explanation of case identifiers. Records 20 and 24 request displayed equations. Records 21–23 and 26 concern captions, boxed prompts, and layout. Verify those in the actual document application when editing that artifact. Markdown alone does not establish page-layout correctness.
 
-Record 19 explicitly requests “antar periode” as the thesis spelling. Treat this as an author preference, not a verified statement about standard Indonesian. Preserve that choice in ordinary prose. Raise a conflict only if an applicable institutional requirement is supplied. Record 104 objects to antarpengulangan but does not establish a universal replacement. “Pada setiap pengulangan” or “antara pengulangan” may express the intended relationship naturally.
+Record 104 objects to antarpengulangan but does not establish a universal replacement. “Pada setiap pengulangan” or “antara pengulangan” may express the intended relationship naturally.
 
 ## Treat the history as evidence
+
+The author has withdrawn the spelling request in record 19.
 
 The unit-penilaian example in the original academic-writing skill contains wording rejected in records 108–109. It is not a positive exemplar. Revisions in records 130 and 132 contain “rancangan faktorial penuh,” questioned in record 120. The exact chronology is absent, but these conflicts prevent treating all replacements as approved prose.
 

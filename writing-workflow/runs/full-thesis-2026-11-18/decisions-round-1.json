@@ -1,0 +1,219 @@
+[
+  {
+    "id": "OE01",
+    "block_id": "B0006",
+    "status": "accept",
+    "reason": "‘Menjawab pertanyaan pengguna’ names the object naturally and follows the paragraph's opening sentence. It addresses the explicit objection to ‘permintaan analisis’ in record 68 without changing the analytical context or the cited account of agent behavior.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "OE02",
+    "block_id": "B0009",
+    "status": "accept",
+    "reason": "‘Status pemenuhan setiap indikator SPM/SLA pada dua periode’ specifies what is compared, resolving the ambiguity of ‘hasil dari dua periode’ identified in record 27. The T9 explanation in the frozen source explicitly supports this comparison.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "OE03",
+    "block_id": "B0020",
+    "status": "accept",
+    "reason": "‘Antara pengulangan’ preserves the comparison across repetitions and addresses record 104's objection to ‘antarpengulangan’. The five boundaries, all quantities, and the evaluation scope remain intact.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "OE04",
+    "block_id": "B0029",
+    "status": "pending revision",
+    "reason": "Y removes both the protocol condition and the preprint qualification from the comparison table's limitations cell. Those are substantive qualifications of the cited evidence, not equivalent diction. X preserves them, along with the table structure, all numbers, names, and other cells.",
+    "remaining_problem": "Record 9 remains unresolved: ‘protokol single-shot’ is unexplained and its relevance is unstated. Retaining X is a preservation decision, not an endorsement of its readability. A further repair should explain the protocol in ordinary language, after checking precisely what it constrains, and make its relevance to the comparison apparent. The concern about the preprint detail also needs a reasoned relevance decision rather than silent deletion."
+  },
+  {
+    "id": "OE05",
+    "block_id": "B0034",
+    "status": "accept",
+    "reason": "Removing the appended ‘dengan protokol single-shot’ makes the sentence about assessment easier to follow and avoids repeating the unexplained protocol label already retained in row 7 of Table 2.1. The paragraph still preserves the compared conditions, 99 questions, effect range, execution results, and named judge.",
+    "remaining_problem": "This preference depends on retaining the protocol condition in the table, as recommended for OE04. Record 9's objection to the unexplained term remains in that table and is not fully resolved by this paragraph edit."
+  },
+  {
+    "id": "OE06",
+    "block_id": "B0041",
+    "status": "accept",
+    "reason": "‘Minimal satu tindakan penanganan’ expresses the same minimum-count condition as ‘setidaknya satu’ and follows the explicit diction preference in record 92. The requirement that all associated actions be complete remains unchanged.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "OE07",
+    "block_id": "B0042",
+    "status": "accept",
+    "reason": "‘Antar periode’ follows the explicit spelling preference in record 19. The calculation types, missing-value condition, citations, and comparison scope are otherwise identical.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "ME01",
+    "block_id": "B0120",
+    "status": "accept",
+    "reason": "T7-C1 menyebut objek yang dibandingkan, yaitu rata-rata durasi, serta menjelaskan bahwa perbandingan dilakukan sebelum pembulatan. T8-C1 memperjelas apa yang berbeda antar laporan. Keduanya didukung uraian kasus pada B0117–B0118. Semua nomor kasus, jumlah, baris, dan kolom tetap. Ejaan 'antar periode' mengikuti pilihan penulis.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "ME02",
+    "block_id": "B0130",
+    "status": "accept",
+    "reason": "Persamaan yang ditampilkan memenuhi permintaan agar perhitungan ditulis sebagai equation. Enam data booth masing-masing 10 detik dan satu data longbooth 2 detik menghasilkan 62 detik, sesuai B0127 dan Tabel 3.5. Penambahan ini memperlihatkan operasi tanpa menambah asumsi atau statistik.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "ME03",
+    "block_id": "B0131",
+    "status": "accept",
+    "reason": "Persamaan memperjelas pembagian total durasi dengan tujuh data non-null. Nilai 62/7 dibulatkan menjadi 8,86 detik dengan benar dan tanda pendekatan mempertahankan perbedaan antara nilai tepat dan nilai pembulatan.",
+    "remaining_problem": "B0132 kembali menyebut hasil 8,86 detik. Pengulangan singkat ini masih memiliki fungsi karena B0132 juga menjelaskan pembulatan dua desimal dan penyimpanan hasil, tetapi dapat dirapikan bila paragraf digabung."
+  },
+  {
+    "id": "ME04",
+    "block_id": "B0146",
+    "status": "accept",
+    "reason": "Satu-satunya perbedaan ialah 'antar periode', yang memenuhi pilihan ejaan eksplisit penulis. Isi dan struktur tabel tidak berubah.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "ME05",
+    "block_id": "B0179",
+    "status": "accept",
+    "reason": "Persamaan menyatakan tingkat keberhasilan sebagai persentase dan menyertakan faktor 100%, sesuai tabel hasil. Jumlah jawaban yang dinilai tetap mengikuti tabel yang dibahas, sehingga rumus tidak keliru menetapkan 45 sebagai pembagi bagi semua ringkasan. Bentuk equation juga menjawab permintaan penulis.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "ME06",
+    "block_id": "B0183",
+    "status": "pending revision",
+    "reason": "Y membedakan ringkasan yang menggabungkan kedua model, ringkasan yang menggabungkan kedua kondisi, dan perbandingan empat kombinasi. Pembedaan ini diperlukan agar metode sesuai dengan Tabel 4.3–4.5 dan pola penyajian berikutnya. Contoh enam jawaban per kombinasi dan 12 jawaban per kondisi atau per model benar untuk dua kasus dengan tiga pengulangan. Perbandingan pada kondisi yang sama tetap dipertahankan.",
+    "remaining_problem": "Y memperbaiki kekurangan metode, tetapi penjelasannya terlalu panjang. Contoh numerik mengulang jumlah yang sudah dijelaskan pada pembukaan hasil durasi transaksi, sementara istilah 'ringkasan menurut' berulang. Tiga jenis ringkasan beserta cakupan jawabannya perlu dipertahankan, tetapi contoh numerik dapat dihapus tanpa menghilangkan metode. Dua kalimat terakhir tetap diperlukan untuk menyatakan perbandingan dalam kondisi yang sama."
+  },
+  {
+    "id": "ME07",
+    "block_id": "B0184",
+    "status": "accept",
+    "reason": "'Status PASS/FAIL pada tiga pengulangan' menyebut secara tepat apa yang dibandingkan, sehingga pembaca tidak mengira konsistensi berarti semua isi jawaban harus identik. Ini sesuai rekap pada BAB IV yang membedakan kasus gagal meskipun jumlah PASS sama. Enam kelompok pembahasan dan pemeriksaan jawaban FAIL tetap dipertahankan. Ejaan 'antar periode' sesuai pilihan penulis.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-001",
+    "block_id": "B0258",
+    "status": "accept",
+    "reason": "“Dengan dan tanpa konteks bisnis” langsung menyebut dua kondisi yang digabung dalam enam jawaban tiap model. “Kedua kondisi konteks bisnis” mengharuskan pembaca menebak kembali kondisi tersebut.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-002",
+    "block_id": "B0272",
+    "status": "accept",
+    "reason": "“Seluruh hasil evaluasi yang diminta” memperjelas bagian jawaban yang hilang dan tetap sesuai dengan kasus T7-C2 yang hanya mencantumkan empat dari 20 hasil evaluasi. Jumlah jawaban dan pembagian kegagalan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-003",
+    "block_id": "B0290",
+    "status": "accept",
+    "reason": "X menyebut agen sebagai pelaku dan menjelaskan bahwa objek perbandingan T9 adalah status pemenuhan setiap indikator SPM/SLA, sesuai definisi T9. Y hanya menyebut “hasil dua periode” tanpa objek yang jelas.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-004",
+    "block_id": "B0298",
+    "status": "accept",
+    "reason": "Tambahan “untuk suatu indikator pada ruas yang dianalisis” menjelaskan cakupan keberlakuan SLA, sesuai aturan konfigurasi ruas dan indikator untuk T7–T9. Makna not_applicable tetap dibedakan dari gagal.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-005",
+    "block_id": "B0306",
+    "status": "pending revision",
+    "reason": "Y mempertahankan pembagian enam kelompok analisis yang didefinisikan pada akhir BAB III dan Tabel 4.2. X menggantinya dengan “enam jenis analisis”, yang mudah tertukar dengan sembilan jenis tugas analisis T1–T9. Penyederhanaan kalimat tidak cukup untuk membenarkan label baru ini.",
+    "remaining_problem": "Kalimat Y masih menggunakan pembukaan “Hasil pengujian ... menunjukkan bahwa” yang dikritik dalam umpan balik. Perbaikannya perlu mempertahankan pembagian enam kelompok atau menghilangkan penyebutan pembagian itu tanpa menciptakan label jumlah baru."
+  },
+  {
+    "id": "E-R-006",
+    "block_id": "B0310",
+    "status": "accept",
+    "reason": "Y langsung menjelaskan kesalahan pemilihan insiden, syarat is_accident = false yang seharusnya dikecualikan, dan akibat terukurnya, yaitu 7 dibanding 5. Rinciannya didukung uraian T5-C1 dan Tabel 4.12. Kalimat T7-C1 yang telah dipuji tetap utuh.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-007",
+    "block_id": "B0313",
+    "status": "accept",
+    "reason": "X memperjelas bahwa pengaruh tiap dokumen yang belum diketahui adalah pengaruh terhadap ketepatan jawaban. Hubungan antara PASS, kesesuaian dengan expected result, dan manfaat operasional yang belum dinilai menjadi jelas tanpa menghapus keterbatasan jumlah kasus atau pengulangan.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-008",
+    "block_id": "B0319",
+    "status": "accept",
+    "reason": "Y menyebut frekuensi Kelalaian Pengemudi yang terlalu besar, kategori Kondisi Jalan yang ditambahkan, dan frekuensi Mengantuk yang tetap sesuai. Pembedaan ini sesuai Tabel 4.12 dan mencegah kesan bahwa semua frekuensi penyebab salah. Sepuluh kegagalan dan rinciannya tetap terjaga.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-009",
+    "block_id": "B0195",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama. Seluruh angka, urutan baris, dan struktur tabel tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-010",
+    "block_id": "B0288",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-011",
+    "block_id": "B0291",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-012",
+    "block_id": "B0293",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-013",
+    "block_id": "B0295",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-014",
+    "block_id": "B0296",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-015",
+    "block_id": "B0301",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-016",
+    "block_id": "B0308",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  },
+  {
+    "id": "E-R-017",
+    "block_id": "B0318",
+    "status": "accept",
+    "reason": "Versi ini memakai “antar periode” sesuai preferensi ejaan eksplisit penulis. Perbedaannya hanya pemisahan kata, sehingga makna dan cakupan pernyataan tetap sama.",
+    "remaining_problem": ""
+  }
+]

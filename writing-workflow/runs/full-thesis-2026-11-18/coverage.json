@@ -1,0 +1,11 @@
+{
+  "source_blocks": 363,
+  "reviewed_blocks": 363,
+  "scopes": {
+    "opening": 87,
+    "methods": 97,
+    "results": 179
+  },
+  "exact_finding_quotes_verified": true,
+  "note": "Coverage records and source spans are validated. This does not measure editorial quality."
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "record": 2,
+    "match_field": "before",
+    "before": "Pada T4, agen menentukan status insiden dari data tindakan penanganan yang ada. Insiden dinyatakan selesai jika memiliki minimal satu data tindakan dan nilai stage pada seluruh data tindakannya adalah 100. Nilai 50 dan null diperlakukan sebagai tindakan yang belum selesai.\nT4-C1 mencakup empat insiden, dengan salah satunya tidak memiliki data tindakan. Tiga insiden lainnya masing-masing memiliki satu data tindakan bernilai 50, dua data tindakan bernilai 100, dan dua data tindakan dengan nilai 100 dan null.\nDi  T5, suatu kecelakaan dapat memiliki beberapa penyebab, dan penyebab yang sama dapat muncul lebih dari sekali. Agen perlu menghitung berapa kali setiap penyebab tersebut muncul.\nDi T6, agen perlu menghubungkan data hasil inspeksi dengan data aset. Di T6-C1, item inspeksi yang memiliki kategori kerusakan tetap dihitung sebagai item rusak meskipun prioritas perbaikannya kosong.\nDi T7, agen perlu menentukan status SPM/SLA dengan membandingkan rata-rata durasi setiap gardu dengan bata…",
+    "feedback": "This sounds human",
+    "after": "null"
+  },
+  {
+    "record": 4,
+    "match_field": "after",
+    "before": "Untuk satu kasus pada model dan kondisi konteks bisnis yang sama, jumlah jawaban PASS ditulis sebagai Pi, dengan i menunjukkan kasus yang dinilai. Persentasenya dihitung dari tiga jawaban hasil pengulangan.",
+    "feedback": "Is this needed for the explanation? Or can we simplify this? Feel free to push back.",
+    "after": "Untuk setiap kasus pada model dan kondisi konteks bisnis yang sama, jumlah PASS disajikan sebagai 0/3 hingga 3/3."
+  },
+  {
+    "record": 5,
+    "match_field": "after",
+    "before": "Pada ringkasan menurut kelompok analisis, nilai N mengikuti jumlah jawaban dalam kelompok yang disajikan.",
+    "feedback": "Present this in a simpler term/use terms that are already established. \"Kelompok analisis\" or \"kelompok\" here is hard to infer what that means.",
+    "after": "Persentase pada setiap tabel dihitung dari jumlah jawaban untuk kasus, model, dan kondisi konteks bisnis yang ditampilkan."
+  },
+  {
+    "record": 6,
+    "match_field": "after",
+    "before": "Pada T1-C2, total durasi D berasal dari enam sampel booth dan satu sampel longbooth pada Tabel 3.5.",
+    "feedback": "Can we say \"data\" instead of \"sampel\"? Feel free to push back. Does that lose the intended meaning? This applies to the word \"sampel\" in the entire thesis, not just this block",
+    "after": "Pada T1-C2, total durasi D dihitung dari enam data durasi booth dan satu data durasi longbooth pada Tabel 3.5."
+  },
+  {
+    "record": 22,
+    "match_field": "before",
+    "before": "Read the reference for each domain involved in the request. For a request spanning domains, use each relevant reference.",
+    "feedback": "Put this in a square. A single-cell table is fine",
+    "after": "null"
+  },
+  {
+    "record": 23,
+    "match_field": "before",
+    "before": "You're ALASKA, a personal assistant within HKA TROM.\n\nIf required data, tools, scope, configuration, or business definitions are unavailable or conflict, state the specific gap. Do not invent values. Do not request a connection or use another endpoint.",
+    "feedback": "Put this in a square. A single-cell table is fine",
+    "after": "null"
+  },
+  {
+    "record": 24,
+    "match_field": "after",
+    "before": "Jumlah durasi pada T1-C2 adalah (6 × 10) + 2 = 62 detik dengan tujuh sampel. Rata-rata 62/7 = 8,857142857 detik kemudian dibulatkan menjadi 8,86 detik. Nilai tersebut disimpan di atribut average_transaction_duration bersama identitas ruas, periode, dan satuan. Lampiran 1 memuat ringkasan expected result seluruh kasus serta prompt dan expected result lengkap untuk T1-C2.",
+    "feedback": "Calculations like these should use equation instead of raw text like this. Refactor this paragraph.",
+    "after": "Pada T1-C2, total durasi D dihitung dari enam data durasi booth dan satu data durasi longbooth pada Tabel 3.5.\nSeluruh data durasi bernilai non-null, sehingga jumlah data yang digunakan adalah n = 7. Rata-rata durasi d̄ dihitung dengan membagi total durasi tersebut dengan jumlah data.\nRata-rata tersebut dibulatkan menjadi dua angka desimal, yaitu 8,86 detik, dan disimpan pada atribut average_transaction_duration bersama identitas ruas, periode, dan satuan. Lampiran 1 berisi ringkasan expected result seluruh kasus serta prompt dan expected result lengkap untuk T1-C2."
+  },
+  {
+    "record": 25,
+    "match_field": "after",
+    "before": "Penelitian ini menggunakan kasus analisis operasional HKA TROM untuk menguji kemampuan yang dibahas pada Bagian 2.3. Terdapat 15 kasus yang mencakup sembilan jenis tugas, T1 hingga T9.",
+    "feedback": "jelaskan.t == task c = case",
+    "after": "Penelitian ini menggunakan 15 kasus dari sembilan jenis tugas, T1 hingga T9. Kasus dipilih dari analisis operasional yang dapat dikerjakan dengan data HKA TROM dan memerlukan kemampuan yang dijelaskan pada Bagian 2.3."
+  },
+  {
+    "record": 26,
+    "match_field": "before",
+    "before": "Tabel 3.1 Rancangan Pengujian Kedua Model",
+    "feedback": "jangan ada ruang kosong",
+    "after": "null"
+  },
+  {
+    "record": 27,
+    "match_field": "after",
+    "before": "meminta agen untuk membandingkan hasil dua periode",
+    "feedback": "\"Hasil\" of what?? This doesn't make any sense",
+    "after": "Di T9, agen diminta membandingkan status pemenuhan setiap indikator SPM/SLA pada dua periode, lalu menentukan apakah statusnya tetap, membaik, atau memburuk."
+  },
+  {
+    "record": 28,
+    "match_field": "after",
+    "before": "Kasus uji mencakup laporan yang gagal memenuhi indikator yang berbeda.",
+    "feedback": "\"Berbeda\" against what?? This doesn't make sense",
+    "after": "Di T8-C1, ada indikator yang terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain."
+  },
+  {
+    "record": 29,
+    "match_field": "after",
+    "before": "Pada kasus lain, SLA hanya berlaku pada sebagian indikator atau tidak berlaku sama sekali.",
+    "feedback": "Doesn't have any connection to the previous sentence. If it starts with \"pada kasus lain\" I expect the previous one to be \"pada kasus ini/kasus X\". This doesn't make any sense and is just poor writing.",
+    "after": "Di T7-C2, SLA hanya berlaku pada indikator ketiga, sedangkan di T7-C3 tidak ada SLA yang berlaku."
+  },
+  {
+    "record": 30,
+    "match_field": "after",
+    "before": "Kasus uji mencakup nilai yang berada tepat di batas dan juga sedikit di atas batas karena selisih kecil dapat mengubah status",
+    "feedback": "\"Mencakup X dan Y sehingga selisih X/Y dapat mengubah status\" doesn't make any sense",
+    "after": "Di T7-C1, terdapat rata-rata durasi yang tepat pada batas indikator dan yang sedikit melebihi batas. Jika rata-rata durasi dibulatkan sebelum dibandingkan dengan batas, nilai yang sedikit melebihi batas dapat terlihat sama dengan batasnya."
+  },
+  {
+    "record": 31,
+    "match_field": "before",
+    "before": "dan memeriksa apakah SLA berlaku",
+    "feedback": "Do you mean \"SLA berlaku di ruas tersebut\"? If so, say so. Don't just write \"SLA berlaku\". Otherwise this sentence doesn't really make any sense",
+    "after": "Di T7, agen perlu menentukan status SPM/SLA dengan membandingkan rata-rata durasi setiap gardu dengan batas indikator dan memeriksa apakah SLA berlaku untuk setiap indikator di ruas yang dianalisis."
+  },
+  {
+    "record": 32,
+    "match_field": "after",
+    "before": "Kasus ini mencakup item yang tetap dihitung karena kategori kerusakannya terisi, meskipun prioritas perbaikannya kosong.",
+    "feedback": "This is hard to understand and also does not make sense",
+    "after": "Di T6-C1, item inspeksi yang memiliki kategori kerusakan tetap dihitung sebagai item rusak meskipun prioritas perbaikannya kosong."
+  },
+  {
+    "record": 33,
+    "match_field": "after",
+    "before": "T3 membandingkan lalu lintas antar bulan, sehingga jumlah hari yang berbeda pada setiap bulan juga perlu diperhitungkan.",
+    "feedback": "This is awkward. \"T3 membandingkan lalu lintas antar bulan\" does not make any sense",
+    "after": "Di T3, agen diminta menampilkan tren volume dan LHR bulanan berdasarkan golongan kendaraan. Perhitungan LHR menggunakan jumlah hari pada masing-masing bulan."
+  },
+  {
+    "record": 34,
+    "match_field": "after",
+    "before": "Jumlah hari kalender untuk menghitung LHR tetap mencakup hari tanpa laporan.",
+    "feedback": "This is hard to understand and borderline does not make sense",
+    "after": "LHR dihitung dengan membagi total volume kendaraan dengan jumlah hari kalender dalam periode tersebut, termasuk hari yang tidak memiliki laporan."
+  },
+  {
+    "record": 50,
+    "match_field": "after",
+    "before": "Jawaban dari tiga pengulangan juga dibandingkan untuk melihat apakah hasilnya konsisten.",
+    "feedback": "If it's not consistent we already say that it's gonna FAIL. Do you think we should keep this sentence?",
+    "after": "Hasil tiga pengulangan juga dibandingkan pada kasus, model, dan kondisi konteks bisnis yang sama untuk melihat apakah hasilnya berubah."
+  },
+  {
+    "record": 51,
+    "match_field": "after",
+    "before": "Angka dibandingkan berdasarkan nilai numeriknya tanpa toleransi tambahan. Nilai 10, 10.0, dan 10.00 diperlakukan sama. Penilaian tidak memeriksa jumlah digit desimal yang ditampilkan, meskipun prompt menetapkan jumlah digit tersebut.",
+    "feedback": "I'm not sure about this. This feels like a very detailed rule about our validation rule. Which is good, but it seems like too much information. What do you think?",
+    "after": "Angka dibandingkan berdasarkan nilainya tanpa toleransi tambahan. Misalnya, nilai 10 dan 10.0 dinilai sama."
+  },
+  {
+    "record": 52,
+    "match_field": "after",
+    "before": "Respons juga diberi status FAIL jika tidak dapat di-parse sebagai JSON atau jika struktur maupun nilainya berbeda dari expected result.",
+    "feedback": "In our experiment, the agent ended up returning all valid, parsable JSON. Should we remove the sentence saying that invalid JSONs are considered a FAIL? Since that never happens and hence irrelevant to our experiment?",
+    "after": "Jawaban dinilai PASS jika merupakan JSON yang valid dan seluruh struktur serta nilainya sesuai dengan expected result. Perbandingan mencakup seluruh atribut, nilai, dan urutan elemen array. Urutan properti dalam JSON tidak memengaruhi penilaian."
+  },
+  {
+    "record": 56,
+    "match_field": "after",
+    "before": "SKILL.md berfungsi sebagai dokumen routing yang menghubungkan permintaan analisis dengan referensi yang perlu dibaca. Petunjuknya mencakup penggunaan beberapa referensi untuk permintaan yang melibatkan lebih dari satu domain:\nRead the reference for each domain involved in the request. For a request spanning domains, use each relevant reference.\nSebagai contoh, permintaan evaluasi SPM/SLA transaksi diarahkan ke transactions.md dan spm-sla.md. Dokumen transactions.md menjelaskan arti laporan dan sampel durasi, sedangkan spm-sla.md menjelaskan penilaian setiap gardu serta penentuan status periode. Semua dokumen konteks bisnis yang digunakan dalam eksperimen ini disajikan pada Lampiran 3.",
+    "feedback": "This is useful, keep this, but find a way so that it doesn't feel like it just repeats again what the table directly above it was saying",
+    "after": "Untuk prompt yang mencakup beberapa topik analisis, SKILL.md memberi petunjuk berikut:"
+  },
+  {
+    "record": 57,
+    "match_field": "after",
+    "before": "Susunan data inspeksi, kriteria kerusakan, kategori, prioritas, dan hubungan dengan aset.\nMenentukan temuan yang dihitung sebagai kerusakan serta mengelompokkannya menurut kategori, prioritas, dan aset.",
+    "feedback": "Check these for calques and get fucking rid of them",
+    "after": "Struktur data inspeksi, kriteria dan kategori kerusakan, prioritas perbaikan, serta relasi tabel yang menghubungkan inspeksi dengan aset."
+  },
+  {
+    "record": 58,
+    "match_field": "after",
+    "before": "jumlah setiap penyebab yang tercatat",
+    "feedback": "Calque",
+    "after": "Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan."
+  },
+  {
+    "record": 59,
+    "match_field": "after",
+    "before": "berdasarkan tindakan terkait",
+    "feedback": "Calque",
+    "after": "Menentukan status insiden dengan memeriksa semua tindakan penanganannya serta menghitung frekuensi setiap penyebab kecelakaan."
+  },
+  {
+    "record": 60,
+    "match_field": "after",
+    "before": "catatan penyebab kecelakaan",
+    "feedback": "Calque",
+    "after": "Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan."
+  },
+  {
+    "record": 61,
+    "match_field": "after",
+    "before": "syarat status",
+    "feedback": "This is a calque",
+    "after": "Data insiden dan tindakan penanganannya, cara menentukan status insiden, serta penyebab kecelakaan."
+  },
+  {
+    "record": 62,
+    "match_field": "after",
+    "before": "penyebut LHR",
+    "feedback": "This is a calque. I've seen this being used across the thesis. Find a better way to express your idea. Don't use \"penyebut ...\"",
+    "after": "Menghitung volume kendaraan dan mengelompokkan hasil berdasarkan periode yang ditanyakan. LHR dihitung menggunakan jumlah hari kalender pada periode tersebut."
+  },
+  {
+    "record": 65,
+    "match_field": "after",
+    "before": "menentukan cakupan serta identitas data",
+    "feedback": "This is a calque",
+    "after": "Memahami istilah dalam prompt dan memilih data yang sesuai."
+  },
+  {
+    "record": 66,
+    "match_field": "after",
+    "before": "Menafsirkan",
+    "feedback": "Stop using this word. This is clearly a calque",
+    "after": "Memahami istilah dalam prompt dan memilih data yang sesuai."
+  },
+  {
+    "record": 69,
+    "match_field": "after",
+    "before": "aturan bersama",
+    "feedback": "This is a calque. Find a better term",
+    "after": "Ruang lingkup sistem, instruksi umum, dan panduan memilih referensi."
+  },
+  {
+    "record": 70,
+    "match_field": "after",
+    "before": "Pada kondisi dengan konteks bisnis, ketujuh dokumen tersebut tersedia untuk dibaca agen. Pada kondisi tanpa konteks bisnis, agen tidak memperoleh akses ke dokumen tersebut.",
+    "feedback": "Consider merging this with the previous paragraph, or removing it completely. This sounds idiotic, because it's basically:\n\n\"Without X, there's no X. With X, there's X\". That sounds idiotic as fuck",
+    "after": "Konteks bisnis diberikan dalam bentuk skill hka-trom-business-context, yang terdiri atas SKILL.md dan enam dokumen referensi dalam folder references. Tabel 3.7 merangkum isi setiap dokumen dan fungsinya bagi agen."
+  },
+  {
+    "record": 71,
+    "match_field": "before",
+    "before": "Tabel 3.6 menyajikan prompt T2-C1 yang digunakan dalam pengujian.",
+    "feedback": "Say that this is an example. Things like these make you look like you're presenting one fact after another, and makes it hard to follow. Don't let things like this happens in ANY AND ALL part of our thesis",
+    "after": "Sebagai contoh, Tabel 3.6 menyajikan prompt T2-C1 yang digunakan dalam pengujian. Prompt ini tidak menjelaskan jumlah hari yang digunakan untuk menghitung LHR maupun cara memperhitungkan hari tanpa laporan."
+  },
+  {
+    "record": 72,
+    "match_field": "after",
+    "before": "Prompt tidak memuat nama tabel, rumus, atau langkah penyelesaian.",
+    "feedback": "Make this sentence connect with the previous one. This seems to mechanical",
+    "after": "Setiap kasus menggunakan satu prompt yang berisi pertanyaan analisis dan ketentuan jawaban, tanpa menyertakan nama tabel, rumus, atau langkah penyelesaian. Blok output_schema memuat JSON Schema yang menentukan atribut, tipe data, dan nilai status yang diperbolehkan dalam jawaban. Instruksi pada blok ini juga mengatur penulisan nama sesuai data sumber, pembulatan angka, dan urutan array."
+  },
+  {
+    "record": 73,
+    "match_field": "after",
+    "before": "Pertanyaan menetapkan ruas, gerbang, tanggal, shift, atau periode pembanding sesuai kebutuhan kasus.",
+    "feedback": "Is this necessary? I think this is too much information. We're just adding vague, general facts to this paragraph.",
+    "after": "Setiap kasus menggunakan satu prompt yang berisi pertanyaan analisis dan ketentuan jawaban, tanpa menyertakan nama tabel, rumus, atau langkah penyelesaian. Blok output_schema memuat JSON Schema yang menentukan atribut, tipe data, dan nilai status yang diperbolehkan dalam jawaban. Instruksi pada blok ini juga mengatur penulisan nama sesuai data sumber, pembulatan angka, dan urutan array."
+  },
+  {
+    "record": 75,
+    "match_field": "after",
+    "before": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Laporan 1600200001 memiliki section_id 10 untuk Ruas BINSTA dan tanggal operasional 27 Januari 2030, sehingga termasuk dalam cakupan pertanyaan. Laporan tersebut terhubung melalui transaction_id dengan tujuh catatan durasi, yaitu enam catatan booth masing-masing 10 detik dan satu catatan longbooth sebesar 2 detik. Tabel 3.5 merangkum jumlah catatan dan total durasinya.",
+    "feedback": "Slop. Hard to understand. Oddly formal and sounds unnatural",
+    "after": "Sebagai contoh, T1-C2 meminta rata-rata durasi transaksi di Ruas BINSTA selama 25–30 Januari 2030. Perhitungan menggunakan laporan transaksi dari ruas tersebut dengan tanggal operasional 27 Januari 2030. Laporan ini memiliki enam sampel booth masing-masing 10 detik dan satu sampel longbooth sebesar 2 detik. Tabel 3.5 menunjukkan jumlah sampel dan total durasinya."
+  },
+  {
+    "record": 83,
+    "match_field": "after",
+    "before": "Pada setiap kelompok, hasil perbandingan dibahas sesuai kebutuhan analisisnya. Jawaban berstatus FAIL serta perbedaan jawaban pada tiga pengulangan ditelaah untuk mengidentifikasi atribut dan nilai yang tidak sesuai dengan acuan.",
+    "feedback": "Sounds too complicated for what it actually is",
+    "after": "Pembahasan dibagi menjadi enam kelompok analisis: durasi transaksi (T1), volume lalu lintas dan LHR (T2–T3), insiden dan penyebab kecelakaan (T4–T5), inspeksi dan identitas aset (T6), SPM/SLA per laporan (T7), serta SPM/SLA periode dan antarperiode (T8–T9). Jawaban yang dinilai FAIL diperiksa untuk melihat bagian yang tidak sesuai dengan expected result. Hasil tiga pengulangan juga dibandingkan pada kasus, model, dan kondisi konteks bisnis yang sama untuk melihat apakah hasilnya berubah."
+  },
+  {
+    "record": 85,
+    "match_field": "after",
+    "before": "Pada setiap model, tingkat keberhasilan dengan konteks bisnis dibandingkan dengan hasil tanpa konteks bisnis. Selisih tingkat keberhasilan dinyatakan dalam poin persentase.",
+    "feedback": "Why do we all of a sudden talk about \"selisih\"? What is the relevance of \"selisih\"?",
+    "after": "Analisis dilakukan secara deskriptif. Hasil pengujian dikelompokkan berdasarkan model dan ada atau tidaknya konteks bisnis. Tingkat keberhasilan setiap kelompok disajikan, kemudian hasil kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, hasil dengan konteks bisnis juga dibandingkan dengan hasil tanpa konteks bisnis."
+  },
+  {
+    "record": 103,
+    "match_field": "after",
+    "before": "skema public",
+    "feedback": "This can get conflated with public-access schema, which it is NOT.",
+    "after": "Basis data penelitian menggunakan skema HKA TROM dan diisi dengan data sintetis."
+  }
+]

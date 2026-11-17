@@ -1,0 +1,454 @@
+{
+  "coverage": [
+    "B0185",
+    "B0186",
+    "B0187",
+    "B0188",
+    "B0189",
+    "B0190",
+    "B0191",
+    "B0192",
+    "B0193",
+    "B0194",
+    "B0195",
+    "B0196",
+    "B0197",
+    "B0198",
+    "B0199",
+    "B0200",
+    "B0201",
+    "B0202",
+    "B0203",
+    "B0204",
+    "B0205",
+    "B0206",
+    "B0207",
+    "B0208",
+    "B0209",
+    "B0210",
+    "B0211",
+    "B0212",
+    "B0213",
+    "B0214",
+    "B0215",
+    "B0216",
+    "B0217",
+    "B0218",
+    "B0219",
+    "B0220",
+    "B0221",
+    "B0222",
+    "B0223",
+    "B0224",
+    "B0225",
+    "B0226",
+    "B0227",
+    "B0228",
+    "B0229",
+    "B0230",
+    "B0231",
+    "B0232",
+    "B0233",
+    "B0234",
+    "B0235",
+    "B0236",
+    "B0237",
+    "B0238",
+    "B0239",
+    "B0240",
+    "B0241",
+    "B0242",
+    "B0243",
+    "B0244",
+    "B0245",
+    "B0246",
+    "B0247",
+    "B0248",
+    "B0249",
+    "B0250",
+    "B0251",
+    "B0252",
+    "B0253",
+    "B0254",
+    "B0255",
+    "B0256",
+    "B0257",
+    "B0258",
+    "B0259",
+    "B0260",
+    "B0261",
+    "B0262",
+    "B0263",
+    "B0264",
+    "B0265",
+    "B0266",
+    "B0267",
+    "B0268",
+    "B0269",
+    "B0270",
+    "B0271",
+    "B0272",
+    "B0273",
+    "B0274",
+    "B0275",
+    "B0276",
+    "B0277",
+    "B0278",
+    "B0279",
+    "B0280",
+    "B0281",
+    "B0282",
+    "B0283",
+    "B0284",
+    "B0285",
+    "B0286",
+    "B0287",
+    "B0288",
+    "B0289",
+    "B0290",
+    "B0291",
+    "B0292",
+    "B0293",
+    "B0294",
+    "B0295",
+    "B0296",
+    "B0297",
+    "B0298",
+    "B0299",
+    "B0300",
+    "B0301",
+    "B0302",
+    "B0303",
+    "B0304",
+    "B0305",
+    "B0306",
+    "B0307",
+    "B0308",
+    "B0309",
+    "B0310",
+    "B0311",
+    "B0312",
+    "B0313",
+    "B0314",
+    "B0315",
+    "B0316",
+    "B0317",
+    "B0318",
+    "B0319",
+    "B0320",
+    "B0321",
+    "B0322",
+    "B0323",
+    "B0324",
+    "B0325",
+    "B0326",
+    "B0327",
+    "B0328",
+    "B0329",
+    "B0330",
+    "B0331",
+    "B0332",
+    "B0333",
+    "B0334",
+    "B0335",
+    "B0336",
+    "B0337",
+    "B0338",
+    "B0339",
+    "B0340",
+    "B0341",
+    "B0342",
+    "B0343",
+    "B0344",
+    "B0345",
+    "B0346",
+    "B0347",
+    "B0348",
+    "B0349",
+    "B0350",
+    "B0351",
+    "B0352",
+    "B0353",
+    "B0354",
+    "B0355",
+    "B0356",
+    "B0357",
+    "B0358",
+    "B0359",
+    "B0360",
+    "B0361",
+    "B0362",
+    "B0363"
+  ],
+  "findings": [
+    {
+      "id": "R-001",
+      "block_id": "B0258",
+      "quote": "pada kedua kondisi konteks bisnis",
+      "problem": "Frasa ini masih memakai label ringkas yang ditolak pada record 111. Pembaca harus menguraikan sendiri dua kondisi yang dimaksud.",
+      "acceptance_condition": "Sebutkan kondisi dengan dan tanpa konteks bisnis secara langsung pada kalimat ini.",
+      "preserve": "Tetap enam jawaban per model untuk T6-C1, mencakup kedua kondisi.",
+      "feedback_records": [
+        111
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-002",
+      "block_id": "B0272",
+      "quote": "satu jawaban yang tidak mencantumkan seluruh evaluasi",
+      "problem": "Objek yang tidak lengkap disebut evaluasi, padahal yang hilang adalah hasil evaluasi indikator dalam jawaban. Ini dapat terbaca sebagai langkah evaluasi yang tidak dilakukan.",
+      "acceptance_condition": "Nyatakan bahwa jawaban tidak memuat seluruh hasil evaluasi yang diminta, sesuai rincian B0287.",
+      "preserve": "Empat jawaban FAIL dari T7-C1 dan T7-C2: tiga kesalahan status dan satu jawaban tidak lengkap; jangan tambahkan sebab yang belum dinyatakan.",
+      "feedback_records": [],
+      "kind": "language"
+    },
+    {
+      "id": "R-003",
+      "block_id": "B0290",
+      "quote": "T8-C1 dan T8-C2 yang menilai SPM/SLA selama satu periode, serta T9-C1 dan T9-C2 yang membandingkan hasil dua periode",
+      "problem": "Klausa relatif menjadikan kode kasus sebagai pelaku penilaian dan perbandingan, sedangkan objek hasil dua periode tidak menyebut status indikator yang dibandingkan. Record 27 secara khusus menolak ketidakjelasan objek ini; metode menjelaskan bahwa agen membandingkan status pemenuhan setiap indikator.",
+      "acceptance_condition": "Jelaskan cakupan penilaian pada T8 dan perbandingan status pemenuhan indikator pada T9 tanpa menjadikan kode kasus sebagai agen yang bertindak.",
+      "preserve": "Pertahankan empat kode kasus, satu periode untuk T8, dua periode untuk T9, kedua kondisi konteks bisnis, dan rujukan Tabel 4.20.",
+      "feedback_records": [
+        27,
+        33,
+        107
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-004",
+      "block_id": "B0298",
+      "quote": "SLA yang tidak berlaku juga ditandai dengan not_applicable",
+      "problem": "Tidak disebutkan apa yang menentukan SLA berlaku. Pembaca dapat menyangka seluruh SLA dalam suatu periode tidak berlaku, padahal metode mengaitkannya dengan indikator dan ruas. Record 31 meminta hubungan tersebut disebutkan.",
+      "acceptance_condition": "Hubungkan not_applicable dengan keberlakuan SLA untuk indikator pada ruas yang dianalisis tanpa menambahkan kasus atau konfigurasi baru.",
+      "preserve": "Pertahankan 24/24 PASS, kesesuaian status/jumlah evaluasi/jumlah kegagalan, dan identifier not_applicable.",
+      "feedback_records": [
+        31
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-005",
+      "block_id": "B0306",
+      "quote": "Hasil pengujian pada enam kelompok analisis menunjukkan bahwa 170 dari 180 jawaban memperoleh PASS.",
+      "problem": "Kalimat pembuka memakai lapisan pelaporan hasil pengujian menunjukkan bahwa dan kategori kelompok analisis, padahal informasi barunya adalah jumlah jawaban yang sesuai. Record 47 menolak tepat kalimat ini; record 5 juga menolak label kelompok saat referennya harus dipulihkan pembaca.",
+      "acceptance_condition": "Nyatakan rekap 170 dari 180 jawaban dan asal sepuluh FAIL secara langsung dengan objek jawaban yang jelas; jumlah kategori boleh dipertahankan bila dihubungkan dengan jenis analisis yang telah dijelaskan.",
+      "preserve": "Jumlah 170 PASS dari 180, sepuluh FAIL, dan seluruh FAIL berasal dari kondisi tanpa konteks bisnis.",
+      "feedback_records": [
+        47,
+        5
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-006",
+      "block_id": "B0310",
+      "quote": "Data yang digunakan dan cara agen menerapkan aturan bisnis juga memengaruhi hasil analisis. Pada contoh T5-C1, agen menggunakan data dari insiden yang tidak termasuk kecelakaan dan menghasilkan nilai total_cause_assignments yang lebih besar daripada nilai pada *expected result*.",
+      "problem": "Pembuka data yang digunakan terlalu luas: yang ditunjukkan contoh ialah pemilihan insiden yang tidak memenuhi syarat, bukan perbedaan kumpulan data antarkondisi. Perbandingan lebih besar juga mengaburkan perbedaan konkret 7 terhadap 5 yang telah tersedia pada B0246–B0250. Record 46 menolak dua kalimat ini, sementara record 37 memuji kalimat berikutnya tentang pembulatan.",
+      "acceptance_condition": "Jelaskan hubungan pemilihan insiden yang salah dengan hitungan penyebab yang berlebih secara konkret. Perbaiki hanya dua kalimat pertama dan pertahankan kalimat contoh T7-C1 yang dipuji.",
+      "preserve": "Data uji tidak diubah antarkondisi. Contoh T5-C1 menggunakan insiden is_accident = false yang seharusnya dikecualikan; nilai total_cause_assignments pada jawaban gagal 7 dan expected result 5. Kalimat T7-C1 tetap utuh.",
+      "feedback_records": [
+        46,
+        37
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-007",
+      "block_id": "B0313",
+      "quote": "Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan *expected result*. Manfaat hasil analisis bagi pengambilan keputusan operasional belum dinilai.",
+      "problem": "Tiga kalimat menumpuk dua batas kesimpulan tanpa menjelaskan hubungan keduanya dengan klaim hasil: perbandingan hanya menguji konteks bisnis secara keseluruhan, sedangkan PASS hanya menunjukkan kesesuaian jawaban. Kata hasil pada batas dokumen juga tidak menetapkan apakah yang dimaksud ketepatan jawaban atau kegunaan operasional. Records 45 dan 48 menolak bagian ini; batasnya tetap penting.",
+      "acceptance_condition": "Susun batasan agar pembaca dapat membedakan pengaruh masing-masing dokumen terhadap ketepatan jawaban dari manfaat jawaban bagi keputusan operasional. Hubungkan perbandingan seluruh dokumen dengan keterbatasan atribusi dan pengukuran PASS dengan kegunaan yang belum diuji.",
+      "preserve": "Tetap 15 kasus, tiga pengulangan pada tiap kombinasi, dokumen diberikan bersama, pengaruh individual belum diketahui, evaluasi berdasarkan expected result, dan manfaat operasional belum dinilai. Jangan menghapus batasan sebagai disclaimer.",
+      "feedback_records": [
+        45,
+        48
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-008",
+      "block_id": "B0319",
+      "quote": "dua jawaban T5-C1 berisi frekuensi penyebab kecelakaan yang terlalu besar dan menambahkan kategori",
+      "problem": "Ringkasan dapat dibaca bahwa frekuensi semua penyebab terlalu besar dan tidak menjelaskan kategori tambahan dibandingkan dengan apa. B0248 memperlihatkan satu frekuensi tetap benar, satu terlalu besar, dan satu kategori tidak ada pada expected result.",
+      "acceptance_condition": "Tegaskan bahwa ketidaksesuaian mencakup frekuensi salah satu penyebab dan kategori yang tidak ada pada expected result, tanpa menyatakan seluruh frekuensi salah.",
+      "preserve": "Dua jawaban T5-C1 tetap FAIL; nilai Mengantuk tetap sesuai, Kelalaian Pengemudi berlebih, dan Kondisi Jalan tambahan. Seluruh hitungan kegagalan lain tetap.",
+      "feedback_records": [],
+      "kind": "language"
+    },
+    {
+      "id": "R-009",
+      "block_id": "B0195",
+      "quote": "antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-010",
+      "block_id": "B0288",
+      "quote": "Antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-011",
+      "block_id": "B0291",
+      "quote": "Antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-012",
+      "block_id": "B0293",
+      "quote": "antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-013",
+      "block_id": "B0295",
+      "quote": "antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-014",
+      "block_id": "B0296",
+      "quote": "Antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-015",
+      "block_id": "B0301",
+      "quote": "Antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-016",
+      "block_id": "B0308",
+      "quote": "antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-017",
+      "block_id": "B0318",
+      "quote": "antarperiode",
+      "problem": "Ejaan ini bertentangan dengan instruksi eksplisit penulis pada record 19, yang meminta antar periode dengan spasi.",
+      "acceptance_condition": "Gunakan antar periode, mempertahankan kapitalisasi yang diperlukan pada judul atau caption. Ubah ejaan ini saja bila bagian lain sudah jelas.",
+      "preserve": "Seluruh makna, kode kasus, angka, sel numerik tabel, dan perbandingan periode tetap. Pada bagian yang dipuji, jangan ubah penjelasan lain.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "R-018",
+      "block_id": "B0326",
+      "quote": "Agent Skills overview.",
+      "problem": "Record 17 meminta daftar pustaka rata kanan-kiri. Sumber Markdown tidak membuktikan perataan paragraf pada dokumen akhir, sehingga permintaan tata letak belum dapat dinyatakan selesai.",
+      "acceptance_condition": "Periksa perataan daftar pustaka pada aplikasi dokumen atau hasil render akhir; jangan mengubah isi entri untuk menyimulasikan perataan.",
+      "preserve": "Seluruh entri bibliografi B0325–B0363, nama, tahun, judul, DOI, dan URL tetap persis.",
+      "feedback_records": [
+        17
+      ],
+      "kind": "unresolved"
+    }
+  ],
+  "preserve": [
+    {
+      "block_id": "B0285",
+      "reason": "Record 36 secara eksplisit memuji penjelasan rinci pembulatan. Pertahankan utuh angka 6,004, 6,00, batas 6 detik, kondisi, pengulangan, dan status true/false."
+    },
+    {
+      "block_id": "B0286",
+      "reason": "Bagian lanjutan contoh pembulatan yang dipuji pada record 36. Pertahankan detail 9,004, 9,00, batas 9 detik, dua model/pengulangan, dan status."
+    },
+    {
+      "block_id": "B0287",
+      "reason": "Menjelaskan perbedaan kesalahan status dan keluaran tidak lengkap secara dapat diperiksa: empat dari 20 hasil, lima indikator, empat gardu, 16 hasil hilang. Detail ini diperlukan."
+    },
+    {
+      "block_id": "B0308",
+      "reason": "Record 39 memuji paragraf ini. Pertahankan perbandingan model dan kelompok; hanya ejaan antar periode memiliki instruksi eksplisit terpisah."
+    },
+    {
+      "block_id": "B0309",
+      "reason": "Record 38 memuji paragraf ini. Penjelasannya membedakan nilai yang benar dari jawaban lengkap dengan tepat."
+    },
+    {
+      "block_id": "B0310",
+      "reason": "Kalimat terakhir tentang T7-C1 dipuji pada record 37. Pertahankan kalimat ini ketika memperbaiki dua kalimat awal yang ditolak record 46."
+    },
+    {
+      "block_id": "B0311",
+      "reason": "Record 40 memuji rekap per pengulangan. Angka sesuai rincian kasus gagal; tidak perlu merumuskan ulang."
+    },
+    {
+      "block_id": "B0312",
+      "reason": "Record 40 memuji penjelasan perubahan kasus gagal meskipun jumlah PASS tetap. Pertahankan rincian ini. Keberatan umum terhadap antarpengulangan pada record 104 tidak cukup untuk membongkar bagian yang secara khusus dipuji tanpa kronologi yang pasti."
+    },
+    {
+      "block_id": "B0315",
+      "reason": "Record 18 meminta pengantar sebelum kesimpulan. Pengantar saat ini menjalankan fungsi tersebut tanpa hubungan editorial yang ditolak record 3. Teks after bukan bukti persetujuan, tetapi tidak ditemukan cacat konkret yang memerlukan perubahan."
+    },
+    {
+      "block_id": "B0323",
+      "reason": "Pertahankan saran menambah pengulangan tanpa menambahkan lagi kondisi kontrol yang ditolak record 1. Variasi konteks, tugas, dan penilaian kegunaan menanggapi keterbatasan yang dijelaskan."
+    }
+  ],
+  "notes": [
+    "Seluruh 179 blok B0185–B0363 ditelaah, termasuk semua tabel dan 39 entri bibliografi. Blok tanpa finding dipertahankan; tidak ada kuota revisi.",
+    "Rekap aritmetika internal konsisten: total kelompok 24+24+24+12+48+48=180; PASS 24+20+22+12+44+48=170. Dengan konteks 90/90, tanpa konteks 80/90. Tanpa konteks, model pertama 6+5+4+3+11+12=41/45 dan model kedua 6+3+6+3+9+12=39/45. Persentase tabel dan selisih 8,89 serta 13,33 poin persentase konsisten dengan pembulatan dua desimal.",
+    "Rincian kegagalan mendukung jumlah PASS per pengulangan 14,13,14 dan 13,13,13, serta 12 dari 15 kasus dengan 3/3 PASS pada tiap model tanpa konteks. Tidak ditemukan konflik angka yang memerlukan koreksi.",
+    "Matched-feedback dan catatan sumber feedback.json dibaca, termasuk pujian yang tidak otomatis masuk pencocokan. Catatan after tidak diperlakukan sebagai persetujuan.",
+    "Nama proyek tidak dicantumkan dalam temuan. Nama yang sudah ada di manuskrip, identifier, kutipan, bibliografi, dan angka tetap harus dilindungi dalam revisi.",
+    "Lampiran 1 tidak terdapat dalam source.md yang diberikan. Rujukan B0312 ke Tabel L1.2/L1.3 dipertahankan, tetapi keberadaan tabel dan kesesuaiannya tidak diverifikasi. Ini keterbatasan bukti, bukan alasan menghapus rincian pengulangan.",
+    "Tidak ada penelusuran web atau verifikasi eksternal sumber. Entri bibliografi ditelaah sebagai teks yang dilindungi, tanpa klaim validasi metadata, URL, atau dukungan sitasi.",
+    "Pola tiga subbagian per jenis analisis tidak dianggap pengulangan yang harus dipangkas: masing-masing memakai penyebut dan perbandingan yang berbeda. Pengantar tabel dan rincian penyebut membantu pembacaan hasil."
+  ]
+}

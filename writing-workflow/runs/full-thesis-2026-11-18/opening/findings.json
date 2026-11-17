@@ -1,0 +1,507 @@
+{
+  "coverage": [
+    "B0001",
+    "B0002",
+    "B0003",
+    "B0004",
+    "B0005",
+    "B0006",
+    "B0007",
+    "B0008",
+    "B0009",
+    "B0010",
+    "B0011",
+    "B0012",
+    "B0013",
+    "B0014",
+    "B0015",
+    "B0016",
+    "B0017",
+    "B0018",
+    "B0019",
+    "B0020",
+    "B0021",
+    "B0022",
+    "B0023",
+    "B0024",
+    "B0025",
+    "B0026",
+    "B0027",
+    "B0028",
+    "B0029",
+    "B0030",
+    "B0031",
+    "B0032",
+    "B0033",
+    "B0034",
+    "B0035",
+    "B0036",
+    "B0037",
+    "B0038",
+    "B0039",
+    "B0040",
+    "B0041",
+    "B0042",
+    "B0043",
+    "B0044",
+    "B0045",
+    "B0046",
+    "B0047",
+    "B0048",
+    "B0049",
+    "B0050",
+    "B0051",
+    "B0052",
+    "B0053",
+    "B0054",
+    "B0055",
+    "B0056",
+    "B0057",
+    "B0058",
+    "B0059",
+    "B0060",
+    "B0061",
+    "B0062",
+    "B0063",
+    "B0064",
+    "B0065",
+    "B0066",
+    "B0067",
+    "B0068",
+    "B0069",
+    "B0070",
+    "B0071",
+    "B0072",
+    "B0073",
+    "B0074",
+    "B0075",
+    "B0076",
+    "B0077",
+    "B0078",
+    "B0079",
+    "B0080",
+    "B0081",
+    "B0082",
+    "B0083",
+    "B0084",
+    "B0085",
+    "B0086",
+    "B0087"
+  ],
+  "findings": [
+    {
+      "id": "O01",
+      "block_id": "B0006",
+      "quote": "menjawab permintaan analisis secara *on-demand*",
+      "problem": "Masalah pilihan kata sesuai preferensi eksplisit: record 68 menolak frasa “permintaan analisis” karena terasa seperti terjemahan langsung. Dalam kalimat ini, yang dijawab agen adalah pertanyaan pengguna atau yang dijalankannya adalah analisis, sehingga pasangan verba dan objek perlu dibuat alami.",
+      "acceptance_condition": "Nyatakan tindakan agen dengan pasangan verba dan objek yang wajar, sesuai pertanyaan pengguna yang disebut pada awal paragraf. Hindari mengulang frasa yang ditolak tanpa alasan teknis.",
+      "preserve": "Definisi pendekatan BI dalam penelitian, penggunaan agen, membaca data, melakukan perhitungan, sifat on-demand, dan semua atribusi pada paragraf.",
+      "feedback_records": [
+        68
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "O02",
+      "block_id": "B0009",
+      "quote": "membandingkan hasil dari dua periode",
+      "problem": "Masalah keterbacaan: “hasil” tidak menyebut besaran atau status yang dibandingkan. Record 27 secara khusus menolak rumusan perbandingan dua periode dengan objek “hasil” yang tidak dijelaskan. Uraian kasus pada sumber menyebut perbandingan status pemenuhan indikator SPM/SLA pada dua periode.",
+      "acceptance_condition": "Sebutkan objek perbandingan dua periode dengan mengacu pada kasus yang dimaksud dalam naskah. Jangan memperluas klaim menjadi seluruh hasil operasional atau mengubah aturan perbandingan.",
+      "preserve": "Fungsi paragraf sebagai gambaran jenis kebutuhan analisis, perbedaan antarjenis kasus, kebutuhan menggabungkan laporan dan tindakan, serta perlakuan data yang tidak tersedia.",
+      "feedback_records": [
+        27
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "O03",
+      "block_id": "B0020",
+      "quote": "berubah antarpengulangan",
+      "problem": "Masalah pilihan kata sesuai komentar penulis: record 104 menolak “antarpengulangan”. Kemunculan ini masih memakai bentuk yang ditolak untuk menjelaskan perubahan hasil kasus.",
+      "acceptance_condition": "Nyatakan hubungan antara pengulangan secara alami, tetap menjelaskan bahwa yang dapat berubah adalah hasil setiap kasus. Pertahankan nomor dan isi lima butir batasan.",
+      "preserve": "180 jawaban terstruktur, perbandingan dengan expected result, perbandingan tingkat keberhasilan, dan pengamatan perubahan hasil pada kasus yang sama. Seluruh angka dan pembatasan lain tetap.",
+      "feedback_records": [
+        104
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "O04",
+      "block_id": "B0029",
+      "quote": "Menguji pemberian dokumen konteks bisnis melalui protokol *single-shot* pada satu dataset retail. Studi ini masih berupa preprint.",
+      "problem": "Konflik yang belum terselesaikan: record 9 secara eksplisit mempertanyakan relevansi protokol single-shot dan status preprint, serta menolak istilah protokol yang tidak dijelaskan. Sel tabel masih memuat keduanya tanpa penjelasan kegunaannya. Namun, penugasan ini meminta tabel dipertahankan, dan penghapusan status publikasi atau batas metode dapat menghilangkan kualifikasi penelitian terdahulu.",
+      "acceptance_condition": "Catat konflik untuk keputusan induk dan pertahankan tabel selama batas pelestarian tabel berlaku. Jangan menganggap redaksi ini disetujui atau menghapus kualifikasi faktual hanya agar lebih singkat. Jika kelak penyuntingan tabel diizinkan, tentukan fungsi kedua detail bagi perbandingan dan jelaskan istilah yang benar-benar diperlukan dari sumber yang tersedia.",
+      "preserve": "Seluruh struktur, baris, angka, sitasi, hasil, batas metode, dan status publikasi dalam tabel. Tidak ada koreksi fakta eksternal yang diusulkan.",
+      "feedback_records": [
+        9
+      ],
+      "kind": "unresolved"
+    },
+    {
+      "id": "O05",
+      "block_id": "B0034",
+      "quote": ", dengan protokol *single-shot*.",
+      "problem": "Masalah keterbacaan dan relevansi yang secara eksplisit disebut pada record 9: pembaca tidak diberi arti single-shot atau alasan detail ini diperlukan untuk memahami peningkatan ketepatan. Frasa muncul sebagai tambahan pada kalimat penilaian tanpa menghubungkan batas metode tersebut dengan interpretasi hasil.",
+      "acceptance_condition": "Putuskan fungsi detail ini. Bila dibutuhkan untuk membatasi perbandingan dengan penelitian sekarang, terangkan maknanya secara singkat dari bahan yang sudah tersedia dan hubungkan dengan perbandingan tersebut. Bila tidak dibutuhkan pada uraian ini, hilangkan pengulangan frasa dari prosa sambil mempertahankan kualifikasi metode pada tabel yang dilindungi. Jangan mengarang definisi protokol.",
+      "preserve": "Perbandingan kondisi penerimaan skema dan dokumen, 99 pertanyaan, peningkatan 17,2–23,2 poin persentase, dasar penilaian, identitas evaluator, dan sitasi.",
+      "feedback_records": [
+        9
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "O06",
+      "block_id": "B0041",
+      "quote": "setidaknya satu tindakan penanganan",
+      "problem": "Masalah konsistensi dengan preferensi istilah: record 92 meminta “minimal” untuk batas jumlah terendah. Aturan status yang sama dijelaskan dengan “minimal satu” pada uraian kasus di sumber, sehingga bentuk ini tidak menambah pembedaan makna.",
+      "acceptance_condition": "Gunakan istilah minimal untuk jumlah tindakan terendah dalam aturan yang sama, tanpa mengubah syarat semua tindakan selesai.",
+      "preserve": "Insiden harus mempunyai satu atau lebih tindakan, semua tindakannya selesai, kebutuhan menghubungkan tabel, dan sitasi yang mendahului contoh.",
+      "feedback_records": [
+        92
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "O07",
+      "block_id": "B0042",
+      "quote": "perbandingan hasil antarperiode",
+      "problem": "Masalah kepatuhan pada pilihan ejaan penulis: record 19 secara eksplisit meminta “antar periode” dengan spasi. Ini prosa biasa, bukan kutipan atau identifier.",
+      "acceptance_condition": "Ikuti ejaan pilihan penulis untuk antar periode tanpa mengubah cakupan klaim atau sitasinya.",
+      "preserve": "Jenis perhitungan yang dicakup, pembedaan seluruh data dan setiap kelompok, data yang tidak tersedia, dan seluruh sitasi.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    }
+  ],
+  "preserve": [
+    {
+      "block_id": "B0001",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0002",
+      "reason": "Orientasi bab singkat dan sesuai isi. Tidak ada bukti bahwa semua pengantar harus dihapus."
+    },
+    {
+      "block_id": "B0003",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0004",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0005",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0007",
+      "reason": "Contoh pembagian total volume dengan hari kalender menjelaskan perbedaan aturan secara konkret. Kemiripan dengan usulan pada record 41 tidak dianggap sebagai persetujuan, tetapi tidak ditemukan cacat konkret."
+    },
+    {
+      "block_id": "B0008",
+      "reason": "Menjelaskan kaitan temuan terdahulu dengan fungsi konteks bisnis. Angka dan sitasi dipertahankan tanpa mengklaim verifikasi sumber."
+    },
+    {
+      "block_id": "B0010",
+      "reason": "Menamai model, kondisi, kasus, expected result, dan fungsi hasil penelitian dengan jelas."
+    },
+    {
+      "block_id": "B0011",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0012",
+      "reason": "Satu rumusan masalah sudah berupa paragraf sesuai record 14."
+    },
+    {
+      "block_id": "B0013",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0014",
+      "reason": "Satu tujuan sudah berupa paragraf sesuai records 12–13. Ukuran ketepatan dijelaskan langsung."
+    },
+    {
+      "block_id": "B0015",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0016",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0017",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0018",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0019",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0021",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0022",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0023",
+      "reason": "Tabel sistematika dipertahankan. Kalimat penutup yang cocok dengan after record 3 berfungsi sebagai ringkasan isi bab dalam tabel, bukan pengantar yang menyalin instruksi penyuntingan."
+    },
+    {
+      "block_id": "B0024",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0025",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0026",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0027",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0028",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0030",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0031",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0032",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0033",
+      "reason": "Latar singkat organisasi sudah menjelaskan relevansinya sesuai record 10. Mekanisme perbandingan jawaban juga jelas."
+    },
+    {
+      "block_id": "B0035",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0036",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0037",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0038",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0039",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0040",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0043",
+      "reason": "Contoh operator pembanding menjelaskan perbedaan yang memengaruhi status. Detail ini bukan pengulangan kosong."
+    },
+    {
+      "block_id": "B0044",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0045",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0046",
+      "reason": "Urutan memilih tool, menerima hasil, dan menentukan langkah berikutnya disertai contoh yang ditandai sebagai contoh."
+    },
+    {
+      "block_id": "B0047",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0048",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0049",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0050",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0051",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0052",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0053",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0054",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0055",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0056",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0057",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0058",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0059",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0060",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0061",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0062",
+      "reason": "Contoh jumlah hari menjelaskan isi aturan yang perlu didokumentasikan. Fungsinya berbeda dari contoh pada latar belakang sehingga tidak otomatis dihapus sebagai pengulangan."
+    },
+    {
+      "block_id": "B0063",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0064",
+      "reason": "Definisi skill dan peran instruksi utama serta referensi dijelaskan sebelum istilah routing digunakan."
+    },
+    {
+      "block_id": "B0065",
+      "reason": "Routing dijelaskan melalui fungsinya. Penjelasan membaca beberapa referensi diperlukan untuk memahami penggunaan skill dan didukung preferensi pada record 56."
+    },
+    {
+      "block_id": "B0066",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0067",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0068",
+      "reason": "Context window dijelaskan pada bagian konsep umum, sesuai keberatan penempatan pada records 125–126."
+    },
+    {
+      "block_id": "B0069",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0070",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0071",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0072",
+      "reason": "Tabel karakteristik model dipertahankan lengkap, tanpa pemeriksaan fakta eksternal."
+    },
+    {
+      "block_id": "B0073",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0074",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0075",
+      "reason": "Uraian hanya berisi karakteristik model terkait. Tidak mengulang prosedur umum penelitian di dalam subbagian model, sesuai records 124–127."
+    },
+    {
+      "block_id": "B0076",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0077",
+      "reason": "Uraian membatasi isi pada identitas versi dan karakteristik model terkait, sesuai record 123."
+    },
+    {
+      "block_id": "B0078",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0079",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0080",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0081",
+      "reason": "Membedakan aspek struktur dari isi jawaban dan menempatkan atribusi pada contoh penelitian terdahulu."
+    },
+    {
+      "block_id": "B0082",
+      "reason": "Aturan PASS dan FAIL tegas serta tidak menambahkan disclaimer validator yang ditolak record 122."
+    },
+    {
+      "block_id": "B0083",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0084",
+      "reason": "Penyebut dinyatakan melalui seluruh jawaban dari tiga pengulangan, terpisah per model dan ketersediaan konteks bisnis."
+    },
+    {
+      "block_id": "B0085",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0086",
+      "reason": "Judul, orientasi, atau uraian dalam blok ini terbaca jelas dalam konteks bagian dan tidak menunjukkan masalah konkret yang membenarkan perubahan."
+    },
+    {
+      "block_id": "B0087",
+      "reason": "Hitungan 0/3 sampai 3/3 sudah dijelaskan tanpa notasi sementara yang dipertanyakan record 4. Tidak mengklaim bahwa seluruh kegagalan berarti jawaban tidak konsisten."
+    }
+  ],
+  "notes": [
+    "Seluruh 87 blok ditinjau, termasuk judul, daftar, dan tabel. Pemeriksaan mencakup bahasa, hubungan antarparagraf, fungsi detail, serta komentar penulis yang relevan.",
+    "Matched-feedback dibaca bersama feedback.json. Match pada after adalah usulan redaksi, bukan bukti persetujuan. Komentar pujian pada records 2 dan 36–40 dibaca sebagai perlindungan bagi bagian yang dipuji, bukan izin untuk memoles ulang bagian tersebut.",
+    "Record 9 tidak muncul sebagai kecocokan otomatis tetapi berlaku langsung pada B0029 dan B0034. Konflik tabel dipisahkan sebagai unresolved.",
+    "Tidak dilakukan riset eksternal atau verifikasi keabsahan klaim/sitasi. Tidak ada temuan yang menyatakan spesifikasi model, temuan publikasi, atau status publikasi telah diverifikasi.",
+    "Tidak tersedia naskah pembanding teman dalam bahan yang ditinjau. Tidak ada klaim kesesuaian dengan susunan naskah tersebut. Tata letak halaman dan glosarium di luar cakupan blok ini tidak dinilai.",
+    "Tidak ada penulisan ulang atau perubahan pada sumber. Keputusan penerimaan seluruh temuan berada pada induk."
+  ]
+}

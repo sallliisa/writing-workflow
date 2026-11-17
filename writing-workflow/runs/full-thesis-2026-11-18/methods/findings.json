@@ -1,0 +1,340 @@
+{
+  "coverage": [
+    "B0088",
+    "B0089",
+    "B0090",
+    "B0091",
+    "B0092",
+    "B0093",
+    "B0094",
+    "B0095",
+    "B0096",
+    "B0097",
+    "B0098",
+    "B0099",
+    "B0100",
+    "B0101",
+    "B0102",
+    "B0103",
+    "B0104",
+    "B0105",
+    "B0106",
+    "B0107",
+    "B0108",
+    "B0109",
+    "B0110",
+    "B0111",
+    "B0112",
+    "B0113",
+    "B0114",
+    "B0115",
+    "B0116",
+    "B0117",
+    "B0118",
+    "B0119",
+    "B0120",
+    "B0121",
+    "B0122",
+    "B0123",
+    "B0124",
+    "B0125",
+    "B0126",
+    "B0127",
+    "B0128",
+    "B0129",
+    "B0130",
+    "B0131",
+    "B0132",
+    "B0133",
+    "B0134",
+    "B0135",
+    "B0136",
+    "B0137",
+    "B0138",
+    "B0139",
+    "B0140",
+    "B0141",
+    "B0142",
+    "B0143",
+    "B0144",
+    "B0145",
+    "B0146",
+    "B0147",
+    "B0148",
+    "B0149",
+    "B0150",
+    "B0151",
+    "B0152",
+    "B0153",
+    "B0154",
+    "B0155",
+    "B0156",
+    "B0157",
+    "B0158",
+    "B0159",
+    "B0160",
+    "B0161",
+    "B0162",
+    "B0163",
+    "B0164",
+    "B0165",
+    "B0166",
+    "B0167",
+    "B0168",
+    "B0169",
+    "B0170",
+    "B0171",
+    "B0172",
+    "B0173",
+    "B0174",
+    "B0175",
+    "B0176",
+    "B0177",
+    "B0178",
+    "B0179",
+    "B0180",
+    "B0181",
+    "B0182",
+    "B0183",
+    "B0184"
+  ],
+  "findings": [
+    {
+      "id": "M01",
+      "block_id": "B0120",
+      "quote": "Nilai tepat pada batas dan nilai sebelum pembulatan",
+      "problem": "Masalah pemahaman: kedua frasa bukan dua kondisi pembanding yang setara. Nilai tepat pada batas juga merupakan nilai sebelum pembulatan. B0117 menjelaskan kondisi yang dimaksud sebagai nilai tepat pada batas dan nilai sedikit melebihi batas.",
+      "acceptance_condition": "Sel T7-C1 menyebut kedua kondisi numerik yang benar-benar diuji, dengan hubungan pembulatan terhadap penilaian tetap jelas.",
+      "preserve": "Kode T7-C1, penggunaan nilai sebelum pembulatan, serta perbedaan nilai tepat pada batas dan sedikit melebihi batas.",
+      "feedback_records": [
+        30
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M02",
+      "block_id": "B0120",
+      "quote": "Beberapa laporan dengan kegagalan berbeda",
+      "problem": "Masalah pemahaman: pembaca tidak diberi objek perbedaan kegagalan. Frasa ini mengulang masalah yang ditolak pada record 28, sementara B0118 sudah menjelaskan bahwa indikator yang sama dapat terpenuhi pada satu laporan dan tidak terpenuhi pada laporan lain.",
+      "acceptance_condition": "Sel T8-C1 menyatakan perbedaan status pemenuhan indikator di antara laporan secara konkret dan selaras dengan B0118.",
+      "preserve": "Kode T8-C1 dan penggabungan evaluasi beberapa laporan untuk menentukan status periode.",
+      "feedback_records": [
+        28
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M03",
+      "block_id": "B0120",
+      "quote": "antarperiode",
+      "problem": "Masalah kesesuaian dengan pilihan penulis: ejaan dalam prosa biasa belum mengikuti instruksi eksplisit record 19.",
+      "acceptance_condition": "Gunakan ejaan pilihan penulis, “antar periode”, pada prosa biasa dalam blok ini.",
+      "preserve": "Makna perbandingan periode, pengelompokan tugas, dan seluruh identifier tetap sama.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M04",
+      "block_id": "B0146",
+      "quote": "antarperiode",
+      "problem": "Masalah kesesuaian dengan pilihan penulis: ejaan dalam prosa biasa belum mengikuti instruksi eksplisit record 19.",
+      "acceptance_condition": "Gunakan ejaan pilihan penulis, “antar periode”, pada prosa biasa dalam blok ini.",
+      "preserve": "Makna perbandingan periode, pengelompokan tugas, dan seluruh identifier tetap sama.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M05",
+      "block_id": "B0184",
+      "quote": "antarperiode",
+      "problem": "Masalah kesesuaian dengan pilihan penulis: ejaan dalam prosa biasa belum mengikuti instruksi eksplisit record 19.",
+      "acceptance_condition": "Gunakan ejaan pilihan penulis, “antar periode”, pada prosa biasa dalam blok ini.",
+      "preserve": "Makna perbandingan periode, pengelompokan tugas, dan seluruh identifier tetap sama.",
+      "feedback_records": [
+        19
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M06",
+      "block_id": "B0130",
+      "quote": "total durasi *D* dihitung dari enam data durasi *booth* dan satu data durasi *longbooth* pada Tabel 3.5.",
+      "problem": "Masalah penyajian: B0130–B0132 memperkenalkan D, n, dan d̄, tetapi sumber Markdown tidak memuat persamaan total durasi atau rata-rata. Pembaca harus menyusun sendiri hubungan 62, 7, dan 8,86. Record 24 secara eksplisit meminta perhitungan berbentuk persamaan, sehingga teks after saja tidak memenuhi permintaan tersebut.",
+      "acceptance_condition": "Sajikan hubungan perhitungan sebagai persamaan tersendiri berdasarkan angka yang sudah tersedia: total (6 × 10) + 2 = 62 detik dan rata-rata 62/7 yang dibulatkan menjadi 8,86 detik. Gunakan simbol hanya jika dipakai dalam persamaan dan jelaskan simbol tersebut. Periksa dahulu apakah persamaan merupakan objek yang tidak ikut terbaca dalam sumber sebelum menggandakannya.",
+      "preserve": "Enam data booth masing-masing 10 detik, satu data longbooth 2 detik, tujuh data non-null, total 62 detik, pembulatan dua angka desimal, dan atribut average_transaction_duration.",
+      "feedback_records": [
+        6,
+        24
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M07",
+      "block_id": "B0179",
+      "quote": "Tingkat keberhasilan dihitung dengan membagi jumlah jawaban PASS dengan jumlah jawaban yang dinilai.",
+      "problem": "Masalah penyajian dan kelengkapan hubungan numerik: definisi hanya menyebut rasio, sedangkan B0180 dan Bagian 2.8.2 menyebut persentase. Sumber Markdown juga tidak menampilkan persamaan yang diminta record 20.",
+      "acceptance_condition": "Tampilkan persamaan persentase yang membagi jumlah PASS dengan jumlah jawaban yang dinilai lalu mengalikan 100%. Jelaskan bahwa jumlah jawaban mengikuti kasus, model, dan kondisi yang disajikan, tanpa memaksakan 45 pada semua tabel. Periksa dahulu kemungkinan persamaan berbentuk objek yang tidak ikut terbaca.",
+      "preserve": "45 jawaban per model per kondisi untuk keseluruhan 15 kasus, tiga pengulangan per kasus, seluruh jawaban ikut dihitung, dan penyajian 0/3–3/3 pada B0181.",
+      "feedback_records": [
+        4,
+        5,
+        20
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M08",
+      "block_id": "B0183",
+      "quote": "kemudian hasil kedua model dibandingkan pada kondisi konteks bisnis yang sama. Untuk setiap model, hasil dengan konteks bisnis juga dibandingkan dengan hasil tanpa konteks bisnis.",
+      "problem": "Masalah koherensi metode–hasil: paragraf hanya menerangkan perbandingan pada kombinasi model dan kondisi yang sama. BAB IV juga menyajikan ringkasan berdasarkan konteks bisnis dengan menggabungkan jawaban kedua model, serta ringkasan berdasarkan model dengan menggabungkan kedua kondisi. Contohnya Bagian 4.3.1 menggunakan 12 jawaban per kondisi dan 4.3.2 menggunakan 12 jawaban per model. Penggabungan ini belum terjelaskan di metode. Record 79 menolak cara penjelasan lama yang membingungkan, bukan memberi dasar untuk mengubah penggabungan menjadi hanya perbandingan dalam kondisi yang sama.",
+      "acceptance_condition": "Jelaskan tiga bentuk ringkasan yang benar-benar digunakan di BAB IV dengan objek dan cakupan jawaban yang eksplisit: berdasarkan konteks bisnis, berdasarkan model, serta kombinasi keduanya. Pastikan cakupan dan jumlah jawaban tidak tertukar dengan perbandingan dalam kondisi yang sama.",
+      "preserve": "Analisis deskriptif; perbandingan kedua model dan kedua kondisi; seluruh tiga pengulangan; penggabungan jawaban serta penyebut seperti yang ditampilkan BAB IV. Jangan mengganti analisis gabungan dengan analisis dalam kondisi yang sama.",
+      "feedback_records": [
+        5,
+        79,
+        85,
+        130
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M09",
+      "block_id": "B0184",
+      "quote": "Hasil tiga pengulangan juga dibandingkan pada kasus, model, dan kondisi konteks bisnis yang sama untuk melihat apakah hasilnya berubah.",
+      "problem": "Masalah pemahaman: “hasil” dapat berarti isi JSON atau status PASS/FAIL, padahal keduanya tidak identik. Dua jawaban dapat sama-sama FAIL walaupun isi kesalahannya berbeda. Bagian 2.8.3 menetapkan konsistensi dari jumlah PASS pada tiga pengulangan. Keraguan penulis pada record 50 belum ditanggapi hanya dengan mengganti “konsisten” menjadi “berubah”.",
+      "acceptance_condition": "Sebutkan dengan jelas bahwa pemeriksaan konsistensi keberhasilan membandingkan status PASS/FAIL pada tiga pengulangan, selaras dengan Bagian 2.8.3. Jika analisis perubahan isi jawaban juga dimaksudkan, bedakan dari pemeriksaan status dan gunakan hanya yang didukung naskah.",
+      "preserve": "Kasus, model, dan kondisi konteks bisnis yang sama; tiga pengulangan; pemeriksaan bagian jawaban yang tidak sesuai dengan expected result pada kalimat sebelumnya.",
+      "feedback_records": [
+        50,
+        83
+      ],
+      "kind": "language"
+    },
+    {
+      "id": "M10",
+      "block_id": "B0095",
+      "quote": "*Gambar 3.1 Alur Tahapan Penelitian*",
+      "problem": "Pertanyaan artefak yang belum terselesaikan: sumber hanya memuat caption Gambar 3.1 dan Gambar 3.2 (B0158), tanpa gambar atau tautan gambar. Rujukan pada B0094/B0157 tidak dapat dicocokkan dengan isinya dari materi ini.",
+      "acceptance_condition": "Periksa dokumen asal untuk memastikan kedua gambar tersedia dan isi, urutan tahap, serta tiga pengulangannya sesuai dengan narasi. Jika ada tetapi tidak terambil ke Markdown, catat keterbatasan ekstraksi tanpa mengarang diagram.",
+      "preserve": "Nomor dan judul gambar; lima tahap yang dirujuk; pelaksanaan pada setiap model dan kondisi; tiga pengulangan.",
+      "feedback_records": [],
+      "kind": "unresolved"
+    },
+    {
+      "id": "M11",
+      "block_id": "B0132",
+      "quote": "Lampiran 1 berisi ringkasan *expected result* seluruh kasus serta *prompt* dan *expected result* lengkap untuk T1-C2.",
+      "problem": "Pertanyaan silang-rujukan yang belum terselesaikan: source.md berakhir pada daftar pustaka dan tidak memuat Lampiran 1–3. Karena itu, klaim isi Lampiran 1 di sini, Lampiran 2 pada B0165, serta Lampiran 3 pada B0149 tidak dapat diperiksa.",
+      "acceptance_condition": "Periksa ketersediaan dan isi ketiga lampiran pada dokumen asal serta kecocokan rujukannya. Jika lampiran berada di luar ekstraksi, laporkan batas verifikasi tanpa menghapus rujukan yang mungkin benar.",
+      "preserve": "Nomor lampiran, kasus T1-C2, rincian tool pada Lampiran 2, dan konteks bisnis pada Lampiran 3.",
+      "feedback_records": [],
+      "kind": "unresolved"
+    }
+  ],
+  "preserve": [
+    {
+      "block_id": "B0113",
+      "reason": "Deskripsi konkret mengenai tindakan agen dan kondisi kasus. Record 2 secara eksplisit memuji rangkaian ini; tidak ditemukan cacat yang membenarkan perubahan. Pertahankan seluruh syarat, angka, dan pembedaan null atau ketidakberlakuan."
+    },
+    {
+      "block_id": "B0114",
+      "reason": "Deskripsi konkret mengenai tindakan agen dan kondisi kasus. Record 2 secara eksplisit memuji rangkaian ini; tidak ditemukan cacat yang membenarkan perubahan. Pertahankan seluruh syarat, angka, dan pembedaan null atau ketidakberlakuan."
+    },
+    {
+      "block_id": "B0115",
+      "reason": "Deskripsi konkret mengenai tindakan agen dan kondisi kasus. Record 2 secara eksplisit memuji rangkaian ini; tidak ditemukan cacat yang membenarkan perubahan. Pertahankan seluruh syarat, angka, dan pembedaan null atau ketidakberlakuan."
+    },
+    {
+      "block_id": "B0116",
+      "reason": "Deskripsi konkret mengenai tindakan agen dan kondisi kasus. Record 2 secara eksplisit memuji rangkaian ini; tidak ditemukan cacat yang membenarkan perubahan. Pertahankan seluruh syarat, angka, dan pembedaan null atau ketidakberlakuan."
+    },
+    {
+      "block_id": "B0117",
+      "reason": "Deskripsi konkret mengenai tindakan agen dan kondisi kasus. Record 2 secara eksplisit memuji rangkaian ini; tidak ditemukan cacat yang membenarkan perubahan. Pertahankan seluruh syarat, angka, dan pembedaan null atau ketidakberlakuan."
+    },
+    {
+      "block_id": "B0096",
+      "reason": "Kode jenis tugas dan kasus dijelaskan sebelum rincian BAB III, termasuk contoh. Hubungan n dan m sudah dapat dipahami; tidak perlu memperpanjang notasi."
+    },
+    {
+      "block_id": "B0097",
+      "reason": "Jumlah kasus, pengulangan, jawaban per kondisi, per model, dan keseluruhan jelas dan aritmetis konsisten."
+    },
+    {
+      "block_id": "B0111",
+      "reason": "Penjelasan rata-rata gabungan menjaga jumlah data durasi non-null sebagai pembagi dan memasukkan kedua jenis data pada T1-C2."
+    },
+    {
+      "block_id": "B0112",
+      "reason": "LHR dijelaskan melalui total volume dan jumlah hari kalender, termasuk hari tanpa laporan; rumusan sudah mengatasi komentar 33–34."
+    },
+    {
+      "block_id": "B0118",
+      "reason": "Objek status indikator dan perbandingan dua periode sudah disebut konkret, mengatasi komentar 27–28 dalam prosa."
+    },
+    {
+      "block_id": "B0126",
+      "reason": "Aturan memisahkan durasi T1 yang memakai booth dan longbooth dari T7–T9 yang hanya memakai booth. Batas, operator, konfigurasi tetap antar periode, dan kegagalan satu gardu/laporan merupakan detail metode yang perlu dipertahankan."
+    },
+    {
+      "block_id": "B0135",
+      "reason": "Prompt, kutipan instruksi, atau JSON merupakan artefak penelitian. Pertahankan verbatim seluruh teks, properti, nilai, spasi bermakna, dan tanda baca; preferensi gaya prosa tidak membenarkan perubahan artefak."
+    },
+    {
+      "block_id": "B0141",
+      "reason": "Prompt, kutipan instruksi, atau JSON merupakan artefak penelitian. Pertahankan verbatim seluruh teks, properti, nilai, spasi bermakna, dan tanda baca; preferensi gaya prosa tidak membenarkan perubahan artefak."
+    },
+    {
+      "block_id": "B0148",
+      "reason": "Prompt, kutipan instruksi, atau JSON merupakan artefak penelitian. Pertahankan verbatim seluruh teks, properti, nilai, spasi bermakna, dan tanda baca; preferensi gaya prosa tidak membenarkan perubahan artefak."
+    },
+    {
+      "block_id": "B0176",
+      "reason": "Prompt, kutipan instruksi, atau JSON merupakan artefak penelitian. Pertahankan verbatim seluruh teks, properti, nilai, spasi bermakna, dan tanda baca; preferensi gaya prosa tidak membenarkan perubahan artefak."
+    },
+    {
+      "block_id": "B0138",
+      "reason": "Peran pertanyaan, output_schema, JSON Schema, pembulatan, dan urutan array jelas; record 71–73 tidak mengharuskan penambahan rincian cakupan yang sudah dijelaskan di tempat lain."
+    },
+    {
+      "block_id": "B0147",
+      "reason": "Contoh penggunaan beberapa dokumen menjelaskan operasi lintas topik dan melengkapi tabel. Record 56 meminta manfaat bagian ini dipertahankan tanpa mengulang seluruh isi tabel."
+    },
+    {
+      "block_id": "B0149",
+      "reason": "Contoh penggunaan beberapa dokumen menjelaskan operasi lintas topik dan melengkapi tabel. Record 56 meminta manfaat bagian ini dipertahankan tanpa mengulang seluruh isi tabel."
+    },
+    {
+      "block_id": "B0168",
+      "reason": "Percakapan baru, tiga pengulangan, pembacaan data, dan expected result yang sama disampaikan sebagai prosedur konkret. Tidak perlu mengembalikan detail urutan atau paralelisme yang ditolak pada records 81–82."
+    },
+    {
+      "block_id": "B0172",
+      "reason": "Syarat JSON valid adalah aturan penilaian meskipun seluruh hasil aktual dapat di-parse. Pertahankan perbedaan urutan array yang dinilai dan urutan properti yang tidak dinilai; record 52 tidak membenarkan perubahan aturan."
+    },
+    {
+      "block_id": "B0173",
+      "reason": "Kesetaraan numerik 10 dan 10.0 menjelaskan aturan tanpa mengulang rincian validator; aturan ini tetap perlu walau format digit tampak berbeda. Menanggapi record 51 dengan detail yang proporsional."
+    },
+    {
+      "block_id": "B0177",
+      "reason": "Penjelasan FAIL menunjukkan atribut dan nilai yang berbeda secara konkret serta cocok dengan tabel contoh."
+    },
+    {
+      "block_id": "B0181",
+      "reason": "Notasi 0/3 hingga 3/3 langsung memperlihatkan jumlah PASS pada tiga pengulangan. Tidak memerlukan simbol tambahan seperti Pi; sesuai masalah yang diajukan record 4."
+    }
+  ],
+  "notes": [
+    "Seluruh 97 blok BAB III ditinjau, termasuk judul, caption, tabel, dan artefak, bukan hanya blok yang cocok dengan riwayat. Tidak ada perubahan pada sumber.",
+    "Matched-feedback dipakai untuk menemukan komentar; komentar lengkap dibaca dari feedback.json. Teks after tidak diperlakukan sebagai persetujuan. Komentar tambahan yang relevan antara lain 19, 20, 24, 79, 116, 120, dan 121.",
+    "Tanda titik koma di B0141 berada dalam prompt verbatim. Pertahankan artefak tersebut; konflik dengan larangan titik koma pada prosa (record 121) tidak membenarkan penyuntingan diam-diam.",
+    "Sumber Markdown tidak memverifikasi tata letak kotak prompt, jarak caption, gambar, atau objek persamaan pada dokumen asal. Persamaan dapat hilang saat ekstraksi. Kebutuhan pemeriksaan artefak dipisahkan dari penilaian bahasa.",
+    "Tidak dilakukan verifikasi fakta atau sumber eksternal. Penyebutan konfigurasi, spesifikasi model, sitasi, dan klaim penelitian terdahulu dipertahankan sebagaimana sumber, bukan dinyatakan telah diverifikasi.",
+    "Tidak ditemukan alasan untuk mengulang lagi syarat data dan prompt yang sama di setiap bagian, memperkenalkan validator terpisah, atau mengembalikan keterangan penilai independen yang telah ditolak penulis."
+  ]
+}

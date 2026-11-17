@@ -1,0 +1,86 @@
+[
+  {
+    "record": 1,
+    "match_field": "after",
+    "before": "Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus dengan mempertahankan prompt, data, dan pengaturan model.",
+    "feedback": "This is already implied. Why the fuck do you have to keep repeating \"while keeping x, y, and z\"? Why the fuck do you love saying that so much?",
+    "after": "Jumlah pengulangan dapat ditambah untuk mengamati konsistensi hasil PASS dan FAIL pada setiap kasus."
+  },
+  {
+    "record": 17,
+    "match_field": "before",
+    "before": "Agent Skills. (n.d.). Agent Skills overview. https://agentskills.io/home\nAlpar, P., & Schulz, M. (2016). Self-service business intelligence. Business & Information Systems Engineering, 58(2), 151–155. https://doi.org/10.1007/s12599-016-0424-6\nAnthropic. (2025, 11 September). Writing effective tools for agents — with agents. https://www.anthropic.com/research/writing-tools-for-agents\nBrown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., dkk. (2020). Language models are few-shot learners. Dalam Advances in Neural Information Processing Systems, 33 (hlm. 1877–1901). https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+    "feedback": "rata kanan kiri",
+    "after": "null"
+  },
+  {
+    "record": 18,
+    "match_field": "after",
+    "before": "Jawaban agen sesuai dengan expected result pada enam kelompok kebutuhan operasional HKA TROM yang diuji ketika konteks bisnis tersedia. Muse Spark 1.3 dan DeepSeek v4 masing-masing memperoleh 45/45 PASS atau 100,00%. Hasil tersebut mencakup durasi transaksi, volume lalu lintas dan LHR, insiden dan penyebab kecelakaan, inspeksi aset, SPM/SLA per laporan, serta SPM/SLA periode dan antar periode.",
+    "feedback": "We got too straight to the point. Add some introductory paragraph, just like in my friend's",
+    "after": "Bab ini berisi kesimpulan dari evaluasi kemampuan Agentic Business Intelligence dengan HKA TROM sebagai studi kasus. Pembahasan mencakup ketepatan jawaban Muse Spark 1.3 dan DeepSeek v4 Flash pada pengujian dengan dan tanpa konteks bisnis, serta saran untuk penelitian selanjutnya."
+  },
+  {
+    "record": 36,
+    "match_field": "before",
+    "before": "Terdapat tiga jawaban dengan status SPM/SLA salah untuk gardu dengan rata-rata durasi yang selisih sedikit di atas batas. Status SPM/SLA ditentukan dengan membandingkan rata-rata durasi sebelum pembulatan dengan batas indikator. Pada T7-C1, rata-rata durasi gardu 3 adalah 6,004 detik, yang melebihi batas 6 detik pada indikator pertama. Pada pengulangan kedua tanpa konteks bisnis, DeepSeek v4 membulatkan rata-rata durasi ini menjadi 6,00 detik sebelum membandingkannya dengan batas 6 detik, sehingga spm_passed dan sla_passed bernilai true. Pada pengulangan kedua dengan konteks bisnis, agen membandingkan nilai 6,004 detik dengan batas 6 detik, sehingga kedua status bernilai false sesuai dengan expected result.\nPada T7-C2, rata-rata durasi gardu 4 adalah 9,004 detik, yang ditampilkan sebagai 9 detik setelah pembulatan. Nilai sebelum pembulatan melebihi batas 9 detik pada indikator ketiga, sehingga spm_passed dan sla_passed pada expected result bernilai false. Tanpa konteks bisnis, DeepSeek…",
+    "feedback": "Sounds human",
+    "after": "null"
+  },
+  {
+    "record": 37,
+    "match_field": "before",
+    "before": "Pada contoh T7-C1, agen membandingkan rata-rata durasi yang sudah dibulatkan dengan batas indikator, sehingga gardu dengan rata-rata durasi di atas batas dinyatakan memenuhi SPM/SLA.",
+    "feedback": "Sounds *likely* human",
+    "after": "null"
+  },
+  {
+    "record": 38,
+    "match_field": "before",
+    "before": "Kelengkapan jawaban ikut menentukan hasil evaluasi. Nilai yang dicantumkan dalam jawaban T3-C1 yang gagal dan satu jawaban T7-C2 sesuai dengan expected result. Jawaban tersebut dinilai FAIL karena rincian golongan kendaraan pada T3-C1 dan evaluasi indikator pada T7-C2 tidak lengkap.",
+    "feedback": "Sounds *likely* human",
+    "after": "null"
+  },
+  {
+    "record": 40,
+    "match_field": "before",
+    "before": "Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 memperoleh 13/15 PASS pada masing-masing pengulangan.\nPada DeepSeek v4 tanpa konteks bisnis, kasus yang gagal berubah antarpengulangan meskipun jumlah PASS tetap sama. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.",
+    "feedback": "Sounds Human",
+    "after": "null"
+  },
+  {
+    "record": 45,
+    "match_field": "before",
+    "before": "Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan expected result. Manfaat hasil analisis bagi pengambilan keputusan operasional belum dinilai.",
+    "feedback": "Sounds like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 46,
+    "match_field": "before",
+    "before": "Data yang digunakan dan cara agen menerapkan aturan bisnis juga memengaruhi hasil analisis. Pada contoh T5-C1, agen menggunakan data dari insiden yang tidak termasuk kecelakaan dan menghasilkan nilai total_cause_assignments yang lebih besar daripada nilai pada expected result.",
+    "feedback": "Sounds AI slop",
+    "after": "null"
+  },
+  {
+    "record": 47,
+    "match_field": "before",
+    "before": "Hasil pengujian pada enam kelompok analisis menunjukkan bahwa 170 dari 180 jawaban memperoleh PASS. Sepuluh jawaban yang dinilai FAIL berasal dari kondisi tanpa konteks bisnis.",
+    "feedback": "Sounds like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 48,
+    "match_field": "before",
+    "before": "Seluruh dokumen konteks bisnis diberikan bersama, sehingga pengaruh tiap dokumen terhadap hasil belum dapat diketahui secara terpisah. Evaluasi berfokus pada kesesuaian jawaban dengan expected result.",
+    "feedback": "Sounds like AI slop",
+    "after": "null"
+  },
+  {
+    "record": 111,
+    "match_field": "after",
+    "before": "kondisi konteks",
+    "feedback": "Jesus fuck what the fuck is \"kondisi konteks\"",
+    "after": "pada kondisi dengan dan tanpa konteks bisnis"
+  }
+]

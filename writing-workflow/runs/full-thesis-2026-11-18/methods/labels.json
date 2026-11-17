@@ -1,0 +1,30 @@
+{
+  "ME01": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "ME02": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "ME03": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "ME04": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "ME05": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "ME06": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "ME07": {
+    "X": "proposed",
+    "Y": "source"
+  }
+}

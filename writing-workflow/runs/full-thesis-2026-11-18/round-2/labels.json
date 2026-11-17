@@ -1,0 +1,27 @@
+[
+  {
+    "id": "S01",
+    "X": "source",
+    "Y": "proposed"
+  },
+  {
+    "id": "S02",
+    "X": "proposed",
+    "Y": "source"
+  },
+  {
+    "id": "S03",
+    "X": "source",
+    "Y": "proposed"
+  },
+  {
+    "id": "S04",
+    "X": "proposed",
+    "Y": "source"
+  },
+  {
+    "id": "S05",
+    "X": "source",
+    "Y": "proposed"
+  }
+]

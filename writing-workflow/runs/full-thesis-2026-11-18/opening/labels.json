@@ -1,0 +1,30 @@
+{
+  "OE01": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "OE02": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "OE03": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "OE04": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "OE05": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "OE06": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "OE07": {
+    "X": "proposed",
+    "Y": "source"
+  }
+}

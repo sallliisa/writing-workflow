@@ -1,0 +1,70 @@
+{
+  "E-R-001": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-002": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-003": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-004": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-005": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-006": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-007": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-008": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-009": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-010": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-011": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-012": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-013": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-014": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-015": {
+    "X": "proposed",
+    "Y": "source"
+  },
+  "E-R-016": {
+    "X": "source",
+    "Y": "proposed"
+  },
+  "E-R-017": {
+    "X": "proposed",
+    "Y": "source"
+  }
+}

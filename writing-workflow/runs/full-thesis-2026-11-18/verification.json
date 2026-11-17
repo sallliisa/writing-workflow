@@ -1,0 +1,317 @@
+{
+  "source_sha256": "1e245efd6135f89a25ffcc2cf6aefa39e3eb072773988b475032422461d7fab2",
+  "revised_sha256": "3a09391b85f32f246690f66eed8ccbb096a34029555a954e7f3975e0c0c3587d",
+  "accepted_edits": 21,
+  "source_unchanged": true,
+  "output_reconstructed_from_accepted_edits": true,
+  "protected_blocks_unchanged": 46,
+  "bibliography_unchanged": true,
+  "table_rows_checked": 214,
+  "table_structure_and_numeric_cells_unchanged": true,
+  "parenthetical_year_citation_counts_unchanged": true,
+  "heading_sequence_unchanged": true,
+  "percentage_checks": [
+    {
+      "line": 519,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 520,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 532,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 533,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 545,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 546,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 547,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 548,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 562,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 563,
+      "ratio": "8/12",
+      "percentage": "66.67"
+    },
+    {
+      "line": 575,
+      "ratio": "11/12",
+      "percentage": "91.67"
+    },
+    {
+      "line": 576,
+      "ratio": "9/12",
+      "percentage": "75.00"
+    },
+    {
+      "line": 588,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 589,
+      "ratio": "5/6",
+      "percentage": "83.33"
+    },
+    {
+      "line": 590,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 591,
+      "ratio": "3/6",
+      "percentage": "50.00"
+    },
+    {
+      "line": 609,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 610,
+      "ratio": "10/12",
+      "percentage": "83.33"
+    },
+    {
+      "line": 622,
+      "ratio": "10/12",
+      "percentage": "83.33"
+    },
+    {
+      "line": 623,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 635,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 636,
+      "ratio": "4/6",
+      "percentage": "66.67"
+    },
+    {
+      "line": 637,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 638,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 667,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 668,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 680,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 681,
+      "ratio": "6/6",
+      "percentage": "100.00"
+    },
+    {
+      "line": 693,
+      "ratio": "3/3",
+      "percentage": "100.00"
+    },
+    {
+      "line": 694,
+      "ratio": "3/3",
+      "percentage": "100.00"
+    },
+    {
+      "line": 695,
+      "ratio": "3/3",
+      "percentage": "100.00"
+    },
+    {
+      "line": 696,
+      "ratio": "3/3",
+      "percentage": "100.00"
+    },
+    {
+      "line": 710,
+      "ratio": "24/24",
+      "percentage": "100.00"
+    },
+    {
+      "line": 711,
+      "ratio": "20/24",
+      "percentage": "83.33"
+    },
+    {
+      "line": 723,
+      "ratio": "23/24",
+      "percentage": "95.83"
+    },
+    {
+      "line": 724,
+      "ratio": "21/24",
+      "percentage": "87.50"
+    },
+    {
+      "line": 736,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 737,
+      "ratio": "11/12",
+      "percentage": "91.67"
+    },
+    {
+      "line": 738,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 739,
+      "ratio": "9/12",
+      "percentage": "75.00"
+    },
+    {
+      "line": 768,
+      "ratio": "24/24",
+      "percentage": "100.00"
+    },
+    {
+      "line": 769,
+      "ratio": "24/24",
+      "percentage": "100.00"
+    },
+    {
+      "line": 781,
+      "ratio": "24/24",
+      "percentage": "100.00"
+    },
+    {
+      "line": 782,
+      "ratio": "24/24",
+      "percentage": "100.00"
+    },
+    {
+      "line": 794,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 795,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 796,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    },
+    {
+      "line": 797,
+      "ratio": "12/12",
+      "percentage": "100.00"
+    }
+  ],
+  "added_equations": 3,
+  "numeric_changes_requiring_editorial_review": [
+    {
+      "id": "ME02",
+      "block_id": "B0130",
+      "before": [
+        "1",
+        "2",
+        "3.5"
+      ],
+      "after": [
+        "1",
+        "2",
+        "3.5",
+        "6",
+        "10",
+        "2",
+        "62"
+      ]
+    },
+    {
+      "id": "ME03",
+      "block_id": "B0131",
+      "before": [
+        "7"
+      ],
+      "after": [
+        "7",
+        "62",
+        "7",
+        "8",
+        "86"
+      ]
+    },
+    {
+      "id": "ME05",
+      "block_id": "B0179",
+      "before": [],
+      "after": [
+        "100"
+      ]
+    },
+    {
+      "id": "E-R-006",
+      "block_id": "B0310",
+      "before": [
+        "5",
+        "1",
+        "7",
+        "1"
+      ],
+      "after": [
+        "5",
+        "1",
+        "7",
+        "5",
+        "7",
+        "1"
+      ]
+    }
+  ],
+  "limits": "These checks establish artifact preservation and arithmetic consistency. They do not establish semantic correctness, source validity, or document layout. Read the editorial verdicts and report too."
+}

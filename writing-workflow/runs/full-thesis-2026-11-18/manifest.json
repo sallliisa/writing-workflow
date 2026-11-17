@@ -1,0 +1,9 @@
+{
+  "source": "thesis_BAB_I_to_Daftar_Pustaka_clean.md",
+  "source_sha256": "1e245efd6135f89a25ffcc2cf6aefa39e3eb072773988b475032422461d7fab2",
+  "workflow_commit": "1567cc3",
+  "scope": "All five chapters and bibliography",
+  "names": "Preserve existing proper names in manuscript, per user clarification. Use project-neutral reports.",
+  "output": "Separate revised manuscript; original remains unchanged.",
+  "round_limit": 3
+}
