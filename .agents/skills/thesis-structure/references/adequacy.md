@@ -24,6 +24,8 @@ A friend's placement is evidence of how that thesis reasons, not a mandate to co
 
 Distinguish a missing explanation from missing evidence for a repair. A subsection can demonstrably need more explanation while its accurate replacement requires sources or author input. Record that distinction. Do not invent the author's selection rationale or infer model characteristics from its name, provider, or observed results.
 
+Unavailable logs or appendices establish a verification limit, not that the author's reported observation was inferred or false. Preserve the stated factual status unless evidence supports correcting it. A missing account of observation provenance calls for a methods finding or author question, not an automatic rewrite of reported actions as hypothetical reconstructions.
+
 ## Calibrating examples
 
 ### Model background reduced to identification
