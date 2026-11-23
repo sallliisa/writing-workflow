@@ -1,0 +1,4616 @@
+[
+  {
+    "id": "P001",
+    "start": 1,
+    "end": 1,
+    "node": "T-0001",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul BAB I — PENDAHULUAN memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P002",
+    "start": 3,
+    "end": 3,
+    "node": "T-0001",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Inventaris isi memberi orientasi sebelum pembahasan masalah.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P003",
+    "start": 5,
+    "end": 5,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 1.1. Latar Belakang memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P004",
+    "start": 7,
+    "end": 7,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua rujukan membedakan fungsi BI dan kemandirian pengguna.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P005",
+    "start": 9,
+    "end": 9,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kendala memahami pertanyaan kompleks memperkenalkan kebutuhan konteks.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P006",
+    "start": 11,
+    "end": 11,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Urutan merencanakan, memilih tool, dan memeriksa hasil menjelaskan definisi agen operasional.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 42,
+        "response": "Tindakan agen kini langsung dijelaskan."
+      },
+      {
+        "record": 43,
+        "response": "Narasi bergerak dari pertanyaan pengguna ke langkah agen."
+      }
+    ]
+  },
+  {
+    "id": "P007",
+    "start": 13,
+    "end": 13,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh hari kalender menjelaskan akibat pemilihan data terhadap nilai LHR.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 34,
+        "response": "Hari tanpa laporan tetap termasuk jumlah hari kalender."
+      },
+      {
+        "record": 41,
+        "response": "Contoh operasional kini memberi alasan konkret untuk membahas aturan."
+      }
+    ]
+  },
+  {
+    "id": "P008",
+    "start": 15,
+    "end": 15,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Angka dari studi retail berfungsi sebagai alasan memeriksa dokumen aturan pada objek lain.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P009",
+    "start": 17,
+    "end": 17,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh beberapa laporan, tindakan, data kosong, dan perbandingan indikator memberi gambaran ragam pertanyaan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 27,
+        "response": "Yang dibandingkan ialah status pemenuhan indikator antara dua periode."
+      }
+    ]
+  },
+  {
+    "id": "P010",
+    "start": 19,
+    "end": 19,
+    "node": "T-0002",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kasus dan expected result yang sama menghubungkan perbandingan model dengan cara mengukurnya.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 44,
+        "response": "Paragraf memakai kasus, pembanding dan hasil yang dinilai untuk mengonkretkan tujuan."
+      }
+    ]
+  },
+  {
+    "id": "P011",
+    "start": 21,
+    "end": 21,
+    "node": "T-0003",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 1.2. Rumusan Masalah memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P012",
+    "start": 23,
+    "end": 23,
+    "node": "T-0003",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Rumusan tunggal dalam paragraf menyebut objek, kedua kondisi, dan pembanding jawaban.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 14,
+        "response": "Pertanyaan penelitian tunggal sudah berbentuk paragraf."
+      }
+    ]
+  },
+  {
+    "id": "P013",
+    "start": 25,
+    "end": 25,
+    "node": "T-0004",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 1.3. Tujuan Penelitian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P014",
+    "start": 27,
+    "end": 27,
+    "node": "T-0004",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tujuan tunggal dalam prosa langsung dihubungkan dengan persentase dan rincian pengulangan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 12,
+        "response": "Satu tujuan telah ditulis dalam prosa."
+      },
+      {
+        "record": 13,
+        "response": "Tujuan tunggal berbentuk paragraf."
+      }
+    ]
+  },
+  {
+    "id": "P015",
+    "start": 29,
+    "end": 29,
+    "node": "T-0005",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 1.4. Manfaat Penelitian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P016",
+    "start": 31,
+    "end": 31,
+    "node": "T-0005",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pengantar menjelaskan penerima manfaat sebelum dua butir berbeda.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P017",
+    "start": 33,
+    "end": 34,
+    "node": "T-U033",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Bukti empiris dibedakan dari contoh evaluasi dan kemungkinan pemanfaatan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P018",
+    "start": 36,
+    "end": 36,
+    "node": "T-0006",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 1.5. Batasan Penelitian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P019",
+    "start": 38,
+    "end": 38,
+    "node": "T-0006",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kalimat memperkenalkan daftar batas pengujian.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P020",
+    "start": 40,
+    "end": 44,
+    "node": "T-U040",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Lima batas membedakan cakupan kasus, data, akses, dokumen bersama dan unit 180 jawaban.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 53,
+        "response": "Contoh akses yang dikecualikan membedakan data dasar dari jawaban siap pakai."
+      }
+    ]
+  },
+  {
+    "id": "P021",
+    "start": 46,
+    "end": 46,
+    "node": "T-0007",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 1.6. Sistematika Penulisan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P022",
+    "start": 48,
+    "end": 48,
+    "node": "T-0007",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kalimat memperkenalkan ikhtisar lima bab.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P023",
+    "start": 50,
+    "end": 56,
+    "node": "T-0007",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Lima baris memetakan lima bab ke kontribusinya masing-masing.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 3,
+        "response": "Pengantar simpulan perlu cukup singkat dan tidak terdengar seperti instruksi penyuntingan."
+      }
+    ]
+  },
+  {
+    "id": "P024",
+    "start": 58,
+    "end": 58,
+    "node": "T-0008",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul BAB II — TINJAUAN PUSTAKA memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P025",
+    "start": 60,
+    "end": 60,
+    "node": "T-0008",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Cakupan tinjauan ditata dari penelitian terdahulu ke komponen evaluasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P026",
+    "start": 62,
+    "end": 62,
+    "node": "T-0009",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.1. State-of-the-art memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P027",
+    "start": 64,
+    "end": 64,
+    "node": "T-0009",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tiga jenis kajian memberi panduan membaca kolom penelitian terdahulu.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P028",
+    "start": 66,
+    "end": 66,
+    "node": "T-U070",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 2.1 Perbandingan Penelitian Terkait mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P029",
+    "start": 68,
+    "end": 77,
+    "node": "T-U070",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Delapan baris membedakan data, tugas, cara penilaian, temuan serta keterbatasan studi; jumlah dinilai berbeda dari jumlah direkrut pada studi retail.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 9,
+        "response": "Batas satu query dan tanpa umpan balik dibutuhkan di tabel sebagai pembeda studi. Istilah single-shot tidak diperlukan."
+      }
+    ]
+  },
+  {
+    "id": "P030",
+    "start": 79,
+    "end": 79,
+    "node": "T-U083",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Peralihan dari pertanyaan bahasa alami ke langkah agen menjelaskan cakupan analisis.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P031",
+    "start": 81,
+    "end": 81,
+    "node": "T-U083",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Penalaran agen dan pemeriksaan bertahap dijelaskan dengan dua atribusi berbeda.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P032",
+    "start": 83,
+    "end": 83,
+    "node": "T-U083",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Bukti dari tiga studi dibagi menurut tugas terbuka, lintas fungsi, dan SQL.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P033",
+    "start": 85,
+    "end": 85,
+    "node": "T-U083",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Identitas penyedia pembayaran menerangkan asal pertanyaan, lalu aturan penilaian dijelaskan tersendiri.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 10,
+        "response": "Identitas perusahaan pembayaran sudah disebut."
+      }
+    ]
+  },
+  {
+    "id": "P034",
+    "start": 87,
+    "end": 87,
+    "node": "T-U083",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Kalimat terakhir menyandingkan hasil eksekusi dengan nama penilai sebagai dua dasar penilaian yang sejenis.",
+    "finding_ids": [
+      "W01"
+    ],
+    "author_feedback": [
+      {
+        "record": 9,
+        "response": "Batas satu query dan tanpa umpan balik dibutuhkan di tabel sebagai pembeda studi. Istilah single-shot tidak diperlukan."
+      }
+    ],
+    "change": "Bedakan apa yang diperiksa dari siapa yang menilai.",
+    "acceptance": "Peran judge dan hasil eksekusi tetap disebut, tanpa mengarang urutan, bobot, atau mekanisme penilaian. Pertahankan sumber, 99 pertanyaan, rentang 17,2–23,2 poin persentase."
+  },
+  {
+    "id": "P035",
+    "start": 89,
+    "end": 89,
+    "node": "T-U083",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kesamaan pemberian konteks dan penilaian akhir ditempatkan pada studi pembanding masing-masing.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P036",
+    "start": 91,
+    "end": 91,
+    "node": "T-0010",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.2. Business Intelligence memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P037",
+    "start": 93,
+    "end": 93,
+    "node": "T-0010",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Komponen BI dikaitkan dengan menyimpan, mengolah, menyajikan, dan menganalisis data.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P038",
+    "start": 95,
+    "end": 95,
+    "node": "T-0010",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh waktu dan kategori memperjelas perbedaan measure dan dimension.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P039",
+    "start": 97,
+    "end": 97,
+    "node": "T-0011",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.3. Agentic Business Intelligence memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P040",
+    "start": 99,
+    "end": 99,
+    "node": "T-0011",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Definisi lokal menjelaskan urutan pertanyaan, akses data, perhitungan, jawaban.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 68,
+        "response": "Permintaan analisis diperjelas sebagai pertanyaan pengguna."
+      }
+    ]
+  },
+  {
+    "id": "P041",
+    "start": 101,
+    "end": 101,
+    "node": "T-0011",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh hubungan insiden dengan tindakannya menerangkan kebutuhan beberapa sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P042",
+    "start": 103,
+    "end": 103,
+    "node": "T-0011",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Total, jumlah, dan rata-rata dibedakan dari pengelompokan kategori atau periode.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 19,
+        "response": "Permintaan spasi ditarik kembali. Pertahankan antarperiode."
+      }
+    ]
+  },
+  {
+    "id": "P043",
+    "start": 105,
+    "end": 105,
+    "node": "T-0011",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua operator membedakan perlakuan nilai yang sama dengan batas.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P044",
+    "start": 107,
+    "end": 107,
+    "node": "T-0012",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.4. Agen Berbasis Kecerdasan Buatan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P045",
+    "start": 109,
+    "end": 109,
+    "node": "T-0012",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Peran model dibedakan dari fungsi di luar model.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P046",
+    "start": 111,
+    "end": 111,
+    "node": "T-0012",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh skema sebelum pengambilan data menunjukkan bagaimana langkah berikutnya dipilih.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 54,
+        "response": "Penjelasan pembacaan halaman berisi informasi tambahan dibanding uraian tool loop."
+      },
+      {
+        "record": 139,
+        "response": "Istilah tool call dipertahankan."
+      }
+    ]
+  },
+  {
+    "id": "P047",
+    "start": 113,
+    "end": 113,
+    "node": "T-0012",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Salah memahami hasil tool dapat memengaruhi perhitungan berikutnya; klaim empiris tetap teratribusi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P048",
+    "start": 115,
+    "end": 115,
+    "node": "T-0013",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.4.1. Tool dan Model Context Protocol memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P049",
+    "start": 117,
+    "end": 117,
+    "node": "T-0013",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Fungsi, input dan output menjelaskan apa yang dibaca agen saat memilih tool.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P050",
+    "start": 119,
+    "end": 119,
+    "node": "T-0013",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nama tiga tool dan eksekusi Python ditempatkan dalam contoh sistem lain.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P051",
+    "start": 121,
+    "end": 121,
+    "node": "T-0013",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Hubungan host, client, dan server tersusun dari pengelolaan interaksi hingga koneksi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P052",
+    "start": 123,
+    "end": 123,
+    "node": "T-0014",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.5. Analisis Data melalui Bahasa Alami memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P053",
+    "start": 125,
+    "end": 125,
+    "node": "T-0014",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kepanjangan dua antarmuka serta tugasnya dibedakan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P054",
+    "start": 127,
+    "end": 127,
+    "node": "T-0014",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh total bulanan menghubungkan pengelompokan dan filter dengan arti istilah pengguna.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P055",
+    "start": 129,
+    "end": 129,
+    "node": "T-0014",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh status insiden dan rata-rata harian menjelaskan keterbatasan nama kolom.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P056",
+    "start": 131,
+    "end": 131,
+    "node": "T-0015",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.6. Prompt dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P057",
+    "start": 133,
+    "end": 133,
+    "node": "T-0015",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Definisi prompt mendahului contoh studi teratribusi; klaim tidak bergantung pada perbandingan ukuran.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 128,
+        "response": "Contoh kemampuan mengikuti prompt tidak memberi dasar menyimpulkan akibat ukuran model."
+      },
+      {
+        "record": 136,
+        "response": "Contoh model sumber diberi atribusi tanpa klaim kausal tentang skala."
+      }
+    ]
+  },
+  {
+    "id": "P058",
+    "start": 135,
+    "end": 135,
+    "node": "T-0015",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Fungsi dokumen dibedakan dari kondisi pengujian lokal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 131,
+        "response": "Gunakan konteks bisnis untuk dokumen yang disediakan."
+      }
+    ]
+  },
+  {
+    "id": "P059",
+    "start": 137,
+    "end": 137,
+    "node": "T-0016",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.6.1. Struktur dan Isi Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P060",
+    "start": 139,
+    "end": 139,
+    "node": "T-0016",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Isi dokumen serta konsistensi istilah dibedakan dari teori ontologi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P061",
+    "start": 141,
+    "end": 141,
+    "node": "T-0016",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Sumber menentukan cakupan ontologi; uraian tentang dokumen lokal memiliki subjek tersendiri.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P062",
+    "start": 143,
+    "end": 143,
+    "node": "T-0016",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Perbandingan semua hari dan hanya hari tercatat menunjukkan akibat pilihan aturan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P063",
+    "start": 145,
+    "end": 145,
+    "node": "T-0017",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.6.2. Skills memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P064",
+    "start": 147,
+    "end": 147,
+    "node": "T-0017",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nama berkas instruksi dan kemungkinan referensi opsional menjelaskan format skill.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P065",
+    "start": 149,
+    "end": 149,
+    "node": "T-0017",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Frasa dokumen ini mengikuti kalimat tentang instruksi utama, sehingga nama berkas yang mengarahkan pembacaan belum jelas. Istilah routing tidak dipakai kembali untuk menerangkan hasil.",
+    "finding_ids": [
+      "W02"
+    ],
+    "author_feedback": [],
+    "change": "Sebut berkas instruksi secara langsung serta pertahankan fungsi referensi topik.",
+    "acceptance": "Pembaca mengetahui berkas mana yang dirujuk dan kapan beberapa referensi dapat dibaca; contoh dan kutipan §3.3.2 tetap utuh."
+  },
+  {
+    "id": "P066",
+    "start": 151,
+    "end": 151,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.7. Large Language Models memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P067",
+    "start": 153,
+    "end": 153,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Definisi umum dan peran model dalam agen memakai atribusi terpisah.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 128,
+        "response": "Contoh kemampuan mengikuti prompt tidak memberi dasar menyimpulkan akibat ukuran model."
+      },
+      {
+        "record": 134,
+        "response": "Pilih tindakan dan susun jawaban menyebut dua fungsi jelas."
+      },
+      {
+        "record": 135,
+        "response": "Agen digunakan secara langsung sebagai istilah."
+      },
+      {
+        "record": 136,
+        "response": "Contoh model sumber diberi atribusi tanpa klaim kausal tentang skala."
+      }
+    ]
+  },
+  {
+    "id": "P068",
+    "start": 155,
+    "end": 155,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Komponen konteks dibedakan dari jumlah token maksimum yang bisa diproses.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 125,
+        "response": "Definisi kapasitas konteks berada di induk; data spesifik harus memiliki sumber yang tepat."
+      },
+      {
+        "record": 127,
+        "response": "Jangan menambah perkiraan pemakaian aktual token yang tidak diukur."
+      },
+      {
+        "record": 133,
+        "response": "Kapasitas token berbeda dari panjang masukan aktual."
+      }
+    ]
+  },
+  {
+    "id": "P069",
+    "start": 157,
+    "end": 157,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Hasil tugas pencarian dan aritmetika memiliki batas dan atribusi masing-masing.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P070",
+    "start": 159,
+    "end": 159,
+    "node": "T-0018",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Nama, pengembang dan kapasitas konteks tidak menjelaskan kemampuan mana yang menjadi dasar perbandingan pada tugas analisis ini.",
+    "finding_ids": [
+      "W03"
+    ],
+    "author_feedback": [
+      {
+        "record": 133,
+        "response": "Kapasitas token berbeda dari panjang masukan aktual."
+      }
+    ],
+    "change": "Hubungkan permintaan data melalui tool, penggunaan hasilnya dan penerapan aturan dengan perbandingan ketepatan jawaban kedua model.",
+    "acceptance": "Basis konseptual dapat dipahami tanpa mengandaikan kesetaraan kemampuan atau menyimpulkan alasan pemilihan. Bedakan kapasitas dari pemakaian token aktual."
+  },
+  {
+    "id": "P071",
+    "start": 161,
+    "end": 161,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 2.2 Karakteristik Model yang Digunakan mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P072",
+    "start": 163,
+    "end": 166,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua pengembang dan kapasitas sama dicatat. Tabel hanya menjawab spesifikasi, bukan relevansi metodologis.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P073",
+    "start": 168,
+    "end": 168,
+    "node": "T-0018",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua sumber tetap berdekatan dengan tabel; keabsahan spesifikasi memerlukan bukti untuk versi persis.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P074",
+    "start": 170,
+    "end": 170,
+    "node": "T-0019",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.7.1. model pertama memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P075",
+    "start": 172,
+    "end": 172,
+    "node": "T-0019",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Pembaca mengetahui ketersediaan API, dukungan tool calling dan kapasitas, tetapi belum mengetahui arti dukungan tersebut bagi penggunaan model sebagai agen.",
+    "finding_ids": [
+      "W04"
+    ],
+    "author_feedback": [
+      {
+        "record": 124,
+        "response": "Langkah yang sama untuk kedua model ditempatkan pada pembahasan umum atau metode."
+      },
+      {
+        "record": 125,
+        "response": "Definisi kapasitas konteks berada di induk; data spesifik harus memiliki sumber yang tepat."
+      },
+      {
+        "record": 126,
+        "response": "Bedakan klaim pelatihan model yang didokumentasikan dari penjelasan fungsi agen secara umum."
+      },
+      {
+        "record": 137,
+        "response": "Jika sumber mendukung, jelaskan penggunaan hasil langkah sebelumnya dengan kata konkret."
+      },
+      {
+        "record": 138,
+        "response": "Sebut sumber informasi yang diakses; klaim versi perlu dibuktikan."
+      },
+      {
+        "record": 139,
+        "response": "Istilah tool call dipertahankan."
+      }
+    ],
+    "change": "Jelaskan satu sifat yang relevan dan terverifikasi untuk versi ini serta kaitannya dengan permintaan data melalui tool.",
+    "acceptance": "Pernyataan spesifik versi mempunyai sumber primer yang sesuai; definisi umum tetap di induk. Hindari klaim akurasi dari spesifikasi."
+  },
+  {
+    "id": "P076",
+    "start": 174,
+    "end": 174,
+    "node": "T-0020",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.7.2. model kedua memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P077",
+    "start": 176,
+    "end": 176,
+    "node": "T-0020",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Identitas versi, API dan ketersediaan bobot belum menjelaskan kemampuan relevan versi ini untuk tugas yang diperbandingkan.",
+    "finding_ids": [
+      "W05"
+    ],
+    "author_feedback": [
+      {
+        "record": 123,
+        "response": "Prosedur lokal tidak menjadi ciri salah satu model."
+      }
+    ],
+    "change": "Gunakan dokumentasi versi yang tepat untuk menjelaskan kemampuan relevan. Jelaskan fungsi yang teramati dalam eksperimen secara terpisah bila dokumentasi tidak tersedia.",
+    "acceptance": "Jangan menisbatkan sifat versi lain, menyamakan akses bobot dengan tempat model dijalankan, atau memakai sumber konfigurasi sebagai bukti perilaku."
+  },
+  {
+    "id": "P078",
+    "start": 178,
+    "end": 178,
+    "node": "T-0021",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.8. Evaluasi Hasil Analisis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P079",
+    "start": 180,
+    "end": 180,
+    "node": "T-0021",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tiga segi evaluasi membedakan kebenaran jawaban, persentase, dan hasil ulang.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P080",
+    "start": 182,
+    "end": 182,
+    "node": "T-0022",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.8.1. Kesesuaian Struktur dan Nilai Jawaban memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P081",
+    "start": 184,
+    "end": 184,
+    "node": "T-0022",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Atribut, tipe nilai dan urutan array menjelaskan arti struktur sebelum contoh DataBench.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P082",
+    "start": 186,
+    "end": 186,
+    "node": "T-0022",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Aturan PASS dan FAIL jelas berbeda dari preseden penilaian semua bagian jawaban.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P083",
+    "start": 188,
+    "end": 188,
+    "node": "T-0023",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.8.2. Tingkat Keberhasilan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P084",
+    "start": 190,
+    "end": 190,
+    "node": "T-0023",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pembilang, kondisi, model, dan keikutsertaan tiga pengulangan cukup jelas.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 111,
+        "response": "Kondisi disebut dengan atau tanpa konteks bisnis berikut unit pembandingnya."
+      },
+      {
+        "record": 112,
+        "response": "Persentase agregat dan 0/3–3/3 per kasus menjawab pertanyaan berbeda."
+      }
+    ]
+  },
+  {
+    "id": "P085",
+    "start": 192,
+    "end": 192,
+    "node": "T-0024",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 2.8.3. Konsistensi Hasil Pengulangan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P086",
+    "start": 194,
+    "end": 194,
+    "node": "T-0024",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Studi terdahulu mendahului ukuran konsistensi yang digunakan dalam penelitian.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P087",
+    "start": 196,
+    "end": 196,
+    "node": "T-0024",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Jumlah keberhasilan pada tiga percobaan diberi dua contoh batas dengan unit yang tetap.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 5,
+        "response": "Sebut jenis jawaban yang membentuk penyebut. Label kelompok sendiri belum menjelaskan itu."
+      },
+      {
+        "record": 50,
+        "response": "Konsistensi mengukur sebaran putusan pada pengulangan tugas yang sama."
+      },
+      {
+        "record": 112,
+        "response": "Persentase agregat dan 0/3–3/3 per kasus menjawab pertanyaan berbeda."
+      }
+    ]
+  },
+  {
+    "id": "P088",
+    "start": 198,
+    "end": 198,
+    "node": "T-0025",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul BAB III — METODOLOGI PENELITIAN memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P089",
+    "start": 200,
+    "end": 200,
+    "node": "T-0025",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Ikhtisar mengurutkan penyiapan hingga evaluasi tanpa memerinci hasil.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P090",
+    "start": 202,
+    "end": 202,
+    "node": "T-0026",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.1. Gambaran Umum Penelitian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P091",
+    "start": 204,
+    "end": 204,
+    "node": "T-0026",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pertanyaan per kasus serta penilaian jawaban akhir mengonkretkan desain komparatif.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P092",
+    "start": 206,
+    "end": 206,
+    "node": "T-0026",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kasus, akses, dan pembanding yang sama menerangkan kondisi kontrol; jawaban acuan terlindungi.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 116,
+        "response": "Kontrol prompt memiliki tempat tersendiri di gambaran umum."
+      },
+      {
+        "record": 118,
+        "response": "Lingkungan pengujian dan ketersediaan konteks bisnis dibedakan."
+      },
+      {
+        "record": 119,
+        "response": "Kontrol ditempatkan sekali di gambaran keseluruhan untuk menjelaskan keterbandingan."
+      },
+      {
+        "record": 120,
+        "response": "Kombinasi dua model dengan dua kondisi dijelaskan langsung."
+      },
+      {
+        "record": 132,
+        "response": "Jelaskan langsung empat kombinasi penelitian."
+      }
+    ]
+  },
+  {
+    "id": "P093",
+    "start": 208,
+    "end": 208,
+    "node": "T-0026",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Urutan penyiapan memisahkan pertanyaan berbahasa Indonesia dari dokumen penjelas.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 106,
+        "response": "Prompt dan dokumen dijelaskan terpisah."
+      },
+      {
+        "record": 107,
+        "response": "Tindakan menyiapkan tidak diberikan kepada tahap abstrak."
+      },
+      {
+        "record": 115,
+        "response": "Prompt atau pertanyaan diidentifikasi sesuai fungsinya."
+      },
+      {
+        "record": 117,
+        "response": "Dokumen konteks bisnis disebut sebagai objek yang disusun."
+      }
+    ]
+  },
+  {
+    "id": "P094",
+    "start": 210,
+    "end": 210,
+    "node": "T-0026",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Langkah menghasilkan, menilai dan membandingkan menempatkan rujukan gambar setelah penjelasan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 104,
+        "response": "Status dibandingkan pada tiga pengulangan; hindari subjek tahap yang bertindak."
+      },
+      {
+        "record": 105,
+        "response": "Jawaban agen dibandingkan untuk menetapkan PASS/FAIL."
+      },
+      {
+        "record": 113,
+        "response": "Objeknya jawaban akhir agen."
+      },
+      {
+        "record": 114,
+        "response": "Rincian penyimpanan yang tidak menjelaskan penilaian tidak dibutuhkan."
+      }
+    ]
+  },
+  {
+    "id": "P095",
+    "start": 212,
+    "end": 212,
+    "node": "T-0026",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Alur tahapan dirujuk pada L210; hanya caption tersedia untuk pemeriksaan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P096",
+    "start": 214,
+    "end": 214,
+    "node": "T-U218",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh kasus kedua pada jenis tugas pertama menjelaskan dua indeks sebelum penggunaan substantif.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 15,
+        "response": "L214 mendefinisikan kode sebelum penggunaan substantif."
+      },
+      {
+        "record": 16,
+        "response": "Bagian awal setelah daftar gambar tidak disertakan; kebutuhan glosarium belum dapat diperiksa di sana."
+      },
+      {
+        "record": 25,
+        "response": "T menandai jenis tugas dan C nomor kasus dalam jenis itu."
+      },
+      {
+        "record": 91,
+        "response": "Pertanyaan task atau tugas belum menetapkan perubahan. Pertahankan istilah tugas di narasi."
+      }
+    ]
+  },
+  {
+    "id": "P097",
+    "start": 216,
+    "end": 216,
+    "node": "T-U218",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Perhitungan empat kelompok membedakan 45 per kondisi per model, 90 per model, dan 180 keseluruhan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 108,
+        "response": "Sebut jumlah jawaban per kombinasi secara langsung."
+      },
+      {
+        "record": 109,
+        "response": "Jawaban merupakan objek penilaian."
+      }
+    ]
+  },
+  {
+    "id": "P098",
+    "start": 218,
+    "end": 218,
+    "node": "T-U218",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.1 Rancangan Pengujian Kedua Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 26,
+        "response": "Jarak halaman fisik memerlukan pemeriksaan dokumen berhalaman."
+      }
+    ]
+  },
+  {
+    "id": "P099",
+    "start": 220,
+    "end": 226,
+    "node": "T-U218",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat sel 15 × 3 mengarah ke 45 per sel dan 180 secara keseluruhan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P100",
+    "start": 228,
+    "end": 228,
+    "node": "T-0027",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.2. Data Penelitian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P101",
+    "start": 230,
+    "end": 230,
+    "node": "T-0027",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Data masukan untuk agen dibedakan dari hasil yang digunakan untuk penilaian.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P102",
+    "start": 232,
+    "end": 232,
+    "node": "T-0028",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.2.1. Sumber dan Cakupan Data memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P103",
+    "start": 234,
+    "end": 234,
+    "node": "T-0028",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Asal skema dan jenis data dinyatakan tanpa menyiratkan akses publik.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 100,
+        "response": "Tidak diperlukan klaim kerahasiaan untuk menjelaskan sumber data."
+      },
+      {
+        "record": 102,
+        "response": "Kata nyata bukan dasar menyatakan bahwa data uji berasal dari produksi."
+      },
+      {
+        "record": 103,
+        "response": "Nama skema internal tidak disamakan dengan akses publik."
+      }
+    ]
+  },
+  {
+    "id": "P104",
+    "start": 236,
+    "end": 236,
+    "node": "T-0028",
+    "decision": "retain",
+    "diagnosis_or_preservation": "237 baris operasional dibedakan dari peran data master dan konfigurasi.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 98,
+        "response": "Gunakan data master."
+      }
+    ]
+  },
+  {
+    "id": "P105",
+    "start": 238,
+    "end": 238,
+    "node": "T-0028",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.2 Bidang Operasional dan Sumber Data Utama mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P106",
+    "start": 240,
+    "end": 246,
+    "node": "T-0028",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nama entitas dikelompokkan menurut lima bidang operasional; cakupan tabel adalah sumber utama.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P107",
+    "start": 248,
+    "end": 248,
+    "node": "T-0028",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Batas pertanyaan dan data yang tetap dapat dibaca agen dibedakan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 49,
+        "response": "Pisahkan data yang diminta dari data lain yang bisa dibaca."
+      },
+      {
+        "record": 101,
+        "response": "Cakupan prompt berbeda dari cakupan akses dan dijelaskan langsung."
+      }
+    ]
+  },
+  {
+    "id": "P108",
+    "start": 250,
+    "end": 250,
+    "node": "T-0029",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.2.2. Pemilihan Kasus Uji memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 15,
+        "response": "L214 mendefinisikan kode sebelum penggunaan substantif."
+      }
+    ]
+  },
+  {
+    "id": "P109",
+    "start": 252,
+    "end": 252,
+    "node": "T-0029",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pemilihan kasus dihubungkan kembali ke kemampuan analisis yang dibahas dalam teori.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 25,
+        "response": "T menandai jenis tugas dan C nomor kasus dalam jenis itu."
+      }
+    ]
+  },
+  {
+    "id": "P110",
+    "start": 254,
+    "end": 254,
+    "node": "T-0029",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Sumber data untuk agregasi, relasi, atau status menjelaskan ragam tugas.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 110,
+        "response": "Contoh agregasi, hubungan tabel, dan kondisi indikator menggantikan susunan label abstrak."
+      }
+    ]
+  },
+  {
+    "id": "P111",
+    "start": 256,
+    "end": 256,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pembagian total durasi dengan jumlah data non-null menghindari salah tafsir sebagai rata-rata per laporan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 35,
+        "response": "Data durasi non-null dan sumber booth/longbooth dijelaskan menurut kasus."
+      },
+      {
+        "record": 95,
+        "response": "Operasi jumlah data non-null sudah menjelaskan pengaruh baris."
+      },
+      {
+        "record": 97,
+        "response": "Jelaskan baris yang masuk perhitungan, tanpa mengulang definisi data valid."
+      }
+    ]
+  },
+  {
+    "id": "P112",
+    "start": 258,
+    "end": 258,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Hari tanpa laporan tetap masuk pembagian; tren bulanan menggunakan panjang bulan masing-masing.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 33,
+        "response": "Agen diminta menampilkan tren per bulan, dengan panjang tiap bulan."
+      },
+      {
+        "record": 34,
+        "response": "Hari tanpa laporan tetap termasuk jumlah hari kalender."
+      }
+    ]
+  },
+  {
+    "id": "P113",
+    "start": 260,
+    "end": 260,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pertahankan aturan satu tindakan minimal dan semua stage 100, termasuk perlakuan 50 dan null.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 2,
+        "response": "Pujian eksplisit untuk gambaran beberapa kondisi data pada kasus insiden. Lingkup utama L260–262."
+      },
+      {
+        "record": 92,
+        "response": "Minimal digunakan untuk syarat jumlah tindakan."
+      },
+      {
+        "record": 96,
+        "response": "Bedakan insiden dari tindakan pada insiden."
+      }
+    ]
+  },
+  {
+    "id": "P114",
+    "start": 262,
+    "end": 262,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat kondisi data insiden yang dipuji membuat perbedaan antara nol tindakan dan tindakan belum selesai terlihat.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 2,
+        "response": "Pujian eksplisit untuk gambaran beberapa kondisi data pada kasus insiden. Lingkup utama L260–262."
+      },
+      {
+        "record": 11,
+        "response": "Nilai 50, 100, null dan tanpa tindakan membuat perbedaan tahap konkret."
+      }
+    ]
+  },
+  {
+    "id": "P115",
+    "start": 264,
+    "end": 264,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Penyebab berulang dibedakan dari jumlah kecelakaan yang unik.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 2,
+        "response": "Pujian eksplisit untuk gambaran beberapa kondisi data pada kasus insiden. Lingkup utama L260–262."
+      }
+    ]
+  },
+  {
+    "id": "P116",
+    "start": 266,
+    "end": 266,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kategori kerusakan menentukan pencacahan meskipun prioritas kosong.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 2,
+        "response": "Pujian eksplisit untuk gambaran beberapa kondisi data pada kasus insiden. Lingkup utama L260–262."
+      },
+      {
+        "record": 32,
+        "response": "Item rusak tetap dihitung saat kategori terisi dan prioritas kosong."
+      }
+    ]
+  },
+  {
+    "id": "P117",
+    "start": 268,
+    "end": 268,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Perbandingan sebelum pembulatan dan keberlakuan SLA per indikator dan ruas disampaikan terpisah.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 29,
+        "response": "Pola contoh menyebut kasus yang bersangkutan."
+      },
+      {
+        "record": 30,
+        "response": "Perbandingan dilakukan terhadap rata-rata sebelum pembulatan."
+      },
+      {
+        "record": 31,
+        "response": "Keberlakuan terkait indikator pada ruas yang dianalisis."
+      },
+      {
+        "record": 93,
+        "response": "Gunakan batas untuk status indikator."
+      }
+    ]
+  },
+  {
+    "id": "P118",
+    "start": 270,
+    "end": 270,
+    "node": "T-U260",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Status satu periode diperoleh dari laporan; perbandingan dua periode menilai tetap, membaik atau memburuk.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 27,
+        "response": "Yang dibandingkan ialah status pemenuhan indikator antara dua periode."
+      },
+      {
+        "record": 28,
+        "response": "Status pada satu laporan dibandingkan dengan status indikator yang sama pada laporan lain."
+      }
+    ]
+  },
+  {
+    "id": "P119",
+    "start": 272,
+    "end": 272,
+    "node": "T-U276",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.3 Daftar Lima Belas Kasus Uji mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P120",
+    "start": 274,
+    "end": 290,
+    "node": "T-U276",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Lima belas kondisi kasus dan kemampuan terkait disajikan berurutan dari T1-C1 hingga T9-C2.",
+    "finding_ids": [
+      "WE01"
+    ],
+    "author_feedback": [
+      {
+        "record": 28,
+        "response": "Status pada satu laporan dibandingkan dengan status indikator yang sama pada laporan lain."
+      }
+    ],
+    "evidence_or_preference_needed": "Baris T9-C2 menyebut status memburuk. L799 hanya menjelaskan indikator keempat yang tetap gagal. Status indikator lain memerlukan expected result kedua periode."
+  },
+  {
+    "id": "P121",
+    "start": 292,
+    "end": 292,
+    "node": "T-0030",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.2.3. Penyusunan Expected Result memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P122",
+    "start": 294,
+    "end": 294,
+    "node": "T-0030",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Satu objek JSON per kasus dipakai di semua pengulangan dan tidak bisa dibaca agen. Pembuktian pemeriksaan independen memerlukan bukti tambahan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 76,
+        "response": "Penyusunan acuan dijelaskan tanpa menambahkan verifikasi independen yang belum terdokumentasi."
+      },
+      {
+        "record": 78,
+        "response": "Jangan memasukkan komentar editorial tentang penelaah ke naskah."
+      },
+      {
+        "record": 87,
+        "response": "Expected result dipakai untuk jawaban yang diharapkan; usulan teks sesudah pada baris CSV tidak berkaitan."
+      }
+    ]
+  },
+  {
+    "id": "P123",
+    "start": 296,
+    "end": 296,
+    "node": "T-U300",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pengantar singkat merujuk langsung ke tabel aturan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P124",
+    "start": 298,
+    "end": 298,
+    "node": "T-U300",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tanggal operasional inklusif dan kunci gardu dalam laporan membatasi pemilihan baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P125",
+    "start": 300,
+    "end": 300,
+    "node": "T-U300",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.4 Aturan Bisnis yang Digunakan dalam Pengujian mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P126",
+    "start": 302,
+    "end": 309,
+    "node": "T-U300",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Enam baris memisahkan jenis tugas, pembagi, filter, status NULL, operator dan periode; pertahankan setiap pengecualian.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 34,
+        "response": "Hari tanpa laporan tetap termasuk jumlah hari kalender."
+      },
+      {
+        "record": 77,
+        "response": "Aturan durasi ditempatkan di tabel dan diterapkan pada contoh."
+      },
+      {
+        "record": 92,
+        "response": "Minimal digunakan untuk syarat jumlah tindakan."
+      },
+      {
+        "record": 93,
+        "response": "Gunakan batas untuk status indikator."
+      },
+      {
+        "record": 94,
+        "response": "Konfigurasi sama untuk semua periode; istilah periode lampau tidak diperlukan."
+      }
+    ]
+  },
+  {
+    "id": "P127",
+    "start": 311,
+    "end": 311,
+    "node": "T-U315",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tanggal permintaan, tanggal laporan dan durasi dua jenis data membuat contoh dapat diikuti.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 75,
+        "response": "Contoh memilih data berdasarkan ruas dan tanggal, tanpa rincian ID internal berlebih."
+      }
+    ]
+  },
+  {
+    "id": "P128",
+    "start": 313,
+    "end": 313,
+    "node": "T-U315",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.5 Perhitungan Rata-Rata Durasi pada T1-C2 mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P129",
+    "start": 315,
+    "end": 319,
+    "node": "T-U315",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Enam durasi berjumlah 60 detik dan satu 2 detik menjelaskan total tujuh data dan 62 detik.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P130",
+    "start": 321,
+    "end": 321,
+    "node": "T-U325",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nama D terikat pada total tujuh observasi dari dua sumber.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 6,
+        "response": "Data durasi digunakan untuk pengamatan yang dihitung."
+      },
+      {
+        "record": 24,
+        "response": "Pertahankan dua rumus tampilan dan hubungan simbol dengan data contoh."
+      }
+    ]
+  },
+  {
+    "id": "P131",
+    "start": 323,
+    "end": 325,
+    "node": "T-U325",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Persamaan jumlah enam kali sepuluh ditambah dua menghasilkan 62 detik.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 24,
+        "response": "Pertahankan dua rumus tampilan dan hubungan simbol dengan data contoh."
+      }
+    ]
+  },
+  {
+    "id": "P132",
+    "start": 327,
+    "end": 327,
+    "node": "T-U331",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Jumlah durasi non-null memberi makna pada pembagi sebelum rumus rata-rata.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 24,
+        "response": "Pertahankan dua rumus tampilan dan hubungan simbol dengan data contoh."
+      }
+    ]
+  },
+  {
+    "id": "P133",
+    "start": 329,
+    "end": 331,
+    "node": "T-U331",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Rasio 62/7 dibedakan dari aproksimasi 8,86 detik.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 24,
+        "response": "Pertahankan dua rumus tampilan dan hubungan simbol dengan data contoh."
+      }
+    ]
+  },
+  {
+    "id": "P134",
+    "start": 333,
+    "end": 333,
+    "node": "T-U331",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pembulatan, satuan dan atribut tujuan menghubungkan hasil hitung ke objek penilaian.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 24,
+        "response": "Pertahankan dua rumus tampilan dan hubungan simbol dengan data contoh."
+      }
+    ]
+  },
+  {
+    "id": "P135",
+    "start": 335,
+    "end": 335,
+    "node": "T-0031",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.3. Penyusunan Prompt dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P136",
+    "start": 337,
+    "end": 337,
+    "node": "T-0031",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Peran system prompt bersama dijelaskan sebelum teks eksperimen verbatim.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P137",
+    "start": 339,
+    "end": 340,
+    "node": "T-0031",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Instrumen berbahasa Inggris satu sel. Pertahankan kata, nama, tanda baca dan instruksi verbatim.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 23,
+        "response": "System prompt dikutip verbatim dalam tabel satu sel."
+      }
+    ]
+  },
+  {
+    "id": "P138",
+    "start": 342,
+    "end": 342,
+    "node": "T-0031",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua rujukan membedakan prompt per kasus dari dokumen khusus satu kondisi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P139",
+    "start": 344,
+    "end": 344,
+    "node": "T-0032",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.3.1. Pertanyaan dan Format Jawaban memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P140",
+    "start": 346,
+    "end": 346,
+    "node": "T-0032",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Satu prompt menyatakan tugas dan ketentuan jawaban tanpa membuka rumus; struktur JSON serta instruksi pendamping dibedakan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 72,
+        "response": "Pembatasan nama tabel, rumus dan langkah menyatu dengan penjelasan prompt."
+      },
+      {
+        "record": 73,
+        "response": "Ruang lingkup tiap pertanyaan tidak diulang dalam uraian format."
+      }
+    ]
+  },
+  {
+    "id": "P141",
+    "start": 348,
+    "end": 348,
+    "node": "T-U352",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh eksplisit mengarahkan pembaca ke aturan LHR yang sengaja tidak diberikan dalam prompt.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 71,
+        "response": "Tabel prompt diperkenalkan secara eksplisit sebagai contoh."
+      }
+    ]
+  },
+  {
+    "id": "P142",
+    "start": 350,
+    "end": 350,
+    "node": "T-U352",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.6 *Prompt* T2-C1 mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P143",
+    "start": 352,
+    "end": 356,
+    "node": "T-U352",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Pertanyaan, instruksi dalam output_schema, dan JSON Schema adalah artefak percobaan termasuk tanda titik koma. Pertahankan seluruh span.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 121,
+        "response": "Tanda titik koma pada instrumen verbatim wajib dipertahankan meskipun dilarang pada prosa."
+      }
+    ]
+  },
+  {
+    "id": "P144",
+    "start": 358,
+    "end": 358,
+    "node": "T-0033",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.3.2. Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P145",
+    "start": 360,
+    "end": 360,
+    "node": "T-0033",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Asal pemahaman aturan diberi atribusi pengembangan internal, tanpa mengklaim validasi lain.",
+    "finding_ids": [
+      "WE02"
+    ],
+    "author_feedback": [
+      {
+        "record": 99,
+        "response": "Pertahankan sumber pengetahuan aturan secara terbatas. Identitas pemberi informasi memerlukan keterangan penulis."
+      }
+    ],
+    "evidence_or_preference_needed": "Asal pengetahuan selama pengembangan dilaporkan. Peran orang yang menyusun atau memberi aturan belum disebut dan tidak dapat disimpulkan dari kalimat pasif."
+  },
+  {
+    "id": "P146",
+    "start": 362,
+    "end": 362,
+    "node": "T-0033",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Satu instruksi dan enam referensi mengidentifikasi tujuh dokumen yang tersedia.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 70,
+        "response": "Jumlah dan susunan berkas dijelaskan tanpa mengulang kontrol lengkap."
+      },
+      {
+        "record": 131,
+        "response": "Gunakan konteks bisnis untuk dokumen yang disediakan."
+      }
+    ]
+  },
+  {
+    "id": "P147",
+    "start": 364,
+    "end": 364,
+    "node": "T-U368",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.7 Susunan dan Fungsi Dokumen Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P148",
+    "start": 366,
+    "end": 374,
+    "node": "T-U368",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tujuh berkas, termasuk satu instruksi utama dan enam referensi, masing-masing memiliki isi serta tindakan pembacaan yang konkret.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 57,
+        "response": "Tabel menyebut kategori, prioritas dan aset, serta tindakan mengelompokkan item."
+      },
+      {
+        "record": 58,
+        "response": "Frekuensi setiap penyebab menyebut apa yang dihitung."
+      },
+      {
+        "record": 59,
+        "response": "Teks menjelaskan pemeriksaan semua tindakan penanganan."
+      },
+      {
+        "record": 60,
+        "response": "Istilah penyebab kecelakaan dikaitkan dengan data insiden."
+      },
+      {
+        "record": 61,
+        "response": "Cara menentukan status insiden menggantikan label terkompresi."
+      },
+      {
+        "record": 62,
+        "response": "Jumlah hari kalender menjelaskan operasi alih-alih hanya menamai penyebut."
+      },
+      {
+        "record": 63,
+        "response": "Data durasi dipilih untuk perhitungan rata-rata."
+      },
+      {
+        "record": 64,
+        "response": "Pisahkan laporan pemantauan dari data durasi."
+      },
+      {
+        "record": 65,
+        "response": "Mengenali istilah dan memilih data menjadi dua tindakan yang jelas."
+      },
+      {
+        "record": 66,
+        "response": "Verba memahami menunjuk istilah yang dimaksud."
+      },
+      {
+        "record": 69,
+        "response": "Instruksi umum dan panduan memilih referensi menjelaskan isi dokumen."
+      }
+    ]
+  },
+  {
+    "id": "P149",
+    "start": 376,
+    "end": 376,
+    "node": "T-U380",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pengantar memusatkan perhatian pada instruksi permintaan lintas topik.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 56,
+        "response": "Kutipan serta contoh lintas topik menambahkan penerapan di luar daftar isi tabel."
+      }
+    ]
+  },
+  {
+    "id": "P150",
+    "start": 378,
+    "end": 379,
+    "node": "T-U380",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Kutipan satu sel memerintahkan pembacaan referensi lintas topik; pertahankan verbatim.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 22,
+        "response": "Instruksi routing dikutip verbatim dalam tabel satu sel."
+      },
+      {
+        "record": 56,
+        "response": "Kutipan serta contoh lintas topik menambahkan penerapan di luar daftar isi tabel."
+      }
+    ]
+  },
+  {
+    "id": "P151",
+    "start": 381,
+    "end": 381,
+    "node": "T-U380",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh dua referensi menjelaskan penerapan kutipan; rujukan lampiran membantu penelusuran.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 56,
+        "response": "Kutipan serta contoh lintas topik menambahkan penerapan di luar daftar isi tabel."
+      }
+    ]
+  },
+  {
+    "id": "P152",
+    "start": 383,
+    "end": 383,
+    "node": "T-0034",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.4. Generasi Jawaban oleh LLM memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P153",
+    "start": 385,
+    "end": 385,
+    "node": "T-0035",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.4.1. Model dan Lingkungan Pengujian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P154",
+    "start": 387,
+    "end": 387,
+    "node": "T-0035",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Lingkungan dan identitas model tercatat. Alasan pemilihan dua versi ini belum diberikan.",
+    "finding_ids": [
+      "W06"
+    ],
+    "author_feedback": [
+      {
+        "record": 90,
+        "response": "Lingkungan disebut dengan perangkat yang digunakan, tanpa label sandbox umum."
+      }
+    ],
+    "change": "Minta kriteria sebenarnya dari penulis atau catatan rancangan.",
+    "acceptance": "Jangan mengubah kecocokan konseptual, konfigurasi atau hasil menjadi alasan historis penulis."
+  },
+  {
+    "id": "P155",
+    "start": 389,
+    "end": 389,
+    "node": "T-0035",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Nilai default penyedia dibedakan dari pengaturan tetap antar kondisi. Pernyataan tentang nilai aktual bergantung pada catatan konfigurasi.",
+    "finding_ids": [
+      "WE03"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Untuk menyatakan parameter efektif atau default yang berpengaruh diperlukan konfigurasi aktual, versi penyedia, protokol dan mode saat pengujian."
+  },
+  {
+    "id": "P156",
+    "start": 391,
+    "end": 391,
+    "node": "T-0035",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.8 Pengaturan Model pada Pengujian mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P157",
+    "start": 393,
+    "end": 399,
+    "node": "T-0035",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Pengaturan reasoning, context window, batas output dan dua parameter sampling tersusun sejajar untuk kedua model.",
+    "finding_ids": [
+      "WE03"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Bedakan angka pengaturan yang dilaporkan dari spesifikasi API dan nilai efektif. Selisih batas output perlu catatan konfigurasi pengujian."
+  },
+  {
+    "id": "P158",
+    "start": 401,
+    "end": 401,
+    "node": "T-0035",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Sumber konfigurasi pengujian dan dokumentasi API ditempatkan persis sesudah tabel.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P159",
+    "start": 403,
+    "end": 403,
+    "node": "T-0035",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Lokasi gambar disebut setelah jumlah pengulangan dan kondisi dijelaskan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P160",
+    "start": 405,
+    "end": 405,
+    "node": "T-0035",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption alur pelaksanaan merujuk prosedur tiga pengulangan. Gambar belum disertakan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P161",
+    "start": 407,
+    "end": 407,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.4.2. Akses Data memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P162",
+    "start": 409,
+    "end": 409,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Rujukan ke konsep MCP dilanjutkan dengan peran konkret server dan tiga tool.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 7,
+        "response": "Gunakan membaca data sebagai operasi akses."
+      },
+      {
+        "record": 8,
+        "response": "Objek pembacaan adalah data."
+      },
+      {
+        "record": 55,
+        "response": "Pembatasan kolom yang sudah tersirat tidak perlu diulang."
+      }
+    ]
+  },
+  {
+    "id": "P163",
+    "start": 411,
+    "end": 411,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nama entitas diperlukan untuk skema, sedangkan daftar entitas tidak memerlukan parameter.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 67,
+        "response": "Hubungan diterangkan menggunakan informasi kunci dan tabel."
+      }
+    ]
+  },
+  {
+    "id": "P164",
+    "start": 413,
+    "end": 413,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Cursor membedakan pengambilan satu halaman dari kelanjutan pembacaan dan perhitungan agen.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 54,
+        "response": "Penjelasan pembacaan halaman berisi informasi tambahan dibanding uraian tool loop."
+      }
+    ]
+  },
+  {
+    "id": "P165",
+    "start": 415,
+    "end": 415,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.9 Tool Akses Data sistem operasional mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P166",
+    "start": 417,
+    "end": 421,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Parameter dan fungsi tiga tool dibedakan dengan nama persis serta mekanisme pagination.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P167",
+    "start": 423,
+    "end": 423,
+    "node": "T-0036",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Parameter dan pagination dirujuk ke lampiran tanpa menduplikasi tabel.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P168",
+    "start": 425,
+    "end": 425,
+    "node": "T-0037",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.4.3. Prosedur Generasi Jawaban memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P169",
+    "start": 427,
+    "end": 427,
+    "node": "T-0037",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua studi memberi contoh jumlah pengulangan, dengan tugas open-ended terikat pada studi kedua.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P170",
+    "start": 429,
+    "end": 429,
+    "node": "T-0037",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tiga percakapan baru untuk tiap kasus per kombinasi dan expected result yang tetap menjelaskan pengukuran ulang.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 80,
+        "response": "Penyimpanan jawaban tidak perlu dinyatakan sebagai langkah tambahan."
+      },
+      {
+        "record": 81,
+        "response": "Percakapan baru adalah kondisi terlapor; tidak perlu menambah klaim urutan."
+      },
+      {
+        "record": 82,
+        "response": "Jadwal paralel tidak diperlukan untuk menjelaskan pembandingan jawabannya."
+      },
+      {
+        "record": 88,
+        "response": "Rincian penyimpanan dihilangkan; provenance tindakan antara tetap memerlukan bukti."
+      },
+      {
+        "record": 89,
+        "response": "Percakapan baru lebih berkaitan langsung dengan prosedur daripada jadwal eksekusi tumpang tindih."
+      }
+    ]
+  },
+  {
+    "id": "P171",
+    "start": 431,
+    "end": 431,
+    "node": "T-0038",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.5. Evaluasi Hasil Generasi memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P172",
+    "start": 433,
+    "end": 433,
+    "node": "T-0038",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Penilaian per pertanyaan dibedakan dari persentase agregat yang dihitung sesudahnya.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 129,
+        "response": "Gunakan evaluasi sebagai nama proses."
+      }
+    ]
+  },
+  {
+    "id": "P173",
+    "start": 435,
+    "end": 435,
+    "node": "T-0039",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.5.1. Perbandingan Respons dan *Expected Result* memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P174",
+    "start": 437,
+    "end": 437,
+    "node": "T-0039",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Syarat JSON valid dan kesesuaian nilai membedakan urutan elemen array dari urutan properti.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 52,
+        "response": "Syarat JSON valid dinyatakan positif tanpa mengklaim pernah ada jawaban gagal di-parse."
+      },
+      {
+        "record": 122,
+        "response": "Sebut kriteria pembandingan aktual, tanpa spekulasi validator."
+      }
+    ]
+  },
+  {
+    "id": "P175",
+    "start": 439,
+    "end": 439,
+    "node": "T-0039",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh 10 dan 10.0 memberi arti tepat pada pembandingan numerik tanpa toleransi tambahan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 51,
+        "response": "Satu contoh numerik sudah cukup menjelaskan aturan perbandingan tanpa toleransi."
+      }
+    ]
+  },
+  {
+    "id": "P176",
+    "start": 441,
+    "end": 441,
+    "node": "T-U445",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Identitas kasus dan kondisi waktunya memberi konteks pada dua jawaban.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P177",
+    "start": 443,
+    "end": 443,
+    "node": "T-U445",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 3.10 Contoh Evaluasi PASS dan FAIL pada T5-C1 mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 21,
+        "response": "Judul berada di atas tabel dalam Markdown."
+      }
+    ]
+  },
+  {
+    "id": "P178",
+    "start": 445,
+    "end": 449,
+    "node": "T-U445",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Tiga objek JSON mempertahankan perbedaan cause_id, assignment_count, dan total untuk contoh PASS dan FAIL.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P179",
+    "start": 451,
+    "end": 451,
+    "node": "T-U445",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tiga objek selisih konkret menjelaskan putusan atas dua respons.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P180",
+    "start": 453,
+    "end": 453,
+    "node": "T-0040",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.5.2. Perhitungan Tingkat Keberhasilan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P181",
+    "start": 455,
+    "end": 455,
+    "node": "T-0040",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pembilang dan penyebut dinyatakan dengan unit jawaban sebelum persamaan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 86,
+        "response": "Persentase dihitung dari jumlah jawaban yang ditampilkan, tanpa makro rata-rata yang lain."
+      }
+    ]
+  },
+  {
+    "id": "P182",
+    "start": 457,
+    "end": 459,
+    "node": "T-0040",
+    "decision": "preserve exact artifact",
+    "diagnosis_or_preservation": "Jumlah semua jawaban yang dinilai merupakan penyebut; angka 45 tidak dipaksakan pada semua pengelompokan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 20,
+        "response": "Pertahankan persamaan persentase dalam blok tampilan."
+      }
+    ]
+  },
+  {
+    "id": "P183",
+    "start": 461,
+    "end": 461,
+    "node": "T-0040",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh 45 jawaban per model per kondisi diikuti aturan penyebut sesuai isi tabel.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 5,
+        "response": "Sebut jenis jawaban yang membentuk penyebut. Label kelompok sendiri belum menjelaskan itu."
+      },
+      {
+        "record": 86,
+        "response": "Persentase dihitung dari jumlah jawaban yang ditampilkan, tanpa makro rata-rata yang lain."
+      }
+    ]
+  },
+  {
+    "id": "P184",
+    "start": 463,
+    "end": 463,
+    "node": "T-0040",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pecahan 0/3–3/3 melaporkan keberhasilan satu kasus tanpa simbol tambahan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 4,
+        "response": "Gunakan jumlah keberhasilan dari tiga percobaan tanpa simbol sementara."
+      }
+    ]
+  },
+  {
+    "id": "P185",
+    "start": 465,
+    "end": 465,
+    "node": "T-0041",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 3.5.3. Analisis Perbandingan Hasil memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P186",
+    "start": 467,
+    "end": 467,
+    "node": "T-0041",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh dua kelompok 12 jawaban memisahkan penggabungan per kondisi dari penggabungan per model.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 79,
+        "response": "Ringkasan gabungan dan per kombinasi diberi contoh jumlah jawaban yang berbeda."
+      },
+      {
+        "record": 85,
+        "response": "Perhitungan perbandingan menjelaskan objek sebelum melaporkan selisih."
+      },
+      {
+        "record": 130,
+        "response": "Perbandingan dalam model dan dalam kondisi harus jelas berbeda dari hasil gabungan."
+      }
+    ]
+  },
+  {
+    "id": "P187",
+    "start": 469,
+    "end": 469,
+    "node": "T-0041",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Contoh enam jawaban per kombinasi membedakan perbandingan dalam kondisi dan dalam model.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 79,
+        "response": "Ringkasan gabungan dan per kombinasi diberi contoh jumlah jawaban yang berbeda."
+      },
+      {
+        "record": 85,
+        "response": "Perhitungan perbandingan menjelaskan objek sebelum melaporkan selisih."
+      },
+      {
+        "record": 130,
+        "response": "Perbandingan dalam model dan dalam kondisi harus jelas berbeda dari hasil gabungan."
+      }
+    ]
+  },
+  {
+    "id": "P188",
+    "start": 471,
+    "end": 471,
+    "node": "T-0041",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Enam kelompok disebut lengkap kemudian tujuan penelusuran FAIL dan konsistensi dijelaskan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 19,
+        "response": "Permintaan spasi ditarik kembali. Pertahankan antarperiode."
+      },
+      {
+        "record": 50,
+        "response": "Konsistensi mengukur sebaran putusan pada pengulangan tugas yang sama."
+      },
+      {
+        "record": 83,
+        "response": "Keenam kelompok dan tujuan pemeriksaan FAIL disebut secara konkret."
+      }
+    ]
+  },
+  {
+    "id": "P189",
+    "start": 473,
+    "end": 473,
+    "node": "T-0042",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul BAB IV — HASIL DAN PEMBAHASAN memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P190",
+    "start": 475,
+    "end": 475,
+    "node": "T-0042",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Ikhtisar mengurutkan lingkungan, data, hasil menurut tiga pembagian, dan interpretasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P191",
+    "start": 477,
+    "end": 477,
+    "node": "T-0043",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.1. Lingkungan Pengujian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P192",
+    "start": 479,
+    "end": 479,
+    "node": "T-0043",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Inventaris tool dan lingkungan mengorientasikan pembaca ke hasil yang mengikutinya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P193",
+    "start": 481,
+    "end": 481,
+    "node": "T-0043",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.1 Lingkungan Pengujian mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P194",
+    "start": 483,
+    "end": 487,
+    "node": "T-0043",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Ringkasan lingkungan membedakan aplikasi, model dan tiga tool.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P195",
+    "start": 489,
+    "end": 489,
+    "node": "T-0044",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.2. Data Penelitian memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P196",
+    "start": 491,
+    "end": 491,
+    "node": "T-0044",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Objek 237 baris berbeda dari 15 kasus, sembilan tugas, serta enam kelompok.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P197",
+    "start": 493,
+    "end": 493,
+    "node": "T-0044",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat kombinasi, 45 per kombinasi, dan 180 keseluruhan menjelaskan pembacaan tabel distribusi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P198",
+    "start": 495,
+    "end": 495,
+    "node": "T-0044",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.2 Distribusi Kasus dan Jawaban menurut Kelompok Analisis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P199",
+    "start": 497,
+    "end": 505,
+    "node": "T-0044",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Enam kelompok dengan jumlah kasus yang berlainan berjumlah 15 kasus, 45 per kombinasi, dan 180 seluruhnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P200",
+    "start": 507,
+    "end": 507,
+    "node": "T-0045",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.3. Analisis Hasil pada Durasi Transaksi memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P201",
+    "start": 509,
+    "end": 509,
+    "node": "T-0046",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.3.1. Berdasarkan Ketersediaan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P202",
+    "start": 511,
+    "end": 511,
+    "node": "T-0046",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua kasus durasi membentuk 12 jawaban per kondisi setelah kedua model digabung.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P203",
+    "start": 513,
+    "end": 513,
+    "node": "T-0046",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.3 Hasil Durasi Transaksi menurut Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P204",
+    "start": 515,
+    "end": 518,
+    "node": "T-0046",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Konteks bisnis mengelompokkan hasil. Pasangan PASS/total 12/12, 12/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P205",
+    "start": 520,
+    "end": 520,
+    "node": "T-0046",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Hasil 12/12 dikaitkan dengan jumlah durasi per laporan dan dua jenis data.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P206",
+    "start": 522,
+    "end": 522,
+    "node": "T-0047",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.3.2. Berdasarkan Model memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P207",
+    "start": 524,
+    "end": 524,
+    "node": "T-0047",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua kondisi digabung untuk membentuk 12 jawaban per model pada T1.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P208",
+    "start": 526,
+    "end": 526,
+    "node": "T-0047",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.4 Hasil Durasi Transaksi menurut Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P209",
+    "start": 528,
+    "end": 531,
+    "node": "T-0047",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 12/12, 12/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P210",
+    "start": 533,
+    "end": 533,
+    "node": "T-0047",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kedua rata-rata diberi label kasus serta satuan detik.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P211",
+    "start": 535,
+    "end": 535,
+    "node": "T-0048",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.3.3. Berdasarkan Kombinasi Model dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P212",
+    "start": 537,
+    "end": 537,
+    "node": "T-0048",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tiga pengulangan masing-masing dua kasus menghasilkan enam jawaban per kombinasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P213",
+    "start": 539,
+    "end": 539,
+    "node": "T-0048",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.5 Hasil Durasi Transaksi menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P214",
+    "start": 541,
+    "end": 546,
+    "node": "T-0048",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 6/6, 6/6, 6/6, 6/6 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P215",
+    "start": 548,
+    "end": 548,
+    "node": "T-0048",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua pecahan 3/3 menjelaskan isi 6/6 pada keempat kombinasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P216",
+    "start": 550,
+    "end": 550,
+    "node": "T-0049",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.4. Analisis Hasil pada Volume Lalu Lintas dan LHR memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P217",
+    "start": 552,
+    "end": 552,
+    "node": "T-0050",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.4.1. Berdasarkan Ketersediaan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P218",
+    "start": 554,
+    "end": 554,
+    "node": "T-0050",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tugas ringkasan mingguan dibedakan dari tren bulanan sebelum hasil dibandingkan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 111,
+        "response": "Kondisi disebut dengan atau tanpa konteks bisnis berikut unit pembandingnya."
+      }
+    ]
+  },
+  {
+    "id": "P219",
+    "start": 556,
+    "end": 556,
+    "node": "T-0050",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.6 Hasil Volume Lalu Lintas dan LHR menurut Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P220",
+    "start": 558,
+    "end": 561,
+    "node": "T-0050",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Konteks bisnis mengelompokkan hasil. Pasangan PASS/total 12/12, 8/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P221",
+    "start": 563,
+    "end": 563,
+    "node": "T-0050",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Perbandingan 12/12 dan 8/12 menyebut kondisi yang menjadi dasar perbedaan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P222",
+    "start": 565,
+    "end": 565,
+    "node": "T-0051",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.4.2. Berdasarkan Model memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P223",
+    "start": 567,
+    "end": 567,
+    "node": "T-0051",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kedua kasus lalu lintas memberi unit yang tepat untuk 12 jawaban per model.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P224",
+    "start": 569,
+    "end": 569,
+    "node": "T-0051",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.7 Hasil Volume Lalu Lintas dan LHR menurut Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P225",
+    "start": 571,
+    "end": 574,
+    "node": "T-0051",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 11/12, 9/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P226",
+    "start": 576,
+    "end": 576,
+    "node": "T-0051",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Selisih 11/12 dan 9/12 diberi konteks kasus yang gagal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P227",
+    "start": 578,
+    "end": 578,
+    "node": "T-0052",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.4.3. Berdasarkan Kombinasi Model dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P228",
+    "start": 580,
+    "end": 580,
+    "node": "T-0052",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat kombinasi masing-masing memuat enam jawaban lalu lintas.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P229",
+    "start": 582,
+    "end": 582,
+    "node": "T-0052",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.8 Hasil Volume Lalu Lintas dan LHR menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P230",
+    "start": 584,
+    "end": 589,
+    "node": "T-0052",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 6/6, 5/6, 6/6, 3/6 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P231",
+    "start": 591,
+    "end": 591,
+    "node": "T-0052",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Agregat empat kombinasi dilengkapi keterangan kasus mingguan yang selalu benar.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P232",
+    "start": 593,
+    "end": 593,
+    "node": "T-U595",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nilai nol berbeda dari golongan yang tidak dicantumkan; dua bulan dan empat jawaban dikenali.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P233",
+    "start": 595,
+    "end": 595,
+    "node": "T-U595",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Pembentukan daftar dari data volume dibandingkan dengan daftar seluruh golongan data master pada contoh yang ditunjuk.",
+    "finding_ids": [
+      "WE04"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Pemilihan daftar golongan merupakan tindakan antara. Perlu jenis catatan dan cara mengaitkannya dengan pengulangan yang disebut."
+  },
+  {
+    "id": "P234",
+    "start": 597,
+    "end": 597,
+    "node": "T-0053",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.5. Analisis Hasil pada Insiden dan Penyebab Kecelakaan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P235",
+    "start": 599,
+    "end": 599,
+    "node": "T-0054",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.5.1. Berdasarkan Ketersediaan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P236",
+    "start": 601,
+    "end": 601,
+    "node": "T-0054",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Penilaian status insiden dan distribusi penyebab dibedakan sebelum hasil digabung.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P237",
+    "start": 603,
+    "end": 603,
+    "node": "T-0054",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.9 Hasil Insiden dan Penyebab Kecelakaan menurut Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P238",
+    "start": 605,
+    "end": 608,
+    "node": "T-0054",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Konteks bisnis mengelompokkan hasil. Pasangan PASS/total 12/12, 10/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P239",
+    "start": 610,
+    "end": 610,
+    "node": "T-0054",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Persentase dengan dan tanpa dokumen dilacak ke jumlah jawaban dalam masing-masing kondisi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P240",
+    "start": 612,
+    "end": 612,
+    "node": "T-0055",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.5.2. Berdasarkan Model memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P241",
+    "start": 614,
+    "end": 614,
+    "node": "T-0055",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua kasus serta kedua kondisi memberi 12 jawaban per model.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P242",
+    "start": 616,
+    "end": 616,
+    "node": "T-0055",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.10 Hasil Insiden dan Penyebab Kecelakaan menurut Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P243",
+    "start": 618,
+    "end": 621,
+    "node": "T-0055",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 10/12, 12/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P244",
+    "start": 623,
+    "end": 623,
+    "node": "T-0055",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua kegagalan ditempatkan pada model dan tugas yang bersangkutan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P245",
+    "start": 625,
+    "end": 625,
+    "node": "T-0056",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.5.3. Berdasarkan Kombinasi Model dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P246",
+    "start": 627,
+    "end": 627,
+    "node": "T-0056",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat kombinasi memberi dasar membandingkan model pada kondisi yang sama.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P247",
+    "start": 629,
+    "end": 629,
+    "node": "T-0056",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.11 Hasil Insiden dan Penyebab Kecelakaan menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P248",
+    "start": 631,
+    "end": 636,
+    "node": "T-0056",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 6/6, 4/6, 6/6, 6/6 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P249",
+    "start": 638,
+    "end": 638,
+    "node": "T-0056",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua pengulangan yang gagal ditunjuk dengan nomor, model dan kondisi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P250",
+    "start": 640,
+    "end": 640,
+    "node": "T-U642",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Flag insiden untuk perhitungan dan perbandingan total 7 dengan 5 mengenalkan tabel.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P251",
+    "start": 642,
+    "end": 642,
+    "node": "T-U642",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.12 Perbedaan Jawaban pada T5-C1 mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P252",
+    "start": 644,
+    "end": 649,
+    "node": "T-U642",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua pengulangan dibandingkan dengan satu acuan; ketiadaan kategori berbeda dari nilai nol.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P253",
+    "start": 651,
+    "end": 651,
+    "node": "T-U642",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Empat insiden dalam cakupan tanggal mencakup satu yang tidak memenuhi syarat; dua penyebabnya teridentifikasi.",
+    "finding_ids": [
+      "WE04"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Membaca empat insiden dilaporkan per pengulangan; putusan FAIL saja tidak menunjukkan baris yang dibaca."
+  },
+  {
+    "id": "P254",
+    "start": 653,
+    "end": 653,
+    "node": "T-U642",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Tiga insiden yang memenuhi syarat memberi lima kemunculan, khusus contoh pengulangan tersebut.",
+    "finding_ids": [
+      "WE04"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Membaca aturan dan menggunakan tiga insiden adalah jejak tindakan yang sumber per pengulangannya belum diterangkan."
+  },
+  {
+    "id": "P255",
+    "start": 655,
+    "end": 655,
+    "node": "T-0057",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.6. Analisis Hasil pada Inspeksi dan Identitas Aset memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P256",
+    "start": 657,
+    "end": 657,
+    "node": "T-0058",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.6.1. Berdasarkan Ketersediaan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P257",
+    "start": 659,
+    "end": 659,
+    "node": "T-0058",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Satu kasus inspeksi menghasilkan enam jawaban per kondisi setelah model digabung.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P258",
+    "start": 661,
+    "end": 661,
+    "node": "T-0058",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.13 Hasil Inspeksi dan Identitas Aset menurut Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P259",
+    "start": 663,
+    "end": 666,
+    "node": "T-0058",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Konteks bisnis mengelompokkan hasil. Pasangan PASS/total 6/6, 6/6 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P260",
+    "start": 668,
+    "end": 668,
+    "node": "T-0058",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Item tanpa prioritas tetap masuk hitungan empat item rusak.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P261",
+    "start": 670,
+    "end": 670,
+    "node": "T-0059",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.6.2. Berdasarkan Model memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P262",
+    "start": 672,
+    "end": 672,
+    "node": "T-0059",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Penilaian tiap model menggabungkan pengujian dengan dan tanpa dokumen pada satu kasus.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 111,
+        "response": "Kondisi disebut dengan atau tanpa konteks bisnis berikut unit pembandingnya."
+      }
+    ]
+  },
+  {
+    "id": "P263",
+    "start": 674,
+    "end": 674,
+    "node": "T-0059",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.14 Hasil Inspeksi dan Identitas Aset menurut Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P264",
+    "start": 676,
+    "end": 679,
+    "node": "T-0059",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 6/6, 6/6 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P265",
+    "start": 681,
+    "end": 681,
+    "node": "T-0059",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kategori, prioritas, dan identitas aset menjelaskan rincian yang dinilai sesuai.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P266",
+    "start": 683,
+    "end": 683,
+    "node": "T-0060",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.6.3. Berdasarkan Kombinasi Model dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P267",
+    "start": 685,
+    "end": 685,
+    "node": "T-0060",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Tiga pengulangan jelas merujuk pada satu kasus inspeksi per kombinasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P268",
+    "start": 687,
+    "end": 687,
+    "node": "T-0060",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.15 Hasil Inspeksi dan Identitas Aset menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P269",
+    "start": 689,
+    "end": 694,
+    "node": "T-0060",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 3/3, 3/3, 3/3, 3/3 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P270",
+    "start": 696,
+    "end": 696,
+    "node": "T-0060",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pecahan 3/3 per kombinasi sesuai dengan satu kasus dan tiga pengulangan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P271",
+    "start": 698,
+    "end": 698,
+    "node": "T-0061",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.7. Analisis Hasil pada SPM dan SLA per Laporan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P272",
+    "start": 700,
+    "end": 700,
+    "node": "T-0062",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.7.1. Berdasarkan Ketersediaan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P273",
+    "start": 702,
+    "end": 702,
+    "node": "T-0062",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat kasus per laporan menghasilkan 24 jawaban per kondisi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P274",
+    "start": 704,
+    "end": 704,
+    "node": "T-0062",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.16 Hasil SPM/SLA per Laporan menurut Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P275",
+    "start": 706,
+    "end": 709,
+    "node": "T-0062",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Konteks bisnis mengelompokkan hasil. Pasangan PASS/total 24/24, 20/24 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P276",
+    "start": 711,
+    "end": 711,
+    "node": "T-0062",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat kegagalan dipisahkan dari 20 jawaban benar tanpa konteks bisnis.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P277",
+    "start": 713,
+    "end": 713,
+    "node": "T-0063",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.7.2. Berdasarkan Model memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P278",
+    "start": 715,
+    "end": 715,
+    "node": "T-0063",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Analisis model menggabungkan kedua kondisi pada empat kasus per laporan.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 84,
+        "response": "Pertahankan SPM/SLA per laporan."
+      }
+    ]
+  },
+  {
+    "id": "P279",
+    "start": 717,
+    "end": 717,
+    "node": "T-0063",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.17 Hasil SPM/SLA per Laporan menurut Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 84,
+        "response": "Pertahankan SPM/SLA per laporan."
+      }
+    ]
+  },
+  {
+    "id": "P280",
+    "start": 719,
+    "end": 722,
+    "node": "T-0063",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 23/24, 21/24 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P281",
+    "start": 724,
+    "end": 724,
+    "node": "T-0063",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Selisih hasil terikat pada 24 jawaban setiap model dan kasus yang disebut.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P282",
+    "start": 726,
+    "end": 726,
+    "node": "T-0064",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.7.3. Berdasarkan Kombinasi Model dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P283",
+    "start": 728,
+    "end": 728,
+    "node": "T-0064",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua belas jawaban per kombinasi mengikuti empat kasus dan tiga pengulangan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P284",
+    "start": 730,
+    "end": 730,
+    "node": "T-0064",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.18 Hasil SPM/SLA per Laporan menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 84,
+        "response": "Pertahankan SPM/SLA per laporan."
+      }
+    ]
+  },
+  {
+    "id": "P285",
+    "start": 732,
+    "end": 737,
+    "node": "T-0064",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 12/12, 11/12, 12/12, 9/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P286",
+    "start": 739,
+    "end": 739,
+    "node": "T-0064",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Ringkasan keberhasilan diikuti tabel yang menyatakan bagian jawaban mana yang salah.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P287",
+    "start": 741,
+    "end": 741,
+    "node": "T-U743",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.19 Ketidaksesuaian Jawaban SPM/SLA per Laporan tanpa Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 84,
+        "response": "Pertahankan SPM/SLA per laporan."
+      }
+    ]
+  },
+  {
+    "id": "P288",
+    "start": 743,
+    "end": 748,
+    "node": "T-U743",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat baris menunjukkan tiga status Boolean keliru dan satu daftar evaluasi tidak lengkap.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P289",
+    "start": 750,
+    "end": 750,
+    "node": "T-U752",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Uraian yang dipuji memperlihatkan urutan pembulatan, 6,004 vs 6 detik dan akibat pada kedua nilai Boolean; pertahankan detail.",
+    "finding_ids": [
+      "WE04"
+    ],
+    "author_feedback": [
+      {
+        "record": 36,
+        "response": "Pujian eksplisit untuk penjelasan terperinci tentang pembulatan dan batas."
+      }
+    ],
+    "evidence_or_preference_needed": "Pertahankan penjelasan dipuji. Perbedaan urutan pembulatan yang dilakukan model membutuhkan jejak per pengulangan."
+  },
+  {
+    "id": "P290",
+    "start": 752,
+    "end": 752,
+    "node": "T-U752",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Nilai tampil 9 dibedakan dari 9,004 untuk evaluasi. Perilaku yang ditelusuri pada satu model dibedakan dari nilai keluaran model lainnya.",
+    "finding_ids": [
+      "WE04"
+    ],
+    "author_feedback": [
+      {
+        "record": 36,
+        "response": "Pujian eksplisit untuk penjelasan terperinci tentang pembulatan dan batas."
+      }
+    ],
+    "evidence_or_preference_needed": "Pisahkan klaim tindakan antara pada satu model dari bukti nilai jawaban final model lain."
+  },
+  {
+    "id": "P291",
+    "start": 754,
+    "end": 754,
+    "node": "T-U756",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Empat hasil benar tetapi tidak lengkap dijelaskan melalui lima indikator, empat gardu, serta 16 hasil yang hilang.",
+    "finding_ids": [
+      "WE04"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Konfigurasi yang dibaca dan indikator yang dipilih memerlukan catatan, berbeda dari jumlah entri pada jawaban."
+  },
+  {
+    "id": "P292",
+    "start": 756,
+    "end": 756,
+    "node": "T-0065",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 19,
+        "response": "Permintaan spasi ditarik kembali. Pertahankan antarperiode."
+      }
+    ]
+  },
+  {
+    "id": "P293",
+    "start": 758,
+    "end": 758,
+    "node": "T-0066",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.8.1. Berdasarkan Ketersediaan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P294",
+    "start": 760,
+    "end": 760,
+    "node": "T-0066",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua jenis tugas periode dan antarperiode dipisahkan sebelum agregasi kondisi.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 27,
+        "response": "Yang dibandingkan ialah status pemenuhan indikator antara dua periode."
+      },
+      {
+        "record": 111,
+        "response": "Kondisi disebut dengan atau tanpa konteks bisnis berikut unit pembandingnya."
+      }
+    ]
+  },
+  {
+    "id": "P295",
+    "start": 762,
+    "end": 762,
+    "node": "T-0066",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.20 Hasil SPM/SLA Periode dan Antarperiode menurut Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P296",
+    "start": 764,
+    "end": 767,
+    "node": "T-0066",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Konteks bisnis mengelompokkan hasil. Pasangan PASS/total 24/24, 24/24 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P297",
+    "start": 769,
+    "end": 769,
+    "node": "T-0066",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Status satu periode dan perubahan antarperiode diberi acuan pada hasil yang diharapkan.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P298",
+    "start": 771,
+    "end": 771,
+    "node": "T-0067",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.8.2. Berdasarkan Model memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P299",
+    "start": 773,
+    "end": 773,
+    "node": "T-0067",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Cakupan empat kasus dan dua kondisi menjelaskan 24 jawaban per model.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P300",
+    "start": 775,
+    "end": 775,
+    "node": "T-0067",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.21 Hasil SPM/SLA Periode dan Antarperiode menurut Model mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P301",
+    "start": 777,
+    "end": 780,
+    "node": "T-0067",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 24/24, 24/24 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P302",
+    "start": 782,
+    "end": 782,
+    "node": "T-0067",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Nilai not_applicable berbeda dari kegagalan memenuhi indikator.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P303",
+    "start": 784,
+    "end": 784,
+    "node": "T-0068",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P304",
+    "start": 786,
+    "end": 786,
+    "node": "T-0068",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Keempat kode kasus dan tiga pengulangan menjelaskan penyebut per kombinasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P305",
+    "start": 788,
+    "end": 788,
+    "node": "T-0068",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Caption Tabel 4.22 Hasil SPM/SLA Periode dan Antarperiode menurut Kombinasi Model dan Konteks Bisnis mengidentifikasi isi sebelum baris tabel dan mengikuti penomoran lokal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P306",
+    "start": 790,
+    "end": 795,
+    "node": "T-0068",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kolom Model mengelompokkan hasil. Pasangan PASS/total 12/12, 12/12, 12/12, 12/12 memberi penyebut bagi persentase pada tiap baris.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P307",
+    "start": 797,
+    "end": 797,
+    "node": "T-0068",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Rincian 3/3 per kasus menjelaskan 12/12 per kombinasi.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P308",
+    "start": 799,
+    "end": 799,
+    "node": "T-U801",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Jumlah kegagalan 4 menjadi 8 dibedakan dari status indikator keempat yang tetap gagal.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P309",
+    "start": 801,
+    "end": 801,
+    "node": "T-0069",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 4.9. Interpretasi Hasil memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P310",
+    "start": 803,
+    "end": 803,
+    "node": "T-U805",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pembilang dan penyebut total diuraikan per kondisi dan model.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 47,
+        "response": "Kedua penyebut 90 serta sumber 10 FAIL dijelaskan."
+      }
+    ]
+  },
+  {
+    "id": "P311",
+    "start": 805,
+    "end": 805,
+    "node": "T-U805",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Persentase dan jumlah jawaban memberi batas deskriptif pada perbandingan hasil.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P312",
+    "start": 807,
+    "end": 807,
+    "node": "T-U805",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pertahankan perbandingan yang dipuji: arah perbedaan berubah menurut kelompok tugas.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 39,
+        "response": "Pujian eksplisit atas pembandingan menurut kelompok tugas."
+      },
+      {
+        "record": 84,
+        "response": "Pertahankan SPM/SLA per laporan."
+      }
+    ]
+  },
+  {
+    "id": "P313",
+    "start": 809,
+    "end": 809,
+    "node": "T-U811",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pertahankan pembedaan yang dipuji antara nilai benar dan jawaban lengkap.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 38,
+        "response": "Pujian dengan kualifikasi atas perbedaan kelengkapan dan nilai benar."
+      }
+    ]
+  },
+  {
+    "id": "P314",
+    "start": 811,
+    "end": 811,
+    "node": "T-U811",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Dua contoh konkret menjelaskan filter data dan pembulatan sebelum dibandingkan; pertahankan contoh yang dipuji.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 37,
+        "response": "Pujian dengan kualifikasi pada penjelasan singkat urutan pembulatan."
+      },
+      {
+        "record": 46,
+        "response": "Contoh terpisah menjelaskan data yang salah diikutkan dan urutan pembulatan."
+      }
+    ]
+  },
+  {
+    "id": "P315",
+    "start": 813,
+    "end": 813,
+    "node": "T-U815",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pertahankan rincian yang dipuji tentang jumlah keberhasilan pada masing-masing putaran.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 40,
+        "response": "Pujian eksplisit atas laporan pengulangan dan identitas kasus yang berubah. Pertahankan rincian."
+      }
+    ]
+  },
+  {
+    "id": "P316",
+    "start": 815,
+    "end": 815,
+    "node": "T-U815",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Kasus kedua yang gagal disebut sebelum pembaca mengetahui identitas kasus yang selalu gagal.",
+    "finding_ids": [
+      "W07"
+    ],
+    "author_feedback": [
+      {
+        "record": 40,
+        "response": "Pujian eksplisit atas laporan pengulangan dan identitas kasus yang berubah. Pertahankan rincian."
+      }
+    ],
+    "change": "Dahulukan T3-C1, kemudian jelaskan kasus lain yang gagal menurut nomor pengulangan.",
+    "acceptance": "Pertahankan pujian 40, 13/15, T3-C1 gagal tiga kali, T7-C2 pada pengulangan pertama dan ketiga, T7-C1 pada pengulangan kedua, kondisi dan rujukan lampiran."
+  },
+  {
+    "id": "P317",
+    "start": 817,
+    "end": 817,
+    "node": "T-U815",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Ringkasan per kasus memisahkan selalu benar, berubah, dan selalu gagal.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 40,
+        "response": "Pujian eksplisit atas laporan pengulangan dan identitas kasus yang berubah. Pertahankan rincian."
+      }
+    ]
+  },
+  {
+    "id": "P318",
+    "start": 819,
+    "end": 819,
+    "node": "T-U819",
+    "decision": "retain with unresolved preference",
+    "diagnosis_or_preservation": "Penilaian jawaban akhir, pengaruh satu dokumen, dan manfaat operasional memiliki batas yang berbeda.",
+    "finding_ids": [
+      "WP01"
+    ],
+    "author_feedback": [
+      {
+        "record": 45,
+        "response": "Keberatan gaya atas keterbatasan tujuh dokumen masih terbuka. Kedua formulasi terdahulu mengulang hasil. Batas inferensi perlu tetap dinyatakan."
+      },
+      {
+        "record": 48,
+        "response": "Masih terkait keberatan atas rumusan batas inferensi; pertahankan fakta bahwa semua dokumen diberikan bersama."
+      }
+    ],
+    "evidence_or_preference_needed": "Dua keberatan penulis tentang bunyi keterbatasan masih berlaku. Percobaan sebelumnya hanya mengulang hasil atau kondisi perlakuan. Jaga batas pengaruh bundel dan kegunaan keputusan sambil menunggu rumusan yang lebih jelas."
+  },
+  {
+    "id": "P319",
+    "start": 821,
+    "end": 821,
+    "node": "T-0070",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul BAB V — PENUTUP memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P320",
+    "start": 823,
+    "end": 823,
+    "node": "T-0070",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Pembuka yang diminta mengantar pembaca ke simpulan hasil dan saran.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 3,
+        "response": "Pengantar simpulan perlu cukup singkat dan tidak terdengar seperti instruksi penyuntingan."
+      },
+      {
+        "record": 18,
+        "response": "Pembuka simpulan tetap memberi orientasi."
+      }
+    ]
+  },
+  {
+    "id": "P321",
+    "start": 825,
+    "end": 825,
+    "node": "T-0071",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 5.1. Kesimpulan memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P322",
+    "start": 827,
+    "end": 827,
+    "node": "T-U827",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Kesimpulan menyebut penyebut per model dan menggunakan poin persentase secara tepat.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P323",
+    "start": 829,
+    "end": 829,
+    "node": "T-U827",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Selisih dua keberhasilan ditempatkan pada kondisi tanpa konteks, diikuti rinciannya menurut kelompok.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 84,
+        "response": "Pertahankan SPM/SLA per laporan."
+      }
+    ]
+  },
+  {
+    "id": "P324",
+    "start": 831,
+    "end": 831,
+    "node": "T-U831",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Empat jawaban tidak lengkap pada lalu lintas, dua salah hitung penyebab dan empat kegagalan per laporan mempertanggungjawabkan sepuluh FAIL.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P325",
+    "start": 833,
+    "end": 833,
+    "node": "T-U831",
+    "decision": "revise",
+    "diagnosis_or_preservation": "Kasus lainnya di kalimat terakhir dapat dibaca sebagai semua kasus di luar dua kasus bersama, padahal hanya satu lagi per model yang belum mencapai 3/3.",
+    "finding_ids": [
+      "W08"
+    ],
+    "author_feedback": [],
+    "change": "Sebut kelompok kasus yang dimaksud atau akhiri setelah rincian jika hubungan perbandingan tetap jelas.",
+    "acceptance": "Pertahankan kedua kasus bersama, satu pengecualian lain per model, seluruh nilai 0/3–3/3 dan cakupan setiap kondisi."
+  },
+  {
+    "id": "P326",
+    "start": 835,
+    "end": 835,
+    "node": "T-U831",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Batas simpulan secara tepat menyebut kasus, pengulangan dan penilaian jawaban akhir.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P327",
+    "start": 837,
+    "end": 837,
+    "node": "T-0072",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul 5.2. Saran memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P328",
+    "start": 839,
+    "end": 839,
+    "node": "T-0072",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Saran jumlah pengulangan, variasi dokumen dan penilaian oleh pengguna mengikuti keterbatasan yang berbeda.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 1,
+        "response": "Pertahankan saran pengulangan tanpa mengulang seluruh kontrol."
+      }
+    ]
+  },
+  {
+    "id": "P329",
+    "start": 841,
+    "end": 841,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Judul DAFTAR PUSTAKA memberi batas yang sesuai dengan isi berikutnya.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 17,
+        "response": "Perataan teks membutuhkan berkas tata letak."
+      }
+    ]
+  },
+  {
+    "id": "P330",
+    "start": 843,
+    "end": 843,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Adyen.: identitas penulis dan tahun terhubung dengan penggunaan di L85. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P331",
+    "start": 845,
+    "end": 845,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Agent Skills.: identitas penulis dan tahun terhubung dengan penggunaan di L147. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 17,
+        "response": "Perataan teks membutuhkan berkas tata letak."
+      }
+    ]
+  },
+  {
+    "id": "P332",
+    "start": 847,
+    "end": 847,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Alpar: identitas penulis dan tahun terhubung dengan penggunaan di L7. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 17,
+        "response": "Perataan teks membutuhkan berkas tata letak."
+      }
+    ]
+  },
+  {
+    "id": "P333",
+    "start": 849,
+    "end": 849,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Anthropic.: identitas penulis dan tahun terhubung dengan penggunaan di L117. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 17,
+        "response": "Perataan teks membutuhkan berkas tata letak."
+      }
+    ]
+  },
+  {
+    "id": "P334",
+    "start": 851,
+    "end": 851,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Brown: identitas penulis dan tahun terhubung dengan penggunaan di L133. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": [
+      {
+        "record": 17,
+        "response": "Perataan teks membutuhkan berkas tata letak."
+      }
+    ]
+  },
+  {
+    "id": "P335",
+    "start": 853,
+    "end": 853,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Chaudhuri: identitas penulis dan tahun terhubung dengan penggunaan di L7. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P336",
+    "start": 855,
+    "end": 855,
+    "node": "T-0073",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Chen dkk. (2012) tidak dirujuk pada badan teks tersedia. Pastikan aturan institusi dan bagian di luar kutipan sebelum menghapus.",
+    "finding_ids": [
+      "WE05"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Chen dkk. (2012) tidak dirujuk pada badan teks tersedia. Pastikan aturan institusi dan bagian di luar kutipan sebelum menghapus."
+  },
+  {
+    "id": "P337",
+    "start": 857,
+    "end": 857,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Cloudflare.: identitas penulis dan tahun terhubung dengan penggunaan di L387. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P338",
+    "start": 859,
+    "end": 859,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri DeepSeek.: identitas penulis dan tahun terhubung dengan penggunaan di L176. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P339",
+    "start": 861,
+    "end": 861,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri DeepSeek.: identitas penulis dan tahun terhubung dengan penggunaan di L401. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P340",
+    "start": 863,
+    "end": 863,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri DeepSeek-AI.: identitas penulis dan tahun terhubung dengan penggunaan di L168. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P341",
+    "start": 865,
+    "end": 865,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Egg: identitas penulis dan tahun terhubung dengan penggunaan di L85. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P342",
+    "start": 867,
+    "end": 867,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Gruber: identitas penulis dan tahun terhubung dengan penggunaan di L139. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P343",
+    "start": 869,
+    "end": 869,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Hong: identitas penulis dan tahun terhubung dengan penggunaan di L81. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P344",
+    "start": 871,
+    "end": 871,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Hu: identitas penulis dan tahun terhubung dengan penggunaan di L186. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P345",
+    "start": 873,
+    "end": 873,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Lei: identitas penulis dan tahun terhubung dengan penggunaan di L83. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P346",
+    "start": 875,
+    "end": 875,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Li: identitas penulis dan tahun terhubung dengan penggunaan di L105. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P347",
+    "start": 877,
+    "end": 877,
+    "node": "T-0073",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Li dkk. (2023) berbeda dari karya 2025 dan 2026. Periksa apakah karya 2023 dirujuk di lampiran sebelum mengubah daftar.",
+    "finding_ids": [
+      "WE05"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Li dkk. (2023) berbeda dari karya 2025 dan 2026. Periksa apakah karya 2023 dirujuk di lampiran sebelum mengubah daftar."
+  },
+  {
+    "id": "P348",
+    "start": 879,
+    "end": 879,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Li: identitas penulis dan tahun terhubung dengan penggunaan di L119. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P349",
+    "start": 881,
+    "end": 881,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Liu: identitas penulis dan tahun terhubung dengan penggunaan di L157. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P350",
+    "start": 883,
+    "end": 883,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Liu: identitas penulis dan tahun terhubung dengan penggunaan di L81. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P351",
+    "start": 885,
+    "end": 885,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Meta.: identitas penulis dan tahun terhubung dengan penggunaan di L172. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P352",
+    "start": 887,
+    "end": 887,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Meta.: identitas penulis dan tahun terhubung dengan penggunaan di L172. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P353",
+    "start": 889,
+    "end": 889,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Meta.: identitas penulis dan tahun terhubung dengan penggunaan di L168. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P354",
+    "start": 891,
+    "end": 891,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Meta.: identitas penulis dan tahun terhubung dengan penggunaan di L401. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P355",
+    "start": 893,
+    "end": 893,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Meta.: identitas penulis dan tahun terhubung dengan penggunaan di L401. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P356",
+    "start": 895,
+    "end": 895,
+    "node": "T-0073",
+    "decision": "retain pending evidence",
+    "diagnosis_or_preservation": "Mialon dkk. (2024) tidak dirujuk dalam bab tersedia. Lampiran dan aturan institusi diperlukan untuk memutuskan keanggotaannya.",
+    "finding_ids": [
+      "WE05"
+    ],
+    "author_feedback": [],
+    "evidence_or_preference_needed": "Mialon dkk. (2024) tidak dirujuk dalam bab tersedia. Lampiran dan aturan institusi diperlukan untuk memutuskan keanggotaannya."
+  },
+  {
+    "id": "P357",
+    "start": 897,
+    "end": 897,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Model Context Protocol.: identitas penulis dan tahun terhubung dengan penggunaan di L121. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P358",
+    "start": 899,
+    "end": 899,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Noy: identitas penulis dan tahun terhubung dengan penggunaan di L141. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P359",
+    "start": 901,
+    "end": 901,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Osés Grijalba: identitas penulis dan tahun terhubung dengan penggunaan di L184. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P360",
+    "start": 903,
+    "end": 903,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Quamar: identitas penulis dan tahun terhubung dengan penggunaan di L95. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P361",
+    "start": 905,
+    "end": 905,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Rumiantsau: identitas penulis dan tahun terhubung dengan penggunaan di L87. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P362",
+    "start": 907,
+    "end": 907,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Sahu: identitas penulis dan tahun terhubung dengan penggunaan di L83. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P363",
+    "start": 909,
+    "end": 909,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Sawant: identitas penulis dan tahun terhubung dengan penggunaan di L79. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P364",
+    "start": 911,
+    "end": 911,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Shi: identitas penulis dan tahun terhubung dengan penggunaan di L157. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P365",
+    "start": 913,
+    "end": 913,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Vishwakarma: identitas penulis dan tahun terhubung dengan penggunaan di L83. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P366",
+    "start": 915,
+    "end": 915,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Wang: identitas penulis dan tahun terhubung dengan penggunaan di L109. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P367",
+    "start": 917,
+    "end": 917,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Wu: identitas penulis dan tahun terhubung dengan penggunaan di L103. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  },
+  {
+    "id": "P368",
+    "start": 919,
+    "end": 919,
+    "node": "T-0073",
+    "decision": "retain",
+    "diagnosis_or_preservation": "Entri Yao: identitas penulis dan tahun terhubung dengan penggunaan di L194. Pertahankan metadata dan penunjuk sumber.",
+    "finding_ids": [],
+    "author_feedback": []
+  }
+]

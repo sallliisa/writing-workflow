@@ -1,0 +1,75 @@
+--- baseline.md
++++ candidate.md
+@@ -84,7 +84,7 @@
+ 
+ DABstep menggunakan pertanyaan analisis dari kegiatan operasional Adyen, perusahaan penyedia layanan pembayaran (Adyen, n.d.). Agen perlu membaca data terstruktur dan dokumentasi bisnis, lalu menjalankan beberapa langkah analisis. Jawaban akhirnya dibandingkan dengan *expected result*, yaitu jawaban yang diharapkan untuk pertanyaan tersebut. Aturan perbandingannya disesuaikan dengan tipe jawaban (Egg dkk., 2025).
+ 
+-Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Penilaian dilakukan berdasarkan hasil eksekusi dan Claude Sonnet 4.6 sebagai *judge*.
++Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Claude Sonnet 4.6 digunakan sebagai *judge* untuk menilai jawaban dengan mempertimbangkan hasil eksekusi kueri.
+ 
+ Dalam penelitian ini, Muse Spark 1.3 dan DeepSeek v4 Flash digunakan untuk menjawab pertanyaan analisis operasional HKA TROM. Kedua model diuji dengan dan tanpa konteks bisnis. Agen membaca data melalui *tool* dan menghasilkan jawaban dalam format *JavaScript Object Notation* (JSON). Struktur dan nilai jawaban kemudian dibandingkan dengan *expected result*. Perbandingan ketersediaan konteks bisnis memiliki kesamaan dengan penelitian Rumiantsau dan Fokeev (2026), sedangkan analisis bertahap dan penilaian jawaban akhir memiliki kesamaan dengan DABstep (Egg dkk., 2025).
+ 
+@@ -146,7 +146,7 @@
+ 
+ *Skill* adalah kumpulan instruksi dan bahan pendukung untuk membantu agen menjalankan tugas tertentu. Dalam format Agent Skills, SKILL.md memuat nama, deskripsi kegunaan, dan instruksi utama. Informasi yang lebih rinci dapat disimpan dalam dokumen referensi dan dibaca saat diperlukan (Agent Skills, n.d.).
+ 
+-Dalam penelitian ini, instruksi utama digunakan untuk mengarahkan agen ke referensi yang sesuai dengan pertanyaan. Dokumen ini disebut dokumen *routing*. Dokumen referensi memuat penjelasan istilah dan aturan bisnis untuk setiap topik. Agen dapat membaca lebih dari satu referensi apabila pertanyaannya memerlukan informasi dari beberapa topik.
++Dalam penelitian ini, SKILL.md mengarahkan agen ke referensi yang sesuai dengan pertanyaan. Dokumen referensi memuat penjelasan istilah dan aturan bisnis untuk setiap topik. Agen dapat membaca lebih dari satu referensi apabila pertanyaannya memerlukan informasi dari beberapa topik.
+ 
+ ## 2.7. Large Language Models
+ 
+@@ -156,7 +156,7 @@
+ 
+ N. F. Liu dkk. (2024) menguji model dengan informasi yang ditempatkan pada bagian berbeda dalam konteks panjang. Pada tugas pencarian informasi, hasil model dipengaruhi oleh letak informasi yang dibutuhkan. Shi dkk. (2023) juga menemukan bahwa informasi yang tidak relevan dapat mengganggu model dalam menyelesaikan soal aritmetika.
+ 
+-Penelitian ini menggunakan Muse Spark 1.3 dari Meta dan DeepSeek v4 Flash dari DeepSeek. Pengembang dan *context window* kedua model disajikan pada Tabel 2.2.
++Penelitian ini menggunakan Muse Spark 1.3 dari Meta dan DeepSeek v4 Flash dari DeepSeek. Keduanya mendukung *tool call* untuk meminta data melalui fungsi yang disediakan aplikasi (Meta, 2026b dan DeepSeek, 2026c). Hasil permintaan data perlu digunakan bersama aturan bisnis untuk menghitung jawaban. Penelitian ini membandingkan ketepatan jawaban kedua model ketika dokumen konteks bisnis tersedia dan ketika tidak tersedia. Pengembang dan *context window* kedua model disajikan pada Tabel 2.2. Batas konteks yang sama menunjukkan kesamaan kapasitas, bukan jumlah token yang benar-benar digunakan atau ketepatan model dalam menggunakan informasi di dalamnya.
+ 
+ **Tabel 2.2 Karakteristik Model yang Digunakan**
+ 
+@@ -169,11 +169,11 @@
+ 
+ ### 2.7.1. Muse Spark 1.3
+ 
+-Muse Spark 1.3 diperkenalkan oleh Meta pada September 2026 dan tersedia melalui Meta Model API serta Muse Code (Meta, 2026a). Model ini mendukung *tool calling* dan memiliki *context window* sebesar 1.048.576 token (Meta, 2026b, 2026c).
++Muse Spark 1.3 diperkenalkan oleh Meta pada September 2026 dan tersedia melalui Meta Model API serta Muse Code (Meta, 2026a). Menurut Meta (2026b), versi ini dilatih untuk alur kerja *agentic* yang berlangsung dalam banyak langkah dan menggunakan hasil langkah sebelumnya selama pengerjaan tugas. Kemampuan ini relevan untuk analisis yang memerlukan beberapa *tool call*. Misalnya, informasi kolom yang diperoleh dari pembacaan skema dapat digunakan untuk menentukan data yang perlu diminta berikutnya.
+ 
+ ### 2.7.2. DeepSeek v4 Flash
+ 
+-DeepSeek v4 Flash yang digunakan dalam penelitian ini adalah versi DeepSeek-V4.1-Flash-1017 (DeepSeek-AI, 2026). Model ini tersedia melalui API DeepSeek, dan *weights*-nya dapat diakses secara terbuka (DeepSeek, 2026a).
++DeepSeek v4 Flash yang digunakan dalam penelitian ini adalah versi DeepSeek-V4.1-Flash-1017 (DeepSeek-AI, 2026). Model ini tersedia melalui API DeepSeek, dan *weights*-nya dapat diakses secara terbuka (DeepSeek, 2026a). Dokumentasi API yang diperiksa pada 18 November 2026 mengidentifikasi versi tersebut sebagai model yang melayani permintaan dengan nama deepseek-flash serta mencantumkan dukungan *Tool Calls* dan *JSON Output* (DeepSeek, 2026c). Kedua kemampuan tersebut relevan dengan tugas analisis dalam penelitian ini, yang memerlukan akses data melalui *tool* dan meminta jawaban berupa satu objek JSON. Dalam objek tersebut, hasil perhitungan disusun sesuai atribut dan tipe data yang diminta oleh *prompt*.
+ 
+ ## 2.8. Evaluasi Hasil Analisis
+ 
+@@ -812,11 +812,11 @@
+ 
+ Dengan konteks bisnis, kedua model memperoleh 15/15 PASS pada setiap pengulangan. Tanpa konteks bisnis, Muse Spark 1.3 memperoleh 14/15, 13/15, dan 14/15 PASS, sedangkan DeepSeek v4 Flash memperoleh 13/15 PASS pada masing-masing pengulangan.
+ 
+-Pada DeepSeek v4 Flash tanpa konteks bisnis, jumlah PASS tetap 13/15, tetapi kasus kedua yang gagal berganti antara T7-C2 dan T7-C1. T3-C1 memperoleh FAIL pada ketiga pengulangan. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.
++Pada DeepSeek v4 Flash tanpa konteks bisnis, jumlah PASS tetap 13/15 pada setiap pengulangan. T3-C1 memperoleh FAIL pada ketiga pengulangan, sedangkan satu kasus lain yang gagal berganti menurut pengulangannya. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1.
+ 
+ Tanpa konteks bisnis, Muse Spark 1.3 selalu memperoleh PASS pada 12 kasus, memiliki status yang berubah antara PASS dan FAIL pada tiga kasus, dan tidak memiliki kasus yang selalu FAIL. Pada DeepSeek v4 Flash, 12 kasus selalu PASS, dua kasus memiliki status yang berubah, dan satu kasus selalu FAIL. Dengan konteks bisnis, seluruh 15 kasus selalu PASS pada kedua model.
+ 
+-Pengujian dilakukan pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Karena seluruh dokumen konteks bisnis diberikan bersama, pengaruh masing-masing dokumen terhadap ketepatan jawaban belum dapat diketahui. PASS menunjukkan kesesuaian jawaban dengan *expected result*, sedangkan manfaat jawaban bagi pengambilan keputusan operasional belum dinilai.
++Hasil pengujian ini terbatas pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Tujuh dokumen konteks bisnis diuji bersama, sehingga perbedaan hasil belum dapat dikaitkan dengan satu dokumen tertentu. Penilaian PASS menunjukkan bahwa jawaban sesuai dengan *expected result*. Apakah jawaban tersebut membantu pengguna mengambil keputusan operasional belum dievaluasi.
+ 
+ # BAB V — PENUTUP
+ 
+@@ -830,7 +830,7 @@
+ 
+ Sepuluh jawaban FAIL seluruhnya berasal dari pengujian tanpa konteks bisnis. Pada T3-C1, empat jawaban tidak mencantumkan Gol. 5. Pada dua jawaban T5-C1, frekuensi Kelalaian Pengemudi terlalu besar dan terdapat kategori Kondisi Jalan yang tidak ada dalam *expected result*, sedangkan frekuensi Mengantuk tetap sesuai. Ketidaksesuaian pada T7-C1 dan T7-C2 mencakup tiga jawaban dengan status SPM/SLA yang salah, serta satu jawaban T7-C2 yang hanya berisi empat dari 20 hasil evaluasi yang diminta.
+ 
+-Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus. Pada Muse Spark 1.3, T3-C1 dan T7-C2 masing-masing memperoleh 2/3 PASS, sedangkan T5-C1 memperoleh 1/3 PASS. Ketiga kasus ini memiliki status yang berubah antara pengulangan. Pada DeepSeek v4 Flash, T3-C1 selalu gagal dengan 0/3 PASS, sedangkan T7-C1 memperoleh 2/3 PASS dan T7-C2 memperoleh 1/3 PASS. Jadi, kedua model sama-sama belum mencapai 3/3 PASS pada T3-C1 dan T7-C2, sedangkan kasus lainnya adalah T5-C1 pada Muse Spark 1.3 dan T7-C1 pada DeepSeek v4 Flash.
++Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus. Pada Muse Spark 1.3, T3-C1 dan T7-C2 masing-masing memperoleh 2/3 PASS, sedangkan T5-C1 memperoleh 1/3 PASS. Ketiga kasus ini memiliki status yang berubah antara pengulangan. Pada DeepSeek v4 Flash, T3-C1 selalu gagal dengan 0/3 PASS, sedangkan T7-C1 memperoleh 2/3 PASS dan T7-C2 memperoleh 1/3 PASS. Jadi, kedua model sama-sama belum mencapai 3/3 PASS pada T3-C1 dan T7-C2. Satu kasus lain yang belum mencapai 3/3 PASS adalah T5-C1 pada Muse Spark 1.3 dan T7-C1 pada DeepSeek v4 Flash.
+ 
+ Penilaian dilakukan terhadap struktur dan nilai jawaban akhir berdasarkan *expected result*. Kesimpulan ini terbatas pada 15 kasus yang masing-masing dijalankan tiga kali untuk setiap model dan kondisi pengujian.
+ 
+@@ -860,6 +860,8 @@
+ 
+ DeepSeek. (2026b). Messages. DeepSeek API Docs. Diakses 14 November 2026, dari https://api-docs.deepseek.com/api/create-message/
+ 
++DeepSeek. (2026c). Models & Pricing. DeepSeek API Docs. Diakses 18 November 2026, dari https://api-docs.deepseek.com/quick_start/pricing/
++
+ DeepSeek-AI. (2026). DeepSeek-V4.1-Flash-1017: config.json [Berkas konfigurasi model]. Hugging Face. Diakses 14 November 2026, dari https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017/blob/main/config.json
+ 
+ Egg, A., Iglesias Goyanes, M., Kingma, F., Mora, A., von Werra, L., & Wolf, T. (2025). DABstep: Data Agent Benchmark for Multi-step Reasoning. arXiv. https://doi.org/10.48550/arXiv.2506.23719

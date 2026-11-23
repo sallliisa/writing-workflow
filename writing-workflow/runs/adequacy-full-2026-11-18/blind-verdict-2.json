@@ -1,0 +1,20 @@
+[
+  {
+    "id": "P070",
+    "choice": "A",
+    "reason": "Accept A. The reader learns what both models can request, why the resulting data need business rules, and which outcome is compared across the two context conditions. The identical context limit in Table 2.2 answers a capacity question. The final sentence explains why accuracy still has to be measured. This is a substantive addition to B's table pointer. The shared properties belong in the parent and the provider citations attach to the tool support claim.",
+    "repair_needed": false
+  },
+  {
+    "id": "P075",
+    "choice": "B",
+    "reason": "Accept B. Both identify the release and access routes. B attributes a training objective for this version to Meta and makes the dependency between calls intelligible through the example of inspecting column names before requesting data. The example describes a possibility, with no claim that the behavior is exclusive to Muse or occurred during a run. With the numerical limit already in the table, A's repeated limit and tool support leave the practical significance of the model profile unexplained.",
+    "repair_needed": false
+  },
+  {
+    "id": "P077",
+    "choice": "A",
+    "reason": "Accept A. Both identify the release, API and weights. A dates the API alias mapping, attributes two supported features to the documentation, and explains the separate uses for requesting data and returning structured values. It identifies the prompt as the source of the requested attributes and types. It makes no claim that JSON Output was enabled, enforced the schema, or guaranteed a correct value. These distinctions supply a version-specific explanation within the scope of model background.",
+    "repair_needed": false
+  }
+]

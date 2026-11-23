@@ -1,0 +1,123 @@
+[
+  {
+    "id": "W01",
+    "passages": [
+      "P034"
+    ],
+    "final": "resolved",
+    "decision": "Judge role separated from query execution results using the paper’s §4.4."
+  },
+  {
+    "id": "W02",
+    "passages": [
+      "P065"
+    ],
+    "final": "resolved",
+    "decision": "SKILL.md named directly. A search for routing found no later use of the removed label."
+  },
+  {
+    "id": "W03",
+    "passages": [
+      "P070"
+    ],
+    "final": "resolved",
+    "decision": "§2.7 identifies the shared ability to request data and the two availability conditions. Its last sentence qualifies the informational value of the equal nominal windows."
+  },
+  {
+    "id": "W04",
+    "passages": [
+      "P075"
+    ],
+    "final": "resolved",
+    "decision": "§2.7.1 attributes multistep behavior to Meta and illustrates a possible schema-to-data request. Table 2.2 retains the numerical capacity and sources."
+  },
+  {
+    "id": "W05",
+    "passages": [
+      "P077"
+    ],
+    "final": "resolved",
+    "decision": "§2.7.2 identifies the served version and connects its documented tool and JSON capabilities to the two parts of the task. The text locates the JSON requirement in the prompt."
+  },
+  {
+    "id": "W06",
+    "passages": [
+      "P154"
+    ],
+    "final": "open evidence question",
+    "decision": "Selection criteria require the author. Keeping the configuration passage avoids attributing a choice from public specifications."
+  },
+  {
+    "id": "W07",
+    "passages": [
+      "P316"
+    ],
+    "final": "resolved",
+    "decision": "T3-C1 is identified before the other failed case for each repetition. All author-praised details remain identifiable."
+  },
+  {
+    "id": "W08",
+    "passages": [
+      "P325"
+    ],
+    "final": "resolved",
+    "decision": "The conclusion specifies the remaining below-3/3 case for each model."
+  },
+  {
+    "id": "WP01",
+    "passages": [
+      "P318"
+    ],
+    "final": "qualified improvement; author preference unconfirmed",
+    "decision": "Fresh comparison preferred the concrete explanation of the joint treatment and untested utility. Author endorsement of this wording is unknown."
+  },
+  {
+    "id": "WE01",
+    "passages": [
+      "P120"
+    ],
+    "final": "open evidence question",
+    "decision": "T9-C2 indicator-level reference for both periods needed (A07)."
+  },
+  {
+    "id": "WE02",
+    "passages": [
+      "P145"
+    ],
+    "final": "open evidence question",
+    "decision": "Source or role of the person who supplied the business rules remains unspecified."
+  },
+  {
+    "id": "WE03",
+    "passages": [
+      "P155",
+      "P157"
+    ],
+    "final": "open evidence question",
+    "decision": "The exact run settings, local cap and protocol require historical configuration (A10)."
+  },
+  {
+    "id": "WE04",
+    "passages": [
+      "P233",
+      "P253",
+      "P254",
+      "P289",
+      "P290",
+      "P291",
+      "P314"
+    ],
+    "final": "open evidence question",
+    "decision": "Run reports preserved verbatim. Identify observation source and run linkage in methods (A06)."
+  },
+  {
+    "id": "WE05",
+    "passages": [
+      "P336",
+      "P347",
+      "P356"
+    ],
+    "final": "open evidence question",
+    "decision": "Complete manuscript and institutional inclusion rules needed (A08)."
+  }
+]

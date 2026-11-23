@@ -1,0 +1,875 @@
+[
+  {
+    "from_ids": [
+      "T-0002"
+    ],
+    "to_ids": [
+      "T-0003",
+      "T-0004"
+    ],
+    "relationship": "The ambiguity of the daily-average denominator motivates asking how document availability affects the accuracy of each model.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 13,
+        "end_line": 19,
+        "supports": "The calendar-day example explains how two readings of the same records yield different answers. Related work and the chosen operational cases motivate the comparison."
+      },
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 23,
+        "supports": "The question names the two models, both context conditions, and the comparison with a reference answer for each case."
+      },
+      {
+        "document": "target",
+        "start_line": 27,
+        "end_line": 27,
+        "supports": "The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0003",
+      "T-0004"
+    ],
+    "to_ids": [
+      "T-0026",
+      "T-U218"
+    ],
+    "relationship": "The two-model, two-condition question and case/repeat objective yield four groups of 45 answers.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 23,
+        "supports": "The question names the two models, both context conditions, and the comparison with a reference answer for each case."
+      },
+      {
+        "document": "target",
+        "start_line": 27,
+        "end_line": 27,
+        "supports": "The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators."
+      },
+      {
+        "document": "target",
+        "start_line": 204,
+        "end_line": 210,
+        "supports": "The evaluator uses inaccessible reference answers. Both models share prompts, data, tools and cases while access to business documents varies."
+      },
+      {
+        "document": "target",
+        "start_line": 214,
+        "end_line": 226,
+        "supports": "The numbering example and four rows give 15 cases × 3 runs = 45 answers in each cell, with 90 per model."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-U041",
+      "T-0028"
+    ],
+    "to_ids": [
+      "T-U300",
+      "T-U315"
+    ],
+    "relationship": "The scope and grain of synthetic input determine the selected records used to construct expected values.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 41,
+        "end_line": 41,
+        "supports": "They are synthetic rows constructed from the operational schema and business rules, distinct from the 180 returned answers."
+      },
+      {
+        "document": "target",
+        "start_line": 234,
+        "end_line": 248,
+        "supports": "The methods distinguish 237 rows across 15 operational tables from master and configuration data. The prompt limits the requested subset despite wider read access."
+      },
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 309,
+        "supports": "Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding."
+      },
+      {
+        "document": "target",
+        "start_line": 311,
+        "end_line": 319,
+        "supports": "Six booth observations and one longbooth observation are in scope. The table separates their counts and totals before the equations."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0011"
+    ],
+    "to_ids": [
+      "T-0029",
+      "T-U260"
+    ],
+    "relationship": "Aggregation, relationships and boundary conditions in theory motivate the different case types.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 99,
+        "end_line": 105,
+        "supports": "Linked sources, aggregation, missing values, grouping, conditional thresholds and strict/inclusive comparison correspond to the later selected cases."
+      },
+      {
+        "document": "target",
+        "start_line": 252,
+        "end_line": 254,
+        "supports": "Case selection connects available business analyses to distinct reasoning demands, including cross-table relationships and period or threshold conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 256,
+        "end_line": 270,
+        "supports": "The examples distinguish non-null weighted pooling, missing days, all-action completion, repeated causes, scope exceptions, and status comparisons."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0012",
+      "T-0013"
+    ],
+    "to_ids": [
+      "T-0036"
+    ],
+    "relationship": "The shared agent loop and MCP roles become three concrete data retrieval functions.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 109,
+        "end_line": 113,
+        "supports": "The model selects a tool and its arguments, reads an observation and may request more information. A schema lookup makes the sequence concrete."
+      },
+      {
+        "document": "target",
+        "start_line": 117,
+        "end_line": 121,
+        "supports": "The function and argument description precede the distinction among host, client and server. The document-analysis example illustrates separate tool functions."
+      },
+      {
+        "document": "target",
+        "start_line": 409,
+        "end_line": 423,
+        "supports": "Entity discovery, schema inspection and paginated record reads explain the available data path. The conditional skill documents are a separate input."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0015",
+      "T-0016",
+      "T-0017"
+    ],
+    "to_ids": [
+      "T-0033",
+      "T-U368",
+      "T-U380"
+    ],
+    "relationship": "The distinction between case prompt, routing instructions and business-rule content is instantiated by the seven-file package.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 133,
+        "end_line": 135,
+        "supports": "Instructions and output constraints belong to the prompt. Separate documentation supplies operational meanings and computation rules."
+      },
+      {
+        "document": "target",
+        "start_line": 139,
+        "end_line": 143,
+        "supports": "Grain, relationships, statuses, null treatment and calendar-day denominators show why definitions can affect a numeric answer. Ontology sources support general concepts."
+      },
+      {
+        "document": "target",
+        "start_line": 147,
+        "end_line": 149,
+        "supports": "The routing document points to detailed references; tasks spanning topics may use several. The generic description need not assert actual run-level use."
+      },
+      {
+        "document": "target",
+        "start_line": 360,
+        "end_line": 362,
+        "supports": "Development knowledge supplied the rule content. A routing file and six domain references define the intervention package; the enabling procedure remains unspecified."
+      },
+      {
+        "document": "target",
+        "start_line": 366,
+        "end_line": 374,
+        "supports": "The map names the routing document and six references, tying each to data selection, computation or status interpretation."
+      },
+      {
+        "document": "target",
+        "start_line": 376,
+        "end_line": 381,
+        "supports": "The quoted instruction and the transaction-plus-indicator example explain how to find two references when a question spans topics."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0033"
+    ],
+    "to_ids": [
+      "T-0035"
+    ],
+    "relationship": "The intervention description requires an actual way to expose the routing entry and withhold it in the control.",
+    "assessment": "gap",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 360,
+        "end_line": 362,
+        "supports": "Development knowledge supplied the rule content. A routing file and six domain references define the intervention package; the enabling procedure remains unspecified."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice."
+      }
+    ],
+    "finding_ids": [
+      "A05"
+    ]
+  },
+  {
+    "from_ids": [
+      "T-0018",
+      "T-0019",
+      "T-0020"
+    ],
+    "to_ids": [
+      "T-0035"
+    ],
+    "relationship": "The conceptual basis of using both models in an agent should lead to their actual selection and configuration.",
+    "assessment": "gap",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 153,
+        "end_line": 168,
+        "supports": "The model can choose actions using a context containing the prompt, observations and documents already read. The table gives equal nominal window sizes. The cited studies discuss sensitivity to position and irrelevant material."
+      },
+      {
+        "document": "target",
+        "start_line": 172,
+        "end_line": 172,
+        "supports": "The profile gives its developer, release, access, tool calling and a window size. The relevance of the action interface to obtaining operational data remains implicit."
+      },
+      {
+        "document": "target",
+        "start_line": 176,
+        "end_line": 176,
+        "supports": "The release identifier distinguishes the tested version. API and open weights describe access routes; neither explains the tested model’s relevant interaction capabilities."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice."
+      }
+    ],
+    "finding_ids": [
+      "A01",
+      "A02",
+      "A03",
+      "A04"
+    ]
+  },
+  {
+    "from_ids": [
+      "T-0035"
+    ],
+    "to_ids": [
+      "T-0043"
+    ],
+    "relationship": "The methods table should identify actual settings behind the runtime described as used in results.",
+    "assessment": "unresolved",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice."
+      },
+      {
+        "document": "target",
+        "start_line": 479,
+        "end_line": 486,
+        "supports": "The environment table confirms the shared agent runtime and the MCP data tools already specified in methods."
+      }
+    ],
+    "finding_ids": [
+      "A10"
+    ]
+  },
+  {
+    "from_ids": [
+      "T-U042",
+      "T-0026",
+      "T-0030"
+    ],
+    "to_ids": [
+      "T-0039"
+    ],
+    "relationship": "A reference answer withheld from agents becomes the common standard used by the evaluator.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 42,
+        "end_line": 42,
+        "supports": "Both use source, master and configuration data. Code, completed analyses and reference answers are withheld."
+      },
+      {
+        "document": "target",
+        "start_line": 204,
+        "end_line": 210,
+        "supports": "The evaluator uses inaccessible reference answers. Both models share prompts, data, tools and cases while access to business documents varies."
+      },
+      {
+        "document": "target",
+        "start_line": 294,
+        "end_line": 294,
+        "supports": "The reference is computed from the appropriate data, encoded as JSON and kept fixed for all runs. The following rules and calculation give the procedure substance."
+      },
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 439,
+        "supports": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0032",
+      "T-U352"
+    ],
+    "to_ids": [
+      "T-0022",
+      "T-0039"
+    ],
+    "relationship": "The schema specifies required form, ordering and rounding, which the evaluator must check alongside values.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 346,
+        "end_line": 346,
+        "supports": "The request names the task and schema. Data names, formulas and solution steps are withheld; schema, ordering and rounding constrain representation."
+      },
+      {
+        "document": "target",
+        "start_line": 348,
+        "end_line": 356,
+        "supports": "The T2-C1 example specifies period, integer rounding and vehicle-class order but leaves the calendar-day denominator to the analysis."
+      },
+      {
+        "document": "target",
+        "start_line": 184,
+        "end_line": 186,
+        "supports": "Required attributes, types, array order and values all contribute to a single all-or-nothing verdict. Methods specify numeric and object-order exceptions."
+      },
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 439,
+        "supports": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-U300",
+      "T-U331"
+    ],
+    "to_ids": [
+      "T-0047"
+    ],
+    "relationship": "Six 10-second and one 2-second observations yield the 8.86-second value reported for T1-C2.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 309,
+        "supports": "Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding."
+      },
+      {
+        "document": "target",
+        "start_line": 327,
+        "end_line": 333,
+        "supports": "All seven observations are non-null. Dividing 62 by 7 gives 8.86 seconds in the named output attribute, distinct from other fields of its object."
+      },
+      {
+        "document": "target",
+        "start_line": 524,
+        "end_line": 533,
+        "supports": "Both models achieve 12/12. The two correct means, 23.09 and 8.86 seconds, identify what was compared."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0022",
+      "T-0039"
+    ],
+    "to_ids": [
+      "T-U445"
+    ],
+    "relationship": "The T5-C1 comparison gives a worked instance of the all-fields rule even though the actual judging mechanism is unspecified.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 184,
+        "end_line": 186,
+        "supports": "Required attributes, types, array order and values all contribute to a single all-or-nothing verdict. Methods specify numeric and object-order exceptions."
+      },
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 439,
+        "supports": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed."
+      },
+      {
+        "document": "target",
+        "start_line": 445,
+        "end_line": 451,
+        "supports": "The expected and matching objects agree. An additional cause and an excessive count change two details and the total from five to seven in the failed object."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0039"
+    ],
+    "to_ids": [
+      "T-0044"
+    ],
+    "relationship": "The result sample’s 180 verdicts depend on an actual implementation of the documented scoring rule.",
+    "assessment": "gap",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 439,
+        "supports": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed."
+      },
+      {
+        "document": "target",
+        "start_line": 491,
+        "end_line": 505,
+        "supports": "The distribution reconciles 237 input rows with 15 cases, four conditions and 180 replies. Each group’s answer count follows from its case count."
+      }
+    ],
+    "finding_ids": [
+      "A09"
+    ]
+  },
+  {
+    "from_ids": [
+      "T-U300"
+    ],
+    "to_ids": [
+      "T-U595",
+      "T-U642",
+      "T-U752"
+    ],
+    "relationship": "Monthly zero groups, eligibility and unrounded threshold comparisons explain the expected fields used to diagnose discrepancies.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 309,
+        "supports": "Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "The missing zero-volume class for January and February accounts for the failures even though the returned values match. Claims about the chosen source need run evidence."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The expected and observed totals are five and seven. One added category and one inflated frequency match the extra two assignments; specific reading actions need provenance."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "The raw 6.004 and 9.004 values exceed the respective thresholds. Displayed rounded values can equal them. The returned status and claimed order of an agent’s calculations require different evidence."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0037",
+      "T-0041"
+    ],
+    "to_ids": [
+      "T-U595",
+      "T-U642",
+      "T-U752",
+      "T-U756",
+      "T-U811"
+    ],
+    "relationship": "The procedure in §3.5.3 needs to identify the source and run linkage for the intermediate actions reported in the results. The missing method detail leaves their status as reported observations intact.",
+    "assessment": "gap",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "Three new conversations with identical case prompts and fixed reference answers explain the repeated unit. The description does not say what intermediate evidence was retained."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "For two cases the two marginal comparisons each pool 12 answers, while each configuration contains six. Six task groups and case-level repeat counts are specified."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "The missing zero-volume class for January and February accounts for the failures even though the returned values match. Claims about the chosen source need run evidence."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The expected and observed totals are five and seven. One added category and one inflated frequency match the extra two assignments; specific reading actions need provenance."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "The raw 6.004 and 9.004 values exceed the respective thresholds. Displayed rounded values can equal them. The returned status and claimed order of an agent’s calculations require different evidence."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The reference needs 20 evaluations across four booths and five indicators. The answer omits 16. Reading configuration and choosing only one indicator are claims about actions."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "Omitted elements, extra assignments and incorrect booleans correspond to concrete output discrepancies. Direct assertions about how an agent calculated need independent support."
+      }
+    ],
+    "finding_ids": [
+      "A06"
+    ]
+  },
+  {
+    "from_ids": [
+      "T-0023",
+      "T-0040",
+      "T-0041"
+    ],
+    "to_ids": [
+      "T-0046",
+      "T-0047",
+      "T-0048"
+    ],
+    "relationship": "The 12-answer pooled and six-answer crossed views of T1 implement the declared group-specific denominator.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 190,
+        "end_line": 190,
+        "supports": "The numerator counts matching answers and all three repetitions enter the relevant condition. The methods formula and grouping clarify the denominator."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 463,
+        "supports": "The displayed ratio uses all judged answers in the subset shown, including all three repetitions. Forty-five per model-condition and zero to three per fixed case have different interpretations."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "For two cases the two marginal comparisons each pool 12 answers, while each configuration contains six. Six task groups and case-level repeat counts are specified."
+      },
+      {
+        "document": "target",
+        "start_line": 511,
+        "end_line": 520,
+        "supports": "Both pooled conditions achieve 12/12. The discussion checks variable record counts and the two record sources entering the means."
+      },
+      {
+        "document": "target",
+        "start_line": 524,
+        "end_line": 533,
+        "supports": "Both models achieve 12/12. The two correct means, 23.09 and 8.86 seconds, identify what was compared."
+      },
+      {
+        "document": "target",
+        "start_line": 537,
+        "end_line": 548,
+        "supports": "All four cells have 6/6 from two cases, and each case has 3/3 within each cell."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-U276"
+    ],
+    "to_ids": [
+      "T-U801"
+    ],
+    "relationship": "The cross-period case label requires evidence that a status worsens somewhere among the indicators.",
+    "assessment": "unresolved",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 276,
+        "end_line": 290,
+        "supports": "One row per case connects challenge to capability. The worsened status reported for T9-C2 needs per-indicator outcomes to reconcile with the later illustration."
+      },
+      {
+        "document": "target",
+        "start_line": 799,
+        "end_line": 799,
+        "supports": "Four failures rise to eight of eight on indicator four, yet it fails in both periods. The row describing a worsened status may refer to another indicator."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "from_ids": [
+      "T-0024",
+      "T-0037",
+      "T-0040"
+    ],
+    "to_ids": [
+      "T-U815",
+      "T-U831"
+    ],
+    "relationship": "The three per-case verdicts show consistency that equal per-run totals alone cannot establish.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 194,
+        "end_line": 196,
+        "supports": "The case, model and condition are held fixed over three runs. Zero and three successes distinguish consistently unsuccessful and consistently successful outcomes."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "Three new conversations with identical case prompts and fixed reference answers explain the repeated unit. The description does not say what intermediate evidence was retained."
+      },
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 463,
+        "supports": "The displayed ratio uses all judged answers in the subset shown, including all three repetitions. Forty-five per model-condition and zero to three per fixed case have different interpretations."
+      },
+      {
+        "document": "target",
+        "start_line": 813,
+        "end_line": 817,
+        "supports": "The second model’s 13/15 recurs despite changes in the second failing case. Both models always pass 12 cases without context, but only one always fails a case."
+      },
+      {
+        "document": "target",
+        "start_line": 831,
+        "end_line": 835,
+        "supports": "Four missing-class, two accident-distribution and four report-level failures account for all ten. The named mixed and always-failed cases explain why 12 perfect cases in each model need not be the same set."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0044",
+      "T-0048",
+      "T-0052",
+      "T-0056",
+      "T-0060",
+      "T-0064",
+      "T-0068"
+    ],
+    "to_ids": [
+      "T-U805"
+    ],
+    "relationship": "The six group totals reconcile to 170/180 and to the four configuration rates.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 491,
+        "end_line": 505,
+        "supports": "The distribution reconciles 237 input rows with 15 cases, four conditions and 180 replies. Each group’s answer count follows from its case count."
+      },
+      {
+        "document": "target",
+        "start_line": 537,
+        "end_line": 548,
+        "supports": "All four cells have 6/6 from two cases, and each case has 3/3 within each cell."
+      },
+      {
+        "document": "target",
+        "start_line": 580,
+        "end_line": 591,
+        "supports": "The four configuration counts isolate T3-C1. The weekly case passes throughout."
+      },
+      {
+        "document": "target",
+        "start_line": 627,
+        "end_line": 638,
+        "supports": "The affected model drops from 6/6 to 4/6; the two failures are the first and third runs of T5-C1."
+      },
+      {
+        "document": "target",
+        "start_line": 685,
+        "end_line": 696,
+        "supports": "Each model-condition achieves 3/3 on the single inspection case."
+      },
+      {
+        "document": "target",
+        "start_line": 728,
+        "end_line": 739,
+        "supports": "The models obtain 11/12 and 9/12 without documents. Two cases always pass and the remaining two supply the four failures."
+      },
+      {
+        "document": "target",
+        "start_line": 786,
+        "end_line": 797,
+        "supports": "Each of four configurations achieves 12/12, with 3/3 in each of four cases."
+      },
+      {
+        "document": "target",
+        "start_line": 803,
+        "end_line": 807,
+        "supports": "Both models reach 45/45 with documents, versus 41/45 and 39/45 without. The affected groups differ by model."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-0003",
+      "T-0004",
+      "T-U805",
+      "T-U815"
+    ],
+    "to_ids": [
+      "T-U827",
+      "T-U831"
+    ],
+    "relationship": "The conclusion answers model-specific success, group differences and case-level variability within the study’s defined scope.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 23,
+        "supports": "The question names the two models, both context conditions, and the comparison with a reference answer for each case."
+      },
+      {
+        "document": "target",
+        "start_line": 27,
+        "end_line": 27,
+        "supports": "The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators."
+      },
+      {
+        "document": "target",
+        "start_line": 803,
+        "end_line": 807,
+        "supports": "Both models reach 45/45 with documents, versus 41/45 and 39/45 without. The affected groups differ by model."
+      },
+      {
+        "document": "target",
+        "start_line": 813,
+        "end_line": 817,
+        "supports": "The second model’s 13/15 recurs despite changes in the second failing case. Both models always pass 12 cases without context, but only one always fails a case."
+      },
+      {
+        "document": "target",
+        "start_line": 827,
+        "end_line": 829,
+        "supports": "Each model obtains 45/45 with documents, with drops of 8.89 and 13.33 percentage points without them. The group-specific directions are retained."
+      },
+      {
+        "document": "target",
+        "start_line": 831,
+        "end_line": 835,
+        "supports": "Four missing-class, two accident-distribution and four report-level failures account for all ten. The named mixed and always-failed cases explain why 12 perfect cases in each model need not be the same set."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "from_ids": [
+      "T-U043",
+      "T-U819"
+    ],
+    "to_ids": [
+      "T-0072"
+    ],
+    "relationship": "Document ablation and user-facing assessment are future work because the current package was tested jointly and judged by final-answer matching.",
+    "assessment": "supported",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 43,
+        "end_line": 43,
+        "supports": "The seven documents vary together. Their individual contributions are explicitly outside scope."
+      },
+      {
+        "document": "target",
+        "start_line": 819,
+        "end_line": 819,
+        "supports": "Fifteen cases and three repeats, bundled documentation and final-answer scoring limit document-specific and decision-utility interpretations."
+      },
+      {
+        "document": "target",
+        "start_line": 839,
+        "end_line": 839,
+        "supports": "Broader case coverage, separate completeness measures, document ablations, more repeats and user assessment address distinct limits of this study."
+      }
+    ],
+    "finding_ids": []
+  }
+]

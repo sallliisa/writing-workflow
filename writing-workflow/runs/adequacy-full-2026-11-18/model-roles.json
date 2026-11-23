@@ -1,0 +1,68 @@
+{
+  "source": "Model values from turn_context for this coordinator and its own independently spawned worker sessions. The same writer drafted both model-section rounds.",
+  "roles": [
+    {
+      "role": "/root",
+      "thread": "01a1ebf3-1561-7e10-9663-c39f9bc9760b",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/coord",
+      "thread": "01a1ebf3-bca6-78a2-a4bf-af2ced27ab3f",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/ref",
+      "thread": "01a1ebf3-da2c-7631-b109-bb586eaaa488",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/prose",
+      "thread": "01a1ebf3-f769-7f43-b473-a8187e6181e1",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/writer",
+      "thread": "01a1ebf9-e586-7c80-9630-c4a7a954e474",
+      "models": [
+        "gpt-6-astra"
+      ]
+    },
+    {
+      "role": "/root/challenge",
+      "thread": "01a1ebfa-6b0d-7c12-9ebf-717208a98338",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/blind",
+      "thread": "01a1ebfc-935c-70b3-ab12-913c9f34b1ad",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/blind_two",
+      "thread": "01a1ebfe-a052-74d0-b65c-31ed8f71b32f",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    },
+    {
+      "role": "/root/continuity",
+      "thread": "01a1ebff-c9e8-7dd1-91d6-d59eb93f6b8d",
+      "models": [
+        "gpt-6.2-astra"
+      ]
+    }
+  ]
+}

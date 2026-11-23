@@ -1,0 +1,1062 @@
+{
+  "target_nodes": [
+    {
+      "node_id": "T-root",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [
+        "P034",
+        "P065",
+        "P070",
+        "P075",
+        "P077",
+        "P316",
+        "P318",
+        "P325",
+        "P339"
+      ],
+      "closed": [
+        "A01"
+      ],
+      "open_findings": [
+        "A06"
+      ],
+      "review": "The conceptual comparison now supports the question and results. The author-dependent method gaps persist. Identification of the evidence behind the reported run actions is still open."
+    },
+    {
+      "node_id": "T-0001",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Two plausible denominators for a daily average motivate testing the same questions under different access conditions."
+    },
+    {
+      "node_id": "T-0002",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The calendar-day example explains how two readings of the same records yield different answers. Related work and the chosen operational cases motivate the comparison."
+    },
+    {
+      "node_id": "T-0003",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The question names the two models, both context conditions, and the comparison with a reference answer for each case."
+    },
+    {
+      "node_id": "T-0004",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators."
+    },
+    {
+      "node_id": "T-0005",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The two uses concern empirical evidence about task accuracy and an example of designing context and evaluation for similar analysis."
+    },
+    {
+      "node_id": "T-U033",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The claim concerns empirical accuracy on the operational cases and stays within the comparison."
+    },
+    {
+      "node_id": "T-U034",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The design and results may inform documentation and model decisions for similar needs. The wording promises no production benefit."
+    },
+    {
+      "node_id": "T-0006",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The numbered scope separates case population, synthetic data, common access, document availability and the observed output."
+    },
+    {
+      "node_id": "T-U040",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Fifteen cases in nine task types delimit the five operational areas."
+    },
+    {
+      "node_id": "T-U041",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "They are synthetic rows constructed from the operational schema and business rules, distinct from the 180 returned answers."
+    },
+    {
+      "node_id": "T-U042",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both use source, master and configuration data. Code, completed analyses and reference answers are withheld."
+    },
+    {
+      "node_id": "T-U043",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The seven documents vary together. Their individual contributions are explicitly outside scope."
+    },
+    {
+      "node_id": "T-U044",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Structure and values support accuracy and changes across repetitions for the fixed cases."
+    },
+    {
+      "node_id": "T-0007",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Five separate rows align chapter, title and function, including methods, six result groups and the final answer."
+    },
+    {
+      "node_id": "T-0008",
+      "baseline": "needs_change",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P034",
+        "P065",
+        "P070",
+        "P075",
+        "P077"
+      ],
+      "closed": [
+        "A01"
+      ],
+      "open_findings": [],
+      "review": "The theory chapter now moves from shared agent behavior and context to separate model characteristics and answer evaluation. The study-specific selection question is tracked in Chapter III."
+    },
+    {
+      "node_id": "T-0009",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P034"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "The judge and the executed query output now have distinct roles in the literature summary."
+    },
+    {
+      "node_id": "T-U070",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The eight rows distinguish interactive tasks, open-ended insight evaluation, single-query context exposure and multistep reference-based evaluation."
+    },
+    {
+      "node_id": "T-U083",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P034"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-0010",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Measure and dimension give the reader a vocabulary for value and grouping after the general reporting definition."
+    },
+    {
+      "node_id": "T-0011",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Linked sources, aggregation, missing values, grouping, conditional thresholds and strict/inclusive comparison correspond to the later selected cases."
+    },
+    {
+      "node_id": "T-0012",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The model selects a tool and its arguments, reads an observation and may request more information. A schema lookup makes the sequence concrete."
+    },
+    {
+      "node_id": "T-0013",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The function and argument description precede the distinction among host, client and server. The document-analysis example illustrates separate tool functions."
+    },
+    {
+      "node_id": "T-0014",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Monthly volume connects a request to grouping, filtering and summation. Domain meanings explain where a table name alone can leave the result ambiguous."
+    },
+    {
+      "node_id": "T-0015",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P065"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-0016",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Grain, relationships, statuses, null treatment and calendar-day denominators show why definitions can affect a numeric answer. Ontology sources support general concepts."
+    },
+    {
+      "node_id": "T-0017",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P065"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "The first substantive reference to SKILL.md locates the routing instruction, while the cross-topic example stays in methods."
+    },
+    {
+      "node_id": "T-0018",
+      "baseline": "needs_change",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P070",
+        "P075",
+        "P077"
+      ],
+      "closed": [
+        "A01"
+      ],
+      "open_findings": [],
+      "review": "§2.7 identifies the shared ability to request data and the two availability conditions. Its last sentence qualifies the informational value of the equal nominal windows."
+    },
+    {
+      "node_id": "T-0019",
+      "baseline": "needs_change",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P075"
+      ],
+      "closed": [
+        "A02"
+      ],
+      "open_findings": [],
+      "review": "§2.7.1 attributes multistep behavior to Meta and illustrates a possible schema-to-data request. Table 2.2 retains the numerical capacity and sources."
+    },
+    {
+      "node_id": "T-0020",
+      "baseline": "needs_change",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P077"
+      ],
+      "closed": [
+        "A03"
+      ],
+      "open_findings": [],
+      "review": "§2.7.2 identifies the served version and connects its documented tool and JSON capabilities to the two parts of the task. The text locates the JSON requirement in the prompt."
+    },
+    {
+      "node_id": "T-0021",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reference-based evaluation fits definite answers. The next three sections distinguish a decision on one object, a proportion across objects, and three outcomes on one fixed case."
+    },
+    {
+      "node_id": "T-0022",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Required attributes, types, array order and values all contribute to a single all-or-nothing verdict. Methods specify numeric and object-order exceptions."
+    },
+    {
+      "node_id": "T-0023",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The numerator counts matching answers and all three repetitions enter the relevant condition. The methods formula and grouping clarify the denominator."
+    },
+    {
+      "node_id": "T-0024",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The case, model and condition are held fixed over three runs. Zero and three successes distinguish consistently unsuccessful and consistently successful outcomes."
+    },
+    {
+      "node_id": "T-0025",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A04",
+        "A06"
+      ],
+      "review": "The opening places preparation before generation and assessment. The registered details let readers compute run counts and reconstruct a worked score."
+    },
+    {
+      "node_id": "T-0026",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The evaluator uses inaccessible reference answers. Both models share prompts, data, tools and cases while access to business documents varies."
+    },
+    {
+      "node_id": "T-U218",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The numbering example and four rows give 15 cases × 3 runs = 45 answers in each cell, with 90 per model."
+    },
+    {
+      "node_id": "T-0027",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A07"
+      ],
+      "review": "The heading introduces both operational data read by the agent and separately constructed reference answers used in scoring."
+    },
+    {
+      "node_id": "T-0028",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The methods distinguish 237 rows across 15 operational tables from master and configuration data. The prompt limits the requested subset despite wider read access."
+    },
+    {
+      "node_id": "T-0029",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A07"
+      ],
+      "review": "Case selection connects available business analyses to distinct reasoning demands, including cross-table relationships and period or threshold conditions."
+    },
+    {
+      "node_id": "T-U260",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The examples distinguish non-null weighted pooling, missing days, all-action completion, repeated causes, scope exceptions, and status comparisons."
+    },
+    {
+      "node_id": "T-U276",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A07"
+      ],
+      "review": "One row per case connects challenge to capability. The worsened status reported for T9-C2 needs per-indicator outcomes to reconcile with the later illustration."
+    },
+    {
+      "node_id": "T-0030",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The reference is computed from the appropriate data, encoded as JSON and kept fixed for all runs. The following rules and calculation give the procedure substance."
+    },
+    {
+      "node_id": "T-U300",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding."
+    },
+    {
+      "node_id": "T-U315",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Six booth observations and one longbooth observation are in scope. The table separates their counts and totals before the equations."
+    },
+    {
+      "node_id": "T-U325",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The six ten-second observations and one two-second observation sum to 62 seconds."
+    },
+    {
+      "node_id": "T-U331",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "All seven observations are non-null. Dividing 62 by 7 gives 8.86 seconds in the named output attribute, distinct from other fields of its object."
+    },
+    {
+      "node_id": "T-0031",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A05"
+      ],
+      "review": "The unchanged system prompt is displayed and the text differentiates it from the per-case request and separately accessible documents."
+    },
+    {
+      "node_id": "T-0032",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The request names the task and schema. Data names, formulas and solution steps are withheld; schema, ordering and rounding constrain representation."
+    },
+    {
+      "node_id": "T-U352",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The T2-C1 example specifies period, integer rounding and vehicle-class order but leaves the calendar-day denominator to the analysis."
+    },
+    {
+      "node_id": "T-0033",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A05"
+      ],
+      "review": "Development knowledge supplied the rule content. A routing file and six domain references define the intervention package; the enabling procedure remains unspecified."
+    },
+    {
+      "node_id": "T-U368",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The map names the routing document and six references, tying each to data selection, computation or status interpretation."
+    },
+    {
+      "node_id": "T-U380",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The quoted instruction and the transaction-plus-indicator example explain how to find two references when a question spans topics."
+    },
+    {
+      "node_id": "T-0034",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A04",
+        "A05"
+      ],
+      "review": "This organizing heading introduces model settings, data access and independent conversations in the necessary order."
+    },
+    {
+      "node_id": "T-0035",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A04",
+        "A05",
+        "A10"
+      ],
+      "review": "The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice."
+    },
+    {
+      "node_id": "T-0036",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Entity discovery, schema inspection and paginated record reads explain the available data path. The conditional skill documents are a separate input."
+    },
+    {
+      "node_id": "T-0037",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Three new conversations with identical case prompts and fixed reference answers explain the repeated unit. The description does not say what intermediate evidence was retained."
+    },
+    {
+      "node_id": "T-0038",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A06",
+        "A09"
+      ],
+      "review": "The introduction states the per-answer decision. The following sequence establishes a judgment rule, a denominator, and separate pooled and crossed analyses."
+    },
+    {
+      "node_id": "T-0039",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A09"
+      ],
+      "review": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed."
+    },
+    {
+      "node_id": "T-U445",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The expected and matching objects agree. An additional cause and an excessive count change two details and the total from five to seven in the failed object."
+    },
+    {
+      "node_id": "T-0040",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The displayed ratio uses all judged answers in the subset shown, including all three repetitions. Forty-five per model-condition and zero to three per fixed case have different interpretations."
+    },
+    {
+      "node_id": "T-0041",
+      "baseline": "needs_change",
+      "candidate": "needs_change",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A06"
+      ],
+      "review": "For two cases the two marginal comparisons each pool 12 answers, while each configuration contains six. Six task groups and case-level repeat counts are specified."
+    },
+    {
+      "node_id": "T-0042",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P316",
+        "P318"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-0043",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The environment table confirms the shared agent runtime and the MCP data tools already specified in methods."
+    },
+    {
+      "node_id": "T-0044",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The distribution reconciles 237 input rows with 15 cases, four conditions and 180 replies. Each group’s answer count follows from its case count."
+    },
+    {
+      "node_id": "T-0045",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The parent groups both duration cases and introduces marginal and joint comparisons."
+    },
+    {
+      "node_id": "T-0046",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both pooled conditions achieve 12/12. The discussion checks variable record counts and the two record sources entering the means."
+    },
+    {
+      "node_id": "T-0047",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both models achieve 12/12. The two correct means, 23.09 and 8.86 seconds, identify what was compared."
+    },
+    {
+      "node_id": "T-0048",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "All four cells have 6/6 from two cases, and each case has 3/3 within each cell."
+    },
+    {
+      "node_id": "T-0049",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The traffic group separates weekly and monthly tasks before presenting model and context comparisons."
+    },
+    {
+      "node_id": "T-0050",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Scores are 12/12 versus 8/12. All four failures involve incomplete class details on the monthly case."
+    },
+    {
+      "node_id": "T-0051",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Eleven versus nine successes out of twelve reflect incomplete monthly class coverage when documents were unavailable."
+    },
+    {
+      "node_id": "T-0052",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The four configuration counts isolate T3-C1. The weekly case passes throughout."
+    },
+    {
+      "node_id": "T-U595",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The missing zero-volume class for January and February accounts for the failures even though the returned values match. Claims about the chosen source need run evidence."
+    },
+    {
+      "node_id": "T-0053",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The group first distinguishes status from accident-cause frequencies, then compares conditions and models."
+    },
+    {
+      "node_id": "T-0054",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The eligible-incident status counts match in every run. Both failures concern cause distribution."
+    },
+    {
+      "node_id": "T-0055",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Results of 10/12 and 12/12 locate both failures in the first model without documents."
+    },
+    {
+      "node_id": "T-0056",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The affected model drops from 6/6 to 4/6; the two failures are the first and third runs of T5-C1."
+    },
+    {
+      "node_id": "T-U642",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The expected and observed totals are five and seven. One added category and one inflated frequency match the extra two assignments; specific reading actions need provenance."
+    },
+    {
+      "node_id": "T-0057",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The group reports one case using the two marginal and one joint comparison."
+    },
+    {
+      "node_id": "T-0058",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "All six answers in each context match. Four damaged items include an item without priority, so P1/P2 counts sum to three."
+    },
+    {
+      "node_id": "T-0059",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both models score 6/6. Three damaged items are assigned to the shoulder and one to lane 1 in the reference."
+    },
+    {
+      "node_id": "T-0060",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Each model-condition achieves 3/3 on the single inspection case."
+    },
+    {
+      "node_id": "T-0061",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The group covers four report-level cases before breaking out the four discrepant answers."
+    },
+    {
+      "node_id": "T-0062",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Twenty-four versus twenty of 24 answers pass. Three failures have incorrect statuses and one lacks required evaluations."
+    },
+    {
+      "node_id": "T-0063",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Twenty-three versus twenty-one of 24 pass. All between-model differences arise without documents."
+    },
+    {
+      "node_id": "T-0064",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The models obtain 11/12 and 9/12 without documents. Two cases always pass and the remaining two supply the four failures."
+    },
+    {
+      "node_id": "T-U743",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The table distinguishes three status errors from the partial four-of-twenty answer and links them to specific runs."
+    },
+    {
+      "node_id": "T-U752",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The raw 6.004 and 9.004 values exceed the respective thresholds. Displayed rounded values can equal them. The returned status and claimed order of an agent’s calculations require different evidence."
+    },
+    {
+      "node_id": "T-U756",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "The reference needs 20 evaluations across four booths and five indicators. The answer omits 16. Reading configuration and choosing only one indicator are claims about actions."
+    },
+    {
+      "node_id": "T-0065",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A07"
+      ],
+      "review": "Four cases test status over a period or a change between periods. All four cells are reported."
+    },
+    {
+      "node_id": "T-0066",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both pooled conditions reach 24/24. The measured outputs include within-period statuses and cross-period changes."
+    },
+    {
+      "node_id": "T-0067",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both reach 24/24 with counts and status matching. A nonapplicable service requirement is represented separately from a failed one."
+    },
+    {
+      "node_id": "T-0068",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A07"
+      ],
+      "review": "Each of four configurations achieves 12/12, with 3/3 in each of four cases."
+    },
+    {
+      "node_id": "T-U801",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [
+        "A07"
+      ],
+      "review": "Four failures rise to eight of eight on indicator four, yet it fails in both periods. The row describing a worsened status may refer to another indicator."
+    },
+    {
+      "node_id": "T-0069",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P316",
+        "P318"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Edited repeat account introduces the case consistently failing before giving the alternating cases. The treatment and utility limitations still bound the conclusions."
+    },
+    {
+      "node_id": "T-U805",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Both models reach 45/45 with documents, versus 41/45 and 39/45 without. The affected groups differ by model."
+    },
+    {
+      "node_id": "T-U811",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Omitted elements, extra assignments and incorrect booleans correspond to concrete output discrepancies. Direct assertions about how an agent calculated need independent support."
+    },
+    {
+      "node_id": "T-U815",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P316"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-U819",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P318"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-0070",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P325"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-0071",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P325"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "The conclusion states each no-context model’s additional case below 3/3 and keeps the two shared cases and their run counts."
+    },
+    {
+      "node_id": "T-U827",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Each model obtains 45/45 with documents, with drops of 8.89 and 13.33 percentage points without them. The group-specific directions are retained."
+    },
+    {
+      "node_id": "T-U831",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [
+        "P325"
+      ],
+      "closed": [],
+      "open_findings": [],
+      "review": "Reviewed the edited passages at the listed IDs against this node’s original purpose. See passage judgments and assembled-candidate review."
+    },
+    {
+      "node_id": "T-0072",
+      "baseline": "sufficient",
+      "candidate": "sufficient",
+      "changed_passages_in_subtree": [],
+      "closed": [],
+      "open_findings": [],
+      "review": "Broader case coverage, separate completeness measures, document ablations, more repeats and user assessment address distinct limits of this study."
+    },
+    {
+      "node_id": "T-0073",
+      "baseline": "unresolved",
+      "candidate": "unresolved",
+      "changed_passages_in_subtree": [
+        "P339"
+      ],
+      "closed": [],
+      "open_findings": [
+        "A08"
+      ],
+      "review": "The added provider entry matches the citations in §2.7. The three historical entries are pending reconciliation with the complete submission."
+    }
+  ],
+  "baseline_findings": {
+    "A01": "§2.7 identifies the shared ability to request data and the two availability conditions. Its last sentence qualifies the informational value of the equal nominal windows.",
+    "A02": "§2.7.1 attributes multistep behavior to Meta and illustrates a possible schema-to-data request. Table 2.2 retains the numerical capacity and sources.",
+    "A03": "§2.7.2 identifies the served version and connects its documented tool and JSON capabilities to the two parts of the task. The text locates the JSON requirement in the prompt."
+  },
+  "open_questions": "evidence-questions.md",
+  "candidate_sha256": "2558eb45f3d30036c8453b2a721150205a21099c5cde4d0982cd8f68bec44650"
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "node": "T-0007",
+    "section": "1.6. Sistematika Penulisan",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0008",
+    "section": "BAB II — TINJAUAN PUSTAKA",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A01"
+    ]
+  },
+  {
+    "node": "T-0009",
+    "section": "2.1. State-of-the-art",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U083",
+    "section": "Penempatan penelitian",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0018",
+    "section": "2.7. Large Language Models",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A01"
+    ]
+  },
+  {
+    "node": "T-0019",
+    "section": "2.7.1. Muse Spark 1.3",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A02"
+    ]
+  },
+  {
+    "node": "T-0020",
+    "section": "2.7.2. DeepSeek v4 Flash",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A03"
+    ]
+  },
+  {
+    "node": "T-0024",
+    "section": "2.8.3. Konsistensi Hasil Pengulangan",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0026",
+    "section": "3.1. Gambaran Umum Penelitian",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0027",
+    "section": "3.2. Data Penelitian",
+    "previous": "needs_change",
+    "rerun": "unresolved",
+    "findings": [
+      "A07"
+    ]
+  },
+  {
+    "node": "T-0029",
+    "section": "3.2.2. Pemilihan Kasus Uji",
+    "previous": "sufficient",
+    "rerun": "unresolved",
+    "findings": [
+      "A07"
+    ]
+  },
+  {
+    "node": "T-0030",
+    "section": "3.2.3. Penyusunan Expected Result",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U300",
+    "section": "Pemilihan data dan aturan",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0031",
+    "section": "3.3. Penyusunan Prompt dan Konteks Bisnis",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A05"
+    ]
+  },
+  {
+    "node": "T-0033",
+    "section": "3.3.2. Konteks Bisnis",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A05"
+    ]
+  },
+  {
+    "node": "T-0035",
+    "section": "3.4.1. Model dan Lingkungan Pengujian",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A04",
+      "A05",
+      "A10"
+    ]
+  },
+  {
+    "node": "T-0037",
+    "section": "3.4.3. Prosedur Generasi Jawaban",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0038",
+    "section": "3.5. Evaluasi Hasil Generasi",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A06",
+      "A09"
+    ]
+  },
+  {
+    "node": "T-0039",
+    "section": "3.5.1. Perbandingan Respons dan *Expected Result*",
+    "previous": "sufficient",
+    "rerun": "needs_change",
+    "findings": [
+      "A09"
+    ]
+  },
+  {
+    "node": "T-0042",
+    "section": "BAB IV — HASIL DAN PEMBAHASAN",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U595",
+    "section": "Rincian T3-C1",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U642",
+    "section": "Diagnosis T5-C1",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U752",
+    "section": "Status pada batas indikator",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U756",
+    "section": "Kelengkapan evaluasi",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0065",
+    "section": "4.8. Analisis Hasil pada SPM/SLA Periode dan Antarperiode",
+    "previous": "sufficient",
+    "rerun": "unresolved",
+    "findings": [
+      "A07"
+    ]
+  },
+  {
+    "node": "T-0068",
+    "section": "4.8.3. Berdasarkan Kombinasi Model dan Konteks Bisnis",
+    "previous": "sufficient",
+    "rerun": "unresolved",
+    "findings": [
+      "A07"
+    ]
+  },
+  {
+    "node": "T-0069",
+    "section": "4.9. Interpretasi Hasil",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U811",
+    "section": "Bentuk ketidaksesuaian",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U815",
+    "section": "Hasil antarulangan",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-0071",
+    "section": "5.1. Kesimpulan",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  },
+  {
+    "node": "T-U831",
+    "section": "Kegagalan dan pengulangan",
+    "previous": "needs_change",
+    "rerun": "sufficient",
+    "findings": []
+  }
+]

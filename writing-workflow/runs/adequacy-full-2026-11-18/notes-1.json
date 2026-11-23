@@ -1,0 +1,161 @@
+[
+  {
+    "findings": [
+      "W01"
+    ],
+    "passages": [
+      "P034"
+    ],
+    "decision": "proposed",
+    "reason": "Separates the judge from execution results considered in judging. Retains 99 questions, rate range, author citation. Primary-source dossier documents §4.4."
+  },
+  {
+    "findings": [
+      "W02"
+    ],
+    "passages": [
+      "P065"
+    ],
+    "decision": "proposed",
+    "reason": "Names SKILL.md directly. Removes unused routing label, retains per-topic references and multiple-reference condition. Exact example and instruction in §3.3.2 are untouched."
+  },
+  {
+    "findings": [
+      "W03",
+      "A01"
+    ],
+    "passages": [
+      "P070"
+    ],
+    "decision": "proposed",
+    "reason": "Explains common model/application responsibilities and why requesting data does not establish correct selection or rule application. Places generic explanation in parent section under records 123–127. Distinguishes equal capacity from actual use without asserting measured token counts or historical selection rationale."
+  },
+  {
+    "findings": [
+      "W04",
+      "A02"
+    ],
+    "passages": [
+      "P075",
+      "P070"
+    ],
+    "decision": "proposed",
+    "reason": "Attributes multi-step training and use of prior results to Meta’s exact 1.3 profile. Relevance is a conceptual application of the documented property, not an exclusive capability or observed accuracy claim. Generic execution responsibility stays in parent P070 under records 124–126. Records 137–139 support concrete prior-results language and tool call terminology. Historical record 126 objection remains an acceptance consideration, not a basis to treat its proposed after as approved."
+  },
+  {
+    "findings": [
+      "W05",
+      "A03"
+    ],
+    "passages": [
+      "P077",
+      "P339"
+    ],
+    "decision": "proposed",
+    "reason": "Uses Models & Pricing exact model-version row for Tool Calls and JSON Output. Adds DeepSeek (2026c) as a separate bibliography paragraph. Makes no claim that JSON Output was enabled, weights were deployed locally, or a format capability determines numerical correctness."
+  },
+  {
+    "findings": [
+      "W06",
+      "A04"
+    ],
+    "passages": [
+      "P154"
+    ],
+    "decision": "blocked by missing author evidence",
+    "reason": "No actual model/version selection rationale supplied. Kept original. Public capabilities, common runner, capacities and outcomes do not establish historical selection."
+  },
+  {
+    "findings": [
+      "W07"
+    ],
+    "passages": [
+      "P316"
+    ],
+    "decision": "proposed",
+    "reason": "Identifies always-failing T3-C1 before the varying second failure. Preserves 13/15, every model/condition/run, cases and appendix reference. Praise in record 40 preserved through same explanatory detail."
+  },
+  {
+    "findings": [
+      "W08"
+    ],
+    "passages": [
+      "P325"
+    ],
+    "decision": "proposed",
+    "reason": "Names one additional case per model that did not reach 3/3. All original numeric results and conditions retained."
+  },
+  {
+    "findings": [
+      "WP01"
+    ],
+    "passages": [
+      "P318"
+    ],
+    "decision": "proposed for independent review",
+    "reason": "Responds to records 45 and 48 by naming seven documents and the unidentifiable contribution of one document, then expressing the untested decision-use question directly. Preserves 15 cases, three repeats, bundle limit, meaning of PASS and operational-use limit. Does not repeat adjacent case counts or rates. This is a new candidate, not a claim that author preference is resolved."
+  },
+  {
+    "findings": [
+      "A05"
+    ],
+    "decision": "blocked by missing setup evidence",
+    "reason": "Kept original access description. Need actual enabled/disabled configuration and initial skill-discovery/delivery mechanism. No guessed injection or reading sequence."
+  },
+  {
+    "findings": [
+      "A06"
+    ],
+    "passages": [
+      "P233",
+      "P253",
+      "P254",
+      "P289",
+      "P290",
+      "P291",
+      "P314"
+    ],
+    "decision": "contested proposed downgrade; retain reported actions pending provenance clarification",
+    "reason": "Coordinator relayed binding author constraint: absence of supplied logs is not evidence that reported actions were inferred. No independent evidence establishes a different factual status. All reported run-level actions and praised threshold explanations retained unchanged. Missing provenance remains a question for documentation; it does not justify replacing observations with possibilities or deleting them."
+  },
+  {
+    "findings": [
+      "A07"
+    ],
+    "decision": "unresolved; original retained",
+    "reason": "Need all expected T9-C2 indicator statuses across periods. Count growth for indicator four does not refute another indicator worsening. Preserve antarperiode."
+  },
+  {
+    "findings": [
+      "A08"
+    ],
+    "decision": "unresolved; original retained",
+    "reason": "Need complete appendices and institutional bibliography rules before removing any entry."
+  },
+  {
+    "findings": [
+      "A09"
+    ],
+    "decision": "blocked by missing scoring evidence",
+    "reason": "Need actual scoring script or confirmed review procedure. No inference of automated or manual scoring."
+  },
+  {
+    "findings": [
+      "A10"
+    ],
+    "decision": "unresolved; original retained",
+    "reason": "Keep reported 384.000 cap. Provider maximum cannot establish effective historical runner setting."
+  },
+  {
+    "sources_checked": [
+      "https://dev.meta.ai/models/muse-spark",
+      "https://api-docs.deepseek.com/quick_start/pricing/"
+    ],
+    "decision": "verified 18 November 2026",
+    "reason": "Meta profile lines 4 and 11–13 establish training and prior results. DeepSeek Models & Pricing lines 30–39 and note 1 identify exact version and capabilities. Release announcement fetch timed out on this pass; unchanged release/access facts also have supplied primary-source dossier evidence."
+  },
+  {
+    "decision": "preservation check",
+    "reason": "Only listed passages receive proposals. No source/candidate or canonical manuscript edited. No cap correction, invented selection rationale, JSON-mode activation, model rename, altered experimental artifact, or A06 downgrade. No new findings used for unsolicited polishing."
+  }
+]

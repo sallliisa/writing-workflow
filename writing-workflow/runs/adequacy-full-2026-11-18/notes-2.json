@@ -1,0 +1,45 @@
+[
+  {
+    "id": "P070",
+    "findings": [
+      "W03",
+      "A01"
+    ],
+    "decision": "proposed repair",
+    "reason": "Condenses overlapping accuracy statements into one explicit comparison with versus without business documents. Shared tool support remains here. Does not repeat tool execution mechanics already in §2.4 and §3.4.2. Retains capacity-versus-use/accuracy distinction. Exact capacities and their Meta (2026c)/DeepSeek-AI (2026) source line remain unchanged in Table 2.2."
+  },
+  {
+    "id": "P075",
+    "findings": [
+      "W04",
+      "A02"
+    ],
+    "decision": "proposed repair",
+    "reason": "Removes repeated capacity and tool-support list. Keeps version identity/access and attributes training/prior-result description to verified Meta profile (2026b), whose opening and Meet Muse Spark 1.3 section directly support both. Concrete schema-to-next-data-request example applies that documented property to the task rather than asserting historical selection rationale or successful observed behavior. Meta (2026a) remains attached to unchanged release/access facts."
+  },
+  {
+    "id": "P077",
+    "findings": [
+      "W05",
+      "A03"
+    ],
+    "decision": "proposed repair",
+    "reason": "Dates live API-name/version mapping to actual source inspection. Explains relevance of Tool Calls and JSON Output to access and the requested single-object answer, without repeating tool execution, introducing mode comparisons or asserting JSON mode was enabled. Last sentence describes the requested object and prompt, not a guaranteed API schema capability or guaranteed accuracy. DeepSeek (2026c) bibliography addition accepted in round 1 remains required."
+  },
+  {
+    "id": "P325",
+    "decision": "retain accepted wording",
+    "reason": "Reviewer found no repair required. Nearby per-model results make one additional case per model clear. No proposal outside the three requested profiles."
+  },
+  {
+    "findings": [
+      "A06"
+    ],
+    "decision": "unchanged",
+    "reason": "Reported run actions and praised examples remain untouched under binding author constraint."
+  },
+  {
+    "decision": "preservation check",
+    "reason": "Three full replacements only. No candidate/source edits, local selection rationale, settings changes, cap correction, observed behavior changes, or new unsupported numerical claims."
+  }
+]

@@ -1,0 +1,209 @@
+# Fungsi penalaran naskah referensi
+
+Rentang baris merujuk pada salinan referensi beku. Entri induk mencakup fungsi gabungan bagian dan penutupnya. Divisi tanpa judul formal dirinci setelah simpul utama.
+
+- **R-root** · R1–1151. Menghubungkan masalah, rancangan, hasil, dan batas simpulan pada lima bab beserta pustaka.
+- **R-0001** · R1–78. Mengorientasikan pembaca pada konteks, pertanyaan, tujuan, manfaat, batas, dan peta laporan.
+- **R-0002** · R5–22. Menjelaskan nilai umpan balik dan kendala dosen; menimbang alternatif dan alasan instruksi dipilih; menjelaskan perbedaan kedua mata kuliah dan merangkum rancangan evaluasi.
+- **R-0003** · R23–28. Mengubah kebutuhan praktis menjadi pertanyaan tentang mutu menurut faktor, kombinasi, dan ukuran hasil.
+- **R-0004** · R29–34. Menjabarkan sasaran tiap faktor, kedua domain dan pembandingan keluaran dengan acuan.
+- **R-0005** · R35–40. Memisahkan kontribusi pada pengetahuan dari kemungkinan pemanfaatan oleh pendidik dan pengembang.
+- **R-0006** · R41–54. Menetapkan batas domain, konstruk hasil, model dan setelan, variasi yang digabung, serta dampak penggunaan.
+- **R-0007** · R55–78. Menunjukkan tempat masalah, perangkat konseptual, metode, hasil, dan simpulan.
+- **R-0008** · R79–373. Mengurutkan kajian terdahulu, persoalan domain, cara kerja sistem, intervensi, model, dan evaluasi.
+- **R-0009** · R83–110. Membandingkan studi melalui tugas, pendekatan, ukuran dan temuan; mengulas bukti yang beragam lalu menyimpulkan peran rancangan masukan.
+- **R-0010** · R111–116. Menjelaskan kegunaan umpan balik dan kendala waktu atau skala yang memotivasi bantuan otomatis.
+- **R-0011** · R117–122. Mendefinisikan otomatisasi, memberi contoh hasil empiris, dan menjelaskan risiko ketidaktepatan serta perlunya evaluasi.
+- **R-0012** · R123–128. Menempatkan mekanisme dalam AI, mengaitkan kemampuan dengan penerapan pendidikan dan manfaat yang diharapkan.
+- **R-0013** · R129–134. Menjelaskan bagaimana pemrosesan bahasa memungkinkan tugas domain; memberi contoh aplikasi dan batas lingkup penerapan.
+- **R-0014** · R135–182. Mendefinisikan perubahan masukan dan mekanismenya; menghubungkan variasi desain dengan kualitas keluaran dan kondisi uji.
+- **R-0015** · R141–174. Mengelompokkan strategi menurut informasi atau instruksi tambahan serta hubungan tiap strategi dengan hasil yang diharapkan.
+- **R-0016** · R143–150. Mendefinisikan instruksi tanpa contoh, menjelaskan pembanding dasar dan kelemahan pada tugas kompleks, merujuk ilustrasi.
+- **R-0017** · R151–158. Menjelaskan pemberian satu contoh, panduan format, dan risiko contoh tidak representatif, merujuk ilustrasi.
+- **R-0018** · R159–166. Mengaitkan beberapa contoh dengan pengenalan pola, menjelaskan risiko panjang masukan dan peniruan contoh, merujuk ilustrasi.
+- **R-0019** · R167–174. Menjelaskan instruksi penalaran bertahap, tujuan reflektif dan biaya panjang respons, merujuk ilustrasi.
+- **R-0020** · R175–182. Mendefinisikan peran, membedakan tiga tingkatnya, menjelaskan pengaruh yang diharapkan pada gaya/kedalaman dan menunjukkan contoh.
+- **R-0021** · R183–232. Mendefinisikan LLM dan tugasnya; mengenalkan pasangan dan spesifikasi; menerangkan pertukaran kemampuan, kendala dan akses; menjelaskan dasar perbandingan serta alasan pasangan dipilih.
+- **R-0022** · R203–216. Menjelaskan karakteristik versi ringan dan tugas teks, mengusulkan kaitan arsitektur dan visi, lalu menyimpulkan relevansi efisiensi dan perannya sebagai wakil layanan API.
+- **R-0023** · R217–232. Mengidentifikasi keluarga/versi dan arsitektur, fleksibilitas dan kendala tugas, pelaksanaan lokal, kemungkinan penyesuaian, dan alasan membandingkan model lokal dengan layanan komersial pada penutup.
+- **R-0024** · R233–373. Mendefinisikan kedekatan terhadap acuan, menjelaskan alasan evaluasi otomatis dan apa yang diukur masing-masing ukuran leksikal/semantik.
+- **R-0025** · R239–267. Menjelaskan rentang, presisi n-gram/bobot dan penalti panjang, memberi contoh arti skor dan keterbatasan parafrasa.
+- **R-0026** · R268–302. Mendefinisikan subsekuens, memberi contoh struktur naratif, membandingkan fokus dengan presisi BLEU dan merinci rumus F serta penyebut kandidat/acuan.
+- **R-0027** · R303–337. Menjelaskan penyelarasan, sinonim atau stemming, contoh adaptasi bahasa, dan perhitungan rata-rata berbobot serta penalti fragmen.
+- **R-0028** · R338–373. Menghubungkan embedding kontekstual dan kecocokan kosinus dengan precision, recall, F1, lalu mengilustrasikan variasi susunan dengan makna serupa.
+- **R-0029** · R374–748. Mengorientasikan pembaca pada data, pembentukan masukan, generasi dua model dan implementasi evaluasi komputasional.
+- **R-0030** · R378–393. Menjelaskan pendekatan deskriptif, alur dari data hingga skor dan analisis, faktor silang dan banyaknya keluaran.
+- **R-0031** · R394–419. Mengidentifikasi asal dan contoh masukan kedua domain, pemasangan satu acuan per jawaban, dan peran nilai lama dalam pemilihan contoh.
+- **R-0032** · R420–521. Menjelaskan bagian masukan yang sama, bahasa dan komponen yang berubah untuk setiap perlakuan beserta kombinasinya.
+- **R-0033** · R428–451. Menjelaskan instruksi langsung tanpa demonstrasi dan memperlihatkan komponen aktual menurut peran pada dua mata kuliah.
+- **R-0034** · R452–473. Menjelaskan sumber dan variasi satu contoh; menunjukkan letak contoh dan instruksi aktual pada kedua domain.
+- **R-0035** · R474–497. Menjelaskan tujuan keberagaman contoh; menunjukkan isi dan penempatan beberapa pasangan serta pertanyaan akhir untuk dua tugas.
+- **R-0036** · R498–521. Menjelaskan tambahan instruksi bertahap dan tujuannya; menunjukkan instruksi aktual, peran dan pertanyaan pada dua tugas.
+- **R-0037** · R522–529. Menetapkan cara akses model, perkalian kondisi dan skala keluaran; menguraikan masukan tiap proses serta isi rekaman yang menghubungkan kondisi, prompt, keluaran dan skor.
+- **R-0038** · R530–748. Menjelaskan apa dan bagaimana yang dibandingkan, mempertemukan kandidat dan acuan untuk satu contoh, dan mengantar ke empat perhitungan.
+- **R-0039** · R552–636. Mengerjakan tokenisasi, pencocokan uni/bigram, penyebut, penalti, penggabungan sampai skor, lalu menafsirkan keterbatasan contoh.
+- **R-0040** · R637–670. Mengidentifikasi subsekuens, menghitung precision dan recall serta F seimbang, kemudian menafsirkan skor contoh.
+- **R-0041** · R671–710. Mengerjakan kecocokan token, precision, recall, rerata dan penalti chunk, lalu membandingkan hasil dengan ukuran sebelumnya.
+- **R-0042** · R711–748. Menjelaskan vektor, padanan kosinus dan arah perbandingan; melaporkan estimasi keluaran pustaka dan arti perbedaan skor antarukuran.
+- **R-0043** · R749–1084. Menunjukkan urutan lingkungan, data aktual, analisis terstratifikasi, dan sintesis hasil.
+- **R-0044** · R753–762. Mengidentifikasi platform serta sumber komputasi tempat generasi atau evaluasi berlangsung.
+- **R-0045** · R763–780. Melaporkan dua domain dan jumlah masukan, silang kondisi serta variasi contoh, isi rekaman dan distribusi keluaran aktual.
+- **R-0046** · R781–925. Membatasi perbandingan dalam domain pertama dan mengorganisasi hasil menurut faktor dan kombinasinya.
+- **R-0047** · R783–813. Mengamati sebaran, membandingkan rerata antarstrategi dan menafsirkan peran pemberian contoh pada domain pertama.
+- **R-0048** · R814–843. Membandingkan sebaran dan rerata menurut persona, lalu menafsirkan keuntungan pembanding netral pada domain pertama.
+- **R-0049** · R844–874. Membandingkan sebaran, rerata dan perbedaan urutan model menurut ukuran, kemudian membatasi rekomendasi pada tujuan evaluasi.
+- **R-0050** · R875–925. Mengidentifikasi konfigurasi yang berhasil atau lemah untuk setiap ukuran, membandingkan kombinasi silang dengan pola marginal.
+- **R-0051** · R926–1070. Mengulang pembagian faktor dan kombinasi pada domain kedua agar pembaca dapat menilai apakah pola pertama bertahan.
+- **R-0052** · R928–960. Membandingkan sebaran dan rerata strategi pada domain kedua, menghubungkan contoh dengan pola skor.
+- **R-0053** · R961–990. Membandingkan variasi serta rerata menurut persona pada domain kedua dan menilai arah pola dibanding domain pertama.
+- **R-0054** · R991–1019. Menilai selisih per ukuran dan kedekatan distribusi model, lalu menyimpulkan arah perbedaan di domain kedua.
+- **R-0055** · R1020–1070. Membuka hasil seluruh kombinasi pada domain kedua serta menilai perubahan urutan, pemenang dan konfigurasi yang lemah.
+- **R-0056** · R1071–1084. Menjawab kembali pengaruh setiap faktor, kombinasi dan perbedaan lintas domain; mengusulkan kemungkinan penjelasan.
+- **R-0057** · R1085–1096. Mengantar jawaban atas pertanyaan penelitian dan arah lanjutan.
+- **R-0058** · R1089–1092. Menjawab strategi, persona, model, kombinasi serta perbedaan domain, kemudian menyatakan jangkauan penerapan.
+- **R-0059** · R1093–1096. Menghubungkan batas ukuran pada usul penilaian manusia, batas domain pada perluasan data, serta kemungkinan pengembangan intervensi, model dan penerapan.
+- **R-0060** · R1097–1151. Menyediakan rincian bibliografis untuk melacak sumber konsep, metode dan klaim.
+- **R-u0045** · R45–46. Membatasi generalisasi pada karakteristik tugas dua mata kuliah.
+- **R-u0047** · R47–48. Membatasi konstruk pada kemiripan teks dan menjelaskan absennya penilaian pedagogis manusia.
+- **R-u0049** · R49–50. Membedakan keterbatasan versi, lingkungan, setelan default dan faktor prompt yang tidak divariasikan.
+- **R-u0051** · R51–52. Menyebut bahwa variasi mutu contoh digabung sehingga efek tiap variasi tidak dapat ditentukan.
+- **R-u0053** · R53–54. Membedakan keberhasilan keluaran dari penerimaan pengguna, revisi, atau dampak belajar.
+- **R-u0059** · R59–62. Petunjuk isi Bab 1.
+- **R-u0063** · R63–66. Petunjuk isi Bab 2.
+- **R-u0067** · R67–70. Petunjuk isi Bab 3.
+- **R-u0071** · R71–74. Petunjuk isi Bab 4.
+- **R-u0075** · R75–78. Petunjuk isi Bab 5.
+- **R-u0382** · R382–385. Mengurutkan lima tahap dan memasangkan masukan dengan umpan balik acuan.
+- **R-u0386** · R386–387. Menjelaskan pembentukan kondisi melalui strategi dan persona, beserta jumlah konfigurasi per model.
+- **R-u0388** · R388–389. Menerangkan jalur API/lokal serta mengalikan jumlah model, konfigurasi, dan masukan.
+- **R-u0390** · R390–391. Mengubah keluaran menjadi empat ukuran yang disimpan untuk analisis.
+- **R-u0392** · R392–393. Menjelaskan analisis deskriptif, visualisasi sebaran, rerata dan perbandingan konfigurasi.
+- **R-u0396** · R396–407. Membedakan sumber dan karakter tugas, melaporkan ukuran data, dan menunjukkan satu tugas dengan jawaban serta acuan yang beragam.
+- **R-u0408** · R408–417. Menetapkan satu acuan per jawaban dan menunjukkan variasi isi, saran dan nilai pada mata kuliah kedua.
+- **R-u0418** · R418–419. Menjelaskan peran ganda nilai asal sebagai atribut data dan dasar memilih demonstrasi one-shot.
+- **R-u0432** · R432–441. Menunjukkan peran, batas tugas dan instruksi pada tugas konsep komputasi, termasuk pertanyaan dan jawaban yang dimasukkan tanpa demonstrasi.
+- **R-u0442** · R442–451. Menunjukkan peran, batas tugas dan instruksi pada tugas hubungan rumusan masalah dan tujuan, termasuk pertanyaan dan jawaban yang dimasukkan tanpa demonstrasi.
+- **R-u0456** · R456–464. Menunjukkan peran, batas tugas dan instruksi pada tugas konsep komputasi, termasuk contoh yang ditempatkan sebelum pertanyaan evaluasi.
+- **R-u0465** · R465–473. Menunjukkan peran, batas tugas dan instruksi pada tugas hubungan rumusan masalah dan tujuan, termasuk contoh yang ditempatkan sebelum pertanyaan evaluasi.
+- **R-u0478** · R478–486. Menunjukkan peran, batas tugas dan instruksi pada tugas konsep komputasi, termasuk beberapa pasangan jawaban-umpan balik sebelum masukan akhir.
+- **R-u0487** · R487–497. Menunjukkan peran, batas tugas dan instruksi pada tugas hubungan rumusan masalah dan tujuan, termasuk beberapa pasangan jawaban-umpan balik sebelum masukan akhir.
+- **R-u0502** · R502–511. Menunjukkan peran, batas tugas dan instruksi pada tugas konsep komputasi, termasuk langkah evaluasi konsep, diagnosis, saran dan penerapan.
+- **R-u0512** · R512–521. Menunjukkan peran, batas tugas dan instruksi pada tugas hubungan rumusan masalah dan tujuan, termasuk langkah evaluasi konsep, diagnosis, saran dan penerapan.
+- **R-u0536** · R536–542. Menunjukkan teks dan daftar token referensi yang dipakai ulang untuk empat perhitungan.
+- **R-u0543** · R543–551. Menunjukkan teks dan token keluaran model yang dipasangkan dengan acuan yang sama.
+- **R-u0556** · R556–557. Mengubah pasangan teks menjadi satuan pembanding dan memperoleh panjang 30 dan 26 token.
+- **R-u0558** · R558–597. Menandai token kandidat yang cocok dan memakai 18/26 untuk presisi unigram.
+- **R-u0598** · R598–618. Menampilkan delapan pasangan berurutan yang cocok dan memakai 25 bigram sebagai penyebut.
+- **R-u0619** · R619–624. Menjelaskan mengapa kandidat lebih pendek dikenai penalti dan memasukkan kedua panjangnya.
+- **R-u0625** · R625–634. Menggabungkan dua presisi dalam skala log, lalu menerapkan penalti panjang.
+- **R-u0635** · R635–636. Menjelaskan skor sedang dari kecocokan kata yang cukup banyak tetapi urutan dan pilihan kata berbeda.
+- **R-u0641** · R641–648. Mengidentifikasi sepuluh token sebagai subsekuens bersama untuk contoh.
+- **R-u0649** · R649–658. Membedakan 10/30 recall referensi dari 10/26 presisi kandidat.
+- **R-u0659** · R659–668. Menetapkan bobot seimbang dan menghitung 0,3573 dari dua komponen.
+- **R-u0669** · R669–670. Mengaitkan keterbatasan kemiripan urutan dengan skor contoh.
+- **R-u0675** · R675–676. Menetapkan satuan dan panjang kedua teks sebelum penyelarasan.
+- **R-u0677** · R677–678. Menghitung 18 kecocokan unigram termasuk kemunculan berulang.
+- **R-u0679** · R679–684. Menggunakan panjang kandidat untuk menghitung presisi.
+- **R-u0685** · R685–690. Menggunakan panjang acuan untuk menghitung recall.
+- **R-u0691** · R691–696. Menggabungkan presisi dan recall dengan bobot recall lebih besar.
+- **R-u0697** · R697–702. Memisahkan asumsi empat fragmen dari jumlah kata yang cocok dan menghitung penalti.
+- **R-u0703** · R703–708. Menurunkan skor akhir dari rata-rata berbobot setelah pengurangan penalti.
+- **R-u0709** · R709–710. Membandingkan skor METEOR dengan BLEU dan ROUGE-L serta menghubungkannya dengan perbedaan ungkapan.
+- **R-u0717** · R717–718. Menjelaskan pembentukan vektor kontekstual per token, disertai contoh dimensi.
+- **R-u0719** · R719–720. Memasangkan token kandidat dengan token referensi berkosinus tertinggi.
+- **R-u0721** · R721–722. Mencontohkan ungkapan berbeda yang dapat merujuk pada salah konsep yang sama.
+- **R-u0723** · R723–728. Memisahkan dua arah pencocokan dan ringkasan F1.
+- **R-u0729** · R729–746. Memberi rumus serta estimasi precision, recall dan F1 yang dilaporkan dari pustaka.
+- **R-u0747** · R747–748. Mengaitkan F1 yang lebih tinggi dengan kedekatan makna walau pilihan kata berubah.
+- **R-u0725** · R725–725. Merata-ratakan nilai maksimum dari arah kandidat ke referensi.
+- **R-u0726** · R726–726. Membalik arah pembandingan untuk menghitung cakupan referensi.
+- **R-u0727** · R727–728. Menggabungkan kedua arah pencocokan dalam rata-rata harmonik.
+- **R-u0757** · R757–757. Spesifikasi CPU.
+- **R-u0758** · R758–758. Spesifikasi RAM.
+- **R-u0759** · R759–759. Spesifikasi GPU.
+- **R-u0760** · R760–760. Spesifikasi Memori GPU.
+- **R-u0761** · R761–762. Spesifikasi Penyimpanan.
+- **R-u0787** · R787–790. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut strategi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0791** · R791–794. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut strategi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0795** · R795–798. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut strategi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0799** · R799–802. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut strategi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0803** · R803–813. Memeriksa urutan rerata keempat ukuran menurut strategi pada Sistem Cerdas dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u0818** · R818–821. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut persona pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0822** · R822–825. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut persona pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0826** · R826–829. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut persona pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0830** · R830–833. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut persona pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0834** · R834–843. Memeriksa urutan rerata keempat ukuran menurut persona pada Sistem Cerdas dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u0848** · R848–851. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut model pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0852** · R852–855. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut model pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0856** · R856–859. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut model pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0860** · R860–863. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut model pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0864** · R864–874. Memeriksa urutan rerata keempat ukuran menurut model pada Sistem Cerdas dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u0879** · R879–882. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut kombinasi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0883** · R883–886. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut kombinasi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0887** · R887–890. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut kombinasi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0891** · R891–894. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut kombinasi pada Sistem Cerdas berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0895** · R895–925. Memeriksa urutan rerata keempat ukuran menurut kombinasi pada Sistem Cerdas dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u0932** · R932–935. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut strategi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0936** · R936–939. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut strategi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0940** · R940–943. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut strategi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0944** · R944–947. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut strategi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0948** · R948–960. Memeriksa urutan rerata keempat ukuran menurut strategi pada mata kuliah penulisan dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u0965** · R965–968. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut persona pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0969** · R969–972. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut persona pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0973** · R973–976. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut persona pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0977** · R977–980. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut persona pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0981** · R981–990. Memeriksa urutan rerata keempat ukuran menurut persona pada mata kuliah penulisan dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u0995** · R995–998. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut model pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u0999** · R999–1002. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut model pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1003** · R1003–1006. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut model pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1007** · R1007–1010. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut model pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1011** · R1011–1019. Memeriksa urutan rerata keempat ukuran menurut model pada mata kuliah penulisan dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u1024** · R1024–1027. Menafsirkan perbedaan kedekatan n-gram (BLEU) menurut kombinasi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1028** · R1028–1031. Menafsirkan perbedaan cakupan subsekuens (ROUGE-L) menurut kombinasi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1032** · R1032–1035. Menafsirkan perbedaan kecocokan bentuk dan variasi kata (METEOR) menurut kombinasi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1036** · R1036–1039. Menafsirkan perbedaan kemiripan berbasis representasi token (BERTScore) menurut kombinasi pada mata kuliah penulisan berdasarkan distribusi yang dilaporkan dan perbedaan antarkondisi.
+- **R-u1040** · R1040–1070. Memeriksa urutan rerata keempat ukuran menurut kombinasi pada mata kuliah penulisan dan menafsirkan apakah urutan kondisi bertahan jika ukuran diubah.
+- **R-u1075** · R1075–1076. Mengidentifikasi konsistensi strategi berbasis contoh di dua mata kuliah dan mengusulkan alasan terkait ragam pola.
+- **R-u1077** · R1077–1078. Merangkum keunggulan persona Base dan mengusulkan kaitan dengan kesesuaian gaya acuan.
+- **R-u1079** · R1079–1080. Membedakan kekuatan kedua model menurut ukuran dan menghubungkan pilihan model dengan tujuan evaluasi.
+- **R-u1081** · R1081–1082. Menilai urutan kombinasi silang yang dibandingkan pada kedua mata kuliah.
+- **R-u1083** · R1083–1084. Mengamati perbedaan antarbidang dan menyatakan karakter tugas sebagai kemungkinan penjelas.
+- **R-u0087** · R87–98. Menyandingkan domain, tugas, model/strategi, metrik dan hasil tujuh studi.
+- **R-u0099** · R99–108. Menguraikan bukti per studi mengenai contoh, konteks, rubrik, penyesuaian model, dan keterbatasan respons.
+- **R-u0109** · R109–110. Menarik sintesis tentang peran desain masukan dari studi yang memakai tugas dan ukuran berbeda.
+- **R-u0243** · R243–254. Menuliskan gabungan presisi n-gram berbobot dengan penalti panjang dan mendefinisikan simbolnya.
+- **R-u0255** · R255–265. Membedakan dua kasus penalti menurut panjang kandidat terhadap referensi.
+- **R-u0266** · R266–267. Mengilustrasikan skor dan menjelaskan keterbatasan BLEU saat makna dipertahankan dengan kata berbeda.
+- **R-u0274** · R274–286. Menggabungkan dua arah kecocokan subsekuens dengan bobot beta dan mendefinisikan komponennya.
+- **R-u0287** · R287–302. Menunjukkan penyebut berbeda untuk recall dan precision LCS.
+- **R-u0309** · R309–319. Menggabungkan rerata kecocokan dan penalti urutan dalam skor METEOR.
+- **R-u0320** · R320–325. Menunjukkan pengaruh bobot precision/recall pada rata-rata harmonik.
+- **R-u0326** · R326–337. Mengaitkan penalti dengan jumlah fragmen terhadap pasangan cocok, serta menamai parameter.
+- **R-u0342** · R342–350. Menunjukkan bagaimana F1 merangkum kedua arah kecocokan semantik.
+- **R-u0351** · R351–356. Mengambil kecocokan maksimum untuk setiap token kandidat dan merata-ratakannya.
+- **R-u0357** · R357–371. Membalik arah pencocokan untuk referensi dan menjelaskan simbol jumlah token, embedding dan kosinus.
+- **R-u0372** · R372–373. Memberi contoh parafrasa yang mempertahankan isi dan menjelaskan mengapa kemiripan semantik relevan.
+- **R-u0765** · R765–766. Mengidentifikasi kedua domain dan menguraikan 62 ditambah 91 masukan menjadi 153.
+- **R-u0767** · R767–768. Mengaitkan faktor yang disilangkan dan 42 konfigurasi dengan 6.426 keluaran.
+- **R-u0769** · R769–770. Membedakan acuan asli dari templat berdasarkan kategori nilai dan menjelaskan konsekuensinya bagi hitungan kondisi.
+- **R-u0771** · R771–780. Menjelaskan kolom rekaman yang menautkan kondisi dengan keluaran dan skor serta menghitung distribusi per domain.
+- **R-u0037** · R37–38. Mengaitkan studi konteks dan kondisi masukan dengan kontribusi pada pengetahuan domain.
+- **R-u0039** · R39–40. Menjelaskan siapa yang dapat memakai informasi konfigurasi dan untuk keputusan apa.
+- **R-u0185** · R185–186. Menghubungkan definisi model bahasa dengan fungsi yang diperlukannya dalam tugas.
+- **R-u0187** · R187–188. Menempatkan model komersial ringan terhadap model lebih besar dan menjelaskan kapasitas yang tidak diketahui, manfaat dan ketergantungan layanan.
+- **R-u0189** · R189–190. Mengaitkan ukuran dan akses lokal dengan kendali eksperimen serta keterbatasan yang diklaim untuk tugas kompleks.
+- **R-u0191** · R191–202. Merumuskan tujuan pembandingan, menyandingkan karakteristik yang relevan, dan menyediakan dasar sebelum profil.
+- **R-u0205** · R205–206. Mengenalkan kemampuan model untuk beberapa tugas dan batas relatif yang diklaim.
+- **R-u0207** · R207–210. Menggunakan ilustrasi antarmuka semi-kausal untuk mengeklaim hubungan arsitektur dan efisiensi.
+- **R-u0211** · R211–214. Menjelaskan ViT dan mencoba menghubungkan hasil klasifikasi citra dengan multimodalitas model.
+- **R-u0215** · R215–216. Menyimpulkan relevansi model bagi tugas serta alasan memperlakukannya sebagai wakil layanan komersial.
+- **R-u0219** · R219–220. Mengidentifikasi keluarga terbuka, pilihan ukuran, dan hubungannya dengan sumber daya pengguna.
+- **R-u0221** · R221–224. Mengaitkan arsitektur standar dan klaim mengenai data pelatihan dengan perubahan kinerja antargenerasi.
+- **R-u0225** · R225–226. Menjelaskan pelaksanaan lokal sebenarnya serta akibatnya bagi kendali, privasi dan biaya.
+- **R-u0227** · R227–228. Membedakan kemampuan mengikuti instruksi dasar dari keterbatasan dalam tugas yang menuntut penalaran berlapis.
+- **R-u0229** · R229–230. Membedakan kemungkinan pelatihan lanjut dari penggunaan konfigurasi yang sungguh diuji.
+- **R-u0231** · R231–232. Menutup profil dengan pertanyaan apakah model lokal dapat mendekati model komersial pada tugas yang sama.
+
+## Batas penggunaan referensi
+
+Keterangan rumus BLEU di R251–252 menukar peran bobot dan presisi. Jumlah di R398 tidak cocok dengan jumlah komponennya. Keterangan gambar di R221–223 bergeser, dan ilustrasi arsitektur umum di R207–213 tidak membuktikan arsitektur model tertentu. Kedekatan teks dengan acuan tidak membuktikan manfaat pembelajaran maupun keunggulan umum model. Pisahkan hasil per domain R864–873 dan R1011–1018 sebelum menarik simpulan. Perbedaan penerapan lokal dan API di R215,225–231 menjawab pertanyaan khusus referensi.

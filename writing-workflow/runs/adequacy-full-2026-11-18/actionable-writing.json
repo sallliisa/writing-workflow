@@ -1,0 +1,74 @@
+[
+  {
+    "id": "W01",
+    "passage": "P034",
+    "baseline_line": 87,
+    "diagnosis": "Kalimat terakhir menyandingkan hasil eksekusi dengan nama penilai sebagai dua dasar penilaian yang sejenis.",
+    "change": "Bedakan apa yang diperiksa dari siapa yang menilai.",
+    "acceptance": "Peran judge dan hasil eksekusi tetap disebut, tanpa mengarang urutan, bobot, atau mekanisme penilaian. Pertahankan sumber, 99 pertanyaan, rentang 17,2–23,2 poin persentase.",
+    "type": "writing"
+  },
+  {
+    "id": "W02",
+    "passage": "P065",
+    "baseline_line": 149,
+    "diagnosis": "Frasa dokumen ini mengikuti kalimat tentang instruksi utama, sehingga nama berkas yang mengarahkan pembacaan belum jelas. Istilah routing tidak dipakai kembali untuk menerangkan hasil.",
+    "change": "Sebut berkas instruksi secara langsung serta pertahankan fungsi referensi topik.",
+    "acceptance": "Pembaca mengetahui berkas mana yang dirujuk dan kapan beberapa referensi dapat dibaca; contoh dan kutipan §3.3.2 tetap utuh.",
+    "type": "writing"
+  },
+  {
+    "id": "W03",
+    "passage": "P070",
+    "baseline_line": 159,
+    "diagnosis": "Nama, pengembang dan kapasitas konteks tidak menjelaskan kemampuan mana yang menjadi dasar perbandingan pada tugas analisis ini.",
+    "change": "Hubungkan permintaan data melalui tool, penggunaan hasilnya dan penerapan aturan dengan perbandingan ketepatan jawaban kedua model.",
+    "acceptance": "Basis konseptual dapat dipahami tanpa mengandaikan kesetaraan kemampuan atau menyimpulkan alasan pemilihan. Bedakan kapasitas dari pemakaian token aktual.",
+    "type": "writing"
+  },
+  {
+    "id": "W04",
+    "passage": "P075",
+    "baseline_line": 172,
+    "diagnosis": "Pembaca mengetahui ketersediaan API, dukungan tool calling dan kapasitas, tetapi belum mengetahui arti dukungan tersebut bagi penggunaan model sebagai agen.",
+    "change": "Jelaskan satu sifat yang relevan dan terverifikasi untuk versi ini serta kaitannya dengan permintaan data melalui tool.",
+    "acceptance": "Pernyataan spesifik versi mempunyai sumber primer yang sesuai; definisi umum tetap di induk. Hindari klaim akurasi dari spesifikasi.",
+    "type": "source-dependent background"
+  },
+  {
+    "id": "W05",
+    "passage": "P077",
+    "baseline_line": 176,
+    "diagnosis": "Identitas versi, API dan ketersediaan bobot belum menjelaskan kemampuan relevan versi ini untuk tugas yang diperbandingkan.",
+    "change": "Gunakan dokumentasi versi yang tepat untuk menjelaskan kemampuan relevan. Jelaskan fungsi yang teramati dalam eksperimen secara terpisah bila dokumentasi tidak tersedia.",
+    "acceptance": "Jangan menisbatkan sifat versi lain, menyamakan akses bobot dengan tempat model dijalankan, atau memakai sumber konfigurasi sebagai bukti perilaku.",
+    "type": "source-dependent background"
+  },
+  {
+    "id": "W06",
+    "passage": "P154",
+    "baseline_line": 387,
+    "diagnosis": "Lingkungan dan identitas model tercatat. Alasan pemilihan dua versi ini belum diberikan.",
+    "change": "Minta kriteria sebenarnya dari penulis atau catatan rancangan.",
+    "acceptance": "Jangan mengubah kecocokan konseptual, konfigurasi atau hasil menjadi alasan historis penulis.",
+    "type": "missing author evidence"
+  },
+  {
+    "id": "W07",
+    "passage": "P316",
+    "baseline_line": 815,
+    "diagnosis": "Kasus kedua yang gagal disebut sebelum pembaca mengetahui identitas kasus yang selalu gagal.",
+    "change": "Dahulukan T3-C1, kemudian jelaskan kasus lain yang gagal menurut nomor pengulangan.",
+    "acceptance": "Pertahankan pujian 40, 13/15, T3-C1 gagal tiga kali, T7-C2 pada pengulangan pertama dan ketiga, T7-C1 pada pengulangan kedua, kondisi dan rujukan lampiran.",
+    "type": "writing"
+  },
+  {
+    "id": "W08",
+    "passage": "P325",
+    "baseline_line": 833,
+    "diagnosis": "Kasus lainnya di kalimat terakhir dapat dibaca sebagai semua kasus di luar dua kasus bersama, padahal hanya satu lagi per model yang belum mencapai 3/3.",
+    "change": "Sebut kelompok kasus yang dimaksud atau akhiri setelah rincian jika hubungan perbandingan tetap jelas.",
+    "acceptance": "Pertahankan kedua kasus bersama, satu pengecualian lain per model, seluruh nilai 0/3–3/3 dan cakupan setiap kondisi.",
+    "type": "writing"
+  }
+]

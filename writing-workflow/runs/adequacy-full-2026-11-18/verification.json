@@ -1,0 +1,96 @@
+{
+  "baseline_sha256": "428d49ed1a3353931630ccf35a22d2766cb2b744c8db81e7b6cee790c5b8d36a",
+  "reference_sha256": "9e7b74a927d01dc076b73e449b21f1dd2f2355d95b7cef73986570a7eec3b748",
+  "candidate_sha256": "2558eb45f3d30036c8453b2a721150205a21099c5cde4d0982cd8f68bec44650",
+  "source_hashes_match": true,
+  "tracked_files_clean": true,
+  "historical_files": "Compared working tree, index and tracked changes since snapshot. The concurrent change updated the adequacy skill. Manuscripts and prior runs match the snapshot-time revision. New run files are untracked.",
+  "passages": 368,
+  "nonblank_lines_covered_once": 552,
+  "protected_spans": [
+    [
+      "system prompt",
+      339,
+      340,
+      "84c9afad90044bebaeaf12580a6b066cc8e93bbcabc1e65576f760b92e2e6f3f"
+    ],
+    [
+      "T2-C1 prompt and response schema",
+      352,
+      356,
+      "58eff315d6c32b0b8665fd38dfcdc02dde269fcf0212bbf00004374fc44d5671"
+    ],
+    [
+      "routing excerpt",
+      378,
+      379,
+      "5cd96a768c11f4d8f226761267dba34a7f990a6dcc7c5b3b432d8ea8dfd47777"
+    ],
+    [
+      "T5-C1 JSON example",
+      445,
+      449,
+      "963b155a6d09ed7d6fb40dcf5e2a253f76efad9cd410891643d2ca632217593e"
+    ]
+  ],
+  "unchanged_heading_count": 73,
+  "tables": 34,
+  "figures": 2,
+  "displayed_equations": 3,
+  "term_counts_baseline_candidate": {
+    "study system name": [
+      29,
+      29
+    ],
+    "agent name": [
+      2,
+      2
+    ],
+    "skill identifier": [
+      1,
+      1
+    ],
+    "antarperiode (case-insensitive)": [
+      13,
+      13
+    ]
+  },
+  "figures_and_appendices": "Number and text targets only. Artwork, original run records and appendix payloads are not embedded in the supplied Markdown.",
+  "arithmetic": "arithmetic.json",
+  "head_at_snapshot": "ac311d19c235971f6911ac3fc97910e609d008cd",
+  "head_at_verification": "a9cbcb28616412d5d6aa0b9f11a3522607fbef47",
+  "concurrent_tracked_changes": [
+    ".agents/skills/thesis-structure/references/adequacy.md"
+  ],
+  "candidate_decisions": {
+    "retained": 359,
+    "revised": 9
+  },
+  "observation_source_lines_preserved_exactly": [
+    595,
+    651,
+    653,
+    750,
+    752,
+    754,
+    811
+  ],
+  "new_source": "DeepSeek (2026c) cited for the tested-version mapping, Tool Calls and JSON Output. One matching new bibliography entry. Old bibliography entries preserved verbatim.",
+  "feedback_csv_sha256": "4958882dfae543b77d4dac1c781700ee277cc0a74128f0bc3d16ed08f534e5eb",
+  "skill_sha256": {
+    ".agents/skills/academic-writing/SKILL.md": "4988923a9e1524e02308816554740d9138966eeb6be923ab41255ab2424edbf7",
+    ".agents/skills/academic-writing/references/examples.md": "130508c7bb75479e4bfc17d7be23cbce62c8522479707c364ab79ace6d39cd76",
+    ".agents/skills/academic-writing/references/thesis-workflow.md": "63c28e148bb42289b8ed6037c23e66f6f7f16a3525b8a8f2b2e23892ea7aeb98",
+    ".agents/skills/humanizer-id/SKILL.md": "37e68e24301b2138470c52b15308b39515d444d34dd8dbc2edd7edffc910436d",
+    ".agents/skills/humanizer-id/references/diagnostics.md": "28108b8d85701b3ebb3d83583993eb18b07ddca0e20a04fc44c10e67d6b09da6",
+    ".agents/skills/thesis-revision/SKILL.md": "63bfbbd78046faf9fac64ee18cfb0e2e03dc9a56deecfa4d34ae646b4ed48a65",
+    ".agents/skills/thesis-revision/references/calibration.md": "f384d5c75e39739218e83618825e1f6217b674d2436b353529efd5ed749bcc41",
+    ".agents/skills/thesis-revision/references/reviewer.md": "8606394c5fea0de868fa3e2cc84e31c6016f9b8207f0aec2fa3d6e28f0273448",
+    ".agents/skills/thesis-revision/references/thesis-profile.md": "d4cfecf0c7233c0faf20f054aa30b056926b1e2dd7ae5e23f9ee2664114e7b45",
+    ".agents/skills/thesis-revision/references/writer.md": "54b6d856e24a005d7bd40dd981b8892e7c1322b5d1acf0c18ab490ad2d376fb1",
+    ".agents/skills/thesis-structure/SKILL.md": "cda6e9f7fbb2d1f14b7d91893ecd0eb847be2050aa9a0211ac82cde0b9518f34",
+    ".agents/skills/thesis-structure/references/adequacy.md": "1232c4cbdacf4f547605f4452d515879ca2e44ebba74e5e21dc26cb2cd21eb40",
+    ".agents/skills/thesis-structure/references/evaluation.md": "b49ffdb789b346a45b032fba12e086ca7f73a6c6d3047ce80b73cbb6b9ba2502",
+    ".agents/skills/thesis-structure/references/thesis-profile.md": "a7fefa44f4d1e2aab4ba26eab9aa4362fb0a242b90ba46b42e52942e4e38a1d4"
+  }
+}

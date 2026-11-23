@@ -1,0 +1,1302 @@
+[
+  {
+    "record": 1,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertahankan saran pengulangan tanpa mengulang seluruh kontrol.",
+    "passages": [
+      "P328"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 2,
+    "status": "explicit praise; preserve the explanation in context",
+    "disposition": "Pujian eksplisit untuk gambaran beberapa kondisi data pada kasus insiden. Lingkup utama L260–262.",
+    "passages": [
+      "P113",
+      "P114",
+      "P115",
+      "P116"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 3,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pengantar simpulan perlu cukup singkat dan tidak terdengar seperti instruksi penyuntingan.",
+    "passages": [
+      "P023",
+      "P320"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 4,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Gunakan jumlah keberhasilan dari tiga percobaan tanpa simbol sementara.",
+    "passages": [
+      "P184"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 5,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Sebut jenis jawaban yang membentuk penyebut. Label kelompok sendiri belum menjelaskan itu.",
+    "passages": [
+      "P087",
+      "P183"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 6,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Data durasi digunakan untuk pengamatan yang dihitung.",
+    "passages": [
+      "P130"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 7,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Gunakan membaca data sebagai operasi akses.",
+    "passages": [
+      "P162"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 8,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Objek pembacaan adalah data.",
+    "passages": [
+      "P162"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 9,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Batas satu query dan tanpa umpan balik dibutuhkan di tabel sebagai pembeda studi. Istilah single-shot tidak diperlukan.",
+    "passages": [
+      "P029",
+      "P034"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 10,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Identitas perusahaan pembayaran sudah disebut.",
+    "passages": [
+      "P033"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 11,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Nilai 50, 100, null dan tanpa tindakan membuat perbedaan tahap konkret.",
+    "passages": [
+      "P114"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 12,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Satu tujuan telah ditulis dalam prosa.",
+    "passages": [
+      "P014"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 13,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tujuan tunggal berbentuk paragraf.",
+    "passages": [
+      "P014"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 14,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertanyaan penelitian tunggal sudah berbentuk paragraf.",
+    "passages": [
+      "P012"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 15,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "L214 mendefinisikan kode sebelum penggunaan substantif.",
+    "passages": [
+      "P096",
+      "P108"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 16,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Bagian awal setelah daftar gambar tidak disertakan; kebutuhan glosarium belum dapat diperiksa di sana.",
+    "passages": [
+      "P096"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 17,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Perataan teks membutuhkan berkas tata letak.",
+    "passages": [
+      "P329",
+      "P331",
+      "P332",
+      "P333",
+      "P334"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 18,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pembuka simpulan tetap memberi orientasi.",
+    "passages": [
+      "P320"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 19,
+    "status": "withdrawn spelling request",
+    "disposition": "Permintaan spasi ditarik kembali. Pertahankan antarperiode.",
+    "passages": [
+      "P042",
+      "P188",
+      "P292"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 20,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertahankan persamaan persentase dalam blok tampilan.",
+    "passages": [
+      "P182"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 21,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Judul berada di atas tabel dalam Markdown.",
+    "passages": [
+      "P177"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 22,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Instruksi routing dikutip verbatim dalam tabel satu sel.",
+    "passages": [
+      "P150"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 23,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "System prompt dikutip verbatim dalam tabel satu sel.",
+    "passages": [
+      "P137"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 24,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertahankan dua rumus tampilan dan hubungan simbol dengan data contoh.",
+    "passages": [
+      "P130",
+      "P131",
+      "P132",
+      "P133",
+      "P134"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 25,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "T menandai jenis tugas dan C nomor kasus dalam jenis itu.",
+    "passages": [
+      "P096",
+      "P109"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 26,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jarak halaman fisik memerlukan pemeriksaan dokumen berhalaman.",
+    "passages": [
+      "P098"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 27,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Yang dibandingkan ialah status pemenuhan indikator antara dua periode.",
+    "passages": [
+      "P009",
+      "P118",
+      "P294"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 28,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Status pada satu laporan dibandingkan dengan status indikator yang sama pada laporan lain.",
+    "passages": [
+      "P118",
+      "P120"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 29,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pola contoh menyebut kasus yang bersangkutan.",
+    "passages": [
+      "P117"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 30,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Perbandingan dilakukan terhadap rata-rata sebelum pembulatan.",
+    "passages": [
+      "P117"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 31,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Keberlakuan terkait indikator pada ruas yang dianalisis.",
+    "passages": [
+      "P117"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 32,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Item rusak tetap dihitung saat kategori terisi dan prioritas kosong.",
+    "passages": [
+      "P116"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 33,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Agen diminta menampilkan tren per bulan, dengan panjang tiap bulan.",
+    "passages": [
+      "P112"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 34,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Hari tanpa laporan tetap termasuk jumlah hari kalender.",
+    "passages": [
+      "P007",
+      "P112",
+      "P126"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 35,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Data durasi non-null dan sumber booth/longbooth dijelaskan menurut kasus.",
+    "passages": [
+      "P111"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 36,
+    "status": "explicit praise; preserve the explanation in context",
+    "disposition": "Pujian eksplisit untuk penjelasan terperinci tentang pembulatan dan batas.",
+    "passages": [
+      "P289",
+      "P290"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 37,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pujian dengan kualifikasi pada penjelasan singkat urutan pembulatan.",
+    "passages": [
+      "P314"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 38,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pujian dengan kualifikasi atas perbedaan kelengkapan dan nilai benar.",
+    "passages": [
+      "P313"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 39,
+    "status": "explicit praise; preserve the explanation in context",
+    "disposition": "Pujian eksplisit atas pembandingan menurut kelompok tugas.",
+    "passages": [
+      "P312"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 40,
+    "status": "explicit praise; preserve the explanation in context",
+    "disposition": "Pujian eksplisit atas laporan pengulangan dan identitas kasus yang berubah. Pertahankan rincian.",
+    "passages": [
+      "P315",
+      "P316",
+      "P317"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 41,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh operasional kini memberi alasan konkret untuk membahas aturan.",
+    "passages": [
+      "P007"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 42,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tindakan agen kini langsung dijelaskan.",
+    "passages": [
+      "P006"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 43,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Narasi bergerak dari pertanyaan pengguna ke langkah agen.",
+    "passages": [
+      "P006"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 44,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Paragraf memakai kasus, pembanding dan hasil yang dinilai untuk mengonkretkan tujuan.",
+    "passages": [
+      "P010"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 45,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Keberatan gaya atas keterbatasan tujuh dokumen masih terbuka. Kedua formulasi terdahulu mengulang hasil. Batas inferensi perlu tetap dinyatakan.",
+    "passages": [
+      "P318"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 46,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh terpisah menjelaskan data yang salah diikutkan dan urutan pembulatan.",
+    "passages": [
+      "P314"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 47,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kedua penyebut 90 serta sumber 10 FAIL dijelaskan.",
+    "passages": [
+      "P310"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 48,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Masih terkait keberatan atas rumusan batas inferensi; pertahankan fakta bahwa semua dokumen diberikan bersama.",
+    "passages": [
+      "P318"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 49,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pisahkan data yang diminta dari data lain yang bisa dibaca.",
+    "passages": [
+      "P107"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 50,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Konsistensi mengukur sebaran putusan pada pengulangan tugas yang sama.",
+    "passages": [
+      "P087",
+      "P188"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 51,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Satu contoh numerik sudah cukup menjelaskan aturan perbandingan tanpa toleransi.",
+    "passages": [
+      "P175"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 52,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Syarat JSON valid dinyatakan positif tanpa mengklaim pernah ada jawaban gagal di-parse.",
+    "passages": [
+      "P174"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 53,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh akses yang dikecualikan membedakan data dasar dari jawaban siap pakai.",
+    "passages": [
+      "P020"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 54,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Penjelasan pembacaan halaman berisi informasi tambahan dibanding uraian tool loop.",
+    "passages": [
+      "P046",
+      "P164"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 55,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pembatasan kolom yang sudah tersirat tidak perlu diulang.",
+    "passages": [
+      "P162"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 56,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kutipan serta contoh lintas topik menambahkan penerapan di luar daftar isi tabel.",
+    "passages": [
+      "P149",
+      "P150",
+      "P151"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 57,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tabel menyebut kategori, prioritas dan aset, serta tindakan mengelompokkan item.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 58,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Frekuensi setiap penyebab menyebut apa yang dihitung.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 59,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Teks menjelaskan pemeriksaan semua tindakan penanganan.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 60,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Istilah penyebab kecelakaan dikaitkan dengan data insiden.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 61,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Cara menentukan status insiden menggantikan label terkompresi.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 62,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jumlah hari kalender menjelaskan operasi alih-alih hanya menamai penyebut.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 63,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Data durasi dipilih untuk perhitungan rata-rata.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 64,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pisahkan laporan pemantauan dari data durasi.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 65,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Mengenali istilah dan memilih data menjadi dua tindakan yang jelas.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 66,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Verba memahami menunjuk istilah yang dimaksud.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 67,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Hubungan diterangkan menggunakan informasi kunci dan tabel.",
+    "passages": [
+      "P163"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 68,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Permintaan analisis diperjelas sebagai pertanyaan pengguna.",
+    "passages": [
+      "P040"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 69,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Instruksi umum dan panduan memilih referensi menjelaskan isi dokumen.",
+    "passages": [
+      "P148"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 70,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jumlah dan susunan berkas dijelaskan tanpa mengulang kontrol lengkap.",
+    "passages": [
+      "P146"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 71,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tabel prompt diperkenalkan secara eksplisit sebagai contoh.",
+    "passages": [
+      "P141"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 72,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pembatasan nama tabel, rumus dan langkah menyatu dengan penjelasan prompt.",
+    "passages": [
+      "P140"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 73,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Ruang lingkup tiap pertanyaan tidak diulang dalam uraian format.",
+    "passages": [
+      "P140"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 74,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Usulan memiliki hanya berlaku pada kemunculan asli yang tidak memiliki konteks cukup untuk substitusi umum.",
+    "passages": [],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 75,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh memilih data berdasarkan ruas dan tanggal, tanpa rincian ID internal berlebih.",
+    "passages": [
+      "P127"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 76,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Penyusunan acuan dijelaskan tanpa menambahkan verifikasi independen yang belum terdokumentasi.",
+    "passages": [
+      "P122"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 77,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Aturan durasi ditempatkan di tabel dan diterapkan pada contoh.",
+    "passages": [
+      "P126"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 78,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jangan memasukkan komentar editorial tentang penelaah ke naskah.",
+    "passages": [
+      "P122"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 79,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Ringkasan gabungan dan per kombinasi diberi contoh jumlah jawaban yang berbeda.",
+    "passages": [
+      "P186",
+      "P187"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 80,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Penyimpanan jawaban tidak perlu dinyatakan sebagai langkah tambahan.",
+    "passages": [
+      "P170"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 81,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Percakapan baru adalah kondisi terlapor; tidak perlu menambah klaim urutan.",
+    "passages": [
+      "P170"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 82,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jadwal paralel tidak diperlukan untuk menjelaskan pembandingan jawabannya.",
+    "passages": [
+      "P170"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 83,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Keenam kelompok dan tujuan pemeriksaan FAIL disebut secara konkret.",
+    "passages": [
+      "P188"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 84,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertahankan SPM/SLA per laporan.",
+    "passages": [
+      "P278",
+      "P279",
+      "P284",
+      "P287",
+      "P312",
+      "P323"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 85,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Perhitungan perbandingan menjelaskan objek sebelum melaporkan selisih.",
+    "passages": [
+      "P186",
+      "P187"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 86,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Persentase dihitung dari jumlah jawaban yang ditampilkan, tanpa makro rata-rata yang lain.",
+    "passages": [
+      "P181",
+      "P183"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 87,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Expected result dipakai untuk jawaban yang diharapkan; usulan teks sesudah pada baris CSV tidak berkaitan.",
+    "passages": [
+      "P122"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 88,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Rincian penyimpanan dihilangkan; provenance tindakan antara tetap memerlukan bukti.",
+    "passages": [
+      "P170"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 89,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Percakapan baru lebih berkaitan langsung dengan prosedur daripada jadwal eksekusi tumpang tindih.",
+    "passages": [
+      "P170"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 90,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Lingkungan disebut dengan perangkat yang digunakan, tanpa label sandbox umum.",
+    "passages": [
+      "P154"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 91,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertanyaan task atau tugas belum menetapkan perubahan. Pertahankan istilah tugas di narasi.",
+    "passages": [
+      "P096"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 92,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Minimal digunakan untuk syarat jumlah tindakan.",
+    "passages": [
+      "P113",
+      "P126"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 93,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Gunakan batas untuk status indikator.",
+    "passages": [
+      "P117",
+      "P126"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 94,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Konfigurasi sama untuk semua periode; istilah periode lampau tidak diperlukan.",
+    "passages": [
+      "P126"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 95,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Operasi jumlah data non-null sudah menjelaskan pengaruh baris.",
+    "passages": [
+      "P111"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 96,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Bedakan insiden dari tindakan pada insiden.",
+    "passages": [
+      "P113"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 97,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jelaskan baris yang masuk perhitungan, tanpa mengulang definisi data valid.",
+    "passages": [
+      "P111"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 98,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Gunakan data master.",
+    "passages": [
+      "P104"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 99,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pertahankan sumber pengetahuan aturan secara terbatas. Identitas pemberi informasi memerlukan keterangan penulis.",
+    "passages": [
+      "P145"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 100,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tidak diperlukan klaim kerahasiaan untuk menjelaskan sumber data.",
+    "passages": [
+      "P103"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 101,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Cakupan prompt berbeda dari cakupan akses dan dijelaskan langsung.",
+    "passages": [
+      "P107"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 102,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kata nyata bukan dasar menyatakan bahwa data uji berasal dari produksi.",
+    "passages": [
+      "P103"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 103,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Nama skema internal tidak disamakan dengan akses publik.",
+    "passages": [
+      "P103"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 104,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Status dibandingkan pada tiga pengulangan; hindari subjek tahap yang bertindak.",
+    "passages": [
+      "P094"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 105,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jawaban agen dibandingkan untuk menetapkan PASS/FAIL.",
+    "passages": [
+      "P094"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 106,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Prompt dan dokumen dijelaskan terpisah.",
+    "passages": [
+      "P093"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 107,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tindakan menyiapkan tidak diberikan kepada tahap abstrak.",
+    "passages": [
+      "P093"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 108,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Sebut jumlah jawaban per kombinasi secara langsung.",
+    "passages": [
+      "P097"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 109,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jawaban merupakan objek penilaian.",
+    "passages": [
+      "P097"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 110,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh agregasi, hubungan tabel, dan kondisi indikator menggantikan susunan label abstrak.",
+    "passages": [
+      "P110"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 111,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kondisi disebut dengan atau tanpa konteks bisnis berikut unit pembandingnya.",
+    "passages": [
+      "P084",
+      "P218",
+      "P262",
+      "P294"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 112,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Persentase agregat dan 0/3–3/3 per kasus menjawab pertanyaan berbeda.",
+    "passages": [
+      "P084",
+      "P087"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 113,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Objeknya jawaban akhir agen.",
+    "passages": [
+      "P094"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 114,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Rincian penyimpanan yang tidak menjelaskan penilaian tidak dibutuhkan.",
+    "passages": [
+      "P094"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 115,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Prompt atau pertanyaan diidentifikasi sesuai fungsinya.",
+    "passages": [
+      "P093"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 116,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kontrol prompt memiliki tempat tersendiri di gambaran umum.",
+    "passages": [
+      "P092"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 117,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Dokumen konteks bisnis disebut sebagai objek yang disusun.",
+    "passages": [
+      "P093"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 118,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Lingkungan pengujian dan ketersediaan konteks bisnis dibedakan.",
+    "passages": [
+      "P092"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 119,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kontrol ditempatkan sekali di gambaran keseluruhan untuk menjelaskan keterbandingan.",
+    "passages": [
+      "P092"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 120,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kombinasi dua model dengan dua kondisi dijelaskan langsung.",
+    "passages": [
+      "P092"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 121,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Tanda titik koma pada instrumen verbatim wajib dipertahankan meskipun dilarang pada prosa.",
+    "passages": [
+      "P143"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 122,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Sebut kriteria pembandingan aktual, tanpa spekulasi validator.",
+    "passages": [
+      "P174"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 123,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Prosedur lokal tidak menjadi ciri salah satu model.",
+    "passages": [
+      "P077"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 124,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Langkah yang sama untuk kedua model ditempatkan pada pembahasan umum atau metode.",
+    "passages": [
+      "P075"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 125,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Definisi kapasitas konteks berada di induk; data spesifik harus memiliki sumber yang tepat.",
+    "passages": [
+      "P068",
+      "P075"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 126,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Bedakan klaim pelatihan model yang didokumentasikan dari penjelasan fungsi agen secara umum.",
+    "passages": [
+      "P075"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 127,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jangan menambah perkiraan pemakaian aktual token yang tidak diukur.",
+    "passages": [
+      "P068"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 128,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh kemampuan mengikuti prompt tidak memberi dasar menyimpulkan akibat ukuran model.",
+    "passages": [
+      "P057",
+      "P067"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 129,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Gunakan evaluasi sebagai nama proses.",
+    "passages": [
+      "P172"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 130,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Perbandingan dalam model dan dalam kondisi harus jelas berbeda dari hasil gabungan.",
+    "passages": [
+      "P186",
+      "P187"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 131,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Gunakan konteks bisnis untuk dokumen yang disediakan.",
+    "passages": [
+      "P058",
+      "P146"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 132,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jelaskan langsung empat kombinasi penelitian.",
+    "passages": [
+      "P092"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 133,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Kapasitas token berbeda dari panjang masukan aktual.",
+    "passages": [
+      "P068",
+      "P070"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 134,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Pilih tindakan dan susun jawaban menyebut dua fungsi jelas.",
+    "passages": [
+      "P067"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 135,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Agen digunakan secara langsung sebagai istilah.",
+    "passages": [
+      "P067"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 136,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Contoh model sumber diberi atribusi tanpa klaim kausal tentang skala.",
+    "passages": [
+      "P057",
+      "P067"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 137,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Jika sumber mendukung, jelaskan penggunaan hasil langkah sebelumnya dengan kata konkret.",
+    "passages": [
+      "P075"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 138,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Sebut sumber informasi yang diakses; klaim versi perlu dibuktikan.",
+    "passages": [
+      "P075"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  },
+  {
+    "record": 139,
+    "status": "historical feedback; any proposed replacement has no recorded acceptance",
+    "disposition": "Istilah tool call dipertahankan.",
+    "passages": [
+      "P046",
+      "P075"
+    ],
+    "historical_after": "proposed wording only; approval not assumed"
+  }
+]

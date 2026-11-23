@@ -1,0 +1,38 @@
+[
+  {
+    "id": "P034",
+    "replacement": "Rumiantsau dan Fokeev (2026) membandingkan model yang hanya menerima skema data dengan model yang juga menerima dokumen konteks bisnis. Pada 99 pertanyaan *retail*, penambahan dokumen tersebut meningkatkan *Analytical Pass Rate* sebesar 17,2–23,2 poin persentase. Claude Sonnet 4.6 digunakan sebagai *judge* untuk menilai jawaban dengan mempertimbangkan hasil eksekusi kueri."
+  },
+  {
+    "id": "P065",
+    "replacement": "Dalam penelitian ini, SKILL.md mengarahkan agen ke referensi yang sesuai dengan pertanyaan. Dokumen referensi memuat penjelasan istilah dan aturan bisnis untuk setiap topik. Agen dapat membaca lebih dari satu referensi apabila pertanyaannya memerlukan informasi dari beberapa topik."
+  },
+  {
+    "id": "P070",
+    "replacement": "Penelitian ini menggunakan Muse Spark 1.3 dari Meta dan DeepSeek v4 Flash dari DeepSeek. Keduanya mendukung *tool call*, sehingga dapat digunakan untuk meminta data melalui *tool* yang disediakan aplikasi (Meta, 2026b dan DeepSeek, 2026c). Model menentukan permintaan, sedangkan aplikasi menjalankan *tool* dan mengembalikan hasilnya kepada model. Pada analisis HKA TROM, hasil tersebut perlu digunakan bersama aturan bisnis untuk menghitung nilai jawaban. Perbandingan kedua model menguji ketepatan jawaban yang dihasilkan dari proses ini. Dukungan *tool call* memungkinkan permintaan data, tetapi ketepatan pemilihan data dan penerapan aturannya tetap perlu dievaluasi.\n\nPengembang dan *context window* kedua model disajikan pada Tabel 2.2. Keduanya memiliki batas konteks yang sama, yaitu 1.048.576 token. Angka ini menunjukkan kapasitas konteks, bukan jumlah token yang digunakan pada setiap pengujian. Kesamaan kapasitas juga tidak menunjukkan bahwa kedua model menggunakan informasi atau menerapkan aturan bisnis dengan ketepatan yang sama."
+  },
+  {
+    "id": "P075",
+    "replacement": "Muse Spark 1.3 diperkenalkan oleh Meta pada September 2026 dan tersedia melalui Meta Model API serta Muse Code (Meta, 2026a). Model ini mendukung *tool calling* dan memiliki *context window* sebesar 1.048.576 token (Meta, 2026b, 2026c). Menurut Meta (2026b), versi ini dilatih untuk alur kerja *agentic* yang berlangsung dalam banyak langkah dan menggunakan hasil langkah sebelumnya selama pengerjaan tugas. Karakteristik yang dijelaskan Meta tersebut relevan untuk analisis yang memerlukan beberapa *tool call*, karena hasil satu permintaan data dapat digunakan untuk menentukan informasi yang masih diperlukan."
+  },
+  {
+    "id": "P077",
+    "replacement": "DeepSeek v4 Flash yang digunakan dalam penelitian ini adalah versi DeepSeek-V4.1-Flash-1017 (DeepSeek-AI, 2026). Model ini tersedia melalui API DeepSeek, dan *weights*-nya dapat diakses secara terbuka (DeepSeek, 2026a). Dokumentasi API mengidentifikasi versi tersebut sebagai model yang melayani permintaan dengan nama deepseek-flash dan mencantumkan dukungan *Tool Calls* serta *JSON Output* (DeepSeek, 2026c). Dukungan *Tool Calls* memungkinkan model meminta informasi melalui fungsi yang disediakan aplikasi. Sementara itu, *JSON Output* menyediakan kemampuan menghasilkan keluaran dalam format JSON. Kesesuaian format tetap perlu dibedakan dari ketepatan nilai analisis yang dimuat di dalamnya."
+  },
+  {
+    "id": "P316",
+    "replacement": "Pada DeepSeek v4 Flash tanpa konteks bisnis, jumlah PASS tetap 13/15 pada setiap pengulangan. T3-C1 memperoleh FAIL pada ketiga pengulangan, sedangkan satu kasus lain yang gagal berganti menurut pengulangannya. T7-C2 memperoleh FAIL pada pengulangan pertama dan ketiga, sedangkan T7-C1 memperoleh FAIL pada pengulangan kedua. Rekap hasil per kasus dan pengulangan disajikan pada Tabel L1.2 dan Tabel L1.3 dalam Lampiran 1."
+  },
+  {
+    "id": "P318",
+    "replacement": "Hasil pengujian ini terbatas pada 15 kasus dengan tiga pengulangan pada setiap kombinasi. Tujuh dokumen konteks bisnis diuji bersama, sehingga perbedaan hasil belum dapat dikaitkan dengan satu dokumen tertentu. Penilaian PASS menunjukkan bahwa jawaban sesuai dengan *expected result*. Apakah jawaban tersebut membantu pengguna mengambil keputusan operasional belum dievaluasi."
+  },
+  {
+    "id": "P325",
+    "replacement": "Seluruh 15 kasus memperoleh 3/3 PASS pada kedua model ketika konteks bisnis tersedia. Tanpa konteks bisnis, masing-masing model memperoleh 3/3 PASS pada 12 kasus. Pada Muse Spark 1.3, T3-C1 dan T7-C2 masing-masing memperoleh 2/3 PASS, sedangkan T5-C1 memperoleh 1/3 PASS. Ketiga kasus ini memiliki status yang berubah antara pengulangan. Pada DeepSeek v4 Flash, T3-C1 selalu gagal dengan 0/3 PASS, sedangkan T7-C1 memperoleh 2/3 PASS dan T7-C2 memperoleh 1/3 PASS. Jadi, kedua model sama-sama belum mencapai 3/3 PASS pada T3-C1 dan T7-C2. Satu kasus lain yang belum mencapai 3/3 PASS adalah T5-C1 pada Muse Spark 1.3 dan T7-C1 pada DeepSeek v4 Flash."
+  },
+  {
+    "id": "P339",
+    "replacement": "DeepSeek. (2026b). Messages. DeepSeek API Docs. Diakses 14 November 2026, dari https://api-docs.deepseek.com/api/create-message/\n\nDeepSeek. (2026c). Models & Pricing. DeepSeek API Docs. Diakses 18 November 2026, dari https://api-docs.deepseek.com/quick_start/pricing/"
+  }
+]

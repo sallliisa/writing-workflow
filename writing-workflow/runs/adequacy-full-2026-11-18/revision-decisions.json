@@ -1,0 +1,110 @@
+[
+  {
+    "id": "P034",
+    "round": "1",
+    "decision": "accept",
+    "reason": "“Claude Sonnet 4.6 digunakan sebagai judge ... dengan mempertimbangkan hasil eksekusi kueri” menjelaskan siapa yang menilai dan bukti yang dipertimbangkan. A menyejajarkan hasil eksekusi dengan penilai.",
+    "review_condition": false,
+    "choice": "B",
+    "proposed_label": "B"
+  },
+  {
+    "id": "P065",
+    "round": "1",
+    "decision": "accept",
+    "reason": "Kalimat sebelumnya mengenalkan SKILL.md dan instruksi utamanya. A menyebut berkas yang mengarahkan agen dan tetap menjelaskan kapan beberapa referensi dapat diperlukan.",
+    "review_condition": "Periksa pemakaian berikutnya atas “dokumen routing”. Jika label digunakan kembali tanpa pengenalan, kaitkan label dengan SKILL.md pada pemakaian pertama.",
+    "choice": "A",
+    "proposed_label": "A"
+  },
+  {
+    "id": "P070",
+    "round": "1",
+    "decision": "defer for revision",
+    "reason": "B menjelaskan alasan kemampuan meminta data relevan, siapa yang menjalankan fungsi, serta mengapa kapasitas yang sama masih menyisakan pertanyaan empiris tentang ketepatan jawaban. A mengantar tabel saja.",
+    "review_condition": "Ringkas tumpang tindih “menguji ketepatan jawaban” dan “ketepatan ... tetap perlu dievaluasi”. Nyatakan bahwa pembandingan menyangkut kedua model ketika konteks bisnis tersedia dan ketika tidak tersedia. Pertahankan perbedaan kapasitas dan penggunaan aktual. Sumber tabel perlu mencakup angka untuk masing-masing versi.",
+    "choice": "B",
+    "proposed_label": "B"
+  },
+  {
+    "id": "P075",
+    "round": "1",
+    "decision": "defer for revision",
+    "reason": "A mengaitkan keterangan Meta tentang pelatihan versi 1.3 dengan keputusan konkret yang dapat diambil setelah permintaan data pertama. B berakhir pada spesifikasi. A tidak mengklaim kemampuan ini eksklusif atau selalu berhasil.",
+    "review_condition": "Setelah penjelasan bersama di P070 dan angka di Tabel 2.2, daftar dukungan tool calling dan angka kapasitas mengulang keduanya. Pusatkan profil pada rilis, akses, dan pekerjaan beberapa langkah. Pertahankan sumber kapasitas di tabel atau pembahasan induk jika kutipan dipindah.",
+    "choice": "A",
+    "proposed_label": "A"
+  },
+  {
+    "id": "P077",
+    "round": "1",
+    "decision": "defer for revision",
+    "reason": "B menghubungkan versi dengan nama layanan API dan menjelaskan pemisahan format JSON dari ketepatan nilai. A menyebut identitas dan akses saja.",
+    "review_condition": "Hilangkan pengulangan proses permintaan melalui fungsi yang sudah dijelaskan pada P070. Jelaskan kaitan JSON dengan jawaban yang diminta penelitian tanpa menyiratkan mode JSON Output diaktifkan. Letakkan nama layanan sebagai pemetaan menurut dokumentasi pada waktu pemeriksaan.",
+    "choice": "B",
+    "proposed_label": "B"
+  },
+  {
+    "id": "P316",
+    "round": "1",
+    "decision": "accept",
+    "reason": "A mendahulukan identitas kasus yang selalu gagal, kemudian memaparkan pertukaran satu kasus lain per pengulangan. Pembaca dapat melacak kedua kegagalan tanpa mengetahui lebih dahulu apa yang dimaksud “kasus kedua” pada B. Rincian yang dipuji di baris 40 tetap lengkap.",
+    "review_condition": false,
+    "choice": "A",
+    "proposed_label": "A"
+  },
+  {
+    "id": "P318",
+    "round": "1",
+    "decision": "accept",
+    "reason": "“Tujuh dokumen ... diuji bersama” menunjukkan unit perbandingan; perbedaan hasil tidak dapat dikaitkan dengan satu dokumen. Kalimat terakhir menyebut pengguna dan keputusan yang belum dievaluasi. B juga mempertahankan jumlah kasus, pengulangan, dan arti PASS.",
+    "review_condition": false,
+    "choice": "B",
+    "proposed_label": "B"
+  },
+  {
+    "id": "P325",
+    "round": "1",
+    "decision": "accept",
+    "reason": "“Satu kasus lain yang belum mencapai 3/3 PASS” menyebut syarat yang berlaku bagi T5-C1 dan T7-C1. “Kasus lainnya” dalam B dapat terbaca sebagai seluruh kasus yang tersisa. Angka per model dipertahankan.",
+    "review_condition": false,
+    "choice": "A",
+    "proposed_label": "A"
+  },
+  {
+    "id": "P339",
+    "round": "1",
+    "decision": "accept",
+    "reason": "P070 B dan P077 B mengutip DeepSeek (2026c) untuk dukungan API. B memuat entri yang cocok, dengan halaman dan tanggal akses.",
+    "review_condition": "Pertahankan DeepSeek (2026c) bersama setiap pilihan yang mengutipnya. Jika kedua kutipannya kelak dihapus, periksa seluruh daftar kutipan sebelum mempertahankan entri tambahan.",
+    "choice": "B",
+    "proposed_label": "B"
+  },
+  {
+    "id": "P070",
+    "round": "2",
+    "decision": "accept",
+    "reason": "Accept A. The reader learns what both models can request, why the resulting data need business rules, and which outcome is compared across the two context conditions. The identical context limit in Table 2.2 answers a capacity question. The final sentence explains why accuracy still has to be measured. This is a substantive addition to B's table pointer. The shared properties belong in the parent and the provider citations attach to the tool support claim.",
+    "review_condition": false,
+    "choice": "A",
+    "proposed_label": "A"
+  },
+  {
+    "id": "P075",
+    "round": "2",
+    "decision": "accept",
+    "reason": "Accept B. Both identify the release and access routes. B attributes a training objective for this version to Meta and makes the dependency between calls intelligible through the example of inspecting column names before requesting data. The example describes a possibility, with no claim that the behavior is exclusive to Muse or occurred during a run. With the numerical limit already in the table, A's repeated limit and tool support leave the practical significance of the model profile unexplained.",
+    "review_condition": false,
+    "choice": "B",
+    "proposed_label": "B"
+  },
+  {
+    "id": "P077",
+    "round": "2",
+    "decision": "accept",
+    "reason": "Accept A. Both identify the release, API and weights. A dates the API alias mapping, attributes two supported features to the documentation, and explains the separate uses for requesting data and returning structured values. It identifies the prompt as the source of the requested attributes and types. It makes no claim that JSON Output was enabled, enforced the schema, or guaranteed a correct value. These distinctions supply a version-specific explanation within the scope of model background.",
+    "review_condition": false,
+    "choice": "A",
+    "proposed_label": "A"
+  }
+]

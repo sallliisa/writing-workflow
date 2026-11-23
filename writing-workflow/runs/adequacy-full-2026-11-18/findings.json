@@ -1,0 +1,534 @@
+[
+  {
+    "id": "A01",
+    "target_ids": [
+      "T-root",
+      "T-0008",
+      "T-0018"
+    ],
+    "reference_ids": [
+      "R-0021",
+      "R-0022",
+      "R-0023"
+    ],
+    "kind": "missing_explanation",
+    "severity": "high",
+    "problem": "The reader must infer why both models can be compared as components in the same agent task and what the identical context ceiling means for interpreting the comparison.",
+    "reader_consequence": "Equal token limits alone explain neither uptake of domain rules nor observed performance.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 153,
+        "end_line": 168,
+        "supports": "The parent explains generic action and context, then juxtaposes developer and maximum context length."
+      },
+      {
+        "document": "target",
+        "start_line": 204,
+        "end_line": 206,
+        "supports": "The design holds the tasks, data and tool interface constant."
+      },
+      {
+        "document": "target",
+        "start_line": 395,
+        "end_line": 399,
+        "supports": "The methods list the same nominal context window and different output limits."
+      },
+      {
+        "document": "reference",
+        "start_line": 183,
+        "end_line": 201,
+        "supports": "The shared model background leads to a reason for investigating model differences."
+      },
+      {
+        "document": "reference",
+        "start_line": 215,
+        "end_line": 215,
+        "supports": "The first model is linked to its task role."
+      },
+      {
+        "document": "reference",
+        "start_line": 225,
+        "end_line": 231,
+        "supports": "The second profile concludes with the comparison it enables."
+      }
+    ],
+    "searched_locations": [
+      "Searched context window, tool call, konteks, model, kemampuan, akses, membandingkan. Read §§2.1, 2.3–2.7, 3.1, 3.4 and 4.9, especially 107–121, 151–176, 204–206, 385–429 and 803–819."
+    ],
+    "action": "Connect the shared action interface and the limited meaning of equal capacity to what the within-condition comparison measures. Keep actual selection in §3.4.1.",
+    "decision": "accepted",
+    "decision_reason": "The target supports a shared conceptual comparison without inferring a capacity effect or a reason for choosing the pair.",
+    "needed_evidence": []
+  },
+  {
+    "id": "A02",
+    "target_ids": [
+      "T-0019"
+    ],
+    "reference_ids": [
+      "R-0022"
+    ],
+    "kind": "missing_explanation",
+    "severity": "medium",
+    "problem": "The first model profile identifies tool calling but leaves its task-relevant meaning and the model/application division unexplained.",
+    "reader_consequence": "A reader can identify a release without knowing which component proposes an action and which actually reads the data.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 170,
+        "end_line": 172,
+        "supports": "The profile lists access, tool calling and token capacity."
+      },
+      {
+        "document": "target",
+        "start_line": 109,
+        "end_line": 121,
+        "supports": "The agent loop is explained generally."
+      },
+      {
+        "document": "target",
+        "start_line": 409,
+        "end_line": 413,
+        "supports": "The server handles requests against external data."
+      },
+      {
+        "document": "reference",
+        "start_line": 203,
+        "end_line": 215,
+        "supports": "The complete first profile moves from identity and access to task relevance."
+      }
+    ],
+    "searched_locations": [
+      "Searched Muse, tool calling, tool call, fungsi, MCP, OpenCode and reasoning. Read 97–121, 151–176, 385–421 and 477–487. Generic and local descriptions do not supply a model-specific explanation."
+    ],
+    "action": "Explain the documented first-model action interface in the context of this tool-mediated task. Use primary evidence for exact capabilities.",
+    "decision": "accepted",
+    "decision_reason": "A concise model-specific application will answer a different question from the shared loop.",
+    "needed_evidence": []
+  },
+  {
+    "id": "A03",
+    "target_ids": [
+      "T-0020"
+    ],
+    "reference_ids": [
+      "R-0023"
+    ],
+    "kind": "missing_explanation",
+    "severity": "medium",
+    "problem": "The second profile identifies the version and weight access, but neither explains how it can participate in this study’s hosted, tool-mediated analysis.",
+    "reader_consequence": "The weight license or availability cannot tell readers how this version obtains intermediate data. A local deployment comparison would misstate the design.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 174,
+        "end_line": 176,
+        "supports": "The second profile records a release identifier, API and accessible weights."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The tested configuration uses a common runtime."
+      },
+      {
+        "document": "target",
+        "start_line": 409,
+        "end_line": 413,
+        "supports": "External data arrive through tools."
+      },
+      {
+        "document": "reference",
+        "start_line": 217,
+        "end_line": 231,
+        "supports": "The second reference profile explains access, task implications, limitations and why it is compared."
+      }
+    ],
+    "searched_locations": [
+      "Searched DeepSeek, weights, tool, fungsi, reasoning, lokal and API. Read 109–121, 151–176 and 385–429. Only general agent behavior and study settings appear elsewhere."
+    ],
+    "action": "Supply a relevant documented second-model property and its relation to tool requests or returned observations. Preserve version identity. Exclude untested local deployment, image and architecture claims.",
+    "decision": "accepted",
+    "decision_reason": "Profile depth is limited by missing explanation, not by its number of sentences.",
+    "needed_evidence": []
+  },
+  {
+    "id": "A04",
+    "target_ids": [
+      "T-0025",
+      "T-0034",
+      "T-0035"
+    ],
+    "reference_ids": [
+      "R-0022",
+      "R-0023",
+      "R-0037"
+    ],
+    "kind": "missing_explanation",
+    "severity": "high",
+    "problem": "No supplied passage states the actual criteria or practical reason the author used to select this pair and these versions.",
+    "reader_consequence": "The tested configurations are identifiable but the scope of model choice cannot be defended from API availability, equal context limits or final scores.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The selection destination gives model names and settings."
+      },
+      {
+        "document": "target",
+        "start_line": 159,
+        "end_line": 176,
+        "supports": "The theoretical profiles identify the models."
+      },
+      {
+        "document": "target",
+        "start_line": 19,
+        "end_line": 27,
+        "supports": "The question defines the comparison but gives no selection criteria."
+      },
+      {
+        "document": "reference",
+        "start_line": 215,
+        "end_line": 215,
+        "supports": "The first reference model represents a chosen deployment category."
+      },
+      {
+        "document": "reference",
+        "start_line": 225,
+        "end_line": 231,
+        "supports": "The second profile states how its role motivates choosing the comparison."
+      },
+      {
+        "document": "reference",
+        "start_line": 524,
+        "end_line": 526,
+        "supports": "Methods identify which deployment was actually used."
+      }
+    ],
+    "searched_locations": [
+      "Searched pemilihan, memilih, dipilih, alasan, kriteria, pertimbangan, tersedia, menggunakan, each release name. Read 13–34, 79–89, 151–176, 202–216, 250–254 (case choice), 385–405, 477–487, 801–839."
+    ],
+    "action": "Record the author’s actual criterion or pragmatic reason and the version choice in §3.4.1; a brief truthful convenience rationale is sufficient if that is what occurred.",
+    "decision": "accepted",
+    "decision_reason": "The gap is demonstrable. Public specifications and outcomes cannot recover a historical decision.",
+    "needed_evidence": [
+      "Author account or contemporaneous selection note identifying why these model versions were chosen."
+    ]
+  },
+  {
+    "id": "A05",
+    "target_ids": [
+      "T-0031",
+      "T-0033",
+      "T-0034",
+      "T-0035"
+    ],
+    "reference_ids": [
+      "R-0032",
+      "R-0037"
+    ],
+    "kind": "missing_explanation",
+    "severity": "medium",
+    "problem": "The intervention materials and routing instruction are explicit, but the procedure by which the routing entry was made discoverable or delivered in the enabled condition and withheld in the control is incomplete.",
+    "reader_consequence": "A reader cannot reproduce the difference between making a skill discoverable and injecting all of its contents into each prompt.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 337,
+        "end_line": 342,
+        "supports": "Both conditions use the same system prompt; access to separate documents varies."
+      },
+      {
+        "document": "target",
+        "start_line": 360,
+        "end_line": 362,
+        "supports": "The package is one routing file and six references."
+      },
+      {
+        "document": "target",
+        "start_line": 376,
+        "end_line": 381,
+        "supports": "The instructions direct the agent to relevant references."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 387,
+        "supports": "The environment is said to control whether context is available."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "A new conversation is created for each repetition."
+      },
+      {
+        "document": "reference",
+        "start_line": 422,
+        "end_line": 426,
+        "supports": "The reference explains which parts of the prompt represent the treatment."
+      },
+      {
+        "document": "reference",
+        "start_line": 524,
+        "end_line": 526,
+        "supports": "The actual input combinations are described in the generation procedure."
+      }
+    ],
+    "searched_locations": [
+      "Searched SKILL.md, routing, akses, tersedia, diatur, aktif, dimuat, folder, Cloudflare, instruksi, lampiran. Read 40–43, 145–149, 206–208, 335–387, 403–429, 477–487 and 819. Appendix 3 is referenced for document contents."
+    ],
+    "action": "Add the actual enabled/disabled environment action and how the initial skill description or instructions reached the session. Do not impute reads for any run.",
+    "decision": "accepted",
+    "decision_reason": "The main contrast concerns access; confirming the actual mechanism requires the experiment setup.",
+    "needed_evidence": [
+      "Environment configuration or author account of how skill access and initial discovery differed between conditions."
+    ]
+  },
+  {
+    "id": "A06",
+    "target_ids": [
+      "T-root",
+      "T-0025",
+      "T-0038",
+      "T-0041"
+    ],
+    "reference_ids": [
+      "R-0037",
+      "R-0045"
+    ],
+    "kind": "missing_explanation",
+    "severity": "medium",
+    "problem": "The results report actions on specific runs. The methods explain how final answers were checked but do not identify how the author observed the intermediate actions or linked them to an individual run.",
+    "reader_consequence": "Readers can follow the field-level comparison yet cannot trace the source of a reported sequence of actions.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "The generation description ends with final answers."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The analysis compares final outputs and repetitions."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "Traffic output omissions are followed by source-selection claims."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The cause distribution and the reported reading actions are distinct."
+      },
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table shows inaccurate flags or omitted evaluations."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "The synthesis repeats the explanation of two processing paths."
+      },
+      {
+        "document": "reference",
+        "start_line": 528,
+        "end_line": 528,
+        "supports": "Reference records what is retained with generated feedback."
+      },
+      {
+        "document": "reference",
+        "start_line": 769,
+        "end_line": 771,
+        "supports": "The structure of stored observations is specified."
+      }
+    ],
+    "searched_locations": [
+      "Searched log, jejak, riwayat, rekam, tool call, proses, pengulangan, disimpan and lampiran. Read §§2.4, 3.4–3.5, 4.2, 4.4.3, 4.5.3, 4.7.3, 4.9. Check appendix references 333, 423, 815."
+    ],
+    "action": "In §3.5.3 explain what the author observed and how that observation was linked to the relevant case, model, condition and repetition. Retain the author’s run accounts at their current level of certainty.",
+    "decision": "accepted",
+    "decision_reason": "Accept the methods gap. The supplied text presents these actions as observations and gives no independent reason to recast any of them as a hypothetical mechanism.",
+    "needed_evidence": [
+      "Author’s account of the observation and run-matching procedure, with a representative run-linked record if available."
+    ]
+  },
+  {
+    "id": "A07",
+    "target_ids": [
+      "T-0027",
+      "T-0029",
+      "T-U276",
+      "T-0065",
+      "T-0068",
+      "T-U801"
+    ],
+    "reference_ids": [],
+    "kind": "unavailable_evidence",
+    "severity": "low",
+    "problem": "For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "reader_consequence": "A different indicator may have worsened. The two supplied descriptions cannot decide that question.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 290,
+        "end_line": 290,
+        "supports": "The case summary describes deterioration."
+      },
+      {
+        "document": "target",
+        "start_line": 799,
+        "end_line": 799,
+        "supports": "Indicator four stays failed in both periods even as its failure count increases."
+      }
+    ],
+    "searched_locations": [
+      "Searched T9-C2, memburuk, indikator keempat, status tetap, periode B and Lampiran 1. Compared 270, 287–290, 309, 333 and 758–799."
+    ],
+    "action": "Compare the expected status of each indicator across periods before naming the one that worsens or correcting the case description.",
+    "decision": "unresolved",
+    "decision_reason": "Both descriptions can be true for different indicators.",
+    "needed_evidence": [
+      "Expected object for T9-C2 with all indicator statuses in each period."
+    ]
+  },
+  {
+    "id": "A08",
+    "target_ids": [
+      "T-0073"
+    ],
+    "reference_ids": [],
+    "kind": "unavailable_evidence",
+    "severity": "low",
+    "problem": "Three entries have no identifiable in-text citation in the supplied chapters.",
+    "reader_consequence": "The supplied bibliography may include appendix-only or institutionally permitted background references.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 855,
+        "end_line": 855,
+        "supports": "The Chen entry appears in the bibliography."
+      },
+      {
+        "document": "target",
+        "start_line": 877,
+        "end_line": 877,
+        "supports": "The J. Li entry has a different year from the cited Li papers."
+      },
+      {
+        "document": "target",
+        "start_line": 895,
+        "end_line": 895,
+        "supports": "The Mialon entry appears in the bibliography."
+      }
+    ],
+    "searched_locations": [
+      "Searched Chen, Chiang, Mialon, GAIA, 2012, 2023, J. Li and the three publication titles in all five chapters and bibliography. Checked related literature in §§2.1–2.7 and the separate Li papers."
+    ],
+    "action": "Check full appendices and institutional bibliography requirements before removing or citing any entry.",
+    "decision": "unresolved",
+    "decision_reason": "Absence of a citation in the available chapters does not settle the entry’s status.",
+    "needed_evidence": [
+      "Complete appendices and applicable bibliography inclusion rule."
+    ]
+  },
+  {
+    "id": "A09",
+    "target_ids": [
+      "T-0038",
+      "T-0039"
+    ],
+    "reference_ids": [
+      "R-0038"
+    ],
+    "kind": "missing_explanation",
+    "severity": "medium",
+    "problem": "The decision rule and worked PASS/FAIL are documented; the reader cannot tell how the 180 actual verdicts were assigned, such as by a comparator or human review.",
+    "reader_consequence": "The rule is reproducible in principle, but the implementation of the measurement actually reported remains unclear.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 433,
+        "end_line": 439,
+        "supports": "The evaluation describes criteria and exceptions using passive statements."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 451,
+        "supports": "The worked example illustrates two decisions without naming the actual scoring process."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The methods specify descriptive aggregation and inspection of failed answers."
+      },
+      {
+        "document": "reference",
+        "start_line": 530,
+        "end_line": 534,
+        "supports": "The reference identifies automated scoring as the method and distinguishes it from explaining the score."
+      }
+    ],
+    "searched_locations": [
+      "Searched otomatis, skrip, manual, evaluator, dinilai, membandingkan, pemeriksaan, validasi and penilaian. Read 178–196, 204–210, 292–333, 425–471 and 803–835. The cited LLM judge was used in another study."
+    ],
+    "action": "State the actual comparison process in §3.5.1, including the implementation or reviewer responsible if known. Preserve the rule and worked example.",
+    "decision": "accepted",
+    "decision_reason": "A short factual statement is sufficient once the implementation is known.",
+    "needed_evidence": [
+      "Author confirmation or scoring script/procedure used to produce the 180 PASS/FAIL decisions."
+    ]
+  },
+  {
+    "id": "A10",
+    "target_ids": [
+      "T-0035"
+    ],
+    "reference_ids": [],
+    "kind": "unavailable_evidence",
+    "severity": "medium",
+    "problem": "The methods table combines study configuration and provider documentation. The second model’s listed output cap of 384,000 cannot be assigned to a local setting, provider default or maximum from this text.",
+    "reader_consequence": "Readers cannot reconstruct which limit was in force or equate a provider maximum with the local ceiling.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The table combines model settings, distinct output ceilings and a common attribution to several sources."
+      }
+    ],
+    "searched_locations": [
+      "Searched 384.000, 384000, batas output, konfigurasi pengujian, default and OpenCode. Read 151–176, 385–405, 477–487 and bibliography API entries. Compare verified provider definitions in primary-sources.md."
+    ],
+    "action": "Obtain the actual runner configuration or request record and label the provenance of reported limits. Preserve the reported number while the local setting is unknown.",
+    "decision": "unresolved",
+    "decision_reason": "A lower local cap is compatible with a different provider maximum.",
+    "needed_evidence": [
+      "The actual model/runner settings or API request showing the effective cap and provider defaults for the tested sessions."
+    ]
+  }
+]

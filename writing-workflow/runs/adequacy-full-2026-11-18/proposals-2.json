@@ -1,0 +1,14 @@
+[
+  {
+    "id": "P070",
+    "replacement": "Penelitian ini menggunakan Muse Spark 1.3 dari Meta dan DeepSeek v4 Flash dari DeepSeek. Keduanya mendukung *tool call* untuk meminta data melalui fungsi yang disediakan aplikasi (Meta, 2026b dan DeepSeek, 2026c). Hasil permintaan data perlu digunakan bersama aturan bisnis untuk menghitung jawaban. Penelitian ini membandingkan ketepatan jawaban kedua model ketika dokumen konteks bisnis tersedia dan ketika tidak tersedia. Pengembang dan *context window* kedua model disajikan pada Tabel 2.2. Batas konteks yang sama menunjukkan kesamaan kapasitas, bukan jumlah token yang benar-benar digunakan atau ketepatan model dalam menggunakan informasi di dalamnya."
+  },
+  {
+    "id": "P075",
+    "replacement": "Muse Spark 1.3 diperkenalkan oleh Meta pada September 2026 dan tersedia melalui Meta Model API serta Muse Code (Meta, 2026a). Menurut Meta (2026b), versi ini dilatih untuk alur kerja *agentic* yang berlangsung dalam banyak langkah dan menggunakan hasil langkah sebelumnya selama pengerjaan tugas. Kemampuan ini relevan untuk analisis yang memerlukan beberapa *tool call*. Misalnya, informasi kolom yang diperoleh dari pembacaan skema dapat digunakan untuk menentukan data yang perlu diminta berikutnya."
+  },
+  {
+    "id": "P077",
+    "replacement": "DeepSeek v4 Flash yang digunakan dalam penelitian ini adalah versi DeepSeek-V4.1-Flash-1017 (DeepSeek-AI, 2026). Model ini tersedia melalui API DeepSeek, dan *weights*-nya dapat diakses secara terbuka (DeepSeek, 2026a). Dokumentasi API yang diperiksa pada 18 November 2026 mengidentifikasi versi tersebut sebagai model yang melayani permintaan dengan nama deepseek-flash serta mencantumkan dukungan *Tool Calls* dan *JSON Output* (DeepSeek, 2026c). Kedua kemampuan tersebut relevan dengan tugas analisis dalam penelitian ini, yang memerlukan akses data melalui *tool* dan meminta jawaban berupa satu objek JSON. Dalam objek tersebut, hasil perhitungan disusun sesuai atribut dan tipe data yang diminta oleh *prompt*."
+  }
+]

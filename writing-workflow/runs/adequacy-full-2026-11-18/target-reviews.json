@@ -1,0 +1,2276 @@
+[
+  {
+    "node_id": "T-root",
+    "purpose": "Can the evidence chain defend the four-way comparison?",
+    "direct_content": "The question and objective align on final answers, case-level differences and repeats. The document root organizes five chapters and the references.",
+    "child_organization": "Chapters I–V follow question, concepts, design, results and conclusion. The missing model rationale and attribution evidence limit the assembled argument.",
+    "assessment": "needs_change",
+    "rationale": "The question and objective align on final answers, case-level differences and repeats. The document root organizes five chapters and the references. The reader must infer why both models can be compared as components in the same agent task and what the identical context ceiling means for interpreting the comparison. The results report actions on specific runs. The methods explain how final answers were checked but do not identify how the author observed the intermediate actions or linked them to an individual run.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 27,
+        "supports": "The question and objective align on final answers, case-level differences and repeats. The document root organizes five chapters and the references."
+      },
+      {
+        "document": "target",
+        "start_line": 153,
+        "end_line": 168,
+        "supports": "The parent explains generic action and context, then juxtaposes developer and maximum context length."
+      },
+      {
+        "document": "target",
+        "start_line": 204,
+        "end_line": 206,
+        "supports": "The design holds the tasks, data and tool interface constant."
+      },
+      {
+        "document": "target",
+        "start_line": 395,
+        "end_line": 399,
+        "supports": "The methods list the same nominal context window and different output limits."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "The generation description ends with final answers."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The analysis compares final outputs and repetitions."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "Traffic output omissions are followed by source-selection claims."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The cause distribution and the purported reading actions are distinct."
+      },
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table shows inaccurate flags or omitted evaluations."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "The synthesis repeats the explanation of two processing paths."
+      }
+    ],
+    "finding_ids": [
+      "A01",
+      "A06"
+    ]
+  },
+  {
+    "node_id": "T-0001",
+    "purpose": "Does the introduction lead from a concrete business problem to a bounded comparison?",
+    "direct_content": "Two plausible denominators for a daily average motivate testing the same questions under different access conditions.",
+    "child_organization": "The research question and single objective follow motivation, then benefits, scope and the chapter guide delimit the claim.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Two plausible denominators for a daily average motivate testing the same questions under different access conditions.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 13,
+        "end_line": 27,
+        "supports": "Two plausible denominators for a daily average motivate testing the same questions under different access conditions."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0002",
+    "purpose": "Why might data access leave a user’s question ambiguous?",
+    "direct_content": "The calendar-day example explains how two readings of the same records yield different answers. Related work and the chosen operational cases motivate the comparison.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The calendar-day example explains how two readings of the same records yield different answers. Related work and the chosen operational cases motivate the comparison.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 13,
+        "end_line": 19,
+        "supports": "The calendar-day example explains how two readings of the same records yield different answers. Related work and the chosen operational cases motivate the comparison."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0003",
+    "purpose": "Which question does the study answer?",
+    "direct_content": "The question names the two models, both context conditions, and the comparison with a reference answer for each case.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The question names the two models, both context conditions, and the comparison with a reference answer for each case.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 23,
+        "end_line": 23,
+        "supports": "The question names the two models, both context conditions, and the comparison with a reference answer for each case."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0004",
+    "purpose": "What would count as answering that question?",
+    "direct_content": "The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 27,
+        "end_line": 27,
+        "supports": "The objective asks for the share of matching answers as well as the case and repetition patterns, anticipating different denominators."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0005",
+    "purpose": "Who could use the findings, and for what?",
+    "direct_content": "The two uses concern empirical evidence about task accuracy and an example of designing context and evaluation for similar analysis.",
+    "child_organization": "One child identifies empirical evidence, another a limited practical application. Together they answer who might use the result.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The two uses concern empirical evidence about task accuracy and an example of designing context and evaluation for similar analysis.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 31,
+        "end_line": 34,
+        "supports": "The two uses concern empirical evidence about task accuracy and an example of designing context and evaluation for similar analysis."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U033",
+    "purpose": "What academic contribution is proposed?",
+    "direct_content": "The claim concerns empirical accuracy on the operational cases and stays within the comparison.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The claim concerns empirical accuracy on the operational cases and stays within the comparison.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 33,
+        "end_line": 33,
+        "supports": "The claim concerns empirical accuracy on the operational cases and stays within the comparison."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U034",
+    "purpose": "What is the practical use of the comparison?",
+    "direct_content": "The design and results may inform documentation and model decisions for similar needs. The wording promises no production benefit.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The design and results may inform documentation and model decisions for similar needs. The wording promises no production benefit.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 34,
+        "end_line": 34,
+        "supports": "The design and results may inform documentation and model decisions for similar needs. The wording promises no production benefit."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0006",
+    "purpose": "What does each reported effect actually compare?",
+    "direct_content": "The numbered scope separates case population, synthetic data, common access, document availability and the observed output.",
+    "child_organization": "Five separate restrictions keep the population, data, access, joint intervention and scoring unit distinct.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The numbered scope separates case population, synthetic data, common access, document availability and the observed output.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 38,
+        "end_line": 44,
+        "supports": "The numbered scope separates case population, synthetic data, common access, document availability and the observed output."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U040",
+    "purpose": "How broad is the tested domain?",
+    "direct_content": "Fifteen cases in nine task types delimit the five operational areas.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Fifteen cases in nine task types delimit the five operational areas.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 40,
+        "end_line": 40,
+        "supports": "Fifteen cases in nine task types delimit the five operational areas."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U041",
+    "purpose": "What are the 237 units?",
+    "direct_content": "They are synthetic rows constructed from the operational schema and business rules, distinct from the 180 returned answers.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. They are synthetic rows constructed from the operational schema and business rules, distinct from the 180 returned answers.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 41,
+        "end_line": 41,
+        "supports": "They are synthetic rows constructed from the operational schema and business rules, distinct from the 180 returned answers."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U042",
+    "purpose": "Which information was available in both conditions?",
+    "direct_content": "Both use source, master and configuration data. Code, completed analyses and reference answers are withheld.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both use source, master and configuration data. Code, completed analyses and reference answers are withheld.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 42,
+        "end_line": 42,
+        "supports": "Both use source, master and configuration data. Code, completed analyses and reference answers are withheld."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U043",
+    "purpose": "Can the effect be attributed to one document?",
+    "direct_content": "The seven documents vary together. Their individual contributions are explicitly outside scope.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The seven documents vary together. Their individual contributions are explicitly outside scope.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 43,
+        "end_line": 43,
+        "supports": "The seven documents vary together. Their individual contributions are explicitly outside scope."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U044",
+    "purpose": "What do 180 answers allow the author to evaluate?",
+    "direct_content": "Structure and values support accuracy and changes across repetitions for the fixed cases.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Structure and values support accuracy and changes across repetitions for the fixed cases.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 44,
+        "end_line": 44,
+        "supports": "Structure and values support accuracy and changes across repetitions for the fixed cases."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0007",
+    "purpose": "Can readers locate the evidence for each chapter’s job?",
+    "direct_content": "Five separate rows align chapter, title and function, including methods, six result groups and the final answer.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Five separate rows align chapter, title and function, including methods, six result groups and the final answer.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 50,
+        "end_line": 56,
+        "supports": "Five separate rows align chapter, title and function, including methods, six result groups and the final answer."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0008",
+    "purpose": "Do concepts establish the prerequisites for interpreting the intervention and model comparison?",
+    "direct_content": "The chapter introduction identifies the literature, agent, inputs, models and evaluation roles.",
+    "child_organization": "The literature motivates the intervention and the evaluation children distinguish three units. The model profiles leave the common comparison and the two agents’ relevant characteristics partly implicit.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. The chapter introduction identifies the literature, agent, inputs, models and evaluation roles. Partial. The reader must infer why both models can be compared as components in the same agent task and what the identical context ceiling means for interpreting the comparison.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 58,
+        "end_line": 60,
+        "supports": "The chapter introduction identifies the literature, agent, inputs, models and evaluation roles."
+      },
+      {
+        "document": "target",
+        "start_line": 153,
+        "end_line": 168,
+        "supports": "The parent explains generic action and context, then juxtaposes developer and maximum context length."
+      }
+    ],
+    "finding_ids": [
+      "A01"
+    ]
+  },
+  {
+    "node_id": "T-0009",
+    "purpose": "How does the research differ from its closest precedents?",
+    "direct_content": "The introduction identifies natural-language access, agent analysis and business evaluation as comparison dimensions.",
+    "child_organization": "The comparative table precedes the argument connecting two complementary studies. Its local conclusion states both correspondences.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The introduction identifies natural-language access, agent analysis and business evaluation as comparison dimensions.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 64,
+        "end_line": 66,
+        "supports": "The introduction identifies natural-language access, agent analysis and business evaluation as comparison dimensions."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U070",
+    "purpose": "Which prior systems and measurements motivate a new test?",
+    "direct_content": "The eight rows distinguish interactive tasks, open-ended insight evaluation, single-query context exposure and multistep reference-based evaluation.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The eight rows distinguish interactive tasks, open-ended insight evaluation, single-query context exposure and multistep reference-based evaluation.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 69,
+        "end_line": 77,
+        "supports": "The eight rows distinguish interactive tasks, open-ended insight evaluation, single-query context exposure and multistep reference-based evaluation."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U083",
+    "purpose": "How do the closest studies combine to position this work?",
+    "direct_content": "The closing synthesis ties document availability to the retail study and multistep final-answer evaluation to DABstep, retaining the latter’s type-specific scoring.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The closing synthesis ties document availability to the retail study and multistep final-answer evaluation to DABstep, retaining the latter’s type-specific scoring.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 85,
+        "end_line": 89,
+        "supports": "The closing synthesis ties document availability to the retail study and multistep final-answer evaluation to DABstep, retaining the latter’s type-specific scoring."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0010",
+    "purpose": "What can users ask BI to measure, and how can results be grouped?",
+    "direct_content": "Measure and dimension give the reader a vocabulary for value and grouping after the general reporting definition.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Measure and dimension give the reader a vocabulary for value and grouping after the general reporting definition.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 93,
+        "end_line": 95,
+        "supports": "Measure and dimension give the reader a vocabulary for value and grouping after the general reporting definition."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0011",
+    "purpose": "What analytical capabilities actually matter for these tasks?",
+    "direct_content": "Linked sources, aggregation, missing values, grouping, conditional thresholds and strict/inclusive comparison correspond to the later selected cases.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Linked sources, aggregation, missing values, grouping, conditional thresholds and strict/inclusive comparison correspond to the later selected cases.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 99,
+        "end_line": 105,
+        "supports": "Linked sources, aggregation, missing values, grouping, conditional thresholds and strict/inclusive comparison correspond to the later selected cases."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0012",
+    "purpose": "What chooses the next action after data are returned?",
+    "direct_content": "The model selects a tool and its arguments, reads an observation and may request more information. A schema lookup makes the sequence concrete.",
+    "child_organization": "The shared action/observation loop precedes the external protocol. One describes reasoning steps and the other describes how a tool request reaches its server.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The model selects a tool and its arguments, reads an observation and may request more information. A schema lookup makes the sequence concrete.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 109,
+        "end_line": 113,
+        "supports": "The model selects a tool and its arguments, reads an observation and may request more information. A schema lookup makes the sequence concrete."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0013",
+    "purpose": "How does a tool request reach the external data source?",
+    "direct_content": "The function and argument description precede the distinction among host, client and server. The document-analysis example illustrates separate tool functions.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The function and argument description precede the distinction among host, client and server. The document-analysis example illustrates separate tool functions.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 117,
+        "end_line": 121,
+        "supports": "The function and argument description precede the distinction among host, client and server. The document-analysis example illustrates separate tool functions."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0014",
+    "purpose": "How can natural-language requests imply concrete data operations?",
+    "direct_content": "Monthly volume connects a request to grouping, filtering and summation. Domain meanings explain where a table name alone can leave the result ambiguous.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Monthly volume connects a request to grouping, filtering and summation. Domain meanings explain where a table name alone can leave the result ambiguous.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 125,
+        "end_line": 129,
+        "supports": "Monthly volume connects a request to grouping, filtering and summation. Domain meanings explain where a table name alone can leave the result ambiguous."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0015",
+    "purpose": "Which part of the model input is the experimental factor?",
+    "direct_content": "Instructions and output constraints belong to the prompt. Separate documentation supplies operational meanings and computation rules.",
+    "child_organization": "Content and organization are separate questions. Definitions and rules precede the routing file, so the means of access follows what is being accessed.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Instructions and output constraints belong to the prompt. Separate documentation supplies operational meanings and computation rules.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 133,
+        "end_line": 135,
+        "supports": "Instructions and output constraints belong to the prompt. Separate documentation supplies operational meanings and computation rules."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0016",
+    "purpose": "What kind of information changes the meaning of a calculation?",
+    "direct_content": "Grain, relationships, statuses, null treatment and calendar-day denominators show why definitions can affect a numeric answer. Ontology sources support general concepts.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Grain, relationships, statuses, null treatment and calendar-day denominators show why definitions can affect a numeric answer. Ontology sources support general concepts.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 139,
+        "end_line": 143,
+        "supports": "Grain, relationships, statuses, null treatment and calendar-day denominators show why definitions can affect a numeric answer. Ontology sources support general concepts."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0017",
+    "purpose": "How does a skill organize shared and topic-specific instructions?",
+    "direct_content": "The routing document points to detailed references; tasks spanning topics may use several. The generic description need not assert actual run-level use.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The routing document points to detailed references; tasks spanning topics may use several. The generic description need not assert actual run-level use.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 147,
+        "end_line": 149,
+        "supports": "The routing document points to detailed references; tasks spanning topics may use several. The generic description need not assert actual run-level use."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0018",
+    "purpose": "How do both models participate in the same agent task, and what does their comparison measure?",
+    "direct_content": "The model can choose actions using a context containing the prompt, observations and documents already read. The table gives equal nominal window sizes. The cited studies discuss sensitivity to position and irrelevant material.",
+    "child_organization": "Shared context and agent behavior belong before the two profiles. The current children identify two models without a complete parallel account of how each participates in the task.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. The model can choose actions using a context containing the prompt, observations and documents already read. The table gives equal nominal window sizes. The cited studies discuss sensitivity to position and irrelevant material. Partial. The reader must infer why both models can be compared as components in the same agent task and what the identical context ceiling means for interpreting the comparison.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 153,
+        "end_line": 168,
+        "supports": "The model can choose actions using a context containing the prompt, observations and documents already read. The table gives equal nominal window sizes. The cited studies discuss sensitivity to position and irrelevant material."
+      },
+      {
+        "document": "target",
+        "start_line": 153,
+        "end_line": 168,
+        "supports": "The parent explains generic action and context, then juxtaposes developer and maximum context length."
+      }
+    ],
+    "finding_ids": [
+      "A01"
+    ]
+  },
+  {
+    "node_id": "T-0019",
+    "purpose": "Which documented characteristics of the exact first model matter to tool-mediated analysis?",
+    "direct_content": "The profile gives its developer, release, access, tool calling and a window size. The relevance of the action interface to obtaining operational data remains implicit.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. The profile gives its developer, release, access, tool calling and a window size. The relevance of the action interface to obtaining operational data remains implicit. Partial. The first model profile identifies tool calling but leaves its task-relevant meaning and the model/application division unexplained.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 172,
+        "end_line": 172,
+        "supports": "The profile gives its developer, release, access, tool calling and a window size. The relevance of the action interface to obtaining operational data remains implicit."
+      },
+      {
+        "document": "target",
+        "start_line": 170,
+        "end_line": 172,
+        "supports": "The profile lists access, tool calling and token capacity."
+      }
+    ],
+    "finding_ids": [
+      "A02"
+    ]
+  },
+  {
+    "node_id": "T-0020",
+    "purpose": "Which documented characteristics of the exact second model matter to the same task?",
+    "direct_content": "The release identifier distinguishes the tested version. API and open weights describe access routes; neither explains the tested model’s relevant interaction capabilities.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. The release identifier distinguishes the tested version. API and open weights describe access routes; neither explains the tested model’s relevant interaction capabilities. Partial. The second profile identifies the version and weight access, but neither explains how it can participate in this study’s hosted, tool-mediated analysis.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 176,
+        "end_line": 176,
+        "supports": "The release identifier distinguishes the tested version. API and open weights describe access routes; neither explains the tested model’s relevant interaction capabilities."
+      },
+      {
+        "document": "target",
+        "start_line": 174,
+        "end_line": 176,
+        "supports": "The second profile records a release identifier, API and accessible weights."
+      }
+    ],
+    "finding_ids": [
+      "A03"
+    ]
+  },
+  {
+    "node_id": "T-0021",
+    "purpose": "What do correctness, success rate and consistency each measure?",
+    "direct_content": "Reference-based evaluation fits definite answers. The next three sections distinguish a decision on one object, a proportion across objects, and three outcomes on one fixed case.",
+    "child_organization": "The scoring decision precedes the proportion of successes and the stability of the same case over three runs. The worked application appears in §3.5.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Reference-based evaluation fits definite answers. The next three sections distinguish a decision on one object, a proportion across objects, and three outcomes on one fixed case.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 180,
+        "end_line": 180,
+        "supports": "Reference-based evaluation fits definite answers. The next three sections distinguish a decision on one object, a proportion across objects, and three outcomes on one fixed case."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0022",
+    "purpose": "What makes one returned object correct?",
+    "direct_content": "Required attributes, types, array order and values all contribute to a single all-or-nothing verdict. Methods specify numeric and object-order exceptions.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Required attributes, types, array order and values all contribute to a single all-or-nothing verdict. Methods specify numeric and object-order exceptions.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 184,
+        "end_line": 186,
+        "supports": "Required attributes, types, array order and values all contribute to a single all-or-nothing verdict. Methods specify numeric and object-order exceptions."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0023",
+    "purpose": "How should a reported success percentage be read?",
+    "direct_content": "The numerator counts matching answers and all three repetitions enter the relevant condition. The methods formula and grouping clarify the denominator.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The numerator counts matching answers and all three repetitions enter the relevant condition. The methods formula and grouping clarify the denominator.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 190,
+        "end_line": 190,
+        "supports": "The numerator counts matching answers and all three repetitions enter the relevant condition. The methods formula and grouping clarify the denominator."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0024",
+    "purpose": "How is the consistency of one case read?",
+    "direct_content": "The case, model and condition are held fixed over three runs. Zero and three successes distinguish consistently unsuccessful and consistently successful outcomes.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The case, model and condition are held fixed over three runs. Zero and three successes distinguish consistently unsuccessful and consistently successful outcomes.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 194,
+        "end_line": 196,
+        "supports": "The case, model and condition are held fixed over three runs. Zero and three successes distinguish consistently unsuccessful and consistently successful outcomes."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0025",
+    "purpose": "Can the reader reconstruct the inputs, conditions, generation, and evaluation actually used?",
+    "direct_content": "The opening places preparation before generation and assessment. The registered details let readers compute run counts and reconstruct a worked score.",
+    "child_organization": "Design and fixed reference precede inputs, generation and scoring. Readers can compute the design but still need the actual selection, condition setup, and evidence procedures.",
+    "assessment": "needs_change",
+    "rationale": "The opening places preparation before generation and assessment. The registered details let readers compute run counts and reconstruct a worked score. No supplied passage states the actual criteria or practical reason the author used to select this pair and these versions. The results report actions on specific runs. The methods explain how final answers were checked but do not identify how the author observed the intermediate actions or linked them to an individual run.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 198,
+        "end_line": 200,
+        "supports": "The opening places preparation before generation and assessment. The registered details let readers compute run counts and reconstruct a worked score."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The selection destination gives model names and settings."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "The generation description ends with final answers."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The analysis compares final outputs and repetitions."
+      }
+    ],
+    "finding_ids": [
+      "A04",
+      "A06"
+    ]
+  },
+  {
+    "node_id": "T-0026",
+    "purpose": "Which elements are comparable, and who uses the expected answers?",
+    "direct_content": "The evaluator uses inaccessible reference answers. Both models share prompts, data, tools and cases while access to business documents varies.",
+    "child_organization": "The five-stage overview precedes case identifiers and the 2 × 2 table. The expected-answer access restriction agrees with the scoring procedure.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The evaluator uses inaccessible reference answers. Both models share prompts, data, tools and cases while access to business documents varies.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 204,
+        "end_line": 210,
+        "supports": "The evaluator uses inaccessible reference answers. Both models share prompts, data, tools and cases while access to business documents varies."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U218",
+    "purpose": "How do case IDs and repetitions map to the 180 answers?",
+    "direct_content": "The numbering example and four rows give 15 cases × 3 runs = 45 answers in each cell, with 90 per model.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The numbering example and four rows give 15 cases × 3 runs = 45 answers in each cell, with 90 per model.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 214,
+        "end_line": 226,
+        "supports": "The numbering example and four rows give 15 cases × 3 runs = 45 answers in each cell, with 90 per model."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0027",
+    "purpose": "Which data are inputs and which are used to judge the result?",
+    "direct_content": "The heading introduces both operational data read by the agent and separately constructed reference answers used in scoring.",
+    "child_organization": "The chapter moves from available data to case selection and construction of each fixed reference. One case description requires confirmation from the full reference object.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. The heading introduces both operational data read by the agent and separately constructed reference answers used in scoring. Unresolved. For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 230,
+        "end_line": 230,
+        "supports": "The heading introduces both operational data read by the agent and separately constructed reference answers used in scoring."
+      },
+      {
+        "document": "target",
+        "start_line": 290,
+        "end_line": 290,
+        "supports": "The case summary describes deterioration."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "node_id": "T-0028",
+    "purpose": "What is synthetic, and what must the agent select?",
+    "direct_content": "The methods distinguish 237 rows across 15 operational tables from master and configuration data. The prompt limits the requested subset despite wider read access.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The methods distinguish 237 rows across 15 operational tables from master and configuration data. The prompt limits the requested subset despite wider read access.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 234,
+        "end_line": 248,
+        "supports": "The methods distinguish 237 rows across 15 operational tables from master and configuration data. The prompt limits the requested subset despite wider read access."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0029",
+    "purpose": "Why were these 15 operational cases chosen?",
+    "direct_content": "Case selection connects available business analyses to distinct reasoning demands, including cross-table relationships and period or threshold conditions.",
+    "child_organization": "Motivation for the case set precedes its distinct rule examples and one-row-per-case inventory. The illustrative period-status evidence is ambiguous for T9-C2.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. Case selection connects available business analyses to distinct reasoning demands, including cross-table relationships and period or threshold conditions. Unresolved. For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 252,
+        "end_line": 254,
+        "supports": "Case selection connects available business analyses to distinct reasoning demands, including cross-table relationships and period or threshold conditions."
+      },
+      {
+        "document": "target",
+        "start_line": 290,
+        "end_line": 290,
+        "supports": "The case summary describes deterioration."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "node_id": "T-U260",
+    "purpose": "Why do particular cases stress different business rules?",
+    "direct_content": "The examples distinguish non-null weighted pooling, missing days, all-action completion, repeated causes, scope exceptions, and status comparisons.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The examples distinguish non-null weighted pooling, missing days, all-action completion, repeated causes, scope exceptions, and status comparisons.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 256,
+        "end_line": 270,
+        "supports": "The examples distinguish non-null weighted pooling, missing days, all-action completion, repeated causes, scope exceptions, and status comparisons."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U276",
+    "purpose": "What is each case intended to exercise?",
+    "direct_content": "One row per case connects challenge to capability. The worsened status reported for T9-C2 needs per-indicator outcomes to reconcile with the later illustration.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. One row per case connects challenge to capability. The worsened status reported for T9-C2 needs per-indicator outcomes to reconcile with the later illustration. Unresolved. For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 276,
+        "end_line": 290,
+        "supports": "One row per case connects challenge to capability. The worsened status reported for T9-C2 needs per-indicator outcomes to reconcile with the later illustration."
+      },
+      {
+        "document": "target",
+        "start_line": 290,
+        "end_line": 290,
+        "supports": "The case summary describes deterioration."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "node_id": "T-0030",
+    "purpose": "How does a business rule yield a stable answer hidden from agents?",
+    "direct_content": "The reference is computed from the appropriate data, encoded as JSON and kept fixed for all runs. The following rules and calculation give the procedure substance.",
+    "child_organization": "Eligibility rules precede the derivation of a single numeric field. The input rows, numerator, denominator and output field can all be followed.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The reference is computed from the appropriate data, encoded as JSON and kept fixed for all runs. The following rules and calculation give the procedure substance.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 294,
+        "end_line": 294,
+        "supports": "The reference is computed from the appropriate data, encoded as JSON and kept fixed for all runs. The following rules and calculation give the procedure substance."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U300",
+    "purpose": "Which filtering, grouping, and threshold rules produce a judgeable answer?",
+    "direct_content": "Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 298,
+        "end_line": 309,
+        "supports": "Table 3.4 specifies inclusive dates, monthly zero-volume classes, eligible accidents and repeated assignments, non-null observations, and threshold comparison before rounding."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U315",
+    "purpose": "Can a reader reproduce an expected value from selected observations?",
+    "direct_content": "Six booth observations and one longbooth observation are in scope. The table separates their counts and totals before the equations.",
+    "child_organization": "The table groups observations by source. Its two children then compute total duration and the mean, leaving the output format until the value is known.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Six booth observations and one longbooth observation are in scope. The table separates their counts and totals before the equations.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 311,
+        "end_line": 319,
+        "supports": "Six booth observations and one longbooth observation are in scope. The table separates their counts and totals before the equations."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U325",
+    "purpose": "What enters the transaction-duration numerator?",
+    "direct_content": "The six ten-second observations and one two-second observation sum to 62 seconds.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The six ten-second observations and one two-second observation sum to 62 seconds.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 321,
+        "end_line": 325,
+        "supports": "The six ten-second observations and one two-second observation sum to 62 seconds."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U331",
+    "purpose": "What denominator, rounding, and field produce the stored number?",
+    "direct_content": "All seven observations are non-null. Dividing 62 by 7 gives 8.86 seconds in the named output attribute, distinct from other fields of its object.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. All seven observations are non-null. Dividing 62 by 7 gives 8.86 seconds in the named output attribute, distinct from other fields of its object.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 327,
+        "end_line": 333,
+        "supports": "All seven observations are non-null. Dividing 62 by 7 gives 8.86 seconds in the named output attribute, distinct from other fields of its object."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0031",
+    "purpose": "What instructions remain common and what additional material is conditional?",
+    "direct_content": "The unchanged system prompt is displayed and the text differentiates it from the per-case request and separately accessible documents.",
+    "child_organization": "The system prompt precedes the fixed per-case schema and the conditional file collection. The effort to describe the materials does not identify how access was toggled.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. The unchanged system prompt is displayed and the text differentiates it from the per-case request and separately accessible documents. Partial. The intervention materials and routing instruction are explicit, but the procedure by which the routing entry was made discoverable or delivered in the enabled condition and withheld in the control is incomplete.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 337,
+        "end_line": 342,
+        "supports": "The unchanged system prompt is displayed and the text differentiates it from the per-case request and separately accessible documents."
+      },
+      {
+        "document": "target",
+        "start_line": 337,
+        "end_line": 342,
+        "supports": "Both conditions use the same system prompt; access to separate documents varies."
+      },
+      {
+        "document": "target",
+        "start_line": 360,
+        "end_line": 362,
+        "supports": "The package is one routing file and six references."
+      },
+      {
+        "document": "target",
+        "start_line": 376,
+        "end_line": 381,
+        "supports": "The instructions direct the agent to relevant references."
+      }
+    ],
+    "finding_ids": [
+      "A05"
+    ]
+  },
+  {
+    "node_id": "T-0032",
+    "purpose": "Which details instruct the answer format without giving away the computation?",
+    "direct_content": "The request names the task and schema. Data names, formulas and solution steps are withheld; schema, ordering and rounding constrain representation.",
+    "child_organization": "The general format specification is followed by the full case prompt, illustrating which calculation information remains implicit.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The request names the task and schema. Data names, formulas and solution steps are withheld; schema, ordering and rounding constrain representation.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 346,
+        "end_line": 346,
+        "supports": "The request names the task and schema. Data names, formulas and solution steps are withheld; schema, ordering and rounding constrain representation."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U352",
+    "purpose": "What does a complete experimental prompt look like?",
+    "direct_content": "The T2-C1 example specifies period, integer rounding and vehicle-class order but leaves the calendar-day denominator to the analysis.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The T2-C1 example specifies period, integer rounding and vehicle-class order but leaves the calendar-day denominator to the analysis.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 348,
+        "end_line": 356,
+        "supports": "The T2-C1 example specifies period, integer rounding and vehicle-class order but leaves the calendar-day denominator to the analysis."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0033",
+    "purpose": "What were the intervention materials, how were they made, and how did a run gain access?",
+    "direct_content": "Development knowledge supplied the rule content. A routing file and six domain references define the intervention package; the enabling procedure remains unspecified.",
+    "child_organization": "The map distinguishes routing from domain rules; the routing excerpt demonstrates their combined use on a cross-domain task. Actual discovery/access setup belongs in methods.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. Development knowledge supplied the rule content. A routing file and six domain references define the intervention package; the enabling procedure remains unspecified. Partial. The intervention materials and routing instruction are explicit, but the procedure by which the routing entry was made discoverable or delivered in the enabled condition and withheld in the control is incomplete.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 360,
+        "end_line": 362,
+        "supports": "Development knowledge supplied the rule content. A routing file and six domain references define the intervention package; the enabling procedure remains unspecified."
+      },
+      {
+        "document": "target",
+        "start_line": 360,
+        "end_line": 362,
+        "supports": "The package is one routing file and six references."
+      },
+      {
+        "document": "target",
+        "start_line": 376,
+        "end_line": 381,
+        "supports": "The instructions direct the agent to relevant references."
+      }
+    ],
+    "finding_ids": [
+      "A05"
+    ]
+  },
+  {
+    "node_id": "T-U368",
+    "purpose": "Can the reader identify all seven documents and distinguish their functions?",
+    "direct_content": "The map names the routing document and six references, tying each to data selection, computation or status interpretation.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The map names the routing document and six references, tying each to data selection, computation or status interpretation.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 366,
+        "end_line": 374,
+        "supports": "The map names the routing document and six references, tying each to data selection, computation or status interpretation."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U380",
+    "purpose": "How does the routing instruction address multiple relevant domains?",
+    "direct_content": "The quoted instruction and the transaction-plus-indicator example explain how to find two references when a question spans topics.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The quoted instruction and the transaction-plus-indicator example explain how to find two references when a question spans topics.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 376,
+        "end_line": 381,
+        "supports": "The quoted instruction and the transaction-plus-indicator example explain how to find two references when a question spans topics."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0034",
+    "purpose": "What environment, access and run procedure implement the comparison?",
+    "direct_content": "This organizing heading introduces model settings, data access and independent conversations in the necessary order.",
+    "child_organization": "Model environment, available tools, then individual runs form a coherent sequence. Model choice, condition realization and evidence capture remain needed at the identified children.",
+    "assessment": "needs_change",
+    "rationale": "This organizing heading introduces model settings, data access and independent conversations in the necessary order. No supplied passage states the actual criteria or practical reason the author used to select this pair and these versions. The intervention materials and routing instruction are explicit, but the procedure by which the routing entry was made discoverable or delivered in the enabled condition and withheld in the control is incomplete. The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 383,
+        "end_line": 383,
+        "supports": "This organizing heading introduces model settings, data access and independent conversations in the necessary order."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The selection destination gives model names and settings."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 387,
+        "supports": "The environment is said to control whether context is available."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "A new conversation is created for each repetition."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "The generation description ends with final answers."
+      }
+    ],
+    "finding_ids": [
+      "A04",
+      "A05"
+    ]
+  },
+  {
+    "node_id": "T-0035",
+    "purpose": "Why these model versions, under what conditions, and with what settings?",
+    "direct_content": "The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice. Partial. No supplied passage states the actual criteria or practical reason the author used to select this pair and these versions. Partial. The intervention materials and routing instruction are explicit, but the procedure by which the routing entry was made discoverable or delivered in the enabled condition and withheld in the control is incomplete. Unresolved. The methods table combines study configuration and provider documentation. The second model’s listed output cap of 384,000 cannot be assigned to a local setting, provider default or maximum from this text.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The shared runtime, version, reasoning labels, context and distinct output limits are reported. The text describes provider sampling defaults and gives numbers without explaining model choice."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The selection destination gives model names and settings."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 387,
+        "supports": "The environment is said to control whether context is available."
+      },
+      {
+        "document": "target",
+        "start_line": 387,
+        "end_line": 401,
+        "supports": "The table combines model settings, distinct output ceilings and a common attribution to several sources."
+      }
+    ],
+    "finding_ids": [
+      "A04",
+      "A05",
+      "A10"
+    ]
+  },
+  {
+    "node_id": "T-0036",
+    "purpose": "Can both conditions retrieve relevant operational data in the same way?",
+    "direct_content": "Entity discovery, schema inspection and paginated record reads explain the available data path. The conditional skill documents are a separate input.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Entity discovery, schema inspection and paginated record reads explain the available data path. The conditional skill documents are a separate input.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 409,
+        "end_line": 423,
+        "supports": "Entity discovery, schema inspection and paginated record reads explain the available data path. The conditional skill documents are a separate input."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0037",
+    "purpose": "How is a new observation generated for a fixed case?",
+    "direct_content": "Three new conversations with identical case prompts and fixed reference answers explain the repeated unit. The description does not say what intermediate evidence was retained.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Three new conversations with identical case prompts and fixed reference answers explain the repeated unit. The description does not say what intermediate evidence was retained.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "Three new conversations with identical case prompts and fixed reference answers explain the repeated unit. The description does not say what intermediate evidence was retained."
+      },
+      {
+        "document": "target",
+        "start_line": 427,
+        "end_line": 429,
+        "supports": "The generation description ends with final answers."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0038",
+    "purpose": "How are raw answers turned into descriptive comparisons?",
+    "direct_content": "The introduction states the per-answer decision. The following sequence establishes a judgment rule, a denominator, and separate pooled and crossed analyses.",
+    "child_organization": "Rule and worked verdict precede aggregation and group comparisons. Readers can reconstruct the score but cannot yet tell how verdicts were actually assigned or agent actions established.",
+    "assessment": "needs_change",
+    "rationale": "The introduction states the per-answer decision. The following sequence establishes a judgment rule, a denominator, and separate pooled and crossed analyses. The results report actions on specific runs. The methods explain how final answers were checked but do not identify how the author observed the intermediate actions or linked them to an individual run. The decision rule and worked PASS/FAIL are documented; the reader cannot tell how the 180 actual verdicts were assigned, such as by a comparator or human review.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 433,
+        "end_line": 433,
+        "supports": "The introduction states the per-answer decision. The following sequence establishes a judgment rule, a denominator, and separate pooled and crossed analyses."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The analysis compares final outputs and repetitions."
+      },
+      {
+        "document": "target",
+        "start_line": 433,
+        "end_line": 439,
+        "supports": "The evaluation describes criteria and exceptions using passive statements."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 451,
+        "supports": "The worked example illustrates two decisions without naming the actual scoring process."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The methods specify descriptive aggregation and inspection of failed answers."
+      }
+    ],
+    "finding_ids": [
+      "A06",
+      "A09"
+    ]
+  },
+  {
+    "node_id": "T-0039",
+    "purpose": "What criteria and actual procedure assigned PASS or FAIL?",
+    "direct_content": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed.",
+    "child_organization": "Both verdicts use one fixed reference, allowing a reader to apply the same rule to an exact match and a changed cause list.",
+    "assessment": "needs_change",
+    "rationale": "Covered in part. JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed. Partial. The decision rule and worked PASS/FAIL are documented; the reader cannot tell how the 180 actual verdicts were assigned, such as by a comparator or human review.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 437,
+        "end_line": 439,
+        "supports": "JSON validity, structural and numeric equality, array ordering, and irrelevant property order define the decision. The actual evaluator or checking procedure is unnamed."
+      },
+      {
+        "document": "target",
+        "start_line": 441,
+        "end_line": 451,
+        "supports": "The worked example illustrates two decisions without naming the actual scoring process."
+      }
+    ],
+    "finding_ids": [
+      "A09"
+    ]
+  },
+  {
+    "node_id": "T-U445",
+    "purpose": "Can a reader reproduce a PASS and a FAIL on the same case?",
+    "direct_content": "The expected and matching objects agree. An additional cause and an excessive count change two details and the total from five to seven in the failed object.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The expected and matching objects agree. An additional cause and an excessive count change two details and the total from five to seven in the failed object.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 445,
+        "end_line": 451,
+        "supports": "The expected and matching objects agree. An additional cause and an excessive count change two details and the total from five to seven in the failed object."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0040",
+    "purpose": "What is the denominator of each success rate?",
+    "direct_content": "The displayed ratio uses all judged answers in the subset shown, including all three repetitions. Forty-five per model-condition and zero to three per fixed case have different interpretations.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The displayed ratio uses all judged answers in the subset shown, including all three repetitions. Forty-five per model-condition and zero to three per fixed case have different interpretations.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 455,
+        "end_line": 463,
+        "supports": "The displayed ratio uses all judged answers in the subset shown, including all three repetitions. Forty-five per model-condition and zero to three per fixed case have different interpretations."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0041",
+    "purpose": "Which comparisons are pooled and which are within a fixed condition?",
+    "direct_content": "For two cases the two marginal comparisons each pool 12 answers, while each configuration contains six. Six task groups and case-level repeat counts are specified.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "needs_change",
+    "rationale": "For two cases the two marginal comparisons each pool 12 answers, while each configuration contains six. Six task groups and case-level repeat counts are specified. The results report actions on specific runs. The methods explain how final answers were checked but do not identify how the author observed the intermediate actions or linked them to an individual run.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "For two cases the two marginal comparisons each pool 12 answers, while each configuration contains six. Six task groups and case-level repeat counts are specified."
+      },
+      {
+        "document": "target",
+        "start_line": 467,
+        "end_line": 471,
+        "supports": "The analysis compares final outputs and repetitions."
+      }
+    ],
+    "finding_ids": [
+      "A06"
+    ]
+  },
+  {
+    "node_id": "T-0042",
+    "purpose": "Do the results connect actual samples and failure patterns to the research question?",
+    "direct_content": "The chapter announces environment, group comparisons and synthesis. The result groups give four-cell counts before the case diagnoses.",
+    "child_organization": "Environment and denominators precede six analogous task groups. The aggregate and same-case summaries are recoverable; action claims inside selected group explanations need a basis.",
+    "assessment": "sufficient",
+    "rationale": "The chapter announces environment, group comparisons and synthesis. The result groups give four-cell counts before the case diagnoses.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 475,
+        "end_line": 475,
+        "supports": "The chapter announces environment, group comparisons and synthesis. The result groups give four-cell counts before the case diagnoses."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "Traffic output omissions are followed by source-selection claims."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The cause distribution and the purported reading actions are distinct."
+      },
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table shows inaccurate flags or omitted evaluations."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "The synthesis repeats the explanation of two processing paths."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0043",
+    "purpose": "Where and with which data interface did the reported runs take place?",
+    "direct_content": "The environment table confirms the shared agent runtime and the MCP data tools already specified in methods.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The environment table confirms the shared agent runtime and the MCP data tools already specified in methods.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 479,
+        "end_line": 486,
+        "supports": "The environment table confirms the shared agent runtime and the MCP data tools already specified in methods."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0044",
+    "purpose": "How many cases and returned answers contribute to each group?",
+    "direct_content": "The distribution reconciles 237 input rows with 15 cases, four conditions and 180 replies. Each group’s answer count follows from its case count.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The distribution reconciles 237 input rows with 15 cases, four conditions and 180 replies. Each group’s answer count follows from its case count.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 491,
+        "end_line": 505,
+        "supports": "The distribution reconciles 237 input rows with 15 cases, four conditions and 180 replies. Each group’s answer count follows from its case count."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0045",
+    "purpose": "Can the reader tell whether transaction-duration accuracy varies by model or context?",
+    "direct_content": "The parent groups both duration cases and introduces marginal and joint comparisons.",
+    "child_organization": "Context margins, model margins and four joint cells progressively identify whether any result differs across conditions or runs.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The parent groups both duration cases and introduces marginal and joint comparisons.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 507,
+        "end_line": 511,
+        "supports": "The parent groups both duration cases and introduces marginal and joint comparisons."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0046",
+    "purpose": "Does document availability distinguish duration outcomes?",
+    "direct_content": "Both pooled conditions achieve 12/12. The discussion checks variable record counts and the two record sources entering the means.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both pooled conditions achieve 12/12. The discussion checks variable record counts and the two record sources entering the means.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 511,
+        "end_line": 520,
+        "supports": "Both pooled conditions achieve 12/12. The discussion checks variable record counts and the two record sources entering the means."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0047",
+    "purpose": "How do model totals relate to actual duration values?",
+    "direct_content": "Both models achieve 12/12. The two correct means, 23.09 and 8.86 seconds, identify what was compared.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both models achieve 12/12. The two correct means, 23.09 and 8.86 seconds, identify what was compared.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 524,
+        "end_line": 533,
+        "supports": "Both models achieve 12/12. The two correct means, 23.09 and 8.86 seconds, identify what was compared."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0048",
+    "purpose": "Do pooled perfect scores also hold within each combination?",
+    "direct_content": "All four cells have 6/6 from two cases, and each case has 3/3 within each cell.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. All four cells have 6/6 from two cases, and each case has 3/3 within each cell.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 537,
+        "end_line": 548,
+        "supports": "All four cells have 6/6 from two cases, and each case has 3/3 within each cell."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0049",
+    "purpose": "Which traffic tasks account for the difference between conditions?",
+    "direct_content": "The traffic group separates weekly and monthly tasks before presenting model and context comparisons.",
+    "child_organization": "Marginal results locate T3-C1, then the joint results isolate repetitions and the omitted class. Retrieval behavior in the example needs stronger attribution.",
+    "assessment": "sufficient",
+    "rationale": "The traffic group separates weekly and monthly tasks before presenting model and context comparisons.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 550,
+        "end_line": 554,
+        "supports": "The traffic group separates weekly and monthly tasks before presenting model and context comparisons."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "Traffic output omissions are followed by source-selection claims."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0050",
+    "purpose": "Does the weekly or monthly case account for the context difference?",
+    "direct_content": "Scores are 12/12 versus 8/12. All four failures involve incomplete class details on the monthly case.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Scores are 12/12 versus 8/12. All four failures involve incomplete class details on the monthly case.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 554,
+        "end_line": 563,
+        "supports": "Scores are 12/12 versus 8/12. All four failures involve incomplete class details on the monthly case."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0051",
+    "purpose": "How does the model margin distribute across traffic cases?",
+    "direct_content": "Eleven versus nine successes out of twelve reflect incomplete monthly class coverage when documents were unavailable.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Eleven versus nine successes out of twelve reflect incomplete monthly class coverage when documents were unavailable.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 567,
+        "end_line": 576,
+        "supports": "Eleven versus nine successes out of twelve reflect incomplete monthly class coverage when documents were unavailable."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0052",
+    "purpose": "Which configuration and which case produced the missing classes?",
+    "direct_content": "The four configuration counts isolate T3-C1. The weekly case passes throughout.",
+    "child_organization": "Four cells and the consistently successful weekly case precede the monthly missing-class explanation.",
+    "assessment": "sufficient",
+    "rationale": "The four configuration counts isolate T3-C1. The weekly case passes throughout.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 580,
+        "end_line": 591,
+        "supports": "The four configuration counts isolate T3-C1. The weekly case passes throughout."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "Traffic output omissions are followed by source-selection claims."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U595",
+    "purpose": "What is directly observable in the four incomplete monthly answers?",
+    "direct_content": "The missing zero-volume class for January and February accounts for the failures even though the returned values match. Claims about the chosen source need run evidence.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "The missing zero-volume class for January and February accounts for the failures even though the returned values match. Claims about the chosen source need run evidence.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "The missing zero-volume class for January and February accounts for the failures even though the returned values match. Claims about the chosen source need run evidence."
+      },
+      {
+        "document": "target",
+        "start_line": 593,
+        "end_line": 595,
+        "supports": "Traffic output omissions are followed by source-selection claims."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0053",
+    "purpose": "Where do failures in the incident group arise?",
+    "direct_content": "The group first distinguishes status from accident-cause frequencies, then compares conditions and models.",
+    "child_organization": "The two marginal comparisons locate T5-C1 and the joint comparison assigns the failed runs. The subsequent process narrative requires trace provenance.",
+    "assessment": "sufficient",
+    "rationale": "The group first distinguishes status from accident-cause frequencies, then compares conditions and models.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 597,
+        "end_line": 601,
+        "supports": "The group first distinguishes status from accident-cause frequencies, then compares conditions and models."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The cause distribution and the purported reading actions are distinct."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0054",
+    "purpose": "Which incident task accounts for 10/12 without context?",
+    "direct_content": "The eligible-incident status counts match in every run. Both failures concern cause distribution.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The eligible-incident status counts match in every run. Both failures concern cause distribution.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 601,
+        "end_line": 610,
+        "supports": "The eligible-incident status counts match in every run. Both failures concern cause distribution."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0055",
+    "purpose": "Which model accounts for the two incident failures?",
+    "direct_content": "Results of 10/12 and 12/12 locate both failures in the first model without documents.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Results of 10/12 and 12/12 locate both failures in the first model without documents.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 614,
+        "end_line": 623,
+        "supports": "Results of 10/12 and 12/12 locate both failures in the first model without documents."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0056",
+    "purpose": "Do the joint cells identify the failed incident runs?",
+    "direct_content": "The affected model drops from 6/6 to 4/6; the two failures are the first and third runs of T5-C1.",
+    "child_organization": "Four cell counts precede a field-level comparison and run-specific actions, whose source remains unclear.",
+    "assessment": "sufficient",
+    "rationale": "The affected model drops from 6/6 to 4/6; the two failures are the first and third runs of T5-C1.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 627,
+        "end_line": 638,
+        "supports": "The affected model drops from 6/6 to 4/6; the two failures are the first and third runs of T5-C1."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The cause distribution and the purported reading actions are distinct."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U642",
+    "purpose": "Which returned counts differed, and how is the proposed mechanism known?",
+    "direct_content": "The expected and observed totals are five and seven. One added category and one inflated frequency match the extra two assignments; specific reading actions need provenance.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "The expected and observed totals are five and seven. One added category and one inflated frequency match the extra two assignments; specific reading actions need provenance.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The expected and observed totals are five and seven. One added category and one inflated frequency match the extra two assignments; specific reading actions need provenance."
+      },
+      {
+        "document": "target",
+        "start_line": 640,
+        "end_line": 653,
+        "supports": "The cause distribution and the purported reading actions are distinct."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0057",
+    "purpose": "Are inspection scores and their meaning consistent across both factors?",
+    "direct_content": "The group reports one case using the two marginal and one joint comparison.",
+    "child_organization": "The three views yield perfect scores throughout, while the narrative distinguishes priority and asset identity, both needed to understand what the verdict covers.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The group reports one case using the two marginal and one joint comparison.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 655,
+        "end_line": 659,
+        "supports": "The group reports one case using the two marginal and one joint comparison."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0058",
+    "purpose": "Can the reader distinguish a missing priority from an undamaged item?",
+    "direct_content": "All six answers in each context match. Four damaged items include an item without priority, so P1/P2 counts sum to three.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. All six answers in each context match. Four damaged items include an item without priority, so P1/P2 counts sum to three.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 659,
+        "end_line": 668,
+        "supports": "All six answers in each context match. Four damaged items include an item without priority, so P1/P2 counts sum to three."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0059",
+    "purpose": "What asset evidence underlies both models’ perfect scores?",
+    "direct_content": "Both models score 6/6. Three damaged items are assigned to the shoulder and one to lane 1 in the reference.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both models score 6/6. Three damaged items are assigned to the shoulder and one to lane 1 in the reference.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 672,
+        "end_line": 681,
+        "supports": "Both models score 6/6. Three damaged items are assigned to the shoulder and one to lane 1 in the reference."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0060",
+    "purpose": "Do identical inspection margins conceal any case variation?",
+    "direct_content": "Each model-condition achieves 3/3 on the single inspection case.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Each model-condition achieves 3/3 on the single inspection case.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 685,
+        "end_line": 696,
+        "supports": "Each model-condition achieves 3/3 on the single inspection case."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0061",
+    "purpose": "Which report-level indicators or outputs account for the context difference?",
+    "direct_content": "The group covers four report-level cases before breaking out the four discrepant answers.",
+    "child_organization": "The marginal comparisons locate the difference; joint counts and the discrepancy table separate incorrect statuses from missing items. Action attribution remains open.",
+    "assessment": "sufficient",
+    "rationale": "The group covers four report-level cases before breaking out the four discrepant answers.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 698,
+        "end_line": 702,
+        "supports": "The group covers four report-level cases before breaking out the four discrepant answers."
+      },
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table shows inaccurate flags or omitted evaluations."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0062",
+    "purpose": "What kinds of failures accompany the context difference?",
+    "direct_content": "Twenty-four versus twenty of 24 answers pass. Three failures have incorrect statuses and one lacks required evaluations.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Twenty-four versus twenty of 24 answers pass. Three failures have incorrect statuses and one lacks required evaluations.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 702,
+        "end_line": 711,
+        "supports": "Twenty-four versus twenty of 24 answers pass. Three failures have incorrect statuses and one lacks required evaluations."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0063",
+    "purpose": "What does pooling across contexts show for each model?",
+    "direct_content": "Twenty-three versus twenty-one of 24 pass. All between-model differences arise without documents.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Twenty-three versus twenty-one of 24 pass. All between-model differences arise without documents.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 715,
+        "end_line": 724,
+        "supports": "Twenty-three versus twenty-one of 24 pass. All between-model differences arise without documents."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0064",
+    "purpose": "Where do the four failures fall when both factors are fixed?",
+    "direct_content": "The models obtain 11/12 and 9/12 without documents. Two cases always pass and the remaining two supply the four failures.",
+    "child_organization": "The four joint cells precede the discrepancy table and two explanations of different failure types.",
+    "assessment": "sufficient",
+    "rationale": "The models obtain 11/12 and 9/12 without documents. Two cases always pass and the remaining two supply the four failures.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 728,
+        "end_line": 739,
+        "supports": "The models obtain 11/12 and 9/12 without documents. Two cases always pass and the remaining two supply the four failures."
+      },
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table shows inaccurate flags or omitted evaluations."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U743",
+    "purpose": "Can readers tell which cases, runs and outputs differ?",
+    "direct_content": "The table distinguishes three status errors from the partial four-of-twenty answer and links them to specific runs.",
+    "child_organization": "Status errors are separated from missing required entries. The table alone supports the outcomes, whereas the children also ascribe intermediate operations.",
+    "assessment": "sufficient",
+    "rationale": "The table distinguishes three status errors from the partial four-of-twenty answer and links them to specific runs.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table distinguishes three status errors from the partial four-of-twenty answer and links them to specific runs."
+      },
+      {
+        "document": "target",
+        "start_line": 741,
+        "end_line": 748,
+        "supports": "The table shows inaccurate flags or omitted evaluations."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U752",
+    "purpose": "How can rounding change the status without changing the displayed duration?",
+    "direct_content": "The raw 6.004 and 9.004 values exceed the respective thresholds. Displayed rounded values can equal them. The returned status and claimed order of an agent’s calculations require different evidence.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "The raw 6.004 and 9.004 values exceed the respective thresholds. Displayed rounded values can equal them. The returned status and claimed order of an agent’s calculations require different evidence.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "The raw 6.004 and 9.004 values exceed the respective thresholds. Displayed rounded values can equal them. The returned status and claimed order of an agent’s calculations require different evidence."
+      },
+      {
+        "document": "target",
+        "start_line": 750,
+        "end_line": 752,
+        "supports": "Rounded values can account for the booleans. The author ascribes a particular calculation order."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U756",
+    "purpose": "What makes a four-result answer fail even when its four results agree?",
+    "direct_content": "The reference needs 20 evaluations across four booths and five indicators. The answer omits 16. Reading configuration and choosing only one indicator are claims about actions.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "The reference needs 20 evaluations across four booths and five indicators. The answer omits 16. Reading configuration and choosing only one indicator are claims about actions.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The reference needs 20 evaluations across four booths and five indicators. The answer omits 16. Reading configuration and choosing only one indicator are claims about actions."
+      },
+      {
+        "document": "target",
+        "start_line": 754,
+        "end_line": 754,
+        "supports": "The missing sixteen entries are observable. The configuration reading sequence is a separate assertion."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0065",
+    "purpose": "Do period and cross-period comparisons yield different success patterns?",
+    "direct_content": "Four cases test status over a period or a change between periods. All four cells are reported.",
+    "child_organization": "Condition, model and joint views support the perfect rates. The period example shows a change in a count while an indicator status stayed fixed.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. Four cases test status over a period or a change between periods. All four cells are reported. Unresolved. For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 756,
+        "end_line": 760,
+        "supports": "Four cases test status over a period or a change between periods. All four cells are reported."
+      },
+      {
+        "document": "target",
+        "start_line": 799,
+        "end_line": 799,
+        "supports": "Indicator four stays failed in both periods even as its failure count increases."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "node_id": "T-0066",
+    "purpose": "Do the period cases show a document-availability difference?",
+    "direct_content": "Both pooled conditions reach 24/24. The measured outputs include within-period statuses and cross-period changes.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both pooled conditions reach 24/24. The measured outputs include within-period statuses and cross-period changes.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 760,
+        "end_line": 769,
+        "supports": "Both pooled conditions reach 24/24. The measured outputs include within-period statuses and cross-period changes."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0067",
+    "purpose": "Which business distinctions are preserved by both models?",
+    "direct_content": "Both reach 24/24 with counts and status matching. A nonapplicable service requirement is represented separately from a failed one.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both reach 24/24 with counts and status matching. A nonapplicable service requirement is represented separately from a failed one.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 773,
+        "end_line": 782,
+        "supports": "Both reach 24/24 with counts and status matching. A nonapplicable service requirement is represented separately from a failed one."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0068",
+    "purpose": "How do joint totals relate to per-case success and status change?",
+    "direct_content": "Each of four configurations achieves 12/12, with 3/3 in each of four cases.",
+    "child_organization": "The joint cells show the rates. The final example interprets one indicator without establishing the full set of statuses mentioned in Table 3.3.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. Each of four configurations achieves 12/12, with 3/3 in each of four cases. Unresolved. For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 786,
+        "end_line": 797,
+        "supports": "Each of four configurations achieves 12/12, with 3/3 in each of four cases."
+      },
+      {
+        "document": "target",
+        "start_line": 799,
+        "end_line": 799,
+        "supports": "Indicator four stays failed in both periods even as its failure count increases."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "node_id": "T-U801",
+    "purpose": "Does the worked example demonstrate the change attributed to T9-C2?",
+    "direct_content": "Four failures rise to eight of eight on indicator four, yet it fails in both periods. The row describing a worsened status may refer to another indicator.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. Four failures rise to eight of eight on indicator four, yet it fails in both periods. The row describing a worsened status may refer to another indicator. Unresolved. For T9-C2 the case table names a worsened status; the worked result shows only a count increase while indicator four remains failed.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 799,
+        "end_line": 799,
+        "supports": "Four failures rise to eight of eight on indicator four, yet it fails in both periods. The row describing a worsened status may refer to another indicator."
+      },
+      {
+        "document": "target",
+        "start_line": 799,
+        "end_line": 799,
+        "supports": "Indicator four stays failed in both periods even as its failure count increases."
+      }
+    ],
+    "finding_ids": [
+      "A07"
+    ]
+  },
+  {
+    "node_id": "T-0069",
+    "purpose": "What do totals, case details and repeated outcomes jointly establish?",
+    "direct_content": "The four-cell results directly answer the main question. Separate subsections give case distributions, field-level explanations and scope.",
+    "child_organization": "Rates, discrepancy types, repeat patterns and inferential limits answer distinct questions. Statements about agent actions need the same provenance standard used in the detailed diagnoses.",
+    "assessment": "sufficient",
+    "rationale": "The four-cell results directly answer the main question. Separate subsections give case distributions, field-level explanations and scope.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 801,
+        "end_line": 805,
+        "supports": "The four-cell results directly answer the main question. Separate subsections give case distributions, field-level explanations and scope."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "The synthesis repeats the explanation of two processing paths."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U805",
+    "purpose": "What pattern do the four cells and six task groups show?",
+    "direct_content": "Both models reach 45/45 with documents, versus 41/45 and 39/45 without. The affected groups differ by model.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Both models reach 45/45 with documents, versus 41/45 and 39/45 without. The affected groups differ by model.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 803,
+        "end_line": 807,
+        "supports": "Both models reach 45/45 with documents, versus 41/45 and 39/45 without. The affected groups differ by model."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U811",
+    "purpose": "Which kinds of discrepancy explain the ten failures?",
+    "direct_content": "Omitted elements, extra assignments and incorrect booleans correspond to concrete output discrepancies. Direct assertions about how an agent calculated need independent support.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Omitted elements, extra assignments and incorrect booleans correspond to concrete output discrepancies. Direct assertions about how an agent calculated need independent support.  The passage fulfills its reporting function. The provenance question for reported actions is assigned to §3.5.3 (A06).",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "Omitted elements, extra assignments and incorrect booleans correspond to concrete output discrepancies. Direct assertions about how an agent calculated need independent support."
+      },
+      {
+        "document": "target",
+        "start_line": 809,
+        "end_line": 811,
+        "supports": "The synthesis repeats the explanation of two processing paths."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U815",
+    "purpose": "Can an unchanged total per run conceal changes in failed cases?",
+    "direct_content": "The second model’s 13/15 recurs despite changes in the second failing case. Both models always pass 12 cases without context, but only one always fails a case.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The second model’s 13/15 recurs despite changes in the second failing case. Both models always pass 12 cases without context, but only one always fails a case.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 813,
+        "end_line": 817,
+        "supports": "The second model’s 13/15 recurs despite changes in the second failing case. Both models always pass 12 cases without context, but only one always fails a case."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U819",
+    "purpose": "How far may the results be generalized?",
+    "direct_content": "Fifteen cases and three repeats, bundled documentation and final-answer scoring limit document-specific and decision-utility interpretations.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Fifteen cases and three repeats, bundled documentation and final-answer scoring limit document-specific and decision-utility interpretations.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 819,
+        "end_line": 819,
+        "supports": "Fifteen cases and three repeats, bundled documentation and final-answer scoring limit document-specific and decision-utility interpretations."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0070",
+    "purpose": "Does the ending answer the bounded question and motivate feasible next questions?",
+    "direct_content": "The chapter announces an answer to the two-model comparison followed by future work.",
+    "child_organization": "The conclusion presents bounded empirical findings before the suggestions address what the experiment left untested.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The chapter announces an answer to the two-model comparison followed by future work.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 823,
+        "end_line": 823,
+        "supports": "The chapter announces an answer to the two-model comparison followed by future work."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0071",
+    "purpose": "Does the conclusion answer accuracy and repeatability using observed results?",
+    "direct_content": "The conclusion opens with four cell-specific rates and percentage-point differences, then identifies cases and limits the conclusion to final answers.",
+    "child_organization": "Four configuration rates precede group and case differences and case-specific repetition patterns. The closing limitation retains the scope of the research question.",
+    "assessment": "sufficient",
+    "rationale": "Covered. The conclusion opens with four cell-specific rates and percentage-point differences, then identifies cases and limits the conclusion to final answers.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 825,
+        "end_line": 827,
+        "supports": "The conclusion opens with four cell-specific rates and percentage-point differences, then identifies cases and limits the conclusion to final answers."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U827",
+    "purpose": "Which model-condition differences answer the primary question?",
+    "direct_content": "Each model obtains 45/45 with documents, with drops of 8.89 and 13.33 percentage points without them. The group-specific directions are retained.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Each model obtains 45/45 with documents, with drops of 8.89 and 13.33 percentage points without them. The group-specific directions are retained.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 827,
+        "end_line": 829,
+        "supports": "Each model obtains 45/45 with documents, with drops of 8.89 and 13.33 percentage points without them. The group-specific directions are retained."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-U831",
+    "purpose": "Which ten answers fail and how do case patterns differ between models?",
+    "direct_content": "Four missing-class, two accident-distribution and four report-level failures account for all ten. The named mixed and always-failed cases explain why 12 perfect cases in each model need not be the same set.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Four missing-class, two accident-distribution and four report-level failures account for all ten. The named mixed and always-failed cases explain why 12 perfect cases in each model need not be the same set.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 831,
+        "end_line": 835,
+        "supports": "Four missing-class, two accident-distribution and four report-level failures account for all ten. The named mixed and always-failed cases explain why 12 perfect cases in each model need not be the same set."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0072",
+    "purpose": "Do recommendations address limitations actually demonstrated?",
+    "direct_content": "Broader case coverage, separate completeness measures, document ablations, more repeats and user assessment address distinct limits of this study.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "sufficient",
+    "rationale": "Covered. Broader case coverage, separate completeness measures, document ablations, more repeats and user assessment address distinct limits of this study.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 839,
+        "end_line": 839,
+        "supports": "Broader case coverage, separate completeness measures, document ablations, more repeats and user assessment address distinct limits of this study."
+      }
+    ],
+    "finding_ids": []
+  },
+  {
+    "node_id": "T-0073",
+    "purpose": "Can readers trace attributions in the supplied manuscript to the evidence cited?",
+    "direct_content": "The bibliography includes both general BI sources and exact model documentation. Entry presence does not validate the individual properties attributed to those sources.",
+    "child_organization": "Leaf. The local passage performs the stated function.",
+    "assessment": "unresolved",
+    "rationale": "Covered in part. The bibliography includes both general BI sources and exact model documentation. Entry presence does not validate the individual properties attributed to those sources. Unresolved. Three entries have no identifiable in-text citation in the supplied chapters.",
+    "evidence": [
+      {
+        "document": "target",
+        "start_line": 853,
+        "end_line": 865,
+        "supports": "The bibliography includes both general BI sources and exact model documentation. Entry presence does not validate the individual properties attributed to those sources."
+      },
+      {
+        "document": "target",
+        "start_line": 855,
+        "end_line": 855,
+        "supports": "The Chen entry appears in the bibliography."
+      },
+      {
+        "document": "target",
+        "start_line": 877,
+        "end_line": 877,
+        "supports": "The J. Li entry has a different year from the cited Li papers."
+      },
+      {
+        "document": "target",
+        "start_line": 895,
+        "end_line": 895,
+        "supports": "The Mialon entry appears in the bibliography."
+      }
+    ],
+    "finding_ids": [
+      "A08"
+    ]
+  }
+]
